@@ -10,21 +10,13 @@
     <classes>
       <class name="Dealership.Masterdata">
         <methods>
-          <include name="AddFee"/>
-          <include name="AddKit"/>
-          <include name="AddLabor"/>
-          <include name="AddCustomer"/>
           <include name="AddPart"/>
-          <include name="AddVendor"/>
-          <include name="AddUnit"/>
         </methods>
       </class> <!-- Dealership.Masterdata -->
       <class name="Dealership.Workspace">
         <methods>
           <include name="Vendor_Orders"/>
-          <include name="StoreSummary"/>
           <include name="ServiceJobs"/>
-          <include name="Customer_Orders"/>
         </methods>
       </class> <!-- Dealership.Workspace -->
     </classes>
