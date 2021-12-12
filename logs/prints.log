@@ -29,3 +29,68 @@
 19:01:34.545 [main] INFO  Dealership.POM - Search tag is visible
 19:01:34.564 [main] INFO  Dealership.POM - The New Customers link has redirected to correct page
 19:01:34.567 [main] INFO  Dealership.POM - Test case Customer_Orders passes successfully
+13:27:17.892 [main] INFO  Dealership.POM - Running Test : StoreSummary
+13:27:28.104 [main] INFO  Dealership.POM - Windows maximized
+13:27:33.323 [main] INFO  Dealership.POM - URL entered
+13:27:33.435 [main] INFO  Dealership.POM - Username field is visible
+13:27:33.611 [main] INFO  Dealership.POM - Password field is visible
+13:27:33.848 [main] INFO  Dealership.POM - Login Button is visible
+13:29:16.718 [main] INFO  Dealership.POM - Login Button is clicked
+13:29:41.818 [main] INFO  Dealership.POM - Home icon is visible
+13:29:41.909 [main] INFO  Dealership.POM - Home icon is clicked
+13:29:41.918 [main] INFO  Dealership.POM - Title matched, Homepage is displayed
+13:30:06.980 [main] INFO  Dealership.POM - Store Summary tab is visible
+13:30:07.024 [main] INFO  Dealership.POM - Today link is visible
+13:30:07.119 [main] INFO  Dealership.POM - Today link is clickable
+13:30:07.169 [main] INFO  Dealership.POM - Last_7_Days link is visible
+13:30:07.293 [main] INFO  Dealership.POM - Last_7_Days link is clickable
+13:30:07.345 [main] INFO  Dealership.POM - Last_30_Days link is visible
+13:30:07.448 [main] INFO  Dealership.POM - Last_30_Days link is clickable
+13:30:07.500 [main] INFO  Dealership.POM - Invoices link is visible
+13:30:17.605 [main] INFO  Dealership.POM - The page title is - Advanced Search
+13:30:28.249 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : StoreSummary
+13:30:28.265 [main] INFO  Dealership.POM - Running Test : ServiceJobs
+13:30:32.650 [main] INFO  Dealership.POM - Windows maximized
+13:30:44.931 [main] INFO  Dealership.POM - URL entered
+13:30:44.986 [main] INFO  Dealership.POM - Username field is visible
+13:30:45.169 [main] INFO  Dealership.POM - Password field is visible
+13:30:45.315 [main] INFO  Dealership.POM - Login Button is visible
+13:31:03.089 [main] INFO  Dealership.POM - Login Button is clicked
+13:31:28.220 [main] INFO  Dealership.POM - Home icon is visible
+13:31:28.289 [main] INFO  Dealership.POM - Home icon is clicked
+13:31:28.486 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServiceJobs
+13:31:28.492 [main] INFO  Dealership.POM - Running Test : Vendor_Orders
+13:31:32.379 [main] INFO  Dealership.POM - Windows maximized
+13:31:41.648 [main] INFO  Dealership.POM - URL entered
+13:31:41.737 [main] INFO  Dealership.POM - Username field is visible
+13:31:42.028 [main] INFO  Dealership.POM - Password field is visible
+13:31:42.259 [main] INFO  Dealership.POM - Login Button is visible
+13:31:59.905 [main] INFO  Dealership.POM - Login Button is clicked
+13:32:25.049 [main] INFO  Dealership.POM - Home icon is visible
+13:32:25.146 [main] INFO  Dealership.POM - Home icon is clicked
+13:32:25.365 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Vendor_Orders
+13:32:25.369 [main] INFO  Dealership.POM - Running Test : Customer_Orders
+13:32:28.885 [main] INFO  Dealership.POM - Windows maximized
+13:32:36.607 [main] INFO  Dealership.POM - URL entered
+13:32:36.677 [main] INFO  Dealership.POM - Username field is visible
+13:32:36.927 [main] INFO  Dealership.POM - Password field is visible
+13:32:37.200 [main] INFO  Dealership.POM - Login Button is visible
+13:32:56.489 [main] INFO  Dealership.POM - Login Button is clicked
+13:33:21.661 [main] INFO  Dealership.POM - Home icon is visible
+13:33:21.760 [main] INFO  Dealership.POM - Home icon is clicked
+13:33:21.772 [main] INFO  Dealership.POM - Title matched, Homepage is displayed
+13:33:46.899 [main] INFO  Dealership.POM - Customer_Orders tab is visible
+13:33:47.001 [main] INFO  Dealership.POM - Active_Orders link is visible
+13:33:57.100 [main] INFO  Dealership.POM - The page title is - Advanced Search
+13:34:07.173 [main] INFO  Dealership.POM - Search tag is visible
+13:34:07.192 [main] INFO  Dealership.POM - The Invoice link has redirected to correct page
+13:34:18.594 [main] INFO  Dealership.POM - Deposits link is visible
+13:34:28.699 [main] INFO  Dealership.POM - The page title is - Advanced Search
+13:34:39.050 [main] INFO  Dealership.POM - Search tag is visible
+13:34:39.074 [main] INFO  Dealership.POM - The Payments link has redirected to correct page
+13:34:52.370 [main] INFO  Dealership.POM - Balance_Due link is visible
+13:35:02.494 [main] INFO  Dealership.POM - The page title is - Advanced Search
+13:35:12.687 [main] INFO  Dealership.POM - Search tag is visible
+13:35:12.732 [main] INFO  Dealership.POM - The New Customers link has redirected to correct page
+13:35:12.733 [main] INFO  Dealership.POM - Test case Customer_Orders passes successfully
+13:37:02.151 [main] INFO  Dealership.POM - Running Test : AddCustomer
