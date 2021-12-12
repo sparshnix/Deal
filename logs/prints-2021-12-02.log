@@ -1,0 +1,715 @@
+14:28:30.604 [main] INFO  Dealership.POM - Part number is entered
+14:28:30.653 [main] INFO  Dealership.POM - Part Description field is displayed
+14:28:30.834 [main] INFO  Dealership.POM - Part Description is entered
+14:28:30.874 [main] INFO  Dealership.POM - Vendor_Input field is displayed
+14:28:36.389 [main] INFO  Dealership.POM - Vendor_Input is entered
+14:28:36.428 [main] INFO  Dealership.POM - Mfg Part field is displayed
+14:28:36.567 [main] INFO  Dealership.POM - Mfg Part is entered
+14:28:36.604 [main] INFO  Dealership.POM - SKU Number field is displayed
+14:28:36.747 [main] INFO  Dealership.POM - SKU Number is entered
+14:28:36.791 [main] INFO  Dealership.POM - Category_Input field is displayed
+14:28:41.994 [main] INFO  Dealership.POM - Category_Input is entered
+14:28:42.034 [main] INFO  Dealership.POM - Tagsfield is displayed
+14:28:42.212 [main] INFO  Dealership.POM - Tag is selected
+14:28:42.279 [main] INFO  Dealership.POM - Location field is displayed
+14:28:52.878 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddPart
+14:35:39.215 [main] INFO  Dealership.POM - Windows maximized
+14:35:41.050 [main] INFO  Dealership.POM - URL entered
+14:35:41.162 [main] INFO  Dealership.POM - Username field is visible
+14:35:41.420 [main] INFO  Dealership.POM - Password field is visible
+14:35:41.653 [main] INFO  Dealership.POM - Login Button is visible
+14:35:55.582 [main] INFO  Dealership.POM - Login Button is clicked
+14:36:15.594 [main] INFO  Dealership.POM - Title not Matched
+14:36:15.682 [main] INFO  Dealership.POM - Addnew button is displayed
+14:36:15.750 [main] INFO  Dealership.POM - Addnew button is clicked
+14:36:15.818 [main] INFO  Dealership.POM - Part button is displayed
+14:36:15.918 [main] INFO  Dealership.POM - Part button is clicked
+14:36:20.995 [main] INFO  Dealership.POM - Part creation window is opened
+14:36:21.029 [main] INFO  Dealership.POM - Part number field is displayed
+14:36:21.291 [main] INFO  Dealership.POM - Part number is entered
+14:36:21.324 [main] INFO  Dealership.POM - Part Description field is displayed
+14:36:21.604 [main] INFO  Dealership.POM - Part Description is entered
+14:36:21.644 [main] INFO  Dealership.POM - Vendor_Input field is displayed
+14:36:27.119 [main] INFO  Dealership.POM - Vendor_Input is entered
+14:36:27.154 [main] INFO  Dealership.POM - Mfg Part field is displayed
+14:36:27.291 [main] INFO  Dealership.POM - Mfg Part is entered
+14:36:27.329 [main] INFO  Dealership.POM - SKU Number field is displayed
+14:36:27.481 [main] INFO  Dealership.POM - SKU Number is entered
+14:36:27.528 [main] INFO  Dealership.POM - Category_Input field is displayed
+14:36:32.742 [main] INFO  Dealership.POM - Category_Input is entered
+14:36:32.784 [main] INFO  Dealership.POM - Tagsfield is displayed
+14:36:32.995 [main] INFO  Dealership.POM - Tag is selected
+14:36:33.059 [main] INFO  Dealership.POM - Location field is displayed
+14:36:43.666 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddPart
+14:40:14.151 [main] INFO  Dealership.POM - Windows maximized
+14:40:15.945 [main] INFO  Dealership.POM - URL entered
+14:40:16.059 [main] INFO  Dealership.POM - Username field is visible
+14:40:16.316 [main] INFO  Dealership.POM - Password field is visible
+14:40:16.886 [main] INFO  Dealership.POM - Login Button is visible
+14:40:17.126 [main] INFO  Dealership.POM - Login Button is clicked
+14:40:51.659 [main] INFO  Dealership.POM - Title not Matched
+14:40:51.733 [main] INFO  Dealership.POM - Addnew button is displayed
+14:40:51.805 [main] INFO  Dealership.POM - Addnew button is clicked
+14:40:51.881 [main] INFO  Dealership.POM - Part button is displayed
+14:40:51.974 [main] INFO  Dealership.POM - Part button is clicked
+14:40:57.045 [main] INFO  Dealership.POM - Part creation window is opened
+14:40:57.080 [main] INFO  Dealership.POM - Part number field is displayed
+14:40:57.370 [main] INFO  Dealership.POM - Part number is entered
+14:40:57.407 [main] INFO  Dealership.POM - Part Description field is displayed
+14:40:57.610 [main] INFO  Dealership.POM - Part Description is entered
+14:40:57.652 [main] INFO  Dealership.POM - Vendor_Input field is displayed
+14:41:03.074 [main] INFO  Dealership.POM - Vendor_Input is entered
+14:41:03.112 [main] INFO  Dealership.POM - Mfg Part field is displayed
+14:41:03.246 [main] INFO  Dealership.POM - Mfg Part is entered
+14:41:03.285 [main] INFO  Dealership.POM - SKU Number field is displayed
+14:41:03.448 [main] INFO  Dealership.POM - SKU Number is entered
+14:41:03.488 [main] INFO  Dealership.POM - Category_Input field is displayed
+14:41:08.709 [main] INFO  Dealership.POM - Category_Input is entered
+14:41:08.755 [main] INFO  Dealership.POM - Tagsfield is displayed
+14:41:10.127 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddPart
+14:42:59.129 [main] INFO  Dealership.POM - Windows maximized
+14:43:01.719 [main] INFO  Dealership.POM - URL entered
+14:43:01.797 [main] INFO  Dealership.POM - Username field is visible
+14:43:01.994 [main] INFO  Dealership.POM - Password field is visible
+14:43:02.550 [main] INFO  Dealership.POM - Login Button is visible
+14:43:02.727 [main] INFO  Dealership.POM - Login Button is clicked
+14:43:36.838 [main] INFO  Dealership.POM - Title not Matched
+14:43:36.911 [main] INFO  Dealership.POM - Addnew button is displayed
+14:43:36.992 [main] INFO  Dealership.POM - Addnew button is clicked
+14:43:37.054 [main] INFO  Dealership.POM - Part button is displayed
+14:43:37.156 [main] INFO  Dealership.POM - Part button is clicked
+14:43:42.225 [main] INFO  Dealership.POM - Part creation window is opened
+14:43:42.260 [main] INFO  Dealership.POM - Part number field is displayed
+14:43:42.602 [main] INFO  Dealership.POM - Part number is entered
+14:43:42.647 [main] INFO  Dealership.POM - Part Description field is displayed
+14:43:42.878 [main] INFO  Dealership.POM - Part Description is entered
+14:43:42.913 [main] INFO  Dealership.POM - Vendor_Input field is displayed
+14:43:48.306 [main] INFO  Dealership.POM - Vendor_Input is entered
+14:43:48.342 [main] INFO  Dealership.POM - Mfg Part field is displayed
+14:43:48.477 [main] INFO  Dealership.POM - Mfg Part is entered
+14:43:48.520 [main] INFO  Dealership.POM - SKU Number field is displayed
+14:43:48.675 [main] INFO  Dealership.POM - SKU Number is entered
+14:43:48.718 [main] INFO  Dealership.POM - Category_Input field is displayed
+14:43:53.948 [main] INFO  Dealership.POM - Category_Input is entered
+14:43:53.990 [main] INFO  Dealership.POM - Tagsfield is displayed
+14:43:54.175 [main] INFO  Dealership.POM - Tag is selected
+14:43:54.241 [main] INFO  Dealership.POM - Location field is displayed
+14:44:04.834 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddPart
+14:52:08.418 [main] INFO  Dealership.POM - Windows maximized
+14:52:11.654 [main] INFO  Dealership.POM - URL entered
+14:52:11.730 [main] INFO  Dealership.POM - Username field is visible
+14:52:11.880 [main] INFO  Dealership.POM - Password field is visible
+14:52:12.016 [main] INFO  Dealership.POM - Login Button is visible
+14:52:26.334 [main] INFO  Dealership.POM - Login Button is clicked
+14:52:46.350 [main] INFO  Dealership.POM - Title not Matched
+14:52:46.447 [main] INFO  Dealership.POM - Addnew button is displayed
+14:52:46.549 [main] INFO  Dealership.POM - Addnew button is clicked
+14:52:46.677 [main] INFO  Dealership.POM - Part button is displayed
+14:52:46.791 [main] INFO  Dealership.POM - Part button is clicked
+14:52:51.852 [main] INFO  Dealership.POM - Part creation window is opened
+14:52:51.887 [main] INFO  Dealership.POM - Part number field is displayed
+14:52:52.140 [main] INFO  Dealership.POM - Part number is entered
+14:52:52.175 [main] INFO  Dealership.POM - Part Description field is displayed
+14:52:52.365 [main] INFO  Dealership.POM - Part Description is entered
+14:52:52.410 [main] INFO  Dealership.POM - Vendor_Input field is displayed
+14:52:57.818 [main] INFO  Dealership.POM - Vendor_Input is entered
+14:52:57.855 [main] INFO  Dealership.POM - Mfg Part field is displayed
+14:52:57.983 [main] INFO  Dealership.POM - Mfg Part is entered
+14:52:58.020 [main] INFO  Dealership.POM - SKU Number field is displayed
+14:52:58.172 [main] INFO  Dealership.POM - SKU Number is entered
+14:52:58.231 [main] INFO  Dealership.POM - Category_Input field is displayed
+14:53:03.467 [main] INFO  Dealership.POM - Category_Input is entered
+14:53:03.515 [main] INFO  Dealership.POM - Tagsfield is displayed
+14:53:03.700 [main] INFO  Dealership.POM - Tag is selected
+14:53:03.778 [main] INFO  Dealership.POM - Location field is displayed
+14:53:14.346 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddPart
+14:58:48.568 [main] INFO  Dealership.POM - Windows maximized
+14:58:50.367 [main] INFO  Dealership.POM - URL entered
+14:58:50.479 [main] INFO  Dealership.POM - Username field is visible
+14:58:50.682 [main] INFO  Dealership.POM - Password field is visible
+14:58:50.854 [main] INFO  Dealership.POM - Login Button is visible
+14:59:04.288 [main] INFO  Dealership.POM - Login Button is clicked
+14:59:24.310 [main] INFO  Dealership.POM - Title not Matched
+14:59:24.406 [main] INFO  Dealership.POM - Addnew button is displayed
+14:59:24.489 [main] INFO  Dealership.POM - Addnew button is clicked
+14:59:24.561 [main] INFO  Dealership.POM - Part button is displayed
+14:59:24.656 [main] INFO  Dealership.POM - Part button is clicked
+14:59:29.733 [main] INFO  Dealership.POM - Part creation window is opened
+14:59:29.768 [main] INFO  Dealership.POM - Part number field is displayed
+14:59:30.018 [main] INFO  Dealership.POM - Part number is entered
+14:59:30.059 [main] INFO  Dealership.POM - Part Description field is displayed
+14:59:30.246 [main] INFO  Dealership.POM - Part Description is entered
+14:59:30.285 [main] INFO  Dealership.POM - Vendor_Input field is displayed
+14:59:35.670 [main] INFO  Dealership.POM - Vendor_Input is entered
+14:59:35.706 [main] INFO  Dealership.POM - Mfg Part field is displayed
+14:59:35.836 [main] INFO  Dealership.POM - Mfg Part is entered
+14:59:35.876 [main] INFO  Dealership.POM - SKU Number field is displayed
+14:59:36.019 [main] INFO  Dealership.POM - SKU Number is entered
+14:59:36.067 [main] INFO  Dealership.POM - Category_Input field is displayed
+14:59:41.276 [main] INFO  Dealership.POM - Category_Input is entered
+14:59:41.316 [main] INFO  Dealership.POM - Tagsfield is displayed
+14:59:41.533 [main] INFO  Dealership.POM - Tag is selected
+14:59:41.619 [main] INFO  Dealership.POM - Qty field is displayed
+14:59:41.896 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddPart
+15:07:55.842 [main] INFO  Dealership.POM - Windows maximized
+15:07:57.639 [main] INFO  Dealership.POM - URL entered
+15:07:57.758 [main] INFO  Dealership.POM - Username field is visible
+15:07:57.944 [main] INFO  Dealership.POM - Password field is visible
+15:07:58.126 [main] INFO  Dealership.POM - Login Button is visible
+15:08:11.409 [main] INFO  Dealership.POM - Login Button is clicked
+15:08:31.430 [main] INFO  Dealership.POM - Title not Matched
+15:08:31.508 [main] INFO  Dealership.POM - Addnew button is displayed
+15:08:31.582 [main] INFO  Dealership.POM - Addnew button is clicked
+15:08:31.649 [main] INFO  Dealership.POM - Part button is displayed
+15:08:31.747 [main] INFO  Dealership.POM - Part button is clicked
+15:08:36.816 [main] INFO  Dealership.POM - Part creation window is opened
+15:08:36.851 [main] INFO  Dealership.POM - Part number field is displayed
+15:08:37.098 [main] INFO  Dealership.POM - Part number is entered
+15:08:37.134 [main] INFO  Dealership.POM - Part Description field is displayed
+15:08:37.324 [main] INFO  Dealership.POM - Part Description is entered
+15:08:37.368 [main] INFO  Dealership.POM - Vendor_Input field is displayed
+15:08:42.788 [main] INFO  Dealership.POM - Vendor_Input is entered
+15:08:42.824 [main] INFO  Dealership.POM - Mfg Part field is displayed
+15:08:42.954 [main] INFO  Dealership.POM - Mfg Part is entered
+15:08:42.992 [main] INFO  Dealership.POM - SKU Number field is displayed
+15:08:43.146 [main] INFO  Dealership.POM - SKU Number is entered
+15:08:43.185 [main] INFO  Dealership.POM - Category_Input field is displayed
+15:08:48.425 [main] INFO  Dealership.POM - Category_Input is entered
+15:08:48.473 [main] INFO  Dealership.POM - Tagsfield is displayed
+15:08:48.660 [main] INFO  Dealership.POM - Tag is selected
+15:08:48.724 [main] INFO  Dealership.POM - Qty field is displayed
+15:08:49.048 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddPart
+15:14:01.022 [main] INFO  Dealership.POM - Windows maximized
+15:14:02.840 [main] INFO  Dealership.POM - URL entered
+15:14:02.993 [main] INFO  Dealership.POM - Username field is visible
+15:14:03.264 [main] INFO  Dealership.POM - Password field is visible
+15:14:03.854 [main] INFO  Dealership.POM - Login Button is visible
+15:14:18.560 [main] INFO  Dealership.POM - Login Button is clicked
+15:14:38.572 [main] INFO  Dealership.POM - Title not Matched
+15:14:38.650 [main] INFO  Dealership.POM - Addnew button is displayed
+15:14:38.728 [main] INFO  Dealership.POM - Addnew button is clicked
+15:14:38.799 [main] INFO  Dealership.POM - Part button is displayed
+15:14:38.900 [main] INFO  Dealership.POM - Part button is clicked
+15:14:43.984 [main] INFO  Dealership.POM - Part creation window is opened
+15:14:44.025 [main] INFO  Dealership.POM - Part number field is displayed
+15:14:44.277 [main] INFO  Dealership.POM - Part number is entered
+15:14:44.312 [main] INFO  Dealership.POM - Part Description field is displayed
+15:14:44.505 [main] INFO  Dealership.POM - Part Description is entered
+15:14:44.552 [main] INFO  Dealership.POM - Vendor_Input field is displayed
+15:14:49.965 [main] INFO  Dealership.POM - Vendor_Input is entered
+15:14:50.006 [main] INFO  Dealership.POM - Mfg Part field is displayed
+15:14:50.166 [main] INFO  Dealership.POM - Mfg Part is entered
+15:14:50.217 [main] INFO  Dealership.POM - SKU Number field is displayed
+15:14:50.393 [main] INFO  Dealership.POM - SKU Number is entered
+15:14:50.436 [main] INFO  Dealership.POM - Category_Input field is displayed
+15:14:55.643 [main] INFO  Dealership.POM - Category_Input is entered
+15:14:55.685 [main] INFO  Dealership.POM - Tagsfield is displayed
+15:14:55.894 [main] INFO  Dealership.POM - Tag is selected
+15:14:55.987 [main] INFO  Dealership.POM - MSRP field is displayed
+15:14:56.133 [main] INFO  Dealership.POM - MSRP is entered
+15:14:56.186 [main] INFO  Dealership.POM - Retail field is displayed
+15:14:56.468 [main] INFO  Dealership.POM - Retail is entered
+15:14:56.521 [main] INFO  Dealership.POM - SalePrice field is displayed
+15:14:56.651 [main] INFO  Dealership.POM - SalePrice is entered
+15:14:56.685 [main] INFO  Dealership.POM - Environmental Fee field is displayed
+15:14:56.829 [main] INFO  Dealership.POM - Environmental Fee is entered
+15:14:56.867 [main] INFO  Dealership.POM - Part Save Button  is displayed
+15:14:56.960 [main] INFO  Dealership.POM - save button is clicked
+15:14:57.459 [main] INFO  Dealership.POM - New Part Name in searchbox
+15:15:07.669 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddPart
+15:23:17.727 [main] INFO  Dealership.POM - Windows maximized
+15:23:20.330 [main] INFO  Dealership.POM - URL entered
+15:23:20.449 [main] INFO  Dealership.POM - Username field is visible
+15:23:20.643 [main] INFO  Dealership.POM - Password field is visible
+15:23:20.777 [main] INFO  Dealership.POM - Login Button is visible
+15:23:49.362 [main] INFO  Dealership.POM - Login Button is clicked
+15:24:09.433 [main] INFO  Dealership.POM - Title Matched
+15:24:09.584 [main] INFO  Dealership.POM - Addnew button is displayed
+15:24:09.662 [main] INFO  Dealership.POM - Addnew button is clicked
+15:24:09.739 [main] INFO  Dealership.POM - Part button is displayed
+15:24:09.845 [main] INFO  Dealership.POM - Part button is clicked
+15:24:14.919 [main] INFO  Dealership.POM - Part creation window is opened
+15:24:14.955 [main] INFO  Dealership.POM - Part number field is displayed
+15:24:15.202 [main] INFO  Dealership.POM - Part number is entered
+15:24:15.241 [main] INFO  Dealership.POM - Part Description field is displayed
+15:24:15.426 [main] INFO  Dealership.POM - Part Description is entered
+15:24:15.471 [main] INFO  Dealership.POM - Vendor_Input field is displayed
+15:24:20.875 [main] INFO  Dealership.POM - Vendor_Input is entered
+15:24:20.916 [main] INFO  Dealership.POM - Mfg Part field is displayed
+15:24:21.076 [main] INFO  Dealership.POM - Mfg Part is entered
+15:24:21.123 [main] INFO  Dealership.POM - SKU Number field is displayed
+15:24:21.297 [main] INFO  Dealership.POM - SKU Number is entered
+15:24:21.355 [main] INFO  Dealership.POM - Category_Input field is displayed
+15:24:26.586 [main] INFO  Dealership.POM - Category_Input is entered
+15:24:26.628 [main] INFO  Dealership.POM - Tagsfield is displayed
+15:24:26.807 [main] INFO  Dealership.POM - Tag is selected
+15:24:26.878 [main] INFO  Dealership.POM - Qty field is displayed
+15:24:26.994 [main] INFO  Dealership.POM - Qty is entered
+15:24:27.036 [main] INFO  Dealership.POM - MSRP field is displayed
+15:24:27.204 [main] INFO  Dealership.POM - MSRP is entered
+15:24:27.250 [main] INFO  Dealership.POM - Retail field is displayed
+15:24:27.375 [main] INFO  Dealership.POM - Retail is entered
+15:24:27.411 [main] INFO  Dealership.POM - SalePrice field is displayed
+15:24:27.546 [main] INFO  Dealership.POM - SalePrice is entered
+15:24:27.587 [main] INFO  Dealership.POM - Environmental Fee field is displayed
+15:24:27.727 [main] INFO  Dealership.POM - Environmental Fee is entered
+15:24:27.772 [main] INFO  Dealership.POM - Part Save Button  is displayed
+15:24:27.864 [main] INFO  Dealership.POM - save button is clicked
+15:24:28.358 [main] INFO  Dealership.POM - New Part Name in searchbox
+15:24:38.726 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddPart
+15:28:48.125 [main] INFO  Dealership.POM - Windows maximized
+15:28:49.977 [main] INFO  Dealership.POM - URL entered
+15:28:50.087 [main] INFO  Dealership.POM - Username field is visible
+15:28:50.331 [main] INFO  Dealership.POM - Password field is visible
+15:28:50.788 [main] INFO  Dealership.POM - Login Button is visible
+15:29:04.490 [main] INFO  Dealership.POM - Login Button is clicked
+15:29:24.520 [main] INFO  Dealership.POM - Title not Matched
+15:29:24.596 [main] INFO  Dealership.POM - Addnew button is displayed
+15:29:24.669 [main] INFO  Dealership.POM - Addnew button is clicked
+15:29:24.742 [main] INFO  Dealership.POM - Part button is displayed
+15:29:24.848 [main] INFO  Dealership.POM - Part button is clicked
+15:29:29.930 [main] INFO  Dealership.POM - Part creation window is opened
+15:29:29.964 [main] INFO  Dealership.POM - Part number field is displayed
+15:29:30.211 [main] INFO  Dealership.POM - Part number is entered
+15:29:30.248 [main] INFO  Dealership.POM - Part Description field is displayed
+15:29:30.441 [main] INFO  Dealership.POM - Part Description is entered
+15:29:30.485 [main] INFO  Dealership.POM - Vendor_Input field is displayed
+15:29:35.904 [main] INFO  Dealership.POM - Vendor_Input is entered
+15:29:35.940 [main] INFO  Dealership.POM - Mfg Part field is displayed
+15:29:36.074 [main] INFO  Dealership.POM - Mfg Part is entered
+15:29:36.109 [main] INFO  Dealership.POM - SKU Number field is displayed
+15:29:36.281 [main] INFO  Dealership.POM - SKU Number is entered
+15:29:36.338 [main] INFO  Dealership.POM - Category_Input field is displayed
+15:29:41.591 [main] INFO  Dealership.POM - Category_Input is entered
+15:29:41.638 [main] INFO  Dealership.POM - Tagsfield is displayed
+15:29:41.836 [main] INFO  Dealership.POM - Tag is selected
+15:29:42.211 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddPart
+15:30:03.911 [main] INFO  Dealership.POM - Windows maximized
+15:30:05.598 [main] INFO  Dealership.POM - URL entered
+15:30:05.723 [main] INFO  Dealership.POM - Username field is visible
+15:30:06.364 [main] INFO  Dealership.POM - Password field is visible
+15:30:06.944 [main] INFO  Dealership.POM - Login Button is visible
+15:30:19.784 [main] INFO  Dealership.POM - Login Button is clicked
+15:30:39.799 [main] INFO  Dealership.POM - Title not Matched
+15:30:39.901 [main] INFO  Dealership.POM - Addnew button is displayed
+15:30:40.020 [main] INFO  Dealership.POM - Addnew button is clicked
+15:30:40.114 [main] INFO  Dealership.POM - Part button is displayed
+15:30:40.266 [main] INFO  Dealership.POM - Part button is clicked
+15:30:45.343 [main] INFO  Dealership.POM - Part creation window is opened
+15:30:45.379 [main] INFO  Dealership.POM - Part number field is displayed
+15:30:45.648 [main] INFO  Dealership.POM - Part number is entered
+15:30:45.684 [main] INFO  Dealership.POM - Part Description field is displayed
+15:30:45.868 [main] INFO  Dealership.POM - Part Description is entered
+15:30:45.910 [main] INFO  Dealership.POM - Vendor_Input field is displayed
+15:30:51.301 [main] INFO  Dealership.POM - Vendor_Input is entered
+15:30:51.338 [main] INFO  Dealership.POM - Mfg Part field is displayed
+15:30:51.481 [main] INFO  Dealership.POM - Mfg Part is entered
+15:30:51.524 [main] INFO  Dealership.POM - SKU Number field is displayed
+15:30:51.674 [main] INFO  Dealership.POM - SKU Number is entered
+15:30:51.716 [main] INFO  Dealership.POM - Category_Input field is displayed
+15:30:56.924 [main] INFO  Dealership.POM - Category_Input is entered
+15:30:56.969 [main] INFO  Dealership.POM - Tagsfield is displayed
+15:30:57.159 [main] INFO  Dealership.POM - Tag is selected
+15:30:57.502 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddPart
+15:32:21.584 [main] INFO  Dealership.POM - Windows maximized
+15:32:23.271 [main] INFO  Dealership.POM - URL entered
+15:32:23.393 [main] INFO  Dealership.POM - Username field is visible
+15:32:23.929 [main] INFO  Dealership.POM - Password field is visible
+15:32:24.428 [main] INFO  Dealership.POM - Login Button is visible
+15:32:38.084 [main] INFO  Dealership.POM - Login Button is clicked
+15:32:58.101 [main] INFO  Dealership.POM - Title not Matched
+15:32:58.175 [main] INFO  Dealership.POM - Addnew button is displayed
+15:32:58.250 [main] INFO  Dealership.POM - Addnew button is clicked
+15:32:58.315 [main] INFO  Dealership.POM - Part button is displayed
+15:32:58.413 [main] INFO  Dealership.POM - Part button is clicked
+15:33:03.486 [main] INFO  Dealership.POM - Part creation window is opened
+15:33:03.520 [main] INFO  Dealership.POM - Part number field is displayed
+15:33:03.773 [main] INFO  Dealership.POM - Part number is entered
+15:33:03.811 [main] INFO  Dealership.POM - Part Description field is displayed
+15:33:04.010 [main] INFO  Dealership.POM - Part Description is entered
+15:33:04.054 [main] INFO  Dealership.POM - Vendor_Input field is displayed
+15:33:09.451 [main] INFO  Dealership.POM - Vendor_Input is entered
+15:33:09.488 [main] INFO  Dealership.POM - Mfg Part field is displayed
+15:33:09.617 [main] INFO  Dealership.POM - Mfg Part is entered
+15:33:09.657 [main] INFO  Dealership.POM - SKU Number field is displayed
+15:33:09.809 [main] INFO  Dealership.POM - SKU Number is entered
+15:33:09.853 [main] INFO  Dealership.POM - Category_Input field is displayed
+15:33:15.062 [main] INFO  Dealership.POM - Category_Input is entered
+15:33:15.103 [main] INFO  Dealership.POM - Tagsfield is displayed
+15:33:15.290 [main] INFO  Dealership.POM - Tag is selected
+15:33:15.355 [main] INFO  Dealership.POM - Qty field is displayed
+15:33:15.470 [main] INFO  Dealership.POM - Qty is entered
+15:33:15.512 [main] INFO  Dealership.POM - MSRP field is displayed
+15:33:15.639 [main] INFO  Dealership.POM - MSRP is entered
+15:33:15.679 [main] INFO  Dealership.POM - Retail field is displayed
+15:33:15.811 [main] INFO  Dealership.POM - Retail is entered
+15:33:15.846 [main] INFO  Dealership.POM - SalePrice field is displayed
+15:33:16.009 [main] INFO  Dealership.POM - SalePrice is entered
+15:33:16.047 [main] INFO  Dealership.POM - Environmental Fee field is displayed
+15:33:16.187 [main] INFO  Dealership.POM - Environmental Fee is entered
+15:33:16.237 [main] INFO  Dealership.POM - Part Save Button  is displayed
+15:33:16.338 [main] INFO  Dealership.POM - save button is clicked
+15:33:26.709 [main] INFO  Dealership.POM - New Part Name is entered in searchbox
+15:33:31.794 [main] INFO  Dealership.POM - the text is Part-02_12_202103_32_15 - Test Description
+15:33:32.019 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddPart
+15:58:44.441 [main] INFO  Dealership.POM - Windows maximized
+15:58:46.294 [main] INFO  Dealership.POM - URL entered
+15:58:46.414 [main] INFO  Dealership.POM - Username field is visible
+15:58:46.613 [main] INFO  Dealership.POM - Password field is visible
+15:58:46.748 [main] INFO  Dealership.POM - Login Button is visible
+15:59:16.311 [main] INFO  Dealership.POM - Login Button is clicked
+15:59:36.340 [main] INFO  Dealership.POM - Title Matched
+15:59:36.411 [main] INFO  Dealership.POM - Addnew button is displayed
+15:59:36.488 [main] INFO  Dealership.POM - Addnew button is clicked
+15:59:36.557 [main] INFO  Dealership.POM - Part button is displayed
+15:59:36.670 [main] INFO  Dealership.POM - Part button is clicked
+15:59:41.742 [main] INFO  Dealership.POM - Part creation window is opened
+15:59:41.779 [main] INFO  Dealership.POM - Part number field is displayed
+15:59:42.039 [main] INFO  Dealership.POM - Part number is entered
+15:59:42.072 [main] INFO  Dealership.POM - Part Description field is displayed
+15:59:42.284 [main] INFO  Dealership.POM - Part Description is entered
+15:59:42.321 [main] INFO  Dealership.POM - Vendor_Input field is displayed
+15:59:47.705 [main] INFO  Dealership.POM - Vendor_Input is entered
+15:59:47.741 [main] INFO  Dealership.POM - Mfg Part field is displayed
+15:59:47.894 [main] INFO  Dealership.POM - Mfg Part is entered
+15:59:47.930 [main] INFO  Dealership.POM - SKU Number field is displayed
+15:59:48.145 [main] INFO  Dealership.POM - SKU Number is entered
+15:59:48.203 [main] INFO  Dealership.POM - Category_Input field is displayed
+15:59:53.459 [main] INFO  Dealership.POM - Category_Input is entered
+15:59:53.498 [main] INFO  Dealership.POM - Tagsfield is displayed
+15:59:53.716 [main] INFO  Dealership.POM - Tag is selected
+15:59:53.800 [main] INFO  Dealership.POM - Qty field is displayed
+15:59:53.925 [main] INFO  Dealership.POM - Qty is entered
+15:59:53.963 [main] INFO  Dealership.POM - MSRP field is displayed
+15:59:54.100 [main] INFO  Dealership.POM - MSRP is entered
+15:59:54.137 [main] INFO  Dealership.POM - Retail field is displayed
+15:59:54.284 [main] INFO  Dealership.POM - Retail is entered
+15:59:54.326 [main] INFO  Dealership.POM - SalePrice field is displayed
+15:59:54.449 [main] INFO  Dealership.POM - SalePrice is entered
+15:59:54.490 [main] INFO  Dealership.POM - Environmental Fee field is displayed
+15:59:54.690 [main] INFO  Dealership.POM - Environmental Fee is entered
+15:59:54.744 [main] INFO  Dealership.POM - Part Save Button  is displayed
+15:59:54.882 [main] INFO  Dealership.POM - save button is clicked
+16:00:05.274 [main] INFO  Dealership.POM - New Part Name is entered in searchbox
+16:00:10.358 [main] INFO  Dealership.POM - the text is Part-02_12_202103_58_36 - Test Description
+16:00:10.367 [main] INFO  Dealership.POM - part is successfully created
+16:00:10.371 [main] INFO  Dealership.POM - Test case AddPart is passes successfully
+16:01:26.814 [main] INFO  Dealership.POM - Windows maximized
+16:01:28.518 [main] INFO  Dealership.POM - URL entered
+16:01:28.646 [main] INFO  Dealership.POM - Username field is visible
+16:01:28.913 [main] INFO  Dealership.POM - Password field is visible
+16:01:29.635 [main] INFO  Dealership.POM - Login Button is visible
+16:01:43.702 [main] INFO  Dealership.POM - Login Button is clicked
+16:02:03.715 [main] INFO  Dealership.POM - Title not Matched
+16:02:03.839 [main] INFO  Dealership.POM - Addnew button is displayed
+16:02:03.912 [main] INFO  Dealership.POM - Addnew button is clicked
+16:02:03.980 [main] INFO  Dealership.POM - Part button is displayed
+16:02:04.080 [main] INFO  Dealership.POM - Part button is clicked
+16:02:09.144 [main] INFO  Dealership.POM - Part creation window is opened
+16:02:09.180 [main] INFO  Dealership.POM - Part number field is displayed
+16:02:09.422 [main] INFO  Dealership.POM - Part number is entered
+16:02:09.462 [main] INFO  Dealership.POM - Part Description field is displayed
+16:02:09.651 [main] INFO  Dealership.POM - Part Description is entered
+16:02:09.703 [main] INFO  Dealership.POM - Vendor_Input field is displayed
+16:02:15.097 [main] INFO  Dealership.POM - Vendor_Input is entered
+16:02:15.132 [main] INFO  Dealership.POM - Mfg Part field is displayed
+16:02:15.270 [main] INFO  Dealership.POM - Mfg Part is entered
+16:02:15.305 [main] INFO  Dealership.POM - SKU Number field is displayed
+16:02:15.456 [main] INFO  Dealership.POM - SKU Number is entered
+16:02:15.499 [main] INFO  Dealership.POM - Category_Input field is displayed
+16:02:20.724 [main] INFO  Dealership.POM - Category_Input is entered
+16:02:20.770 [main] INFO  Dealership.POM - Tagsfield is displayed
+16:02:20.954 [main] INFO  Dealership.POM - Tag is selected
+16:02:21.025 [main] INFO  Dealership.POM - Location field is displayed
+16:02:31.879 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddPart
+16:05:47.180 [main] INFO  Dealership.POM - Windows maximized
+16:05:49.124 [main] INFO  Dealership.POM - URL entered
+16:05:49.253 [main] INFO  Dealership.POM - Username field is visible
+16:05:49.492 [main] INFO  Dealership.POM - Password field is visible
+16:05:49.808 [main] INFO  Dealership.POM - Login Button is visible
+16:06:03.917 [main] INFO  Dealership.POM - Login Button is clicked
+16:06:23.939 [main] INFO  Dealership.POM - Title not Matched
+16:06:24.010 [main] INFO  Dealership.POM - Addnew button is displayed
+16:06:24.085 [main] INFO  Dealership.POM - Addnew button is clicked
+16:06:24.154 [main] INFO  Dealership.POM - Customer button is displayed
+16:06:24.248 [main] INFO  Dealership.POM - Customer button is clicked
+16:06:29.313 [main] INFO  Dealership.POM - Customer creation window is opened
+16:06:29.349 [main] INFO  Dealership.POM - Firstname field is visible
+16:06:29.568 [main] INFO  Dealership.POM - Firstname  is filled
+16:06:29.601 [main] INFO  Dealership.POM - Lastname field is visible
+16:06:29.730 [main] INFO  Dealership.POM - Lastname  is filled
+16:06:29.767 [main] INFO  Dealership.POM - Account type field is visible
+16:06:29.824 [main] INFO  Dealership.POM - Account type  is clicked
+16:06:29.940 [main] INFO  Dealership.POM - Account type  is selected
+16:06:29.987 [main] INFO  Dealership.POM - Email field is visible
+16:06:30.204 [main] INFO  Dealership.POM - Email  is filled
+16:06:30.246 [main] INFO  Dealership.POM - Mobilenumber field is visible
+16:06:30.373 [main] INFO  Dealership.POM - Mobilenumber  is filled
+16:06:30.433 [main] INFO  Dealership.POM - Address field is visible
+16:06:30.723 [main] INFO  Dealership.POM - Address  is filled
+16:06:30.771 [main] INFO  Dealership.POM - Country field is visible
+16:06:30.843 [main] INFO  Dealership.POM - Country is clicked
+16:06:30.966 [main] INFO  Dealership.POM - Country Name is selected
+16:06:31.135 [main] INFO  Dealership.POM - City Name is selected
+16:06:31.293 [main] INFO  Dealership.POM - Postcode is selected
+16:06:31.397 [main] INFO  Dealership.POM - Create button is clicked
+16:06:41.836 [main] INFO  Dealership.POM - email is entered in seachbox
+16:06:51.917 [main] INFO  Dealership.POM - the text is sparsh-02_12_202104_05_41@test.com
+16:06:51.929 [main] INFO  Dealership.POM - User is successfully created
+16:06:51.933 [main] INFO  Dealership.POM - Test case AddCustomer is passes successfully
+16:06:55.167 [main] INFO  Dealership.POM - Windows maximized
+16:06:56.953 [main] INFO  Dealership.POM - URL entered
+16:06:57.029 [main] INFO  Dealership.POM - Username field is visible
+16:06:57.213 [main] INFO  Dealership.POM - Password field is visible
+16:06:57.570 [main] INFO  Dealership.POM - Login Button is visible
+16:07:12.119 [main] INFO  Dealership.POM - Login Button is clicked
+16:07:32.146 [main] INFO  Dealership.POM - Title not Matched
+16:07:32.201 [main] INFO  Dealership.POM - Addnew button is displayed
+16:07:32.274 [main] INFO  Dealership.POM - Addnew button is clicked
+16:07:32.340 [main] INFO  Dealership.POM - Vendor button is displayed
+16:07:32.430 [main] INFO  Dealership.POM - Vendor button is clicked
+16:07:42.511 [main] INFO  Dealership.POM - Vendor creation window is opened
+16:07:42.831 [main] INFO  Dealership.POM - Company name is entered
+16:07:44.133 [main] INFO  Dealership.POM - Vendor Account Number is entered
+16:07:44.454 [main] INFO  Dealership.POM - Work Email is entered
+16:07:44.484 [main] INFO  Dealership.POM - Phone number field is visible
+16:07:44.633 [main] INFO  Dealership.POM - Phone number  is filled
+16:07:44.697 [main] INFO  Dealership.POM - Billingaddress field is visible
+16:07:45.033 [main] INFO  Dealership.POM - Billingaddress  is filled
+16:07:45.241 [main] INFO  Dealership.POM - City Name is selected
+16:07:45.464 [main] INFO  Dealership.POM - Billing State is selected
+16:07:45.711 [main] INFO  Dealership.POM - Billing Country is selected
+16:07:45.969 [main] INFO  Dealership.POM - Postcode is selected
+16:07:46.088 [main] INFO  Dealership.POM - Shippingaddressflag is same as billing address
+16:07:46.325 [main] INFO  Dealership.POM - PurchaseTaxLevel is selected
+16:07:46.650 [main] INFO  Dealership.POM - VendorAccountTypeIcon is selected
+16:07:46.837 [main] INFO  Dealership.POM - Save button is clicked
+16:07:57.318 [main] INFO  Dealership.POM - email is entered in searchbox
+16:08:07.398 [main] INFO  Dealership.POM - the text is qavendor-02_12_202104_05_41@gmail.com
+16:08:07.409 [main] INFO  Dealership.POM - User is successfully created
+16:08:07.409 [main] INFO  Dealership.POM - Test case AddVendor is passes successfully
+16:08:10.995 [main] INFO  Dealership.POM - Windows maximized
+16:08:12.827 [main] INFO  Dealership.POM - URL entered
+16:08:12.890 [main] INFO  Dealership.POM - Username field is visible
+16:08:13.114 [main] INFO  Dealership.POM - Password field is visible
+16:08:13.342 [main] INFO  Dealership.POM - Login Button is visible
+16:08:27.313 [main] INFO  Dealership.POM - Login Button is clicked
+16:08:47.331 [main] INFO  Dealership.POM - Title not Matched
+16:08:47.391 [main] INFO  Dealership.POM - Addnew button is displayed
+16:08:47.465 [main] INFO  Dealership.POM - Addnew button is clicked
+16:08:47.513 [main] INFO  Dealership.POM - Part button is displayed
+16:08:47.598 [main] INFO  Dealership.POM - Part button is clicked
+16:08:52.671 [main] INFO  Dealership.POM - Part creation window is opened
+16:08:52.706 [main] INFO  Dealership.POM - Part number field is displayed
+16:08:52.972 [main] INFO  Dealership.POM - Part number is entered
+16:08:53.003 [main] INFO  Dealership.POM - Part Description field is displayed
+16:08:53.201 [main] INFO  Dealership.POM - Part Description is entered
+16:08:53.259 [main] INFO  Dealership.POM - Vendor_Input field is displayed
+16:08:58.739 [main] INFO  Dealership.POM - Vendor_Input is entered
+16:08:58.771 [main] INFO  Dealership.POM - Mfg Part field is displayed
+16:08:58.927 [main] INFO  Dealership.POM - Mfg Part is entered
+16:08:58.972 [main] INFO  Dealership.POM - SKU Number field is displayed
+16:08:59.148 [main] INFO  Dealership.POM - SKU Number is entered
+16:08:59.195 [main] INFO  Dealership.POM - Category_Input field is displayed
+16:09:06.509 [main] INFO  Dealership.POM - Category_Input is entered
+16:09:06.553 [main] INFO  Dealership.POM - Tagsfield is displayed
+16:09:06.785 [main] INFO  Dealership.POM - Tag is selected
+16:09:06.899 [main] INFO  Dealership.POM - Qty field is displayed
+16:09:07.082 [main] INFO  Dealership.POM - Qty is entered
+16:09:07.129 [main] INFO  Dealership.POM - MSRP field is displayed
+16:09:07.296 [main] INFO  Dealership.POM - MSRP is entered
+16:09:07.345 [main] INFO  Dealership.POM - Retail field is displayed
+16:09:07.542 [main] INFO  Dealership.POM - Retail is entered
+16:09:07.589 [main] INFO  Dealership.POM - SalePrice field is displayed
+16:09:07.735 [main] INFO  Dealership.POM - SalePrice is entered
+16:09:07.768 [main] INFO  Dealership.POM - Environmental Fee field is displayed
+16:09:07.917 [main] INFO  Dealership.POM - Environmental Fee is entered
+16:09:07.991 [main] INFO  Dealership.POM - Part Save Button  is displayed
+16:09:08.083 [main] INFO  Dealership.POM - save button is clicked
+16:09:18.526 [main] INFO  Dealership.POM - New Part Name is entered in searchbox
+16:09:23.607 [main] INFO  Dealership.POM - the text is Part-02_12_202104_05_41 - Test Description
+16:09:23.617 [main] INFO  Dealership.POM - part is successfully created
+16:09:23.617 [main] INFO  Dealership.POM - Test case AddPart is passes successfully
+18:44:05.451 [main] INFO  Dealership.POM - Windows maximized
+18:44:07.558 [main] INFO  Dealership.POM - URL entered
+18:44:07.730 [main] INFO  Dealership.POM - Username field is visible
+18:44:07.967 [main] INFO  Dealership.POM - Password field is visible
+18:44:08.153 [main] INFO  Dealership.POM - Login Button is visible
+18:44:38.972 [main] INFO  Dealership.POM - Login Button is clicked
+18:44:59.021 [main] INFO  Dealership.POM - Title Matched
+18:44:59.149 [main] INFO  Dealership.POM - Addnew button is displayed
+18:44:59.249 [main] INFO  Dealership.POM - Addnew button is clicked
+18:44:59.324 [main] INFO  Dealership.POM - Labor button is displayed
+18:44:59.432 [main] INFO  Dealership.POM - Labor button is clicked
+18:45:04.513 [main] INFO  Dealership.POM - Labor creation window is opened
+18:45:04.549 [main] INFO  Dealership.POM - Labor code field is displayed
+18:45:04.877 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddLabor
+18:46:13.036 [main] INFO  Dealership.POM - Windows maximized
+18:46:14.911 [main] INFO  Dealership.POM - URL entered
+18:46:15.038 [main] INFO  Dealership.POM - Username field is visible
+18:46:15.246 [main] INFO  Dealership.POM - Password field is visible
+18:46:15.488 [main] INFO  Dealership.POM - Login Button is visible
+18:46:29.783 [main] INFO  Dealership.POM - Login Button is clicked
+18:46:49.818 [main] INFO  Dealership.POM - Title not Matched
+18:46:49.913 [main] INFO  Dealership.POM - Addnew button is displayed
+18:46:49.992 [main] INFO  Dealership.POM - Addnew button is clicked
+18:46:50.055 [main] INFO  Dealership.POM - Labor button is displayed
+18:46:50.147 [main] INFO  Dealership.POM - Labor button is clicked
+18:46:55.237 [main] INFO  Dealership.POM - Labor creation window is opened
+18:46:55.278 [main] INFO  Dealership.POM - Labor code field is displayed
+18:46:55.425 [main] INFO  Dealership.POM - labor code is entered
+18:46:55.472 [main] INFO  Dealership.POM - Description field is displayed
+18:46:55.648 [main] INFO  Dealership.POM - Description is entered
+18:46:55.698 [main] INFO  Dealership.POM - Hours field is displayed
+18:46:55.833 [main] INFO  Dealership.POM - Hours entered
+18:46:55.886 [main] INFO  Dealership.POM - Rate field is displayed
+18:46:56.025 [main] INFO  Dealership.POM - Rate entered
+18:46:56.109 [main] INFO  Dealership.POM - Category_Input field is displayed
+18:47:01.347 [main] INFO  Dealership.POM - Category_Input entered
+18:47:06.407 [main] INFO  Dealership.POM - FormsTag field is displayed
+18:47:06.631 [main] INFO  Dealership.POM - selectTag field is displayed
+18:47:06.961 [main] INFO  Dealership.POM - selectTag field is displayed
+18:47:07.007 [main] INFO  Dealership.POM - selectTag field is displayed
+18:47:07.318 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddLabor
+18:48:52.090 [main] INFO  Dealership.POM - Windows maximized
+18:48:53.942 [main] INFO  Dealership.POM - URL entered
+18:48:54.136 [main] INFO  Dealership.POM - Username field is visible
+18:48:54.731 [main] INFO  Dealership.POM - Password field is visible
+18:48:55.280 [main] INFO  Dealership.POM - Login Button is visible
+18:49:18.434 [main] INFO  Dealership.POM - Login Button is clicked
+18:49:38.467 [main] INFO  Dealership.POM - Title not Matched
+18:49:38.571 [main] INFO  Dealership.POM - Addnew button is displayed
+18:49:38.662 [main] INFO  Dealership.POM - Addnew button is clicked
+18:49:38.729 [main] INFO  Dealership.POM - Labor button is displayed
+18:49:38.833 [main] INFO  Dealership.POM - Labor button is clicked
+18:49:43.915 [main] INFO  Dealership.POM - Labor creation window is opened
+18:49:43.963 [main] INFO  Dealership.POM - Labor code field is displayed
+18:49:44.152 [main] INFO  Dealership.POM - labor code is entered
+18:49:44.213 [main] INFO  Dealership.POM - Description field is displayed
+18:49:44.392 [main] INFO  Dealership.POM - Description is entered
+18:49:44.439 [main] INFO  Dealership.POM - Hours field is displayed
+18:49:44.528 [main] INFO  Dealership.POM - Hours entered
+18:49:44.574 [main] INFO  Dealership.POM - Rate field is displayed
+18:49:44.716 [main] INFO  Dealership.POM - Rate entered
+18:49:44.762 [main] INFO  Dealership.POM - Category_Input field is displayed
+18:49:50.080 [main] INFO  Dealership.POM - Category_Input entered
+18:49:55.156 [main] INFO  Dealership.POM - FormsTag field is displayed
+18:49:55.383 [main] INFO  Dealership.POM - selectTag field is displayed
+18:49:55.718 [main] INFO  Dealership.POM - Applicabletax field is displayed
+18:49:55.763 [main] INFO  Dealership.POM - SaveButton is displayed
+18:49:56.038 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddLabor
+18:55:03.391 [main] INFO  Dealership.POM - Windows maximized
+18:55:05.367 [main] INFO  Dealership.POM - URL entered
+18:55:05.498 [main] INFO  Dealership.POM - Username field is visible
+18:55:05.755 [main] INFO  Dealership.POM - Password field is visible
+18:55:06.236 [main] INFO  Dealership.POM - Login Button is visible
+18:55:20.451 [main] INFO  Dealership.POM - Login Button is clicked
+18:55:40.465 [main] INFO  Dealership.POM - Title not Matched
+18:55:40.574 [main] INFO  Dealership.POM - Addnew button is displayed
+18:55:40.665 [main] INFO  Dealership.POM - Addnew button is clicked
+18:55:40.730 [main] INFO  Dealership.POM - Labor button is displayed
+18:55:40.830 [main] INFO  Dealership.POM - Labor button is clicked
+18:55:45.929 [main] INFO  Dealership.POM - Labor creation window is opened
+18:55:45.975 [main] INFO  Dealership.POM - Labor code field is displayed
+18:55:46.115 [main] INFO  Dealership.POM - labor code is entered
+18:55:46.164 [main] INFO  Dealership.POM - Description field is displayed
+18:55:46.348 [main] INFO  Dealership.POM - Description is entered
+18:55:46.398 [main] INFO  Dealership.POM - Hours field is displayed
+18:55:46.502 [main] INFO  Dealership.POM - Hours entered
+18:55:46.553 [main] INFO  Dealership.POM - Rate field is displayed
+18:55:46.694 [main] INFO  Dealership.POM - Rate entered
+18:55:46.746 [main] INFO  Dealership.POM - Category_Input field is displayed
+18:55:57.036 [main] INFO  Dealership.POM - Category_Input entered
+18:56:02.100 [main] INFO  Dealership.POM - FormsTag field is displayed
+18:56:02.269 [main] INFO  Dealership.POM - FormsTag is entered
+18:56:02.330 [main] INFO  Dealership.POM - selectTag field is displayed
+18:56:02.403 [main] INFO  Dealership.POM - selectTag is entered
+18:56:02.465 [main] INFO  Dealership.POM - Applicabletax field is displayed
+18:56:02.672 [main] INFO  Dealership.POM - Applicabletax is entered
+18:56:02.720 [main] INFO  Dealership.POM - SaveButton is displayed
+18:56:03.092 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddLabor
+20:58:22.260 [main] INFO  Dealership.POM - Windows maximized
+20:58:24.619 [main] INFO  Dealership.POM - URL entered
+20:58:24.734 [main] INFO  Dealership.POM - Username field is visible
+20:58:24.918 [main] INFO  Dealership.POM - Password field is visible
+20:58:25.075 [main] INFO  Dealership.POM - Login Button is visible
+20:58:43.116 [main] INFO  Dealership.POM - Login Button is clicked
+20:59:03.144 [main] INFO  Dealership.POM - Title not Matched
+20:59:03.270 [main] INFO  Dealership.POM - Addnew button is displayed
+20:59:04.204 [main] INFO  Dealership.POM - Addnew button is clicked
+20:59:04.263 [main] INFO  Dealership.POM - Labor button is displayed
+20:59:04.346 [main] INFO  Dealership.POM - Labor button is clicked
+20:59:09.675 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddLabor
+20:59:33.911 [main] INFO  Dealership.POM - Windows maximized
+20:59:35.753 [main] INFO  Dealership.POM - URL entered
+20:59:35.899 [main] INFO  Dealership.POM - Username field is visible
+20:59:36.157 [main] INFO  Dealership.POM - Password field is visible
+20:59:36.596 [main] INFO  Dealership.POM - Login Button is visible
+20:59:51.252 [main] INFO  Dealership.POM - Login Button is clicked
+21:00:11.270 [main] INFO  Dealership.POM - Title not Matched
+21:00:11.389 [main] INFO  Dealership.POM - Addnew button is displayed
+21:00:11.505 [main] INFO  Dealership.POM - Addnew button is clicked
+21:00:11.573 [main] INFO  Dealership.POM - Labor button is displayed
+21:00:11.691 [main] INFO  Dealership.POM - Labor button is clicked
+21:00:16.777 [main] INFO  Dealership.POM - Labor creation window is opened
+21:00:16.825 [main] INFO  Dealership.POM - Labor code field is displayed
+21:00:16.958 [main] INFO  Dealership.POM - labor code is entered
+21:00:17.007 [main] INFO  Dealership.POM - Description field is displayed
+21:00:17.174 [main] INFO  Dealership.POM - Description is entered
+21:00:17.223 [main] INFO  Dealership.POM - Hours field is displayed
+21:00:17.338 [main] INFO  Dealership.POM - Hours entered
+21:00:17.391 [main] INFO  Dealership.POM - Rate field is displayed
+21:00:17.497 [main] INFO  Dealership.POM - Rate entered
+21:00:17.543 [main] INFO  Dealership.POM - Category_Input field is displayed
+21:00:27.845 [main] INFO  Dealership.POM - Category_Input entered
+21:00:32.892 [main] INFO  Dealership.POM - FormsTag field is displayed
+21:00:32.966 [main] INFO  Dealership.POM - FormsTag is entered
+21:00:33.020 [main] INFO  Dealership.POM - selectTag field is displayed
+21:00:33.086 [main] INFO  Dealership.POM - selectTag is entered
+21:00:33.138 [main] INFO  Dealership.POM - Applicabletax field is displayed
+21:00:33.326 [main] INFO  Dealership.POM - Applicabletax is entered
+21:00:33.369 [main] INFO  Dealership.POM - SaveButton is displayed
+21:00:33.684 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddLabor
+21:01:31.352 [main] INFO  Dealership.POM - Windows maximized
+21:01:33.129 [main] INFO  Dealership.POM - URL entered
+21:01:33.305 [main] INFO  Dealership.POM - Username field is visible
+21:01:33.508 [main] INFO  Dealership.POM - Password field is visible
+21:01:33.712 [main] INFO  Dealership.POM - Login Button is visible
+21:01:50.297 [main] INFO  Dealership.POM - Login Button is clicked
+21:02:10.328 [main] INFO  Dealership.POM - Title not Matched
+21:02:10.525 [main] INFO  Dealership.POM - Addnew button is displayed
+21:02:10.614 [main] INFO  Dealership.POM - Addnew button is clicked
+21:02:10.683 [main] INFO  Dealership.POM - Labor button is displayed
+21:02:10.781 [main] INFO  Dealership.POM - Labor button is clicked
+21:02:15.898 [main] INFO  Dealership.POM - Labor creation window is opened
+21:02:15.959 [main] INFO  Dealership.POM - Labor code field is displayed
+21:02:16.095 [main] INFO  Dealership.POM - labor code is entered
+21:02:16.142 [main] INFO  Dealership.POM - Description field is displayed
+21:02:16.327 [main] INFO  Dealership.POM - Description is entered
+21:02:16.369 [main] INFO  Dealership.POM - Hours field is displayed
+21:02:16.495 [main] INFO  Dealership.POM - Hours entered
+21:02:16.546 [main] INFO  Dealership.POM - Rate field is displayed
+21:02:16.698 [main] INFO  Dealership.POM - Rate entered
+21:02:16.749 [main] INFO  Dealership.POM - Category_Input field is displayed
+21:02:27.068 [main] INFO  Dealership.POM - Category_Input entered
+21:02:32.132 [main] INFO  Dealership.POM - FormsTag field is displayed
+21:02:32.220 [main] INFO  Dealership.POM - FormsTag is entered
+21:02:32.268 [main] INFO  Dealership.POM - selectTag field is displayed
+21:02:32.332 [main] INFO  Dealership.POM - selectTag is entered
+21:02:32.386 [main] INFO  Dealership.POM - Applicabletax field is displayed
+21:02:32.564 [main] INFO  Dealership.POM - Applicabletax is entered
+21:02:32.616 [main] INFO  Dealership.POM - SaveButton is displayed
+21:02:32.708 [main] INFO  Dealership.POM - SaveButton is clicked
+21:02:32.716 [main] INFO  Dealership.POM - Test case AddLabor is passes successfully
+21:10:52.863 [main] INFO  Dealership.POM - Windows maximized
+21:10:56.774 [main] INFO  Dealership.POM - URL entered
+21:10:56.945 [main] INFO  Dealership.POM - Username field is visible
+21:10:57.183 [main] INFO  Dealership.POM - Password field is visible
+21:10:57.383 [main] INFO  Dealership.POM - Login Button is visible
+21:11:12.335 [main] INFO  Dealership.POM - Login Button is clicked
+21:11:32.356 [main] INFO  Dealership.POM - Title not Matched
+21:11:32.471 [main] INFO  Dealership.POM - Addnew button is displayed
+21:11:32.555 [main] INFO  Dealership.POM - Addnew button is clicked
+21:11:32.617 [main] INFO  Dealership.POM - Labor button is displayed
+21:11:32.715 [main] INFO  Dealership.POM - Labor button is clicked
+21:11:37.810 [main] INFO  Dealership.POM - Labor creation window is opened

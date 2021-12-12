@@ -1,0 +1,31 @@
+18:33:19.826 [main] INFO  Dealership.POM - Search tag is visible
+18:33:19.856 [main] INFO  Dealership.POM - The Payments link has redirected to correct page
+18:33:30.813 [main] INFO  Dealership.POM - Parts_needed link is visible
+18:33:40.882 [main] INFO  Dealership.POM - The page title is - Advanced Search
+18:33:50.955 [main] INFO  Dealership.POM - Search tag is visible
+18:33:50.978 [main] INFO  Dealership.POM - The New Customers link has redirected to correct page
+18:33:50.982 [main] INFO  Dealership.POM - Test case Vendor_Orders passes successfully
+18:58:52.204 [main] INFO  Dealership.POM - Running Test : Customer_Orders
+18:59:01.472 [main] INFO  Dealership.POM - Windows maximized
+18:59:04.241 [main] INFO  Dealership.POM - URL entered
+18:59:04.368 [main] INFO  Dealership.POM - Username field is visible
+18:59:04.562 [main] INFO  Dealership.POM - Password field is visible
+18:59:04.686 [main] INFO  Dealership.POM - Login Button is visible
+18:59:21.051 [main] INFO  Dealership.POM - Login Button is clicked
+18:59:46.163 [main] INFO  Dealership.POM - Home icon is visible
+18:59:46.219 [main] INFO  Dealership.POM - Home icon is clicked
+18:59:46.227 [main] INFO  Dealership.POM - Title matched, Homepage is displayed
+19:00:11.288 [main] INFO  Dealership.POM - Customer_Orders tab is visible
+19:00:11.324 [main] INFO  Dealership.POM - Active_Orders link is visible
+19:00:21.419 [main] INFO  Dealership.POM - The page title is - Advanced Search
+19:00:31.482 [main] INFO  Dealership.POM - Search tag is visible
+19:00:31.501 [main] INFO  Dealership.POM - The Invoice link has redirected to correct page
+19:00:42.534 [main] INFO  Dealership.POM - Deposits link is visible
+19:00:52.621 [main] INFO  Dealership.POM - The page title is - Advanced Search
+19:01:02.799 [main] INFO  Dealership.POM - Search tag is visible
+19:01:02.863 [main] INFO  Dealership.POM - The Payments link has redirected to correct page
+19:01:14.378 [main] INFO  Dealership.POM - Balance_Due link is visible
+19:01:24.459 [main] INFO  Dealership.POM - The page title is - Advanced Search
+19:01:34.545 [main] INFO  Dealership.POM - Search tag is visible
+19:01:34.564 [main] INFO  Dealership.POM - The New Customers link has redirected to correct page
+19:01:34.567 [main] INFO  Dealership.POM - Test case Customer_Orders passes successfully
