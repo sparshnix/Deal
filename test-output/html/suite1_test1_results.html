@@ -12,7 +12,7 @@
 <body>
 <h1>Test</h1>
 <p>
-  Test duration: 895.432s
+  Test duration: 1172.332s
 </p>
 
 
@@ -25,30 +25,30 @@
             
 <tr>
   <td class="method">
-                  AddCustomer
+                  AddPart
       </td>
   <td class="duration">
-    108.619s
+    101.209s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\AddCustomer - 12_12_2021 02_01_40 screenshot.png">Screenshot</a>
-                                Test Failed - screenshot captured for Method : AddCustomer
+                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\AddPart - 12_12_2021 02_42_13 screenshot.png">Screenshot</a>
+                                Test Failed - screenshot captured for Method : AddPart
                                 Status of execution : 2
                   </div>
     
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;bp-cell bp-unitSearch-area bp-customerdropdown customerDropDown searchInputArea selectableDropdown&quot; ng-class=&quot;{&apos;showingOverlay&apos; : M_AddEditCustomerV2.isFocusedAccountType}&quot;&gt;...&lt;/div&gt; is not clickable at point (462, 462). Other element would receive the click: &lt;div class=&quot;LoadingDiv ng-scope&quot; ng-show=&quot;M_AddEditCustomerV2.isLoading&quot;&gt;...&lt;/div&gt;<br/>
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;SearchResult_0&quot;]/td[3]/div/span[1]&quot;}<br/>
 &nbsp; (Session info: chrome=96.0.4664.93)<br/>
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element<br/>
 Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;<br/>
 System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;<br/>
 Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Command: [f713f5972b9c5fee65cf7524ee29329a, clickElement {id=828a3669-e35d-43b7-816c-ab3da94de7d7}]<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61647/devtoo..., se:cdpVersion: 96.0.4664.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
-Element: [[ChromeDriver: chrome on WINDOWS (f713f5972b9c5fee65cf7524ee29329a)] -&gt; xpath: //*[@id=&quot;customerpopup&quot;]/div[2]/div/div[3]/form/div[1]/div[1]/div[3]/div]<br/>
-Session ID: f713f5972b9c5fee65cf7524ee29329a</b></a><br />
+Command: [7d4d86fe2688f4db7cd7d7e6c1eae783, findElement {using=xpath, value=//*[@id=&quot;SearchResult_0&quot;]/td[3]/div/span[1]}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65530}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65530/devtoo..., se:cdpVersion: 96.0.4664.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 7d4d86fe2688f4db7cd7d7e6c1eae783</b></a><br />
     <div class="stackTrace" id="exception-0">
               sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
               sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
@@ -61,433 +61,11 @@ Session ID: f713f5972b9c5fee65cf7524ee29329a</b></a><br />
               org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)<br />
               org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)<br />
               org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)<br />
-              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)<br />
-              org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)<br />
-              Dealership.Masterdata.AddCustomer(Masterdata.java:101)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br />
-              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br />
-              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
-              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
-              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br />
-              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.util.ArrayList.forEach(ArrayList.java:1259)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:794)<br />
-              org.testng.TestRunner.run(TestRunner.java:596)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:377)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:276)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1134)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1063)<br />
-              org.testng.TestNG.run(TestNG.java:1031)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  AddFee
-      </td>
-  <td class="duration">
-    62.903s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\AddFee - 12_12_2021 02_07_37 screenshot.png">Screenshot</a>
-                                Test Failed - screenshot captured for Method : AddFee
-                                Status of execution : 2
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;AddEditFee&quot;]/div[2]/div/div/div/div[2]/div[1]/h1&quot;}<br/>
-&nbsp; (Session info: chrome=96.0.4664.93)<br/>
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element<br/>
-Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;<br/>
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Command: [55dad1e0ef22ed7851bc05dfb453fe31, findElement {using=xpath, value=//*[@id=&quot;AddEditFee&quot;]/div[2]/div/div/div/div[2]/div[1]/h1}]<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62390/devtoo..., se:cdpVersion: 96.0.4664.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
-Session ID: 55dad1e0ef22ed7851bc05dfb453fe31</b></a><br />
-    <div class="stackTrace" id="exception-1">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)<br />
               org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)<br />
               org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)<br />
               org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)<br />
               org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)<br />
-              Dealership.Masterdata.AddFee(Masterdata.java:765)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br />
-              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br />
-              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
-              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
-              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br />
-              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.util.ArrayList.forEach(ArrayList.java:1259)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:794)<br />
-              org.testng.TestRunner.run(TestRunner.java:596)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:377)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:276)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1134)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1063)<br />
-              org.testng.TestNG.run(TestNG.java:1031)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  AddKit
-      </td>
-  <td class="duration">
-    57.503s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\AddKit - 12_12_2021 02_06_34 screenshot.png">Screenshot</a>
-                                Test Failed - screenshot captured for Method : AddKit
-                                Status of execution : 2
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;addNewKit&quot;]/div[2]/div/div/div/div[2]/div[1]/h1&quot;}<br/>
-&nbsp; (Session info: chrome=96.0.4664.93)<br/>
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element<br/>
-Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;<br/>
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Command: [1cf8aacc638cee058d520f9cee72c777, findElement {using=xpath, value=//*[@id=&quot;addNewKit&quot;]/div[2]/div/div/div/div[2]/div[1]/h1}]<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62226/devtoo..., se:cdpVersion: 96.0.4664.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
-Session ID: 1cf8aacc638cee058d520f9cee72c777</b></a><br />
-    <div class="stackTrace" id="exception-2">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)<br />
-              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)<br />
-              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)<br />
-              Dealership.Masterdata.AddKit(Masterdata.java:643)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br />
-              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br />
-              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
-              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
-              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br />
-              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.util.ArrayList.forEach(ArrayList.java:1259)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:794)<br />
-              org.testng.TestRunner.run(TestRunner.java:596)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:377)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:276)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1134)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1063)<br />
-              org.testng.TestNG.run(TestNG.java:1031)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  AddLabor
-      </td>
-  <td class="duration">
-    58.085s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\AddLabor - 12_12_2021 02_05_36 screenshot.png">Screenshot</a>
-                                Test Failed - screenshot captured for Method : AddLabor
-                                Status of execution : 2
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;AddEditLabour&quot;]/div[2]/div/div/div/div[2]/div[1]/h1&quot;}<br/>
-&nbsp; (Session info: chrome=96.0.4664.93)<br/>
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element<br/>
-Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;<br/>
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Command: [07f1988389c2e88e37dcf02ba49e7803, findElement {using=xpath, value=//*[@id=&quot;AddEditLabour&quot;]/div[2]/div/div/div/div[2]/div[1]/h1}]<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62066/devtoo..., se:cdpVersion: 96.0.4664.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
-Session ID: 07f1988389c2e88e37dcf02ba49e7803</b></a><br />
-    <div class="stackTrace" id="exception-3">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)<br />
-              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)<br />
-              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)<br />
-              Dealership.Masterdata.AddLabor(Masterdata.java:538)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br />
-              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br />
-              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
-              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
-              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br />
-              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.util.ArrayList.forEach(ArrayList.java:1259)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:794)<br />
-              org.testng.TestRunner.run(TestRunner.java:596)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:377)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:276)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1134)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1063)<br />
-              org.testng.TestNG.run(TestNG.java:1031)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  AddPart
-      </td>
-  <td class="duration">
-    59.018s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\AddPart - 12_12_2021 02_04_38 screenshot.png">Screenshot</a>
-                                Test Failed - screenshot captured for Method : AddPart
-                                Status of execution : 2
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;AddNewPart&quot;]/div[2]/div[2]/div/div[1]/div[1]/h1[1]&quot;}<br/>
-&nbsp; (Session info: chrome=96.0.4664.93)<br/>
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element<br/>
-Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;<br/>
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Command: [c4b7bf25556a922eff3e49fb0df0a714, findElement {using=xpath, value=//*[@id=&quot;AddNewPart&quot;]/div[2]/div[2]/div/div[1]/div[1]/h1[1]}]<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61913/devtoo..., se:cdpVersion: 96.0.4664.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
-Session ID: c4b7bf25556a922eff3e49fb0df0a714</b></a><br />
-    <div class="stackTrace" id="exception-4">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)<br />
-              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)<br />
-              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)<br />
-              Dealership.Masterdata.AddPart(Masterdata.java:367)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br />
-              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br />
-              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
-              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
-              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br />
-              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.util.ArrayList.forEach(ArrayList.java:1259)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:794)<br />
-              org.testng.TestRunner.run(TestRunner.java:596)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:377)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:276)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1134)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1063)<br />
-              org.testng.TestNG.run(TestNG.java:1031)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  AddUnit
-      </td>
-  <td class="duration">
-    41.797s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\AddUnit - 12_12_2021 02_08_19 screenshot.png">Screenshot</a>
-                                Test Failed - screenshot captured for Method : AddUnit
-                                Status of execution : 2
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Button is missing expected [true] but found [false]</b></a><br />
-    <div class="stackTrace" id="exception-5">
-              org.testng.Assert.fail(Assert.java:99)<br />
-              org.testng.Assert.failNotEquals(Assert.java:1037)<br />
-              org.testng.Assert.assertTrue(Assert.java:45)<br />
-              Dealership.Masterdata.AddUnit(Masterdata.java:860)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br />
-              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br />
-              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
-              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
-              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br />
-              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.util.ArrayList.forEach(ArrayList.java:1259)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:794)<br />
-              org.testng.TestRunner.run(TestRunner.java:596)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:377)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:276)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1134)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1063)<br />
-              org.testng.TestNG.run(TestNG.java:1031)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  AddVendor
-      </td>
-  <td class="duration">
-    118.711s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\AddVendor - 12_12_2021 02_03_39 screenshot.png">Screenshot</a>
-                                Test Failed - screenshot captured for Method : AddVendor
-                                Status of execution : 2
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-6', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;SearchResult_0&quot;]/td[3]/div/span[2]/span[1]/span[3]&quot;}<br/>
-&nbsp; (Session info: chrome=96.0.4664.93)<br/>
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element<br/>
-Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;<br/>
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Command: [226539b00fa3df0613ccf2b3568df72e, findElement {using=xpath, value=//*[@id=&quot;SearchResult_0&quot;]/td[3]/div/span[2]/span[1]/span[3]}]<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61762}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61762/devtoo..., se:cdpVersion: 96.0.4664.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
-Session ID: 226539b00fa3df0613ccf2b3568df72e</b></a><br />
-    <div class="stackTrace" id="exception-6">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)<br />
-              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)<br />
-              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)<br />
-              Dealership.Masterdata.AddVendor(Masterdata.java:338)<br />
+              Dealership.Masterdata.AddPart(Masterdata.java:509)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
@@ -525,23 +103,23 @@ Session ID: 226539b00fa3df0613ccf2b3568df72e</b></a><br />
             
 <tr>
   <td class="method">
-                  Customer_Orders
+                  ServiceJobs
       </td>
   <td class="duration">
-    59.942s
+    38.276s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\Customer_Orders - 12_12_2021 02_14_49 screenshot.png">Screenshot</a>
-                                Test Failed - screenshot captured for Method : Customer_Orders
+                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\ServiceJobs - 12_12_2021 02_52_49 screenshot.png">Screenshot</a>
+                                Test Failed - screenshot captured for Method : ServiceJobs
                                 Status of execution : 2
                   </div>
     
 
-        <a href="javascript:toggleElement('exception-7', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [Blackpurl] but found []</b></a><br />
-    <div class="stackTrace" id="exception-7">
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [Blackpurl] but found []</b></a><br />
+    <div class="stackTrace" id="exception-1">
               org.testng.Assert.fail(Assert.java:99)<br />
               org.testng.Assert.failNotEquals(Assert.java:1037)<br />
               org.testng.Assert.assertEqualsImpl(Assert.java:140)<br />
@@ -549,117 +127,7 @@ Session ID: 226539b00fa3df0613ccf2b3568df72e</b></a><br />
               org.testng.Assert.assertEquals(Assert.java:629)<br />
               org.testng.Assert.assertEquals(Assert.java:639)<br />
               Dealership.POM.Homepage(POM.java:91)<br />
-              Dealership.Workspace.Customer_Orders(Workspace.java:299)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br />
-              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br />
-              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
-              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
-              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br />
-              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.util.ArrayList.forEach(ArrayList.java:1259)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:794)<br />
-              org.testng.TestRunner.run(TestRunner.java:596)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:377)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:276)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1134)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1063)<br />
-              org.testng.TestNG.run(TestNG.java:1031)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  ServiceJobs
-      </td>
-  <td class="duration">
-    79.647s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\ServiceJobs - 12_12_2021 02_10_17 screenshot.png">Screenshot</a>
-                                Test Failed - screenshot captured for Method : ServiceJobs
-                                Status of execution : 2
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-8', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Home icon is missing expected [true] but found [false]</b></a><br />
-    <div class="stackTrace" id="exception-8">
-              org.testng.Assert.fail(Assert.java:99)<br />
-              org.testng.Assert.failNotEquals(Assert.java:1037)<br />
-              org.testng.Assert.assertTrue(Assert.java:45)<br />
-              Dealership.POM.Homepage(POM.java:87)<br />
               Dealership.Workspace.ServiceJobs(Workspace.java:135)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br />
-              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br />
-              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
-              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
-              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br />
-              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.util.ArrayList.forEach(ArrayList.java:1259)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:794)<br />
-              org.testng.TestRunner.run(TestRunner.java:596)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:377)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:276)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1134)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1063)<br />
-              org.testng.TestNG.run(TestNG.java:1031)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                </div>
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  StoreSummary
-      </td>
-  <td class="duration">
-    38.123s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\StoreSummary - 12_12_2021 02_08_58 screenshot.png">Screenshot</a>
-                                Test Failed - screenshot captured for Method : StoreSummary
-                                Status of execution : 2
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-9', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Home icon is missing expected [true] but found [false]</b></a><br />
-    <div class="stackTrace" id="exception-9">
-              org.testng.Assert.fail(Assert.java:99)<br />
-              org.testng.Assert.failNotEquals(Assert.java:1037)<br />
-              org.testng.Assert.assertTrue(Assert.java:45)<br />
-              Dealership.POM.Homepage(POM.java:87)<br />
-              Dealership.Workspace.StoreSummary(Workspace.java:48)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
@@ -696,20 +164,20 @@ Session ID: 226539b00fa3df0613ccf2b3568df72e</b></a><br />
                   Vendor_Orders
       </td>
   <td class="duration">
-    211.084s
+    80.768s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\Vendor_Orders - 12_12_2021 02_13_49 screenshot.png">Screenshot</a>
+                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\Vendor_Orders - 12_12_2021 02_54_10 screenshot.png">Screenshot</a>
                                 Test Failed - screenshot captured for Method : Vendor_Orders
                                 Status of execution : 2
                   </div>
     
 
-        <a href="javascript:toggleElement('exception-10', 'block')" title="Click to expand/collapse"><b>java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.</b></a><br />
-    <div class="stackTrace" id="exception-10">
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.</b></a><br />
+    <div class="stackTrace" id="exception-2">
               org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:92)<br />
               org.openqa.selenium.By$ByXPath.&lt;init&gt;(By.java:287)<br />
               org.openqa.selenium.By.xpath(By.java:89)<br />
@@ -748,6 +216,153 @@ Session ID: 226539b00fa3df0613ccf2b3568df72e</b></a><br />
       </table>
 
 
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">Dealership.Masterdata</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  AddCustomer
+      </td>
+  <td class="duration">
+    92.445s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Status of execution : 1
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AddFee
+      </td>
+  <td class="duration">
+    107.940s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Status of execution : 1
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AddKit
+      </td>
+  <td class="duration">
+    109.978s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Status of execution : 1
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AddLabor
+      </td>
+  <td class="duration">
+    94.980s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Status of execution : 1
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AddUnit
+      </td>
+  <td class="duration">
+    129.780s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Status of execution : 1
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  AddVendor
+      </td>
+  <td class="duration">
+    99.979s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Status of execution : 1
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">Dealership.Workspace</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  Customer_Orders
+      </td>
+  <td class="duration">
+    162.441s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Status of execution : 1
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  StoreSummary
+      </td>
+  <td class="duration">
+    154.536s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Status of execution : 1
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
   
 </body>
 </html>
