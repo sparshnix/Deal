@@ -15,7 +15,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -34,9 +38,7 @@ public class POM extends Variables {
 		 * +"chromedriver.exe" ; System.setProperty("webdriver.chrome.driver",
 		 * projectpath); WebDriver driver = new ChromeDriver();
 		 */
-
-		// call property class and get the value of browser string from
-		// config.properties file
+		// call property class and get the value of browser string from config.properties file
 		Property.testProperty();
 
 		if (browser.equalsIgnoreCase("Chrome")) {
@@ -47,59 +49,54 @@ public class POM extends Variables {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
-		if (browser.equalsIgnoreCase("IEDriver")) {
+		if (browser.equalsIgnoreCase("IE")) {
 			WebDriverManager.iedriver().setup();
 			driver = new FirefoxDriver();
 		}
 
 		driver.manage().window().maximize();
 		log.info("Windows maximized");
-//		System.out.println("Windows is maximized");
 
-		driver.get(url); // url gets its value from config.properties file via Property class
+		driver.get(url); 
 		log.info("URL entered");
-//		System.out.println("URL Entered");
 
 		WebElement Username = driver.findElement(By.id("username"));
 		Assert.assertTrue(Username.isDisplayed(), "Username field is missing");
 		log.info("Username field is visible");
-//		System.out.println("Username field is visible");
 		Username.sendKeys(username);
 		
 		WebElement Password = driver.findElement(By.id("password"));
 		Assert.assertTrue(Password.isDisplayed(), "Password field is missing");
 		log.info("Password field is visible");
-//		System.out.println("Password field is visible");
 		Password.sendKeys(password);
 		 
 		WebElement LoginButton =  driver.findElement(By.id("Login"));
 		Assert.assertTrue(LoginButton.isDisplayed(), "Login Button is missing");
 		log.info("Login Button is visible");
-//		System.out.println("Login Button is visible");
 		LoginButton.sendKeys(Keys.RETURN);
 		log.info("Login Button is clicked");
-		 
-		 
-		 String Actual = driver.getTitle(); 
-		 System.out.println(Actual); 
-		 String	Expected = "Blackpurl";
-		 Thread.sleep(20000);
-		 
-		 if(Actual.equalsIgnoreCase(Expected)) 
-		 {
-			 log.info("Title Matched");
-//			 System.out.println("Title Matched");
-		 }
-		 else 
-		 {
-			 log.info("Title not Matched");
-//			 System.out.println("Title not Matched"); 
-		 }
-		 
+		Thread.sleep(25000);
+ 
+	}
+
+	
+	public static void Homepage() throws InterruptedException
+	{
+		
+		WebElement Home = driver.findElement(By.xpath(home));
+		Assert.assertTrue(Home.isDisplayed(), "Home icon is missing");
+		log.info("Home icon is visible");
+		Home.click();
+		log.info("Home icon is clicked");
+		Assert.assertEquals(driver.getTitle(), "Blackpurl");
+		log.info("Title matched, Homepage is displayed");
+		Thread.sleep(25000);
 		
 	}
 	
-
+	
+	
+	
 	
 	
 //	{

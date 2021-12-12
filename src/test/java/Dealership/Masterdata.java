@@ -32,6 +32,10 @@ import org.testng.Reporter;
 import org.testng.annotations.*;
 import org.testng.annotations.Listeners;
 import org.testng.asserts.SoftAssert;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
 import io.github.bonigarcia.wdm.*;
 import org.testng.Reporter;
 
@@ -41,16 +45,20 @@ public class Masterdata extends POM {
 	private static Logger log = LogManager.getLogger(POM.class.getName());
 	public static String timestamp = new SimpleDateFormat("-dd_MM_yyyyhh_mm_ss").format(new Date());
 	public static String phonenumber = new SimpleDateFormat("MMyyyymmss").format(new Date());
-	public static String NewCustomer, NewVendor, NewPart, NewLabor, NewKit;
-	public static String New
+	public static String NewCustomer, NewVendor, NewPart, NewLabor, NewKit, NewFee, NewUnit;
+	
 	;
+
 
 	
 	@SuppressWarnings("deprecation")
 	
-	@Test
+	@Test(priority = 1)
 	public static void AddCustomer() throws Exception
 	{
+//		WebDriverWait wait = new WebDriverWait(driver,100);
+//		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(addnew)));
+		
 		WebElement Addnew = driver.findElement(By.xpath(addnew));
 		Assert.assertTrue(Addnew.isDisplayed(), "Button is missing");
 		log.info("Addnew button is displayed");
@@ -65,7 +73,7 @@ public class Masterdata extends POM {
 		Assert.assertTrue(Customer.isEnabled(), "Button is not clicked");
 		log.info("Customer button is clicked");
 		
-        Thread.sleep(5000);
+        Thread.sleep(10000);
 		
 		WebElement Smallheader = driver.findElement(By.xpath(smallheader));
 		Assert.assertTrue(Smallheader.isDisplayed(), "Button is missing");
@@ -92,6 +100,7 @@ public class Masterdata extends POM {
 		log.info("Account type field is visible");
 		Accounttypedropdown.click();
 		log.info("Account type  is clicked");
+		Thread.sleep(3000);
 		WebElement Accounttypevalue = driver.findElement(By.xpath(accounttypevalue));
 		Assert.assertTrue(Accounttypevalue.isDisplayed(), "Account type value is missing");
 		Accounttypevalue.click();
@@ -174,7 +183,7 @@ public class Masterdata extends POM {
 	}
 	
 	
-	@Test
+	@Test(priority = 2)
 	public static void AddVendor() throws InterruptedException
 	
 	{
@@ -258,10 +267,11 @@ public class Masterdata extends POM {
 		PostCode.sendKeys("001234");
 		log.info("Postcode is selected");
 		
-		WebElement Shippingaddressflag = driver.findElement(By.xpath(shippingaddressflag));
-		Assert.assertTrue(Shippingaddressflag.isDisplayed(), "Shippingaddressflag checkbox is missing");
-		Shippingaddressflag.click();
-		log.info("Shippingaddressflag is same as billing address");
+//		WebElement Shippingaddressflag = driver.findElement(By.xpath(shippingaddressflag));
+//		Assert.assertTrue(Shippingaddressflag.isDisplayed(), "Shippingaddressflag checkbox is missing");
+//		log.info("Shippingaddressflag checkbox is displayed");
+//		Shippingaddressflag.click();
+//		log.info("Shippingaddressflag is same as billing address");
 		
 //		WebElement  Part_Purchases = driver.findElement(By.xpath(part_Purchases));
 //		Assert.assertTrue(Part_Purchases.isDisplayed(), "Part_Purchases checkbox is missing");
@@ -312,10 +322,10 @@ public class Masterdata extends POM {
 		log.info("VendorAccountTypeIcon is selected");
 		
 		
-		
-		WebElement Save = driver.findElement(By.xpath(save));
-		Assert.assertTrue(Save.isDisplayed(), "Save button is missing");
-		Save.click();
+		WebElement SaveVendor = driver.findElement(By.xpath(saveVendor));
+		Assert.assertTrue(SaveVendor.isDisplayed(), "Save button is missing");
+		log.info("Save button is displayed");
+		SaveVendor.click();
 		log.info("Save button is clicked");
 		Thread.sleep(10000);
 		
@@ -334,7 +344,8 @@ public class Masterdata extends POM {
 	}
 	
 
-	@Test(dependsOnMethods = "AddVendor")
+	@Test(priority = 3)
+	
 	public static void AddPart() throws InterruptedException {
 		
 		WebElement Addnew = driver.findElement(By.xpath(addnew));
@@ -379,7 +390,7 @@ public class Masterdata extends POM {
 		log.info("Vendor_Input field is displayed");
 		Vendor_Input.sendKeys(NewVendor);
 //		Vendor_Input.sendKeys("Qavendor-30_11_202110_00_48");
-		Thread.sleep(5000);	
+		Thread.sleep(10000);	
 		WebElement VendorList = driver.findElement(By.id("SearchToaddCutomerSuggestions"));
 		VendorList.click();
 		log.info("Vendor_Input is entered");	
@@ -408,8 +419,8 @@ public class Masterdata extends POM {
 		log.info("Category_Input field is displayed");
 		Thread.sleep(2000);	
 //		Vendor_Input.sendKeys(NewVendor);
+		Category_Input.clear();
 		Category_Input.sendKeys("part");
-		
 		Thread.sleep(5000);	
 		WebElement Category_List = driver.findElement(By.id("SearchToaddCutomerSuggestions"));
 		Category_List.click();
@@ -487,7 +498,7 @@ public class Masterdata extends POM {
 		log.info("Part Save Button  is displayed");
 		PartSaveBtn.click();
 		log.info("save button is clicked");
-		Thread.sleep(10000);
+		Thread.sleep(20000);
 		
 		WebElement Searchbox = driver.findElement(By.id("globalSearchStrInput"));
 		Assert.assertTrue(Searchbox.isDisplayed(), "Searchbox is missing");
@@ -504,7 +515,7 @@ public class Masterdata extends POM {
 		
 	}
 	
-	@Test
+	@Test(priority = 4)
 	public static void AddLabor() throws InterruptedException
 	
 	{
@@ -590,7 +601,7 @@ public class Masterdata extends POM {
 		log.info("Applicabletax is entered");
 		
 		
-		WebElement SaveButton = driver.findElement(By.xpath("savebutton"));
+		WebElement SaveButton = driver.findElement(By.xpath(savebutton));
 		Assert.assertTrue(SaveButton.isDisplayed(), "SaveButton is missing");
 		log.info("SaveButton is displayed");
 		SaveButton.click();
@@ -610,7 +621,7 @@ public class Masterdata extends POM {
 		
 	}
 	
-	@Test
+	@Test(priority = 5)
 	public static void AddKit() throws InterruptedException
 	
 	{
@@ -716,7 +727,7 @@ public class Masterdata extends POM {
 		log.info("Save button is displayed");
 		Savekit.click();
 		log.info("Save button is clicked");
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		
 		WebElement Searchbox = driver.findElement(By.id("globalSearchStrInput"));
 		Assert.assertTrue(Searchbox.isDisplayed(), "Searchbox is missing");
@@ -731,6 +742,263 @@ public class Masterdata extends POM {
 		log.info("Kit is successfully created");
 		
 	}
+	
+	@Test(priority = 6)
+	public static void AddFee() throws InterruptedException 
+	{
+		
+		WebElement Addnew = driver.findElement(By.xpath(addnew));
+		Assert.assertTrue(Addnew.isDisplayed(), "Button is missing");
+		log.info("Addnew button is displayed");
+		Addnew.click();
+		Assert.assertTrue(Addnew.isEnabled(), "Button is not clicked");
+		log.info("Addnew button is clicked");
+		
+		WebElement Fee = driver.findElement(By.xpath(fee));
+		Assert.assertTrue(Fee.isDisplayed(), "Button is missing");
+		log.info("Fee button is displayed");
+		Fee.click();
+		Assert.assertTrue(Fee.isEnabled(), "Button is not clicked");
+		log.info("Fee button is clicked");
+        Thread.sleep(5000);
+		
+        WebElement Feeheader = driver.findElement(By.xpath(feeheader));
+		Assert.assertTrue(Feeheader.isDisplayed(), "Header is missing");
+		log.info("Fee header is displayed");
+		String Feeheadertext = Feeheader.getText();
+		System.out.println(Feeheadertext);
+		Assert.assertEquals(Feeheadertext, "New Fee");
+		log.info("Fee creation window is opened");
+				
+		WebElement FeeType = driver.findElement(By.xpath(feetype));
+		Assert.assertTrue(FeeType.isDisplayed(), "Field is missing");
+		Select select1 = new Select(FeeType);
+		select1.selectByIndex(1);
+		log.info("Fee type is selected");
+
+        WebElement FeetxtCode = driver.findElement(By.id("feetxtCode"));
+		Assert.assertTrue(FeetxtCode.isDisplayed(), "FeetxtCode is missing");
+		log.info("FeetxtCode field is displayed");
+		NewFee = feecode + timestamp;
+		FeetxtCode.sendKeys(NewFee);
+		log.info("Fee code is entered");
+		
+        WebElement FeetxtDescription = driver.findElement(By.id("feetxtDescription"));
+		Assert.assertTrue(FeetxtDescription.isDisplayed(), "Fee Description is missing");
+		log.info("Fee Description field is displayed");
+		String Description = "Test Description";
+		FeetxtDescription.sendKeys(Description);
+		log.info("Fee Description is entered");
+		
+		WebElement Price = driver.findElement(By.id("Rate"));
+		Assert.assertTrue(Price.isDisplayed(), "Fee Price is missing");
+		log.info("Fee Price field is displayed");
+		Price.clear();
+		Price.sendKeys("50");
+		log.info("Fee Price is entered");
+		
+		
+		WebElement CategoryName_Input = driver.findElement(By.id("CategoryName_Input"));
+		Assert.assertTrue(CategoryName_Input.isDisplayed(), "CategoryName_Input field is missing");
+		log.info("CategoryName_Input field is displayed");
+		CategoryName_Input.clear();
+		CategoryName_Input.sendKeys("Fee");
+		Thread.sleep(5000);	
+		WebElement CategoryName_List = driver.findElement(By.id("SearchToaddCutomerSuggestions"));
+		CategoryName_List.click();
+		log.info("CategoryName_List is entered");
+		
+		WebElement FeeTags = driver.findElement(By.xpath(Tags_fee));
+		Assert.assertTrue(FeeTags.isDisplayed(), "Tags field is missing");
+		log.info("Tags field is displayed");
+		FeeTags.click();
+		Thread.sleep(3000);
+		WebElement Select_tag = driver.findElement(By.id("tag_1"));
+		Select_tag.click();
+		log.info("Tag is selected");
+		
+		
+		//*[@id="Taxable"]/i
+		
+		WebElement Taxableflag = driver.findElement(By.xpath(taxableflag));
+		Assert.assertTrue(Taxableflag.isDisplayed(), "Taxableflag checkbox is missing");
+		Taxableflag.click();
+		log.info("Fee is taxable");
+		
+		WebElement Applicable_tax = driver.findElement(By.xpath(applicable_tax));
+		Assert.assertTrue(Applicable_tax.isDisplayed(), "Applicable_tax field is missing");
+		Thread.sleep(5000);
+		Select select2 = new Select(Applicable_tax);
+		select2.selectByIndex(2);
+		log.info("Applicable_tax is selected");
+		
+		WebElement Savefee = driver.findElement(By.xpath(savefee));
+		Assert.assertTrue(Savefee.isDisplayed(), "Save buttob is missing");
+		Savefee.click();
+		log.info("Save button is clicked");
+		Thread.sleep(10000);
+		
+		WebElement Searchbox = driver.findElement(By.id("globalSearchStrInput"));
+		Assert.assertTrue(Searchbox.isDisplayed(), "Searchbox is missing");
+		Searchbox.sendKeys(NewFee);
+		log.info("Fee Name is entered in searchbox");
+		Thread.sleep(10000);
+		
+		WebElement Verifyfee = driver.findElement(By.xpath(verifyfee));	
+		Assert.assertTrue(Verifyfee.isDisplayed(), "No relevent data appeared");
+		log.info("the text is " + Verifyfee.getText());		
+		Assert.assertEquals(NewFee + " - " +Description,Verifyfee.getText(), "Fee not found");
+		log.info("Fee is successfully created");
+		
+		
+	}
+	
+	@Test(priority = 7)
+	public static void AddUnit() throws InterruptedException
+	{
+		WebElement Addnew = driver.findElement(By.xpath(addnew));
+		Assert.assertTrue(Addnew.isDisplayed(), "Button is missing");
+		log.info("Addnew button is displayed");
+		Addnew.click();
+		Assert.assertTrue(Addnew.isEnabled(), "Button is not clicked");
+		log.info("Addnew button is clicked");
+		
+		WebElement Unit = driver.findElement(By.xpath(unit));
+		Assert.assertTrue(Unit.isDisplayed(), "Button is missing");
+		log.info("Stock Unit button is displayed");
+		Unit.click();
+		Assert.assertTrue(Unit.isEnabled(), "Button is not clicked");
+		log.info("Stock Unit button is clicked");
+        Thread.sleep(5000);
+		
+        WebElement Unitheader = driver.findElement(By.xpath(unitheader));
+		Assert.assertTrue(Unitheader.isDisplayed(), "Header is missing");
+		log.info("Stock Unit header is displayed");
+		String Unitheadertext = Unitheader.getText();
+		System.out.println(Unitheadertext);
+		Assert.assertEquals(Unitheadertext, "Add Stock Unit");
+		log.info("Stock Unit creation window is opened");
+		
+		WebElement VINFieldId = driver.findElement(By.id("VINFieldId"));
+		Assert.assertTrue(VINFieldId.isDisplayed(), "Button is missing");
+		log.info("VIN Field Id is displayed");
+		NewUnit = unitVIN + timestamp;
+		VINFieldId.sendKeys(NewUnit);
+		Assert.assertTrue(Unit.isEnabled(), "Button is not clicked");
+		log.info("VIN Field Id is filled");
+        Thread.sleep(5000);
+		
+        WebElement UnitMake = driver.findElement(By.xpath(unitmake));
+		Assert.assertTrue(UnitMake.isDisplayed(), "Make field is missing");
+		log.info("Make field is displayed");
+		UnitMake.click();
+		Thread.sleep(5000);
+		
+		WebElement Makeoption = driver.findElement(By.xpath(makeoption));
+		Makeoption.click();
+		log.info("Make is filled");
+		
+//		((JavascriptExecutor) driver).executeScript("scroll(0,1000)");
+		
+		WebElement UnitModel = driver.findElement(By.xpath(unitmodel));
+		Assert.assertTrue(UnitModel.isDisplayed(), "Model field is missing");
+		log.info("Model field is displayed");
+		UnitModel.click();
+		Thread.sleep(5000);
+		
+		WebElement Modeloption = driver.findElement(By.xpath(modeloption));
+		Modeloption.click();
+		log.info("Model is filled");
+		
+		WebElement UnitSubModel = driver.findElement(By.xpath(unitSubModel));
+		Assert.assertTrue(UnitSubModel.isDisplayed(), "SubModel field is missing");
+		log.info("SubModel field is displayed");
+		UnitSubModel.click();
+		Thread.sleep(5000);
+		
+		WebElement SubModeloption = driver.findElement(By.xpath(submodeloption));
+		SubModeloption.click();
+		log.info("SubModel is filled");
+		Thread.sleep(5000);
+		
+		WebElement Year = driver.findElement(By.xpath(year));
+		Assert.assertTrue(Year.isDisplayed(), "Year field is missing");
+		Select select1 = new Select(Year);
+		select1.selectByIndex(1);
+		log.info("Year is selected");
+
+		WebElement New_unit = driver.findElement(By.xpath(new_unit));
+		Assert.assertTrue(New_unit.isDisplayed(), "New_unit checkbox is missing");
+		log.info("New_unit flag is displayed");
+		New_unit.click();
+		log.info("New_unit flag is on");
+		
+		WebElement Exterior_colour = driver.findElement(By.xpath(exterior_colour));
+		Assert.assertTrue(Exterior_colour.isDisplayed(), "Exterior_colour field is missing");
+		log.info("Exterior_colour field is displayed");
+		Exterior_colour.sendKeys("Celadon");
+		log.info("Exterior_colour is selected");
+		
+		WebElement Stock = driver.findElement(By.xpath(stock));
+		Assert.assertTrue(Stock.isDisplayed(), "Stock ID field is missing");
+		log.info("Stock ID field is displayed");
+		Stock.sendKeys("Sku " + timestamp);
+		log.info("Stock ID is selected");
+		
+		WebElement Cost = driver.findElement(By.id("Cost"));
+		Assert.assertTrue(Cost.isDisplayed(), "Cost field is missing");
+		log.info("Cost field is displayed");
+		Cost.sendKeys("500");
+		log.info("Cost is selected");
+		
+		WebElement Price = driver.findElement(By.id("Price"));
+		Assert.assertTrue(Price.isDisplayed(), "Price field is missing");
+		log.info("Price field is displayed");
+		Price.sendKeys("700");
+		log.info("Price is selected");
+
+		WebElement UnitApplicable_tax = driver.findElement(By.xpath(unitApplicable_tax));
+		Assert.assertTrue(UnitApplicable_tax.isDisplayed(), "UnitApplicable_tax field is missing");
+		Select select2 = new Select(UnitApplicable_tax);
+		select2.selectByIndex(1);
+		log.info("UnitApplicable_tax is selected");
+		
+		WebElement TagInputBox = driver.findElement(By.id("tagInputBox"));
+		Assert.assertTrue(TagInputBox.isDisplayed(), "TagInputBox field is missing");
+		log.info("TagInputBox is displayed");
+		TagInputBox.click();
+		Thread.sleep(2000);
+		WebElement Taginputintem = driver.findElement(By.id("tag_0"));
+		Assert.assertTrue(Taginputintem.isDisplayed(), "Taginputlist is missing");
+		log.info("Taginputlist is displayed");
+		Taginputintem.click();
+		log.info("Taginputlist is selected");
+		
+		WebElement SaveUnit = driver.findElement(By.id("saveButton"));
+		Assert.assertTrue(SaveUnit.isDisplayed(), "Save Button is missing");
+		log.info("Save Button is displayed");
+		SaveUnit.click();
+		log.info("Save Button is selected");
+		Thread.sleep(10000);
+		
+		WebElement Searchbox = driver.findElement(By.id("globalSearchStrInput"));
+		Assert.assertTrue(Searchbox.isDisplayed(), "Searchbox is missing");
+		Searchbox.sendKeys(NewUnit);
+		log.info("Unit Name is entered in searchbox");
+		Thread.sleep(10000);
+		
+		WebElement Verifyunit = driver.findElement(By.xpath(verifyunit));	
+		Assert.assertTrue(Verifyunit.isDisplayed(), "No relevent data appeared");
+		log.info("the text is " + Verifyunit.getText());		
+		Assert.assertEquals(NewUnit,Verifyunit.getText(), "Unit not found");
+		log.info("Unit is successfully created");
+		
+		
+		
+	}
+	
+
+		
 	
 	
 }

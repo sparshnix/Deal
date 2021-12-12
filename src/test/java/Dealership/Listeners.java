@@ -16,10 +16,16 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
+import org.testng.annotations.BeforeTest;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+
 
 //ITestListeners interface which implements TestNG Listeners
 
-public class Listeners extends Masterdata implements ITestListener {
+public class Listeners extends POM implements ITestListener {
 	
 	private static Logger log = LogManager.getLogger(POM.class.getName());
 
@@ -27,13 +33,15 @@ public class Listeners extends Masterdata implements ITestListener {
 	@Override
 	public void onTestStart(ITestResult result) {
 		System.out.println("Running Test : " +result.getName());
+		log.info("Running Test : " +result.getName());				
 		try {
 			POM.Login();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		Reporter.log("Test Method is : " +result.getName());
+		
+		
 		
 	}
 
@@ -72,6 +80,7 @@ public class Listeners extends Masterdata implements ITestListener {
 			catch(Exception e) {
 			e.printStackTrace();
 	}
+
 	
 
 //		String testMethodName = result.getMethod().getMethodName();
@@ -89,7 +98,7 @@ public class Listeners extends Masterdata implements ITestListener {
 //			e.printStackTrace();
 //		}
 
-
+	
 	}
 
 	@Override
@@ -118,6 +127,7 @@ public class Listeners extends Masterdata implements ITestListener {
 	@Override
 	public void onFinish(ITestContext context) {
 		// TODO Auto-generated method stub
+		
 		driver.close();
 		
 	}

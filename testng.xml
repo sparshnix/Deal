@@ -4,16 +4,20 @@
 <listeners>
 	<listener class-name = "Dealership.Listeners" />
 	<listener class-name = "org.uncommons.reportng.HTMLReporter" />
-	<listener class-name = "org.uncommons.reportng.JUnitXMLReporter" />
-
+<!-- 	<listener class-name = "org.uncommons.reportng.JUnitXMLReporter" /> -->
+	
 </listeners>
 
   <test thread-count="5" name="Test">
+  <parameter name = "browser" value = "Chrome"> </parameter>
     <classes>
-      <class name="Dealership.Masterdata">
- 
-
-      </class>
+<!-- 		<class name="Dealership.Masterdata">  </class> -->
+<!-- 
+	<methods>
+		<include name="AddCustomer">  </include>
+    </methods> 
+ -->
+		<class name="Dealership.Workspace">  </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

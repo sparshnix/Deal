@@ -39,10 +39,14 @@ public class Property extends Variables {
 		vendorAccountNumber  		=	prop.getProperty("vendorAccountNumber");
 		laborcode 					=	prop.getProperty("laborcode");
 		kitcode						=	prop.getProperty("kitcode");
+		feecode						=	prop.getProperty("feecode");
+		unitVIN						=   prop.getProperty("unitVIN");
+		
 		
 		
 		
 		//Fetch the values from locators.properties 
+		//used for Masterdata
 		addnew                      =   locators.getProperty("addnew");
 		customer                    =   locators.getProperty("customer");
 		smallheader 				=	locators.getProperty("smallheader");
@@ -56,7 +60,7 @@ public class Property extends Variables {
 		verifyemail  				=	locators.getProperty("verifyemail");
 		vendor  					=	locators.getProperty("vendor");
 		shippingaddressflag  		=	locators.getProperty("shippingaddressflag");
-		save 						=	locators.getProperty("save");
+		saveVendor 					=	locators.getProperty("saveVendor");
 		vendorHeader  				=	locators.getProperty("vendorHeader");
 		purchaseTaxLevel  			=	locators.getProperty("purchaseTaxLevel");
 		vendorAccountTypeIcon  		=	locators.getProperty("vendorAccountTypeIcon");
@@ -86,6 +90,54 @@ public class Property extends Variables {
 		modeloption					=	locators.getProperty("modeloption");
 		submodeloption				=	locators.getProperty("submodeloption");
 		verifykit					=	locators.getProperty("verifykit");
+		fee							= 	locators.getProperty("fee");
+		feeheader					=	locators.getProperty("feeheader");
+		feetype						=	locators.getProperty("feetype");
+		Tags_fee					=	locators.getProperty("Tags_fee");
+		taxableflag					=	locators.getProperty("taxableflag");
+		applicable_tax				=   locators.getProperty("applicable_tax");
+		savefee						=   locators.getProperty("savefee");
+		verifyfee					=   locators.getProperty("verifyfee");
+		unit						=   locators.getProperty("unit");
+		unitheader					=   locators.getProperty("unitheader");
+		unitmake					=   locators.getProperty("unitmake");				
+		unitmodel					=   locators.getProperty("unitmodel");
+		unitSubModel				=   locators.getProperty("unitSubModel");
+		year						=   locators.getProperty("year");
+		new_unit					=   locators.getProperty("new_unit");
+		exterior_colour				=   locators.getProperty("exterior_colour");
+		stock						=   locators.getProperty("stock");
+		unitApplicable_tax			=   locators.getProperty("unitApplicable_tax");
+		verifyunit					=   locators.getProperty("verifyunit");
 		
+		//used for workspace
+		home						=   locators.getProperty("home");
+		storesummary				=   locators.getProperty("storesummary");
+		today						=   locators.getProperty("today");
+		last_7_days					=   locators.getProperty("last_7_days");
+		last_30_days				=   locators.getProperty("last_30_days");
+		invoices					=   locators.getProperty("invoices");
+		searchtag1					=   locators.getProperty("searchtag1");
+		payments					=   locators.getProperty("payments");
+		new_customers				=   locators.getProperty("new_customers");
+		servicejobs					=   locators.getProperty("servicejobs");
+		customerpay					=   locators.getProperty("customerpay");
+		thirdparty					=   locators.getProperty("thirdparty");
+		internal					=   locators.getProperty("internal");
+		deal						=   locators.getProperty("deal");
+		new_link					=   locators.getProperty("new_link");
+		active						=   locators.getProperty("active");
+		completed					=   locators.getProperty("completed");
+		searchtag2					=   locators.getProperty("searchtag2");
+		vendor_orders				=   locators.getProperty("vendor_orders");
+		active_orders1 				= 	locators.getProperty("active_orders");
+		active_receiving 			= 	locators.getProperty("active_receiving");
+		parts_needed 				=   locators.getProperty("parts_needed");
+		searchtag3					=   locators.getProperty("searchtag3");
+		customer_orders				=   locators.getProperty("customer_orders");
+		active_orders2				=   locators.getProperty("active_orders2");
+		deposits					=   locators.getProperty("deposits");
+		balance_due					=   locators.getProperty("balance_due");
+		searchtag4					=   locators.getProperty("searchtag4");
 	 }
 }
