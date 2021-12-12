@@ -8,11 +8,44 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">162,423</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">474,920</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Dealership.Workspace</td><td><a href="#m0">Customer_Orders</a></td><td rowspan="1">1639142932195</td><td rowspan="1">162369</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">Dealership.Workspace</td><td><a href="#m0">ServiceJobs</a></td><td rowspan="1">1639296028265</td><td rowspan="1">60036</td></tr><tr class="failedeven"><td><a href="#m1">StoreSummary</a></td><td rowspan="1">1639295837883</td><td rowspan="1">189804</td></tr><tr class="failedeven"><td><a href="#m2">Vendor_Orders</a></td><td rowspan="1">1639296088492</td><td rowspan="1">56666</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Dealership.Workspace</td><td><a href="#m3">Customer_Orders</a></td><td rowspan="1">1639296145368</td><td rowspan="1">167364</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">Dealership.Workspace#Customer_Orders</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Status of execution : 1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">Dealership.Workspace#ServiceJobs</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\ServiceJobs - 12_12_2021 01_31_28 screenshot.png">Screenshot</a><br/>Test Failed - screenshot captured for Method : ServiceJobs<br/>Status of execution : 2</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Blackpurl] but found []
+	at Dealership.POM.Homepage(POM.java:91)
+	at Dealership.Workspace.ServiceJobs(Workspace.java:135)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Dealership.Workspace#StoreSummary</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\StoreSummary - 12_12_2021 01_30_28 screenshot.png">Screenshot</a><br/>Test Failed - screenshot captured for Method : StoreSummary<br/>Status of execution : 2</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;BP_Home_mainContainer&quot;]/div[1]/div/div[1]/div/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/span[1]&quot;}
+  (Session info: chrome=96.0.4664.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [60f0f2a4b2691ab53e8752457ba96450, findElement {using=xpath, value=//*[@id=&quot;BP_Home_mainContainer&quot;]/div[1]/div/div[1]/div/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60521/devtoo..., se:cdpVersion: 96.0.4664.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60f0f2a4b2691ab53e8752457ba96450
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at Dealership.Workspace.StoreSummary(Workspace.java:87)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Dealership.Workspace#Vendor_Orders</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\Vendor_Orders - 12_12_2021 01_32_25 screenshot.png">Screenshot</a><br/>Test Failed - screenshot captured for Method : Vendor_Orders<br/>Status of execution : 2</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Blackpurl] but found []
+	at Dealership.POM.Homepage(POM.java:91)
+	at Dealership.Workspace.Vendor_Orders(Workspace.java:233)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Dealership.Workspace#Customer_Orders</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Status of execution : 1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

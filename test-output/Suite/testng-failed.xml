@@ -10,7 +10,9 @@
     <classes>
       <class name="Dealership.Workspace">
         <methods>
+          <include name="Vendor_Orders"/>
           <include name="StoreSummary"/>
+          <include name="ServiceJobs"/>
         </methods>
       </class> <!-- Dealership.Workspace -->
     </classes>
