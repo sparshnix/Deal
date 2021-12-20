@@ -45,7 +45,7 @@ public class Workspace extends POM {
 	@Test(priority = 8)
 	public static void StoreSummary() throws Exception
 	{
-		POM.Homepage();
+		
 		WebElement StoreSummaryTab = driver.findElement(By.xpath(storesummary));
 		Assert.assertTrue(StoreSummaryTab.isDisplayed(), "Store Summary tab is missing");
 		log.info("Store Summary tab is visible");
@@ -132,7 +132,7 @@ public class Workspace extends POM {
 	@Test(priority = 9)
 	public static void ServiceJobs() throws Exception
 	{
-		POM.Homepage();
+	
 		WebElement ServiceJobsTab = driver.findElement(By.xpath(servicejobs));
 		Assert.assertTrue(ServiceJobsTab.isDisplayed(), "Store Summary tab is missing");
 		log.info("Service Jobs tab is visible");
@@ -230,7 +230,7 @@ public class Workspace extends POM {
 	public static void Vendor_Orders() throws Exception
 	
 	{
-		POM.Homepage();
+		
 		WebElement Vendor_Orders = driver.findElement(By.xpath(vendor_orders));
 		Assert.assertTrue(Vendor_Orders.isDisplayed(), "Vendor_Orders tab is missing");
 		log.info("Vendor_Orders tab is visible");
@@ -296,7 +296,7 @@ public class Workspace extends POM {
 	public static void Customer_Orders() throws Exception
 	
 	{
-		POM.Homepage();
+		
 		WebElement Customer_Orders = driver.findElement(By.xpath(customer_orders));
 		Assert.assertTrue(Customer_Orders.isDisplayed(), "Customer_Orders tab is missing");
 		log.info("Customer_Orders tab is visible");
@@ -358,7 +358,29 @@ public class Workspace extends POM {
 		
 	}
 	
+	@Test(priority = 12)
+	public static void Activity_Feed() throws Exception
+	{
 	
+		WebElement Activity_Feed = driver.findElement(By.xpath(activity_feed));
+		Assert.assertTrue(Activity_Feed.isDisplayed(), "Activity_Feed tab is missing");
+		log.info("Activity_Feed tab is visible");
+		
+		WebElement MyActivity = driver.findElement(By.xpath(myactivity));
+		Assert.assertTrue(MyActivity.isDisplayed(), "MyActivity link is missing");
+		log.info("MyActivity link is visible");
+		Assert.assertTrue(MyActivity.isEnabled(), "MyActivity link is grayed out");
+		MyActivity.click();
+		log.info("MyActivity link is clickable");
+		
+		WebElement StoreActivity = driver.findElement(By.xpath(storeactivity));
+		Assert.assertTrue(StoreActivity.isDisplayed(), "StoreActivity link is missing");
+		log.info("StoreActivity link is visible");
+		Assert.assertTrue(StoreActivity.isEnabled(), "StoreActivity link is grayed out");
+		StoreActivity.click();
+		log.info("StoreActivity link is clickable");
+		
+	}
 	
 	
 	

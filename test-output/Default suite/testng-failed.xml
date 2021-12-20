@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Dealership.Workspace">
+      <class name="Dealership.Sell">
         <methods>
-          <include name="Vendor_Orders"/>
+          <include name="servicejob"/>
         </methods>
-      </class> <!-- Dealership.Workspace -->
+      </class> <!-- Dealership.Sell -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

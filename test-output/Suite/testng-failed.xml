@@ -8,15 +8,10 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="Dealership.Masterdata">
-        <methods>
-          <include name="AddPart"/>
-        </methods>
-      </class> <!-- Dealership.Masterdata -->
       <class name="Dealership.Workspace">
         <methods>
-          <include name="Vendor_Orders"/>
-          <include name="ServiceJobs"/>
+          <include name="Activity_Feed"/>
+          <include name="Customer_Orders"/>
         </methods>
       </class> <!-- Dealership.Workspace -->
     </classes>

@@ -109,6 +109,7 @@ public class Property extends Variables {
 		stock						=   locators.getProperty("stock");
 		unitApplicable_tax			=   locators.getProperty("unitApplicable_tax");
 		verifyunit					=   locators.getProperty("verifyunit");
+		kititemplusicon				=   locators.getProperty("kititemplusicon");
 		
 		//used for workspace
 		home						=   locators.getProperty("home");
@@ -130,7 +131,7 @@ public class Property extends Variables {
 		completed					=   locators.getProperty("completed");
 		searchtag2					=   locators.getProperty("searchtag2");
 		vendor_orders				=   locators.getProperty("vendor_orders");
-		active_orders1 				= 	locators.getProperty("active_orders");
+		active_orders1 				= 	locators.getProperty("active_orders1");
 		active_receiving 			= 	locators.getProperty("active_receiving");
 		parts_needed 				=   locators.getProperty("parts_needed");
 		searchtag3					=   locators.getProperty("searchtag3");
@@ -139,5 +140,48 @@ public class Property extends Variables {
 		deposits					=   locators.getProperty("deposits");
 		balance_due					=   locators.getProperty("balance_due");
 		searchtag4					=   locators.getProperty("searchtag4");
+		activity_feed				=   locators.getProperty("activity_feed");
+		myactivity					=   locators.getProperty("myactivity");
+		storeactivity				=   locators.getProperty("storeactivity");
+		
+		//used for Sell
+		sell						=   locators.getProperty("sell");
+		selectcustomerdropdown		=   locators.getProperty("selectcustomerdropdown");
+		sellpartandaccs				=   locators.getProperty("sellpartandaccs");
+		activeorders				=   locators.getProperty("activeorders");
+		activeorderbutton			=   locators.getProperty("activeorderbutton");
+		merchandiseSectionId		=   locators.getProperty("merchandiseSectionId");
+		checkout_button				=   locators.getProperty("checkout_button");
+		setCashDrawerModalWindow	=   locators.getProperty("setCashDrawerModalWindow");
+		selectdrawerbutton			=   locators.getProperty("selectdrawerbutton");
+		cashoption					=   locators.getProperty("cashoption");
+		addpayment					=   locators.getProperty("addpayment");
+		finalizebutton				=   locators.getProperty("finalizebutton");
+		invoicewindow				=   locators.getProperty("invoicewindow");
+		invoiceclosebutton			=   locators.getProperty("invoiceclosebutton");
+		costatus					=   locators.getProperty("costatus");
+		cancel						=   locators.getProperty("cancel");
+		servicejob					=   locators.getProperty("servicejob");
+		servicejobstatus			=   locators.getProperty("servicejobstatus");
+		servicejobdropdown			=   locators.getProperty("servicejobdropdown");
+		servicejobdetails			=   locators.getProperty("servicejobdetails");
+		addcustomerunit				=   locators.getProperty("addcustomerunit");
+		tempUnitMmodalWindow		=   locators.getProperty("tempUnitMmodalWindow");
+		addbutton					=   locators.getProperty("addbutton");
+		odometer_on_arrival			=   locators.getProperty("odometer_on_arrival");
+		odometer_on_departure		=   locators.getProperty("odometer_on_departure");
+		productwindow				=	locators.getProperty("productwindow");
+		lpjItems					=	locators.getProperty("lpjItems");
+		notes_for_customers			=	locators.getProperty("notes_for_customers");
+		techniciantime				=	locators.getProperty("techniciantime");
+		clockingStaffPopupforCO		=	locators.getProperty("clockingStaffPopupforCO");	
+		technician1					=	locators.getProperty("technician1");
+		documents					=	locators.getProperty("documents");
+		addforms					=	locators.getProperty("addforms");
+		documentFormModalWindowHeader=	locators.getProperty("documentFormModalWindowHeader");
+		docCheckbox					=	locators.getProperty("docCheckbox");
+		addselected					=	locators.getProperty("addselected");
+		customerapproval			=	locators.getProperty("customerapproval");
+		
 	 }
 }
