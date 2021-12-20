@@ -50,7 +50,8 @@ public class Listeners extends POM implements ITestListener {
 		// TODO Auto-generated method stub
 		Reporter.log("Status of execution : " +result.getStatus());
 		log.info("Test case " +result.getName()+ " passes successfully");
-		
+		Reporter.log("Test case " +result.getName()+ " passes successfully");
+
 	}
 
 	@Override
