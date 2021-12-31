@@ -248,9 +248,10 @@ public class Sell extends POM {
 		log.info("ServiceJobDetails is visible");
 		ServiceJobDetails.click();
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("Concern0")));
-
 		
-//		if(driver.findElement(By.xpath(addcustomerunit)).isDisplayed())
+		
+
+		//		if(driver.findElement(By.xpath(addcustomerunit)).isDisplayed())
 		if(!driver.findElement(By.xpath(customerownedunit)).isDisplayed())
 
 		{
