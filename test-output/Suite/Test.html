@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 14 12:47:39 IST 2021</td>
+<td>Started on:</td><td>Tue Dec 21 16:14:55 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>1207 seconds (1207256 ms)</td>
+<tr><td>Total time:</td><td>1121 seconds (1121031 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,172 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Dealership.Masterdata.AddCustomer()'><b>AddCustomer</b><br>Test class: Dealership.Masterdata<br/>
+<a href="#Output-473885596" onClick='toggleBox("Output-473885596", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-473885596" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-473885596">
+<a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\AddCustomer - 21_12_2021 04_15_41 screenshot.png">Screenshot</a><br/>
+Test Failed - screenshot captured for Method : AddCustomer<br/>
+Status of execution : 2<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;customerpopup&quot;]/div[2]/div/div[1]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d2f8d0da816a1ac98b4ac46367a8aed, findElement {using=xpath, value=//*[@id=&quot;customerpopup&quot;]/div[2]/div/div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62471/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d2f8d0da816a1ac98b4ac46367a8aed
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at Dealership.Masterdata.AddCustomer(Masterdata.java:78)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace473885596", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace473885596'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;customerpopup&quot;]/div[2]/div/div[1]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d2f8d0da816a1ac98b4ac46367a8aed, findElement {using=xpath, value=//*[@id=&quot;customerpopup&quot;]/div[2]/div/div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62471/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d2f8d0da816a1ac98b4ac46367a8aed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at Dealership.Masterdata.AddCustomer(Masterdata.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>45</td>
+<td>Dealership.Masterdata@d9345cd</td></tr>
+<tr>
+<td title='Dealership.Workspace.Customer_Orders()'><b>Customer_Orders</b><br>Test class: Dealership.Workspace<br/>
+<a href="#Output-1015294507" onClick='toggleBox("Output-1015294507", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1015294507" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1015294507">
+<a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\Customer_Orders - 21_12_2021 04_32_46 screenshot.png">Screenshot</a><br/>
+Test Failed - screenshot captured for Method : Customer_Orders<br/>
+Status of execution : 2<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;activeCardList&quot;]/div[4]/div/div/div[1]/div/div/span&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3cdaa7c017588792f539ecb2f9b6dd8, findElement {using=xpath, value=//*[@id=&quot;activeCardList&quot;]/div[4]/div/div/div[1]/div/div/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65352/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a3cdaa7c017588792f539ecb2f9b6dd8
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at Dealership.Workspace.Customer_Orders(Workspace.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1015294507", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1015294507'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;activeCardList&quot;]/div[4]/div/div/div[1]/div/div/span&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3cdaa7c017588792f539ecb2f9b6dd8, findElement {using=xpath, value=//*[@id=&quot;activeCardList&quot;]/div[4]/div/div/div[1]/div/div/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65352/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a3cdaa7c017588792f539ecb2f9b6dd8
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at Dealership.Workspace.Customer_Orders(Workspace.java:300)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>32</td>
+<td>Dealership.Workspace@52b1beb6</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,160 +242,134 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Dealership.Masterdata.AddFee()'><b>AddFee</b><br>Test class: Dealership.Masterdata<br/>
-<a href="#Output-980963673" onClick='toggleBox("Output-980963673", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-95829094" onClick='toggleBox("Output-95829094", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-980963673" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-980963673">
+<a href="#Output-95829094" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-95829094">
 Status of execution : 1<br/>
 Test case AddFee passes successfully<br/>
 </div>
 </td>
 <td></td>
-<td>85</td>
-<td>Dealership.Masterdata@d9345cd</td></tr>
-<tr>
-<td title='Dealership.Masterdata.AddLabor()'><b>AddLabor</b><br>Test class: Dealership.Masterdata<br/>
-<a href="#Output-1889048700" onClick='toggleBox("Output-1889048700", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1889048700" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1889048700">
-Status of execution : 1<br/>
-Test case AddLabor passes successfully<br/>
-</div>
-</td>
-<td></td>
-<td>58</td>
-<td>Dealership.Masterdata@d9345cd</td></tr>
-<tr>
-<td title='Dealership.Workspace.StoreSummary()'><b>StoreSummary</b><br>Test class: Dealership.Workspace<br/>
-<a href="#Output-2102914386" onClick='toggleBox("Output-2102914386", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2102914386" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2102914386">
-Status of execution : 1<br/>
-Test case StoreSummary passes successfully<br/>
-</div>
-</td>
-<td></td>
-<td>128</td>
-<td>Dealership.Workspace@52b1beb6</td></tr>
-<tr>
-<td title='Dealership.Workspace.Vendor_Orders()'><b>Vendor_Orders</b><br>Test class: Dealership.Workspace<br/>
-<a href="#Output-1458616247" onClick='toggleBox("Output-1458616247", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1458616247" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1458616247">
-Status of execution : 1<br/>
-Test case Vendor_Orders passes successfully<br/>
-</div>
-</td>
-<td></td>
-<td>129</td>
-<td>Dealership.Workspace@52b1beb6</td></tr>
-<tr>
-<td title='Dealership.Masterdata.AddCustomer()'><b>AddCustomer</b><br>Test class: Dealership.Masterdata<br/>
-<a href="#Output-2079662527" onClick='toggleBox("Output-2079662527", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2079662527" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2079662527">
-Status of execution : 1<br/>
-Test case AddCustomer passes successfully<br/>
-</div>
-</td>
-<td></td>
-<td>98</td>
-<td>Dealership.Masterdata@d9345cd</td></tr>
-<tr>
-<td title='Dealership.Masterdata.AddPart()'><b>AddPart</b><br>Test class: Dealership.Masterdata<br/>
-<a href="#Output-1018407160" onClick='toggleBox("Output-1018407160", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1018407160" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1018407160">
-Status of execution : 1<br/>
-Test case AddPart passes successfully<br/>
-</div>
-</td>
-<td></td>
-<td>94</td>
-<td>Dealership.Masterdata@d9345cd</td></tr>
-<tr>
-<td title='Dealership.Masterdata.AddVendor()'><b>AddVendor</b><br>Test class: Dealership.Masterdata<br/>
-<a href="#Output-1999904280" onClick='toggleBox("Output-1999904280", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1999904280" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1999904280">
-Status of execution : 1<br/>
-Test case AddVendor passes successfully<br/>
-</div>
-</td>
-<td></td>
-<td>78</td>
+<td>88</td>
 <td>Dealership.Masterdata@d9345cd</td></tr>
 <tr>
 <td title='Dealership.Masterdata.AddUnit()'><b>AddUnit</b><br>Test class: Dealership.Masterdata<br/>
-<a href="#Output-1166538742" onClick='toggleBox("Output-1166538742", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1902090125" onClick='toggleBox("Output-1902090125", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1166538742" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1166538742">
+<a href="#Output-1902090125" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1902090125">
 Status of execution : 1<br/>
 Test case AddUnit passes successfully<br/>
 </div>
 </td>
 <td></td>
-<td>101</td>
+<td>104</td>
 <td>Dealership.Masterdata@d9345cd</td></tr>
 <tr>
-<td title='Dealership.Workspace.Activity_Feed()'><b>Activity_Feed</b><br>Test class: Dealership.Workspace<br/>
-<a href="#Output-22595593" onClick='toggleBox("Output-22595593", this, "Show output", "Hide output");'>Show output</a>
+<td title='Dealership.Masterdata.AddVendor()'><b>AddVendor</b><br>Test class: Dealership.Masterdata<br/>
+<a href="#Output-1872312314" onClick='toggleBox("Output-1872312314", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-22595593" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-22595593">
+<a href="#Output-1872312314" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1872312314">
 Status of execution : 1<br/>
-Test case Activity_Feed passes successfully<br/>
+Test case AddVendor passes successfully<br/>
 </div>
 </td>
 <td></td>
-<td>44</td>
-<td>Dealership.Workspace@52b1beb6</td></tr>
-<tr>
-<td title='Dealership.Workspace.Customer_Orders()'><b>Customer_Orders</b><br>Test class: Dealership.Workspace<br/>
-<a href="#Output-538133803" onClick='toggleBox("Output-538133803", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-538133803" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-538133803">
-Status of execution : 1<br/>
-Test case Customer_Orders passes successfully<br/>
-</div>
-</td>
-<td></td>
-<td>117</td>
-<td>Dealership.Workspace@52b1beb6</td></tr>
-<tr>
-<td title='Dealership.Masterdata.AddKit()'><b>AddKit</b><br>Test class: Dealership.Masterdata<br/>
-<a href="#Output-1352999931" onClick='toggleBox("Output-1352999931", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1352999931" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1352999931">
-Status of execution : 1<br/>
-Test case AddKit passes successfully<br/>
-</div>
-</td>
-<td></td>
-<td>89</td>
+<td>81</td>
 <td>Dealership.Masterdata@d9345cd</td></tr>
+<tr>
+<td title='Dealership.Masterdata.AddPart()'><b>AddPart</b><br>Test class: Dealership.Masterdata<br/>
+<a href="#Output-1069919494" onClick='toggleBox("Output-1069919494", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1069919494" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1069919494">
+Status of execution : 1<br/>
+Test case AddPart passes successfully<br/>
+</div>
+</td>
+<td></td>
+<td>91</td>
+<td>Dealership.Masterdata@d9345cd</td></tr>
+<tr>
+<td title='Dealership.Workspace.StoreSummary()'><b>StoreSummary</b><br>Test class: Dealership.Workspace<br/>
+<a href="#Output-235705640" onClick='toggleBox("Output-235705640", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-235705640" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-235705640">
+Status of execution : 1<br/>
+Test case StoreSummary passes successfully<br/>
+</div>
+</td>
+<td></td>
+<td>130</td>
+<td>Dealership.Workspace@52b1beb6</td></tr>
 <tr>
 <td title='Dealership.Workspace.ServiceJobs()'><b>ServiceJobs</b><br>Test class: Dealership.Workspace<br/>
-<a href="#Output-492324998" onClick='toggleBox("Output-492324998", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1172173160" onClick='toggleBox("Output-1172173160", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-492324998" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-492324998">
+<a href="#Output-1172173160" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1172173160">
 Status of execution : 1<br/>
 Test case ServiceJobs passes successfully<br/>
 </div>
 </td>
 <td></td>
-<td>181</td>
+<td>182</td>
 <td>Dealership.Workspace@52b1beb6</td></tr>
+<tr>
+<td title='Dealership.Workspace.Activity_Feed()'><b>Activity_Feed</b><br>Test class: Dealership.Workspace<br/>
+<a href="#Output-446863911" onClick='toggleBox("Output-446863911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-446863911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-446863911">
+Status of execution : 1<br/>
+Test case Activity_Feed passes successfully<br/>
+</div>
+</td>
+<td></td>
+<td>49</td>
+<td>Dealership.Workspace@52b1beb6</td></tr>
+<tr>
+<td title='Dealership.Masterdata.AddKit()'><b>AddKit</b><br>Test class: Dealership.Masterdata<br/>
+<a href="#Output-866615600" onClick='toggleBox("Output-866615600", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-866615600" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-866615600">
+Status of execution : 1<br/>
+Test case AddKit passes successfully<br/>
+</div>
+</td>
+<td></td>
+<td>90</td>
+<td>Dealership.Masterdata@d9345cd</td></tr>
+<tr>
+<td title='Dealership.Workspace.Vendor_Orders()'><b>Vendor_Orders</b><br>Test class: Dealership.Workspace<br/>
+<a href="#Output-1060881554" onClick='toggleBox("Output-1060881554", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1060881554" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1060881554">
+Status of execution : 1<br/>
+Test case Vendor_Orders passes successfully<br/>
+</div>
+</td>
+<td></td>
+<td>131</td>
+<td>Dealership.Workspace@52b1beb6</td></tr>
+<tr>
+<td title='Dealership.Masterdata.AddLabor()'><b>AddLabor</b><br>Test class: Dealership.Masterdata<br/>
+<a href="#Output-349290670" onClick='toggleBox("Output-349290670", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-349290670" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-349290670">
+Status of execution : 1<br/>
+Test case AddLabor passes successfully<br/>
+</div>
+</td>
+<td></td>
+<td>91</td>
+<td>Dealership.Masterdata@d9345cd</td></tr>
 </table><p>
 </body>
 </html>

@@ -41,7 +41,6 @@ public class Workspace extends POM {
 	
 	private static Logger log = LogManager.getLogger(POM.class.getName());
 	
-	
 	@Test(priority = 8)
 	public static void StoreSummary() throws Exception
 	{

@@ -182,6 +182,41 @@ public class Property extends Variables {
 		docCheckbox					=	locators.getProperty("docCheckbox");
 		addselected					=	locators.getProperty("addselected");
 		customerapproval			=	locators.getProperty("customerapproval");
+		sellAUnit					=	locators.getProperty("sellAUnit");
+		unitdealstatus				=	locators.getProperty("unitdealstatus");
+		unitoptionsstatus			=	locators.getProperty("unitoptionsstatus");
+		summary						=	locators.getProperty("summary");
+		unit1						=	locators.getProperty("unit1");
+		unitName					=	locators.getProperty("unitName");
+		option_fee					=	locators.getProperty("option_fee");
+		notesforcustomer			=	locators.getProperty("notesforcustomer");
+		dealstatuswindow			=	locators.getProperty("dealstatuswindow");
+		saveStatus					=	locators.getProperty("saveStatus");
+		optionstatuswindow			=	locators.getProperty("optionstatuswindow");
+		commitoptions				=	locators.getProperty("commitoptions");
+		dealservice1				=	locators.getProperty("dealservice1");
+		serviceitems				=	locators.getProperty("serviceitems");
+		serviceoption				=	locators.getProperty("serviceoption");
+		jobstatus					=	locators.getProperty("jobstatus");
+		savejobstatus				=	locators.getProperty("savejobstatus");
+		savefinalizejob				=	locators.getProperty("savefinalizejob");
+		internalhistory				=	locators.getProperty("internalhistory");
+		saveCustomerApproval		=	locators.getProperty("saveCustomerApproval");
+		approvalID					=	locators.getProperty("approvalID");
+		customerownedunit			=	locators.getProperty("customerownedunit");
+		searchentitytext			=	locators.getProperty("searchentitytext");
+		verifyTechnician			=	locators.getProperty("verifyTechnician");
+		completestatus				=	locators.getProperty("completestatus");
+		servicejobelement			=	locators.getProperty("servicejobelement");
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	 }
 }

@@ -16,6 +16,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -39,10 +40,7 @@ public class Listeners extends POM implements ITestListener {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-		
-		
-		
+		}		
 	}
 
 	@Override
@@ -51,12 +49,17 @@ public class Listeners extends POM implements ITestListener {
 		Reporter.log("Status of execution : " +result.getStatus());
 		log.info("Test case " +result.getName()+ " passes successfully");
 		Reporter.log("Test case " +result.getName()+ " passes successfully");
-
+		try {
+			Thread.sleep(5000);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		driver.quit();
 	}
 
 	@Override
-	public void onTestFailure(ITestResult result) {
-		
+	public void onTestFailure(ITestResult result) {	
 		
 		try {
 			File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
@@ -76,6 +79,8 @@ public class Listeners extends POM implements ITestListener {
 			Reporter.log("Test Failed - screenshot captured for Method : " +result.getName());
 			Reporter.log("Status of execution : " +result.getStatus());
 			log.fatal("Test Failed - screenshot captured for Method : " +result.getName());
+			Thread.sleep(5000);
+			driver.quit();
 			
 			} 
 			catch(Exception e) {
@@ -129,7 +134,6 @@ public class Listeners extends POM implements ITestListener {
 	public void onFinish(ITestContext context) {
 		// TODO Auto-generated method stub
 		
-		driver.close();
 		
 	}
 
