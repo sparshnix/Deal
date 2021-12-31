@@ -37,7 +37,13 @@ public class Variables {
 	servicejobstatus, servicejobdropdown, servicejobdetails, addcustomerunit, tempUnitMmodalWindow,
 	addbutton, odometer_on_arrival, odometer_on_departure, productwindow, lpjItems, notes_for_customers,
 	techniciantime, clockingStaffPopupforCO, technician1, documents, addforms,	
-	documentFormModalWindowHeader, docCheckbox, addselected, customerapproval
+	documentFormModalWindowHeader, docCheckbox, addselected, customerapproval, sellAUnit,
+	unitdealstatus, unitoptionsstatus, summary, unit1, unitName, option_fee, notesforcustomer,
+	dealstatuswindow, saveStatus, optionstatuswindow, commitoptions, dealservice1, serviceitems,
+	serviceoption, jobstatus, savejobstatus, savefinalizejob, internalhistory, saveCustomerApproval,
+	approvalID, customerownedunit, searchentitytext, verifyTechnician, completestatus,
+	servicejobelement
+	
 	
 	
 	
