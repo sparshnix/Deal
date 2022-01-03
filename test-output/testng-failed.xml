@@ -5,7 +5,7 @@
     <classes>
       <class name="Dealership.Sell">
         <methods>
-          <include name="servicejob"/>
+          <include name="UnitDeal"/>
         </methods>
       </class> <!-- Dealership.Sell -->
     </classes>

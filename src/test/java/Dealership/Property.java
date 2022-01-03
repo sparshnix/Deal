@@ -208,13 +208,13 @@ public class Property extends Variables {
 		verifyTechnician			=	locators.getProperty("verifyTechnician");
 		completestatus				=	locators.getProperty("completestatus");
 		servicejobelement			=	locators.getProperty("servicejobelement");
-		
-		
-		
-		
-		
-		
-		
+		optionaAndfee				=	locators.getProperty("optionaAndfee");
+		inprogresscheckbox			=	locators.getProperty("inprogresscheckbox");
+		completeStatus				=	locators.getProperty("completeStatus");
+		closeBrandingPopup			=	locators.getProperty("closeBrandingPopup"); 
+		cancelbranding				=	locators.getProperty("cancelbranding");
+		approvecheckbox				=	locators.getProperty("approvecheckbox");
+		scanandsearch				=	locators.getProperty("scanandsearch");
 		
 		
 		
