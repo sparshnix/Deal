@@ -42,7 +42,8 @@ public class Variables {
 	dealstatuswindow, saveStatus, optionstatuswindow, commitoptions, dealservice1, serviceitems,
 	serviceoption, jobstatus, savejobstatus, savefinalizejob, internalhistory, saveCustomerApproval,
 	approvalID, customerownedunit, searchentitytext, verifyTechnician, completestatus,
-	servicejobelement
+	servicejobelement, optionaAndfee, inprogresscheckbox, completeStatus, closeBrandingPopup,
+	cancelbranding, approvecheckbox, scanandsearch
 	
 	
 	

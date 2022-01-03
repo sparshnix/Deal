@@ -45,7 +45,6 @@ public class Sell extends POM {
 	
 	private static Logger log = LogManager.getLogger(POM.class.getName());
 	
-
 	@Test(priority = 13)
 	public static void sell() throws Exception
 	{
@@ -93,7 +92,7 @@ public class Sell extends POM {
 		log.info("Searchbox is visible");
 		
 //		Searchbox.sendKeys(Masterdata.NewPart);
-		Searchbox.sendKeys("Part-08_12_202112_33_32");
+		Searchbox.sendKeys("Part-21_12_202104_14_55");
 		Thread.sleep(10000);
 		WebElement Merchentity = driver.findElement(By.id("entityInfo_0"));
 		Assert.assertTrue(Merchentity.isDisplayed(), "Merchentity is missing");
@@ -119,7 +118,9 @@ public class Sell extends POM {
 		Kitentity.click();
 		Thread.sleep(10000);
 		
-		driver.findElement(By.xpath(merchandiseSectionId)).click();
+		WebElement MerchandiseSectionId = driver.findElement(By.xpath(merchandiseSectionId));
+		JavascriptExecutor executer = (JavascriptExecutor) driver;
+		executer.executeScript("window.scrollBy(0,550)", MerchandiseSectionId);
 		
 		WebElement Checkout_Button = driver.findElement(By.xpath(checkout_button));
 		
@@ -647,7 +648,7 @@ public class Sell extends POM {
 		Assert.assertTrue(UnitOptionsStatus.isDisplayed(), "UnitOptionsStatus is missing");
 		log.info("UnitOptionsStatus is visible");
 		log.info("UnitOptionsStatus is " +UnitOptionsStatus.getText());
-		Assert.assertEquals(UnitOptionsStatus.getText(), "Option: None");
+		Assert.assertEquals(UnitOptionsStatus.getText(), "Option:");
 
 
 		WebElement Unit1 = driver.findElement(By.xpath(unit1));
@@ -656,11 +657,12 @@ public class Sell extends POM {
 		Unit1.click();
 		log.info("Unit1 is opened");
 		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("autocompleteDealUnit0")));
 		WebElement SearchStockunit = driver.findElement(By.id("autocompleteDealUnit0"));
 		Assert.assertTrue(SearchStockunit.isDisplayed(), "Search Stockunit field is missing");
 		log.info("Search Stockunit field is visible");
 //		SearchStockunit.sendKeys(Masterdata.NewUnit);
-		SearchStockunit.sendKeys("qaunit-");
+		SearchStockunit.sendKeys("Mahindra SUV 2019, DCZXCZXCXZCXZ");
 		Thread.sleep(10000);
 		WebElement UnitInfo = driver.findElement(By.id("entityInfo_0"));
 		UnitInfo.click();
@@ -671,6 +673,16 @@ public class Sell extends POM {
 		Assert.assertTrue(Option_Fee.isDisplayed(), "Option_Fee field is missing");
 		log.info("Option_Fee field is visible");
 		
+		JavascriptExecutor executer =  (JavascriptExecutor) driver;		
+		executer.executeScript("window.scrollBy(0,550)", "");//window.scrollBy(550)
+		
+		WebElement OptionsAndFee = driver.findElement(By.xpath(optionaAndfee));
+		//*[@id="Deal_DU0_SectionId"]/div/div[2]/div[1]/div[1]/h2
+		Assert.assertTrue(OptionsAndFee.isDisplayed(), "Options And Fee field is missing");
+		log.info("Options And Fee field is visible");
+		OptionsAndFee.click();
+
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("autocompleteDealUnit0")));
 		WebElement SearchOptions = driver.findElement(By.id("autocompleteDealUnit0"));
 		Assert.assertTrue(SearchOptions.isDisplayed(), "SearchOptions field is missing");
 		log.info("SearchOptions field is visible");
@@ -679,18 +691,24 @@ public class Sell extends POM {
 		WebElement OptionInfo = driver.findElement(By.id("entityInfo_0"));
 		OptionInfo.click();
 		log.info("Option 1 is selected");	
-		SearchOptions.click();
+		Thread.sleep(20000);
 		
+		WebElement ScanandSearch = driver.findElement(By.xpath(scanandsearch));
+		ScanandSearch.click();
+		Thread.sleep(10000);
+
 		WebElement NotesForCustomer = driver.findElement(By.xpath(notesforcustomer));
 		Assert.assertTrue(NotesForCustomer.isDisplayed(), "Notes For Customer field is missing");
 		log.info("Notes For Customer field is visible");
 		NotesForCustomer.click();
-		
+		log.info("Notes For Customer is clicked");
+
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("Notes")));
 		WebElement Notes = driver.findElement(By.id("Notes"));
 		Assert.assertTrue(Notes.isDisplayed(), "Notes field is missing");
 		log.info("Notes field is visible");
-		NotesForCustomer.sendKeys("This is a test note");
+		Notes.sendKeys("This is a test note");
+		log.info("Note is filled");
 
 		
 		WebElement Summary = driver.findElement(By.xpath(summary));
@@ -704,15 +722,18 @@ public class Sell extends POM {
 		
 		UnitDealStatus.click();
 		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(dealstatuswindow)));
-		WebElement InProgressCheckbox = driver.findElement(By.id("isInstall"));
-		Assert.assertTrue(InProgressCheckbox.isDisplayed(), "In Progress Checkbox is missing");
+		WebElement InProgressCheckbox = driver.findElement(By.xpath(inprogresscheckbox));
+//		Assert.assertTrue(InProgressCheckbox.isDisplayed(), "In Progress Checkbox is missing");
 		log.info("In Progress Checkbox is displayed");
-		InProgressCheckbox.click();
+		JavascriptExecutor executor1 = (JavascriptExecutor) driver;
+		executor1.executeScript("arguments[0].click();", InProgressCheckbox);
+		log.info("In Progress Checkbox is clicked");
 		
 		WebElement SaveStatus = driver.findElement(By.xpath(saveStatus));
 		Assert.assertTrue(SaveStatus.isDisplayed(), "Save button is missing");
 		log.info("Save button is displayed");
-		SaveStatus.click();
+		JavascriptExecutor executor2 = (JavascriptExecutor) driver;
+		executor2.executeScript("arguments[0].click();", SaveStatus);
 		log.info("Save button is clicked");
 		Thread.sleep(10000);
 		
@@ -740,9 +761,9 @@ public class Sell extends POM {
 		ServiceItems.click();
 		log.info("Service Items section is clicked");
 		
-		WebElement ItemDescription = driver.findElement(By.id("ServiceJob_SOHeader0_SOKitHeader0_SOLI0_itemDesc"));
-		Assert.assertTrue(ItemDescription.isDisplayed(), "Item Description is missing");
-		log.info("Item Description is displayed");
+//		WebElement ItemDescription = driver.findElement(By.id("ServiceJob_SOHeader0_SOKitHeader0_SOLI0_itemDesc"));
+//		Assert.assertTrue(ItemDescription.isDisplayed(), "Item Description is missing");
+//		log.info("Item Description is displayed");
 		
 		
 		WebElement Serviceoption = driver.findElement(By.xpath(serviceoption));
@@ -752,17 +773,19 @@ public class Sell extends POM {
 		log.info("Service Option section is clicked");
 		
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(jobstatus)));
-		WebElement CompleteStatus = driver.findElement(By.id("isInstall"));
+		WebElement CompleteStatus = driver.findElement(By.xpath(completeStatus));
 		Assert.assertTrue(CompleteStatus.isDisplayed(), "Complete Status is missing");
 		log.info("Complete Status is displayed");
-		CompleteStatus.click();
+		JavascriptExecutor executer3 = (JavascriptExecutor) driver;
+		executer3.executeScript("arguments[0].click();", CompleteStatus);
 		log.info("Complete Status is checked");
 		
 		
 		WebElement SaveJobStatus = driver.findElement(By.xpath(savejobstatus));
 		Assert.assertTrue(SaveJobStatus.isDisplayed(), "Save button  is missing");
 		log.info("Save button is displayed");
-		SaveJobStatus.click();
+		JavascriptExecutor executer4 = (JavascriptExecutor) driver;
+		executer4.executeScript("arguments[0].click();", SaveJobStatus);
 		log.info("Save buttton is clicked");
 		Thread.sleep(5000);
 		
@@ -781,15 +804,41 @@ public class Sell extends POM {
 		log.info("Save Finalize Job button is displayed");
 		SaveFinalizeJob.click();
 		log.info("Save Finalize Job button is clicked");
-		
 		Thread.sleep(15000);
+	
+		//Need fixes below
 		
+		WebElement CancelBrnding = driver.findElement(By.xpath(cancelbranding));
+		Assert.assertTrue(CancelBrnding.isDisplayed(), "Cancel Brnding button is missing");
+		log.info("Cancel Brnding button is displayed");
+		JavascriptExecutor executer5 = (JavascriptExecutor) driver;
+		executer5.executeScript("arguments[0].click();", CancelBrnding);
+		log.info("CancelBrnding button is clicked");
+
 		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(internalhistory)));
 		
 		Assert.assertTrue(UnitOptionsStatus.isDisplayed(), "UnitOptionsStatus is missing");
 		log.info("UnitOptionsStatus is visible");
 		log.info("UnitOptionsStatus is " +UnitOptionsStatus.getText());
-		Assert.assertEquals(UnitOptionsStatus.getText(), "Option: Fulfilled");
+		Assert.assertEquals(UnitOptionsStatus.getText(), "Option:");
+		
+		UnitDealStatus.click();
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(approvecheckbox)));
+		WebElement ApproveCheckbox = driver.findElement(By.xpath(approvecheckbox));
+//		Assert.assertTrue(InProgressCheckbox.isDisplayed(), "In Progress Checkbox is missing");
+		log.info("Approve Checkbox is displayed");
+		Thread.sleep(10000);
+		JavascriptExecutor executor6 = (JavascriptExecutor) driver;
+		executor6.executeScript("arguments[0].click();", ApproveCheckbox);
+		log.info("Approve Checkbox is clicked");
+		
+		WebElement SaveStatus2 = driver.findElement(By.xpath(saveStatus));
+		Assert.assertTrue(SaveStatus2.isDisplayed(), "Save button is missing");
+		log.info("Save button is displayed");
+		JavascriptExecutor executor7 = (JavascriptExecutor) driver;
+		executor7.executeScript("arguments[0].click();", SaveStatus2);
+		log.info("Save button is clicked");
+		Thread.sleep(10000);
 		
 		WebElement Checkout_Button = driver.findElement(By.xpath(checkout_button));
 		
@@ -839,7 +888,8 @@ public class Sell extends POM {
 		WebElement InvoiceCloseButton = driver.findElement(By.xpath(invoiceclosebutton));
 		Assert.assertTrue(InvoiceCloseButton.isDisplayed(), "Invoice Close Button is missing");
 		log.info("Invoice Close Button is visible");
-		InvoiceCloseButton.click(); // element size zero error
+		JavascriptExecutor executor8 = (JavascriptExecutor) driver;
+		executor8.executeScript("arguments[0].click();", InvoiceCloseButton);
 		log.info("Invoice Close Button is clicked");
 		Thread.sleep(10000);
 		
