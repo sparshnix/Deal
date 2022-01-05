@@ -2,6 +2,8 @@ package Dealership;
 
 import static org.testng.Assert.expectThrows;
 
+import java.io.BufferedInputStream;
+
 /**
  * BlackPurl Automation
  * Creation date 7-dec-2021
@@ -9,7 +11,9 @@ import static org.testng.Assert.expectThrows;
  */
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Iterator;
@@ -18,6 +22,11 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.*;
+import org.apache.pdfbox.*;
+import org.apache.pdfbox.pdfparser.PDFParser;
+import org.apache.pdfbox.pdmodel.PDDocument;
+//import org.apache.pdfbox.util.PDFTextStripper;
+import org.apache.pdfbox.text.PDFTextStripper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -86,6 +95,8 @@ public class Sell extends POM {
 		Assert.assertTrue(SellPartandAccs.isDisplayed(), "SellPartandAccs button is missing");
 		log.info("SellPartandAccs button is visible");
 		SellPartandAccs.click();
+		log.info("SellPartandAccs button is clicked");
+
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("autocompleteMerchandiseSectionWrapperId")));
 		WebElement Searchbox = driver.findElement(By.id("autocompleteMerchandiseSectionWrapperId"));
 		Assert.assertTrue(Searchbox.isDisplayed(), "Searchbox is missing");
@@ -590,7 +601,6 @@ public class Sell extends POM {
 		
 		}
 		
-	
 	}
 
 	@Test(priority = 15)
@@ -901,6 +911,314 @@ public class Sell extends POM {
 		Assert.assertEquals(COStatus.getText(), "Closed");
 		log.info("CO Status is Closed");
 
+		
+	}
+
+	@Test(priority = 16)
+	public static void CashSale() throws Exception
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 20);
+		WebElement Sell = driver.findElement(By.xpath(sell));
+		Assert.assertTrue(Sell.isDisplayed(), "Sell link is missing");
+		log.info("Sell link is visible");
+		Sell.click();
+		log.info("Sell link is clickable");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(sellpart)));
+		WebElement SellPart = driver.findElement(By.xpath(sellpart));
+		Assert.assertTrue(SellPart.isDisplayed(), "Sell Part Tile is missing");
+		log.info("Sell Part tile is displayed");
+		SellPart.click();
+		log.info("Sell Part tile is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("autocompleteMerchandiseSectionWrapperId")));
+		WebElement Searchbox = driver.findElement(By.id("autocompleteMerchandiseSectionWrapperId"));
+		Assert.assertTrue(Searchbox.isDisplayed(), "Searchbox is missing");
+		log.info("Searchbox is visible");
+		
+		WebElement Searchbox1 = driver.findElement(By.id("autocompleteMerchandiseSectionWrapperId"));
+		Assert.assertTrue(Searchbox1.isDisplayed(), "Searchbox is missing");
+		log.info("Searchbox is visible");
+//		Searchbox.sendKeys(Masterdata.NewPart);
+		Searchbox1.sendKeys("Part-21_12_202104_14_55");
+		Thread.sleep(10000);
+		WebElement Merchentity = driver.findElement(By.id("entityInfo_0"));
+		Assert.assertTrue(Merchentity.isDisplayed(), "Merchentity is missing");
+		log.info("Merchentity is visible");
+		Merchentity.click();
+		Thread.sleep(10000);	
+		
+//		WebElement MerchandiseSectionId = driver.findElement(By.xpath(merchandiseSectionId));
+//		MerchandiseSectionId.click();
+//		Thread.sleep(10000);
+
+		WebElement Searchbox2 = driver.findElement(By.id("autocompleteMerchandiseSectionWrapperId"));
+		Assert.assertTrue(Searchbox2.isDisplayed(), "Searchbox is missing");
+		log.info("Searchbox is visible");
+//		Searchbox.sendKeys(Masterdata.NewFee);
+		Searchbox2.sendKeys("Qafee-");
+		Thread.sleep(10000);	
+		WebElement Feeentity = driver.findElement(By.id("entityInfo_0"));
+		Assert.assertTrue(Feeentity.isDisplayed(), "Feeentity is missing");
+		log.info("Feeentity is visible");
+		Feeentity.click();
+		Thread.sleep(10000);		
+	
+		WebElement Searchbox3 = driver.findElement(By.id("autocompleteMerchandiseSectionWrapperId"));
+		Assert.assertTrue(Searchbox3.isDisplayed(), "Searchbox is missing");
+		log.info("Searchbox is visible");
+//		Searchbox.sendKeys(POM.NewKit);
+		Searchbox3.sendKeys("qakit465");
+		Thread.sleep(10000);
+		WebElement Kitentity = driver.findElement(By.id("entityInfo_0"));
+		Assert.assertTrue(Kitentity.isDisplayed(), "Kitentity is missing");
+		log.info("Kitentity is visible");
+		Kitentity.click();
+		Thread.sleep(10000);
+
+//		JavascriptExecutor executer = (JavascriptExecutor) driver;
+//		executer.executeScript("window.scrollBy(0,550)", MerchandiseSectionId);
+		
+		WebElement Checkout_Button = driver.findElement(By.xpath(checkout_button));
+		
+		Assert.assertTrue(Checkout_Button.isDisplayed(), "Checkout_Button is missing");
+		log.info("Checkout_Button is visible");
+		Checkout_Button.click();
+		Thread.sleep(10000);
+
+		if(driver.findElement(By.xpath(setCashDrawerModalWindow)).isDisplayed())
+		{
+			driver.findElement(By.id("cashDrawer")).click();
+			driver.findElement(By.id("cashDrawerDropdownDiv")).click();
+			driver.findElement(By.xpath(selectdrawerbutton)).click();
+			Thread.sleep(10000);
+			Checkout_Button.click();
+			Thread.sleep(10000);
+		}
+		
+		WebElement PaymentOption = driver.findElement(By.xpath(cashoption));
+		Assert.assertTrue(PaymentOption.isDisplayed(), "Payment Option is missing");
+		log.info("Payment option is visible");
+		PaymentOption.click();
+		log.info("Payment option is selected");
+		
+		WebElement AddPayment = driver.findElement(By.xpath(addpayment));
+		Assert.assertTrue(AddPayment.isDisplayed(), "AddPayment Button is missing");
+		log.info("AddPayment Button is visible");
+		AddPayment.click();
+		log.info("AddPayment Button is clicked");
+		Thread.sleep(10000);
+		
+		WebElement FinalizeButton = driver.findElement(By.xpath(finalizebutton));
+		Assert.assertTrue(FinalizeButton.isDisplayed(), "Finalize Button is missing");
+		log.info("Finalize Button is visible");
+		FinalizeButton.click();
+		log.info("Finalize Button is clicked");
+		Thread.sleep(10000);
+		
+		WebElement InvoiceWindow = driver.findElement(By.xpath(invoicewindow));
+		
+		Assert.assertTrue(InvoiceWindow.isDisplayed(), "Invoice Window is missing");
+		log.info("Invoice Window is visible");
+		
+		WebElement Cancel = driver.findElement(By.xpath(cancel));
+		Cancel.click();
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(invoiceclosebutton)));
+		WebElement InvoiceCloseButton = driver.findElement(By.xpath(invoiceclosebutton));
+		Assert.assertTrue(InvoiceCloseButton.isDisplayed(), "Invoice Close Button is missing");
+		log.info("Invoice Close Button is visible");
+		
+		//when the size of element is zero
+		JavascriptExecutor executor3 = (JavascriptExecutor) driver;
+		executor3.executeScript("arguments[0].click();", InvoiceCloseButton);
+		
+		log.info("Invoice Close Button is clicked");
+		Thread.sleep(10000);
+		
+		WebElement COStatus = driver.findElement(By.xpath(costatus));
+		
+		Assert.assertTrue(COStatus.isDisplayed(), "CO Status is missing");
+		log.info("CO Status is visible");
+		COStatus.getText();
+		Assert.assertEquals(COStatus.getText(), "Closed");
+		log.info("CO Status is Closed");
+		
+	}
+
+	@Test(priority = 17)
+	public static void PrintInvoice() throws Exception
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 20);
+		WebElement Sell = driver.findElement(By.xpath(sell));
+		Assert.assertTrue(Sell.isDisplayed(), "Sell link is missing");
+		log.info("Sell link is visible");
+		Sell.click();
+		log.info("Sell link is clickable");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(sellpart)));
+		WebElement SellPart = driver.findElement(By.xpath(sellpart));
+		Assert.assertTrue(SellPart.isDisplayed(), "Sell Part Tile is missing");
+		log.info("Sell Part tile is displayed");
+		SellPart.click();
+		log.info("Sell Part tile is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("autocompleteMerchandiseSectionWrapperId")));
+		WebElement Searchbox = driver.findElement(By.id("autocompleteMerchandiseSectionWrapperId"));
+		Assert.assertTrue(Searchbox.isDisplayed(), "Searchbox is missing");
+		log.info("Searchbox is visible");
+		
+		WebElement Searchbox1 = driver.findElement(By.id("autocompleteMerchandiseSectionWrapperId"));
+		Assert.assertTrue(Searchbox1.isDisplayed(), "Searchbox is missing");
+		log.info("Searchbox is visible");
+//		Searchbox.sendKeys(Masterdata.NewPart);
+		Searchbox1.sendKeys("Part-21_12_202104_14_55");
+		Thread.sleep(10000);
+		WebElement Merchentity = driver.findElement(By.id("entityInfo_0"));
+		Assert.assertTrue(Merchentity.isDisplayed(), "Merchentity is missing");
+		log.info("Merchentity is visible");
+		Merchentity.click();
+		Thread.sleep(10000);	
+		
+//		WebElement MerchandiseSectionId = driver.findElement(By.xpath(merchandiseSectionId));
+//		MerchandiseSectionId.click();
+//		Thread.sleep(10000);
+
+		WebElement Searchbox2 = driver.findElement(By.id("autocompleteMerchandiseSectionWrapperId"));
+		Assert.assertTrue(Searchbox2.isDisplayed(), "Searchbox is missing");
+		log.info("Searchbox is visible");
+//		Searchbox.sendKeys(Masterdata.NewFee);
+		Searchbox2.sendKeys("Qafee-");
+		Thread.sleep(10000);	
+		WebElement Feeentity = driver.findElement(By.id("entityInfo_0"));
+		Assert.assertTrue(Feeentity.isDisplayed(), "Feeentity is missing");
+		log.info("Feeentity is visible");
+		Feeentity.click();
+		Thread.sleep(10000);		
+	
+		WebElement Searchbox3 = driver.findElement(By.id("autocompleteMerchandiseSectionWrapperId"));
+		Assert.assertTrue(Searchbox3.isDisplayed(), "Searchbox is missing");
+		log.info("Searchbox is visible");
+//		Searchbox.sendKeys(POM.NewKit);
+		Searchbox3.sendKeys("qakit465");
+		Thread.sleep(10000);
+		WebElement Kitentity = driver.findElement(By.id("entityInfo_0"));
+		Assert.assertTrue(Kitentity.isDisplayed(), "Kitentity is missing");
+		log.info("Kitentity is visible");
+		Kitentity.click();
+		Thread.sleep(10000);
+
+//		JavascriptExecutor executer = (JavascriptExecutor) driver;
+//		executer.executeScript("window.scrollBy(0,550)", MerchandiseSectionId);
+		
+		WebElement Checkout_Button = driver.findElement(By.xpath(checkout_button));
+		
+		Assert.assertTrue(Checkout_Button.isDisplayed(), "Checkout_Button is missing");
+		log.info("Checkout_Button is visible");
+		Checkout_Button.click();
+		Thread.sleep(10000);
+
+		if(driver.findElement(By.xpath(setCashDrawerModalWindow)).isDisplayed())
+		{
+			driver.findElement(By.id("cashDrawer")).click();
+			driver.findElement(By.id("cashDrawerDropdownDiv")).click();
+			driver.findElement(By.xpath(selectdrawerbutton)).click();
+			Thread.sleep(10000);
+			Checkout_Button.click();
+			Thread.sleep(10000);
+		}
+		
+		WebElement PaymentOption = driver.findElement(By.xpath(cashoption));
+		Assert.assertTrue(PaymentOption.isDisplayed(), "Payment Option is missing");
+		log.info("Payment option is visible");
+		PaymentOption.click();
+		log.info("Payment option is selected");
+		
+		WebElement AddPayment = driver.findElement(By.xpath(addpayment));
+		Assert.assertTrue(AddPayment.isDisplayed(), "AddPayment Button is missing");
+		log.info("AddPayment Button is visible");
+		AddPayment.click();
+		log.info("AddPayment Button is clicked");
+		Thread.sleep(10000);
+		
+		WebElement FinalizeButton = driver.findElement(By.xpath(finalizebutton));
+		Assert.assertTrue(FinalizeButton.isDisplayed(), "Finalize Button is missing");
+		log.info("Finalize Button is visible");
+		FinalizeButton.click();
+		log.info("Finalize Button is clicked");
+		Thread.sleep(10000);
+		
+		WebElement InvoiceWindow = driver.findElement(By.xpath(invoicewindow));
+		Assert.assertTrue(InvoiceWindow.isDisplayed(), "Invoice Window is missing");
+		log.info("Invoice Window is visible");
+		
+		WebElement WeBrandingLocationId = driver.findElement(By.id("BrandingLocationId"));
+		Assert.assertTrue(WeBrandingLocationId.isDisplayed(), "Branding option is missing");
+		log.info("Branding option is displayed");
+		WeBrandingLocationId.click();
+		log.info("Branding option is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("brandingLocationDropdownDiv")));
+		WebElement BrandingDropdown = driver.findElement(By.id("brandingLocationDropdownDiv"));
+		Assert.assertTrue(BrandingDropdown.isDisplayed(), "Branding Dropdown is missing");
+		log.info("Branding Dropdown is visible");
+		BrandingDropdown.click();
+		log.info("Branding is selected");
+		
+	
+		WebElement BrandingConfirmButton = driver.findElement(By.xpath(brandingconfirmbutton));
+		Assert.assertTrue(BrandingConfirmButton.isDisplayed(), "Branding Confirm Button is missing");
+		log.info("Branding Confirm Button is visible");
+		BrandingConfirmButton.click();
+		log.info("Branding Confirm Button is clicked");
+		
+		
+		WebElement PrintSelectedButton = driver.findElement(By.xpath(printselectedbutton));
+		Assert.assertTrue(PrintSelectedButton.isDisplayed(), "Print Selected Button is missing");
+		log.info("Print Selected Button is visible");
+		PrintSelectedButton.click();
+		log.info("Print Selected Button is clicked");
+		
+		//Moving onto different tab
+		Set<String> Windows = driver.getWindowHandles();
+		Iterator<String> It = Windows.iterator();
+		String ParentID = It.next();
+		String ChildID = It.next();
+		driver.switchTo().window(ChildID);
+		
+		//Read PDF
+		String Pdfurl = driver.getCurrentUrl();
+		URL InvoiceURL = new URL(Pdfurl.trim());
+		BufferedInputStream File = new BufferedInputStream(InvoiceURL.openStream());
+		
+//		PDFParser TestPDF = new PDFParser(File);
+//		TestPDF.parse();
+//		String PDFText = new PDFTextStripper().getText(TestPDF.getPDDocument());
+		
+		PDDocument doc = PDDocument.load(File);
+		String PDFText = new PDFTextStripper().getText(doc);
+		Assert.assertTrue(PDFText.contains("TAX INVOICE"), "PDF contains does not match");
+		log.info("PDF text is successfully verified");
+
+		driver.switchTo().window(ParentID);
+
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(invoiceclosebutton)));
+		WebElement InvoiceCloseButton = driver.findElement(By.xpath(invoiceclosebutton));
+		Assert.assertTrue(InvoiceCloseButton.isDisplayed(), "Invoice Close Button is missing");
+		log.info("Invoice Close Button is visible");
+		
+		// element size zero error solved
+		JavascriptExecutor executer1 = (JavascriptExecutor) driver;
+		executer1.executeScript("arguments[0].click();",InvoiceCloseButton );
+		log.info("Invoice Close Button is clicked");
+		
+		Thread.sleep(10000);
+		WebElement COStatus = driver.findElement(By.xpath(costatus));
+		
+		Assert.assertTrue(COStatus.isDisplayed(), "CO Status is missing");
+		log.info("CO Status is visible");
+		COStatus.getText();
+		Assert.assertEquals(COStatus.getText(), "Closed");
+		log.info("CO Status is Closed");
 		
 	}
 	

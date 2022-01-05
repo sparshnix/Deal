@@ -49,6 +49,7 @@ public class Listeners extends POM implements ITestListener {
 		Reporter.log("Status of execution : " +result.getStatus());
 		log.info("Test case " +result.getName()+ " passes successfully");
 		Reporter.log("Test case " +result.getName()+ " passes successfully");
+		System.setProperty("org.uncommons.reportng.title", "Blackpurl Test Results");
 		try {
 			Thread.sleep(5000);
 		} catch (Exception e) {

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="285.520">
+           time="202.433">
   <properties />
   
   
-            <testcase name="UnitDeal" time="285.520" classname="Dealership.Sell" />
+            <testcase name="CashSale" time="202.433" classname="Dealership.Sell" />
       
 </testsuite>
