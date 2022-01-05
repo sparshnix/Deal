@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Status of execution : 1]]>
     </line>
     <line>
-      <![CDATA[Test case UnitDeal passes successfully]]>
+      <![CDATA[Test case CashSale passes successfully]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="291703" started-at="2022-01-03T22:02:25 IST" finished-at="2022-01-03T22:07:16 IST">
+  <suite name="Default suite" duration-ms="208671" started-at="2022-01-05T16:40:17 IST" finished-at="2022-01-05T16:43:46 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="291703" started-at="2022-01-03T22:02:25 IST" finished-at="2022-01-03T22:07:16 IST">
+    <test name="Default test" duration-ms="208671" started-at="2022-01-05T16:40:17 IST" finished-at="2022-01-05T16:43:46 IST">
       <class name="Dealership.Sell">
-        <test-method status="PASS" signature="UnitDeal()[pri:15, instance:Dealership.Sell@428640fa]" name="UnitDeal" duration-ms="285520" started-at="2022-01-03T22:02:25 IST" finished-at="2022-01-03T22:07:10 IST">
+        <test-method status="PASS" signature="CashSale()[pri:16, instance:Dealership.Sell@6bd61f98]" name="CashSale" duration-ms="202433" started-at="2022-01-05T16:40:17 IST" finished-at="2022-01-05T16:43:39 IST">
           <reporter-output>
             <line>
               <![CDATA[Status of execution : 1]]>
             </line>
             <line>
-              <![CDATA[Test case UnitDeal passes successfully]]>
+              <![CDATA[Test case CashSale passes successfully]]>
             </line>
           </reporter-output>
-        </test-method> <!-- UnitDeal -->
+        </test-method> <!-- CashSale -->
       </class> <!-- Dealership.Sell -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

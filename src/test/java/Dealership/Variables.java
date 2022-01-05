@@ -43,7 +43,8 @@ public class Variables {
 	serviceoption, jobstatus, savejobstatus, savefinalizejob, internalhistory, saveCustomerApproval,
 	approvalID, customerownedunit, searchentitytext, verifyTechnician, completestatus,
 	servicejobelement, optionaAndfee, inprogresscheckbox, completeStatus, closeBrandingPopup,
-	cancelbranding, approvecheckbox, scanandsearch
+	cancelbranding, approvecheckbox, scanandsearch, sellpart, brandingconfirmbutton, 
+	printselectedbutton
 	
 	
 	

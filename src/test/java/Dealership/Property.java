@@ -216,6 +216,21 @@ public class Property extends Variables {
 		approvecheckbox				=	locators.getProperty("approvecheckbox");
 		scanandsearch				=	locators.getProperty("scanandsearch");
 		
+		//Cash Sale
+		sellpart					=	locators.getProperty("sellpart");
+		
+		//print invoice
+		brandingconfirmbutton		=	locators.getProperty("brandingconfirmbutton");	
+		printselectedbutton			=	locators.getProperty("printselectedbutton");
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 	 }
