@@ -41,7 +41,7 @@ public class Property extends Variables {
 		kitcode						=	prop.getProperty("kitcode");
 		feecode						=	prop.getProperty("feecode");
 		unitVIN						=   prop.getProperty("unitVIN");
-		
+		bulkUnitCount				=   prop.getProperty("bulkUnitCount");
 		
 		
 		
@@ -110,6 +110,7 @@ public class Property extends Variables {
 		unitApplicable_tax			=   locators.getProperty("unitApplicable_tax");
 		verifyunit					=   locators.getProperty("verifyunit");
 		kititemplusicon				=   locators.getProperty("kititemplusicon");
+		infogeneral					=   locators.getProperty("infogeneral");
 		
 		//used for workspace
 		home						=   locators.getProperty("home");
@@ -224,7 +225,87 @@ public class Property extends Variables {
 		printselectedbutton			=	locators.getProperty("printselectedbutton");
 		
 		
+		//temporary unit
+		quotetoggle					=	locators.getProperty("quotetoggle");
+		settempunit					=	locators.getProperty("settempunit");
+		tempUnitModelWindow			=	locators.getProperty("tempUnitModelWindow");
+		exteriorcolor				=	locators.getProperty("exteriorcolor");
+		nextButton					=	locators.getProperty("nextButton");
+		savePrice					=	locators.getProperty("savePrice");
+		saveTempUnit				=	locators.getProperty("saveTempUnit");
+		temporaryunit1				=	locators.getProperty("temporaryunit1");
+		tempUnitName				=	locators.getProperty("tempUnitName");	
+		editpricing					=	locators.getProperty("editpricing");	
+		editpricingwindow			=	locators.getProperty("editpricingwindow");
+		rideawaytoggle				=	locators.getProperty("rideawaytoggle");
+		saveBtnStampDuty			=	locators.getProperty("saveBtnStampDuty");
+		savePriceBtn				=	locators.getProperty("savePriceBtn");
+		addTradeIn					=	locators.getProperty("addTradeIn");
+		tradein1					=	locators.getProperty("tradein1");
+		addCOU						=	locators.getProperty("addCOU");
+		tradeinunitname				=	locators.getProperty("tradeinunitname");
+		printCO						=	locators.getProperty("printCO");
+		appraisalMethod				=	locators.getProperty("appraisalMethod");
+		printModelWindow			=	locators.getProperty("printModelWindow");	
+		offertoPurchase				=	locators.getProperty("offertoPurchase");
+		printSelected				=	locators.getProperty("printSelected");
+		printPreview1				=	locators.getProperty("printPreview1");
+		printPreview2				=	locators.getProperty("printPreview2");
+		printPreview3				=	locators.getProperty("printPreview3");
+		printPreview4				=	locators.getProperty("printPreview4");
+		printClose					=	locators.getProperty("printClose");
 		
+		// Change and Delete Customer on CO
+		customerHeader				=	locators.getProperty("customerHeader");
+		customerName				=	locators.getProperty("customerName");
+		deleteButton				=	locators.getProperty("deleteButton");
+		customerWarning				=	locators.getProperty("customerWarning");
+		warning1					=	locators.getProperty("warning1");
+		customerlabel				=	locators.getProperty("customerlabel");
+		sectionHeader				=	locators.getProperty("sectionHeader");
+		confirm						=	locators.getProperty("confirm");
+		addCustomerButton			=	locators.getProperty("addCustomerButton");
+		priceLevel					=	locators.getProperty("priceLevel");
+		taxExemption1				=	locators.getProperty("taxExemption1");	
+		subtotal1					=	locators.getProperty("subtotal1");	
+		changeCustomerButton		=	locators.getProperty("changeCustomerButton");	
+		customerErrorModal			=	locators.getProperty("customerErrorModal");	
+		errorMessage				=	locators.getProperty("errorMessage");	
+		okButton1					=	locators.getProperty("okButton1");	
+		okButton2					=	locators.getProperty("okButton2");	
+		okButton3					=	locators.getProperty("okButton3");	
+		okButton4					=	locators.getProperty("okButton4");	
+		okButton5					=	locators.getProperty("okButton5");	
+		invoiceHistory				=	locators.getProperty("invoiceHistory");
+		reopenCO					=	locators.getProperty("reopenCO");
+		invoiceReOpeningModalWindow	=	locators.getProperty("invoiceReOpeningModalWindow"); 
+		reopenButton				=	locators.getProperty("reopenButton");
+		entityQty					=	locators.getProperty("entityQty");
+		partStatus					=	locators.getProperty("partStatus");
+		stroreCreditOption			=	locators.getProperty("stroreCreditOption");
+		closePaymentWindow			=	locators.getProperty("closePaymentWindow");
+		createAppointment			=	locators.getProperty("createAppointment");	
+		
+		//Order
+		order						=	locators.getProperty("order");
+		orderoptions				=	locators.getProperty("orderoptions");
+		unitorder					=	locators.getProperty("unitorder");
+		vendoroptions				=	locators.getProperty("vendoroptions");
+		firstVendor					=	locators.getProperty("firstVendor");
+		orderunitButton				=	locators.getProperty("orderunitButton");
+		yearDropdown				=	locators.getProperty("yearDropdown");
+		conditionDropdown			=	locators.getProperty("conditionDropdown");
+		colorfield					=	locators.getProperty("colorfield");
+		factoryfield				=	locators.getProperty("factoryfield");
+		stockNumber					=	locators.getProperty("stockNumber");
+		baseUnitPrice				=	locators.getProperty("baseUnitPrice");
+		baseUnitCost				=	locators.getProperty("baseUnitCost");
+		addPricing					=	locators.getProperty("addPricing");
+		createSingleOrderButton		=	locators.getProperty("createSingleOrderButton");
+		orderunitinfo				=	locators.getProperty("orderunitinfo");
+		vinField					=	locators.getProperty("vinField");
+		invoiceToggle				=	locators.getProperty("invoiceToggle");
+		invoiceNumber				=	locators.getProperty("invoiceNumber");
 		
 		
 		

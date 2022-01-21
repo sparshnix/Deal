@@ -28,7 +28,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class Listeners extends POM implements ITestListener {
 	
-	private static Logger log = LogManager.getLogger(POM.class.getName());
+//	private static Logger log = LogManager.getLogger(POM.class.getName());
 
 
 	@Override

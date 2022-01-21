@@ -42,13 +42,12 @@ import org.testng.Reporter;
 @Listeners(Dealership.Listeners.class)
 
 public class Masterdata extends POM {
-	private static Logger log = LogManager.getLogger(POM.class.getName());
+//	private static Logger log = LogManager.getLogger(POM.class.getName());
 	public static String timestamp = new SimpleDateFormat("-dd_MM_yyyyhh_mm_ss").format(new Date());
 	public static String phonenumber = new SimpleDateFormat("MMyyyymmss").format(new Date());
 	public static String NewCustomer, NewVendor, NewPart, NewLabor, NewKit, NewFee, NewUnit;
 	
 	;
-
 
 	
 	@SuppressWarnings("deprecation")
@@ -57,8 +56,8 @@ public class Masterdata extends POM {
 	public static void AddCustomer() throws Exception
 	{
 //		WebDriverWait wait = new WebDriverWait(driver,100);
-//		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(addnew)));
-		
+		WebDriverWait wt = new WebDriverWait(driver,100);
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(addnew)));
 		WebElement Addnew = driver.findElement(By.xpath(addnew));
 		Assert.assertTrue(Addnew.isDisplayed(), "Button is missing");
 		log.info("Addnew button is displayed");
@@ -72,7 +71,6 @@ public class Masterdata extends POM {
 		Customer.click();
 		Assert.assertTrue(Customer.isEnabled(), "Button is not clicked");
 		log.info("Customer button is clicked");
-		
         Thread.sleep(10000);
 		
 		WebElement Smallheader = driver.findElement(By.xpath(smallheader));
@@ -173,6 +171,8 @@ public class Masterdata extends POM {
 		log.info("email is entered in seachbox");
 		Thread.sleep(10000);
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(verifyemail)));
+		
 		WebElement Verifyemail = driver.findElement(By.xpath(verifyemail));
 		Assert.assertTrue(Verifyemail.isDisplayed(), "No relevent data appeared");
 		Verifyemail.getText();
@@ -187,6 +187,8 @@ public class Masterdata extends POM {
 	public static void AddVendor() throws InterruptedException
 	
 	{
+		WebDriverWait wt = new WebDriverWait(driver,100);
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(addnew)));
 		WebElement Addnew = driver.findElement(By.xpath(addnew));
 		Assert.assertTrue(Addnew.isDisplayed(), "Button is missing");
 		log.info("Addnew button is displayed");
@@ -335,6 +337,8 @@ public class Masterdata extends POM {
 		log.info("email is entered in searchbox");
 		Thread.sleep(10000);
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(verifyemail)));
+
 		WebElement Verifyemail = driver.findElement(By.xpath(verifyemail));
 		Assert.assertTrue(Verifyemail.isDisplayed(), "No relevent data appeared");
 		Verifyemail.getText();
@@ -345,9 +349,10 @@ public class Masterdata extends POM {
 	
 
 	@Test(priority = 3)
-	
-	public static void AddPart() throws InterruptedException {
-		
+	public static void AddPart() throws InterruptedException 
+	{
+		WebDriverWait wt = new WebDriverWait(driver,100);
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(addnew)));
 		WebElement Addnew = driver.findElement(By.xpath(addnew));
 		Assert.assertTrue(Addnew.isDisplayed(), "Button is missing");
 		log.info("Addnew button is displayed");
@@ -505,7 +510,8 @@ public class Masterdata extends POM {
 		Searchbox.sendKeys(NewPart);
 		log.info("New Part Name is entered in searchbox");
 		Thread.sleep(5000);
-		
+
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(verifyPart)));
 		WebElement VerifyPart = driver.findElement(By.xpath(verifyPart));		
 		Assert.assertTrue(VerifyPart.isDisplayed(), "No relevent data appeared");
 		VerifyPart.getText();
@@ -519,7 +525,8 @@ public class Masterdata extends POM {
 	public static void AddLabor() throws InterruptedException
 	
 	{
-		
+		WebDriverWait wt = new WebDriverWait(driver,100);
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(addnew)));
 		WebElement Addnew = driver.findElement(By.xpath(addnew));
 		Assert.assertTrue(Addnew.isDisplayed(), "Button is missing");
 		log.info("Addnew button is displayed");
@@ -566,32 +573,32 @@ public class Masterdata extends POM {
 		WebElement Rate = driver.findElement(By.id("Rate"));
 		Assert.assertTrue(Rate.isDisplayed(), "Rate field is missing");
 		log.info("Rate field is displayed");
-		Rate.sendKeys("20");
+		Rate.sendKeys(Keys.chord(Keys.CONTROL,"a"),"20");
 		log.info("Rate entered");
 		
 		WebElement Category_Input = driver.findElement(By.id("Category_Input"));
 		Assert.assertTrue(Category_Input.isDisplayed(), "Category_Input field is missing");
 		log.info("Category_Input field is displayed");
 		Category_Input.clear();
-		Category_Input.sendKeys("labor");
+		Category_Input.sendKeys(Keys.chord(Keys.CONTROL,"a"),"labor");
 		Thread.sleep(10000);
 		WebElement LaborList = driver.findElement(By.id("SearchToaddCutomerSuggestions"));
+		Thread.sleep(5000);
+		Assert.assertTrue(LaborList.isDisplayed(), "LaborList is missing");
 		LaborList.click();
 		log.info("Category_Input entered");
-		Thread.sleep(5000);
 		
-		WebElement FormsTag = driver.findElement(By.xpath(formstag));
-		Assert.assertTrue(FormsTag.isDisplayed(), "FormsTag field is missing");
-		log.info("FormsTag field is displayed");
-		FormsTag.click();	
-		log.info("FormsTag is entered");
-
+//		WebElement FormsTag = driver.findElement(By.xpath(formstag));
+//		Assert.assertTrue(FormsTag.isDisplayed(), "FormsTag field is missing");
+//		log.info("FormsTag field is displayed");
+//		FormsTag.sendKeys("Test");	
+//		log.info("FormsTag is entered");
 		
-		WebElement selectTag = driver.findElement(By.xpath(selecttag));
-		Assert.assertTrue(selectTag.isDisplayed(), "select Tag field is missing");
-		log.info("selectTag field is displayed");
-		selectTag.click();
-		log.info("selectTag is entered");
+//		WebElement selectTag = driver.findElement(By.xpath(selecttag));
+//		Assert.assertTrue(selectTag.isDisplayed(), "select Tag field is missing");
+//		log.info("selectTag field is displayed");
+//		selectTag.click();
+//		log.info("selectTag is entered");
 		
 		WebElement Applicabletax = driver.findElement(By.xpath(applicabletax));
 		Assert.assertTrue(Applicabletax.isDisplayed(), "Applicabletax field is missing");
@@ -606,13 +613,15 @@ public class Masterdata extends POM {
 		log.info("SaveButton is displayed");
 		SaveButton.click();
 		log.info("SaveButton is clicked");
+		Thread.sleep(10000);
 		
 		WebElement Searchbox = driver.findElement(By.id("globalSearchStrInput"));
 		Assert.assertTrue(Searchbox.isDisplayed(), "Searchbox is missing");
 		Searchbox.sendKeys(NewLabor);
 		log.info("Labor Name is entered in searchbox");
-		Thread.sleep(5000);
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(verifylabor)));
+
 		WebElement Verifylabor = driver.findElement(By.xpath(verifylabor));		
 		Assert.assertTrue(Verifylabor.isDisplayed(), "No relevent data appeared");
 		log.info("the text is " + Verifylabor.getText());		
@@ -625,6 +634,8 @@ public class Masterdata extends POM {
 	public static void AddKit() throws InterruptedException
 	
 	{
+		WebDriverWait wt = new WebDriverWait(driver,100);
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(addnew)));
 		WebElement Addnew = driver.findElement(By.xpath(addnew));
 		Assert.assertTrue(Addnew.isDisplayed(), "Button is missing");
 		log.info("Addnew button is displayed");
@@ -668,8 +679,9 @@ public class Masterdata extends POM {
 		log.info("Service kit chechbox is displayed");
 		Servicekitchechbox.click();
 		log.info("Service kit chechbox is clicked");
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("txtconcern")));
 		WebElement Concern = driver.findElement(By.id("txtconcern"));
 		Assert.assertTrue(Concern.isDisplayed(), "Concern field is missing");
 		log.info("Concern field is displayed");
@@ -735,6 +747,8 @@ public class Masterdata extends POM {
 		log.info("Kit Name is entered in searchbox");
 		Thread.sleep(5000);
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(verifykit)));
+
 		WebElement Verifykit = driver.findElement(By.xpath(verifykit));		
 		Assert.assertTrue(Verifykit.isDisplayed(), "No relevent data appeared");
 		log.info("the text is " + Verifykit.getText());		
@@ -746,7 +760,8 @@ public class Masterdata extends POM {
 	@Test(priority = 6)
 	public static void AddFee() throws InterruptedException 
 	{
-		
+		WebDriverWait wt = new WebDriverWait(driver,100);
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(addnew)));
 		WebElement Addnew = driver.findElement(By.xpath(addnew));
 		Assert.assertTrue(Addnew.isDisplayed(), "Button is missing");
 		log.info("Addnew button is displayed");
@@ -762,6 +777,7 @@ public class Masterdata extends POM {
 		log.info("Fee button is clicked");
         Thread.sleep(5000);
 		
+        wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(feetype)));
         WebElement Feeheader = driver.findElement(By.xpath(feeheader));
 		Assert.assertTrue(Feeheader.isDisplayed(), "Header is missing");
 		log.info("Fee header is displayed");
@@ -844,6 +860,8 @@ public class Masterdata extends POM {
 		log.info("Fee Name is entered in searchbox");
 		Thread.sleep(10000);
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(verifyfee)));
+
 		WebElement Verifyfee = driver.findElement(By.xpath(verifyfee));	
 		Assert.assertTrue(Verifyfee.isDisplayed(), "No relevent data appeared");
 		log.info("the text is " + Verifyfee.getText());		
@@ -856,6 +874,8 @@ public class Masterdata extends POM {
 	@Test(priority = 7)
 	public static void AddUnit() throws InterruptedException
 	{
+		WebDriverWait wt = new WebDriverWait(driver,100);
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(addnew)));
 		WebElement Addnew = driver.findElement(By.xpath(addnew));
 		Assert.assertTrue(Addnew.isDisplayed(), "Button is missing");
 		log.info("Addnew button is displayed");
@@ -871,6 +891,7 @@ public class Masterdata extends POM {
 		log.info("Stock Unit button is clicked");
         Thread.sleep(5000);
 		
+        wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("VINFieldId")));
         WebElement Unitheader = driver.findElement(By.xpath(unitheader));
 		Assert.assertTrue(Unitheader.isDisplayed(), "Header is missing");
 		log.info("Stock Unit header is displayed");
@@ -987,6 +1008,8 @@ public class Masterdata extends POM {
 		log.info("Unit Name is entered in searchbox");
 		Thread.sleep(10000);
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(verifyunit)));
+
 		WebElement Verifyunit = driver.findElement(By.xpath(verifyunit));	
 		Assert.assertTrue(Verifyunit.isDisplayed(), "No relevent data appeared");
 		log.info("the text is " + Verifyunit.getText());		

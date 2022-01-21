@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="methods" thread-count="1">
+<suite name="Suite">
 <listeners>
 	<listener class-name = "Dealership.Listeners" />
 	<listener class-name = "org.uncommons.reportng.HTMLReporter" />
@@ -8,16 +8,18 @@
 	
 </listeners>
 
-  <test name="Test">
-  <parameter name = "browser" value = "Chrome"> </parameter>
+  <test name="Test" parallel = "methods" thread-count = "1">
     <classes>
+    
 		<class name="Dealership.Masterdata">  </class>
-<!-- 
-	<methods>
-		<include name="AddCustomer">  </include>
-    </methods> 
- -->
 		<class name="Dealership.Workspace">  </class>
+		<class name="Dealership.Sell"> 
+				<methods>
+					<exclude name="PrintInvoice">  </exclude>
+ 				</methods> 	
+		 </class>
+		 <class name="Dealership.ChangeCustomerOnCO">  </class>
+		 <class name="Dealership.DeleteCustomerOnCO">  </class> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

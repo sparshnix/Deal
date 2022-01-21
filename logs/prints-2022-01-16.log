@@ -1,0 +1,697 @@
+16:10:32.928 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+16:10:38.929 [main] INFO  Dealership.POM - Windows maximized
+16:10:41.888 [main] INFO  Dealership.POM - URL entered
+16:10:42.114 [main] INFO  Dealership.POM - Username field is visible
+16:10:42.379 [main] INFO  Dealership.POM - Password field is visible
+16:10:42.641 [main] INFO  Dealership.POM - Login Button is visible
+16:10:59.852 [main] INFO  Dealership.POM - Login Button is clicked
+16:11:25.015 [main] INFO  Dealership.POM - Sell link is visible
+16:11:26.263 [main] INFO  Dealership.POM - Sell link is clickable
+16:11:26.429 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+16:11:29.453 [main] INFO  Dealership.POM - Select Customer Field is visible
+16:11:39.917 [main] INFO  Dealership.POM - CustomerInfo is visible
+16:12:00.397 [main] INFO  Dealership.POM - Quote Toggle button is visible
+16:12:00.497 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+16:12:10.591 [main] INFO  Dealership.POM - The status of CO is Quote
+16:12:10.669 [main] INFO  Dealership.POM - Sell A Unit button is visible
+16:12:10.798 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+16:12:12.580 [main] INFO  Dealership.POM - UnitDealStatus is visible
+16:12:12.630 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+16:12:12.723 [main] INFO  Dealership.POM - AddTradeIn button is visible
+16:12:12.861 [main] INFO  Dealership.POM - AddTradeIn button is clicked
+16:12:15.126 [main] INFO  Dealership.POM - AddCOU button is visible
+16:12:15.241 [main] INFO  Dealership.POM - AddCOU button is clicked
+16:12:17.499 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+16:12:17.993 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+16:13:48.388 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+16:13:54.880 [main] INFO  Dealership.POM - Windows maximized
+16:13:57.390 [main] INFO  Dealership.POM - URL entered
+16:13:57.595 [main] INFO  Dealership.POM - Username field is visible
+16:13:57.831 [main] INFO  Dealership.POM - Password field is visible
+16:13:58.137 [main] INFO  Dealership.POM - Login Button is visible
+16:14:14.773 [main] INFO  Dealership.POM - Login Button is clicked
+16:14:40.049 [main] INFO  Dealership.POM - Sell link is visible
+16:14:41.297 [main] INFO  Dealership.POM - Sell link is clickable
+16:14:41.505 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+16:14:46.174 [main] INFO  Dealership.POM - Select Customer Field is visible
+16:14:56.657 [main] INFO  Dealership.POM - CustomerInfo is visible
+16:15:17.121 [main] INFO  Dealership.POM - Quote Toggle button is visible
+16:15:17.230 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+16:15:27.295 [main] INFO  Dealership.POM - The status of CO is Quote
+16:15:27.351 [main] INFO  Dealership.POM - Sell A Unit button is visible
+16:15:27.446 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+16:15:29.340 [main] INFO  Dealership.POM - UnitDealStatus is visible
+16:15:29.388 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+16:15:29.498 [main] INFO  Dealership.POM - AddTradeIn button is visible
+16:15:29.630 [main] INFO  Dealership.POM - AddTradeIn button is clicked
+16:15:32.520 [main] INFO  Dealership.POM - AddCOU button is visible
+16:15:32.712 [main] INFO  Dealership.POM - AddCOU button is clicked
+16:15:36.336 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+16:15:41.400 [main] INFO  Dealership.POM - VIN_Unit field is visible
+16:15:41.819 [main] INFO  Dealership.POM - VIN number is filed
+16:15:41.870 [main] INFO  Dealership.POM - Make field is visible
+16:15:43.594 [main] INFO  Dealership.POM - Make is filed
+16:15:43.685 [main] INFO  Dealership.POM - Model field is visible
+16:15:44.884 [main] INFO  Dealership.POM - Model is filed
+16:15:44.949 [main] INFO  Dealership.POM - Sub-Model field is visible
+16:15:45.451 [main] INFO  Dealership.POM - Sub-Model is filed
+16:15:45.501 [main] INFO  Dealership.POM - Year field is visible
+16:15:45.852 [main] INFO  Dealership.POM - Year is filed
+16:15:45.919 [main] INFO  Dealership.POM - Addbutton is visible
+16:15:46.092 [main] INFO  Dealership.POM - Addbutton is clicked
+16:15:56.217 [main] INFO  Dealership.POM - AgreedValueForCOU is visible
+16:15:56.413 [main] INFO  Dealership.POM - AgreedValueForCOU is clicked
+16:15:56.460 [main] INFO  Dealership.POM - ActualCashValueForCOU is visible
+16:15:56.656 [main] INFO  Dealership.POM - ActualCashValueForCOU is clicked
+16:15:56.704 [main] INFO  Dealership.POM - tradeInLienPayout is visible
+16:15:56.906 [main] INFO  Dealership.POM - tradeInLienPayout is clicked
+16:15:56.946 [main] INFO  Dealership.POM - tradeInFinanceCompany is visible
+16:15:57.045 [main] INFO  Dealership.POM - tradeInFinanceCompany is clicked
+16:16:02.107 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is visible
+16:16:02.225 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is clicked
+16:16:02.289 [main] INFO  Dealership.POM - AppraisalMethod is visible
+16:16:03.731 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+16:23:17.039 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+16:23:23.496 [main] INFO  Dealership.POM - Windows maximized
+16:23:25.949 [main] INFO  Dealership.POM - URL entered
+16:23:26.110 [main] INFO  Dealership.POM - Username field is visible
+16:23:26.327 [main] INFO  Dealership.POM - Password field is visible
+16:23:26.741 [main] INFO  Dealership.POM - Login Button is visible
+16:24:07.794 [main] INFO  Dealership.POM - Login Button is clicked
+16:24:32.947 [main] INFO  Dealership.POM - Sell link is visible
+16:24:34.134 [main] INFO  Dealership.POM - Sell link is clickable
+16:24:34.712 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+16:24:34.990 [main] INFO  Dealership.POM - Select Customer Field is visible
+16:24:45.466 [main] INFO  Dealership.POM - CustomerInfo is visible
+16:25:05.884 [main] INFO  Dealership.POM - Quote Toggle button is visible
+16:25:06.001 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+16:25:16.074 [main] INFO  Dealership.POM - The status of CO is Quote
+16:25:16.133 [main] INFO  Dealership.POM - Sell A Unit button is visible
+16:25:16.240 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+16:25:18.178 [main] INFO  Dealership.POM - UnitDealStatus is visible
+16:25:18.231 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+16:25:18.335 [main] INFO  Dealership.POM - AddTradeIn button is visible
+16:25:18.467 [main] INFO  Dealership.POM - AddTradeIn button is clicked
+16:25:20.805 [main] INFO  Dealership.POM - AddCOU button is visible
+16:25:20.946 [main] INFO  Dealership.POM - AddCOU button is clicked
+16:25:23.504 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+16:25:28.575 [main] INFO  Dealership.POM - VIN_Unit field is visible
+16:25:29.096 [main] INFO  Dealership.POM - VIN number is filed
+16:25:29.145 [main] INFO  Dealership.POM - Make field is visible
+16:25:30.753 [main] INFO  Dealership.POM - Make is filed
+16:25:30.825 [main] INFO  Dealership.POM - Model field is visible
+16:25:31.958 [main] INFO  Dealership.POM - Model is filed
+16:25:32.019 [main] INFO  Dealership.POM - Sub-Model field is visible
+16:25:32.484 [main] INFO  Dealership.POM - Sub-Model is filed
+16:25:32.553 [main] INFO  Dealership.POM - Year field is visible
+16:25:32.871 [main] INFO  Dealership.POM - Year is filed
+16:25:32.950 [main] INFO  Dealership.POM - Addbutton is visible
+16:25:33.120 [main] INFO  Dealership.POM - Addbutton is clicked
+16:25:43.249 [main] INFO  Dealership.POM - AgreedValueForCOU is visible
+16:25:43.438 [main] INFO  Dealership.POM - AgreedValueForCOU is clicked
+16:25:43.475 [main] INFO  Dealership.POM - ActualCashValueForCOU is visible
+16:25:43.631 [main] INFO  Dealership.POM - ActualCashValueForCOU is clicked
+16:25:43.675 [main] INFO  Dealership.POM - tradeInLienPayout is visible
+16:25:43.875 [main] INFO  Dealership.POM - tradeInLienPayout is clicked
+16:25:43.924 [main] INFO  Dealership.POM - tradeInFinanceCompany is visible
+16:25:44.053 [main] INFO  Dealership.POM - tradeInFinanceCompany is clicked
+16:25:49.136 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is visible
+16:25:49.380 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is clicked
+16:25:49.441 [main] INFO  Dealership.POM - AppraisalMethod is visible
+16:25:50.840 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+16:49:10.436 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+16:49:16.972 [main] INFO  Dealership.POM - Windows maximized
+16:49:18.972 [main] INFO  Dealership.POM - URL entered
+16:49:19.107 [main] INFO  Dealership.POM - Username field is visible
+16:49:19.414 [main] INFO  Dealership.POM - Password field is visible
+16:49:19.673 [main] INFO  Dealership.POM - Login Button is visible
+16:49:54.678 [main] INFO  Dealership.POM - Login Button is clicked
+16:50:19.780 [main] INFO  Dealership.POM - Sell link is visible
+16:50:21.217 [main] INFO  Dealership.POM - Sell link is clickable
+16:50:21.431 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+16:50:23.751 [main] INFO  Dealership.POM - Select Customer Field is visible
+16:50:34.121 [main] INFO  Dealership.POM - CustomerInfo is visible
+16:50:54.421 [main] INFO  Dealership.POM - Quote Toggle button is visible
+16:50:54.505 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+16:51:04.549 [main] INFO  Dealership.POM - The status of CO is Quote
+16:51:04.585 [main] INFO  Dealership.POM - Sell A Unit button is visible
+16:51:04.662 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+16:51:06.874 [main] INFO  Dealership.POM - UnitDealStatus is visible
+16:51:06.897 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+16:51:07.247 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+16:51:21.128 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+16:51:26.899 [main] INFO  Dealership.POM - Windows maximized
+16:51:29.057 [main] INFO  Dealership.POM - URL entered
+16:51:29.190 [main] INFO  Dealership.POM - Username field is visible
+16:51:29.406 [main] INFO  Dealership.POM - Password field is visible
+16:51:29.580 [main] INFO  Dealership.POM - Login Button is visible
+16:52:02.256 [main] INFO  Dealership.POM - Login Button is clicked
+16:52:27.389 [main] INFO  Dealership.POM - Sell link is visible
+16:52:28.645 [main] INFO  Dealership.POM - Sell link is clickable
+16:52:28.954 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+16:52:31.179 [main] INFO  Dealership.POM - Select Customer Field is visible
+16:52:41.546 [main] INFO  Dealership.POM - CustomerInfo is visible
+16:53:01.819 [main] INFO  Dealership.POM - Quote Toggle button is visible
+16:53:01.906 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+16:53:11.953 [main] INFO  Dealership.POM - The status of CO is Quote
+16:53:11.989 [main] INFO  Dealership.POM - Sell A Unit button is visible
+16:53:12.060 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+16:53:14.340 [main] INFO  Dealership.POM - UnitDealStatus is visible
+16:53:14.370 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+16:53:14.764 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+16:53:36.839 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+16:53:42.796 [main] INFO  Dealership.POM - Windows maximized
+16:53:44.936 [main] INFO  Dealership.POM - URL entered
+16:53:45.047 [main] INFO  Dealership.POM - Username field is visible
+16:53:45.259 [main] INFO  Dealership.POM - Password field is visible
+16:53:45.473 [main] INFO  Dealership.POM - Login Button is visible
+16:54:20.869 [main] INFO  Dealership.POM - Login Button is clicked
+16:54:45.968 [main] INFO  Dealership.POM - Sell link is visible
+16:54:47.031 [main] INFO  Dealership.POM - Sell link is clickable
+16:54:47.276 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+16:54:50.132 [main] INFO  Dealership.POM - Select Customer Field is visible
+16:55:00.511 [main] INFO  Dealership.POM - CustomerInfo is visible
+16:55:20.818 [main] INFO  Dealership.POM - Quote Toggle button is visible
+16:55:20.898 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+16:55:30.950 [main] INFO  Dealership.POM - The status of CO is Quote
+16:55:30.989 [main] INFO  Dealership.POM - Sell A Unit button is visible
+16:55:31.075 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+16:55:34.059 [main] INFO  Dealership.POM - UnitDealStatus is visible
+16:55:34.088 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+16:55:34.467 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+16:57:46.387 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+16:57:52.148 [main] INFO  Dealership.POM - Windows maximized
+16:57:54.663 [main] INFO  Dealership.POM - URL entered
+16:57:54.763 [main] INFO  Dealership.POM - Username field is visible
+16:57:54.920 [main] INFO  Dealership.POM - Password field is visible
+16:57:55.041 [main] INFO  Dealership.POM - Login Button is visible
+16:58:30.897 [main] INFO  Dealership.POM - Login Button is clicked
+16:58:56.012 [main] INFO  Dealership.POM - Sell link is visible
+16:58:57.162 [main] INFO  Dealership.POM - Sell link is clickable
+16:58:57.325 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+16:59:01.243 [main] INFO  Dealership.POM - Select Customer Field is visible
+16:59:11.715 [main] INFO  Dealership.POM - CustomerInfo is visible
+16:59:31.991 [main] INFO  Dealership.POM - Quote Toggle button is visible
+16:59:32.067 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+16:59:42.112 [main] INFO  Dealership.POM - The status of CO is Quote
+16:59:42.149 [main] INFO  Dealership.POM - Sell A Unit button is visible
+16:59:42.220 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+16:59:44.984 [main] INFO  Dealership.POM - UnitDealStatus is visible
+16:59:45.010 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+16:59:45.084 [main] INFO  Dealership.POM - AddTradeIn button is visible
+16:59:45.179 [main] INFO  Dealership.POM - AddTradeIn button is clicked
+16:59:48.982 [main] INFO  Dealership.POM - AddCOU button is visible
+16:59:49.081 [main] INFO  Dealership.POM - AddCOU button is clicked
+16:59:52.113 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+16:59:57.147 [main] INFO  Dealership.POM - Make field is visible
+16:59:58.514 [main] INFO  Dealership.POM - Make is filed
+16:59:58.548 [main] INFO  Dealership.POM - Model field is visible
+16:59:59.379 [main] INFO  Dealership.POM - Model is filed
+16:59:59.414 [main] INFO  Dealership.POM - Sub-Model field is visible
+16:59:59.769 [main] INFO  Dealership.POM - Sub-Model is filed
+16:59:59.808 [main] INFO  Dealership.POM - Year field is visible
+17:00:00.044 [main] INFO  Dealership.POM - Year is filed
+17:00:00.094 [main] INFO  Dealership.POM - Addbutton is visible
+17:00:00.198 [main] INFO  Dealership.POM - Addbutton is clicked
+17:00:10.275 [main] INFO  Dealership.POM - AgreedValueForCOU is visible
+17:00:10.426 [main] INFO  Dealership.POM - AgreedValueForCOU is clicked
+17:00:10.459 [main] INFO  Dealership.POM - ActualCashValueForCOU is visible
+17:00:10.648 [main] INFO  Dealership.POM - ActualCashValueForCOU is clicked
+17:00:10.690 [main] INFO  Dealership.POM - tradeInLienPayout is visible
+17:00:10.857 [main] INFO  Dealership.POM - tradeInLienPayout is clicked
+17:00:10.893 [main] INFO  Dealership.POM - tradeInFinanceCompany is visible
+17:00:10.993 [main] INFO  Dealership.POM - tradeInFinanceCompany is clicked
+17:00:16.032 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is visible
+17:00:16.103 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is clicked
+17:00:16.140 [main] INFO  Dealership.POM - AppraisalMethod is visible
+17:00:17.430 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+17:03:11.719 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+17:03:17.265 [main] INFO  Dealership.POM - Windows maximized
+17:03:19.580 [main] INFO  Dealership.POM - URL entered
+17:03:19.705 [main] INFO  Dealership.POM - Username field is visible
+17:03:20.011 [main] INFO  Dealership.POM - Password field is visible
+17:03:20.168 [main] INFO  Dealership.POM - Login Button is visible
+17:04:06.838 [main] INFO  Dealership.POM - Login Button is clicked
+17:04:31.944 [main] INFO  Dealership.POM - Sell link is visible
+17:04:33.224 [main] INFO  Dealership.POM - Sell link is clickable
+17:04:33.437 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:04:35.853 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:04:46.302 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:05:06.574 [main] INFO  Dealership.POM - Quote Toggle button is visible
+17:05:06.672 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+17:05:16.718 [main] INFO  Dealership.POM - The status of CO is Quote
+17:05:16.762 [main] INFO  Dealership.POM - Sell A Unit button is visible
+17:05:16.831 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+17:05:18.532 [main] INFO  Dealership.POM - UnitDealStatus is visible
+17:05:18.559 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+17:05:18.655 [main] INFO  Dealership.POM - AddTradeIn button is visible
+17:05:18.775 [main] INFO  Dealership.POM - AddTradeIn button is clicked
+17:05:23.066 [main] INFO  Dealership.POM - AddCOU button is visible
+17:05:23.168 [main] INFO  Dealership.POM - AddCOU button is clicked
+17:05:25.509 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+17:05:30.557 [main] INFO  Dealership.POM - Make field is visible
+17:05:31.817 [main] INFO  Dealership.POM - Make is filed
+17:05:31.849 [main] INFO  Dealership.POM - Model field is visible
+17:05:32.661 [main] INFO  Dealership.POM - Model is filed
+17:05:32.694 [main] INFO  Dealership.POM - Sub-Model field is visible
+17:05:33.045 [main] INFO  Dealership.POM - Sub-Model is filed
+17:05:33.081 [main] INFO  Dealership.POM - Year field is visible
+17:05:33.307 [main] INFO  Dealership.POM - Year is filed
+17:05:33.350 [main] INFO  Dealership.POM - Addbutton is visible
+17:05:33.461 [main] INFO  Dealership.POM - Addbutton is clicked
+17:05:43.540 [main] INFO  Dealership.POM - AgreedValueForCOU is visible
+17:05:43.693 [main] INFO  Dealership.POM - AgreedValueForCOU is clicked
+17:05:43.725 [main] INFO  Dealership.POM - ActualCashValueForCOU is visible
+17:05:43.882 [main] INFO  Dealership.POM - ActualCashValueForCOU is clicked
+17:05:43.917 [main] INFO  Dealership.POM - tradeInLienPayout is visible
+17:05:44.086 [main] INFO  Dealership.POM - tradeInLienPayout is clicked
+17:05:44.125 [main] INFO  Dealership.POM - tradeInFinanceCompany is visible
+17:05:44.220 [main] INFO  Dealership.POM - tradeInFinanceCompany is clicked
+17:05:49.268 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is visible
+17:05:49.341 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is clicked
+17:05:49.392 [main] INFO  Dealership.POM - AppraisalMethod is visible
+17:05:50.656 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+17:08:56.826 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+17:09:08.272 [main] INFO  Dealership.POM - Windows maximized
+17:09:10.111 [main] INFO  Dealership.POM - URL entered
+17:09:10.241 [main] INFO  Dealership.POM - Username field is visible
+17:09:10.418 [main] INFO  Dealership.POM - Password field is visible
+17:09:10.546 [main] INFO  Dealership.POM - Login Button is visible
+17:09:28.895 [main] INFO  Dealership.POM - Login Button is clicked
+17:09:54.062 [main] INFO  Dealership.POM - Sell link is visible
+17:09:55.065 [main] INFO  Dealership.POM - Sell link is clickable
+17:09:55.230 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:09:55.592 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:10:06.117 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:10:26.424 [main] INFO  Dealership.POM - Quote Toggle button is visible
+17:10:26.506 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+17:10:36.555 [main] INFO  Dealership.POM - The status of CO is Quote
+17:10:36.592 [main] INFO  Dealership.POM - Sell A Unit button is visible
+17:10:36.662 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+17:10:38.361 [main] INFO  Dealership.POM - UnitDealStatus is visible
+17:10:38.386 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+17:10:38.588 [main] INFO  Dealership.POM - AddTradeIn button is visible
+17:10:38.701 [main] INFO  Dealership.POM - AddTradeIn button is clicked
+17:10:41.460 [main] INFO  Dealership.POM - AddCOU button is visible
+17:10:41.528 [main] INFO  Dealership.POM - AddCOU button is clicked
+17:10:43.838 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+17:10:48.882 [main] INFO  Dealership.POM - Make field is visible
+17:10:50.308 [main] INFO  Dealership.POM - Make is filed
+17:10:50.341 [main] INFO  Dealership.POM - Model field is visible
+17:10:51.306 [main] INFO  Dealership.POM - Model is filed
+17:10:51.339 [main] INFO  Dealership.POM - Sub-Model field is visible
+17:10:51.696 [main] INFO  Dealership.POM - Sub-Model is filed
+17:10:51.738 [main] INFO  Dealership.POM - Year field is visible
+17:10:51.960 [main] INFO  Dealership.POM - Year is filed
+17:10:52.001 [main] INFO  Dealership.POM - Addbutton is visible
+17:10:52.131 [main] INFO  Dealership.POM - Addbutton is clicked
+17:11:02.210 [main] INFO  Dealership.POM - AgreedValueForCOU is visible
+17:11:02.358 [main] INFO  Dealership.POM - AgreedValueForCOU is clicked
+17:11:02.390 [main] INFO  Dealership.POM - ActualCashValueForCOU is visible
+17:11:02.560 [main] INFO  Dealership.POM - ActualCashValueForCOU is clicked
+17:11:02.595 [main] INFO  Dealership.POM - tradeInLienPayout is visible
+17:11:02.766 [main] INFO  Dealership.POM - tradeInLienPayout is clicked
+17:11:02.798 [main] INFO  Dealership.POM - tradeInFinanceCompany is visible
+17:11:02.887 [main] INFO  Dealership.POM - tradeInFinanceCompany is clicked
+17:11:07.929 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is visible
+17:11:08.000 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is clicked
+17:11:08.037 [main] INFO  Dealership.POM - AppraisalMethod is visible
+17:11:08.275 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+17:13:07.044 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+17:13:13.018 [main] INFO  Dealership.POM - Windows maximized
+17:13:16.106 [main] INFO  Dealership.POM - URL entered
+17:13:16.220 [main] INFO  Dealership.POM - Username field is visible
+17:13:16.417 [main] INFO  Dealership.POM - Password field is visible
+17:13:16.543 [main] INFO  Dealership.POM - Login Button is visible
+17:13:39.975 [main] INFO  Dealership.POM - Login Button is clicked
+17:14:05.088 [main] INFO  Dealership.POM - Sell link is visible
+17:14:06.081 [main] INFO  Dealership.POM - Sell link is clickable
+17:14:06.237 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:14:06.970 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:14:17.346 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:14:37.641 [main] INFO  Dealership.POM - Quote Toggle button is visible
+17:14:37.764 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+17:14:47.806 [main] INFO  Dealership.POM - The status of CO is Quote
+17:14:47.844 [main] INFO  Dealership.POM - Sell A Unit button is visible
+17:14:47.921 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+17:14:50.144 [main] INFO  Dealership.POM - UnitDealStatus is visible
+17:14:50.170 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+17:14:50.249 [main] INFO  Dealership.POM - AddTradeIn button is visible
+17:14:50.351 [main] INFO  Dealership.POM - AddTradeIn button is clicked
+17:14:53.649 [main] INFO  Dealership.POM - AddCOU button is visible
+17:14:53.719 [main] INFO  Dealership.POM - AddCOU button is clicked
+17:14:56.093 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+17:15:01.137 [main] INFO  Dealership.POM - Make field is visible
+17:15:02.413 [main] INFO  Dealership.POM - Make is filed
+17:15:02.449 [main] INFO  Dealership.POM - Model field is visible
+17:15:03.264 [main] INFO  Dealership.POM - Model is filed
+17:15:03.296 [main] INFO  Dealership.POM - Sub-Model field is visible
+17:15:03.664 [main] INFO  Dealership.POM - Sub-Model is filed
+17:15:03.704 [main] INFO  Dealership.POM - Year field is visible
+17:15:03.923 [main] INFO  Dealership.POM - Year is filed
+17:15:03.964 [main] INFO  Dealership.POM - Addbutton is visible
+17:15:04.063 [main] INFO  Dealership.POM - Addbutton is clicked
+17:15:14.155 [main] INFO  Dealership.POM - AgreedValueForCOU is visible
+17:15:14.300 [main] INFO  Dealership.POM - AgreedValueForCOU is clicked
+17:15:14.335 [main] INFO  Dealership.POM - ActualCashValueForCOU is visible
+17:15:14.511 [main] INFO  Dealership.POM - ActualCashValueForCOU is clicked
+17:15:14.550 [main] INFO  Dealership.POM - tradeInLienPayout is visible
+17:15:14.721 [main] INFO  Dealership.POM - tradeInLienPayout is clicked
+17:15:14.756 [main] INFO  Dealership.POM - tradeInFinanceCompany is visible
+17:15:14.848 [main] INFO  Dealership.POM - tradeInFinanceCompany is clicked
+17:15:20.032 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is visible
+17:15:20.104 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is clicked
+17:15:20.151 [main] INFO  Dealership.POM - AppraisalMethod is visible
+17:15:20.385 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+17:21:36.189 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+17:21:41.751 [main] INFO  Dealership.POM - Windows maximized
+17:21:46.753 [main] INFO  Dealership.POM - URL entered
+17:21:46.875 [main] INFO  Dealership.POM - Username field is visible
+17:21:47.165 [main] INFO  Dealership.POM - Password field is visible
+17:21:48.141 [main] INFO  Dealership.POM - Login Button is visible
+17:22:23.250 [main] INFO  Dealership.POM - Login Button is clicked
+17:22:48.364 [main] INFO  Dealership.POM - Sell link is visible
+17:22:49.369 [main] INFO  Dealership.POM - Sell link is clickable
+17:22:49.524 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:22:52.339 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:23:02.698 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:23:22.992 [main] INFO  Dealership.POM - Quote Toggle button is visible
+17:23:23.072 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+17:23:33.117 [main] INFO  Dealership.POM - The status of CO is Quote
+17:23:33.170 [main] INFO  Dealership.POM - Sell A Unit button is visible
+17:23:33.255 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+17:23:34.672 [main] INFO  Dealership.POM - UnitDealStatus is visible
+17:23:34.700 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+17:23:35.147 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+17:24:05.188 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+17:24:10.971 [main] INFO  Dealership.POM - Windows maximized
+17:24:12.880 [main] INFO  Dealership.POM - URL entered
+17:24:12.989 [main] INFO  Dealership.POM - Username field is visible
+17:24:13.183 [main] INFO  Dealership.POM - Password field is visible
+17:24:13.439 [main] INFO  Dealership.POM - Login Button is visible
+17:24:21.728 [main] INFO  Dealership.POM - Login Button is clicked
+17:24:46.858 [main] INFO  Dealership.POM - Sell link is visible
+17:24:47.876 [main] INFO  Dealership.POM - Sell link is clickable
+17:24:48.472 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:24:48.674 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:24:59.025 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:25:19.334 [main] INFO  Dealership.POM - Quote Toggle button is visible
+17:25:19.423 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+17:25:29.477 [main] INFO  Dealership.POM - The status of CO is Quote
+17:25:29.515 [main] INFO  Dealership.POM - Sell A Unit button is visible
+17:25:29.589 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+17:25:31.874 [main] INFO  Dealership.POM - UnitDealStatus is visible
+17:25:31.903 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+17:25:31.991 [main] INFO  Dealership.POM - AddTradeIn button is visible
+17:25:32.094 [main] INFO  Dealership.POM - AddTradeIn button is clicked
+17:25:35.379 [main] INFO  Dealership.POM - AddCOU button is visible
+17:25:35.460 [main] INFO  Dealership.POM - AddCOU button is clicked
+17:25:38.025 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+17:25:43.069 [main] INFO  Dealership.POM - Make field is visible
+17:25:44.355 [main] INFO  Dealership.POM - Make is filed
+17:25:44.390 [main] INFO  Dealership.POM - Model field is visible
+17:25:45.203 [main] INFO  Dealership.POM - Model is filed
+17:25:45.237 [main] INFO  Dealership.POM - Sub-Model field is visible
+17:25:45.602 [main] INFO  Dealership.POM - Sub-Model is filed
+17:25:45.640 [main] INFO  Dealership.POM - Year field is visible
+17:25:45.865 [main] INFO  Dealership.POM - Year is filed
+17:25:45.907 [main] INFO  Dealership.POM - Addbutton is visible
+17:25:46.018 [main] INFO  Dealership.POM - Addbutton is clicked
+17:25:56.096 [main] INFO  Dealership.POM - AgreedValueForCOU is visible
+17:25:56.237 [main] INFO  Dealership.POM - AgreedValueForCOU is clicked
+17:25:56.275 [main] INFO  Dealership.POM - ActualCashValueForCOU is visible
+17:25:56.427 [main] INFO  Dealership.POM - ActualCashValueForCOU is clicked
+17:25:56.461 [main] INFO  Dealership.POM - tradeInLienPayout is visible
+17:25:56.621 [main] INFO  Dealership.POM - tradeInLienPayout is clicked
+17:25:56.652 [main] INFO  Dealership.POM - tradeInFinanceCompany is visible
+17:25:56.759 [main] INFO  Dealership.POM - tradeInFinanceCompany is clicked
+17:26:01.807 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is visible
+17:26:01.889 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is clicked
+17:26:01.947 [main] INFO  Dealership.POM - AppraisalMethod is visible
+17:26:02.159 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+17:26:44.602 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+17:26:50.215 [main] INFO  Dealership.POM - Windows maximized
+17:26:52.630 [main] INFO  Dealership.POM - URL entered
+17:26:52.721 [main] INFO  Dealership.POM - Username field is visible
+17:26:53.020 [main] INFO  Dealership.POM - Password field is visible
+17:26:53.554 [main] INFO  Dealership.POM - Login Button is visible
+17:27:28.309 [main] INFO  Dealership.POM - Login Button is clicked
+17:27:53.402 [main] INFO  Dealership.POM - Sell link is visible
+17:27:54.690 [main] INFO  Dealership.POM - Sell link is clickable
+17:27:54.855 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:27:57.743 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:28:08.108 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:28:28.399 [main] INFO  Dealership.POM - Quote Toggle button is visible
+17:28:28.485 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+17:28:38.529 [main] INFO  Dealership.POM - The status of CO is Quote
+17:28:38.567 [main] INFO  Dealership.POM - Sell A Unit button is visible
+17:28:38.654 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+17:28:40.902 [main] INFO  Dealership.POM - UnitDealStatus is visible
+17:28:40.927 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+17:28:41.022 [main] INFO  Dealership.POM - AddTradeIn button is visible
+17:28:41.117 [main] INFO  Dealership.POM - AddTradeIn button is clicked
+17:28:44.374 [main] INFO  Dealership.POM - AddCOU button is visible
+17:28:44.495 [main] INFO  Dealership.POM - AddCOU button is clicked
+17:28:47.261 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+17:28:52.301 [main] INFO  Dealership.POM - Make field is visible
+17:28:53.612 [main] INFO  Dealership.POM - Make is filed
+17:28:53.646 [main] INFO  Dealership.POM - Model field is visible
+17:28:54.455 [main] INFO  Dealership.POM - Model is filed
+17:28:54.488 [main] INFO  Dealership.POM - Sub-Model field is visible
+17:28:54.864 [main] INFO  Dealership.POM - Sub-Model is filed
+17:28:54.906 [main] INFO  Dealership.POM - Year field is visible
+17:28:55.173 [main] INFO  Dealership.POM - Year is filed
+17:28:55.214 [main] INFO  Dealership.POM - Addbutton is visible
+17:28:55.326 [main] INFO  Dealership.POM - Addbutton is clicked
+17:29:05.407 [main] INFO  Dealership.POM - AgreedValueForCOU is visible
+17:29:05.549 [main] INFO  Dealership.POM - AgreedValueForCOU is clicked
+17:29:05.583 [main] INFO  Dealership.POM - ActualCashValueForCOU is visible
+17:29:05.725 [main] INFO  Dealership.POM - ActualCashValueForCOU is clicked
+17:29:05.763 [main] INFO  Dealership.POM - tradeInLienPayout is visible
+17:29:05.922 [main] INFO  Dealership.POM - tradeInLienPayout is clicked
+17:29:05.955 [main] INFO  Dealership.POM - tradeInFinanceCompany is visible
+17:29:06.042 [main] INFO  Dealership.POM - tradeInFinanceCompany is clicked
+17:29:11.081 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is visible
+17:29:11.156 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is clicked
+17:29:11.209 [main] INFO  Dealership.POM - AppraisalMethod is visible
+17:29:11.231 [main] INFO  Dealership.POM - AppraisalMethod is clicked
+17:29:16.475 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+17:32:21.997 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+17:32:27.681 [main] INFO  Dealership.POM - Windows maximized
+17:32:29.630 [main] INFO  Dealership.POM - URL entered
+17:32:29.764 [main] INFO  Dealership.POM - Username field is visible
+17:32:30.019 [main] INFO  Dealership.POM - Password field is visible
+17:32:30.344 [main] INFO  Dealership.POM - Login Button is visible
+17:32:48.743 [main] INFO  Dealership.POM - Login Button is clicked
+17:33:13.848 [main] INFO  Dealership.POM - Sell link is visible
+17:33:13.923 [main] INFO  Dealership.POM - Sell link is clickable
+17:33:15.161 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:33:16.897 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:33:27.381 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:33:47.723 [main] INFO  Dealership.POM - Quote Toggle button is visible
+17:33:47.802 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+17:33:57.842 [main] INFO  Dealership.POM - The status of CO is Quote
+17:33:57.909 [main] INFO  Dealership.POM - Sell A Unit button is visible
+17:33:57.975 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+17:33:59.691 [main] INFO  Dealership.POM - UnitDealStatus is visible
+17:33:59.727 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+17:33:59.845 [main] INFO  Dealership.POM - AddTradeIn button is visible
+17:33:59.977 [main] INFO  Dealership.POM - AddTradeIn button is clicked
+17:34:04.359 [main] INFO  Dealership.POM - AddCOU button is visible
+17:34:04.435 [main] INFO  Dealership.POM - AddCOU button is clicked
+17:34:06.530 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+17:34:11.576 [main] INFO  Dealership.POM - Make field is visible
+17:34:12.948 [main] INFO  Dealership.POM - Make is filed
+17:34:12.981 [main] INFO  Dealership.POM - Model field is visible
+17:34:13.816 [main] INFO  Dealership.POM - Model is filed
+17:34:13.849 [main] INFO  Dealership.POM - Sub-Model field is visible
+17:34:14.214 [main] INFO  Dealership.POM - Sub-Model is filed
+17:34:14.258 [main] INFO  Dealership.POM - Year field is visible
+17:34:14.484 [main] INFO  Dealership.POM - Year is filed
+17:34:14.525 [main] INFO  Dealership.POM - Addbutton is visible
+17:34:14.635 [main] INFO  Dealership.POM - Addbutton is clicked
+17:34:24.723 [main] INFO  Dealership.POM - AgreedValueForCOU is visible
+17:34:24.876 [main] INFO  Dealership.POM - AgreedValueForCOU is clicked
+17:34:24.909 [main] INFO  Dealership.POM - ActualCashValueForCOU is visible
+17:34:25.069 [main] INFO  Dealership.POM - ActualCashValueForCOU is clicked
+17:34:25.102 [main] INFO  Dealership.POM - tradeInLienPayout is visible
+17:34:25.282 [main] INFO  Dealership.POM - tradeInLienPayout is clicked
+17:34:25.315 [main] INFO  Dealership.POM - tradeInFinanceCompany is visible
+17:34:25.407 [main] INFO  Dealership.POM - tradeInFinanceCompany is clicked
+17:34:30.448 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is visible
+17:34:30.522 [main] INFO  Dealership.POM - tradeInFinanceCompanyDropdownDiv is clicked
+17:34:30.574 [main] INFO  Dealership.POM - AppraisalMethod is visible
+17:34:30.596 [main] INFO  Dealership.POM - AppraisalMethod is clicked
+17:34:40.873 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+17:37:28.469 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+17:37:34.149 [main] INFO  Dealership.POM - Windows maximized
+17:37:35.845 [main] INFO  Dealership.POM - URL entered
+17:37:35.969 [main] INFO  Dealership.POM - Username field is visible
+17:37:36.339 [main] INFO  Dealership.POM - Password field is visible
+17:37:36.599 [main] INFO  Dealership.POM - Login Button is visible
+17:38:10.611 [main] INFO  Dealership.POM - Login Button is clicked
+17:38:35.723 [main] INFO  Dealership.POM - Sell link is visible
+17:38:36.848 [main] INFO  Dealership.POM - Sell link is clickable
+17:38:37.115 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:38:39.462 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:38:49.838 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:39:10.142 [main] INFO  Dealership.POM - Quote Toggle button is visible
+17:39:10.218 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+17:39:20.273 [main] INFO  Dealership.POM - The status of CO is Quote
+17:39:20.312 [main] INFO  Dealership.POM - Sell A Unit button is visible
+17:39:20.386 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+17:39:22.626 [main] INFO  Dealership.POM - UnitDealStatus is visible
+17:39:22.659 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+17:39:22.772 [main] INFO  Dealership.POM - AddTradeIn button is visible
+17:39:22.870 [main] INFO  Dealership.POM - AddTradeIn button is clicked
+17:39:26.112 [main] INFO  Dealership.POM - AddCOU button is visible
+17:39:26.190 [main] INFO  Dealership.POM - AddCOU button is clicked
+17:39:28.592 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+17:39:33.635 [main] INFO  Dealership.POM - Make field is visible
+17:39:34.931 [main] INFO  Dealership.POM - Make is filed
+17:39:34.965 [main] INFO  Dealership.POM - Model field is visible
+17:39:35.801 [main] INFO  Dealership.POM - Model is filed
+17:39:35.834 [main] INFO  Dealership.POM - Sub-Model field is visible
+17:39:36.190 [main] INFO  Dealership.POM - Sub-Model is filed
+17:39:36.227 [main] INFO  Dealership.POM - Year field is visible
+17:39:36.458 [main] INFO  Dealership.POM - Year is filed
+17:39:36.500 [main] INFO  Dealership.POM - Addbutton is visible
+17:39:36.622 [main] INFO  Dealership.POM - Addbutton is clicked
+17:39:46.709 [main] INFO  Dealership.POM - Customer Header is visible
+17:39:47.964 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+17:40:37.910 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+17:40:43.716 [main] INFO  Dealership.POM - Windows maximized
+17:40:45.411 [main] INFO  Dealership.POM - URL entered
+17:40:45.537 [main] INFO  Dealership.POM - Username field is visible
+17:40:46.051 [main] INFO  Dealership.POM - Password field is visible
+17:40:46.198 [main] INFO  Dealership.POM - Login Button is visible
+17:41:03.110 [main] INFO  Dealership.POM - Login Button is clicked
+17:41:28.214 [main] INFO  Dealership.POM - Sell link is visible
+17:41:29.234 [main] INFO  Dealership.POM - Sell link is clickable
+17:41:29.614 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:41:29.932 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:41:40.289 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:42:00.566 [main] INFO  Dealership.POM - Quote Toggle button is visible
+17:42:00.653 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+17:42:10.705 [main] INFO  Dealership.POM - The status of CO is Quote
+17:42:10.744 [main] INFO  Dealership.POM - Sell A Unit button is visible
+17:42:10.821 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+17:42:12.143 [main] INFO  Dealership.POM - UnitDealStatus is visible
+17:42:12.170 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+17:42:12.530 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+17:42:41.437 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+17:42:47.189 [main] INFO  Dealership.POM - Windows maximized
+17:42:49.219 [main] INFO  Dealership.POM - URL entered
+17:42:49.357 [main] INFO  Dealership.POM - Username field is visible
+17:42:50.086 [main] INFO  Dealership.POM - Password field is visible
+17:42:50.484 [main] INFO  Dealership.POM - Login Button is visible
+17:43:06.816 [main] INFO  Dealership.POM - Login Button is clicked
+17:43:31.904 [main] INFO  Dealership.POM - Sell link is visible
+17:43:33.029 [main] INFO  Dealership.POM - Sell link is clickable
+17:43:33.450 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:43:33.810 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:43:44.248 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:44:04.544 [main] INFO  Dealership.POM - Quote Toggle button is visible
+17:44:04.634 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+17:44:14.690 [main] INFO  Dealership.POM - The status of CO is Quote
+17:44:14.727 [main] INFO  Dealership.POM - Sell A Unit button is visible
+17:44:14.796 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+17:44:16.139 [main] INFO  Dealership.POM - UnitDealStatus is visible
+17:44:16.164 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+17:44:16.528 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenTradeinUnit
+17:45:00.614 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+17:45:06.068 [main] INFO  Dealership.POM - Windows maximized
+17:45:08.033 [main] INFO  Dealership.POM - URL entered
+17:45:08.205 [main] INFO  Dealership.POM - Username field is visible
+17:45:08.512 [main] INFO  Dealership.POM - Password field is visible
+17:45:08.752 [main] INFO  Dealership.POM - Login Button is visible
+17:45:25.845 [main] INFO  Dealership.POM - Login Button is clicked
+17:45:50.948 [main] INFO  Dealership.POM - Sell link is visible
+17:45:52.111 [main] INFO  Dealership.POM - Sell link is clickable
+17:45:52.349 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:45:54.130 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:46:04.461 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:46:24.755 [main] INFO  Dealership.POM - Quote Toggle button is visible
+17:46:24.831 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+17:46:34.880 [main] INFO  Dealership.POM - The status of CO is Quote
+17:46:34.920 [main] INFO  Dealership.POM - Sell A Unit button is visible
+17:46:35.005 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+17:46:36.720 [main] INFO  Dealership.POM - UnitDealStatus is visible
+17:46:36.749 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+17:46:41.827 [main] INFO  Dealership.POM - AddTradeIn button is visible
+17:46:41.907 [main] INFO  Dealership.POM - AddTradeIn button is clicked
+17:46:43.623 [main] INFO  Dealership.POM - AddCOU button is visible
+17:46:43.790 [main] INFO  Dealership.POM - AddCOU button is clicked
+17:46:46.503 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+17:46:51.541 [main] INFO  Dealership.POM - Make field is visible
+17:46:52.899 [main] INFO  Dealership.POM - Make is filed
+17:46:52.933 [main] INFO  Dealership.POM - Model field is visible
+17:46:53.759 [main] INFO  Dealership.POM - Model is filed
+17:46:53.793 [main] INFO  Dealership.POM - Sub-Model field is visible
+17:46:54.161 [main] INFO  Dealership.POM - Sub-Model is filed
+17:46:54.198 [main] INFO  Dealership.POM - Year field is visible
+17:46:54.417 [main] INFO  Dealership.POM - Year is filed
+17:46:54.456 [main] INFO  Dealership.POM - Addbutton is visible
+17:46:54.567 [main] INFO  Dealership.POM - Addbutton is clicked
+17:47:04.664 [main] INFO  Dealership.POM - Customer Header is visible
+17:47:04.784 [main] INFO  Dealership.POM - Customer Header is clicked
+17:47:05.448 [main] INFO  Dealership.POM - Delete Button is visible
+17:47:05.575 [main] INFO  Dealership.POM - Delete Button is clicked
+17:47:06.185 [main] INFO  Dealership.POM - CO contains Deal.
+17:47:06.267 [main] INFO  Dealership.POM - OK Button is clicked
+17:47:06.272 [main] INFO  Dealership.POM - Test case DeleteWhenTradeinUnit passes successfully
+17:47:54.478 [main] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+17:48:00.071 [main] INFO  Dealership.POM - Windows maximized
+17:48:01.749 [main] INFO  Dealership.POM - URL entered
+17:48:01.881 [main] INFO  Dealership.POM - Username field is visible
+17:48:02.174 [main] INFO  Dealership.POM - Password field is visible
+17:48:02.400 [main] INFO  Dealership.POM - Login Button is visible
+17:48:33.865 [main] INFO  Dealership.POM - Login Button is clicked
+17:48:58.960 [main] INFO  Dealership.POM - Sell link is visible
+17:49:00.249 [main] INFO  Dealership.POM - Sell link is clickable
+17:49:00.551 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:49:02.919 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:49:13.291 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:49:33.597 [main] INFO  Dealership.POM - Quote Toggle button is visible
+17:49:33.674 [main] INFO  Dealership.POM - Quote Toggle button is clicked
+17:49:43.714 [main] INFO  Dealership.POM - The status of CO is Quote
+17:49:43.781 [main] INFO  Dealership.POM - Sell A Unit button is visible
+17:49:43.859 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+17:49:46.217 [main] INFO  Dealership.POM - UnitDealStatus is visible
+17:49:46.244 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+17:49:51.318 [main] INFO  Dealership.POM - AddTradeIn button is visible
+17:49:51.405 [main] INFO  Dealership.POM - AddTradeIn button is clicked
+17:49:53.071 [main] INFO  Dealership.POM - AddCOU button is visible
+17:49:53.188 [main] INFO  Dealership.POM - AddCOU button is clicked
+17:49:55.590 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+17:50:00.633 [main] INFO  Dealership.POM - Make field is visible
+17:50:02.187 [main] INFO  Dealership.POM - Make is filed
+17:50:02.222 [main] INFO  Dealership.POM - Model field is visible
+17:50:03.105 [main] INFO  Dealership.POM - Model is filed
+17:50:03.142 [main] INFO  Dealership.POM - Sub-Model field is visible
+17:50:03.500 [main] INFO  Dealership.POM - Sub-Model is filed
+17:50:03.540 [main] INFO  Dealership.POM - Year field is visible
+17:50:03.776 [main] INFO  Dealership.POM - Year is filed
+17:50:03.823 [main] INFO  Dealership.POM - Addbutton is visible
+17:50:03.934 [main] INFO  Dealership.POM - Addbutton is clicked
+17:50:14.008 [main] INFO  Dealership.POM - Customer Header is visible
+17:50:14.101 [main] INFO  Dealership.POM - Customer Header is clicked
+17:50:14.759 [main] INFO  Dealership.POM - Delete Button is visible
+17:50:14.863 [main] INFO  Dealership.POM - Delete Button is clicked
+17:50:15.476 [main] INFO  Dealership.POM - CO contains Deal.
+17:50:15.551 [main] INFO  Dealership.POM - OK Button is clicked
+17:50:15.557 [main] INFO  Dealership.POM - Test case DeleteWhenTradeinUnit passes successfully
+18:00:23.804 [main] INFO  Dealership.POM - Running Test : ChangeWhenSellAPart
+18:00:29.876 [main] INFO  Dealership.POM - Windows maximized
+18:00:31.698 [main] INFO  Dealership.POM - URL entered
+18:00:31.822 [main] INFO  Dealership.POM - Username field is visible
+18:00:32.179 [main] INFO  Dealership.POM - Password field is visible
+18:00:33.839 [main] INFO  Dealership.POM - Login Button is visible
+18:00:34.009 [main] INFO  Dealership.POM - Login Button is clicked
+18:01:08.357 [main] INFO  Dealership.POM - Sell link is visible
+18:01:09.530 [main] INFO  Dealership.POM - Sell link is clickable
+18:01:10.201 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+18:01:10.670 [main] INFO  Dealership.POM - Select Customer Field is visible
+18:01:21.401 [main] INFO  Dealership.POM - CustomerInfo is visible
+18:01:41.777 [main] INFO  Dealership.POM - Customer Header is visible
+18:01:41.861 [main] INFO  Dealership.POM - Customer Header is clicked

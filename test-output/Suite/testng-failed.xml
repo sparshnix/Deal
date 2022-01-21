@@ -1,23 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="Dealership.Listeners"/>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
   </listeners>
-  <test thread-count="1" name="Test(failed)" parallel="methods">
-    <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" name="Test(failed)" parallel="methods">
     <classes>
       <class name="Dealership.Masterdata">
         <methods>
+          <include name="AddFee"/>
+          <include name="AddLabor"/>
           <include name="AddCustomer"/>
+          <include name="AddPart"/>
+          <include name="AddVendor"/>
+          <include name="AddUnit"/>
         </methods>
       </class> <!-- Dealership.Masterdata -->
+      <class name="Dealership.DeleteCustomerOnCO">
+        <methods>
+          <include name="ConvertintoCashSale"/>
+          <include name="DeleteWhenCompletestatus"/>
+          <include name="DeleteWhenServicejob"/>
+          <include name="DeleteWhenStoreCredit"/>
+          <include name="DeleteWhenCOClosed"/>
+          <include name="DeleteWhenStockUnit"/>
+        </methods>
+      </class> <!-- Dealership.DeleteCustomerOnCO -->
       <class name="Dealership.Workspace">
         <methods>
+          <include name="Activity_Feed"/>
           <include name="Customer_Orders"/>
         </methods>
       </class> <!-- Dealership.Workspace -->
+      <class name="Dealership.Sell">
+        <methods>
+          <include name="TemporaryUnit"/>
+          <include name="servicejob"/>
+          <include name="UnitDeal"/>
+          <include name="CashSale"/>
+          <include name="sell"/>
+        </methods>
+      </class> <!-- Dealership.Sell -->
+      <class name="Dealership.ChangeCustomerOnCO">
+        <methods>
+          <include name="ChangeWhenStoreCredit"/>
+          <include name="ChangeWhenTemporaryUnit"/>
+          <include name="DeleteWhenCompletestatus"/>
+          <include name="ChangeWhenServicejob"/>
+          <include name="ChangeWhenSellAPart"/>
+          <include name="ChangeWhenStockUnit"/>
+          <include name="ChangeWhenUnitDeal"/>
+          <include name="ChangeWhenCOClosed"/>
+          <include name="ChangeWhenTradeinUnit"/>
+        </methods>
+      </class> <!-- Dealership.ChangeCustomerOnCO -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

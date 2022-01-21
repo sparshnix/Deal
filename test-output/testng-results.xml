@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Status of execution : 1]]>
     </line>
     <line>
-      <![CDATA[Test case CashSale passes successfully]]>
+      <![CDATA[Test case SingleUnitOrder passes successfully]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="208671" started-at="2022-01-05T16:40:17 IST" finished-at="2022-01-05T16:43:46 IST">
+  <suite name="Default suite" duration-ms="181585" started-at="2022-01-21T20:17:52 IST" finished-at="2022-01-21T20:20:54 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="208671" started-at="2022-01-05T16:40:17 IST" finished-at="2022-01-05T16:43:46 IST">
-      <class name="Dealership.Sell">
-        <test-method status="PASS" signature="CashSale()[pri:16, instance:Dealership.Sell@6bd61f98]" name="CashSale" duration-ms="202433" started-at="2022-01-05T16:40:17 IST" finished-at="2022-01-05T16:43:39 IST">
+    <test name="Default test" duration-ms="181585" started-at="2022-01-21T20:17:52 IST" finished-at="2022-01-21T20:20:54 IST">
+      <class name="Dealership.Order">
+        <test-method status="PASS" signature="SingleUnitOrder()[pri:36, instance:Dealership.Order@b9b00e0]" name="SingleUnitOrder" duration-ms="175466" started-at="2022-01-21T20:17:52 IST" finished-at="2022-01-21T20:20:48 IST">
           <reporter-output>
             <line>
               <![CDATA[Status of execution : 1]]>
             </line>
             <line>
-              <![CDATA[Test case CashSale passes successfully]]>
+              <![CDATA[Test case SingleUnitOrder passes successfully]]>
             </line>
           </reporter-output>
-        </test-method> <!-- CashSale -->
-      </class> <!-- Dealership.Sell -->
+        </test-method> <!-- SingleUnitOrder -->
+      </class> <!-- Dealership.Order -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
