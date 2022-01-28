@@ -33,6 +33,7 @@ public class Property extends Variables {
 		url 						=	prop.getProperty("url");
 		username  					=	prop.getProperty("username");
 		password  					=	prop.getProperty("password");
+		defaultUser					=	prop.getProperty("defaultUser");
 		firstname  					=	prop.getProperty("firstname");
 		lastname  					=	prop.getProperty("lastname");
 		companyname  				=	prop.getProperty("companyname");
@@ -42,7 +43,9 @@ public class Property extends Variables {
 		feecode						=	prop.getProperty("feecode");
 		unitVIN						=   prop.getProperty("unitVIN");
 		bulkUnitCount				=   prop.getProperty("bulkUnitCount");
-		
+		vendor_Input				=   prop.getProperty("vendor_Input");
+		searchPart					=   prop.getProperty("searchPart");
+		outofstockPart				=   prop.getProperty("outofstockPart");
 		
 		
 		//Fetch the values from locators.properties 
@@ -286,7 +289,7 @@ public class Property extends Variables {
 		closePaymentWindow			=	locators.getProperty("closePaymentWindow");
 		createAppointment			=	locators.getProperty("createAppointment");	
 		
-		//Order
+		//Order(Unit)
 		order						=	locators.getProperty("order");
 		orderoptions				=	locators.getProperty("orderoptions");
 		unitorder					=	locators.getProperty("unitorder");
@@ -306,6 +309,27 @@ public class Property extends Variables {
 		vinField					=	locators.getProperty("vinField");
 		invoiceToggle				=	locators.getProperty("invoiceToggle");
 		invoiceNumber				=	locators.getProperty("invoiceNumber");
+		
+		//Order(Part)
+		partorder					=	locators.getProperty("partorder");
+		partReceiving				=	locators.getProperty("partReceiving");	
+		partCheckbox				=	locators.getProperty("partCheckbox");	
+		printReceiving				=	locators.getProperty("printReceiving");	
+		partInvoices				=	locators.getProperty("partInvoices");
+		qtyinStock					=	locators.getProperty("qtyinStock");
+		setBrandingLocationModalWindow =locators.getProperty("setBrandingLocationModalWindow"); 
+		confirmButton				=	locators.getProperty("confirmButton");
+		partstatus					=	locators.getProperty("partstatus");
+		partqty						=	locators.getProperty("partqty");
+		oversoldPopUpText			=	locators.getProperty("oversoldPopUpText");
+		merchandise_Section			=	locators.getProperty("merchandise_Section");
+		addSelectedButton			=	locators.getProperty("addSelectedButton");
+
+		
+		
+		
+		
+		
 		
 		
 		

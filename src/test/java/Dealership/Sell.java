@@ -109,7 +109,6 @@ public class Sell extends POM {
 		executer.executeScript("window.scrollBy(0,550)", MerchandiseSectionId);
 		
 		WebElement Checkout_Button = driver.findElement(By.xpath(checkout_button));
-		
 		Assert.assertTrue(Checkout_Button.isDisplayed(), "Checkout_Button is missing");
 		log.info("Checkout_Button is visible");
 		Checkout_Button.click();
@@ -827,8 +826,8 @@ public class Sell extends POM {
 	@Test(priority = 16)
 	public static void CashSale() throws Exception
 	{
-		SelectCustomer();
 		WebDriverWait wt = new WebDriverWait(driver, 100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(sell)));
 		WebElement Sell = driver.findElement(By.xpath(sell));
 		Assert.assertTrue(Sell.isDisplayed(), "Sell link is missing");
 		log.info("Sell link is visible");
@@ -954,7 +953,6 @@ public class Sell extends POM {
 		Assert.assertEquals(COStatus.getText(), "Closed");
 		log.info("CO Status is Closed");
 		
-		DeleteCOU();
 	}
 
 	@Test(priority = 17)

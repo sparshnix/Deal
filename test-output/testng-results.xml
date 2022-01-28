@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Status of execution : 1]]>
     </line>
     <line>
-      <![CDATA[Test case SingleUnitOrder passes successfully]]>
+      <![CDATA[Test case Oversold passes successfully]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="181585" started-at="2022-01-21T20:17:52 IST" finished-at="2022-01-21T20:20:54 IST">
+  <suite name="Default suite" duration-ms="142620" started-at="2022-01-28T14:09:24 IST" finished-at="2022-01-28T14:11:47 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="181585" started-at="2022-01-21T20:17:52 IST" finished-at="2022-01-21T20:20:54 IST">
+    <test name="Default test" duration-ms="142620" started-at="2022-01-28T14:09:24 IST" finished-at="2022-01-28T14:11:47 IST">
       <class name="Dealership.Order">
-        <test-method status="PASS" signature="SingleUnitOrder()[pri:36, instance:Dealership.Order@b9b00e0]" name="SingleUnitOrder" duration-ms="175466" started-at="2022-01-21T20:17:52 IST" finished-at="2022-01-21T20:20:48 IST">
+        <test-method status="PASS" signature="Oversold()[pri:41, instance:Dealership.Order@b9b00e0]" name="Oversold" duration-ms="136405" started-at="2022-01-28T14:09:24 IST" finished-at="2022-01-28T14:11:41 IST">
           <reporter-output>
             <line>
               <![CDATA[Status of execution : 1]]>
             </line>
             <line>
-              <![CDATA[Test case SingleUnitOrder passes successfully]]>
+              <![CDATA[Test case Oversold passes successfully]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
             </line>
           </reporter-output>
-        </test-method> <!-- SingleUnitOrder -->
+        </test-method> <!-- Oversold -->
       </class> <!-- Dealership.Order -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

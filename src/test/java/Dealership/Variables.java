@@ -10,7 +10,7 @@ public class Variables {
 	
 	public static String 
 	//Used for Masterdata
-	browser, url, username, password, addnew, customer, smallheader, firstname, lastname,
+	browser, url, username, password, defaultUser, addnew, customer, smallheader, firstname, lastname,
 	accounttypedropdown, accounttypevalue, country, countryname, state, statename, create,
 	verifyemail, vendor, vendorHeader, companyname, vendorAccountNumber, shippingaddressflag,
 	part_Purchases, merchandise_Purchases, unit_Purchases, sublet_Purchases, 
@@ -57,11 +57,16 @@ public class Variables {
 	okButton4, okButton5, invoiceHistory, reopenCO,	invoiceReOpeningModalWindow, reopenButton, 
 	entityQty, partStatus, stroreCreditOption, closePaymentWindow, createAppointment,
 	
-	//Order
+	//Order(Unit)
 	order, orderoptions, unitorder, vendoroptions, firstVendor, orderunitButton, yearDropdown,
 	conditionDropdown, colorfield, factoryfield, stockNumber, baseUnitPrice, baseUnitCost,
 	addPricing, createSingleOrderButton, orderunitinfo, vinField, invoiceToggle, invoiceNumber,
-	bulkUnitCount
+	bulkUnitCount,
+	
+	//Order(Part)
+	partorder, vendor_Input, searchPart, partReceiving, partCheckbox, printReceiving, partInvoices,
+	qtyinStock, setBrandingLocationModalWindow, confirmButton, outofstockPart, partstatus, partqty,
+	oversoldPopUpText, merchandise_Section, addSelectedButton
 	
 	
 	;

@@ -97,22 +97,21 @@ public class POM extends Variables {
 		log.info("Sell link is visible");
 		Sell.click();
 		log.info("Sell link is clickable");
+		
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(selectcustomerdropdown)));
-		
-		
 		WebElement SelectCustomerDropdown = driver.findElement(By.xpath(selectcustomerdropdown));
 		Assert.assertTrue(SelectCustomerDropdown.isDisplayed(), "Select Customer Dropdown is missing");
 		log.info("Select Customer Dropdown is visible");
 		SelectCustomerDropdown.click();
-		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("autocompleteCustomer")));
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("autocompleteCustomer")));
 		WebElement SelectCustomerField = driver.findElement(By.id("autocompleteCustomer"));
 		Assert.assertTrue(SelectCustomerField.isDisplayed(), "Select Customer Field is missing");
 		log.info("Select Customer Field is visible");
 //		SelectCustomerDropdown.sendKeys(Masterdata.NewCustomer);
-//		SelectCustomerField.sendKeys("sparsh-08_12_202112_53_04 shrivastava");
-		SelectCustomerField.sendKeys("sparsh-21_12_202103_18_37 shrivastava");
-		Thread.sleep(10000);
+		SelectCustomerField.sendKeys(defaultUser);
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("customerInfo_0")));
 		WebElement CustomerInfo = driver.findElement(By.id("customerInfo_0"));
 		Assert.assertTrue(CustomerInfo.isDisplayed(), "CustomerInfo is missing");
 		log.info("CustomerInfo is visible");

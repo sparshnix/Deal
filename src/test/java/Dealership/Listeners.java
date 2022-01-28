@@ -22,8 +22,6 @@ import org.testng.annotations.BeforeTest;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-
-
 //ITestListeners interface which implements TestNG Listeners
 
 public class Listeners extends POM implements ITestListener {
@@ -49,6 +47,7 @@ public class Listeners extends POM implements ITestListener {
 		Reporter.log("Status of execution : " +result.getStatus());
 		log.info("Test case " +result.getName()+ " passes successfully");
 		Reporter.log("Test case " +result.getName()+ " passes successfully");
+		Reporter.log("\n");
 		System.setProperty("org.uncommons.reportng.title", "Blackpurl Test Results");
 		try {
 			Thread.sleep(5000);
