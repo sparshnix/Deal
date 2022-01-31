@@ -324,8 +324,11 @@ public class Property extends Variables {
 		oversoldPopUpText			=	locators.getProperty("oversoldPopUpText");
 		merchandise_Section			=	locators.getProperty("merchandise_Section");
 		addSelectedButton			=	locators.getProperty("addSelectedButton");
-
-		
+	
+		//Return(Part)
+		partReturn					=	locators.getProperty("partReturn");
+		rma							=	locators.getProperty("rma");
+		creditMemo					=	locators.getProperty("creditMemo");
 		
 		
 		

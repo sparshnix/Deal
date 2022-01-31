@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="136.405">
+           time="155.561">
   <properties />
   
   
-            <testcase name="Oversold" time="136.405" classname="Dealership.Order" />
+            <testcase name="PartReturntoVendor" time="155.561" classname="Dealership.Order" />
       
 </testsuite>

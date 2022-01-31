@@ -5,7 +5,7 @@
     <classes>
       <class name="Dealership.Order">
         <methods>
-          <include name="Oversold"/>
+          <include name="PartReturntoVendor"/>
         </methods>
       </class> <!-- Dealership.Order -->
     </classes>

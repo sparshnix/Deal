@@ -1122,8 +1122,8 @@ public class ChangeCustomerOnCO extends POM {
 		log.info("Addbutton is clicked");
 		Thread.sleep(10000);
 
-		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(tradeinunitname)));
-			
+		//need changes
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(tradeinunitname)));	
 		WebElement CustomerHeader = driver.findElement(By.xpath(customerHeader));
 		Assert.assertTrue(CustomerHeader.isDisplayed(), "Customer Header is missing");
 		log.info("Customer Header is visible");

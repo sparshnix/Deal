@@ -66,7 +66,10 @@ public class Variables {
 	//Order(Part)
 	partorder, vendor_Input, searchPart, partReceiving, partCheckbox, printReceiving, partInvoices,
 	qtyinStock, setBrandingLocationModalWindow, confirmButton, outofstockPart, partstatus, partqty,
-	oversoldPopUpText, merchandise_Section, addSelectedButton
+	oversoldPopUpText, merchandise_Section, addSelectedButton,
+
+	//Return(Part)
+	partReturn, rma, creditMemo
 	
 	
 	;

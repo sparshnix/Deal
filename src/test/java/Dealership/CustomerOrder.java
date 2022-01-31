@@ -55,7 +55,8 @@ import org.testng.Reporter;
 
 @Listeners(Dealership.Listeners.class)
 
-public class Sell extends POM {
+public class CustomerOrder extends POM	
+{
 	
 //	private static Logger log = LogManager.getLogger(POM.class.getName());
 	public static String PDFURL;
@@ -1160,7 +1161,7 @@ public class Sell extends POM {
 		Assert.assertTrue(SearchOptions.isDisplayed(), "SearchOptions field is missing");
 		log.info("SearchOptions field is visible");
 		SearchOptions.sendKeys("Part-21_12_202104_14_55");
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("entityInfo_0")));
 		WebElement OptionInfo = driver.findElement(By.id("entityInfo_0"));
 		OptionInfo.click();
 		log.info("Option 1 is selected");	
@@ -1199,22 +1200,22 @@ public class Sell extends POM {
 		AddCOU.click();
 		log.info("AddCOU button is clicked");
 		
-		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(tempUnitMmodalWindow)));
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("MakeUnitOrdering")));
 		
 		WebElement TempUnitMmodalWindow = driver.findElement(By.xpath(tempUnitMmodalWindow));
 		Assert.assertEquals(TempUnitMmodalWindow.getText(), "ADD A NEW CUSTOMER OWNED UNIT");
 		log.info("Temp Unit Mmodal Window  is visible");
 
-		WebElement VIN_Unit = driver.findElement(By.id("VIN_Unit"));
-		Assert.assertTrue(VIN_Unit.isDisplayed(), "VIN_Unit field is missing");
-		int num = random.nextInt(1000);
-		log.info("VIN_Unit field is visible");
-		VIN_Unit.sendKeys("Vin" +num);
-		log.info("VIN number is filed");
+//		WebElement VIN_Unit = driver.findElement(By.id("VIN_Unit"));
+//		Assert.assertTrue(VIN_Unit.isDisplayed(), "VIN_Unit field is missing");
+//		log.info("VIN_Unit field is visible");
+//		VIN_Unit.sendKeys("Vin" +num);
+//		log.info("VIN number is filed");
 		
 		WebElement MakeUnitOrdering1 = driver.findElement(By.id("MakeUnitOrdering"));
 		Assert.assertTrue(MakeUnitOrdering1.isDisplayed(), "Make field is missing");
 		log.info("Make field is visible");
+		int num = random.nextInt(10000);
 		MakeUnitOrdering1.sendKeys("Make" +num);
 		log.info("Make is filed");
 		
@@ -1279,13 +1280,19 @@ public class Sell extends POM {
 		log.info("tradeInFinanceCompanyDropdownDiv is visible");
 		tradeInFinanceCompanyDropdownDiv.click();
 		log.info("tradeInFinanceCompanyDropdownDiv is clicked");
+		Thread.sleep(5000);
 		
+		JavascriptExecutor ex1 = (JavascriptExecutor) driver;
+		ex1.executeScript("window.scrollBy(0,-700)", "");
 		
-		
-		WebElement AppraisalMethod = driver.findElement(By.id("AppraisalMethod"));
+			
+		WebElement AppraisalMethod = driver.findElement(By.xpath(appraisalMethod));
 		Assert.assertTrue(AppraisalMethod.isDisplayed(), "AppraisalMethod is missing");
 		log.info("AppraisalMethod is visible");
-		AppraisalMethod.click();
+	
+		JavascriptExecutor executer1 = (JavascriptExecutor) driver;
+		executer1.executeScript("arguments[0].click();", AppraisalMethod);
+//		AppraisalMethod.click();
 		log.info("AppraisalMethod is clicked");
 		Thread.sleep(5000);
 		
@@ -1317,6 +1324,10 @@ public class Sell extends POM {
 		AppraisalNote.sendKeys("This is a test Note");
 		log.info("AppraisalNote is filled");
 		
+		JavascriptExecutor ex2 = (JavascriptExecutor) driver;
+		ex2.executeScript("window.scrollBy(0,400)", "");
+		Thread.sleep(5000);
+
 		
 		WebElement ApprovedBy = driver.findElement(By.id("ApprovedBy"));
 		Assert.assertTrue(ApprovedBy.isDisplayed(), "ApprovedBy is missing");
@@ -1346,34 +1357,35 @@ public class Sell extends POM {
 		String PrintModelWindowText = PrintModelWindow.getText();
 		Assert.assertEquals(PrintModelWindowText, "WHAT WOULD YOU LIKE TO PRINT?");
 		log.info("Print Model Window is visible");
+		Thread.sleep(5000);
 		
 		WebElement BrandingLocationId = driver.findElement(By.id("BrandingLocationId"));
+		wt.until(ExpectedConditions.visibilityOf(BrandingLocationId));
 		Assert.assertTrue(BrandingLocationId.isDisplayed(), "BrandingLocationId is missing");
 		log.info("BrandingLocationId is visible");
 		BrandingLocationId.click();
 		log.info("BrandingLocationId is clicked");
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("brandingLocationDropdownDiv")));
 		WebElement brandingLocationDropdownDiv = driver.findElement(By.id("brandingLocationDropdownDiv"));
 		Assert.assertTrue(brandingLocationDropdownDiv.isDisplayed(), "brandingLocationDropdownDiv is missing");
 		log.info("brandingLocationDropdownDiv is visible");
 		brandingLocationDropdownDiv.click();
 		log.info("branding name is selected");
 		
-
-		
 		
 		WebElement OffertoPurchase = driver.findElement(By.xpath(offertoPurchase));
 		Assert.assertTrue(OffertoPurchase.isDisplayed(), "Offer to Purchase checkbox is missing");
 		log.info("Offer to Purchase checkbox is visible");
-		JavascriptExecutor executer1 = (JavascriptExecutor) driver;
-		executer1.executeScript("arguments[0].click();", OffertoPurchase);
+		JavascriptExecutor executer2 = (JavascriptExecutor) driver;
+		executer2.executeScript("arguments[0].click();", OffertoPurchase);
 		log.info("Offer to Purchase checkbox is clicked");
 		
 		WebElement PrintSelected = driver.findElement(By.xpath(printSelected));
 		Assert.assertTrue(PrintSelected.isDisplayed(), "PrintSelected Button is missing");
 		log.info("PrintSelected Button is visible");
-		JavascriptExecutor executer2 = (JavascriptExecutor) driver;
-		executer2.executeScript("arguments[0].click();", PrintSelected);
+		JavascriptExecutor executer3 = (JavascriptExecutor) driver;
+		executer3.executeScript("arguments[0].click();", PrintSelected);
 		log.info("PrintSelected Button is clicked");
 		
 		//move to next window
@@ -1397,19 +1409,19 @@ public class Sell extends POM {
 		
 //		JavascriptExecutor executer3 = (JavascriptExecutor) driver;
 //		executer3.executeScript("window.scrollBy(500)", "");
-		
+//		
 		WebElement PrintPreview3 = driver.findElement(By.xpath(printPreview3));
 		String PrintPreview3Text = PrintPreview3.getText();
 		Assert.assertTrue(PrintPreview3Text.contains(TempMakeName),  "Temp unit name is mismatched" );
 		Assert.assertTrue(PrintPreview3Text.contains(TempModelName),  "Temp unit name is mismatched" );
 		log.info("Temporary unit name is verified");
 		
-/*		
+		
 		WebElement PrintPreview4 = driver.findElement(By.xpath(printPreview4));
 		String PrintPreview4Text = PrintPreview4.getText();
 		Assert.assertEquals(PrintPreview4Text, "Make" +num+ ", "+"Model" +num+ ", "+"SubModel" +num);
 		log.info("Trade in unit is verified");
-*/		
+		
 		driver.switchTo().window(ParentID);
 
 		WebElement PrintClose = driver.findElement(By.xpath(printClose));
@@ -1423,5 +1435,6 @@ public class Sell extends POM {
 		
 	}
 
+	
 	
 }

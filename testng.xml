@@ -20,6 +20,12 @@
 		 </class>
 		 <class name="Dealership.ChangeCustomerOnCO">  </class>
 		 <class name="Dealership.DeleteCustomerOnCO">  </class> 
+		 <class name="Dealership.Order">  
+		 		<methods>
+					<exclude name="PartReturn">  </exclude>
+ 				</methods> 	
+		 </class> 
+		 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
