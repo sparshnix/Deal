@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Status of execution : 1]]>
     </line>
     <line>
-      <![CDATA[Test case CashSale passes successfully]]>
+      <![CDATA[Test case PartReturntoVendor passes successfully]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="208671" started-at="2022-01-05T16:40:17 IST" finished-at="2022-01-05T16:43:46 IST">
+  <suite name="Default suite" duration-ms="161907" started-at="2022-01-31T17:03:28 IST" finished-at="2022-01-31T17:06:10 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="208671" started-at="2022-01-05T16:40:17 IST" finished-at="2022-01-05T16:43:46 IST">
-      <class name="Dealership.Sell">
-        <test-method status="PASS" signature="CashSale()[pri:16, instance:Dealership.Sell@6bd61f98]" name="CashSale" duration-ms="202433" started-at="2022-01-05T16:40:17 IST" finished-at="2022-01-05T16:43:39 IST">
+    <test name="Default test" duration-ms="161907" started-at="2022-01-31T17:03:28 IST" finished-at="2022-01-31T17:06:10 IST">
+      <class name="Dealership.Order">
+        <test-method status="PASS" signature="PartReturntoVendor()[pri:42, instance:Dealership.Order@738dc9b]" name="PartReturntoVendor" duration-ms="155561" started-at="2022-01-31T17:03:28 IST" finished-at="2022-01-31T17:06:04 IST">
           <reporter-output>
             <line>
               <![CDATA[Status of execution : 1]]>
             </line>
             <line>
-              <![CDATA[Test case CashSale passes successfully]]>
+              <![CDATA[Test case PartReturntoVendor passes successfully]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
             </line>
           </reporter-output>
-        </test-method> <!-- CashSale -->
-      </class> <!-- Dealership.Sell -->
+        </test-method> <!-- PartReturntoVendor -->
+      </class> <!-- Dealership.Order -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

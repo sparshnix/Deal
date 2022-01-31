@@ -2,6 +2,8 @@ package Dealership;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
@@ -31,12 +33,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class POM extends Variables {
 	
-	public static String NewKit, NewSublet, NewDeal_Product, NewFinancing_Product, NewWarranty_Plan; 
-	private static Logger log = LogManager.getLogger(POM.class.getName());
+	public static String NewKit, NewSublet, NewDeal_Product,
+						 NewFinancing_Product, NewWarranty_Plan; 
+	public static Logger log = LogManager.getLogger(POM.class.getName());
 	public static Random random = new Random();
 	@SuppressWarnings("deprecation")
-	
-	
 	
 	public static void Login() throws Exception {
 		
@@ -83,8 +84,98 @@ public class POM extends Variables {
 		log.info("Login Button is visible");
 		LoginButton.sendKeys(Keys.RETURN);
 		log.info("Login Button is clicked");
-		Thread.sleep(25000);
+		Thread.sleep(15000);
  
+	}
+	
+	public static void SelectCustomer() throws Exception
+	
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 20);
+		WebElement Sell = driver.findElement(By.xpath(sell));
+		Assert.assertTrue(Sell.isDisplayed(), "Sell link is missing");
+		log.info("Sell link is visible");
+		Sell.click();
+		log.info("Sell link is clickable");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(selectcustomerdropdown)));
+		WebElement SelectCustomerDropdown = driver.findElement(By.xpath(selectcustomerdropdown));
+		Assert.assertTrue(SelectCustomerDropdown.isDisplayed(), "Select Customer Dropdown is missing");
+		log.info("Select Customer Dropdown is visible");
+		SelectCustomerDropdown.click();
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("autocompleteCustomer")));
+		WebElement SelectCustomerField = driver.findElement(By.id("autocompleteCustomer"));
+		Assert.assertTrue(SelectCustomerField.isDisplayed(), "Select Customer Field is missing");
+		log.info("Select Customer Field is visible");
+//		SelectCustomerDropdown.sendKeys(Masterdata.NewCustomer);
+		SelectCustomerField.sendKeys(defaultUser);
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("customerInfo_0")));
+		WebElement CustomerInfo = driver.findElement(By.id("customerInfo_0"));
+		Assert.assertTrue(CustomerInfo.isDisplayed(), "CustomerInfo is missing");
+		log.info("CustomerInfo is visible");
+		CustomerInfo.click();
+		Thread.sleep(10000);
+
+		if(driver.findElement(By.xpath(activeorders)).isDisplayed()) 
+		{
+			//*[@id="ActiveOrder"]/div[2]/div/div[2]/div/div[5]/button
+			driver.findElement(By.xpath(activeorderbutton)).click();
+			Thread.sleep(10000);
+		}
+
+		
+	}
+	
+	
+	public static void DeleteCOU() throws Exception
+	
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 20);
+		WebElement Searchbox = driver.findElement(By.id("globalSearchStrInput"));
+		Assert.assertTrue(Searchbox.isDisplayed(), "Searchbox is missing");
+		Searchbox.sendKeys("sparsh-21_12_202103_18_37 shrivastava");
+		log.info("Customer name is entered in seachbox");
+		Thread.sleep(10000);
+		
+		
+		WebElement SearcResult = driver.findElement(By.id("SearchResult_0"));
+		Assert.assertTrue(SearcResult.isDisplayed(), "SearcResult is missing");
+		log.info("SearcResults are displayed");
+		SearcResult.click();
+		log.info("SearcResult0 is clicked");
+		Thread.sleep(10000);
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(infogeneral)));
+		WebElement CM_Owned_Units = driver.findElement(By.id("CM_Owned_Units_block_grid_container_tbody_tr_td_2_0"));
+		Assert.assertTrue(CM_Owned_Units.isDisplayed(), "CM_Owned_Units is missing");
+		log.info("CM_Owned_Units are displayed");
+		CM_Owned_Units.click();
+		log.info("CM_Owned_Units is clicked");
+		
+		
+		WebElement RemoveLink = driver.findElement(By.id("optionsRadios4"));
+		Assert.assertTrue(RemoveLink.isDisplayed(), "RemoveLink is missing");
+		log.info("RemoveLink is displayed");
+		RemoveLink.click();
+		log.info("RemoveLink is checked");
+		
+		
+		WebElement GoButton = driver.findElement(By.id("CM_Owned_Units_block_grid_container_tbody_expandtr_edit_box_its-heading_edit-body_0_go_btn"));
+		Assert.assertTrue(GoButton.isDisplayed(), "GoButton is missing");
+		log.info("GoButton is displayed");
+		GoButton.click();
+		log.info("GoButton is clicked");
+		
+		
+		WebElement COUStatus = driver.findElement(By.id("CM_Owned_UnitsGrid_Empty_Div"));
+		wt.until(ExpectedConditions.visibilityOf(COUStatus));
+		Assert.assertTrue(COUStatus.isDisplayed(), "COUStatus is missing");
+		String COUStatusText = COUStatus.getText();
+		Assert.assertTrue(COUStatusText.contains("No Records Found"));
+		log.info("COU is Deleted successfully");
+
 	}
 	
 	public static void Kitwithoutlabor() throws Exception
@@ -439,6 +530,12 @@ public class POM extends Variables {
 //		
 //	}
 	
-	
 
+	public static void Todaydate()
+	{
+	String Todaysdate = new SimpleDateFormat("d").format(new Date());
+	int Todaysdate1 = Integer.parseInt(Todaysdate);
+	System.out.println(Todaysdate1);
+	
+	}
 }

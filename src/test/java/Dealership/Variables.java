@@ -10,7 +10,7 @@ public class Variables {
 	
 	public static String 
 	//Used for Masterdata
-	browser, url, username, password, addnew, customer, smallheader, firstname, lastname,
+	browser, url, username, password, defaultUser, addnew, customer, smallheader, firstname, lastname,
 	accounttypedropdown, accounttypevalue, country, countryname, state, statename, create,
 	verifyemail, vendor, vendorHeader, companyname, vendorAccountNumber, shippingaddressflag,
 	part_Purchases, merchandise_Purchases, unit_Purchases, sublet_Purchases, 
@@ -21,7 +21,7 @@ public class Variables {
 	submodel, savekit, makeoption, modeloption, submodeloption, verifykit, fee, feeheader, feetype,
 	Tags_fee, feecode, taxableflag, applicable_tax, savefee, verifyfee, unit, unitheader, unitVIN,
 	unitmake, unitmodel, unitSubModel, year, new_unit, exterior_colour, stock, unitApplicable_tax,
-	verifyunit, kititemplusicon,
+	verifyunit, kititemplusicon, infogeneral,
 	
 	//used for Workspace
 	home, storesummary, today, last_7_days, last_30_days, invoices, payments, new_customers, 
@@ -44,9 +44,32 @@ public class Variables {
 	approvalID, customerownedunit, searchentitytext, verifyTechnician, completestatus,
 	servicejobelement, optionaAndfee, inprogresscheckbox, completeStatus, closeBrandingPopup,
 	cancelbranding, approvecheckbox, scanandsearch, sellpart, brandingconfirmbutton, 
-	printselectedbutton
+	printselectedbutton, quotetoggle, settempunit, tempUnitModelWindow, exteriorcolor, nextButton,
+	savePrice, saveTempUnit, temporaryunit1, tempUnitName, editpricing, editpricingwindow,
+	rideawaytoggle, saveBtnStampDuty, savePriceBtn, addTradeIn, tradein1, addCOU, tradeinunitname,
+	printCO, appraisalMethod, printModelWindow, offertoPurchase, printSelected, printPreview1, 
+	printPreview2,	printPreview3, printPreview4, printClose,
 	
+	//Change and Delete Customer on CO
+	customerHeader, customerName, deleteButton, customerWarning, warning1, customerlabel, 
+	sectionHeader, confirm, addCustomerButton, priceLevel, taxExemption1, subtotal1,
+	changeCustomerButton, customerErrorModal, errorMessage, okButton1, okButton2, okButton3,
+	okButton4, okButton5, invoiceHistory, reopenCO,	invoiceReOpeningModalWindow, reopenButton, 
+	entityQty, partStatus, stroreCreditOption, closePaymentWindow, createAppointment,
 	
+	//Order(Unit)
+	order, orderoptions, unitorder, vendoroptions, firstVendor, orderunitButton, yearDropdown,
+	conditionDropdown, colorfield, factoryfield, stockNumber, baseUnitPrice, baseUnitCost,
+	addPricing, createSingleOrderButton, orderunitinfo, vinField, invoiceToggle, invoiceNumber,
+	bulkUnitCount,
+	
+	//Order(Part)
+	partorder, vendor_Input, searchPart, partReceiving, partCheckbox, printReceiving, partInvoices,
+	qtyinStock, setBrandingLocationModalWindow, confirmButton, outofstockPart, partstatus, partqty,
+	oversoldPopUpText, merchandise_Section, addSelectedButton,
+
+	//Return(Part)
+	partReturn, rma, creditMemo
 	
 	
 	;

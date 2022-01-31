@@ -1,0 +1,621 @@
+19:08:39.171 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:08:39.413 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:09:00.114 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:09:25.363 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : TemporaryUnit
+19:09:31.240 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ConvertintoCashSale
+19:09:34.226 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:09:36.313 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:09:36.421 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:09:36.603 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:09:36.719 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:09:52.686 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:10:17.797 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:10:18.986 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:10:19.119 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:10:21.579 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+19:10:31.958 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+19:10:52.316 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is visible
+19:10:52.432 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is clicked
+19:10:52.795 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ConvertintoCashSale
+19:10:58.820 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : DeleteWhenCOClosed
+19:11:01.839 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:11:15.818 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:11:15.930 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:11:16.251 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:11:16.373 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:11:32.340 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:11:57.533 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenCOClosed
+19:12:03.487 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : DeleteWhenStoreCredit
+19:12:06.530 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:12:08.437 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:12:08.536 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:12:08.716 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:12:08.830 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:12:25.429 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:12:50.510 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:12:51.498 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:12:51.646 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:12:52.534 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+19:13:03.002 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+19:13:23.406 [TestNG-test=Test-1] INFO  Dealership.POM - SellPartandAccs button is visible
+19:13:23.480 [TestNG-test=Test-1] INFO  Dealership.POM - SellPartandAccs button is clicked
+19:13:25.213 [TestNG-test=Test-1] INFO  Dealership.POM - Searchbox is visible
+19:13:35.652 [TestNG-test=Test-1] INFO  Dealership.POM - Merchentity is visible
+19:13:40.824 [TestNG-test=Test-1] INFO  Dealership.POM - EntityQty is visible
+19:13:41.290 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenStoreCredit
+19:13:47.313 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : DeleteWhenServicejob
+19:13:50.239 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:13:52.808 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:13:52.906 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:13:53.110 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:13:53.283 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:14:29.746 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:14:54.821 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:14:55.988 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:14:56.419 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:14:56.753 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+19:15:07.156 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+19:15:27.501 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJob button is visible
+19:15:29.990 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobStatus is visible
+19:15:30.118 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobStatus is Status: New
+19:15:30.207 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is visible
+19:15:30.357 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is clicked
+19:15:31.104 [TestNG-test=Test-1] INFO  Dealership.POM - Delete Button is visible
+19:15:31.210 [TestNG-test=Test-1] INFO  Dealership.POM - Delete Button is clicked
+19:15:31.920 [TestNG-test=Test-1] INFO  Dealership.POM - CO contains Service Jobs.
+19:15:32.242 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenServicejob
+19:15:38.315 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : DeleteWhenCompletestatus
+19:15:41.258 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:15:43.180 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:15:43.299 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:15:43.701 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:15:44.906 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:16:03.992 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:16:29.093 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:16:30.251 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:16:30.677 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:16:31.115 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+19:16:41.551 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+19:17:01.869 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJob button is visible
+19:17:04.268 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobStatus is visible
+19:17:04.297 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobStatus is Status: New
+19:17:04.418 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobDetails is visible
+19:17:04.508 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobDetails is clicked
+19:17:30.538 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenCompletestatus
+19:17:36.476 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : DeleteWhenUnitDeal
+19:17:39.513 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:17:41.233 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:17:41.304 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:17:41.703 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:17:41.951 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:18:01.570 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:18:26.636 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:18:27.700 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:18:27.863 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:18:28.387 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+19:18:38.738 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+19:18:59.046 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is visible
+19:18:59.159 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is clicked
+19:19:00.873 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is visible
+19:19:00.918 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+19:19:01.075 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is visible
+19:19:01.236 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is clicked
+19:19:01.972 [TestNG-test=Test-1] INFO  Dealership.POM - Delete Button is visible
+19:19:02.111 [TestNG-test=Test-1] INFO  Dealership.POM - Delete Button is clicked
+19:19:02.864 [TestNG-test=Test-1] INFO  Dealership.POM - CO contains Deal.
+19:19:02.958 [TestNG-test=Test-1] INFO  Dealership.POM - OK Button is clicked
+19:19:02.959 [TestNG-test=Test-1] INFO  Dealership.POM - Test case DeleteWhenUnitDeal passes successfully
+19:19:08.976 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : DeleteWhenStockUnit
+19:19:11.981 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:19:14.018 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:19:14.067 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:19:14.376 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:19:15.118 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:19:29.542 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:19:54.735 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenStockUnit
+19:20:00.726 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : DeleteWhenTemporaryUnit
+19:20:03.528 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:20:05.404 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:20:05.527 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:20:05.779 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:20:05.970 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:20:22.999 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:20:48.103 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:20:49.118 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:20:49.569 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:20:49.844 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+19:21:00.248 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+19:21:20.579 [TestNG-test=Test-1] INFO  Dealership.POM - Quote Toggle button is visible
+19:21:20.675 [TestNG-test=Test-1] INFO  Dealership.POM - Quote Toggle button is clicked
+19:21:30.746 [TestNG-test=Test-1] INFO  Dealership.POM - The status of CO is Quote
+19:21:30.792 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is visible
+19:21:30.860 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is clicked
+19:21:32.605 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is visible
+19:21:32.642 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+19:21:32.759 [TestNG-test=Test-1] INFO  Dealership.POM - UnitOptionsStatus is visible
+19:21:32.831 [TestNG-test=Test-1] INFO  Dealership.POM - UnitOptionsStatus is Option:
+19:21:32.903 [TestNG-test=Test-1] INFO  Dealership.POM - Unit1 is visible
+19:21:33.013 [TestNG-test=Test-1] INFO  Dealership.POM - Unit1 is opened
+19:21:34.243 [TestNG-test=Test-1] INFO  Dealership.POM - Set Temp Unit button is visible
+19:21:34.345 [TestNG-test=Test-1] INFO  Dealership.POM - Set Temp Unit button is clicked
+19:21:41.183 [TestNG-test=Test-1] INFO  Dealership.POM - Make field is visible
+19:21:42.966 [TestNG-test=Test-1] INFO  Dealership.POM - Make field is filled
+19:21:43.010 [TestNG-test=Test-1] INFO  Dealership.POM - Model field is visible
+19:21:44.009 [TestNG-test=Test-1] INFO  Dealership.POM - Model field is filled
+19:21:44.047 [TestNG-test=Test-1] INFO  Dealership.POM - Sub Model field is visible
+19:21:44.566 [TestNG-test=Test-1] INFO  Dealership.POM - Sub Model field is filled
+19:21:44.608 [TestNG-test=Test-1] INFO  Dealership.POM - Year field is visible
+19:21:44.840 [TestNG-test=Test-1] INFO  Dealership.POM - Year field is filled
+19:21:44.881 [TestNG-test=Test-1] INFO  Dealership.POM - Exterior Color field is visible
+19:21:45.045 [TestNG-test=Test-1] INFO  Dealership.POM - Exterior Color field is filled
+19:21:45.093 [TestNG-test=Test-1] INFO  Dealership.POM - Next Button is visible
+19:21:45.195 [TestNG-test=Test-1] INFO  Dealership.POM - Next Button is clicked
+19:21:48.512 [TestNG-test=Test-1] INFO  Dealership.POM - Totalprice field is visible
+19:21:48.748 [TestNG-test=Test-1] INFO  Dealership.POM - Totalprice field is filled
+19:21:48.794 [TestNG-test=Test-1] INFO  Dealership.POM - Totalcost field is visible
+19:21:48.972 [TestNG-test=Test-1] INFO  Dealership.POM - Totalcost field is filled
+19:21:49.014 [TestNG-test=Test-1] INFO  Dealership.POM - Save Button is visible
+19:21:49.110 [TestNG-test=Test-1] INFO  Dealership.POM - Save Button is clicked
+19:21:54.187 [TestNG-test=Test-1] INFO  Dealership.POM - SaveTempUnit Button is visible
+19:21:54.274 [TestNG-test=Test-1] INFO  Dealership.POM - SaveTempUnit Button is clicked
+19:21:55.433 [TestNG-test=Test-1] INFO  Dealership.POM - TempUnitName is visible
+19:21:55.465 [TestNG-test=Test-1] INFO  Dealership.POM - Unit name is displayed correctly
+19:22:00.509 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is visible
+19:22:00.622 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is clicked
+19:22:01.326 [TestNG-test=Test-1] INFO  Dealership.POM - Delete Button is visible
+19:22:01.434 [TestNG-test=Test-1] INFO  Dealership.POM - Delete Button is clicked
+19:22:02.185 [TestNG-test=Test-1] INFO  Dealership.POM - CO contains Deal.
+19:22:02.433 [TestNG-test=Test-1] INFO  Dealership.POM - OK Button is clicked
+19:22:02.433 [TestNG-test=Test-1] INFO  Dealership.POM - Test case DeleteWhenTemporaryUnit passes successfully
+19:22:08.490 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : DeleteWhenTradeinUnit
+19:22:11.907 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:22:15.156 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:22:15.263 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:22:15.523 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:22:15.780 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:22:32.443 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:22:57.549 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:22:58.558 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:22:58.789 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:22:59.257 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+19:23:09.675 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+19:23:29.970 [TestNG-test=Test-1] INFO  Dealership.POM - Quote Toggle button is visible
+19:23:30.065 [TestNG-test=Test-1] INFO  Dealership.POM - Quote Toggle button is clicked
+19:23:40.125 [TestNG-test=Test-1] INFO  Dealership.POM - The status of CO is Quote
+19:23:40.177 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is visible
+19:23:40.296 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is clicked
+19:23:42.120 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is visible
+19:23:42.155 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+19:23:47.252 [TestNG-test=Test-1] INFO  Dealership.POM - AddTradeIn button is visible
+19:23:47.363 [TestNG-test=Test-1] INFO  Dealership.POM - AddTradeIn button is clicked
+19:23:49.277 [TestNG-test=Test-1] INFO  Dealership.POM - AddCOU button is visible
+19:23:49.355 [TestNG-test=Test-1] INFO  Dealership.POM - AddCOU button is clicked
+19:23:52.788 [TestNG-test=Test-1] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+19:23:57.838 [TestNG-test=Test-1] INFO  Dealership.POM - Make field is visible
+19:24:00.463 [TestNG-test=Test-1] INFO  Dealership.POM - Make is filed
+19:24:00.503 [TestNG-test=Test-1] INFO  Dealership.POM - Model field is visible
+19:24:01.661 [TestNG-test=Test-1] INFO  Dealership.POM - Model is filed
+19:24:01.711 [TestNG-test=Test-1] INFO  Dealership.POM - Sub-Model field is visible
+19:24:02.163 [TestNG-test=Test-1] INFO  Dealership.POM - Sub-Model is filed
+19:24:02.199 [TestNG-test=Test-1] INFO  Dealership.POM - Year field is visible
+19:24:02.492 [TestNG-test=Test-1] INFO  Dealership.POM - Year is filed
+19:24:02.544 [TestNG-test=Test-1] INFO  Dealership.POM - Addbutton is visible
+19:24:02.666 [TestNG-test=Test-1] INFO  Dealership.POM - Addbutton is clicked
+19:24:12.792 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is visible
+19:24:12.889 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is clicked
+19:24:13.585 [TestNG-test=Test-1] INFO  Dealership.POM - Delete Button is visible
+19:24:13.705 [TestNG-test=Test-1] INFO  Dealership.POM - Delete Button is clicked
+19:24:14.350 [TestNG-test=Test-1] INFO  Dealership.POM - CO contains Deal.
+19:24:14.446 [TestNG-test=Test-1] INFO  Dealership.POM - OK Button is clicked
+19:24:14.447 [TestNG-test=Test-1] INFO  Dealership.POM - Test case DeleteWhenTradeinUnit passes successfully
+19:24:20.501 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenSellAPart
+19:24:23.449 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:24:25.711 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:24:25.757 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:24:25.986 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:24:26.266 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:25:10.845 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:25:35.932 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:25:36.981 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:25:37.156 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:25:58.366 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenSellAPart
+19:26:04.443 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenCOClosed
+19:26:07.445 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:26:09.649 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:26:09.762 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:26:10.094 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:26:11.059 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:26:50.543 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:27:15.609 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:27:16.706 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:27:17.053 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:27:17.459 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+19:27:27.881 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+19:27:48.282 [TestNG-test=Test-1] INFO  Dealership.POM - SellPartandAccs button is visible
+19:27:48.363 [TestNG-test=Test-1] INFO  Dealership.POM - SellPartandAccs button is clicked
+19:27:50.040 [TestNG-test=Test-1] INFO  Dealership.POM - Searchbox is visible
+19:28:00.581 [TestNG-test=Test-1] INFO  Dealership.POM - Merchentity is visible
+19:28:15.903 [TestNG-test=Test-1] INFO  Dealership.POM - Checkout_Button is visible
+19:28:46.521 [TestNG-test=Test-1] INFO  Dealership.POM - Payment option is visible
+19:28:46.608 [TestNG-test=Test-1] INFO  Dealership.POM - Payment option is selected
+19:28:46.650 [TestNG-test=Test-1] INFO  Dealership.POM - AddPayment Button is visible
+19:28:46.767 [TestNG-test=Test-1] INFO  Dealership.POM - AddPayment Button is clicked
+19:28:56.831 [TestNG-test=Test-1] INFO  Dealership.POM - Finalize Button is visible
+19:28:56.926 [TestNG-test=Test-1] INFO  Dealership.POM - Finalize Button is clicked
+19:29:07.320 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenCOClosed
+19:29:13.460 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenStoreCredit
+19:29:16.245 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:29:18.253 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:29:18.367 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:29:18.595 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:29:18.806 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:29:19.305 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:29:44.462 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenStoreCredit
+19:29:50.376 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenServicejob
+19:29:53.274 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:29:55.185 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:29:55.308 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:29:55.687 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:29:56.479 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:30:11.547 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:30:36.742 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenServicejob
+19:30:42.689 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : DeleteWhenCompletestatus
+19:30:45.575 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:30:47.711 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:30:47.800 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:30:48.145 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:30:48.348 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:31:21.267 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:31:46.361 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:31:47.389 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:31:47.696 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:31:48.086 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+19:31:58.490 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+19:32:18.794 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJob button is visible
+19:32:21.168 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobStatus is visible
+19:32:21.192 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobStatus is Status: New
+19:32:21.825 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobDetails is visible
+19:32:21.930 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobDetails is clicked
+19:32:47.411 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DeleteWhenCompletestatus
+19:32:53.443 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenUnitDeal
+19:32:56.316 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:32:58.798 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:32:58.882 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:32:59.062 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:32:59.181 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:33:33.247 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:33:58.339 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:33:58.400 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:33:59.464 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:34:00.011 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+19:34:10.500 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+19:34:30.893 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is visible
+19:34:30.985 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is clicked
+19:34:32.778 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is visible
+19:34:32.809 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+19:34:32.866 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is visible
+19:34:32.989 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is clicked
+19:34:33.639 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is visible
+19:34:33.751 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is clicked
+19:34:54.141 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenUnitDeal
+19:35:00.168 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenStockUnit
+19:35:03.058 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:35:04.881 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:35:04.959 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:35:05.219 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:35:05.365 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:35:39.820 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:36:04.918 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:36:06.102 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:36:06.293 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:36:06.848 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+19:36:17.313 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+19:36:37.636 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is visible
+19:36:37.715 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is clicked
+19:36:39.954 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is visible
+19:36:39.989 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+19:36:40.073 [TestNG-test=Test-1] INFO  Dealership.POM - UnitOptionsStatus is visible
+19:36:40.100 [TestNG-test=Test-1] INFO  Dealership.POM - UnitOptionsStatus is Option:
+19:36:40.160 [TestNG-test=Test-1] INFO  Dealership.POM - Unit1 is visible
+19:36:40.245 [TestNG-test=Test-1] INFO  Dealership.POM - Unit1 is opened
+19:36:41.451 [TestNG-test=Test-1] INFO  Dealership.POM - Search Stockunit field is visible
+19:36:51.876 [TestNG-test=Test-1] INFO  Dealership.POM - Unit1 is selected
+19:36:56.942 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is visible
+19:36:57.051 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is clicked
+19:36:57.752 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is visible
+19:36:57.878 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is clicked
+19:37:18.280 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenStockUnit
+19:37:24.373 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenTemporaryUnit
+19:37:27.498 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:37:29.475 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:37:29.541 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:37:29.744 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:37:29.877 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:38:04.766 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:38:29.844 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:38:31.208 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:38:31.401 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:38:32.164 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+19:38:42.687 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+19:39:02.975 [TestNG-test=Test-1] INFO  Dealership.POM - Quote Toggle button is visible
+19:39:03.068 [TestNG-test=Test-1] INFO  Dealership.POM - Quote Toggle button is clicked
+19:39:13.108 [TestNG-test=Test-1] INFO  Dealership.POM - The status of CO is Quote
+19:39:13.155 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is visible
+19:39:13.228 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is clicked
+19:39:14.942 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is visible
+19:39:14.971 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+19:39:15.045 [TestNG-test=Test-1] INFO  Dealership.POM - UnitOptionsStatus is visible
+19:39:15.074 [TestNG-test=Test-1] INFO  Dealership.POM - UnitOptionsStatus is Option:
+19:39:15.180 [TestNG-test=Test-1] INFO  Dealership.POM - Unit1 is visible
+19:39:15.282 [TestNG-test=Test-1] INFO  Dealership.POM - Unit1 is opened
+19:39:16.515 [TestNG-test=Test-1] INFO  Dealership.POM - Set Temp Unit button is visible
+19:39:16.613 [TestNG-test=Test-1] INFO  Dealership.POM - Set Temp Unit button is clicked
+19:39:23.925 [TestNG-test=Test-1] INFO  Dealership.POM - Make field is visible
+19:39:25.646 [TestNG-test=Test-1] INFO  Dealership.POM - Make field is filled
+19:39:25.684 [TestNG-test=Test-1] INFO  Dealership.POM - Model field is visible
+19:39:26.791 [TestNG-test=Test-1] INFO  Dealership.POM - Model field is filled
+19:39:26.832 [TestNG-test=Test-1] INFO  Dealership.POM - Sub Model field is visible
+19:39:27.310 [TestNG-test=Test-1] INFO  Dealership.POM - Sub Model field is filled
+19:39:27.375 [TestNG-test=Test-1] INFO  Dealership.POM - Year field is visible
+19:39:27.586 [TestNG-test=Test-1] INFO  Dealership.POM - Year field is filled
+19:39:27.631 [TestNG-test=Test-1] INFO  Dealership.POM - Exterior Color field is visible
+19:39:27.788 [TestNG-test=Test-1] INFO  Dealership.POM - Exterior Color field is filled
+19:39:27.828 [TestNG-test=Test-1] INFO  Dealership.POM - Next Button is visible
+19:39:27.922 [TestNG-test=Test-1] INFO  Dealership.POM - Next Button is clicked
+19:39:31.774 [TestNG-test=Test-1] INFO  Dealership.POM - Totalprice field is visible
+19:39:31.955 [TestNG-test=Test-1] INFO  Dealership.POM - Totalprice field is filled
+19:39:31.990 [TestNG-test=Test-1] INFO  Dealership.POM - Totalcost field is visible
+19:39:32.152 [TestNG-test=Test-1] INFO  Dealership.POM - Totalcost field is filled
+19:39:32.192 [TestNG-test=Test-1] INFO  Dealership.POM - Save Button is visible
+19:39:32.283 [TestNG-test=Test-1] INFO  Dealership.POM - Save Button is clicked
+19:39:37.349 [TestNG-test=Test-1] INFO  Dealership.POM - SaveTempUnit Button is visible
+19:39:37.476 [TestNG-test=Test-1] INFO  Dealership.POM - SaveTempUnit Button is clicked
+19:39:39.163 [TestNG-test=Test-1] INFO  Dealership.POM - TempUnitName is visible
+19:39:39.203 [TestNG-test=Test-1] INFO  Dealership.POM - Unit name is displayed correctly
+19:39:44.258 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is visible
+19:39:44.369 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is clicked
+19:39:45.057 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is visible
+19:39:45.168 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is clicked
+19:40:05.667 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenTemporaryUnit
+19:40:11.810 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenTradeinUnit
+19:40:14.731 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:40:19.074 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:40:19.139 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:40:19.375 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:40:19.574 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is visible
+19:40:36.294 [TestNG-test=Test-1] INFO  Dealership.POM - Login Button is clicked
+19:41:01.492 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenTradeinUnit
+19:48:57.812 [main] INFO  Dealership.POM - Running Test : sell
+19:49:07.140 [main] INFO  Dealership.POM - Windows maximized
+19:49:12.436 [main] INFO  Dealership.POM - URL entered
+19:49:12.592 [main] INFO  Dealership.POM - Username field is visible
+19:49:12.923 [main] INFO  Dealership.POM - Password field is visible
+19:49:13.167 [main] INFO  Dealership.POM - Login Button is visible
+19:49:13.280 [main] INFO  Dealership.POM - Login Button is clicked
+19:49:38.627 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : sell
+19:49:44.699 [main] INFO  Dealership.POM - Running Test : servicejob
+19:49:47.744 [main] INFO  Dealership.POM - Windows maximized
+19:49:49.768 [main] INFO  Dealership.POM - URL entered
+19:49:49.863 [main] INFO  Dealership.POM - Username field is visible
+19:49:50.377 [main] INFO  Dealership.POM - Password field is visible
+19:49:50.917 [main] INFO  Dealership.POM - Login Button is visible
+19:50:26.623 [main] INFO  Dealership.POM - Login Button is clicked
+19:50:51.705 [main] INFO  Dealership.POM - Sell link is visible
+19:50:53.139 [main] INFO  Dealership.POM - Sell link is clickable
+19:50:53.323 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:50:55.139 [main] INFO  Dealership.POM - Select Customer Field is visible
+19:51:05.536 [main] INFO  Dealership.POM - CustomerInfo is visible
+19:51:25.883 [main] INFO  Dealership.POM - ServiceJob button is visible
+19:51:28.386 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+19:51:28.412 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+19:51:28.577 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+19:51:28.673 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+19:51:43.990 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+19:51:44.035 [main] INFO  Dealership.POM - VIN_Unit field is visible
+19:51:44.081 [main] INFO  Dealership.POM - Make field is visible
+19:51:46.184 [main] INFO  Dealership.POM - Make is filed
+19:51:46.236 [main] INFO  Dealership.POM - Model field is visible
+19:51:47.310 [main] INFO  Dealership.POM - Model is filed
+19:51:47.350 [main] INFO  Dealership.POM - Sub-Model field is visible
+19:51:47.739 [main] INFO  Dealership.POM - Sub-Model is filed
+19:51:47.785 [main] INFO  Dealership.POM - Year field is visible
+19:51:48.048 [main] INFO  Dealership.POM - Year is filed
+19:51:48.107 [main] INFO  Dealership.POM - Addbutton is visible
+19:51:48.246 [main] INFO  Dealership.POM - Addbutton is clicked
+19:51:58.315 [main] INFO  Dealership.POM - Customerownedunit is visible
+19:51:58.360 [main] INFO  Dealership.POM - Concern field is visible
+19:51:58.586 [main] INFO  Dealership.POM - Concern field is filled
+19:51:58.633 [main] INFO  Dealership.POM - Cause field is visible
+19:51:58.893 [main] INFO  Dealership.POM - Cause field is filled
+19:51:58.937 [main] INFO  Dealership.POM - Correction field is visible
+19:51:59.087 [main] INFO  Dealership.POM - Correction field is filled
+19:51:59.132 [main] INFO  Dealership.POM - Odometer_on_arrival field is visible
+19:51:59.350 [main] INFO  Dealership.POM - Odometer_on_arrival field is filled
+19:51:59.399 [main] INFO  Dealership.POM - Odometer_on_departure field is visible
+19:51:59.776 [main] INFO  Dealership.POM - Odometer_on_departure field is filled
+19:52:00.726 [main] INFO  Dealership.POM - Searchbox is visible
+19:52:11.279 [main] INFO  Dealership.POM - Merchentity is visible
+19:52:42.010 [main] INFO  Dealership.POM - Feeentity is visible
+19:53:22.750 [main] INFO  Dealership.POM - Kitentity is visible
+19:54:03.777 [main] INFO  Dealership.POM - Laborentity is visible
+19:54:35.052 [main] INFO  Dealership.POM - Notes field is visible
+19:54:36.301 [main] INFO  Dealership.POM - Assign_Tech button is visible
+19:54:36.514 [main] INFO  Dealership.POM - ClockingStaffPopupforCO is visible
+19:54:46.862 [main] INFO  Dealership.POM - Technician is successfully assigned
+19:54:52.062 [main] INFO  Dealership.POM - Customer Approval button is visible
+19:54:52.184 [main] INFO  Dealership.POM - Customer Approval button is clicked
+19:55:22.607 [main] INFO  Dealership.POM - Save Customer Approval button is visible
+19:55:22.682 [main] INFO  Dealership.POM - Save Customer Approval button is clicked
+19:55:32.783 [main] INFO  Dealership.POM - Approval ID is CA-00095
+19:55:38.176 [main] INFO  Dealership.POM - Status is Status: New
+19:55:38.486 [main] INFO  Dealership.POM - Complete Status is displayed
+19:55:38.551 [main] INFO  Dealership.POM - Complete Status is checked
+19:55:38.599 [main] INFO  Dealership.POM - Save button is displayed
+19:55:38.717 [main] INFO  Dealership.POM - Save buttton is clicked
+19:55:48.783 [main] INFO  Dealership.POM - Checkout_Button is visible
+19:56:19.481 [main] INFO  Dealership.POM - Payment option is visible
+19:56:19.589 [main] INFO  Dealership.POM - Payment option is selected
+19:56:19.650 [main] INFO  Dealership.POM - AddPayment Button is visible
+19:56:19.786 [main] INFO  Dealership.POM - AddPayment Button is clicked
+19:56:29.841 [main] INFO  Dealership.POM - Finalize Button is visible
+19:56:29.979 [main] INFO  Dealership.POM - Finalize Button is clicked
+19:56:40.062 [main] INFO  Dealership.POM - Invoice Window is visible
+19:56:40.272 [main] INFO  Dealership.POM - Invoice Close Button is visible
+19:56:40.352 [main] INFO  Dealership.POM - Invoice Close Button is clicked
+19:56:50.431 [main] INFO  Dealership.POM - CO Status is visible
+19:56:50.476 [main] INFO  Dealership.POM - CO Status is Closed
+19:56:51.248 [main] INFO  Dealership.POM - Customer name is entered in seachbox
+19:57:01.315 [main] INFO  Dealership.POM - SearcResults are displayed
+19:57:01.455 [main] INFO  Dealership.POM - SearcResult0 is clicked
+19:57:11.569 [main] INFO  Dealership.POM - CM_Owned_Units are displayed
+19:57:11.680 [main] INFO  Dealership.POM - CM_Owned_Units is clicked
+19:57:11.726 [main] INFO  Dealership.POM - RemoveLink is displayed
+19:57:11.827 [main] INFO  Dealership.POM - RemoveLink is checked
+19:57:11.879 [main] INFO  Dealership.POM - GoButton is displayed
+19:57:11.964 [main] INFO  Dealership.POM - GoButton is clicked
+19:57:13.682 [main] INFO  Dealership.POM - COU is Deleted successfully
+19:57:13.682 [main] INFO  Dealership.POM - Test case servicejob passes successfully
+19:57:20.128 [main] INFO  Dealership.POM - Running Test : UnitDeal
+19:57:23.231 [main] INFO  Dealership.POM - Windows maximized
+19:57:25.123 [main] INFO  Dealership.POM - URL entered
+19:57:25.240 [main] INFO  Dealership.POM - Username field is visible
+19:57:25.556 [main] INFO  Dealership.POM - Password field is visible
+19:57:26.455 [main] INFO  Dealership.POM - Login Button is visible
+19:57:45.104 [main] INFO  Dealership.POM - Login Button is clicked
+19:58:10.222 [main] INFO  Dealership.POM - Sell link is visible
+19:58:11.854 [main] INFO  Dealership.POM - Sell link is clickable
+19:58:12.076 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:58:14.479 [main] INFO  Dealership.POM - Select Customer Field is visible
+19:58:24.949 [main] INFO  Dealership.POM - CustomerInfo is visible
+19:58:45.313 [main] INFO  Dealership.POM - Sell A Unit button is visible
+19:58:45.406 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+19:58:47.208 [main] INFO  Dealership.POM - UnitDealStatus is visible
+19:58:47.232 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+19:58:47.309 [main] INFO  Dealership.POM - UnitOptionsStatus is visible
+19:58:47.343 [main] INFO  Dealership.POM - UnitOptionsStatus is Option:
+19:58:47.470 [main] INFO  Dealership.POM - Unit1 is visible
+19:58:47.627 [main] INFO  Dealership.POM - Unit1 is opened
+19:58:48.827 [main] INFO  Dealership.POM - Search Stockunit field is visible
+19:58:59.808 [main] INFO  Dealership.POM - Unit1 is selected
+19:59:03.208 [main] INFO  Dealership.POM - Option_Fee field is visible
+19:59:03.257 [main] INFO  Dealership.POM - Options And Fee field is visible
+19:59:04.017 [main] INFO  Dealership.POM - SearchOptions field is visible
+19:59:14.760 [main] INFO  Dealership.POM - Option 1 is selected
+19:59:44.984 [main] INFO  Dealership.POM - Notes For Customer field is visible
+19:59:45.089 [main] INFO  Dealership.POM - Notes For Customer is clicked
+19:59:45.724 [main] INFO  Dealership.POM - Notes field is visible
+19:59:46.155 [main] INFO  Dealership.POM - Note is filled
+19:59:46.202 [main] INFO  Dealership.POM - Summary is visible
+19:59:46.415 [main] INFO  Dealership.POM - Summary is opened
+19:59:51.518 [main] INFO  Dealership.POM - Summary is closed
+19:59:51.773 [main] INFO  Dealership.POM - In Progress Checkbox is displayed
+19:59:51.824 [main] INFO  Dealership.POM - In Progress Checkbox is clicked
+19:59:51.869 [main] INFO  Dealership.POM - Save button is displayed
+19:59:51.948 [main] INFO  Dealership.POM - Save button is clicked
+20:00:02.199 [main] INFO  Dealership.POM - Commit Option is displayed
+20:00:02.345 [main] INFO  Dealership.POM - Commit Options is clicked
+20:00:12.472 [main] INFO  Dealership.POM - Deal Service section is displayed
+20:00:12.631 [main] INFO  Dealership.POM - Deal Service section is clicked
+20:00:13.317 [main] INFO  Dealership.POM - Service Items section is displayed
+20:00:13.438 [main] INFO  Dealership.POM - Service Items section is clicked
+20:00:13.487 [main] INFO  Dealership.POM - Service Option section is displayed
+20:00:13.718 [main] INFO  Dealership.POM - Service Option section is clicked
+20:00:13.905 [main] INFO  Dealership.POM - Complete Status is displayed
+20:00:13.971 [main] INFO  Dealership.POM - Complete Status is checked
+20:00:14.039 [main] INFO  Dealership.POM - Save button is displayed
+20:00:14.163 [main] INFO  Dealership.POM - Save buttton is clicked
+20:00:39.899 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : UnitDeal
+20:00:45.962 [main] INFO  Dealership.POM - Running Test : CashSale
+20:00:48.879 [main] INFO  Dealership.POM - Windows maximized
+20:00:50.734 [main] INFO  Dealership.POM - URL entered
+20:00:50.828 [main] INFO  Dealership.POM - Username field is visible
+20:00:51.242 [main] INFO  Dealership.POM - Password field is visible
+20:00:51.457 [main] INFO  Dealership.POM - Login Button is visible
+20:01:05.877 [main] INFO  Dealership.POM - Login Button is clicked
+20:01:30.977 [main] INFO  Dealership.POM - Sell link is visible
+20:01:31.050 [main] INFO  Dealership.POM - Sell link is clickable
+20:01:32.140 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+20:01:53.050 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CashSale
+20:01:59.096 [main] INFO  Dealership.POM - Running Test : TemporaryUnit
+20:02:01.977 [main] INFO  Dealership.POM - Windows maximized
+20:02:15.476 [main] INFO  Dealership.POM - URL entered
+20:02:15.544 [main] INFO  Dealership.POM - Username field is visible
+20:02:15.774 [main] INFO  Dealership.POM - Password field is visible
+20:02:15.910 [main] INFO  Dealership.POM - Login Button is visible
+20:02:31.282 [main] INFO  Dealership.POM - Login Button is clicked
+20:02:56.474 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : TemporaryUnit
+20:08:39.749 [main] INFO  Dealership.POM - Running Test : ChangeWhenSellAPart
+20:08:45.926 [main] INFO  Dealership.POM - Windows maximized
+20:08:48.094 [main] INFO  Dealership.POM - URL entered
+20:08:48.350 [main] INFO  Dealership.POM - Username field is visible
+20:08:48.696 [main] INFO  Dealership.POM - Password field is visible
+20:08:49.343 [main] INFO  Dealership.POM - Login Button is visible
+20:09:22.038 [main] INFO  Dealership.POM - Login Button is clicked
+20:09:47.240 [main] INFO  Dealership.POM - Sell link is visible
+20:09:48.478 [main] INFO  Dealership.POM - Sell link is clickable
+20:09:48.671 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+20:09:51.006 [main] INFO  Dealership.POM - Select Customer Field is visible
+20:10:01.448 [main] INFO  Dealership.POM - CustomerInfo is visible
+20:10:21.907 [main] INFO  Dealership.POM - Customer Header is visible
+20:10:21.995 [main] INFO  Dealership.POM - Customer Header is clicked
+20:10:22.158 [main] INFO  Dealership.POM - New Customer Name is correctly displayed
+20:10:22.241 [main] INFO  Dealership.POM - Customer1 Pricelevel is Price Level: Default
+20:10:22.336 [main] INFO  Dealership.POM - Tax Exemption is sell 1
+20:10:22.398 [main] INFO  Dealership.POM - SellPartandAccs button is visible
+20:10:22.516 [main] INFO  Dealership.POM - SellPartandAccs button is clicked
+20:10:36.432 [main] INFO  Dealership.POM - Searchbox is visible
+20:10:46.820 [main] INFO  Dealership.POM - Merchentity is visible
+20:11:02.160 [main] INFO  Dealership.POM - Tax SubTotal is $431.62
+20:11:02.264 [main] INFO  Dealership.POM - Customer Header is clicked
+20:11:07.426 [main] INFO  Dealership.POM - Change Customer Button is visible
+20:11:07.540 [main] INFO  Dealership.POM - Change Customer Button is clicked
+20:11:09.363 [main] INFO  Dealership.POM - Customer Searchbox is visible
+20:11:11.420 [main] INFO  Dealership.POM - CustomerInfo is visible
+20:11:11.604 [main] INFO  Dealership.POM - Warning is correctly displayed
+20:11:16.670 [main] INFO  Dealership.POM - Confirm Button is visible
+20:11:16.783 [main] INFO  Dealership.POM - Confirm Button is clicked
+20:11:21.953 [main] INFO  Dealership.POM - Tax SubTotal is $408.00
+20:11:22.072 [main] INFO  Dealership.POM - Customer Header is clicked
+20:11:22.740 [main] INFO  Dealership.POM - New Customer Name is correctly displayed
+20:11:22.823 [main] INFO  Dealership.POM - Customer1 Pricelevel is Price Level: Retail price
+20:11:22.905 [main] INFO  Dealership.POM - Tax Exemption is sell 2
+20:11:22.905 [main] INFO  Dealership.POM - Delect the change in price level, Tax exemption and Part Subtotal
+20:11:22.905 [main] INFO  Dealership.POM - Price level is detected different
+20:11:22.906 [main] INFO  Dealership.POM - Customer1 Pricelevel - Price Level: Default
+20:11:22.906 [main] INFO  Dealership.POM - Customer2 Pricelevel - Price Level: Retail price
+20:11:22.906 [main] INFO  Dealership.POM - TaxExemption is detected different
+20:11:22.906 [main] INFO  Dealership.POM - Customer1 Tax exemption - sell 1
+20:11:22.906 [main] INFO  Dealership.POM - Customer2 Tax exemption - sell 2
+20:11:22.907 [main] INFO  Dealership.POM - Part Subtotal is detected different
+20:11:22.907 [main] INFO  Dealership.POM - Part Subtotal for Customer 1 - $431.62
+20:11:22.907 [main] INFO  Dealership.POM - Part Subtotal for Customer 2 - $408.00
+20:11:22.911 [main] INFO  Dealership.POM - Test case ChangeWhenSellAPart passes successfully
+20:11:28.991 [main] INFO  Dealership.POM - Running Test : ChangeWhenCOClosed
+20:11:31.914 [main] INFO  Dealership.POM - Windows maximized
+20:11:34.014 [main] INFO  Dealership.POM - URL entered
+20:11:34.089 [main] INFO  Dealership.POM - Username field is visible
+20:11:34.363 [main] INFO  Dealership.POM - Password field is visible
+20:11:34.603 [main] INFO  Dealership.POM - Login Button is visible
+20:11:50.401 [main] INFO  Dealership.POM - Login Button is clicked
+20:12:15.653 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenCOClosed
+20:12:21.707 [main] INFO  Dealership.POM - Running Test : ChangeWhenStoreCredit
+20:12:24.751 [main] INFO  Dealership.POM - Windows maximized
+20:12:27.197 [main] INFO  Dealership.POM - URL entered
+20:12:27.313 [main] INFO  Dealership.POM - Username field is visible
+20:12:27.515 [main] INFO  Dealership.POM - Password field is visible
+20:12:27.641 [main] INFO  Dealership.POM - Login Button is visible
+20:12:43.903 [main] INFO  Dealership.POM - Login Button is clicked
+20:13:09.097 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenStoreCredit
+20:13:20.390 [main] INFO  Dealership.POM - Running Test : ChangeWhenSellAPart
+20:13:26.234 [main] INFO  Dealership.POM - Windows maximized
+20:13:28.319 [main] INFO  Dealership.POM - URL entered
+20:13:28.454 [main] INFO  Dealership.POM - Username field is visible
+20:13:28.707 [main] INFO  Dealership.POM - Password field is visible
+20:13:29.000 [main] INFO  Dealership.POM - Login Button is visible
+20:13:45.839 [main] INFO  Dealership.POM - Login Button is clicked
+20:14:10.988 [main] INFO  Dealership.POM - Sell link is visible
+20:14:12.078 [main] INFO  Dealership.POM - Sell link is clickable
+20:14:12.360 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+20:14:12.609 [main] INFO  Dealership.POM - Select Customer Field is visible
+20:14:22.966 [main] INFO  Dealership.POM - CustomerInfo is visible
+20:14:43.330 [main] INFO  Dealership.POM - Customer Header is visible

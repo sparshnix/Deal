@@ -39,12 +39,12 @@ import org.testng.Reporter;
 
 public class Workspace extends POM {
 	
-	private static Logger log = LogManager.getLogger(POM.class.getName());
 	
 	@Test(priority = 8)
 	public static void StoreSummary() throws Exception
 	{
-		
+		WebDriverWait wt = new WebDriverWait(driver,100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(storesummary)));
 		WebElement StoreSummaryTab = driver.findElement(By.xpath(storesummary));
 		Assert.assertTrue(StoreSummaryTab.isDisplayed(), "Store Summary tab is missing");
 		log.info("Store Summary tab is visible");
@@ -77,12 +77,12 @@ public class Workspace extends POM {
 		Assert.assertTrue(Invoices.isDisplayed(), "Invoices link is missing");
 		log.info("Invoices link is visible");
 		Invoices.click();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(searchtag1)));
 		log.info("The page title is - " +driver.getTitle() );
 		Assert.assertEquals(driver.getTitle(), "Advanced Search");
-		Thread.sleep(10000);
 
-		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(searchtag1)));
+
 		WebElement Searchtag1 = driver.findElement(By.xpath(searchtag1));
 		Assert.assertTrue(Searchtag1.isDisplayed(), "Search tag is missing");
 		log.info("Search tag is visible");
@@ -90,16 +90,15 @@ public class Workspace extends POM {
 		log.info("The Invoice link has redirected to correct page");
 		
 		driver.navigate().back();
-		Thread.sleep(10000);
-		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(payments)));
+
 		WebElement Payments = driver.findElement(By.xpath(payments));
 		Assert.assertTrue(Payments.isDisplayed(), "Payments link is missing");
 		log.info("Payments link is visible");
 		Payments.click();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(searchtag1)));
 		log.info("The page title is - " +driver.getTitle() );
 		Assert.assertEquals(driver.getTitle(), "Advanced Search");
-		Thread.sleep(10000);
 
 		WebElement Searchtag2 = driver.findElement(By.xpath(searchtag1));
 		Assert.assertTrue(Searchtag2.isDisplayed(), "Search tag is missing");
@@ -108,13 +107,13 @@ public class Workspace extends POM {
 		log.info("The Payments link has redirected to correct page");
 		
 		driver.navigate().back();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(new_customers)));
 		
 		WebElement New_Customers = driver.findElement(By.xpath(new_customers));
 		Assert.assertTrue(New_Customers.isDisplayed(), "New Customers link is missing");
 		log.info("New Customers link is visible");
 		New_Customers.click();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(searchtag1)));
 		log.info("The page title is - " +driver.getTitle() );
 		Assert.assertEquals(driver.getTitle(), "Advanced Search");
 		Thread.sleep(10000);
@@ -131,7 +130,7 @@ public class Workspace extends POM {
 	@Test(priority = 9)
 	public static void ServiceJobs() throws Exception
 	{
-	
+		WebDriverWait wt = new WebDriverWait(driver,100);
 		WebElement ServiceJobsTab = driver.findElement(By.xpath(servicejobs));
 		Assert.assertTrue(ServiceJobsTab.isDisplayed(), "Store Summary tab is missing");
 		log.info("Service Jobs tab is visible");
@@ -174,11 +173,9 @@ public class Workspace extends POM {
 		Assert.assertTrue(New_link.isDisplayed(), "New link is missing");
 		log.info("New link is visible");
 		New_link.click();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(searchtag2)));
 		log.info("The page title is - " +driver.getTitle() );
 		Assert.assertEquals(driver.getTitle(), "Advanced Search");
-		Thread.sleep(25000);
-
 		
 		WebElement Searchtag1 = driver.findElement(By.xpath(searchtag2));			
 		Assert.assertTrue(Searchtag1.isDisplayed(), "Search tag is missing");
@@ -187,16 +184,15 @@ public class Workspace extends POM {
 		log.info("The New link has redirected to correct page");
 		
 		driver.navigate().back();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(active)));
 		
 		WebElement Active = driver.findElement(By.xpath(active));
 		Assert.assertTrue(Active.isDisplayed(), "Active link is missing");
 		log.info("Active link is visible");
 		Active.click();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(searchtag2)));
 		log.info("The page title is - " +driver.getTitle() );
 		Assert.assertEquals(driver.getTitle(), "Advanced Search");
-		Thread.sleep(25000);
 
 		WebElement Searchtag2 = driver.findElement(By.xpath(searchtag2));			
 		Assert.assertTrue(Searchtag2.isDisplayed(), "Search tag is missing");
@@ -205,16 +201,15 @@ public class Workspace extends POM {
 		log.info("The Active link has redirected to correct page");
 		
 		driver.navigate().back();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(completed)));
 		
 		WebElement Completed = driver.findElement(By.xpath(completed));
 		Assert.assertTrue(Completed.isDisplayed(), "New Customers link is missing");
 		log.info("New Customers link is visible");
 		Completed.click();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(searchtag2)));
 		log.info("The page title is - " +driver.getTitle() );
 		Assert.assertEquals(driver.getTitle(), "Advanced Search");
-		Thread.sleep(25000);
 
 		WebElement Searchtag3 = driver.findElement(By.xpath(searchtag2));			
 		Assert.assertTrue(Searchtag3.isDisplayed(), "Search tag is missing");
@@ -229,7 +224,7 @@ public class Workspace extends POM {
 	public static void Vendor_Orders() throws Exception
 	
 	{
-		
+		WebDriverWait wt = new WebDriverWait(driver,100);
 		WebElement Vendor_Orders = driver.findElement(By.xpath(vendor_orders));
 		Assert.assertTrue(Vendor_Orders.isDisplayed(), "Vendor_Orders tab is missing");
 		log.info("Vendor_Orders tab is visible");
@@ -239,10 +234,9 @@ public class Workspace extends POM {
 		Assert.assertTrue(Active_Orders.isDisplayed(), "Active_Orders link is missing");
 		log.info("Active_Orders link is visible");
 		Active_Orders.click();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(searchtag2)));
 		log.info("The page title is - " +driver.getTitle() );
 		Assert.assertEquals(driver.getTitle(), "Advanced Search");
-		Thread.sleep(10000);
 
 		
 		WebElement Searchtag1 = driver.findElement(By.xpath(searchtag2));
@@ -252,16 +246,15 @@ public class Workspace extends POM {
 		log.info("The Invoice link has redirected to correct page");
 		
 		driver.navigate().back();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(active_receiving)));
 		
 		WebElement Active_Receiving = driver.findElement(By.xpath(active_receiving));
 		Assert.assertTrue(Active_Receiving.isDisplayed(), "Active_Receiving link is missing");
 		log.info("Active_Receiving link is visible");
 		Active_Receiving.click();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(searchtag2)));
 		log.info("The page title is - " +driver.getTitle() );
 		Assert.assertEquals(driver.getTitle(), "Advanced Search");
-		Thread.sleep(10000);
 
 		WebElement Searchtag2 = driver.findElement(By.xpath(searchtag2));
 		Assert.assertTrue(Searchtag2.isDisplayed(), "Search tag is missing");
@@ -270,16 +263,15 @@ public class Workspace extends POM {
 		log.info("The Payments link has redirected to correct page");
 		
 		driver.navigate().back();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(parts_needed)));
 		
 		WebElement Parts_needed = driver.findElement(By.xpath(parts_needed));
 		Assert.assertTrue(Parts_needed.isDisplayed(), "Parts_needed link is missing");
 		log.info("Parts_needed link is visible");
 		Parts_needed.click();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(searchtag2)));
 		log.info("The page title is - " +driver.getTitle() );
 		Assert.assertEquals(driver.getTitle(), "Advanced Search");
-		Thread.sleep(10000);
 
 		WebElement Searchtag3 = driver.findElement(By.xpath(searchtag3));
 		Assert.assertTrue(Searchtag3.isDisplayed(), "Search tag is missing");
@@ -295,7 +287,7 @@ public class Workspace extends POM {
 	public static void Customer_Orders() throws Exception
 	
 	{
-		
+		WebDriverWait wt = new WebDriverWait(driver,100);
 		WebElement Customer_Orders = driver.findElement(By.xpath(customer_orders));
 		Assert.assertTrue(Customer_Orders.isDisplayed(), "Customer_Orders tab is missing");
 		log.info("Customer_Orders tab is visible");
@@ -305,10 +297,9 @@ public class Workspace extends POM {
 		Assert.assertTrue(Active_Orders.isDisplayed(), "Active_Orders link is missing");
 		log.info("Active_Orders link is visible");
 		Active_Orders.click();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(searchtag2)));
 		log.info("The page title is - " +driver.getTitle() );
 		Assert.assertEquals(driver.getTitle(), "Advanced Search");
-		Thread.sleep(10000);
 
 		
 		WebElement Searchtag1 = driver.findElement(By.xpath(searchtag2));
@@ -318,16 +309,15 @@ public class Workspace extends POM {
 		log.info("The Invoice link has redirected to correct page");
 		
 		driver.navigate().back();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(deposits)));
 		
 		WebElement Deposits = driver.findElement(By.xpath(deposits));
 		Assert.assertTrue(Deposits.isDisplayed(), "Deposits link is missing");
 		log.info("Deposits link is visible");
 		Deposits.click();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(searchtag2)));
 		log.info("The page title is - " +driver.getTitle() );
 		Assert.assertEquals(driver.getTitle(), "Advanced Search");
-		Thread.sleep(10000);
 
 		WebElement Searchtag2 = driver.findElement(By.xpath(searchtag4));
 		Assert.assertTrue(Searchtag2.isDisplayed(), "Search tag is missing");
@@ -336,16 +326,15 @@ public class Workspace extends POM {
 		log.info("The Payments link has redirected to correct page");
 		
 		driver.navigate().back();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(balance_due)));
 		
 		WebElement Balance_Due = driver.findElement(By.xpath(balance_due));
 		Assert.assertTrue(Balance_Due.isDisplayed(), "Balance_Due link is missing");
 		log.info("Balance_Due link is visible");
 		Balance_Due.click();
-		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(searchtag2)));
 		log.info("The page title is - " +driver.getTitle() );
 		Assert.assertEquals(driver.getTitle(), "Advanced Search");
-		Thread.sleep(10000);
 
 		WebElement Searchtag3 = driver.findElement(By.xpath(searchtag4));
 		Assert.assertTrue(Searchtag3.isDisplayed(), "Search tag is missing");
@@ -360,7 +349,7 @@ public class Workspace extends POM {
 	@Test(priority = 12)
 	public static void Activity_Feed() throws Exception
 	{
-	
+		WebDriverWait wt = new WebDriverWait(driver,100);
 		WebElement Activity_Feed = driver.findElement(By.xpath(activity_feed));
 		Assert.assertTrue(Activity_Feed.isDisplayed(), "Activity_Feed tab is missing");
 		log.info("Activity_Feed tab is visible");
