@@ -194,3 +194,11 @@
 17:06:04.348 [main] INFO  Dealership.POM - 998 parts are instock
 17:06:04.348 [main] INFO  Dealership.POM - Succesfully returned 0 Parts to vendor Qavendor-21_01_202203_10_38
 17:06:04.358 [main] INFO  Dealership.POM - Test case PartReturntoVendor passes successfully
+10:40:15.028 [main] INFO  Dealership.POM - Running Test : PartReturntoVendor
+10:40:33.434 [main] INFO  Dealership.POM - Windows maximized
+10:40:39.209 [main] INFO  Dealership.POM - URL entered
+10:40:39.746 [main] INFO  Dealership.POM - Username field is visible
+10:40:40.600 [main] INFO  Dealership.POM - Password field is visible
+10:40:40.897 [main] INFO  Dealership.POM - Login Button is visible
+10:40:58.707 [main] INFO  Dealership.POM - Login Button is clicked
+10:41:14.252 [main] INFO  Dealership.POM - GlobalSearch is visible
