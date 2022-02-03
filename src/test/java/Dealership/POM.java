@@ -4,7 +4,10 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
@@ -17,6 +20,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -127,7 +131,6 @@ public class POM extends Variables {
 
 		
 	}
-	
 	
 	public static void DeleteCOU() throws Exception
 	
@@ -313,8 +316,7 @@ public class POM extends Variables {
 		
 		NewSublet = "Code"+num + "The Description";
 	}
-	
-	
+		
 	public static void Deal_Product() throws Exception
 	{
 		WebDriverWait wt = new WebDriverWait(driver, 20);
@@ -519,9 +521,372 @@ public class POM extends Variables {
 		log.info("ProductSaveBtn is filled");		
 		NewWarranty_Plan = "Code"+num + "The Description";
 	}
+		
+	public static void CreateAppointment() throws Exception
+	{	
+
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(), 'New Appointment')]")));
+		Thread.sleep(10000);
+		WebElement NewAppointmentButton = driver.findElement(By.xpath("//button[contains(text(), 'New Appointment')]"));
+		Assert.assertTrue(NewAppointmentButton.isDisplayed(), "New Appointment Button is missing");
+		log.info("New Appointment Button is visible");
+		NewAppointmentButton.click();
+		log.info("New Appointment Button is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("appointment_schedule_content")));
+		WebElement Appointment_schedule_content = driver.findElement(By.id("appointment_schedule_content"));
+		Assert.assertTrue(Appointment_schedule_content.isDisplayed(), "Appointment_schedule_content is missing");
+		log.info("Appointment_schedule_content is visible");
+		Appointment_schedule_content.click();
+		log.info("Appointment_schedule_content is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(appointmenttable1)));
+		Thread.sleep(5000);
+		String Todaysdate = new SimpleDateFormat("d").format(new Date());
+		int TodaysDateInt = Integer.parseInt(Todaysdate);
+		
+		for(int i = 3 ; i <= 7 ; i++)
+		{
+			String Appointmentdate = driver.findElement(By.xpath("//*[@id='j_id0:AddeditAppoitment']/div/div[1]/div["+i+"]/div[1]/span")).getText();
+			int AppointmentdateInt = Integer.parseInt(Appointmentdate);
+						
+			if(AppointmentdateInt == (TodaysDateInt))
+			{
+				WebElement AppoitnmentBar = driver.findElement(By.xpath("//*[@id='j_id0:AddeditAppoitment']/div/div[1]/div["+i+"]/div[2]/div[1]/div[1]/span/i"));
+				Assert.assertTrue(AppoitnmentBar.isDisplayed(), "AppoitnmentBar is missing");
+				log.info("AppoitnmentBar is visible");
+				AppoitnmentBar.click();
+				log.info("AppoitnmentBar is clicked");	
+				Thread.sleep(5000);
+				break;
+			}
+		}
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(appointment_schedule_contentText)));
+		WebElement Appointment_schedule_contentText = driver.findElement(By.xpath(appointment_schedule_contentText));
+		Assert.assertTrue(Appointment_schedule_contentText.isDisplayed(), "Appointment_schedule_contentText is missing");
+		log.info("Appointment_schedule_contentText is visible");
+		String AppointmentDate = Appointment_schedule_contentText.getText();
+		log.info("Appointment date is " +AppointmentDate);	
+		
+		
+		WebElement AppointmentTitleId = driver.findElement(By.id("appointmentTitleId"));
+		Assert.assertTrue(AppointmentTitleId.isDisplayed(), "AppointmentTitleId is missing");
+		log.info("AppointmentTitleId is visible");
+		String timestamp = new SimpleDateFormat(" - dd_MM_yyyy hh_mm_ss ").format(new Date());
+		AppointmentTitleId.sendKeys(Keys.chord(Keys.CONTROL,"a"), "Appointment"+timestamp);
+		log.info("AppointmentTitleId is Renamed");	
+		
+		
+		WebElement CustonameField = driver.findElement(By.id("autocompleteCustomer"));
+		Assert.assertTrue(CustonameField.isDisplayed(), "CustonameField is missing");
+		log.info("CustonameField is visible");
+		CustonameField.sendKeys(appointmentCustomer);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("customerInfo_0")));
+		WebElement CustomerInfo = driver.findElement(By.id("customerInfo_0"));
+		Assert.assertTrue(CustomerInfo.isDisplayed(), "CustomerInfo is missing");
+		log.info("CustomerInfo is visible");
+		CustomerInfo.click();		
+		log.info("CustonameField is filled");	
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(customernamecard)));	
+		WebElement UnitselectionField = driver.findElement(By.id("autocompleteCustomerOwnedUnit"));
+		Assert.assertTrue(UnitselectionField.isDisplayed(), "UnitselectionField is missing");
+		log.info("UnitselectionField is visible");
+		UnitselectionField.click();		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("couInfo_0")));	
+		WebElement CouInfo = driver.findElement(By.id("couInfo_0"));
+		Assert.assertTrue(CouInfo.isDisplayed(), "CouInfo is missing");
+		log.info("CouInfo is visible");
+		CouInfo.click();	
+		log.info("UnitselectionField is filled");	
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(unitnamecard)));	
+		
+		WebElement ConcernNewTag = driver.findElement(By.id("ConcernNewTag"));
+		Assert.assertTrue(ConcernNewTag.isDisplayed(), "ConcernNewTag is missing");
+		log.info("ConcernNewTag is visible");
+		ConcernNewTag.sendKeys("Break loose");
+		log.info("ConcernNewTag is filled");	
+		
+		
+		WebElement EstimatedHours = driver.findElement(By.id("estimatedHoursInputId"));
+		Assert.assertTrue(EstimatedHours.isDisplayed(), "EstimatedHours is missing");
+		log.info("EstimatedHours is visible");
+		EstimatedHours.sendKeys(Keys.chord(Keys.CONTROL,"a"), "1");
+		log.info("EstimatedHours is filled");	
+		EstimatedHours.sendKeys(Keys.TAB);
+		
+
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("Unit-check-in-content")));
+		WebElement UnitCheckinTab = driver.findElement(By.id("Unit-check-in-content"));
+		Assert.assertTrue(UnitCheckinTab.isDisplayed(), "UnitCheckinTab is missing");
+		log.info("UnitCheckinTab is visible");
+		UnitCheckinTab.click();
+		log.info("UnitCheckinTab is Clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(dateDueInField)));
+		WebElement DateDueInField = driver.findElement(By.xpath(datePromisedField));
+		Assert.assertTrue(DateDueInField.isDisplayed(), "DateDueInField is missing");
+		log.info("DateDueInField is visible");
+		DateDueInField.click();
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tr/td/a")));
+		WebElement DateDueIn = driver.findElement(By.xpath("//a[contains(text(), "+(TodaysDateInt)+")]"));
+		Assert.assertTrue(DateDueIn.isDisplayed(), "DateDueIn is missing");
+		log.info("DateDueIn is visible");
+		DateDueIn.click();
+		log.info("DateDueIn is selected");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(datePromisedField)));
+		WebElement DatePromisedField = driver.findElement(By.xpath(datePromisedField));
+		Assert.assertTrue(DatePromisedField.isDisplayed(), "DatePromisedField is missing");
+		log.info("DatePromisedField is visible");
+		DatePromisedField.click();
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tr/td/a")));
+		WebElement DatePromised = driver.findElement(By.xpath("//a[contains(text(), "+(TodaysDateInt)+")]"));
+		Assert.assertTrue(DatePromised.isDisplayed(), "DatePromised is missing");
+		log.info("DatePromised is visible");
+		DatePromised.click();
+		log.info("DatePromised is selected");
+		
+		
+		WebElement UnitCheckinCloseArrow = driver.findElement(By.xpath(unitCheckinCloseArrow));
+		Assert.assertTrue(UnitCheckinCloseArrow.isDisplayed(), "UnitCheckinCloseArrow is missing");
+		log.info("UnitCheckinCloseArrow is visible");
+		UnitCheckinCloseArrow.click();
+		log.info("UnitCheckinTab is Closed");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("assign-technician-content")));
+		WebElement AssignTechTab = driver.findElement(By.id("assign-technician-content"));
+		Assert.assertTrue(AssignTechTab.isDisplayed(), "AssignTechTab is missing");
+		log.info("AssignTechTab is visible");
+		AssignTechTab.click();
+		log.info("AssignTechTab is Clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Add technician')]")));
+		
+		WebElement Assign_tech_input_Field = driver.findElement(By.id("assign-tech-input"));
+		Assert.assertTrue(Assign_tech_input_Field.isDisplayed(), "Assign_tech_input_Field is missing");
+		log.info("Assign_tech_input_Field is visible");
+		Assign_tech_input_Field.click();
+		
+		List<WebElement> Assign_tech_inputs = driver.findElements(By.xpath(assign_tech_inputs));
+		Iterator<WebElement> it = Assign_tech_inputs.iterator();
+		while(it.hasNext())
+		{
+			WebElement RequiredTech = it.next();
+			String RequiredTechName = RequiredTech.getText();			
+			if(RequiredTechName.contains(defaultTechnician))
+			{
+				RequiredTech.click();
+				log.info(RequiredTech+" Tech is selected");
+				break;
+			}
+			
+		}
+	
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Confirm')]"))).click();
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("time-slot-input")));
+		WebElement TimeSlotInput = driver.findElement(By.id("time-slot-input"));
+		Assert.assertTrue(TimeSlotInput.isDisplayed(), "TimeSlotInput is missing");
+		log.info("TimeSlotInput is visible");
+		TimeSlotInput.click();
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("timeslot_0")));
+		WebElement TimeSlot = driver.findElement(By.id("timeslot_0"));
+		Assert.assertTrue(TimeSlot.isDisplayed(), "TimeSlot is missing");
+		log.info("TimeSlot is visible");
+		TimeSlot.click();
+		log.info("TimeSlot is Selected");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//td/div/a")));
+		Thread.sleep(5000);
+		WebElement SaveAppointmentButton = driver.findElement(By.xpath("//button[contains(text(),'Create Appointment')]"));
+		Assert.assertTrue(SaveAppointmentButton.isDisplayed(), "SaveAppointmentButton is missing");
+		log.info("SaveAppointmentButton is visible");
+		SaveAppointmentButton.click();
+		log.info("SaveAppointmentButton is Clicked");
+		Thread.sleep(5000);
+				
+		
+	}
+
+	public static void EditAppointment() throws Exception
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Day view')]")));
+		Thread.sleep(10000);
+		WebElement DayViewLink = driver.findElement(By.xpath("//a[contains(text(),'Day view')]"));
+		Assert.assertTrue(DayViewLink.isDisplayed(), "DayViewLink is missing");
+		log.info("DayViewLink is visible");
+		DayViewLink.click();
+		log.info("DayViewLink is opened");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tr/td/div")));
+		Thread.sleep(5000);
+		
+		//appointment name - //*[@id="appointmentInfoPopup"]/div/div[2]/div[1]
+		
+		List<WebElement> AllAppointments = driver.findElements(By.xpath("//tr/td/div"));
+//		Iterator<WebElement> it = AllAppointments.iterator();
+		for(WebElement MyAppoitnment : AllAppointments )
+		{
+			Actions action = new Actions(driver);
+			action.moveToElement(MyAppoitnment).build().perform();
+			wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(appointmentNane)));
+			WebElement AppointmentNane = driver.findElement(By.xpath(appointmentNane));
+			if(AppointmentNane.getText().contains("Appointment -")) 
+			{
+				MyAppoitnment.click();
+				Thread.sleep(10000);
+				break;
+			}
+		}
+		
+		log.info("Appointment is opened");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(unitnamecard)));	
+		
+		WebElement ConcernNewTag = driver.findElement(By.id("ConcernNewTag"));
+		Assert.assertTrue(ConcernNewTag.isDisplayed(), "ConcernNewTag is missing");
+		log.info("ConcernNewTag is visible");
+		ConcernNewTag.sendKeys(Keys.chord(Keys.CONTROL,"a"), "Break loose");
+		log.info("ConcernNewTag is filled");	
+		
+		
+		WebElement EstimatedHours = driver.findElement(By.id("estimatedHoursInputId"));
+		Assert.assertTrue(EstimatedHours.isDisplayed(), "EstimatedHours is missing");
+		log.info("EstimatedHours is visible");
+		EstimatedHours.sendKeys(Keys.chord(Keys.CONTROL,"a"), "1");
+		log.info("EstimatedHours is filled");	
+		EstimatedHours.sendKeys(Keys.TAB);
+		
+		
+		WebElement TechNameandTime = driver.findElement(By.xpath(techNameandTime));
+		Assert.assertTrue(TechNameandTime.isDisplayed(), "TechNameandTime is missing");
+		log.info("TechNameandTime is " +TechNameandTime.getText());
+		
+		WebElement SaveAppointmentButton = driver.findElement(By.xpath("//button[contains(text(),'Save Appointment')]"));
+		Assert.assertTrue(SaveAppointmentButton.isDisplayed(), "SaveAppointmentButton is missing");
+		log.info("SaveAppointmentButton is visible");
+		SaveAppointmentButton.click();
+		log.info("SaveAppointmentButton is Clicked");
+		Thread.sleep(5000);
+		log.info("Appointment is edited successfully");	
+	}
+	
+	public static void DeleteAppointment() throws Exception
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+//		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Day view')]")));
+//		Thread.sleep(10000);
+//		WebElement DayViewLink = driver.findElement(By.xpath("//a[contains(text(),'Day view')]"));
+//		Assert.assertTrue(DayViewLink.isDisplayed(), "DayViewLink is missing");
+//		log.info("DayViewLink is visible");
+//		DayViewLink.click();
+//		log.info("DayViewLink is opened");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tr/td/div")));
+		Thread.sleep(5000);
+		
+		//appointment name - //*[@id="appointmentInfoPopup"]/div/div[2]/div[1]
+		
+		List<WebElement> AllAppointments = driver.findElements(By.xpath("//tr/td/div"));
+		int NumberofAppointmentBefore = driver.findElements(By.xpath("//tr/td/div")).size();
+		log.info(NumberofAppointmentBefore+" appointments are present");
+//		Iterator<WebElement> it = AllAppointments.iterator();
+		for(WebElement MyAppoitnment : AllAppointments )
+		{
+			Actions action = new Actions(driver);
+			action.moveToElement(MyAppoitnment).build().perform();
+			wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(appointmentNane)));
+			WebElement AppointmentNane = driver.findElement(By.xpath(appointmentNane));
+			if(AppointmentNane.getText().contains("Appointment -")) 
+			{
+				MyAppoitnment.click();
+				Thread.sleep(10000);
+				break;
+			}
+		}
+		
+		log.info("Appointment is opened");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(unitnamecard)));	
+		
+		WebElement ConcernNewTag = driver.findElement(By.id("ConcernNewTag"));
+		Assert.assertTrue(ConcernNewTag.isDisplayed(), "ConcernNewTag is missing");
+		log.info("ConcernNewTag is visible");
+		ConcernNewTag.sendKeys(Keys.chord(Keys.CONTROL,"a"), "Break loose");
+		log.info("ConcernNewTag is filled");	
+		
+		
+		WebElement EstimatedHours = driver.findElement(By.id("estimatedHoursInputId"));
+		Assert.assertTrue(EstimatedHours.isDisplayed(), "EstimatedHours is missing");
+		log.info("EstimatedHours is visible");
+		EstimatedHours.sendKeys(Keys.chord(Keys.CONTROL,"a"), "1");
+		log.info("EstimatedHours is filled");	
+		EstimatedHours.sendKeys(Keys.TAB);
+		
+		WebElement TechNameandTime = driver.findElement(By.xpath(techNameandTime));
+		Assert.assertTrue(TechNameandTime.isDisplayed(), "TechNameandTime is missing");
+		log.info("TechNameandTime is " +TechNameandTime.getText());
+		
+		WebElement DeleteAppointmentButton = driver.findElement(By.xpath("//span[contains(text(),'Delete appointment')]"));
+		Assert.assertTrue(DeleteAppointmentButton.isDisplayed(), "DeleteAppointmentButton is missing");
+		log.info("DeleteAppointmentButton is visible");
+		DeleteAppointmentButton.click();
+		log.info("DeleteAppointmentButton is Clicked");
+		Thread.sleep(5000);
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("Yes, delete")));	
+		WebElement DeleteAppointmentModalWindow = driver.findElement(By.xpath(deleteAppointmentModalWindow));
+		Assert.assertTrue(DeleteAppointmentModalWindow.getText().contains("service job"), "Delete Appointment Modal Window is missing");
+		log.info("Delete Appointment Modal Window is opened");
+		
+		WebElement DltAppointmentBtn = driver.findElement(By.id("Yes, delete"));
+		Assert.assertTrue(DltAppointmentBtn.isDisplayed(), "Dlt Appointment Btn is missing");
+		log.info("Dlt Appointment Btn is visible");
+		DltAppointmentBtn.click();
+		log.info("Dlt Appointment Btn is Clicked");
+		Thread.sleep(10000);
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+				
+		int NumberofAppointmentAfter = driver.findElements(By.xpath("//tr/td/div")).size();
+		log.info(NumberofAppointmentAfter+" appointments are present");
+		if(NumberofAppointmentAfter < NumberofAppointmentBefore)
+		log.info("Appointmen is Deleted Successfully");
+	
+		
+
+	}
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 //	{
 //		TakesScreenshot ts = (TakesScreenshot) driver;
 //		File source =ts.getScreenshotAs(OutputType.FILE);
@@ -531,11 +896,11 @@ public class POM extends Variables {
 //	}
 	
 
-	public static void Todaydate()
-	{
-	String Todaysdate = new SimpleDateFormat("d").format(new Date());
-	int Todaysdate1 = Integer.parseInt(Todaysdate);
-	System.out.println(Todaysdate1);
-	
-	}
+//	public static void Todaydate()
+//	{
+//	String Todaysdate = new SimpleDateFormat("d").format(new Date());
+//	int Todaysdate1 = Integer.parseInt(Todaysdate);
+//	System.out.println(Todaysdate1);
+//	
+//	}
 }

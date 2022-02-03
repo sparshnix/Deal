@@ -3,7 +3,7 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - Default test</title>
+  <title>Blackpurl Test Results - Default test</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
@@ -12,7 +12,7 @@
 <body>
 <h1>Default test</h1>
 <p>
-  Test duration: 75.128s
+  Test duration: 25.327s
 </p>
 
 
@@ -20,49 +20,33 @@
   <table class="resultsTable">
     <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">Dealership.Order</td>
+        <td colspan="3" class="group">Dealership.Schedule</td>
       </tr>
             
 <tr>
   <td class="method">
-                  PartReturntoVendor
+                  CreateEditDeleteAppointment
       </td>
   <td class="duration">
-    75.128s
+    25.327s
   </td>
   <td class="result">
         
     
-        
+            <div class="testOutput">
+                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\CreateEditDeleteAppointment - 03_02_2022 15_02_02 screenshot.png">Screenshot</a>
+                                Test Failed - screenshot captured for Method : CreateEditDeleteAppointment
+                                Status of execution : 2
+                  </div>
+    
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: chrome not reachable<br/>
-&nbsp; (Session info: chrome=97.0.4692.99)<br/>
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;<br/>
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Command: [f5e1b9c480c5415390c4fb9de9f383d6, findElements {using=id, value=SearchResult_0}]<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56355/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
-Session ID: f5e1b9c480c5415390c4fb9de9f383d6</b></a><br />
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [true] but found [false]</b></a><br />
     <div class="stackTrace" id="exception-0">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)<br />
-              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)<br />
-              org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:382)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:374)<br />
-              org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:224)<br />
-              org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:221)<br />
-              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)<br />
-              Dealership.Order.PartReturntoVendor(Order.java:1771)<br />
+              org.testng.Assert.fail(Assert.java:110)<br />
+              org.testng.Assert.failNotEquals(Assert.java:1413)<br />
+              org.testng.Assert.assertTrue(Assert.java:56)<br />
+              org.testng.Assert.assertTrue(Assert.java:66)<br />
+              Dealership.Schedule.CreateEditDeleteAppointment(Schedule.java:61)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />

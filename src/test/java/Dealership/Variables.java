@@ -69,8 +69,12 @@ public class Variables {
 	oversoldPopUpText, merchandise_Section, addSelectedButton,
 
 	//Return(Part)
-	partReturn, rma, creditMemo
+	partReturn, rma, creditMemo,
 	
+	//Schedule
+	appointmenttable1, appointment_schedule_contentText, schedule, appointmentCustomer, 
+	customernamecard, unitnamecard, unitCheckinCloseArrow, assign_tech_inputs, dateDueInField,
+	datePromisedField, defaultTechnician, appointmentNane, techNameandTime, deleteAppointmentModalWindow
 	
 	;
 	
