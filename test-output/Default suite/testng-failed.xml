@@ -5,7 +5,7 @@
     <classes>
       <class name="Dealership.Schedule">
         <methods>
-          <include name="CreateEditDeleteAppointment"/>
+          <include name="MoveAppointment"/>
         </methods>
       </class> <!-- Dealership.Schedule -->
     </classes>

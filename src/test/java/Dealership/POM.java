@@ -13,6 +13,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -548,7 +549,6 @@ public class POM extends Variables {
 		Thread.sleep(5000);
 		String Todaysdate = new SimpleDateFormat("d").format(new Date());
 		int TodaysDateInt = Integer.parseInt(Todaysdate);
-		
 		for(int i = 3 ; i <= 7 ; i++)
 		{
 			String Appointmentdate = driver.findElement(By.xpath("//*[@id='j_id0:AddeditAppoitment']/div/div[1]/div["+i+"]/div[1]/span")).getText();
@@ -635,7 +635,7 @@ public class POM extends Variables {
 		log.info("DateDueInField is visible");
 		DateDueInField.click();
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tr/td/a")));
-		WebElement DateDueIn = driver.findElement(By.xpath("//a[contains(text(), "+(TodaysDateInt)+")]"));
+		WebElement DateDueIn = driver.findElement(By.xpath("//tr/td/a[contains(text(), "+TodaysDateInt+")]"));
 		Assert.assertTrue(DateDueIn.isDisplayed(), "DateDueIn is missing");
 		log.info("DateDueIn is visible");
 		DateDueIn.click();
@@ -648,7 +648,7 @@ public class POM extends Variables {
 		log.info("DatePromisedField is visible");
 		DatePromisedField.click();
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tr/td/a")));
-		WebElement DatePromised = driver.findElement(By.xpath("//a[contains(text(), "+(TodaysDateInt)+")]"));
+		WebElement DatePromised = driver.findElement(By.xpath("//tr/td/a[contains(text(), "+TodaysDateInt+")]"));
 		Assert.assertTrue(DatePromised.isDisplayed(), "DatePromised is missing");
 		log.info("DatePromised is visible");
 		DatePromised.click();
@@ -692,14 +692,23 @@ public class POM extends Variables {
 			
 		}
 	
-		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Confirm')]"))).click();
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Confirm')]")));
+		Thread.sleep(5000);
+		WebElement ConfirmButton = driver.findElement(By.xpath("//button[contains(text(),'Confirm')]"));
+		Assert.assertTrue(ConfirmButton.isDisplayed(), "ConfirmButton is missing");
+		log.info("ConfirmButton is visible");
+		JavascriptExecutor executer1 = (JavascriptExecutor) driver;
+		executer1.executeScript("arguments[0].click();", ConfirmButton);
+		log.info("ConfirmButton is clicked");
+		Thread.sleep(5000);
+
 		
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("time-slot-input")));
 		WebElement TimeSlotInput = driver.findElement(By.id("time-slot-input"));
 		Assert.assertTrue(TimeSlotInput.isDisplayed(), "TimeSlotInput is missing");
 		log.info("TimeSlotInput is visible");
 		TimeSlotInput.click();
-		
+		Thread.sleep(5000);
 		
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("timeslot_0")));
 		WebElement TimeSlot = driver.findElement(By.id("timeslot_0"));
@@ -710,12 +719,14 @@ public class POM extends Variables {
 		
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//td/div/a")));
 		Thread.sleep(5000);
-		WebElement SaveAppointmentButton = driver.findElement(By.xpath("//button[contains(text(),'Create Appointment')]"));
+		WebElement SaveAppointmentButton = driver.findElement(By.xpath("//button[contains(text(),'Save Appointment')]"));
 		Assert.assertTrue(SaveAppointmentButton.isDisplayed(), "SaveAppointmentButton is missing");
 		log.info("SaveAppointmentButton is visible");
 		SaveAppointmentButton.click();
 		log.info("SaveAppointmentButton is Clicked");
 		Thread.sleep(5000);
+		log.info("Appointment is Created successfully");	
+
 				
 		
 	}

@@ -345,6 +345,19 @@ public class Property extends Variables {
 		appointmentNane				=	locators.getProperty("appointmentNane");
 		techNameandTime				=	locators.getProperty("techNameandTime");
 		deleteAppointmentModalWindow = 	locators.getProperty("deleteAppointmentModalWindow");
+		appointmenttable2			=	locators.getProperty("appointmenttable2");
+		appointmentTime				=	locators.getProperty("appointmentTime");
+		moveto						=	locators.getProperty("moveto");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		

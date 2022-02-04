@@ -74,7 +74,8 @@ public class Variables {
 	//Schedule
 	appointmenttable1, appointment_schedule_contentText, schedule, appointmentCustomer, 
 	customernamecard, unitnamecard, unitCheckinCloseArrow, assign_tech_inputs, dateDueInField,
-	datePromisedField, defaultTechnician, appointmentNane, techNameandTime, deleteAppointmentModalWindow
+	datePromisedField, defaultTechnician, appointmentNane, techNameandTime, deleteAppointmentModalWindow,
+	appointmenttable2, appointmentTime, moveto
 	
 	;
 	
