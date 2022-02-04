@@ -63,7 +63,7 @@ public class Listeners extends POM implements ITestListener {
 		
 		try {
 			File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-			String timestamp = new SimpleDateFormat(" - dd_MM_yyyy hh_mm_ss ").format(new Date());
+			String timestamp = new SimpleDateFormat(" - dd_MM_yyyy HH_mm_ss ").format(new Date());
 			String destination = System.getProperty("user.dir") 
 					+ File.separator
 					+ "\\Screenshots\\"

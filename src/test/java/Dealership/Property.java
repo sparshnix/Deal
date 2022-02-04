@@ -46,7 +46,9 @@ public class Property extends Variables {
 		vendor_Input				=   prop.getProperty("vendor_Input");
 		searchPart					=   prop.getProperty("searchPart");
 		outofstockPart				=   prop.getProperty("outofstockPart");
-		
+		appointmentCustomer			=   prop.getProperty("appointmentCustomer");
+		defaultTechnician			=	prop.getProperty("defaultTechnician");
+
 		
 		//Fetch the values from locators.properties 
 		//used for Masterdata
@@ -330,14 +332,19 @@ public class Property extends Variables {
 		rma							=	locators.getProperty("rma");
 		creditMemo					=	locators.getProperty("creditMemo");
 		
-		
-		
-		
-		
-		
-		
-		
-		
+		//Schedule
+		appointmenttable1			=	locators.getProperty("appointmenttable1");
+		appointment_schedule_contentText = locators.getProperty("appointment_schedule_contentText");
+		schedule					=	locators.getProperty("schedule");
+		customernamecard			=	locators.getProperty("customernamecard");
+		unitnamecard				=	locators.getProperty("unitnamecard");
+		unitCheckinCloseArrow		=	locators.getProperty("unitCheckinCloseArrow");
+		assign_tech_inputs			=	locators.getProperty("assign_tech_inputs");
+		dateDueInField				=	locators.getProperty("dateDueInField");
+		datePromisedField			=	locators.getProperty("datePromisedField");
+		appointmentNane				=	locators.getProperty("appointmentNane");
+		techNameandTime				=	locators.getProperty("techNameandTime");
+		deleteAppointmentModalWindow = 	locators.getProperty("deleteAppointmentModalWindow");
 		
 		
 		

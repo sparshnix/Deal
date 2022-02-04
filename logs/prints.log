@@ -202,3 +202,461 @@
 10:40:40.897 [main] INFO  Dealership.POM - Login Button is visible
 10:40:58.707 [main] INFO  Dealership.POM - Login Button is clicked
 10:41:14.252 [main] INFO  Dealership.POM - GlobalSearch is visible
+11:56:05.369 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+11:56:18.637 [main] INFO  Dealership.POM - Windows maximized
+11:56:21.372 [main] INFO  Dealership.POM - URL entered
+11:56:21.488 [main] INFO  Dealership.POM - Username field is visible
+11:56:22.062 [main] INFO  Dealership.POM - Password field is visible
+11:56:22.456 [main] INFO  Dealership.POM - Login Button is visible
+11:56:36.946 [main] INFO  Dealership.POM - Login Button is clicked
+11:58:32.698 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CreateEditDeleteAppointment
+12:00:07.087 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+12:00:15.338 [main] INFO  Dealership.POM - Windows maximized
+12:04:57.245 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+12:05:05.259 [main] INFO  Dealership.POM - Windows maximized
+12:05:07.806 [main] INFO  Dealership.POM - URL entered
+12:05:07.969 [main] INFO  Dealership.POM - Username field is visible
+12:05:08.462 [main] INFO  Dealership.POM - Password field is visible
+12:05:08.657 [main] INFO  Dealership.POM - Login Button is visible
+12:05:22.979 [main] INFO  Dealership.POM - Login Button is clicked
+12:05:49.919 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CreateEditDeleteAppointment
+12:07:45.788 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+12:07:53.446 [main] INFO  Dealership.POM - Windows maximized
+12:08:05.046 [main] INFO  Dealership.POM - URL entered
+12:08:05.278 [main] INFO  Dealership.POM - Username field is visible
+12:08:05.891 [main] INFO  Dealership.POM - Password field is visible
+12:08:06.591 [main] INFO  Dealership.POM - Login Button is visible
+12:08:57.477 [main] INFO  Dealership.POM - Login Button is clicked
+12:09:16.208 [main] INFO  Dealership.POM - New Appointment Button is visible
+12:09:17.726 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CreateEditDeleteAppointment
+12:10:23.842 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+12:10:31.429 [main] INFO  Dealership.POM - Windows maximized
+12:10:34.190 [main] INFO  Dealership.POM - URL entered
+12:10:34.322 [main] INFO  Dealership.POM - Username field is visible
+12:10:34.528 [main] INFO  Dealership.POM - Password field is visible
+12:10:34.677 [main] INFO  Dealership.POM - Login Button is visible
+12:11:33.513 [main] INFO  Dealership.POM - Login Button is clicked
+12:12:02.922 [main] INFO  Dealership.POM - New Appointment Button is visible
+12:12:03.015 [main] INFO  Dealership.POM - New Appointment Button is clicked
+12:12:06.730 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CreateEditDeleteAppointment
+12:59:35.311 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+12:59:46.582 [main] INFO  Dealership.POM - Windows maximized
+12:59:48.763 [main] INFO  Dealership.POM - URL entered
+12:59:48.898 [main] INFO  Dealership.POM - Username field is visible
+12:59:49.258 [main] INFO  Dealership.POM - Password field is visible
+12:59:49.655 [main] INFO  Dealership.POM - Login Button is visible
+12:59:49.780 [main] INFO  Dealership.POM - Login Button is clicked
+13:00:40.281 [main] INFO  Dealership.POM - New Appointment Button is visible
+13:00:40.378 [main] INFO  Dealership.POM - New Appointment Button is clicked
+13:00:44.177 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+13:00:44.381 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+13:02:30.163 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CreateEditDeleteAppointment
+13:10:07.334 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+13:10:15.099 [main] INFO  Dealership.POM - Windows maximized
+13:10:25.763 [main] INFO  Dealership.POM - URL entered
+13:10:25.904 [main] INFO  Dealership.POM - Username field is visible
+13:10:26.257 [main] INFO  Dealership.POM - Password field is visible
+13:10:26.453 [main] INFO  Dealership.POM - Login Button is visible
+13:10:26.737 [main] INFO  Dealership.POM - Login Button is clicked
+13:12:05.635 [main] INFO  Dealership.POM - New Appointment Button is visible
+13:12:05.751 [main] INFO  Dealership.POM - New Appointment Button is clicked
+13:12:10.730 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+13:12:10.913 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+13:13:57.172 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CreateEditDeleteAppointment
+13:18:46.644 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+13:18:54.814 [main] INFO  Dealership.POM - Windows maximized
+13:18:57.740 [main] INFO  Dealership.POM - URL entered
+13:18:57.868 [main] INFO  Dealership.POM - Username field is visible
+13:18:58.159 [main] INFO  Dealership.POM - Password field is visible
+13:18:58.324 [main] INFO  Dealership.POM - Login Button is visible
+13:19:32.420 [main] INFO  Dealership.POM - Login Button is clicked
+13:20:00.560 [main] INFO  Dealership.POM - New Appointment Button is visible
+13:20:00.639 [main] INFO  Dealership.POM - New Appointment Button is clicked
+13:20:08.316 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+13:20:08.434 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+13:25:14.669 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+13:25:22.355 [main] INFO  Dealership.POM - Windows maximized
+13:25:36.501 [main] INFO  Dealership.POM - URL entered
+13:25:36.617 [main] INFO  Dealership.POM - Username field is visible
+13:25:36.829 [main] INFO  Dealership.POM - Password field is visible
+13:25:37.001 [main] INFO  Dealership.POM - Login Button is visible
+13:26:21.152 [main] INFO  Dealership.POM - Login Button is clicked
+13:26:48.720 [main] INFO  Dealership.POM - New Appointment Button is visible
+13:26:48.801 [main] INFO  Dealership.POM - New Appointment Button is clicked
+13:26:53.128 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+13:26:53.323 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+13:28:12.228 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+13:28:19.976 [main] INFO  Dealership.POM - Windows maximized
+13:29:06.873 [main] INFO  Dealership.POM - URL entered
+13:29:07.023 [main] INFO  Dealership.POM - Username field is visible
+13:29:07.347 [main] INFO  Dealership.POM - Password field is visible
+13:29:07.664 [main] INFO  Dealership.POM - Login Button is visible
+13:29:39.194 [main] INFO  Dealership.POM - Login Button is clicked
+13:30:07.357 [main] INFO  Dealership.POM - New Appointment Button is visible
+13:30:07.457 [main] INFO  Dealership.POM - New Appointment Button is clicked
+13:30:11.035 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+13:30:11.201 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+13:31:21.301 [main] INFO  Dealership.POM - Appointment_schedule_contentText is visible
+13:31:21.325 [main] INFO  Dealership.POM - Appointment date is [[ChromeDriver: chrome on WINDOWS (ee37d7ac47088b085f1ea1da2336a5d5)] -> xpath: //*[@id="appointment_schedule_content"]/span]
+13:31:21.331 [main] INFO  Dealership.POM - Test case CreateEditDeleteAppointment passes successfully
+13:32:22.494 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+13:32:30.113 [main] INFO  Dealership.POM - Windows maximized
+13:32:32.742 [main] INFO  Dealership.POM - URL entered
+13:32:32.887 [main] INFO  Dealership.POM - Username field is visible
+13:32:33.314 [main] INFO  Dealership.POM - Password field is visible
+13:32:33.479 [main] INFO  Dealership.POM - Login Button is visible
+13:33:10.734 [main] INFO  Dealership.POM - Login Button is clicked
+13:33:38.992 [main] INFO  Dealership.POM - New Appointment Button is visible
+13:33:39.077 [main] INFO  Dealership.POM - New Appointment Button is clicked
+13:33:42.215 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+13:33:42.465 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+13:34:21.690 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+13:34:30.732 [main] INFO  Dealership.POM - Windows maximized
+13:34:32.958 [main] INFO  Dealership.POM - URL entered
+13:34:33.099 [main] INFO  Dealership.POM - Username field is visible
+13:34:33.394 [main] INFO  Dealership.POM - Password field is visible
+13:34:33.879 [main] INFO  Dealership.POM - Login Button is visible
+13:34:49.910 [main] INFO  Dealership.POM - Login Button is clicked
+13:35:38.115 [main] INFO  Dealership.POM - New Appointment Button is visible
+13:35:38.283 [main] INFO  Dealership.POM - New Appointment Button is clicked
+13:35:42.237 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+13:35:42.450 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+13:39:20.087 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+13:39:28.877 [main] INFO  Dealership.POM - Windows maximized
+13:39:31.602 [main] INFO  Dealership.POM - URL entered
+13:39:31.737 [main] INFO  Dealership.POM - Username field is visible
+13:39:32.032 [main] INFO  Dealership.POM - Password field is visible
+13:39:32.386 [main] INFO  Dealership.POM - Login Button is visible
+13:40:04.999 [main] INFO  Dealership.POM - Login Button is clicked
+13:40:32.849 [main] INFO  Dealership.POM - New Appointment Button is visible
+13:40:32.956 [main] INFO  Dealership.POM - New Appointment Button is clicked
+13:40:35.929 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+13:40:36.197 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+13:40:41.636 [main] INFO  Dealership.POM - AppoitnmentBar is visible
+13:40:41.941 [main] INFO  Dealership.POM - AppoitnmentBar is clicked
+13:40:47.340 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CreateEditDeleteAppointment
+13:43:44.309 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+13:43:51.912 [main] INFO  Dealership.POM - Windows maximized
+13:43:54.642 [main] INFO  Dealership.POM - URL entered
+13:43:54.799 [main] INFO  Dealership.POM - Username field is visible
+13:43:55.133 [main] INFO  Dealership.POM - Password field is visible
+13:43:55.391 [main] INFO  Dealership.POM - Login Button is visible
+13:44:10.933 [main] INFO  Dealership.POM - Login Button is clicked
+13:44:39.341 [main] INFO  Dealership.POM - New Appointment Button is visible
+13:44:39.436 [main] INFO  Dealership.POM - New Appointment Button is clicked
+13:44:43.236 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+13:44:43.462 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+13:44:48.766 [main] INFO  Dealership.POM - AppoitnmentBar is visible
+13:44:48.964 [main] INFO  Dealership.POM - AppoitnmentBar is clicked
+13:44:54.081 [main] INFO  Dealership.POM - Appointment_schedule_contentText is visible
+13:44:54.126 [main] INFO  Dealership.POM - Appointment date is [[ChromeDriver: chrome on WINDOWS (70acd3849daf5b010c469d97cf362e6f)] -> xpath: //*[@id="appointment_schedule_content"]/span]
+13:44:54.133 [main] INFO  Dealership.POM - Test case CreateEditDeleteAppointment passes successfully
+15:13:17.811 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+15:13:30.202 [main] INFO  Dealership.POM - Windows maximized
+15:13:33.514 [main] INFO  Dealership.POM - URL entered
+15:13:33.643 [main] INFO  Dealership.POM - Username field is visible
+15:13:34.241 [main] INFO  Dealership.POM - Password field is visible
+15:13:34.570 [main] INFO  Dealership.POM - Login Button is visible
+15:14:09.932 [main] INFO  Dealership.POM - Login Button is clicked
+15:14:38.310 [main] INFO  Dealership.POM - New Appointment Button is visible
+15:14:38.424 [main] INFO  Dealership.POM - New Appointment Button is clicked
+15:14:43.231 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+15:14:43.402 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+15:14:48.727 [main] INFO  Dealership.POM - AppoitnmentBar is visible
+15:14:48.887 [main] INFO  Dealership.POM - AppoitnmentBar is clicked
+15:14:54.013 [main] INFO  Dealership.POM - Appointment_schedule_contentText is visible
+15:14:54.032 [main] INFO  Dealership.POM - Appointment date is Wednesday, 2nd February 2022 - Morning
+15:14:54.080 [main] INFO  Dealership.POM - AppointmentTitleId is visible
+15:14:54.751 [main] INFO  Dealership.POM - AppointmentTitleId is Renamed
+15:14:54.802 [main] INFO  Dealership.POM - CustonameField is visible
+15:14:58.466 [main] INFO  Dealership.POM - CustomerInfo is visible
+15:14:58.607 [main] INFO  Dealership.POM - CustonameField is filled
+15:14:59.323 [main] INFO  Dealership.POM - UnitselectionField is visible
+15:14:59.503 [main] INFO  Dealership.POM - CouInfo is visible
+15:14:59.585 [main] INFO  Dealership.POM - CustonameField is filled
+15:14:59.679 [main] INFO  Dealership.POM - ConcernNewTag is visible
+15:15:00.012 [main] INFO  Dealership.POM - AppointmentTitleId is filled
+15:15:00.094 [main] INFO  Dealership.POM - EstimatedHours is visible
+15:15:00.259 [main] INFO  Dealership.POM - AppointmentTitleId is filled
+15:15:00.681 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CreateEditDeleteAppointment
+15:17:59.194 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+15:18:07.983 [main] INFO  Dealership.POM - Windows maximized
+15:18:14.243 [main] INFO  Dealership.POM - URL entered
+15:18:14.369 [main] INFO  Dealership.POM - Username field is visible
+15:18:14.610 [main] INFO  Dealership.POM - Password field is visible
+15:18:14.879 [main] INFO  Dealership.POM - Login Button is visible
+15:18:46.668 [main] INFO  Dealership.POM - Login Button is clicked
+15:19:25.458 [main] INFO  Dealership.POM - New Appointment Button is visible
+15:19:25.590 [main] INFO  Dealership.POM - New Appointment Button is clicked
+15:19:29.041 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+15:19:29.254 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+15:19:34.570 [main] INFO  Dealership.POM - AppoitnmentBar is visible
+15:19:34.787 [main] INFO  Dealership.POM - AppoitnmentBar is clicked
+15:19:39.904 [main] INFO  Dealership.POM - Appointment_schedule_contentText is visible
+15:19:39.935 [main] INFO  Dealership.POM - Appointment date is Wednesday, 2nd February 2022 - Morning
+15:19:39.978 [main] INFO  Dealership.POM - AppointmentTitleId is visible
+15:19:40.676 [main] INFO  Dealership.POM - AppointmentTitleId is Renamed
+15:19:40.741 [main] INFO  Dealership.POM - CustonameField is visible
+15:19:43.461 [main] INFO  Dealership.POM - CustomerInfo is visible
+15:19:43.558 [main] INFO  Dealership.POM - CustonameField is filled
+15:19:46.505 [main] INFO  Dealership.POM - UnitselectionField is visible
+15:19:46.683 [main] INFO  Dealership.POM - CouInfo is visible
+15:19:46.789 [main] INFO  Dealership.POM - CustonameField is filled
+15:19:46.914 [main] INFO  Dealership.POM - ConcernNewTag is visible
+15:19:47.289 [main] INFO  Dealership.POM - AppointmentTitleId is filled
+15:19:47.338 [main] INFO  Dealership.POM - EstimatedHours is visible
+15:19:47.554 [main] INFO  Dealership.POM - AppointmentTitleId is filled
+15:19:47.740 [main] INFO  Dealership.POM - UnitCheckinTab is visible
+15:19:47.851 [main] INFO  Dealership.POM - UnitCheckinTab is Clicked
+15:19:57.861 [main] INFO  Dealership.POM - Test case CreateEditDeleteAppointment passes successfully
+16:37:14.024 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+16:37:25.616 [main] INFO  Dealership.POM - Windows maximized
+16:37:35.570 [main] INFO  Dealership.POM - URL entered
+16:37:35.724 [main] INFO  Dealership.POM - Username field is visible
+16:37:35.941 [main] INFO  Dealership.POM - Password field is visible
+16:37:36.153 [main] INFO  Dealership.POM - Login Button is visible
+16:37:36.241 [main] INFO  Dealership.POM - Login Button is clicked
+16:39:12.403 [main] INFO  Dealership.POM - New Appointment Button is visible
+16:39:12.527 [main] INFO  Dealership.POM - New Appointment Button is clicked
+16:39:17.321 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+16:39:17.579 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+16:39:23.248 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CreateEditDeleteAppointment
+16:40:46.858 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+16:40:55.287 [main] INFO  Dealership.POM - Windows maximized
+16:40:58.674 [main] INFO  Dealership.POM - URL entered
+16:40:58.822 [main] INFO  Dealership.POM - Username field is visible
+16:40:59.122 [main] INFO  Dealership.POM - Password field is visible
+16:40:59.333 [main] INFO  Dealership.POM - Login Button is visible
+16:41:36.903 [main] INFO  Dealership.POM - Login Button is clicked
+16:42:05.251 [main] INFO  Dealership.POM - New Appointment Button is visible
+16:42:05.328 [main] INFO  Dealership.POM - New Appointment Button is clicked
+16:42:10.314 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+16:42:10.564 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+16:42:15.902 [main] INFO  Dealership.POM - AppoitnmentBar is visible
+16:42:16.093 [main] INFO  Dealership.POM - AppoitnmentBar is clicked
+16:42:21.193 [main] INFO  Dealership.POM - Appointment_schedule_contentText is visible
+16:42:21.217 [main] INFO  Dealership.POM - Appointment date is Thursday, 3rd February 2022 - Morning
+16:42:21.270 [main] INFO  Dealership.POM - AppointmentTitleId is visible
+16:42:21.842 [main] INFO  Dealership.POM - AppointmentTitleId is Renamed
+16:42:21.892 [main] INFO  Dealership.POM - CustonameField is visible
+16:42:25.599 [main] INFO  Dealership.POM - CustomerInfo is visible
+16:42:25.727 [main] INFO  Dealership.POM - CustonameField is filled
+16:42:26.512 [main] INFO  Dealership.POM - UnitselectionField is visible
+16:42:26.804 [main] INFO  Dealership.POM - CouInfo is visible
+16:42:26.938 [main] INFO  Dealership.POM - CustonameField is filled
+16:42:27.044 [main] INFO  Dealership.POM - ConcernNewTag is visible
+16:42:27.441 [main] INFO  Dealership.POM - AppointmentTitleId is filled
+16:42:27.494 [main] INFO  Dealership.POM - EstimatedHours is visible
+16:42:27.674 [main] INFO  Dealership.POM - AppointmentTitleId is filled
+16:42:27.858 [main] INFO  Dealership.POM - UnitCheckinTab is visible
+16:42:27.980 [main] INFO  Dealership.POM - UnitCheckinTab is Clicked
+16:44:08.288 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CreateEditDeleteAppointment
+16:54:29.961 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+16:54:39.699 [main] INFO  Dealership.POM - Windows maximized
+16:54:41.792 [main] INFO  Dealership.POM - URL entered
+16:54:41.991 [main] INFO  Dealership.POM - Username field is visible
+16:54:42.895 [main] INFO  Dealership.POM - Password field is visible
+16:54:43.409 [main] INFO  Dealership.POM - Login Button is visible
+16:54:59.637 [main] INFO  Dealership.POM - Login Button is clicked
+16:55:28.592 [main] INFO  Dealership.POM - New Appointment Button is visible
+16:55:28.668 [main] INFO  Dealership.POM - New Appointment Button is clicked
+16:55:32.316 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+16:55:32.507 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+16:55:37.867 [main] INFO  Dealership.POM - AppoitnmentBar is visible
+16:55:38.095 [main] INFO  Dealership.POM - AppoitnmentBar is clicked
+16:55:43.267 [main] INFO  Dealership.POM - Appointment_schedule_contentText is visible
+16:55:43.304 [main] INFO  Dealership.POM - Appointment date is Thursday, 3rd February 2022 - Morning
+16:55:43.360 [main] INFO  Dealership.POM - AppointmentTitleId is visible
+16:55:44.127 [main] INFO  Dealership.POM - AppointmentTitleId is Renamed
+16:55:44.178 [main] INFO  Dealership.POM - CustonameField is visible
+16:55:48.210 [main] INFO  Dealership.POM - CustomerInfo is visible
+16:55:48.348 [main] INFO  Dealership.POM - CustonameField is filled
+16:55:49.028 [main] INFO  Dealership.POM - UnitselectionField is visible
+16:55:49.318 [main] INFO  Dealership.POM - CouInfo is visible
+16:55:49.453 [main] INFO  Dealership.POM - CustonameField is filled
+16:55:49.576 [main] INFO  Dealership.POM - ConcernNewTag is visible
+16:55:50.092 [main] INFO  Dealership.POM - AppointmentTitleId is filled
+16:55:50.196 [main] INFO  Dealership.POM - EstimatedHours is visible
+16:55:50.433 [main] INFO  Dealership.POM - AppointmentTitleId is filled
+16:55:50.629 [main] INFO  Dealership.POM - UnitCheckinTab is visible
+16:55:50.760 [main] INFO  Dealership.POM - UnitCheckinTab is Clicked
+16:55:50.877 [main] INFO  Dealership.POM - DateDueInField is visible
+16:55:51.261 [main] INFO  Dealership.POM - DateDueIn is visible
+16:55:51.415 [main] INFO  Dealership.POM - DateDueIn is selected
+16:55:51.528 [main] INFO  Dealership.POM - DatePromisedField is visible
+16:55:52.391 [main] INFO  Dealership.POM - DatePromised is visible
+16:55:52.491 [main] INFO  Dealership.POM - DatePromised is selected
+16:55:52.549 [main] INFO  Dealership.POM - UnitCheckinCloseArrow is visible
+16:55:52.687 [main] INFO  Dealership.POM - UnitCheckinTab is Closed
+16:55:52.781 [main] INFO  Dealership.POM - AssignTechTab is visible
+16:55:52.904 [main] INFO  Dealership.POM - AssignTechTab is Clicked
+16:55:53.021 [main] INFO  Dealership.POM - Assign_tech_input_Field is visible
+16:55:53.497 [main] INFO  Dealership.POM - Tech is selected
+16:56:03.510 [main] INFO  Dealership.POM - Test case CreateEditDeleteAppointment passes successfully
+17:04:31.838 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+17:04:40.295 [main] INFO  Dealership.POM - Windows maximized
+17:04:42.449 [main] INFO  Dealership.POM - URL entered
+17:04:42.628 [main] INFO  Dealership.POM - Username field is visible
+17:04:43.113 [main] INFO  Dealership.POM - Password field is visible
+17:04:43.528 [main] INFO  Dealership.POM - Login Button is visible
+17:05:16.078 [main] INFO  Dealership.POM - Login Button is clicked
+17:05:44.006 [main] INFO  Dealership.POM - New Appointment Button is visible
+17:05:44.199 [main] INFO  Dealership.POM - New Appointment Button is clicked
+17:05:48.453 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+17:05:48.618 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+17:05:53.978 [main] INFO  Dealership.POM - AppoitnmentBar is visible
+17:05:54.246 [main] INFO  Dealership.POM - AppoitnmentBar is clicked
+17:05:59.355 [main] INFO  Dealership.POM - Appointment_schedule_contentText is visible
+17:05:59.378 [main] INFO  Dealership.POM - Appointment date is Thursday, 3rd February 2022 - Morning
+17:05:59.421 [main] INFO  Dealership.POM - AppointmentTitleId is visible
+17:05:59.946 [main] INFO  Dealership.POM - AppointmentTitleId is Renamed
+17:05:59.995 [main] INFO  Dealership.POM - CustonameField is visible
+17:06:02.927 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:06:03.078 [main] INFO  Dealership.POM - CustonameField is filled
+17:06:03.755 [main] INFO  Dealership.POM - UnitselectionField is visible
+17:06:03.934 [main] INFO  Dealership.POM - CouInfo is visible
+17:06:04.021 [main] INFO  Dealership.POM - CustonameField is filled
+17:06:04.129 [main] INFO  Dealership.POM - ConcernNewTag is visible
+17:06:04.509 [main] INFO  Dealership.POM - AppointmentTitleId is filled
+17:06:04.571 [main] INFO  Dealership.POM - EstimatedHours is visible
+17:06:04.789 [main] INFO  Dealership.POM - AppointmentTitleId is filled
+17:06:05.002 [main] INFO  Dealership.POM - UnitCheckinTab is visible
+17:06:05.163 [main] INFO  Dealership.POM - UnitCheckinTab is Clicked
+17:06:05.325 [main] INFO  Dealership.POM - DateDueInField is visible
+17:06:05.743 [main] INFO  Dealership.POM - DateDueIn is visible
+17:06:05.851 [main] INFO  Dealership.POM - DateDueIn is selected
+17:06:05.945 [main] INFO  Dealership.POM - DatePromisedField is visible
+17:06:06.726 [main] INFO  Dealership.POM - DatePromised is visible
+17:06:06.803 [main] INFO  Dealership.POM - DatePromised is selected
+17:06:06.907 [main] INFO  Dealership.POM - UnitCheckinCloseArrow is visible
+17:06:07.072 [main] INFO  Dealership.POM - UnitCheckinTab is Closed
+17:06:07.191 [main] INFO  Dealership.POM - AssignTechTab is visible
+17:06:07.352 [main] INFO  Dealership.POM - AssignTechTab is Clicked
+17:06:07.456 [main] INFO  Dealership.POM - Assign_tech_input_Field is visible
+17:06:08.052 [main] INFO  Dealership.POM - [[ChromeDriver: chrome on WINDOWS (08bf21651f37cc91bb394059822e5870)] -> xpath: //td[1]/div[1]/div[1]/ul[1]/li/div[1]] Tech is selected
+17:06:08.910 [main] INFO  Dealership.POM - TimeSlotInput is visible
+17:06:09.821 [main] INFO  Dealership.POM - TimeSlot is visible
+17:06:10.008 [main] INFO  Dealership.POM - TimeSlot is Selected
+17:06:20.034 [main] INFO  Dealership.POM - Test case CreateEditDeleteAppointment passes successfully
+13:03:35.064 [main] INFO  Dealership.POM - Running Test : DeleteAppointment
+13:03:46.506 [main] INFO  Dealership.POM - Windows maximized
+13:03:48.717 [main] INFO  Dealership.POM - URL entered
+13:03:48.864 [main] INFO  Dealership.POM - Username field is visible
+13:03:49.195 [main] INFO  Dealership.POM - Password field is visible
+13:03:49.569 [main] INFO  Dealership.POM - Login Button is visible
+13:06:36.560 [main] INFO  Dealership.POM - Login Button is clicked
+13:06:51.878 [main] INFO  Dealership.POM - Schedule link is visible
+13:06:52.020 [main] INFO  Dealership.POM - Schedule link is clicked
+13:07:10.527 [main] INFO  Dealership.POM - DayViewLink is visible
+13:07:10.679 [main] INFO  Dealership.POM - DayViewLink is opened
+13:07:31.633 [main] INFO  Dealership.POM - Test case DeleteAppointment passes successfully
+14:19:04.799 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+14:19:18.763 [main] INFO  Dealership.POM - Windows maximized
+14:19:21.177 [main] INFO  Dealership.POM - URL entered
+14:19:21.343 [main] INFO  Dealership.POM - Username field is visible
+14:19:21.686 [main] INFO  Dealership.POM - Password field is visible
+14:19:22.002 [main] INFO  Dealership.POM - Login Button is visible
+14:19:22.546 [main] INFO  Dealership.POM - Login Button is clicked
+14:19:59.106 [main] INFO  Dealership.POM - Schedule link is visible
+14:19:59.206 [main] INFO  Dealership.POM - Schedule link is clicked
+14:20:11.381 [main] INFO  Dealership.POM - DayViewLink is visible
+14:20:11.496 [main] INFO  Dealership.POM - DayViewLink is opened
+14:20:34.317 [main] INFO  Dealership.POM - Appointment is opened
+14:20:34.414 [main] INFO  Dealership.POM - ConcernNewTag is visible
+14:20:35.117 [main] INFO  Dealership.POM - ConcernNewTag is filled
+14:20:35.171 [main] INFO  Dealership.POM - EstimatedHours is visible
+14:20:35.378 [main] INFO  Dealership.POM - EstimatedHours is filled
+14:20:35.518 [main] INFO  Dealership.POM - TechNameandTime is jack sparrow: Starts 02/03/2022 07:00 AM - Ends 02/03/2022 08:00 AM
+14:20:35.558 [main] INFO  Dealership.POM - SaveAppointmentButton is visible
+14:20:35.688 [main] INFO  Dealership.POM - SaveAppointmentButton is Clicked
+14:20:40.690 [main] INFO  Dealership.POM - Appointment is edited successfully
+14:20:50.806 [main] INFO  Dealership.POM - DayViewLink is visible
+14:20:52.214 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CreateEditDeleteAppointment
+14:23:26.693 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+14:23:34.501 [main] INFO  Dealership.POM - Windows maximized
+14:23:37.545 [main] INFO  Dealership.POM - URL entered
+14:23:37.692 [main] INFO  Dealership.POM - Username field is visible
+14:23:38.127 [main] INFO  Dealership.POM - Password field is visible
+14:23:38.315 [main] INFO  Dealership.POM - Login Button is visible
+14:24:17.309 [main] INFO  Dealership.POM - Login Button is clicked
+14:24:32.476 [main] INFO  Dealership.POM - Schedule link is visible
+14:24:32.562 [main] INFO  Dealership.POM - Schedule link is clicked
+14:24:46.243 [main] INFO  Dealership.POM - DayViewLink is visible
+14:24:46.361 [main] INFO  Dealership.POM - DayViewLink is opened
+14:25:08.188 [main] INFO  Dealership.POM - Appointment is opened
+14:25:08.264 [main] INFO  Dealership.POM - ConcernNewTag is visible
+14:25:08.593 [main] INFO  Dealership.POM - ConcernNewTag is filled
+14:25:08.632 [main] INFO  Dealership.POM - EstimatedHours is visible
+14:25:08.816 [main] INFO  Dealership.POM - EstimatedHours is filled
+14:25:08.958 [main] INFO  Dealership.POM - TechNameandTime is jack sparrow: Starts 02/03/2022 07:00 AM - Ends 02/03/2022 08:00 AM
+14:25:09.006 [main] INFO  Dealership.POM - SaveAppointmentButton is visible
+14:25:09.152 [main] INFO  Dealership.POM - SaveAppointmentButton is Clicked
+14:25:14.160 [main] INFO  Dealership.POM - Appointment is edited successfully
+14:25:19.301 [main] INFO  Dealership.POM - 3 appointments are present
+14:25:30.153 [main] INFO  Dealership.POM - Appointment is opened
+14:25:30.227 [main] INFO  Dealership.POM - ConcernNewTag is visible
+14:25:30.542 [main] INFO  Dealership.POM - ConcernNewTag is filled
+14:25:30.588 [main] INFO  Dealership.POM - EstimatedHours is visible
+14:25:30.754 [main] INFO  Dealership.POM - EstimatedHours is filled
+14:25:30.859 [main] INFO  Dealership.POM - TechNameandTime is jack sparrow: Starts 02/03/2022 07:00 AM - Ends 02/03/2022 08:00 AM
+14:25:30.889 [main] INFO  Dealership.POM - DeleteAppointmentButton is visible
+14:25:31.024 [main] INFO  Dealership.POM - DeleteAppointmentButton is Clicked
+14:25:36.103 [main] INFO  Dealership.POM - Delete Appointment Modal Window is opened
+14:25:36.134 [main] INFO  Dealership.POM - Dlt Appointment Btn is visible
+14:25:36.281 [main] INFO  Dealership.POM - Dlt Appointment Btn is Clicked
+14:25:46.324 [main] INFO  Dealership.POM - 2 appointments are present
+14:25:46.324 [main] INFO  Dealership.POM - Appointmen is Deleted Successfully
+14:25:46.330 [main] INFO  Dealership.POM - Test case CreateEditDeleteAppointment passes successfully
+14:42:57.139 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+14:43:05.740 [main] INFO  Dealership.POM - Windows maximized
+14:43:08.900 [main] INFO  Dealership.POM - URL entered
+14:43:09.030 [main] INFO  Dealership.POM - Username field is visible
+14:43:09.213 [main] INFO  Dealership.POM - Password field is visible
+14:43:09.395 [main] INFO  Dealership.POM - Login Button is visible
+14:43:51.035 [main] INFO  Dealership.POM - Login Button is clicked
+14:44:06.202 [main] INFO  Dealership.POM - Schedule link is visible
+14:44:06.303 [main] INFO  Dealership.POM - Schedule link is clicked
+14:44:19.682 [main] INFO  Dealership.POM - New Appointment Button is visible
+14:44:19.773 [main] INFO  Dealership.POM - New Appointment Button is clicked
+14:44:23.751 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+14:44:23.853 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+14:44:29.182 [main] INFO  Dealership.POM - AppoitnmentBar is visible
+14:44:29.377 [main] INFO  Dealership.POM - AppoitnmentBar is clicked
+14:44:34.458 [main] INFO  Dealership.POM - Appointment_schedule_contentText is visible
+14:44:34.480 [main] INFO  Dealership.POM - Appointment date is Friday, 4th February 2022 - Morning
+14:44:34.522 [main] INFO  Dealership.POM - AppointmentTitleId is visible
+14:44:35.107 [main] INFO  Dealership.POM - AppointmentTitleId is Renamed
+14:44:35.144 [main] INFO  Dealership.POM - CustonameField is visible
+14:46:41.814 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+14:46:50.169 [main] INFO  Dealership.POM - Windows maximized
+14:46:52.833 [main] INFO  Dealership.POM - URL entered
+14:46:52.972 [main] INFO  Dealership.POM - Username field is visible
+14:46:53.195 [main] INFO  Dealership.POM - Password field is visible
+14:46:53.326 [main] INFO  Dealership.POM - Login Button is visible
+14:47:35.033 [main] INFO  Dealership.POM - Login Button is clicked
+14:47:50.266 [main] INFO  Dealership.POM - Schedule link is visible
+14:47:50.372 [main] INFO  Dealership.POM - Schedule link is clicked
+14:48:04.418 [main] INFO  Dealership.POM - New Appointment Button is visible
+14:48:04.489 [main] INFO  Dealership.POM - New Appointment Button is clicked
+14:48:11.560 [main] INFO  Dealership.POM - Appointment_schedule_content is visible
+14:48:11.711 [main] INFO  Dealership.POM - Appointment_schedule_content is clicked
+14:48:17.144 [main] INFO  Dealership.POM - AppoitnmentBar is visible
+14:48:17.387 [main] INFO  Dealership.POM - AppoitnmentBar is clicked
+14:48:22.464 [main] INFO  Dealership.POM - Appointment_schedule_contentText is visible
+14:48:22.543 [main] INFO  Dealership.POM - Appointment date is Friday, 4th February 2022 - Morning
+14:48:22.582 [main] INFO  Dealership.POM - AppointmentTitleId is visible
+14:48:23.238 [main] INFO  Dealership.POM - AppointmentTitleId is Renamed
+14:48:23.283 [main] INFO  Dealership.POM - CustonameField is visible
+14:48:27.109 [main] INFO  Dealership.POM - CustomerInfo is visible
+14:48:27.204 [main] INFO  Dealership.POM - CustonameField is filled
+14:48:28.436 [main] INFO  Dealership.POM - UnitselectionField is visible
+14:48:28.631 [main] INFO  Dealership.POM - CouInfo is visible
+14:48:28.788 [main] INFO  Dealership.POM - UnitselectionField is filled
+15:01:29.908 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+15:01:37.636 [main] INFO  Dealership.POM - Windows maximized
+15:01:39.638 [main] INFO  Dealership.POM - URL entered
+15:01:39.760 [main] INFO  Dealership.POM - Username field is visible
+15:01:39.960 [main] INFO  Dealership.POM - Password field is visible
+15:01:40.092 [main] INFO  Dealership.POM - Login Button is visible
+15:01:40.187 [main] INFO  Dealership.POM - Login Button is clicked
+15:02:02.452 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CreateEditDeleteAppointment
