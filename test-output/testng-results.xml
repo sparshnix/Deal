@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Status of execution : 1]]>
     </line>
     <line>
-      <![CDATA[Test case MoveAppointment passes successfully]]>
+      <![CDATA[Test case DealserviceAppointment passes successfully]]>
     </line>
     <line>
       <![CDATA[
 ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="213657" started-at="2022-02-04T17:43:31 IST" finished-at="2022-02-04T17:47:04 IST">
+  <suite name="Default suite" duration-ms="215135" started-at="2022-02-07T19:49:56 IST" finished-at="2022-02-07T19:53:31 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="213657" started-at="2022-02-04T17:43:31 IST" finished-at="2022-02-04T17:47:04 IST">
+    <test name="Default test" duration-ms="215135" started-at="2022-02-07T19:49:56 IST" finished-at="2022-02-07T19:53:31 IST">
       <class name="Dealership.Schedule">
-        <test-method status="PASS" signature="MoveAppointment()[pri:45, instance:Dealership.Schedule@738dc9b]" name="MoveAppointment" duration-ms="207203" started-at="2022-02-04T17:43:31 IST" finished-at="2022-02-04T17:46:58 IST">
+        <test-method status="PASS" signature="DealserviceAppointment()[pri:48, instance:Dealership.Schedule@738dc9b]" name="DealserviceAppointment" duration-ms="208755" started-at="2022-02-07T19:49:56 IST" finished-at="2022-02-07T19:53:25 IST">
           <reporter-output>
             <line>
               <![CDATA[Status of execution : 1]]>
             </line>
             <line>
-              <![CDATA[Test case MoveAppointment passes successfully]]>
+              <![CDATA[Test case DealserviceAppointment passes successfully]]>
             </line>
             <line>
               <![CDATA[
 ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- MoveAppointment -->
+        </test-method> <!-- DealserviceAppointment -->
       </class> <!-- Dealership.Schedule -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

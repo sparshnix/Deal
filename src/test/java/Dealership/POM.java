@@ -40,6 +40,8 @@ public class POM extends Variables {
 	
 	public static String NewKit, NewSublet, NewDeal_Product,
 						 NewFinancing_Product, NewWarranty_Plan; 
+	public static String Todaysdate = new SimpleDateFormat("d").format(new Date());
+	public static int TodaysDateInt = Integer.parseInt(Todaysdate);
 	public static Logger log = LogManager.getLogger(POM.class.getName());
 	public static Random random = new Random();
 	@SuppressWarnings("deprecation")
@@ -547,8 +549,7 @@ public class POM extends Variables {
 		
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(appointmenttable1)));
 		Thread.sleep(5000);
-		String Todaysdate = new SimpleDateFormat("d").format(new Date());
-		int TodaysDateInt = Integer.parseInt(Todaysdate);
+		
 		for(int i = 3 ; i <= 7 ; i++)
 		{
 			String Appointmentdate = driver.findElement(By.xpath("//*[@id='j_id0:AddeditAppoitment']/div/div[1]/div["+i+"]/div[1]/span")).getText();
@@ -754,9 +755,9 @@ public class POM extends Variables {
 		{
 			Actions action = new Actions(driver);
 			action.moveToElement(MyAppoitnment).build().perform();
-			wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(appointmentNane)));
-			WebElement AppointmentNane = driver.findElement(By.xpath(appointmentNane));
-			if(AppointmentNane.getText().contains("Appointment -")) 
+			wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(appointmentName)));
+			WebElement AppointmentName = driver.findElement(By.xpath(appointmentName));
+			if(AppointmentName.getText().contains("Appointment -")) 
 			{
 				MyAppoitnment.click();
 				Thread.sleep(10000);
@@ -821,9 +822,9 @@ public class POM extends Variables {
 		{
 			Actions action = new Actions(driver);
 			action.moveToElement(MyAppoitnment).build().perform();
-			wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(appointmentNane)));
-			WebElement AppointmentNane = driver.findElement(By.xpath(appointmentNane));
-			if(AppointmentNane.getText().contains("Appointment -")) 
+			wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(appointmentName)));
+			WebElement AppointmentName = driver.findElement(By.xpath(appointmentName));
+			if(AppointmentName.getText().contains("Appointment -")) 
 			{
 				MyAppoitnment.click();
 				Thread.sleep(10000);

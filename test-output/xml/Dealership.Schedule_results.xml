@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="207.203">
+           time="208.755">
   <properties />
   
   
-            <testcase name="MoveAppointment" time="207.203" classname="Dealership.Schedule" />
+            <testcase name="DealserviceAppointment" time="208.755" classname="Dealership.Schedule" />
       
 </testsuite>

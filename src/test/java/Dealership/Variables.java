@@ -14,7 +14,7 @@ public class Variables {
 	accounttypedropdown, accounttypevalue, country, countryname, state, statename, create,
 	verifyemail, vendor, vendorHeader, companyname, vendorAccountNumber, shippingaddressflag,
 	part_Purchases, merchandise_Purchases, unit_Purchases, sublet_Purchases, 
-	claims_for_Service_Work, deal_Products, flooring_Company, finance_Company, financing_Products,
+	claims_for_Service_WoAptonCOrk, deal_Products, flooring_Company, finance_Company, financing_Products,
 	saveVendor, purchaseTaxLevel, vendorAccountTypeIcon, part, partheader, parttype, tags, location,
 	tag_1, inStockQty,  verifyPart, labor, laborheader, laborcode, verifylabor, kit, kitheader,
 	formstag, selecttag, applicabletax, savebutton, kitcode, servicekitchechbox, make, model,
@@ -74,8 +74,10 @@ public class Variables {
 	//Schedule
 	appointmenttable1, appointment_schedule_contentText, schedule, appointmentCustomer, 
 	customernamecard, unitnamecard, unitCheckinCloseArrow, assign_tech_inputs, dateDueInField,
-	datePromisedField, defaultTechnician, appointmentNane, techNameandTime, deleteAppointmentModalWindow,
-	appointmenttable2, appointmentTime, moveto
+	datePromisedField, defaultTechnician, appointmentName, techNameandTime, deleteAppointmentModalWindow,
+	appointmenttable2, appointmentTime, moveto, uaarrow, apSearchfield, testAppointment, allTech,
+	appointmentinfo, dropDownresult, createApt, aptonCO, appointmentCONumber, dealAppointmentCO,
+	unitNameonCard
 	
 	;
 	

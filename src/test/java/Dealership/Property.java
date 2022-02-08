@@ -48,7 +48,7 @@ public class Property extends Variables {
 		outofstockPart				=   prop.getProperty("outofstockPart");
 		appointmentCustomer			=   prop.getProperty("appointmentCustomer");
 		defaultTechnician			=	prop.getProperty("defaultTechnician");
-
+		dealAppointmentCO			=	prop.getProperty("dealAppointmentCO");
 		
 		//Fetch the values from locators.properties 
 		//used for Masterdata
@@ -342,22 +342,22 @@ public class Property extends Variables {
 		assign_tech_inputs			=	locators.getProperty("assign_tech_inputs");
 		dateDueInField				=	locators.getProperty("dateDueInField");
 		datePromisedField			=	locators.getProperty("datePromisedField");
-		appointmentNane				=	locators.getProperty("appointmentNane");
+		appointmentName				=	locators.getProperty("appointmentName");
 		techNameandTime				=	locators.getProperty("techNameandTime");
 		deleteAppointmentModalWindow = 	locators.getProperty("deleteAppointmentModalWindow");
 		appointmenttable2			=	locators.getProperty("appointmenttable2");
 		appointmentTime				=	locators.getProperty("appointmentTime");
 		moveto						=	locators.getProperty("moveto");
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		uaarrow						=	locators.getProperty("uaarrow");
+		apSearchfield				=	locators.getProperty("apSearchfield");
+		testAppointment				=	locators.getProperty("testAppointment");
+		allTech						=	locators.getProperty("allTech");
+		appointmentinfo				=	locators.getProperty("appointmentinfo");
+		dropDownresult				=	locators.getProperty("dropDownresult");
+		createApt					=	locators.getProperty("createApt");
+		aptonCO						=	locators.getProperty("aptonCO");
+		appointmentCONumber			=	locators.getProperty("appointmentCONumber");
+		unitNameonCard				=	locators.getProperty("unitNameonCard");
 		
 		
 		
