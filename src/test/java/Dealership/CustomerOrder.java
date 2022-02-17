@@ -437,7 +437,7 @@ public class CustomerOrder extends POM
 		Thread.sleep(10000);
 		driver.switchTo().window(ParentID);
 
-		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(approvalID)));
 		WebElement ApprovalID = driver.findElement(By.xpath(approvalID));
 		Assert.assertTrue(ApprovalID.isDisplayed(), "Approval ID is missing");
 		log.info("Approval ID is " +ApprovalID.getText());
@@ -582,8 +582,8 @@ public class CustomerOrder extends POM
 		Assert.assertTrue(SearchStockunit.isDisplayed(), "Search Stockunit field is missing");
 		log.info("Search Stockunit field is visible");
 //		SearchStockunit.sendKeys(Masterdata.NewUnit);
-		SearchStockunit.sendKeys("Mahindra SUV 2019, DCZXCZXCXZCXZ");
-		Thread.sleep(10000);
+		SearchStockunit.sendKeys("sku");
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("entityInfo_0")));
 		WebElement UnitInfo = driver.findElement(By.id("entityInfo_0"));
 		UnitInfo.click();
 		log.info("Unit1 is selected");	

@@ -1,591 +1,640 @@
-15:17:30.065 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServiceJobAppointment
-15:20:35.530 [main] INFO  Dealership.POM - Running Test : ServiceJobAppointment
-15:20:43.352 [main] INFO  Dealership.POM - Windows maximized
-15:20:45.226 [main] INFO  Dealership.POM - URL entered
-15:20:45.359 [main] INFO  Dealership.POM - Username field is visible
-15:20:45.654 [main] INFO  Dealership.POM - Password field is visible
-15:20:45.908 [main] INFO  Dealership.POM - Login Button is visible
-15:21:02.249 [main] INFO  Dealership.POM - Login Button is clicked
-15:21:17.619 [main] INFO  Dealership.POM - Sell link is visible
-15:21:19.487 [main] INFO  Dealership.POM - Sell link is clicked
-15:21:20.348 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
-15:21:20.579 [main] INFO  Dealership.POM - Select Customer Field is visible
-15:21:22.848 [main] INFO  Dealership.POM - CustomerInfo is visible
-15:21:48.852 [main] INFO  Dealership.POM - ServiceJob button is visible
-15:21:52.407 [main] INFO  Dealership.POM - ServiceJobStatus is visible
-15:21:52.469 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
-15:21:52.604 [main] INFO  Dealership.POM - CONumber is visible
-15:21:52.648 [main] INFO  Dealership.POM - CONumber is CO-0004469
-15:21:52.817 [main] INFO  Dealership.POM - ServiceJobDetails is visible
-15:21:52.977 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
-15:21:58.051 [main] INFO  Dealership.POM - UnitDropDown is visible
-15:21:58.233 [main] INFO  Dealership.POM - DropDownresult is visible
-15:21:58.337 [main] INFO  Dealership.POM - Unit is Selected
-15:21:58.447 [main] INFO  Dealership.POM - CreateApt link is visible
-15:21:58.560 [main] INFO  Dealership.POM - CreateApt link is clicked
-15:22:07.250 [main] INFO  Dealership.POM - AppointmentTitleId is visible
-15:22:07.695 [main] INFO  Dealership.POM - EstimatedHours is filled
-15:22:07.835 [main] INFO  Dealership.POM - EstimatedHours is visible
-15:22:08.021 [main] INFO  Dealership.POM - EstimatedHours is filled
-15:22:08.200 [main] INFO  Dealership.POM - AssignTechTab is visible
-15:22:08.456 [main] INFO  Dealership.POM - AssignTechTab is Clicked
-15:22:08.547 [main] INFO  Dealership.POM - Assign_tech_input_Field is visible
-15:22:08.964 [main] INFO  Dealership.POM - [[ChromeDriver: chrome on WINDOWS (f049f21f9d069f6414c7130f93751210)] -> xpath: //td[1]/div[1]/div[1]/ul[1]/li/div[1]] Tech is selected
-15:23:54.724 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServiceJobAppointment
-15:28:39.496 [main] INFO  Dealership.POM - Running Test : ServiceJobAppointment
-15:28:50.464 [main] INFO  Dealership.POM - Windows maximized
-15:28:52.477 [main] INFO  Dealership.POM - URL entered
-15:28:52.615 [main] INFO  Dealership.POM - Username field is visible
-15:28:52.904 [main] INFO  Dealership.POM - Password field is visible
-15:28:53.227 [main] INFO  Dealership.POM - Login Button is visible
-15:29:11.542 [main] INFO  Dealership.POM - Login Button is clicked
-15:29:27.116 [main] INFO  Dealership.POM - Sell link is visible
-15:29:28.608 [main] INFO  Dealership.POM - Sell link is clicked
-15:29:29.261 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
-15:29:29.757 [main] INFO  Dealership.POM - Select Customer Field is visible
-15:29:31.994 [main] INFO  Dealership.POM - CustomerInfo is visible
-15:29:58.037 [main] INFO  Dealership.POM - ServiceJob button is visible
-15:30:01.564 [main] INFO  Dealership.POM - ServiceJobStatus is visible
-15:30:01.608 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
-15:30:01.744 [main] INFO  Dealership.POM - CONumber is visible
-15:30:01.775 [main] INFO  Dealership.POM - CONumber is CO-0004471
-15:30:01.844 [main] INFO  Dealership.POM - ServiceJobDetails is visible
-15:30:01.953 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
-15:30:07.059 [main] INFO  Dealership.POM - UnitDropDown is visible
-15:30:07.237 [main] INFO  Dealership.POM - DropDownresult is visible
-15:30:07.325 [main] INFO  Dealership.POM - Unit is Selected
-15:30:07.433 [main] INFO  Dealership.POM - CreateApt link is visible
-15:30:07.523 [main] INFO  Dealership.POM - CreateApt link is clicked
-15:30:15.023 [main] INFO  Dealership.POM - AppointmentTitleId is visible
-15:30:15.427 [main] INFO  Dealership.POM - EstimatedHours is filled
-15:30:15.585 [main] INFO  Dealership.POM - EstimatedHours is visible
-15:30:15.760 [main] INFO  Dealership.POM - EstimatedHours is filled
-15:30:16.095 [main] INFO  Dealership.POM - AssignTechTab is visible
-15:30:16.345 [main] INFO  Dealership.POM - AssignTechTab is Clicked
-15:30:16.471 [main] INFO  Dealership.POM - Assign_tech_input_Field is visible
-15:30:21.932 [main] INFO  Dealership.POM - [[ChromeDriver: chrome on WINDOWS (64dd180af36efab9b35e42e249610984)] -> xpath: //td[1]/div[1]/div[1]/ul[1]/li/div[1]] Tech is selected
-15:30:32.050 [main] INFO  Dealership.POM - ConfirmButton is visible
-15:30:32.231 [main] INFO  Dealership.POM - ConfirmButton is clicked
-15:30:37.324 [main] INFO  Dealership.POM - TimeSlotInput is visible
-15:30:42.647 [main] INFO  Dealership.POM - TimeSlot is visible
-15:30:42.872 [main] INFO  Dealership.POM - TimeSlot is Selected
-15:32:23.598 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServiceJobAppointment
-15:36:53.951 [main] INFO  Dealership.POM - Running Test : ServiceJobAppointment
-15:37:04.865 [main] INFO  Dealership.POM - Windows maximized
-15:37:07.806 [main] INFO  Dealership.POM - URL entered
-15:37:07.948 [main] INFO  Dealership.POM - Username field is visible
-15:37:08.382 [main] INFO  Dealership.POM - Password field is visible
-15:37:08.563 [main] INFO  Dealership.POM - Login Button is visible
-15:37:08.644 [main] INFO  Dealership.POM - Login Button is clicked
-15:37:37.507 [main] INFO  Dealership.POM - Sell link is visible
-15:37:37.680 [main] INFO  Dealership.POM - Sell link is clicked
-15:37:49.752 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
-15:37:53.424 [main] INFO  Dealership.POM - Select Customer Field is visible
-15:37:55.646 [main] INFO  Dealership.POM - CustomerInfo is visible
-15:38:21.798 [main] INFO  Dealership.POM - ServiceJob button is visible
-15:38:25.596 [main] INFO  Dealership.POM - ServiceJobStatus is visible
-15:38:25.626 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
-15:38:25.734 [main] INFO  Dealership.POM - CONumber is visible
-15:38:25.756 [main] INFO  Dealership.POM - CONumber is CO-0004472
-15:38:25.836 [main] INFO  Dealership.POM - ServiceJobDetails is visible
-15:38:25.959 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
-15:38:31.068 [main] INFO  Dealership.POM - UnitDropDown is visible
-15:38:31.304 [main] INFO  Dealership.POM - DropDownresult is visible
-15:38:31.412 [main] INFO  Dealership.POM - Unit is Selected
-15:38:31.526 [main] INFO  Dealership.POM - CreateApt link is visible
-15:38:31.631 [main] INFO  Dealership.POM - CreateApt link is clicked
-15:38:40.202 [main] INFO  Dealership.POM - AppointmentTitleId is visible
-15:38:40.581 [main] INFO  Dealership.POM - EstimatedHours is filled
-15:38:40.702 [main] INFO  Dealership.POM - EstimatedHours is visible
-15:38:40.845 [main] INFO  Dealership.POM - EstimatedHours is filled
-15:38:41.037 [main] INFO  Dealership.POM - AssignTechTab is visible
-15:38:41.257 [main] INFO  Dealership.POM - AssignTechTab is Clicked
-15:38:41.399 [main] INFO  Dealership.POM - Assign_tech_input_Field is visible
-15:38:47.073 [main] INFO  Dealership.POM - [[ChromeDriver: chrome on WINDOWS (fd644071586a277a82b2d7fddc4bd836)] -> xpath: //td[1]/div[1]/div[1]/ul[1]/li/div[1]] Tech is selected
-15:38:57.191 [main] INFO  Dealership.POM - ConfirmButton is visible
-15:38:57.311 [main] INFO  Dealership.POM - ConfirmButton is clicked
-15:39:02.404 [main] INFO  Dealership.POM - TimeSlotInput is visible
-15:39:07.848 [main] INFO  Dealership.POM - TimeSlot is visible
-15:39:09.280 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServiceJobAppointment
-15:41:23.217 [main] INFO  Dealership.POM - Running Test : ServiceJobAppointment
-15:41:34.150 [main] INFO  Dealership.POM - Windows maximized
-15:41:36.468 [main] INFO  Dealership.POM - URL entered
-15:41:36.627 [main] INFO  Dealership.POM - Username field is visible
-15:41:37.121 [main] INFO  Dealership.POM - Password field is visible
-15:41:38.176 [main] INFO  Dealership.POM - Login Button is visible
-15:41:52.750 [main] INFO  Dealership.POM - Login Button is clicked
-15:42:07.949 [main] INFO  Dealership.POM - Sell link is visible
-15:42:08.030 [main] INFO  Dealership.POM - Sell link is clicked
-15:43:09.596 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
-15:43:11.464 [main] INFO  Dealership.POM - Select Customer Field is visible
-15:43:13.611 [main] INFO  Dealership.POM - CustomerInfo is visible
-15:43:39.593 [main] INFO  Dealership.POM - ServiceJob button is visible
-15:43:45.790 [main] INFO  Dealership.POM - ServiceJobStatus is visible
-15:43:45.820 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
-15:43:45.950 [main] INFO  Dealership.POM - CONumber is visible
-15:43:45.977 [main] INFO  Dealership.POM - CONumber is CO-0004473
-15:43:46.094 [main] INFO  Dealership.POM - ServiceJobDetails is visible
-15:43:46.260 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
-15:43:51.358 [main] INFO  Dealership.POM - UnitDropDown is visible
-15:43:51.587 [main] INFO  Dealership.POM - DropDownresult is visible
-15:43:51.697 [main] INFO  Dealership.POM - Unit is Selected
-15:43:51.795 [main] INFO  Dealership.POM - CreateApt link is visible
-15:43:51.912 [main] INFO  Dealership.POM - CreateApt link is clicked
-15:43:59.408 [main] INFO  Dealership.POM - AppointmentTitleId is visible
-15:44:00.002 [main] INFO  Dealership.POM - EstimatedHours is filled
-15:44:00.238 [main] INFO  Dealership.POM - EstimatedHours is visible
-15:44:00.419 [main] INFO  Dealership.POM - EstimatedHours is filled
-15:44:00.639 [main] INFO  Dealership.POM - AssignTechTab is visible
-15:44:00.883 [main] INFO  Dealership.POM - AssignTechTab is Clicked
-15:44:00.985 [main] INFO  Dealership.POM - Assign_tech_input_Field is visible
-15:44:06.455 [main] INFO  Dealership.POM - [[ChromeDriver: chrome on WINDOWS (6994bd214ba0604174ccdcaadb2d1a45)] -> xpath: //td[1]/div[1]/div[1]/ul[1]/li/div[1]] Tech is selected
-15:44:16.574 [main] INFO  Dealership.POM - ConfirmButton is visible
-15:44:16.707 [main] INFO  Dealership.POM - ConfirmButton is clicked
-15:44:21.809 [main] INFO  Dealership.POM - TimeSlotInput is visible
-15:44:27.273 [main] INFO  Dealership.POM - TimeSlot is visible
-15:44:27.536 [main] INFO  Dealership.POM - TimeSlot is Selected
-15:44:34.798 [main] INFO  Dealership.POM - SaveAppointmentButton is visible
-15:44:34.947 [main] INFO  Dealership.POM - SaveAppointmentButton is Clicked
-15:44:39.950 [main] INFO  Dealership.POM - Appointment is Created successfully
-15:46:20.349 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServiceJobAppointment
-15:49:59.670 [main] INFO  Dealership.POM - Running Test : ServiceJobAppointment
-15:50:08.213 [main] INFO  Dealership.POM - Windows maximized
-15:50:11.574 [main] INFO  Dealership.POM - URL entered
-15:50:11.695 [main] INFO  Dealership.POM - Username field is visible
-15:50:12.124 [main] INFO  Dealership.POM - Password field is visible
-15:50:12.973 [main] INFO  Dealership.POM - Login Button is visible
-15:50:30.357 [main] INFO  Dealership.POM - Login Button is clicked
-15:50:45.685 [main] INFO  Dealership.POM - Sell link is visible
-15:50:47.171 [main] INFO  Dealership.POM - Sell link is clicked
-15:50:47.766 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
-15:50:48.011 [main] INFO  Dealership.POM - Select Customer Field is visible
-15:50:50.390 [main] INFO  Dealership.POM - CustomerInfo is visible
-15:51:16.354 [main] INFO  Dealership.POM - ServiceJob button is visible
-15:51:19.339 [main] INFO  Dealership.POM - ServiceJobStatus is visible
-15:51:19.376 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
-15:51:19.500 [main] INFO  Dealership.POM - CONumber is visible
-15:51:19.547 [main] INFO  Dealership.POM - CONumber is CO-0004474
-15:51:19.632 [main] INFO  Dealership.POM - ServiceJobDetails is visible
-15:51:19.729 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
-15:51:24.824 [main] INFO  Dealership.POM - UnitDropDown is visible
-15:51:25.007 [main] INFO  Dealership.POM - DropDownresult is visible
-15:51:25.102 [main] INFO  Dealership.POM - Unit is Selected
-15:51:25.206 [main] INFO  Dealership.POM - CreateApt link is visible
-15:51:25.286 [main] INFO  Dealership.POM - CreateApt link is clicked
-15:51:32.645 [main] INFO  Dealership.POM - AppointmentTitleId is visible
-15:51:33.032 [main] INFO  Dealership.POM - EstimatedHours is filled
-15:51:33.143 [main] INFO  Dealership.POM - EstimatedHours is visible
-15:51:33.263 [main] INFO  Dealership.POM - EstimatedHours is filled
-15:51:33.440 [main] INFO  Dealership.POM - AssignTechTab is visible
-15:51:33.663 [main] INFO  Dealership.POM - AssignTechTab is Clicked
-15:51:33.792 [main] INFO  Dealership.POM - Assign_tech_input_Field is visible
-15:51:39.336 [main] INFO  Dealership.POM - [[ChromeDriver: chrome on WINDOWS (262e4f78d8897717248cbcea8cc66b4e)] -> xpath: //td[1]/div[1]/div[1]/ul[1]/li/div[1]] Tech is selected
-15:51:49.448 [main] INFO  Dealership.POM - ConfirmButton is visible
-15:51:49.631 [main] INFO  Dealership.POM - ConfirmButton is clicked
-15:51:54.734 [main] INFO  Dealership.POM - TimeSlotInput is visible
-15:52:31.145 [main] INFO  Dealership.POM - TimeSlot is visible
-15:52:32.464 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServiceJobAppointment
-15:52:55.756 [main] INFO  Dealership.POM - Running Test : ServiceJobAppointment
-15:53:04.175 [main] INFO  Dealership.POM - Windows maximized
-15:53:06.201 [main] INFO  Dealership.POM - URL entered
-15:53:06.355 [main] INFO  Dealership.POM - Username field is visible
-15:53:06.844 [main] INFO  Dealership.POM - Password field is visible
-15:53:07.081 [main] INFO  Dealership.POM - Login Button is visible
-15:53:22.940 [main] INFO  Dealership.POM - Login Button is clicked
-15:58:31.731 [main] INFO  Dealership.POM - Running Test : ServiceJobAppointment
-15:58:40.820 [main] INFO  Dealership.POM - Windows maximized
-15:58:43.173 [main] INFO  Dealership.POM - URL entered
-15:58:43.306 [main] INFO  Dealership.POM - Username field is visible
-15:58:43.802 [main] INFO  Dealership.POM - Password field is visible
-15:58:44.255 [main] INFO  Dealership.POM - Login Button is visible
-15:59:17.703 [main] INFO  Dealership.POM - Login Button is clicked
-15:59:32.895 [main] INFO  Dealership.POM - Sell link is visible
-15:59:34.471 [main] INFO  Dealership.POM - Sell link is clicked
-15:59:34.634 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
-15:59:45.705 [main] INFO  Dealership.POM - Select Customer Field is visible
-15:59:48.366 [main] INFO  Dealership.POM - CustomerInfo is visible
-16:00:14.363 [main] INFO  Dealership.POM - ServiceJob button is visible
-16:00:17.463 [main] INFO  Dealership.POM - ServiceJobStatus is visible
-16:00:17.506 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
-16:00:17.677 [main] INFO  Dealership.POM - CONumber is visible
-16:00:17.704 [main] INFO  Dealership.POM - CONumber is CO-0004475
-16:00:17.793 [main] INFO  Dealership.POM - ServiceJobDetails is visible
-16:00:17.923 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
-16:00:23.022 [main] INFO  Dealership.POM - UnitDropDown is visible
-16:00:23.324 [main] INFO  Dealership.POM - DropDownresult is visible
-16:00:23.414 [main] INFO  Dealership.POM - Unit is Selected
-16:00:23.519 [main] INFO  Dealership.POM - CreateApt link is visible
-16:00:23.605 [main] INFO  Dealership.POM - CreateApt link is clicked
-16:00:34.217 [main] INFO  Dealership.POM - AppointmentTitleId is visible
-16:00:34.718 [main] INFO  Dealership.POM - EstimatedHours is filled
-16:00:34.890 [main] INFO  Dealership.POM - EstimatedHours is visible
-16:00:35.054 [main] INFO  Dealership.POM - EstimatedHours is filled
-16:00:35.252 [main] INFO  Dealership.POM - AssignTechTab is visible
-16:00:35.488 [main] INFO  Dealership.POM - AssignTechTab is Clicked
-16:00:35.612 [main] INFO  Dealership.POM - Assign_tech_input_Field is visible
-16:00:41.157 [main] INFO  Dealership.POM - [[ChromeDriver: chrome on WINDOWS (bdf8b5ee84c37f380aa2199de9ba07bd)] -> xpath: //td[1]/div[1]/div[1]/ul[1]/li/div[1]] Tech is selected
-16:00:51.285 [main] INFO  Dealership.POM - ConfirmButton is visible
-16:00:51.447 [main] INFO  Dealership.POM - ConfirmButton is clicked
-16:00:56.535 [main] INFO  Dealership.POM - TimeSlotInput is visible
-16:01:01.829 [main] INFO  Dealership.POM - TimeSlot is visible
-16:01:02.028 [main] INFO  Dealership.POM - TimeSlot is Selected
-16:01:09.317 [main] INFO  Dealership.POM - SaveAppointmentButton is visible
-16:01:09.467 [main] INFO  Dealership.POM - SaveAppointmentButton is Clicked
-16:01:14.475 [main] INFO  Dealership.POM - Appointment is Created successfully
-16:01:16.783 [main] INFO  Dealership.POM - AptonCO is visible
-16:01:16.812 [main] INFO  Dealership.POM - Appointment is created for February 07, 2022 - 1 hr
-16:01:16.932 [main] INFO  Dealership.POM - Schedule link is visible
-16:01:17.050 [main] INFO  Dealership.POM - Schedule link is clicked
-16:01:28.333 [main] INFO  Dealership.POM - DayViewLink is visible
-16:01:28.446 [main] INFO  Dealership.POM - DayViewLink is opened
-16:03:20.989 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServiceJobAppointment
-16:05:41.944 [main] INFO  Dealership.POM - Running Test : ServiceJobAppointment
-16:05:51.749 [main] INFO  Dealership.POM - Windows maximized
-16:05:54.219 [main] INFO  Dealership.POM - URL entered
-16:05:54.371 [main] INFO  Dealership.POM - Username field is visible
-16:05:54.885 [main] INFO  Dealership.POM - Password field is visible
-16:05:55.158 [main] INFO  Dealership.POM - Login Button is visible
-16:06:38.192 [main] INFO  Dealership.POM - Login Button is clicked
-16:06:53.376 [main] INFO  Dealership.POM - Schedule link is visible
-16:06:53.499 [main] INFO  Dealership.POM - Schedule link is clicked
-16:07:06.348 [main] INFO  Dealership.POM - DayViewLink is visible
-16:07:06.494 [main] INFO  Dealership.POM - DayViewLink is opened
-16:08:57.989 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServiceJobAppointment
-16:15:48.456 [main] INFO  Dealership.POM - Running Test : ServiceJobAppointment
-16:15:57.805 [main] INFO  Dealership.POM - Windows maximized
-16:16:00.432 [main] INFO  Dealership.POM - URL entered
-16:16:00.650 [main] INFO  Dealership.POM - Username field is visible
-16:16:01.900 [main] INFO  Dealership.POM - Password field is visible
-16:16:03.030 [main] INFO  Dealership.POM - Login Button is visible
-16:16:37.953 [main] INFO  Dealership.POM - Login Button is clicked
-16:16:53.254 [main] INFO  Dealership.POM - Schedule link is visible
-16:16:53.361 [main] INFO  Dealership.POM - Schedule link is clicked
-16:17:06.397 [main] INFO  Dealership.POM - DayViewLink is visible
-16:17:06.515 [main] INFO  Dealership.POM - DayViewLink is opened
-16:18:58.376 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServiceJobAppointment
-16:20:12.911 [main] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
-16:20:27.960 [main] INFO  Dealership.POM - Running Test : ServiceJobAppointment
-16:20:36.062 [main] INFO  Dealership.POM - Windows maximized
-16:20:39.847 [main] INFO  Dealership.POM - URL entered
-16:20:39.960 [main] INFO  Dealership.POM - Username field is visible
-16:20:40.204 [main] INFO  Dealership.POM - Password field is visible
-16:20:40.788 [main] INFO  Dealership.POM - Login Button is visible
-16:20:56.831 [main] INFO  Dealership.POM - Login Button is clicked
-16:21:12.505 [main] INFO  Dealership.POM - Schedule link is visible
-16:21:12.609 [main] INFO  Dealership.POM - Schedule link is clicked
-16:21:25.674 [main] INFO  Dealership.POM - DayViewLink is visible
-16:21:25.775 [main] INFO  Dealership.POM - DayViewLink is opened
-16:21:37.604 [main] INFO  Dealership.POM - The Appointment's CONumber Name is CO-0004475
-16:21:37.606 [main] INFO  Dealership.POM - Appointment is verified
-16:21:42.466 [main] INFO  Dealership.POM - EstimatedHours is visible
-16:21:43.017 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServiceJobAppointment
-16:22:23.039 [main] INFO  Dealership.POM - Running Test : ServiceJobAppointment
-16:22:31.831 [main] INFO  Dealership.POM - Windows maximized
-16:22:34.247 [main] INFO  Dealership.POM - URL entered
-16:22:34.413 [main] INFO  Dealership.POM - Username field is visible
-16:22:34.716 [main] INFO  Dealership.POM - Password field is visible
-16:22:34.910 [main] INFO  Dealership.POM - Login Button is visible
-16:23:18.473 [main] INFO  Dealership.POM - Login Button is clicked
-16:23:33.675 [main] INFO  Dealership.POM - Schedule link is visible
-16:23:33.795 [main] INFO  Dealership.POM - Schedule link is clicked
-16:23:47.577 [main] INFO  Dealership.POM - DayViewLink is visible
-16:23:47.669 [main] INFO  Dealership.POM - DayViewLink is opened
-16:23:58.665 [main] INFO  Dealership.POM - The Appointment's CONumber Name is CO-0004475
-16:23:58.665 [main] INFO  Dealership.POM - Appointment is verified
-16:24:02.905 [main] INFO  Dealership.POM - EstimatedHours is visible
-16:24:03.445 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServiceJobAppointment
-16:25:12.025 [main] INFO  Dealership.POM - Running Test : ServiceJobAppointment
-16:25:19.954 [main] INFO  Dealership.POM - Windows maximized
-16:25:22.359 [main] INFO  Dealership.POM - URL entered
-16:25:22.499 [main] INFO  Dealership.POM - Username field is visible
-16:25:22.708 [main] INFO  Dealership.POM - Password field is visible
-16:25:22.877 [main] INFO  Dealership.POM - Login Button is visible
-16:25:22.957 [main] INFO  Dealership.POM - Login Button is clicked
-16:25:58.207 [main] INFO  Dealership.POM - Schedule link is visible
-16:25:58.280 [main] INFO  Dealership.POM - Schedule link is clicked
-16:26:11.213 [main] INFO  Dealership.POM - DayViewLink is visible
-16:26:11.375 [main] INFO  Dealership.POM - DayViewLink is opened
-16:26:23.514 [main] INFO  Dealership.POM - The Appointment's CONumber Name is CO-0004475
-16:26:23.514 [main] INFO  Dealership.POM - Appointment is verified
-16:26:33.725 [main] INFO  Dealership.POM - EstimatedHours is visible
-16:26:33.895 [main] INFO  Dealership.POM - DeleteAppointmentButton is visible
-16:26:34.031 [main] INFO  Dealership.POM - DeleteAppointmentButton is Clicked
-16:26:39.149 [main] INFO  Dealership.POM - Delete Appointment Modal Window is opened
-16:26:39.185 [main] INFO  Dealership.POM - Dlt Appointment Btn is visible
-16:26:39.297 [main] INFO  Dealership.POM - Dlt Appointment Btn is Clicked
-16:26:39.304 [main] INFO  Dealership.POM - Test case ServiceJobAppointment passes successfully
-16:27:26.337 [main] INFO  Dealership.POM - Running Test : ServiceJobAppointment
-16:27:36.256 [main] INFO  Dealership.POM - Windows maximized
-16:27:38.377 [main] INFO  Dealership.POM - URL entered
-16:27:38.546 [main] INFO  Dealership.POM - Username field is visible
-16:27:39.449 [main] INFO  Dealership.POM - Password field is visible
-16:27:40.683 [main] INFO  Dealership.POM - Login Button is visible
-16:28:15.938 [main] INFO  Dealership.POM - Login Button is clicked
-16:28:31.108 [main] INFO  Dealership.POM - Sell link is visible
-16:28:32.244 [main] INFO  Dealership.POM - Sell link is clicked
-16:28:32.439 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
-16:28:38.078 [main] INFO  Dealership.POM - Select Customer Field is visible
-16:28:40.491 [main] INFO  Dealership.POM - CustomerInfo is visible
-16:29:06.629 [main] INFO  Dealership.POM - ServiceJob button is visible
-16:29:10.140 [main] INFO  Dealership.POM - ServiceJobStatus is visible
-16:29:10.177 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
-16:29:10.341 [main] INFO  Dealership.POM - CONumber is visible
-16:29:10.369 [main] INFO  Dealership.POM - CONumber is CO-0004476
-16:29:10.460 [main] INFO  Dealership.POM - ServiceJobDetails is visible
-16:29:10.607 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
-16:29:15.719 [main] INFO  Dealership.POM - UnitDropDown is visible
-16:29:15.902 [main] INFO  Dealership.POM - DropDownresult is visible
-16:29:15.989 [main] INFO  Dealership.POM - Unit is Selected
-16:29:16.076 [main] INFO  Dealership.POM - CreateApt link is visible
-16:29:16.157 [main] INFO  Dealership.POM - CreateApt link is clicked
-16:29:23.848 [main] INFO  Dealership.POM - AppointmentTitleId is visible
-16:29:24.268 [main] INFO  Dealership.POM - EstimatedHours is filled
-16:29:24.402 [main] INFO  Dealership.POM - EstimatedHours is visible
-16:29:24.550 [main] INFO  Dealership.POM - EstimatedHours is filled
-16:29:24.727 [main] INFO  Dealership.POM - AssignTechTab is visible
-16:29:24.915 [main] INFO  Dealership.POM - AssignTechTab is Clicked
-16:29:25.013 [main] INFO  Dealership.POM - Assign_tech_input_Field is visible
-16:29:30.544 [main] INFO  Dealership.POM - [[ChromeDriver: chrome on WINDOWS (6f20d79816bbbabc5a515a1f4f04a909)] -> xpath: //td[1]/div[1]/div[1]/ul[1]/li/div[1]] Tech is selected
-16:29:40.680 [main] INFO  Dealership.POM - ConfirmButton is visible
-16:29:40.851 [main] INFO  Dealership.POM - ConfirmButton is clicked
-16:29:46.009 [main] INFO  Dealership.POM - TimeSlotInput is visible
-16:29:51.433 [main] INFO  Dealership.POM - TimeSlot is visible
-16:29:51.678 [main] INFO  Dealership.POM - TimeSlot is Selected
-16:29:58.913 [main] INFO  Dealership.POM - SaveAppointmentButton is visible
-16:29:59.080 [main] INFO  Dealership.POM - SaveAppointmentButton is Clicked
-16:30:04.082 [main] INFO  Dealership.POM - Appointment is Created successfully
-16:30:04.868 [main] INFO  Dealership.POM - AptonCO is visible
-16:30:04.893 [main] INFO  Dealership.POM - Appointment is created for February 07, 2022 - 1 hr
-16:30:04.997 [main] INFO  Dealership.POM - Schedule link is visible
-16:30:05.200 [main] INFO  Dealership.POM - Schedule link is clicked
-16:30:17.108 [main] INFO  Dealership.POM - DayViewLink is visible
-16:30:17.208 [main] INFO  Dealership.POM - DayViewLink is opened
-16:30:45.175 [main] INFO  Dealership.POM - EstimatedHours is visible
-16:30:45.967 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServiceJobAppointment
-16:31:31.535 [main] INFO  Dealership.POM - Running Test : ServiceJobAppointment
-16:31:41.517 [main] INFO  Dealership.POM - Windows maximized
-16:31:43.397 [main] INFO  Dealership.POM - URL entered
-16:31:43.590 [main] INFO  Dealership.POM - Username field is visible
-16:31:45.100 [main] INFO  Dealership.POM - Password field is visible
-16:31:45.544 [main] INFO  Dealership.POM - Login Button is visible
-16:32:17.199 [main] INFO  Dealership.POM - Login Button is clicked
-16:32:32.403 [main] INFO  Dealership.POM - Sell link is visible
-16:32:32.496 [main] INFO  Dealership.POM - Sell link is clicked
-16:32:34.163 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
-16:32:35.234 [main] INFO  Dealership.POM - Select Customer Field is visible
-16:32:37.330 [main] INFO  Dealership.POM - CustomerInfo is visible
-16:33:03.941 [main] INFO  Dealership.POM - ServiceJob button is visible
-16:33:07.489 [main] INFO  Dealership.POM - ServiceJobStatus is visible
-16:33:07.512 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
-16:33:07.664 [main] INFO  Dealership.POM - CONumber is visible
-16:33:07.697 [main] INFO  Dealership.POM - CONumber is CO-0004477
-16:33:08.321 [main] INFO  Dealership.POM - ServiceJobDetails is visible
-16:33:08.438 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
-16:33:13.552 [main] INFO  Dealership.POM - UnitDropDown is visible
-16:33:13.781 [main] INFO  Dealership.POM - DropDownresult is visible
-16:33:13.881 [main] INFO  Dealership.POM - Unit is Selected
-16:33:13.983 [main] INFO  Dealership.POM - CreateApt link is visible
-16:33:14.076 [main] INFO  Dealership.POM - CreateApt link is clicked
-16:33:22.824 [main] INFO  Dealership.POM - AppointmentTitleId is visible
-16:33:23.267 [main] INFO  Dealership.POM - EstimatedHours is filled
-16:33:23.395 [main] INFO  Dealership.POM - EstimatedHours is visible
-16:33:23.518 [main] INFO  Dealership.POM - EstimatedHours is filled
-16:33:23.744 [main] INFO  Dealership.POM - AssignTechTab is visible
-16:33:23.922 [main] INFO  Dealership.POM - AssignTechTab is Clicked
-16:33:24.013 [main] INFO  Dealership.POM - Assign_tech_input_Field is visible
-16:33:29.531 [main] INFO  Dealership.POM - [[ChromeDriver: chrome on WINDOWS (6ff31f18c8001602c34780530508649b)] -> xpath: //td[1]/div[1]/div[1]/ul[1]/li/div[1]] Tech is selected
-16:33:39.658 [main] INFO  Dealership.POM - ConfirmButton is visible
-16:33:39.789 [main] INFO  Dealership.POM - ConfirmButton is clicked
-16:33:44.887 [main] INFO  Dealership.POM - TimeSlotInput is visible
-16:33:50.183 [main] INFO  Dealership.POM - TimeSlot is visible
-16:33:51.076 [main] INFO  Dealership.POM - TimeSlot is Selected
-16:34:41.047 [main] INFO  Dealership.POM - Running Test : ServiceJobAppointment
-16:34:48.690 [main] INFO  Dealership.POM - Windows maximized
-16:34:52.097 [main] INFO  Dealership.POM - URL entered
-16:34:52.264 [main] INFO  Dealership.POM - Username field is visible
-16:34:52.690 [main] INFO  Dealership.POM - Password field is visible
-16:34:53.019 [main] INFO  Dealership.POM - Login Button is visible
-16:35:28.259 [main] INFO  Dealership.POM - Login Button is clicked
-16:35:43.416 [main] INFO  Dealership.POM - Sell link is visible
-16:35:44.867 [main] INFO  Dealership.POM - Sell link is clicked
-16:35:45.047 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
-16:35:47.436 [main] INFO  Dealership.POM - Select Customer Field is visible
-16:35:49.544 [main] INFO  Dealership.POM - CustomerInfo is visible
-16:36:15.731 [main] INFO  Dealership.POM - ServiceJob button is visible
-16:36:19.524 [main] INFO  Dealership.POM - ServiceJobStatus is visible
-16:36:19.573 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
-16:36:19.750 [main] INFO  Dealership.POM - CONumber is visible
-16:36:19.813 [main] INFO  Dealership.POM - CONumber is CO-0004478
-16:36:19.933 [main] INFO  Dealership.POM - ServiceJobDetails is visible
-16:36:20.125 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
-16:36:25.235 [main] INFO  Dealership.POM - UnitDropDown is visible
-16:36:25.576 [main] INFO  Dealership.POM - DropDownresult is visible
-16:36:25.708 [main] INFO  Dealership.POM - Unit is Selected
-16:36:25.817 [main] INFO  Dealership.POM - CreateApt link is visible
-16:36:25.927 [main] INFO  Dealership.POM - CreateApt link is clicked
-16:36:35.762 [main] INFO  Dealership.POM - AppointmentTitleId is visible
-16:36:36.394 [main] INFO  Dealership.POM - EstimatedHours is filled
-16:36:36.569 [main] INFO  Dealership.POM - EstimatedHours is visible
-16:36:36.772 [main] INFO  Dealership.POM - EstimatedHours is filled
-16:36:37.018 [main] INFO  Dealership.POM - AssignTechTab is visible
-16:36:37.258 [main] INFO  Dealership.POM - AssignTechTab is Clicked
-16:36:37.363 [main] INFO  Dealership.POM - Assign_tech_input_Field is visible
-16:36:42.857 [main] INFO  Dealership.POM - [[ChromeDriver: chrome on WINDOWS (08b82c0b5d3aa7a7f864ba7891727c86)] -> xpath: //td[1]/div[1]/div[1]/ul[1]/li/div[1]] Tech is selected
-16:36:52.960 [main] INFO  Dealership.POM - ConfirmButton is visible
-16:36:53.061 [main] INFO  Dealership.POM - ConfirmButton is clicked
-16:36:58.164 [main] INFO  Dealership.POM - TimeSlotInput is visible
-16:37:03.481 [main] INFO  Dealership.POM - TimeSlot is visible
-16:37:03.681 [main] INFO  Dealership.POM - TimeSlot is Selected
-16:37:10.401 [main] INFO  Dealership.POM - SaveAppointmentButton is visible
-16:37:10.587 [main] INFO  Dealership.POM - SaveAppointmentButton is Clicked
-16:37:15.589 [main] INFO  Dealership.POM - Appointment is Created successfully
-16:37:16.279 [main] INFO  Dealership.POM - AptonCO is visible
-16:37:16.306 [main] INFO  Dealership.POM - Appointment is created for February 07, 2022 - 1 hr
-16:37:16.419 [main] INFO  Dealership.POM - Schedule link is visible
-16:37:16.540 [main] INFO  Dealership.POM - Schedule link is clicked
-16:37:27.754 [main] INFO  Dealership.POM - DayViewLink is visible
-16:37:27.851 [main] INFO  Dealership.POM - DayViewLink is opened
-16:37:40.206 [main] INFO  Dealership.POM - The Appointment's CONumber Name is CO-0004478
-16:37:40.206 [main] INFO  Dealership.POM - Appointment is verified
-16:37:50.439 [main] INFO  Dealership.POM - EstimatedHours is visible
-16:37:50.628 [main] INFO  Dealership.POM - DeleteAppointmentButton is visible
-16:37:50.818 [main] INFO  Dealership.POM - DeleteAppointmentButton is Clicked
-16:37:55.930 [main] INFO  Dealership.POM - Delete Appointment Modal Window is opened
-16:37:55.971 [main] INFO  Dealership.POM - Dlt Appointment Btn is visible
-16:37:56.164 [main] INFO  Dealership.POM - Dlt Appointment Btn is Clicked
-16:37:56.170 [main] INFO  Dealership.POM - Test case ServiceJobAppointment passes successfully
-19:16:04.825 [main] INFO  Dealership.POM - Running Test : DealserviceAppointment
-19:16:16.982 [main] INFO  Dealership.POM - Windows maximized
-19:16:18.789 [main] INFO  Dealership.POM - URL entered
-19:16:18.919 [main] INFO  Dealership.POM - Username field is visible
-19:16:19.148 [main] INFO  Dealership.POM - Password field is visible
-19:16:19.439 [main] INFO  Dealership.POM - Login Button is visible
-19:16:53.335 [main] INFO  Dealership.POM - Login Button is clicked
-19:17:08.600 [main] INFO  Dealership.POM - GlobalSearch is visible
-19:17:13.281 [main] INFO  Dealership.POM - SearchResult is visible
-19:17:14.909 [main] INFO  Dealership.POM - CO is selected
-19:17:34.915 [main] INFO  Dealership.POM - Test case DealserviceAppointment passes successfully
-19:38:10.998 [main] INFO  Dealership.POM - Running Test : DealserviceAppointment
-19:38:20.126 [main] INFO  Dealership.POM - Windows maximized
-19:38:22.687 [main] INFO  Dealership.POM - URL entered
-19:38:22.838 [main] INFO  Dealership.POM - Username field is visible
-19:38:23.032 [main] INFO  Dealership.POM - Password field is visible
-19:38:23.175 [main] INFO  Dealership.POM - Login Button is visible
-19:38:55.183 [main] INFO  Dealership.POM - Login Button is clicked
-19:39:10.440 [main] INFO  Dealership.POM - GlobalSearch is visible
-19:39:17.779 [main] INFO  Dealership.POM - SearchResult is visible
-19:39:19.522 [main] INFO  Dealership.POM - CO is selected
-19:39:39.617 [main] INFO  Dealership.POM - DealService is visible
-19:39:39.755 [main] INFO  Dealership.POM - DealService is opened
-19:39:44.890 [main] INFO  Dealership.POM - JobDetails is visible
-19:39:45.011 [main] INFO  Dealership.POM - JobDetails is opened
-19:39:50.253 [main] INFO  Dealership.POM - CreateApt is visible
-19:39:50.368 [main] INFO  Dealership.POM - CreateApt is opened
-19:39:58.137 [main] INFO  Dealership.POM - AppointmentTitleId is visible
-19:39:58.604 [main] INFO  Dealership.POM - EstimatedHours is filled
-19:39:58.710 [main] INFO  Dealership.POM - EstimatedHours is visible
-19:39:58.836 [main] INFO  Dealership.POM - EstimatedHours is filled
-19:39:58.989 [main] INFO  Dealership.POM - AssignTechTab is visible
-19:39:59.210 [main] INFO  Dealership.POM - AssignTechTab is Clicked
-19:39:59.292 [main] INFO  Dealership.POM - Assign_tech_input_Field is visible
-19:40:04.799 [main] INFO  Dealership.POM - [[ChromeDriver: chrome on WINDOWS (3ff862e4c3d0360e2f81c9317be28511)] -> xpath: //td[1]/div[1]/div[1]/ul[1]/li/div[1]] Tech is selected
-19:40:14.881 [main] INFO  Dealership.POM - ConfirmButton is visible
-19:40:15.079 [main] INFO  Dealership.POM - ConfirmButton is clicked
-19:40:20.162 [main] INFO  Dealership.POM - TimeSlotInput is visible
-19:40:25.465 [main] INFO  Dealership.POM - TimeSlot is visible
-19:40:25.639 [main] INFO  Dealership.POM - TimeSlot is Selected
-19:40:33.360 [main] INFO  Dealership.POM - SaveAppointmentButton is visible
-19:40:33.507 [main] INFO  Dealership.POM - SaveAppointmentButton is Clicked
-19:40:38.517 [main] INFO  Dealership.POM - Appointment is Created successfully
-19:42:18.807 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DealserviceAppointment
-19:45:32.267 [main] INFO  Dealership.POM - Running Test : DealserviceAppointment
-19:45:41.533 [main] INFO  Dealership.POM - Windows maximized
-19:45:44.091 [main] INFO  Dealership.POM - URL entered
-19:45:44.232 [main] INFO  Dealership.POM - Username field is visible
-19:45:44.644 [main] INFO  Dealership.POM - Password field is visible
-19:45:44.817 [main] INFO  Dealership.POM - Login Button is visible
-19:46:00.458 [main] INFO  Dealership.POM - Login Button is clicked
-19:46:16.217 [main] INFO  Dealership.POM - GlobalSearch is visible
-19:46:20.085 [main] INFO  Dealership.POM - SearchResult is visible
-19:46:21.312 [main] INFO  Dealership.POM - CO is selected
-19:46:41.456 [main] INFO  Dealership.POM - DealService is visible
-19:46:41.694 [main] INFO  Dealership.POM - DealService is opened
-19:46:46.959 [main] INFO  Dealership.POM - JobDetails is visible
-19:46:47.074 [main] INFO  Dealership.POM - JobDetails is opened
-19:46:52.308 [main] INFO  Dealership.POM - CreateApt is visible
-19:46:52.406 [main] INFO  Dealership.POM - CreateApt is opened
-19:47:01.034 [main] INFO  Dealership.POM - AppointmentTitleId is visible
-19:47:01.447 [main] INFO  Dealership.POM - EstimatedHours is filled
-19:47:01.552 [main] INFO  Dealership.POM - EstimatedHours is visible
-19:47:01.689 [main] INFO  Dealership.POM - EstimatedHours is filled
-19:47:01.822 [main] INFO  Dealership.POM - AssignTechTab is visible
-19:47:02.000 [main] INFO  Dealership.POM - AssignTechTab is Clicked
-19:47:02.089 [main] INFO  Dealership.POM - Assign_tech_input_Field is visible
-19:47:07.527 [main] INFO  Dealership.POM - [[ChromeDriver: chrome on WINDOWS (5342eaae1855f5c03572da4953b59def)] -> xpath: //td[1]/div[1]/div[1]/ul[1]/li/div[1]] Tech is selected
-19:47:17.613 [main] INFO  Dealership.POM - ConfirmButton is visible
-19:47:17.748 [main] INFO  Dealership.POM - ConfirmButton is clicked
-19:47:22.836 [main] INFO  Dealership.POM - TimeSlotInput is visible
-19:47:30.356 [main] INFO  Dealership.POM - TimeSlot is visible
-19:47:31.765 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DealserviceAppointment
-19:47:49.830 [main] INFO  Dealership.POM - Running Test : DealserviceAppointment
-19:47:58.198 [main] INFO  Dealership.POM - Windows maximized
-19:48:00.007 [main] INFO  Dealership.POM - URL entered
-19:48:00.210 [main] INFO  Dealership.POM - Username field is visible
-19:48:00.634 [main] INFO  Dealership.POM - Password field is visible
-19:48:00.805 [main] INFO  Dealership.POM - Login Button is visible
-19:48:34.000 [main] INFO  Dealership.POM - Login Button is clicked
-19:48:49.162 [main] INFO  Dealership.POM - GlobalSearch is visible
-19:48:52.737 [main] INFO  Dealership.POM - SearchResult is visible
-19:48:54.089 [main] INFO  Dealership.POM - CO is selected
-19:49:14.217 [main] INFO  Dealership.POM - DealService is visible
-19:49:14.398 [main] INFO  Dealership.POM - DealService is opened
-19:49:19.561 [main] INFO  Dealership.POM - JobDetails is visible
-19:49:19.672 [main] INFO  Dealership.POM - JobDetails is opened
-19:49:24.939 [main] INFO  Dealership.POM - CreateApt is visible
-19:49:25.169 [main] INFO  Dealership.POM - CreateApt is opened
-19:49:42.043 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : DealserviceAppointment
-19:49:56.392 [main] INFO  Dealership.POM - Running Test : DealserviceAppointment
-19:50:04.379 [main] INFO  Dealership.POM - Windows maximized
-19:50:06.581 [main] INFO  Dealership.POM - URL entered
-19:50:06.713 [main] INFO  Dealership.POM - Username field is visible
-19:50:06.963 [main] INFO  Dealership.POM - Password field is visible
-19:50:07.136 [main] INFO  Dealership.POM - Login Button is visible
-19:50:49.966 [main] INFO  Dealership.POM - Login Button is clicked
-19:51:05.144 [main] INFO  Dealership.POM - GlobalSearch is visible
-19:51:08.297 [main] INFO  Dealership.POM - SearchResult is visible
-19:51:09.610 [main] INFO  Dealership.POM - CO is selected
-19:51:29.733 [main] INFO  Dealership.POM - DealService is visible
-19:51:29.912 [main] INFO  Dealership.POM - DealService is opened
-19:51:35.073 [main] INFO  Dealership.POM - JobDetails is visible
-19:51:35.178 [main] INFO  Dealership.POM - JobDetails is opened
-19:51:40.448 [main] INFO  Dealership.POM - CreateApt is visible
-19:51:40.574 [main] INFO  Dealership.POM - CreateApt is opened
-19:52:00.723 [main] INFO  Dealership.POM - AppointmentTitleId is visible
-19:52:01.255 [main] INFO  Dealership.POM - EstimatedHours is filled
-19:52:01.449 [main] INFO  Dealership.POM - EstimatedHours is visible
-19:52:01.678 [main] INFO  Dealership.POM - EstimatedHours is filled
-19:52:01.910 [main] INFO  Dealership.POM - AssignTechTab is visible
-19:52:02.213 [main] INFO  Dealership.POM - AssignTechTab is Clicked
-19:52:02.317 [main] INFO  Dealership.POM - Assign_tech_input_Field is visible
-19:52:07.745 [main] INFO  Dealership.POM - [[ChromeDriver: chrome on WINDOWS (97665729470e53c07902a9702ebd12fc)] -> xpath: //td[1]/div[1]/div[1]/ul[1]/li/div[1]] Tech is selected
-19:52:17.844 [main] INFO  Dealership.POM - ConfirmButton is visible
-19:52:18.038 [main] INFO  Dealership.POM - ConfirmButton is clicked
-19:52:23.100 [main] INFO  Dealership.POM - TimeSlotInput is visible
-19:52:28.401 [main] INFO  Dealership.POM - TimeSlot is visible
-19:52:28.595 [main] INFO  Dealership.POM - TimeSlot is Selected
-19:52:36.290 [main] INFO  Dealership.POM - SaveAppointmentButton is visible
-19:52:36.477 [main] INFO  Dealership.POM - SaveAppointmentButton is Clicked
-19:52:46.482 [main] INFO  Dealership.POM - Appointment is Created successfully
-19:52:46.562 [main] INFO  Dealership.POM - Schedule link is visible
-19:52:46.706 [main] INFO  Dealership.POM - Schedule link is clicked
-19:52:58.918 [main] INFO  Dealership.POM - DayViewLink is visible
-19:52:59.029 [main] INFO  Dealership.POM - DayViewLink is opened
-19:53:09.240 [main] INFO  Dealership.POM - The Appointment's CONumber Name is CO-0004489
-19:53:09.240 [main] INFO  Dealership.POM - Appointment is verified
-19:53:19.426 [main] INFO  Dealership.POM - EstimatedHours is visible
-19:53:19.609 [main] INFO  Dealership.POM - DeleteAppointmentButton is visible
-19:53:19.853 [main] INFO  Dealership.POM - DeleteAppointmentButton is Clicked
-19:53:24.934 [main] INFO  Dealership.POM - Delete Appointment Modal Window is opened
-19:53:24.959 [main] INFO  Dealership.POM - Dlt Appointment Btn is visible
-19:53:25.137 [main] INFO  Dealership.POM - Dlt Appointment Btn is Clicked
-19:53:25.145 [main] INFO  Dealership.POM - Test case DealserviceAppointment passes successfully
+11:51:41.508 [main] INFO  Dealership.POM - Category Types are opened
+11:51:41.850 [main] INFO  Dealership.POM - Category type 2 is selected
+11:51:42.017 [main] INFO  Dealership.POM - CategoryName is visible
+11:51:42.555 [main] INFO  Dealership.POM - CategoryName is entered
+11:51:42.654 [main] INFO  Dealership.POM - SaveCategory is visible
+11:51:42.794 [main] INFO  Dealership.POM - Category is Saved
+11:51:45.179 [main] INFO  Dealership.POM - NewCategory is visible
+11:51:45.373 [main] INFO  Dealership.POM - Editicon is visible
+11:51:46.259 [main] INFO  Dealership.POM - Editicon is clicked
+11:51:52.275 [main] INFO  Dealership.POM - CategoryName is visible
+11:51:52.853 [main] INFO  Dealership.POM - CategoryName is entered
+11:51:52.939 [main] INFO  Dealership.POM - SaveEdits button is visible
+11:51:53.069 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+11:51:56.572 [main] INFO  Dealership.POM - Category is successfully edited
+11:51:56.764 [main] INFO  Dealership.POM - Deleteicon is visible
+11:51:56.890 [main] INFO  Dealership.POM - Deleteicon is clicked
+11:52:02.742 [main] INFO  Dealership.POM - DeleteButton is visible
+11:52:02.843 [main] INFO  Dealership.POM - DeleteButton is clicked
+11:52:07.872 [main] INFO  Dealership.POM - Category is successfully deleted
+11:52:08.114 [main] INFO  Dealership.POM - AddCategorybutton is visible
+11:52:08.969 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+11:52:15.339 [main] INFO  Dealership.POM - AddCategoryType is visible
+11:52:15.560 [main] INFO  Dealership.POM - AddCategoryType is clicked
+11:52:18.564 [main] INFO  Dealership.POM - Category Types are opened
+11:52:18.919 [main] INFO  Dealership.POM - Category type 3 is selected
+11:52:19.027 [main] INFO  Dealership.POM - CategoryName is visible
+11:52:19.497 [main] INFO  Dealership.POM - CategoryName is entered
+11:52:19.585 [main] INFO  Dealership.POM - SaveCategory is visible
+11:52:19.721 [main] INFO  Dealership.POM - Category is Saved
+11:52:21.906 [main] INFO  Dealership.POM - NewCategory is visible
+11:52:22.120 [main] INFO  Dealership.POM - Editicon is visible
+11:52:22.932 [main] INFO  Dealership.POM - Editicon is clicked
+11:52:28.885 [main] INFO  Dealership.POM - CategoryName is visible
+11:52:29.427 [main] INFO  Dealership.POM - CategoryName is entered
+11:52:29.502 [main] INFO  Dealership.POM - SaveEdits button is visible
+11:52:29.626 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+11:52:32.172 [main] INFO  Dealership.POM - Category is successfully edited
+11:52:32.317 [main] INFO  Dealership.POM - Deleteicon is visible
+11:52:32.424 [main] INFO  Dealership.POM - Deleteicon is clicked
+11:52:38.221 [main] INFO  Dealership.POM - DeleteButton is visible
+11:52:38.307 [main] INFO  Dealership.POM - DeleteButton is clicked
+11:52:43.353 [main] INFO  Dealership.POM - Category is successfully deleted
+11:52:43.766 [main] INFO  Dealership.POM - AddCategorybutton is visible
+11:52:45.566 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+11:52:51.706 [main] INFO  Dealership.POM - AddCategoryType is visible
+11:52:51.917 [main] INFO  Dealership.POM - AddCategoryType is clicked
+11:52:54.926 [main] INFO  Dealership.POM - Category Types are opened
+11:52:55.325 [main] INFO  Dealership.POM - Category type 4 is selected
+11:52:55.603 [main] INFO  Dealership.POM - CategoryName is visible
+11:52:56.132 [main] INFO  Dealership.POM - CategoryName is entered
+11:52:56.216 [main] INFO  Dealership.POM - SaveCategory is visible
+11:52:56.354 [main] INFO  Dealership.POM - Category is Saved
+11:52:58.992 [main] INFO  Dealership.POM - NewCategory is visible
+11:52:59.274 [main] INFO  Dealership.POM - Editicon is visible
+11:52:59.389 [main] INFO  Dealership.POM - Editicon is clicked
+11:53:06.380 [main] INFO  Dealership.POM - CategoryName is visible
+11:53:07.144 [main] INFO  Dealership.POM - CategoryName is entered
+11:53:07.221 [main] INFO  Dealership.POM - SaveEdits button is visible
+11:53:07.347 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+11:53:09.008 [main] INFO  Dealership.POM - Category is successfully edited
+11:53:09.148 [main] INFO  Dealership.POM - Deleteicon is visible
+11:53:09.241 [main] INFO  Dealership.POM - Deleteicon is clicked
+11:53:15.683 [main] INFO  Dealership.POM - DeleteButton is visible
+11:53:15.768 [main] INFO  Dealership.POM - DeleteButton is clicked
+11:53:20.805 [main] INFO  Dealership.POM - Category is successfully deleted
+11:53:21.062 [main] INFO  Dealership.POM - AddCategorybutton is visible
+11:53:23.030 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+11:53:29.031 [main] INFO  Dealership.POM - AddCategoryType is visible
+11:53:29.235 [main] INFO  Dealership.POM - AddCategoryType is clicked
+11:53:32.250 [main] INFO  Dealership.POM - Category Types are opened
+11:53:32.569 [main] INFO  Dealership.POM - Category type 5 is selected
+11:53:32.877 [main] INFO  Dealership.POM - CategoryName is visible
+11:53:33.501 [main] INFO  Dealership.POM - CategoryName is entered
+11:53:33.577 [main] INFO  Dealership.POM - SaveCategory is visible
+11:53:33.712 [main] INFO  Dealership.POM - Category is Saved
+11:53:35.994 [main] INFO  Dealership.POM - NewCategory is visible
+11:53:36.210 [main] INFO  Dealership.POM - Editicon is visible
+11:53:37.027 [main] INFO  Dealership.POM - Editicon is clicked
+11:53:43.133 [main] INFO  Dealership.POM - CategoryName is visible
+11:53:43.727 [main] INFO  Dealership.POM - CategoryName is entered
+11:53:43.801 [main] INFO  Dealership.POM - SaveEdits button is visible
+11:53:43.929 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+11:53:46.916 [main] INFO  Dealership.POM - Category is successfully edited
+11:53:47.178 [main] INFO  Dealership.POM - Deleteicon is visible
+11:53:47.268 [main] INFO  Dealership.POM - Deleteicon is clicked
+11:53:53.746 [main] INFO  Dealership.POM - DeleteButton is visible
+11:53:53.838 [main] INFO  Dealership.POM - DeleteButton is clicked
+11:53:58.885 [main] INFO  Dealership.POM - Category is successfully deleted
+11:53:59.190 [main] INFO  Dealership.POM - AddCategorybutton is visible
+11:54:00.273 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+11:54:06.462 [main] INFO  Dealership.POM - AddCategoryType is visible
+11:54:06.661 [main] INFO  Dealership.POM - AddCategoryType is clicked
+11:54:09.670 [main] INFO  Dealership.POM - Category Types are opened
+11:54:10.450 [main] INFO  Dealership.POM - Category type 6 is selected
+11:54:10.755 [main] INFO  Dealership.POM - CategoryName is visible
+11:54:11.272 [main] INFO  Dealership.POM - CategoryName is entered
+11:54:11.353 [main] INFO  Dealership.POM - SaveCategory is visible
+11:54:11.482 [main] INFO  Dealership.POM - Category is Saved
+11:54:14.275 [main] INFO  Dealership.POM - NewCategory is visible
+11:54:14.456 [main] INFO  Dealership.POM - Editicon is visible
+11:54:15.288 [main] INFO  Dealership.POM - Editicon is clicked
+11:54:21.496 [main] INFO  Dealership.POM - CategoryName is visible
+11:54:22.052 [main] INFO  Dealership.POM - CategoryName is entered
+11:54:22.126 [main] INFO  Dealership.POM - SaveEdits button is visible
+11:54:22.258 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+11:54:24.719 [main] INFO  Dealership.POM - Category is successfully edited
+11:54:24.939 [main] INFO  Dealership.POM - Deleteicon is visible
+11:54:25.167 [main] INFO  Dealership.POM - Deleteicon is clicked
+11:54:31.028 [main] INFO  Dealership.POM - DeleteButton is visible
+11:54:31.154 [main] INFO  Dealership.POM - DeleteButton is clicked
+11:54:36.193 [main] INFO  Dealership.POM - Category is successfully deleted
+11:54:36.649 [main] INFO  Dealership.POM - AddCategorybutton is visible
+11:54:37.767 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+11:54:43.352 [main] INFO  Dealership.POM - AddCategoryType is visible
+11:54:43.542 [main] INFO  Dealership.POM - AddCategoryType is clicked
+11:54:46.548 [main] INFO  Dealership.POM - Category Types are opened
+11:54:47.133 [main] INFO  Dealership.POM - Category type 7 is selected
+11:54:47.293 [main] INFO  Dealership.POM - CategoryName is visible
+11:54:47.827 [main] INFO  Dealership.POM - CategoryName is entered
+11:54:47.987 [main] INFO  Dealership.POM - SaveCategory is visible
+11:54:48.220 [main] INFO  Dealership.POM - Category is Saved
+11:54:50.702 [main] INFO  Dealership.POM - NewCategory is visible
+11:54:50.938 [main] INFO  Dealership.POM - Editicon is visible
+11:54:51.800 [main] INFO  Dealership.POM - Editicon is clicked
+11:54:58.092 [main] INFO  Dealership.POM - CategoryName is visible
+11:54:58.669 [main] INFO  Dealership.POM - CategoryName is entered
+11:54:58.747 [main] INFO  Dealership.POM - SaveEdits button is visible
+11:54:58.876 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+11:55:01.363 [main] INFO  Dealership.POM - Category is successfully edited
+11:55:01.516 [main] INFO  Dealership.POM - Deleteicon is visible
+11:55:01.648 [main] INFO  Dealership.POM - Deleteicon is clicked
+11:55:07.554 [main] INFO  Dealership.POM - DeleteButton is visible
+11:55:07.641 [main] INFO  Dealership.POM - DeleteButton is clicked
+11:55:12.678 [main] INFO  Dealership.POM - Category is successfully deleted
+11:55:12.909 [main] INFO  Dealership.POM - AddCategorybutton is visible
+11:55:13.019 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+11:55:21.101 [main] INFO  Dealership.POM - AddCategoryType is visible
+11:55:21.400 [main] INFO  Dealership.POM - AddCategoryType is clicked
+11:55:24.412 [main] INFO  Dealership.POM - Category Types are opened
+11:55:24.730 [main] INFO  Dealership.POM - Category type 8 is selected
+11:55:24.830 [main] INFO  Dealership.POM - CategoryName is visible
+11:55:25.316 [main] INFO  Dealership.POM - CategoryName is entered
+11:55:25.405 [main] INFO  Dealership.POM - SaveCategory is visible
+11:55:25.565 [main] INFO  Dealership.POM - Category is Saved
+11:55:28.459 [main] INFO  Dealership.POM - NewCategory is visible
+11:55:28.639 [main] INFO  Dealership.POM - Editicon is visible
+11:55:29.509 [main] INFO  Dealership.POM - Editicon is clicked
+11:55:35.790 [main] INFO  Dealership.POM - CategoryName is visible
+11:55:36.478 [main] INFO  Dealership.POM - CategoryName is entered
+11:55:36.566 [main] INFO  Dealership.POM - SaveEdits button is visible
+11:55:36.691 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+11:55:38.311 [main] INFO  Dealership.POM - Category is successfully edited
+11:55:38.458 [main] INFO  Dealership.POM - Deleteicon is visible
+11:55:38.552 [main] INFO  Dealership.POM - Deleteicon is clicked
+11:55:45.006 [main] INFO  Dealership.POM - DeleteButton is visible
+11:55:45.109 [main] INFO  Dealership.POM - DeleteButton is clicked
+11:55:50.132 [main] INFO  Dealership.POM - Category is successfully deleted
+11:55:50.355 [main] INFO  Dealership.POM - AddCategorybutton is visible
+11:55:50.444 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+11:55:58.226 [main] INFO  Dealership.POM - AddCategoryType is visible
+11:55:58.422 [main] INFO  Dealership.POM - AddCategoryType is clicked
+11:56:01.438 [main] INFO  Dealership.POM - Category Types are opened
+11:56:02.015 [main] INFO  Dealership.POM - Category type 9 is selected
+11:56:02.301 [main] INFO  Dealership.POM - CategoryName is visible
+11:56:02.856 [main] INFO  Dealership.POM - CategoryName is entered
+11:56:02.923 [main] INFO  Dealership.POM - SaveCategory is visible
+11:56:03.091 [main] INFO  Dealership.POM - Category is Saved
+11:56:05.372 [main] INFO  Dealership.POM - NewCategory is visible
+11:56:05.543 [main] INFO  Dealership.POM - Editicon is visible
+11:56:06.553 [main] INFO  Dealership.POM - Editicon is clicked
+11:56:12.945 [main] INFO  Dealership.POM - CategoryName is visible
+11:56:13.527 [main] INFO  Dealership.POM - CategoryName is entered
+11:56:13.599 [main] INFO  Dealership.POM - SaveEdits button is visible
+11:56:13.740 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+11:56:16.005 [main] INFO  Dealership.POM - Category is successfully edited
+11:56:16.130 [main] INFO  Dealership.POM - Deleteicon is visible
+11:56:16.218 [main] INFO  Dealership.POM - Deleteicon is clicked
+11:56:22.693 [main] INFO  Dealership.POM - DeleteButton is visible
+11:56:22.781 [main] INFO  Dealership.POM - DeleteButton is clicked
+11:56:27.805 [main] INFO  Dealership.POM - Category is successfully deleted
+11:56:27.884 [main] INFO  Dealership.POM - NextButton is visible
+11:56:28.027 [main] INFO  Dealership.POM - NextButton is clicked
+11:56:38.039 [main] INFO  Dealership.POM - Test case AccountingIntegration passes successfully
+13:52:14.512 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+13:52:28.095 [main] INFO  Dealership.POM - Windows maximized
+13:52:30.184 [main] INFO  Dealership.POM - URL entered
+13:52:30.383 [main] INFO  Dealership.POM - Username field is visible
+13:52:30.714 [main] INFO  Dealership.POM - Password field is visible
+13:52:30.939 [main] INFO  Dealership.POM - Login Button is visible
+13:52:47.173 [main] INFO  Dealership.POM - Login Button is clicked
+13:53:02.817 [main] INFO  Dealership.POM - Account and Settings link is visible
+13:53:02.922 [main] INFO  Dealership.POM - Account and Settings link is clicked
+13:53:03.091 [main] INFO  Dealership.POM - SystemSettings link is visible
+13:53:03.173 [main] INFO  Dealership.POM - SystemSettings link is clicked
+13:53:07.485 [main] INFO  Dealership.POM - Accounting integration link is clicked
+13:53:09.523 [main] INFO  Dealership.POM - AccHeader is visible
+13:53:09.553 [main] INFO  Dealership.POM - AccHeader Text is verified
+13:53:09.621 [main] INFO  Dealership.POM - AccountingDropDown is visible
+13:53:09.673 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+13:53:17.052 [main] INFO  Dealership.POM - AccHeader is visible
+13:53:17.071 [main] INFO  Dealership.POM - AccHeader Text is verified
+13:53:17.262 [main] INFO  Dealership.POM - AddSaleTypebutton is visible
+13:53:17.374 [main] INFO  Dealership.POM - AddSaleTypebutton is clicked
+13:53:23.174 [main] INFO  Dealership.POM - AddSaleTypeField is visible
+13:53:23.232 [main] INFO  Dealership.POM - AddSaleTypeField is clicked
+13:53:26.241 [main] INFO  Dealership.POM - Sale Types are opened
+13:53:26.565 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+13:56:51.829 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+13:56:59.895 [main] INFO  Dealership.POM - Windows maximized
+13:57:01.796 [main] INFO  Dealership.POM - URL entered
+13:57:01.898 [main] INFO  Dealership.POM - Username field is visible
+13:57:02.119 [main] INFO  Dealership.POM - Password field is visible
+13:57:02.447 [main] INFO  Dealership.POM - Login Button is visible
+13:57:18.214 [main] INFO  Dealership.POM - Login Button is clicked
+13:57:33.407 [main] INFO  Dealership.POM - Account and Settings link is visible
+13:57:33.491 [main] INFO  Dealership.POM - Account and Settings link is clicked
+13:57:33.603 [main] INFO  Dealership.POM - SystemSettings link is visible
+13:57:33.709 [main] INFO  Dealership.POM - SystemSettings link is clicked
+13:58:18.499 [main] INFO  Dealership.POM - Accounting integration link is clicked
+13:58:20.137 [main] INFO  Dealership.POM - AccHeader is visible
+13:58:20.182 [main] INFO  Dealership.POM - AccHeader Text is verified
+13:58:20.306 [main] INFO  Dealership.POM - AccountingDropDown is visible
+13:58:20.381 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+13:58:27.593 [main] INFO  Dealership.POM - AccHeader is visible
+13:58:27.611 [main] INFO  Dealership.POM - AccHeader Text is verified
+13:58:27.811 [main] INFO  Dealership.POM - AddSaleTypebutton is visible
+13:58:27.910 [main] INFO  Dealership.POM - AddSaleTypebutton is clicked
+13:58:33.742 [main] INFO  Dealership.POM - AddSaleTypeField is visible
+13:58:33.834 [main] INFO  Dealership.POM - AddSaleTypeField is clicked
+13:58:36.844 [main] INFO  Dealership.POM - Sale Types are opened
+13:58:55.496 [main] INFO  Dealership.POM - AddSaleType is visible
+13:58:55.690 [main] INFO  Dealership.POM - Category type 1 is selected
+13:58:55.731 [main] INFO  Dealership.POM - Code is visible
+13:58:56.063 [main] INFO  Dealership.POM - Code is entered
+13:58:56.098 [main] INFO  Dealership.POM - PartCategories is visible
+13:58:56.256 [main] INFO  Dealership.POM - PartCategory is visible
+13:58:56.369 [main] INFO  Dealership.POM - PartCategory is selected
+13:58:56.401 [main] INFO  Dealership.POM - LaborCategories is visible
+13:58:56.512 [main] INFO  Dealership.POM - LaborCategory is visible
+13:58:56.624 [main] INFO  Dealership.POM - LaborCategory is selected
+13:58:56.662 [main] INFO  Dealership.POM - Providers is visible
+13:58:56.794 [main] INFO  Dealership.POM - Provider is visible
+13:58:56.980 [main] INFO  Dealership.POM - Provider is selected
+13:58:57.109 [main] INFO  Dealership.POM - SaveSaleType button  is visible
+13:58:57.232 [main] INFO  Dealership.POM - SaveSaleType button is clicked
+13:59:07.697 [main] INFO  Dealership.POM - EditLink  is visible
+13:59:09.049 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+14:11:07.186 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+14:11:15.593 [main] INFO  Dealership.POM - Windows maximized
+14:11:18.221 [main] INFO  Dealership.POM - URL entered
+14:11:18.327 [main] INFO  Dealership.POM - Username field is visible
+14:11:18.570 [main] INFO  Dealership.POM - Password field is visible
+14:11:18.804 [main] INFO  Dealership.POM - Login Button is visible
+14:11:35.054 [main] INFO  Dealership.POM - Login Button is clicked
+14:11:50.198 [main] INFO  Dealership.POM - Account and Settings link is visible
+14:11:50.258 [main] INFO  Dealership.POM - Account and Settings link is clicked
+14:11:50.360 [main] INFO  Dealership.POM - SystemSettings link is visible
+14:11:50.485 [main] INFO  Dealership.POM - SystemSettings link is clicked
+14:11:59.543 [main] INFO  Dealership.POM - Accounting integration link is clicked
+14:12:01.339 [main] INFO  Dealership.POM - AccHeader is visible
+14:12:01.371 [main] INFO  Dealership.POM - AccHeader Text is verified
+14:12:01.475 [main] INFO  Dealership.POM - AccountingDropDown is visible
+14:12:01.576 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+14:12:08.293 [main] INFO  Dealership.POM - AccHeader is visible
+14:12:08.370 [main] INFO  Dealership.POM - AccHeader Text is verified
+14:12:08.649 [main] INFO  Dealership.POM - AddSaleTypebutton is visible
+14:12:08.747 [main] INFO  Dealership.POM - AddSaleTypebutton is clicked
+14:12:14.552 [main] INFO  Dealership.POM - AddSaleTypeField is visible
+14:12:14.983 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+14:14:34.683 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+14:14:43.210 [main] INFO  Dealership.POM - Windows maximized
+14:14:48.062 [main] INFO  Dealership.POM - URL entered
+14:14:48.220 [main] INFO  Dealership.POM - Username field is visible
+14:14:48.684 [main] INFO  Dealership.POM - Password field is visible
+14:14:48.945 [main] INFO  Dealership.POM - Login Button is visible
+14:14:49.050 [main] INFO  Dealership.POM - Login Button is clicked
+14:15:21.814 [main] INFO  Dealership.POM - Account and Settings link is visible
+14:15:21.923 [main] INFO  Dealership.POM - Account and Settings link is clicked
+14:15:22.074 [main] INFO  Dealership.POM - SystemSettings link is visible
+14:15:22.195 [main] INFO  Dealership.POM - SystemSettings link is clicked
+14:15:26.250 [main] INFO  Dealership.POM - Accounting integration link is clicked
+14:15:28.446 [main] INFO  Dealership.POM - AccHeader is visible
+14:15:28.483 [main] INFO  Dealership.POM - AccHeader Text is verified
+14:15:28.658 [main] INFO  Dealership.POM - AccountingDropDown is visible
+14:15:30.559 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+14:15:35.694 [main] INFO  Dealership.POM - AccHeader is visible
+14:15:35.726 [main] INFO  Dealership.POM - AccHeader Text is verified
+14:15:36.059 [main] INFO  Dealership.POM - AddSaleTypebutton is visible
+14:15:36.206 [main] INFO  Dealership.POM - AddSaleTypebutton is clicked
+14:15:42.057 [main] INFO  Dealership.POM - AddSaleTypeField is visible
+14:15:42.239 [main] INFO  Dealership.POM - AddSaleTypeField is clicked
+14:15:45.245 [main] INFO  Dealership.POM - Sale Types are opened
+14:42:58.871 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+14:43:07.941 [main] INFO  Dealership.POM - Windows maximized
+14:43:11.870 [main] INFO  Dealership.POM - URL entered
+14:43:11.991 [main] INFO  Dealership.POM - Username field is visible
+14:43:12.675 [main] INFO  Dealership.POM - Password field is visible
+14:43:13.666 [main] INFO  Dealership.POM - Login Button is visible
+14:43:46.964 [main] INFO  Dealership.POM - Login Button is clicked
+14:44:02.152 [main] INFO  Dealership.POM - Account and Settings link is visible
+14:44:02.225 [main] INFO  Dealership.POM - Account and Settings link is clicked
+14:44:02.386 [main] INFO  Dealership.POM - SystemSettings link is visible
+14:44:02.474 [main] INFO  Dealership.POM - SystemSettings link is clicked
+14:44:05.827 [main] INFO  Dealership.POM - Accounting integration link is clicked
+14:44:07.642 [main] INFO  Dealership.POM - AccHeader is visible
+14:44:07.668 [main] INFO  Dealership.POM - AccHeader Text is verified
+14:44:07.778 [main] INFO  Dealership.POM - AccountingDropDown is visible
+14:44:07.857 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+14:44:15.631 [main] INFO  Dealership.POM - AccHeader is visible
+14:44:15.653 [main] INFO  Dealership.POM - AccHeader Text is verified
+14:44:15.942 [main] INFO  Dealership.POM - AddSaleTypebutton is visible
+14:44:16.069 [main] INFO  Dealership.POM - AddSaleTypebutton is clicked
+14:44:21.871 [main] INFO  Dealership.POM - Code is visible
+14:44:22.223 [main] INFO  Dealership.POM - Code is entered
+14:44:22.433 [main] INFO  Dealership.POM - AddSaleType is visible
+14:44:22.570 [main] INFO  Dealership.POM - Category type 1 is selected
+14:44:22.609 [main] INFO  Dealership.POM - PartCategories is visible
+14:44:22.722 [main] INFO  Dealership.POM - PartCategory is visible
+14:44:22.934 [main] INFO  Dealership.POM - PartCategory is selected
+14:44:22.974 [main] INFO  Dealership.POM - LaborCategories is visible
+14:44:23.101 [main] INFO  Dealership.POM - LaborCategory is visible
+14:44:23.227 [main] INFO  Dealership.POM - LaborCategory is selected
+14:44:23.263 [main] INFO  Dealership.POM - Providers is visible
+14:44:23.420 [main] INFO  Dealership.POM - Provider is visible
+14:44:23.593 [main] INFO  Dealership.POM - Provider is selected
+14:44:23.693 [main] INFO  Dealership.POM - SaveSaleType button  is visible
+14:44:23.779 [main] INFO  Dealership.POM - SaveSaleType button is clicked
+14:44:34.072 [main] INFO  Dealership.POM - EditLink  is visible
+14:44:34.134 [main] INFO  Dealership.POM - EditLink is clicked
+14:44:34.545 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+14:49:41.123 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+14:49:48.771 [main] INFO  Dealership.POM - Windows maximized
+14:49:51.676 [main] INFO  Dealership.POM - URL entered
+14:49:51.815 [main] INFO  Dealership.POM - Username field is visible
+14:49:52.342 [main] INFO  Dealership.POM - Password field is visible
+14:49:52.528 [main] INFO  Dealership.POM - Login Button is visible
+14:50:26.775 [main] INFO  Dealership.POM - Login Button is clicked
+14:50:41.972 [main] INFO  Dealership.POM - Account and Settings link is visible
+14:50:42.050 [main] INFO  Dealership.POM - Account and Settings link is clicked
+14:50:42.143 [main] INFO  Dealership.POM - SystemSettings link is visible
+14:50:42.228 [main] INFO  Dealership.POM - SystemSettings link is clicked
+14:50:45.193 [main] INFO  Dealership.POM - Accounting integration link is clicked
+14:50:47.258 [main] INFO  Dealership.POM - AccHeader is visible
+14:50:47.285 [main] INFO  Dealership.POM - AccHeader Text is verified
+14:50:47.381 [main] INFO  Dealership.POM - AccountingDropDown is visible
+14:50:47.452 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+14:50:55.418 [main] INFO  Dealership.POM - AccHeader is visible
+14:50:55.442 [main] INFO  Dealership.POM - AccHeader Text is verified
+14:50:55.727 [main] INFO  Dealership.POM - AddSaleTypebutton is visible
+14:50:55.847 [main] INFO  Dealership.POM - AddSaleTypebutton is clicked
+14:51:01.615 [main] INFO  Dealership.POM - Code is visible
+14:51:01.927 [main] INFO  Dealership.POM - Code is entered
+14:51:02.107 [main] INFO  Dealership.POM - AddSaleType is visible
+14:51:02.259 [main] INFO  Dealership.POM - Category type 1 is selected
+14:51:02.299 [main] INFO  Dealership.POM - PartCategories is visible
+14:51:02.415 [main] INFO  Dealership.POM - PartCategory is visible
+14:51:02.563 [main] INFO  Dealership.POM - PartCategory is selected
+14:51:02.601 [main] INFO  Dealership.POM - LaborCategories is visible
+14:51:02.758 [main] INFO  Dealership.POM - LaborCategory is visible
+14:51:02.916 [main] INFO  Dealership.POM - LaborCategory is selected
+14:51:02.962 [main] INFO  Dealership.POM - Providers is visible
+14:51:03.145 [main] INFO  Dealership.POM - Provider is visible
+14:51:03.326 [main] INFO  Dealership.POM - Provider is selected
+14:51:03.409 [main] INFO  Dealership.POM - SaveSaleType button  is visible
+14:51:03.529 [main] INFO  Dealership.POM - SaveSaleType button is clicked
+14:51:13.766 [main] INFO  Dealership.POM - EditLink  is visible
+14:51:13.833 [main] INFO  Dealership.POM - EditLink is clicked
+14:51:14.271 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+14:59:54.352 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+15:00:04.591 [main] INFO  Dealership.POM - Windows maximized
+15:00:07.622 [main] INFO  Dealership.POM - URL entered
+15:00:07.706 [main] INFO  Dealership.POM - Username field is visible
+15:00:07.952 [main] INFO  Dealership.POM - Password field is visible
+15:00:08.224 [main] INFO  Dealership.POM - Login Button is visible
+15:00:39.546 [main] INFO  Dealership.POM - Login Button is clicked
+15:00:54.825 [main] INFO  Dealership.POM - Account and Settings link is visible
+15:00:54.916 [main] INFO  Dealership.POM - Account and Settings link is clicked
+15:00:55.027 [main] INFO  Dealership.POM - SystemSettings link is visible
+15:00:55.117 [main] INFO  Dealership.POM - SystemSettings link is clicked
+15:00:58.366 [main] INFO  Dealership.POM - Accounting integration link is clicked
+15:01:00.518 [main] INFO  Dealership.POM - AccHeader is visible
+15:01:00.546 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:01:00.637 [main] INFO  Dealership.POM - AccountingDropDown is visible
+15:01:00.725 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+15:01:08.969 [main] INFO  Dealership.POM - AccHeader is visible
+15:01:08.992 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:01:09.262 [main] INFO  Dealership.POM - AddSaleTypebutton is visible
+15:01:09.369 [main] INFO  Dealership.POM - AddSaleTypebutton is clicked
+15:01:15.295 [main] INFO  Dealership.POM - Code is visible
+15:01:15.684 [main] INFO  Dealership.POM - Code is entered
+15:01:15.900 [main] INFO  Dealership.POM - AddSaleType is visible
+15:01:16.042 [main] INFO  Dealership.POM - Category type 1 is selected
+15:01:16.096 [main] INFO  Dealership.POM - PartCategories is visible
+15:01:16.218 [main] INFO  Dealership.POM - PartCategory is visible
+15:01:16.360 [main] INFO  Dealership.POM - PartCategory is selected
+15:01:16.399 [main] INFO  Dealership.POM - LaborCategories is visible
+15:01:16.521 [main] INFO  Dealership.POM - LaborCategory is visible
+15:01:16.633 [main] INFO  Dealership.POM - LaborCategory is selected
+15:01:16.672 [main] INFO  Dealership.POM - Providers is visible
+15:01:16.796 [main] INFO  Dealership.POM - Provider is visible
+15:01:16.953 [main] INFO  Dealership.POM - Provider is selected
+15:01:17.040 [main] INFO  Dealership.POM - SaveSaleType button  is visible
+15:01:17.132 [main] INFO  Dealership.POM - SaveSaleType button is clicked
+15:01:28.656 [main] INFO  Dealership.POM - EditLink  is visible
+15:01:28.843 [main] INFO  Dealership.POM - EditLink is clicked
+15:01:29.409 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+15:10:37.064 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+15:10:44.954 [main] INFO  Dealership.POM - Windows maximized
+15:10:48.589 [main] INFO  Dealership.POM - URL entered
+15:10:48.684 [main] INFO  Dealership.POM - Username field is visible
+15:10:48.866 [main] INFO  Dealership.POM - Password field is visible
+15:10:49.015 [main] INFO  Dealership.POM - Login Button is visible
+15:11:05.818 [main] INFO  Dealership.POM - Login Button is clicked
+15:11:36.074 [main] INFO  Dealership.POM - Account and Settings link is visible
+15:11:36.154 [main] INFO  Dealership.POM - Account and Settings link is clicked
+15:11:36.282 [main] INFO  Dealership.POM - SystemSettings link is visible
+15:11:36.380 [main] INFO  Dealership.POM - SystemSettings link is clicked
+15:11:39.910 [main] INFO  Dealership.POM - Accounting integration link is clicked
+15:11:41.781 [main] INFO  Dealership.POM - AccHeader is visible
+15:11:41.833 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:11:41.991 [main] INFO  Dealership.POM - AccountingDropDown is visible
+15:11:42.160 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+15:11:50.961 [main] INFO  Dealership.POM - AccHeader is visible
+15:11:50.994 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:11:51.315 [main] INFO  Dealership.POM - AddSaleTypebutton is visible
+15:11:51.435 [main] INFO  Dealership.POM - AddSaleTypebutton is clicked
+15:11:57.319 [main] INFO  Dealership.POM - Code is visible
+15:11:57.636 [main] INFO  Dealership.POM - Code is entered
+15:11:57.845 [main] INFO  Dealership.POM - AddSaleType is visible
+15:11:57.997 [main] INFO  Dealership.POM - Category type 0 is selected
+15:11:58.044 [main] INFO  Dealership.POM - PartCategories is visible
+15:11:58.201 [main] INFO  Dealership.POM - PartCategory is visible
+15:11:58.344 [main] INFO  Dealership.POM - PartCategory is selected
+15:11:58.383 [main] INFO  Dealership.POM - LaborCategories is visible
+15:11:58.509 [main] INFO  Dealership.POM - LaborCategory is visible
+15:11:58.643 [main] INFO  Dealership.POM - LaborCategory is selected
+15:11:58.734 [main] INFO  Dealership.POM - SaveSaleType button  is visible
+15:11:58.806 [main] INFO  Dealership.POM - SaveSaleType button is clicked
+15:12:09.017 [main] INFO  Dealership.POM - EditLink  is visible
+15:12:09.073 [main] INFO  Dealership.POM - EditLink is clicked
+15:12:09.445 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+15:16:44.458 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+15:16:53.105 [main] INFO  Dealership.POM - Windows maximized
+15:16:55.832 [main] INFO  Dealership.POM - URL entered
+15:16:55.985 [main] INFO  Dealership.POM - Username field is visible
+15:16:56.399 [main] INFO  Dealership.POM - Password field is visible
+15:16:56.586 [main] INFO  Dealership.POM - Login Button is visible
+15:17:29.414 [main] INFO  Dealership.POM - Login Button is clicked
+15:17:44.584 [main] INFO  Dealership.POM - Account and Settings link is visible
+15:17:44.667 [main] INFO  Dealership.POM - Account and Settings link is clicked
+15:17:44.776 [main] INFO  Dealership.POM - SystemSettings link is visible
+15:17:44.866 [main] INFO  Dealership.POM - SystemSettings link is clicked
+15:17:47.913 [main] INFO  Dealership.POM - Accounting integration link is clicked
+15:17:50.077 [main] INFO  Dealership.POM - AccHeader is visible
+15:17:50.154 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:17:50.240 [main] INFO  Dealership.POM - AccountingDropDown is visible
+15:17:50.324 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+15:17:56.866 [main] INFO  Dealership.POM - AccHeader is visible
+15:17:56.890 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:17:57.357 [main] INFO  Dealership.POM - AddSaleTypebutton is visible
+15:17:57.509 [main] INFO  Dealership.POM - AddSaleTypebutton is clicked
+15:18:03.339 [main] INFO  Dealership.POM - Code is visible
+15:18:03.623 [main] INFO  Dealership.POM - Code is entered
+15:18:03.794 [main] INFO  Dealership.POM - AddSaleType is visible
+15:18:03.895 [main] INFO  Dealership.POM - Category type 0 is selected
+15:18:03.936 [main] INFO  Dealership.POM - PartCategories is visible
+15:18:04.055 [main] INFO  Dealership.POM - PartCategory is visible
+15:18:04.186 [main] INFO  Dealership.POM - PartCategory is selected
+15:18:04.228 [main] INFO  Dealership.POM - LaborCategories is visible
+15:18:04.378 [main] INFO  Dealership.POM - LaborCategory is visible
+15:18:04.500 [main] INFO  Dealership.POM - LaborCategory is selected
+15:18:04.594 [main] INFO  Dealership.POM - SaveSaleType button  is visible
+15:18:04.690 [main] INFO  Dealership.POM - SaveSaleType button is clicked
+15:18:14.982 [main] INFO  Dealership.POM - EditLink  is visible
+15:18:15.048 [main] INFO  Dealership.POM - EditLink is clicked
+15:18:15.693 [main] INFO  Dealership.POM - SaveEdits button  is visible
+15:18:16.957 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+15:31:22.943 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+15:31:30.620 [main] INFO  Dealership.POM - Windows maximized
+15:31:32.639 [main] INFO  Dealership.POM - URL entered
+15:31:32.788 [main] INFO  Dealership.POM - Username field is visible
+15:31:33.098 [main] INFO  Dealership.POM - Password field is visible
+15:31:33.376 [main] INFO  Dealership.POM - Login Button is visible
+15:32:05.963 [main] INFO  Dealership.POM - Login Button is clicked
+15:32:21.184 [main] INFO  Dealership.POM - Account and Settings link is visible
+15:32:21.278 [main] INFO  Dealership.POM - Account and Settings link is clicked
+15:32:21.406 [main] INFO  Dealership.POM - SystemSettings link is visible
+15:32:21.493 [main] INFO  Dealership.POM - SystemSettings link is clicked
+15:33:34.413 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+15:33:41.837 [main] INFO  Dealership.POM - Windows maximized
+15:33:43.653 [main] INFO  Dealership.POM - URL entered
+15:33:43.769 [main] INFO  Dealership.POM - Username field is visible
+15:33:44.112 [main] INFO  Dealership.POM - Password field is visible
+15:33:44.363 [main] INFO  Dealership.POM - Login Button is visible
+15:33:44.456 [main] INFO  Dealership.POM - Login Button is clicked
+15:34:15.008 [main] INFO  Dealership.POM - Account and Settings link is visible
+15:34:15.094 [main] INFO  Dealership.POM - Account and Settings link is clicked
+15:34:15.242 [main] INFO  Dealership.POM - SystemSettings link is visible
+15:34:15.330 [main] INFO  Dealership.POM - SystemSettings link is clicked
+15:34:18.470 [main] INFO  Dealership.POM - Accounting integration link is clicked
+15:34:20.300 [main] INFO  Dealership.POM - AccHeader is visible
+15:34:20.394 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:34:20.536 [main] INFO  Dealership.POM - AccountingDropDown is visible
+15:34:20.645 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+15:34:27.689 [main] INFO  Dealership.POM - AccHeader is visible
+15:34:27.708 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:34:27.889 [main] INFO  Dealership.POM - AddSaleTypebutton is visible
+15:34:27.985 [main] INFO  Dealership.POM - AddSaleTypebutton is clicked
+15:34:33.792 [main] INFO  Dealership.POM - Code is visible
+15:34:34.268 [main] INFO  Dealership.POM - Code is entered
+15:34:34.606 [main] INFO  Dealership.POM - AddSaleType is visible
+15:34:34.802 [main] INFO  Dealership.POM - Category type 0 is selected
+15:34:34.859 [main] INFO  Dealership.POM - PartCategories is visible
+15:34:35.035 [main] INFO  Dealership.POM - PartCategory is visible
+15:34:35.216 [main] INFO  Dealership.POM - PartCategory is selected
+15:34:35.265 [main] INFO  Dealership.POM - LaborCategories is visible
+15:34:35.445 [main] INFO  Dealership.POM - LaborCategory is visible
+15:34:35.592 [main] INFO  Dealership.POM - LaborCategory is selected
+15:34:35.696 [main] INFO  Dealership.POM - SaveSaleType button  is visible
+15:34:35.801 [main] INFO  Dealership.POM - SaveSaleType button is clicked
+15:34:46.598 [main] INFO  Dealership.POM - EditLink  is visible
+15:34:46.693 [main] INFO  Dealership.POM - EditLink is clicked
+15:34:46.981 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+15:37:20.041 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+15:37:27.790 [main] INFO  Dealership.POM - Windows maximized
+15:37:29.772 [main] INFO  Dealership.POM - URL entered
+15:37:29.886 [main] INFO  Dealership.POM - Username field is visible
+15:37:30.113 [main] INFO  Dealership.POM - Password field is visible
+15:37:30.293 [main] INFO  Dealership.POM - Login Button is visible
+15:38:01.575 [main] INFO  Dealership.POM - Login Button is clicked
+15:38:16.777 [main] INFO  Dealership.POM - Account and Settings link is visible
+15:38:16.861 [main] INFO  Dealership.POM - Account and Settings link is clicked
+15:38:16.986 [main] INFO  Dealership.POM - SystemSettings link is visible
+15:38:17.071 [main] INFO  Dealership.POM - SystemSettings link is clicked
+15:38:20.212 [main] INFO  Dealership.POM - Accounting integration link is clicked
+15:38:21.809 [main] INFO  Dealership.POM - AccHeader is visible
+15:38:21.836 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:38:21.940 [main] INFO  Dealership.POM - AccountingDropDown is visible
+15:38:22.006 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+15:38:28.861 [main] INFO  Dealership.POM - AccHeader is visible
+15:38:28.887 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:38:29.125 [main] INFO  Dealership.POM - AddSaleTypebutton is visible
+15:38:29.235 [main] INFO  Dealership.POM - AddSaleTypebutton is clicked
+15:38:35.040 [main] INFO  Dealership.POM - Code is visible
+15:38:35.394 [main] INFO  Dealership.POM - Code is entered
+15:38:35.601 [main] INFO  Dealership.POM - AddSaleType is visible
+15:38:35.714 [main] INFO  Dealership.POM - Category type 0 is selected
+15:38:35.755 [main] INFO  Dealership.POM - PartCategories is visible
+15:38:35.892 [main] INFO  Dealership.POM - PartCategory is visible
+15:38:35.999 [main] INFO  Dealership.POM - PartCategory is selected
+15:38:36.032 [main] INFO  Dealership.POM - LaborCategories is visible
+15:38:36.152 [main] INFO  Dealership.POM - LaborCategory is visible
+15:38:36.284 [main] INFO  Dealership.POM - LaborCategory is selected
+15:38:36.364 [main] INFO  Dealership.POM - SaveSaleType button  is visible
+15:38:36.465 [main] INFO  Dealership.POM - SaveSaleType button is clicked
+15:38:46.957 [main] INFO  Dealership.POM - EditLink  is visible
+15:38:47.020 [main] INFO  Dealership.POM - EditLink is clicked
+15:38:48.170 [main] INFO  Dealership.POM - LaborCategories is visible
+15:38:48.356 [main] INFO  Dealership.POM - SaveEdits button  is visible
+15:38:48.447 [main] INFO  Dealership.POM - SaveEdits button is clicked
+15:38:48.770 [main] INFO  Dealership.POM - AddSaleTypebutton is visible
+15:38:49.479 [main] INFO  Dealership.POM - AddSaleTypebutton is clicked
+15:40:29.804 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+15:42:37.905 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+15:42:45.433 [main] INFO  Dealership.POM - Windows maximized
+15:42:47.582 [main] INFO  Dealership.POM - URL entered
+15:42:47.717 [main] INFO  Dealership.POM - Username field is visible
+15:42:48.019 [main] INFO  Dealership.POM - Password field is visible
+15:42:48.295 [main] INFO  Dealership.POM - Login Button is visible
+15:43:19.415 [main] INFO  Dealership.POM - Login Button is clicked
+15:43:34.601 [main] INFO  Dealership.POM - Account and Settings link is visible
+15:43:34.694 [main] INFO  Dealership.POM - Account and Settings link is clicked
+15:43:34.804 [main] INFO  Dealership.POM - SystemSettings link is visible
+15:43:34.884 [main] INFO  Dealership.POM - SystemSettings link is clicked
+15:43:38.053 [main] INFO  Dealership.POM - Accounting integration link is clicked
+15:43:40.050 [main] INFO  Dealership.POM - AccHeader is visible
+15:43:40.082 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:43:40.180 [main] INFO  Dealership.POM - AccountingDropDown is visible
+15:43:40.238 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+15:43:45.706 [main] INFO  Dealership.POM - AccHeader is visible
+15:43:45.726 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:43:45.924 [main] INFO  Dealership.POM - AddSaleTypebutton is visible
+15:43:46.042 [main] INFO  Dealership.POM - AddSaleTypebutton is clicked
+15:43:51.946 [main] INFO  Dealership.POM - Code is visible
+15:43:52.269 [main] INFO  Dealership.POM - Code is entered
+15:43:52.515 [main] INFO  Dealership.POM - AddSaleType is visible
+15:43:52.656 [main] INFO  Dealership.POM - Category type 0 is selected
+15:43:52.694 [main] INFO  Dealership.POM - PartCategories is visible
+15:43:52.831 [main] INFO  Dealership.POM - PartCategory is visible
+15:43:52.943 [main] INFO  Dealership.POM - PartCategory is selected
+15:43:52.976 [main] INFO  Dealership.POM - LaborCategories is visible
+15:43:53.096 [main] INFO  Dealership.POM - LaborCategory is visible
+15:43:53.202 [main] INFO  Dealership.POM - LaborCategory is selected
+15:43:53.283 [main] INFO  Dealership.POM - SaveSaleType button  is visible
+15:43:53.391 [main] INFO  Dealership.POM - SaveSaleType button is clicked
+15:44:03.843 [main] INFO  Dealership.POM - EditLink  is visible
+15:44:03.904 [main] INFO  Dealership.POM - EditLink is clicked
+15:44:05.043 [main] INFO  Dealership.POM - LaborCategories is visible
+15:44:05.217 [main] INFO  Dealership.POM - SaveEdits button  is visible
+15:44:05.288 [main] INFO  Dealership.POM - SaveEdits button is clicked
+15:44:10.593 [main] INFO  Dealership.POM - AddSaleTypebutton is visible
+15:44:10.722 [main] INFO  Dealership.POM - AddSaleTypebutton is clicked
+15:44:16.540 [main] INFO  Dealership.POM - Code is visible
+15:44:16.815 [main] INFO  Dealership.POM - Code is entered
+15:44:17.014 [main] INFO  Dealership.POM - AddSaleType is visible
+15:44:17.186 [main] INFO  Dealership.POM - Category type 1 is selected
+15:44:17.216 [main] INFO  Dealership.POM - PartCategories is visible
+15:44:17.309 [main] INFO  Dealership.POM - PartCategory is visible
+15:44:17.429 [main] INFO  Dealership.POM - PartCategory is selected
+15:44:17.454 [main] INFO  Dealership.POM - LaborCategories is visible
+15:44:17.544 [main] INFO  Dealership.POM - LaborCategory is visible
+15:44:17.614 [main] INFO  Dealership.POM - LaborCategory is selected
+15:44:17.645 [main] INFO  Dealership.POM - Providers is visible
+15:44:17.761 [main] INFO  Dealership.POM - Provider is visible
+15:44:17.896 [main] INFO  Dealership.POM - Provider is selected
+15:44:17.971 [main] INFO  Dealership.POM - SaveSaleType button  is visible
+15:44:18.036 [main] INFO  Dealership.POM - SaveSaleType button is clicked
+15:44:30.426 [main] INFO  Dealership.POM - EditLink  is visible
+15:44:30.512 [main] INFO  Dealership.POM - EditLink is clicked
+15:44:31.651 [main] INFO  Dealership.POM - Providers is visible
+15:44:31.867 [main] INFO  Dealership.POM - SaveEdits button  is visible
+15:44:31.943 [main] INFO  Dealership.POM - SaveEdits button is clicked
+15:44:37.622 [main] INFO  Dealership.POM - AddSaleTypebutton is visible
+15:44:37.775 [main] INFO  Dealership.POM - AddSaleTypebutton is clicked
+15:44:43.634 [main] INFO  Dealership.POM - Code is visible
+15:44:44.084 [main] INFO  Dealership.POM - Code is entered
+15:44:44.266 [main] INFO  Dealership.POM - AddSaleType is visible
+15:44:44.461 [main] INFO  Dealership.POM - Category type 2 is selected
+15:44:44.505 [main] INFO  Dealership.POM - PartCategories is visible
+15:44:44.706 [main] INFO  Dealership.POM - PartCategory is visible
+15:44:44.795 [main] INFO  Dealership.POM - PartCategory is selected
+15:44:44.826 [main] INFO  Dealership.POM - LaborCategories is visible
+15:44:44.928 [main] INFO  Dealership.POM - LaborCategory is visible
+15:44:45.027 [main] INFO  Dealership.POM - LaborCategory is selected
+15:44:45.065 [main] INFO  Dealership.POM - InternalCategories is visible
+15:44:45.212 [main] INFO  Dealership.POM - InternalCategory is visible
+15:44:45.426 [main] INFO  Dealership.POM - InternalCategory is selected
+15:44:45.514 [main] INFO  Dealership.POM - SaveSaleType button  is visible
+15:44:45.721 [main] INFO  Dealership.POM - SaveSaleType button is clicked
+15:45:01.332 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration

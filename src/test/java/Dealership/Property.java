@@ -359,6 +359,27 @@ public class Property extends Variables {
 		appointmentCONumber			=	locators.getProperty("appointmentCONumber");
 		unitNameonCard				=	locators.getProperty("unitNameonCard");
 		
+		//SystemSettings
+		acandset					=	locators.getProperty("acandset");
+		settingsTiles				=	locators.getProperty("settingsTiles");
+		accheader					=	locators.getProperty("accheader");
+		accountingDropDown			=	locators.getProperty("accountingDropDown");
+		accountingoptions			=	locators.getProperty("accountingoptions");
+		lastSyncTime				=	locators.getProperty("lastSyncTime");
+		accountsListPopUp			=	locators.getProperty("accountsListPopUp");
+		okButton					=	locators.getProperty("okButton");
+		controlAccFields			=	locators.getProperty("controlAccFields");
+		undepositedFundsFields		=	locators.getProperty("undepositedFundsFields");
+		defaultAccountsFields		=	locators.getProperty("defaultAccountsFields");
+		addCategorybutton			=	locators.getProperty("addCategorybutton");
+		addCategoryWindow			=	locators.getProperty("addCategoryWindow");
+		addCategoryType				=	locators.getProperty("addCategoryType");
+		categories					=	locators.getProperty("categories");	
+		categoryName				=	locators.getProperty("categoryName");	
+		incomeGL					=	locators.getProperty("incomeGL");
+		accheader2					=	locators.getProperty("accheader2");
+		addSaleTypeWindow			=	locators.getProperty("addSaleTypeWindow");
+		activeLabel					=	locators.getProperty("activeLabel");
 		
 		
 	 }

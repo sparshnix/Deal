@@ -20,6 +20,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -44,6 +45,7 @@ public class POM extends Variables {
 	public static int TodaysDateInt = Integer.parseInt(Todaysdate);
 	public static Logger log = LogManager.getLogger(POM.class.getName());
 	public static Random random = new Random();
+	
 	@SuppressWarnings("deprecation")
 	
 	public static void Login() throws Exception {
@@ -67,7 +69,7 @@ public class POM extends Variables {
 		}
 		if (browser.equalsIgnoreCase("IE")) {
 			WebDriverManager.iedriver().setup();
-			driver = new FirefoxDriver();
+			driver = new EdgeDriver();
 		}
 
 		driver.manage().window().maximize();
@@ -141,7 +143,7 @@ public class POM extends Variables {
 		WebDriverWait wt = new WebDriverWait(driver, 20);
 		WebElement Searchbox = driver.findElement(By.id("globalSearchStrInput"));
 		Assert.assertTrue(Searchbox.isDisplayed(), "Searchbox is missing");
-		Searchbox.sendKeys("sparsh-21_12_202103_18_37 shrivastava");
+		Searchbox.sendKeys(defaultUser);
 		log.info("Customer name is entered in seachbox");
 		Thread.sleep(10000);
 		

@@ -1,0 +1,701 @@
+15:53:34.535 [main] INFO  Dealership.POM - AccountingDropDown is visible
+15:53:34.924 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+15:53:41.385 [main] INFO  Dealership.POM - The First option is Xero
+15:53:41.448 [main] INFO  Dealership.POM - The Second option is QuickBooks Online
+15:53:41.525 [main] INFO  Dealership.POM - The Third option is MYOB Account Right
+15:53:41.683 [main] INFO  Dealership.POM - The Forth option is No Integration
+15:53:41.972 [main] INFO  Dealership.POM - TestButton is visible
+15:53:42.077 [main] INFO  Dealership.POM - TestButton is clicked
+15:53:45.882 [main] INFO  Dealership.POM - Notification is visible
+15:53:45.904 [main] INFO  Dealership.POM - Connection is tested
+15:53:46.060 [main] INFO  Dealership.POM - NextButton is visible
+15:53:46.194 [main] INFO  Dealership.POM - NextButton is clicked
+15:53:56.443 [main] INFO  Dealership.POM - AccHeader is visible
+15:53:56.465 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:53:56.712 [main] INFO  Dealership.POM - LastSyncTime is visible
+15:53:56.736 [main] INFO  Dealership.POM - LastSyncTime is February 16, 2022 11:17 PM NZST
+15:53:56.908 [main] INFO  Dealership.POM - SyncNowButton is visible
+15:53:57.043 [main] INFO  Dealership.POM - SyncNowButton is clicked
+15:54:02.059 [main] INFO  Dealership.POM - Notification is visible
+15:54:02.228 [main] INFO  Dealership.POM - LastSyncTime is visible
+15:54:02.241 [main] INFO  Dealership.POM - LastSyncTime is February 16, 2022 11:23 PM NZST
+15:54:02.242 [main] INFO  Dealership.POM - Account is Synced successfully
+15:54:02.443 [main] INFO  Dealership.POM - ViewButton is visible
+15:54:02.585 [main] INFO  Dealership.POM - ViewButton is clicked
+15:54:03.398 [main] INFO  Dealership.POM - AccountsListPopUp is visible
+15:54:03.496 [main] INFO  Dealership.POM - AccountsListPopUp is verified
+15:54:03.692 [main] INFO  Dealership.POM - OKButton is visible
+15:54:03.793 [main] INFO  Dealership.POM - OKButton is clicked
+15:54:08.880 [main] INFO  Dealership.POM - NextButton is visible
+15:54:08.968 [main] INFO  Dealership.POM - NextButton is clicked
+15:54:19.261 [main] INFO  Dealership.POM - AccHeader is visible
+15:54:19.283 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:54:19.699 [main] INFO  Dealership.POM - ControlAccFields are visible
+15:54:19.870 [main] INFO  Dealership.POM - NextButton is visible
+15:54:19.997 [main] INFO  Dealership.POM - NextButton is clicked
+15:54:30.288 [main] INFO  Dealership.POM - AccHeader is visible
+15:54:30.311 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:54:30.808 [main] INFO  Dealership.POM - UndepositedFundsFields are visible
+15:54:30.905 [main] INFO  Dealership.POM - NextButton is visible
+15:54:31.025 [main] INFO  Dealership.POM - NextButton is clicked
+15:54:41.290 [main] INFO  Dealership.POM - AccHeader is visible
+15:54:41.321 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:54:41.559 [main] INFO  Dealership.POM - DefaultAccountsFields are visible
+15:54:41.637 [main] INFO  Dealership.POM - NextButton is visible
+15:54:41.744 [main] INFO  Dealership.POM - NextButton is clicked
+15:54:51.961 [main] INFO  Dealership.POM - AccHeader is visible
+15:54:51.985 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:54:52.202 [main] INFO  Dealership.POM - AddCategorybutton is visible
+15:54:53.577 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+15:57:39.392 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+15:57:48.237 [main] INFO  Dealership.POM - Windows maximized
+15:57:51.362 [main] INFO  Dealership.POM - URL entered
+15:57:51.531 [main] INFO  Dealership.POM - Username field is visible
+15:57:52.200 [main] INFO  Dealership.POM - Password field is visible
+15:57:52.970 [main] INFO  Dealership.POM - Login Button is visible
+15:58:49.866 [main] INFO  Dealership.POM - Login Button is clicked
+15:59:05.042 [main] INFO  Dealership.POM - Account and Settings link is visible
+15:59:05.136 [main] INFO  Dealership.POM - Account and Settings link is clicked
+15:59:05.255 [main] INFO  Dealership.POM - SystemSettings link is visible
+15:59:05.380 [main] INFO  Dealership.POM - SystemSettings link is clicked
+15:59:10.483 [main] INFO  Dealership.POM - Accounting integration link is clicked
+15:59:16.263 [main] INFO  Dealership.POM - AccHeader is visible
+15:59:16.289 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:59:16.372 [main] INFO  Dealership.POM - AccountingDropDown is visible
+15:59:16.443 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+15:59:16.572 [main] INFO  Dealership.POM - The First option is Xero
+15:59:16.637 [main] INFO  Dealership.POM - The Second option is QuickBooks Online
+15:59:16.717 [main] INFO  Dealership.POM - The Third option is MYOB Account Right
+15:59:22.047 [main] INFO  Dealership.POM - The Forth option is No Integration
+15:59:22.383 [main] INFO  Dealership.POM - TestButton is visible
+15:59:22.498 [main] INFO  Dealership.POM - TestButton is clicked
+15:59:28.616 [main] INFO  Dealership.POM - Notification is visible
+15:59:28.638 [main] INFO  Dealership.POM - Connection is tested
+15:59:28.813 [main] INFO  Dealership.POM - NextButton is visible
+15:59:28.946 [main] INFO  Dealership.POM - NextButton is clicked
+15:59:39.167 [main] INFO  Dealership.POM - AccHeader is visible
+15:59:39.186 [main] INFO  Dealership.POM - AccHeader Text is verified
+15:59:39.389 [main] INFO  Dealership.POM - LastSyncTime is visible
+15:59:39.409 [main] INFO  Dealership.POM - LastSyncTime is February 16, 2022 11:23 PM NZST
+15:59:39.546 [main] INFO  Dealership.POM - SyncNowButton is visible
+15:59:39.654 [main] INFO  Dealership.POM - SyncNowButton is clicked
+15:59:47.355 [main] INFO  Dealership.POM - Notification is visible
+15:59:47.480 [main] INFO  Dealership.POM - LastSyncTime is visible
+15:59:47.495 [main] INFO  Dealership.POM - LastSyncTime is February 16, 2022 11:29 PM NZST
+15:59:47.495 [main] INFO  Dealership.POM - Account is Synced successfully
+15:59:47.666 [main] INFO  Dealership.POM - ViewButton is visible
+15:59:47.753 [main] INFO  Dealership.POM - ViewButton is clicked
+15:59:48.604 [main] INFO  Dealership.POM - AccountsListPopUp is visible
+15:59:48.633 [main] INFO  Dealership.POM - AccountsListPopUp is verified
+15:59:48.794 [main] INFO  Dealership.POM - OKButton is visible
+15:59:48.890 [main] INFO  Dealership.POM - OKButton is clicked
+15:59:54.006 [main] INFO  Dealership.POM - NextButton is visible
+15:59:54.149 [main] INFO  Dealership.POM - NextButton is clicked
+16:00:29.660 [main] INFO  Dealership.POM - AccHeader is visible
+16:00:29.680 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:00:30.119 [main] INFO  Dealership.POM - ControlAccFields are visible
+16:00:30.289 [main] INFO  Dealership.POM - NextButton is visible
+16:00:30.461 [main] INFO  Dealership.POM - NextButton is clicked
+16:00:40.720 [main] INFO  Dealership.POM - AccHeader is visible
+16:00:40.742 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:00:41.213 [main] INFO  Dealership.POM - UndepositedFundsFields are visible
+16:00:41.297 [main] INFO  Dealership.POM - NextButton is visible
+16:00:41.417 [main] INFO  Dealership.POM - NextButton is clicked
+16:00:51.653 [main] INFO  Dealership.POM - AccHeader is visible
+16:00:51.672 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:00:51.910 [main] INFO  Dealership.POM - DefaultAccountsFields are visible
+16:00:51.990 [main] INFO  Dealership.POM - NextButton is visible
+16:00:52.132 [main] INFO  Dealership.POM - NextButton is clicked
+16:01:02.353 [main] INFO  Dealership.POM - AccHeader is visible
+16:01:02.374 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:01:02.803 [main] INFO  Dealership.POM - AddCategorybutton is visible
+16:01:03.023 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+16:01:12.346 [main] INFO  Dealership.POM - AddCategoryType is visible
+16:01:12.474 [main] INFO  Dealership.POM - AddCategoryType is clicked
+16:01:12.729 [main] INFO  Dealership.POM -  type is selected
+16:01:12.833 [main] INFO  Dealership.POM - CategoryName is visible
+16:01:13.288 [main] INFO  Dealership.POM - CategoryName is entered
+16:01:13.370 [main] INFO  Dealership.POM - SaveCategory is visible
+16:01:13.508 [main] INFO  Dealership.POM - Category is Saved
+16:01:17.030 [main] INFO  Dealership.POM - NewCategory is visible
+16:01:17.214 [main] INFO  Dealership.POM - Editicon is visible
+16:01:17.309 [main] INFO  Dealership.POM - Editicon is clicked
+16:01:24.055 [main] INFO  Dealership.POM - CategoryName is visible
+16:01:24.436 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+16:11:44.861 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+16:11:57.141 [main] INFO  Dealership.POM - Windows maximized
+16:12:00.157 [main] INFO  Dealership.POM - URL entered
+16:12:00.287 [main] INFO  Dealership.POM - Username field is visible
+16:12:00.584 [main] INFO  Dealership.POM - Password field is visible
+16:12:01.496 [main] INFO  Dealership.POM - Login Button is visible
+16:12:02.046 [main] INFO  Dealership.POM - Login Button is clicked
+16:12:26.310 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:12:26.477 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:12:26.599 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:12:26.710 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:12:34.662 [main] INFO  Dealership.POM - Accounting integration link is clicked
+16:12:36.646 [main] INFO  Dealership.POM - AccHeader is visible
+16:12:36.678 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:12:36.779 [main] INFO  Dealership.POM - AccountingDropDown is visible
+16:12:36.885 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+16:13:02.003 [main] INFO  Dealership.POM - AccHeader is visible
+16:13:02.025 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:13:02.254 [main] INFO  Dealership.POM - AddCategorybutton is visible
+16:13:02.378 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+16:13:11.023 [main] INFO  Dealership.POM - AddCategoryType is visible
+16:13:11.137 [main] INFO  Dealership.POM - AddCategoryType is clicked
+16:13:11.361 [main] INFO  Dealership.POM -  type is selected
+16:13:11.615 [main] INFO  Dealership.POM - CategoryName is visible
+16:13:12.685 [main] INFO  Dealership.POM - CategoryName is entered
+16:13:12.919 [main] INFO  Dealership.POM - SaveCategory is visible
+16:13:13.099 [main] INFO  Dealership.POM - Category is Saved
+16:13:13.298 [main] INFO  Dealership.POM - NewCategory is visible
+16:13:13.540 [main] INFO  Dealership.POM - Editicon is visible
+16:13:14.898 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+16:15:21.497 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+16:15:30.159 [main] INFO  Dealership.POM - Windows maximized
+16:15:32.184 [main] INFO  Dealership.POM - URL entered
+16:15:32.351 [main] INFO  Dealership.POM - Username field is visible
+16:15:32.712 [main] INFO  Dealership.POM - Password field is visible
+16:15:33.032 [main] INFO  Dealership.POM - Login Button is visible
+16:15:33.134 [main] INFO  Dealership.POM - Login Button is clicked
+16:16:07.010 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:16:07.110 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:16:07.226 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:16:07.310 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:16:10.688 [main] INFO  Dealership.POM - Accounting integration link is clicked
+16:16:12.670 [main] INFO  Dealership.POM - AccHeader is visible
+16:16:12.702 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:16:12.999 [main] INFO  Dealership.POM - AccountingDropDown is visible
+16:16:16.563 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+16:16:20.321 [main] INFO  Dealership.POM - AccHeader is visible
+16:16:20.344 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:16:20.567 [main] INFO  Dealership.POM - AddCategorybutton is visible
+16:16:20.730 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+16:16:28.675 [main] INFO  Dealership.POM - AddCategoryType is visible
+16:16:28.843 [main] INFO  Dealership.POM - AddCategoryType is clicked
+16:16:29.231 [main] INFO  Dealership.POM -  type is selected
+16:16:29.371 [main] INFO  Dealership.POM - CategoryName is visible
+16:16:29.894 [main] INFO  Dealership.POM - CategoryName is entered
+16:16:29.976 [main] INFO  Dealership.POM - SaveCategory is visible
+16:16:30.145 [main] INFO  Dealership.POM - Category is Saved
+16:16:30.385 [main] INFO  Dealership.POM - NewCategory is visible
+16:16:30.688 [main] INFO  Dealership.POM - Editicon is visible
+16:16:32.110 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+16:23:23.572 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+16:23:32.239 [main] INFO  Dealership.POM - Windows maximized
+16:23:34.563 [main] INFO  Dealership.POM - URL entered
+16:23:34.732 [main] INFO  Dealership.POM - Username field is visible
+16:23:35.132 [main] INFO  Dealership.POM - Password field is visible
+16:23:35.806 [main] INFO  Dealership.POM - Login Button is visible
+16:23:36.086 [main] INFO  Dealership.POM - Login Button is clicked
+16:24:07.860 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:24:07.961 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:24:08.111 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:24:08.228 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:24:12.783 [main] INFO  Dealership.POM - Accounting integration link is clicked
+16:24:16.535 [main] INFO  Dealership.POM - AccHeader is visible
+16:24:16.576 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:24:16.739 [main] INFO  Dealership.POM - AccountingDropDown is visible
+16:24:23.150 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+16:24:26.814 [main] INFO  Dealership.POM - AccHeader is visible
+16:24:26.834 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:24:27.056 [main] INFO  Dealership.POM - AddCategorybutton is visible
+16:24:27.176 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+16:24:35.215 [main] INFO  Dealership.POM - AddCategoryType is visible
+16:24:35.355 [main] INFO  Dealership.POM - AddCategoryType is clicked
+16:24:35.673 [main] INFO  Dealership.POM - Category type 1 is selected
+16:24:35.810 [main] INFO  Dealership.POM - CategoryName is visible
+16:24:36.459 [main] INFO  Dealership.POM - CategoryName is entered
+16:24:36.552 [main] INFO  Dealership.POM - SaveCategory is visible
+16:24:36.700 [main] INFO  Dealership.POM - Category is Saved
+16:24:39.748 [main] INFO  Dealership.POM - NewCategory is visible
+16:24:39.964 [main] INFO  Dealership.POM - Editicon is visible
+16:24:40.842 [main] INFO  Dealership.POM - Editicon is clicked
+16:24:47.026 [main] INFO  Dealership.POM - CategoryName is visible
+16:24:47.323 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+16:27:19.485 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+16:27:28.545 [main] INFO  Dealership.POM - Windows maximized
+16:27:30.954 [main] INFO  Dealership.POM - URL entered
+16:27:31.099 [main] INFO  Dealership.POM - Username field is visible
+16:27:31.362 [main] INFO  Dealership.POM - Password field is visible
+16:27:31.693 [main] INFO  Dealership.POM - Login Button is visible
+16:27:31.813 [main] INFO  Dealership.POM - Login Button is clicked
+16:28:04.556 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:28:04.639 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:28:04.757 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:28:04.850 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:28:08.833 [main] INFO  Dealership.POM - Accounting integration link is clicked
+16:28:10.892 [main] INFO  Dealership.POM - AccHeader is visible
+16:28:10.919 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:28:11.006 [main] INFO  Dealership.POM - AccountingDropDown is visible
+16:28:11.090 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+16:28:37.217 [main] INFO  Dealership.POM - AccHeader is visible
+16:28:37.241 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:28:37.534 [main] INFO  Dealership.POM - AddCategorybutton is visible
+16:28:37.868 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+16:28:45.740 [main] INFO  Dealership.POM - AddCategoryType is visible
+16:28:45.902 [main] INFO  Dealership.POM - AddCategoryType is clicked
+16:28:46.203 [main] INFO  Dealership.POM - Category type 1 is selected
+16:28:46.511 [main] INFO  Dealership.POM - CategoryName is visible
+16:28:47.133 [main] INFO  Dealership.POM - CategoryName is entered
+16:28:47.229 [main] INFO  Dealership.POM - SaveCategory is visible
+16:28:47.405 [main] INFO  Dealership.POM - Category is Saved
+16:28:50.347 [main] INFO  Dealership.POM - NewCategory is visible
+16:28:50.900 [main] INFO  Dealership.POM - Editicon is visible
+16:28:51.989 [main] INFO  Dealership.POM - Editicon is clicked
+16:28:57.979 [main] INFO  Dealership.POM - CategoryName is visible
+16:28:58.292 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+16:30:21.044 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+16:30:33.262 [main] INFO  Dealership.POM - Windows maximized
+16:30:35.136 [main] INFO  Dealership.POM - URL entered
+16:30:35.299 [main] INFO  Dealership.POM - Username field is visible
+16:30:35.613 [main] INFO  Dealership.POM - Password field is visible
+16:30:35.909 [main] INFO  Dealership.POM - Login Button is visible
+16:31:08.654 [main] INFO  Dealership.POM - Login Button is clicked
+16:31:23.861 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:31:23.942 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:31:24.086 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:31:24.185 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:31:28.736 [main] INFO  Dealership.POM - Accounting integration link is clicked
+16:31:31.142 [main] INFO  Dealership.POM - AccHeader is visible
+16:31:31.199 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:31:31.295 [main] INFO  Dealership.POM - AccountingDropDown is visible
+16:31:31.465 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+16:31:38.320 [main] INFO  Dealership.POM - AccHeader is visible
+16:31:38.343 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:31:38.629 [main] INFO  Dealership.POM - AddCategorybutton is visible
+16:31:38.936 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+16:31:46.738 [main] INFO  Dealership.POM - AddCategoryType is visible
+16:31:46.879 [main] INFO  Dealership.POM - AddCategoryType is clicked
+16:31:47.185 [main] INFO  Dealership.POM - Category type 1 is selected
+16:31:47.375 [main] INFO  Dealership.POM - CategoryName is visible
+16:31:47.866 [main] INFO  Dealership.POM - CategoryName is entered
+16:31:47.962 [main] INFO  Dealership.POM - SaveCategory is visible
+16:31:48.101 [main] INFO  Dealership.POM - Category is Saved
+16:31:48.266 [main] INFO  Dealership.POM - NewCategory is visible
+16:31:48.471 [main] INFO  Dealership.POM - Editicon is visible
+16:31:49.943 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+16:34:38.468 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+16:34:46.740 [main] INFO  Dealership.POM - Windows maximized
+16:34:49.792 [main] INFO  Dealership.POM - URL entered
+16:34:49.908 [main] INFO  Dealership.POM - Username field is visible
+16:34:50.258 [main] INFO  Dealership.POM - Password field is visible
+16:34:50.432 [main] INFO  Dealership.POM - Login Button is visible
+16:35:21.203 [main] INFO  Dealership.POM - Login Button is clicked
+16:35:36.388 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:35:36.498 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:35:36.655 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:35:36.757 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:35:41.262 [main] INFO  Dealership.POM - Accounting integration link is clicked
+16:35:43.203 [main] INFO  Dealership.POM - AccHeader is visible
+16:35:43.237 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:35:43.345 [main] INFO  Dealership.POM - AccountingDropDown is visible
+16:35:43.436 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+16:35:51.142 [main] INFO  Dealership.POM - AccHeader is visible
+16:35:51.163 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:35:51.368 [main] INFO  Dealership.POM - AddCategorybutton is visible
+16:35:51.481 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+16:35:58.986 [main] INFO  Dealership.POM - AddCategoryType is visible
+16:35:59.099 [main] INFO  Dealership.POM - AddCategoryType is clicked
+16:35:59.552 [main] INFO  Dealership.POM - Category type 1 is selected
+16:35:59.716 [main] INFO  Dealership.POM - CategoryName is visible
+16:36:00.563 [main] INFO  Dealership.POM - CategoryName is entered
+16:36:00.658 [main] INFO  Dealership.POM - SaveCategory is visible
+16:36:00.825 [main] INFO  Dealership.POM - Category is Saved
+16:36:02.395 [main] INFO  Dealership.POM - NewCategory is visible
+16:36:02.597 [main] INFO  Dealership.POM - Editicon is visible
+16:36:02.686 [main] INFO  Dealership.POM - Editicon is clicked
+16:36:09.510 [main] INFO  Dealership.POM - CategoryName is visible
+16:36:09.669 [main] INFO  Dealership.POM - CategoryName is entered
+16:36:09.748 [main] INFO  Dealership.POM - SaveEdits button is visible
+16:36:09.875 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+16:37:50.521 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+16:43:53.100 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+16:44:02.311 [main] INFO  Dealership.POM - Windows maximized
+16:44:05.810 [main] INFO  Dealership.POM - URL entered
+16:44:06.005 [main] INFO  Dealership.POM - Username field is visible
+16:44:06.418 [main] INFO  Dealership.POM - Password field is visible
+16:44:06.598 [main] INFO  Dealership.POM - Login Button is visible
+16:44:06.701 [main] INFO  Dealership.POM - Login Button is clicked
+16:44:40.308 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:44:40.381 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:44:40.551 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:44:40.633 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:44:44.633 [main] INFO  Dealership.POM - Accounting integration link is clicked
+16:44:46.642 [main] INFO  Dealership.POM - AccHeader is visible
+16:44:46.770 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:44:54.901 [main] INFO  Dealership.POM - AccountingDropDown is visible
+16:44:54.978 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+16:45:26.900 [main] INFO  Dealership.POM - AccHeader is visible
+16:45:27.046 [main] INFO  Dealership.POM - AccHeader Text is verified
+16:45:27.257 [main] INFO  Dealership.POM - AddCategorybutton is visible
+16:45:27.390 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+16:45:35.300 [main] INFO  Dealership.POM - AddCategoryType is visible
+16:45:35.447 [main] INFO  Dealership.POM - AddCategoryType is clicked
+16:45:36.185 [main] INFO  Dealership.POM - Category type 1 is selected
+16:45:36.296 [main] INFO  Dealership.POM - CategoryName is visible
+16:45:36.754 [main] INFO  Dealership.POM - CategoryName is entered
+16:45:36.834 [main] INFO  Dealership.POM - SaveCategory is visible
+16:45:36.961 [main] INFO  Dealership.POM - Category is Saved
+16:45:39.255 [main] INFO  Dealership.POM - NewCategory is visible
+16:45:39.449 [main] INFO  Dealership.POM - Editicon is visible
+16:45:40.265 [main] INFO  Dealership.POM - Editicon is clicked
+16:45:46.290 [main] INFO  Dealership.POM - CategoryName is visible
+16:45:46.902 [main] INFO  Dealership.POM - CategoryName is entered
+16:45:46.971 [main] INFO  Dealership.POM - SaveEdits button is visible
+16:45:47.096 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+16:45:49.479 [main] INFO  Dealership.POM - Category is successfully edited
+16:45:49.613 [main] INFO  Dealership.POM - Deleteicon is visible
+16:45:49.703 [main] INFO  Dealership.POM - Deleteicon is clicked
+16:45:55.483 [main] INFO  Dealership.POM - DeleteButton is visible
+16:45:55.571 [main] INFO  Dealership.POM - DeleteButton is clicked
+16:46:00.608 [main] INFO  Dealership.POM - Category is successfully deleted
+16:46:01.100 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+17:03:36.353 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+17:03:46.116 [main] INFO  Dealership.POM - Windows maximized
+17:03:49.262 [main] INFO  Dealership.POM - URL entered
+17:03:49.470 [main] INFO  Dealership.POM - Username field is visible
+17:03:50.820 [main] INFO  Dealership.POM - Password field is visible
+17:03:51.746 [main] INFO  Dealership.POM - Login Button is visible
+17:04:07.743 [main] INFO  Dealership.POM - Login Button is clicked
+17:04:23.115 [main] INFO  Dealership.POM - Account and Settings link is visible
+17:04:23.296 [main] INFO  Dealership.POM - Account and Settings link is clicked
+17:04:23.462 [main] INFO  Dealership.POM - SystemSettings link is visible
+17:04:23.580 [main] INFO  Dealership.POM - SystemSettings link is clicked
+17:04:28.040 [main] INFO  Dealership.POM - Accounting integration link is clicked
+17:04:30.029 [main] INFO  Dealership.POM - AccHeader is visible
+17:04:30.063 [main] INFO  Dealership.POM - AccHeader Text is verified
+17:04:30.185 [main] INFO  Dealership.POM - AccountingDropDown is visible
+17:04:30.292 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+17:05:08.965 [main] INFO  Dealership.POM - AccHeader is visible
+17:05:08.987 [main] INFO  Dealership.POM - AccHeader Text is verified
+17:05:09.190 [main] INFO  Dealership.POM - AddCategorybutton is visible
+17:05:09.314 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+17:05:17.808 [main] INFO  Dealership.POM - AddCategoryType is visible
+17:05:17.929 [main] INFO  Dealership.POM - AddCategoryType is clicked
+17:05:18.185 [main] INFO  Dealership.POM - Category type 1 is selected
+17:05:18.310 [main] INFO  Dealership.POM - CategoryName is visible
+17:05:18.739 [main] INFO  Dealership.POM - CategoryName is entered
+17:05:18.842 [main] INFO  Dealership.POM - SaveCategory is visible
+17:05:18.973 [main] INFO  Dealership.POM - Category is Saved
+17:05:21.506 [main] INFO  Dealership.POM - NewCategory is visible
+17:05:21.703 [main] INFO  Dealership.POM - Editicon is visible
+17:05:22.571 [main] INFO  Dealership.POM - Editicon is clicked
+17:05:28.671 [main] INFO  Dealership.POM - CategoryName is visible
+17:05:29.339 [main] INFO  Dealership.POM - CategoryName is entered
+17:05:29.411 [main] INFO  Dealership.POM - SaveEdits button is visible
+17:05:29.539 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+17:05:32.039 [main] INFO  Dealership.POM - Category is successfully edited
+17:05:32.156 [main] INFO  Dealership.POM - Deleteicon is visible
+17:05:32.244 [main] INFO  Dealership.POM - Deleteicon is clicked
+17:05:38.080 [main] INFO  Dealership.POM - DeleteButton is visible
+17:05:38.175 [main] INFO  Dealership.POM - DeleteButton is clicked
+17:05:43.206 [main] INFO  Dealership.POM - Category is successfully deleted
+17:05:43.419 [main] INFO  Dealership.POM - AddCategorybutton is visible
+17:05:44.257 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+17:05:50.559 [main] INFO  Dealership.POM - AddCategoryType is visible
+17:05:50.799 [main] INFO  Dealership.POM - AddCategoryType is clicked
+17:05:51.102 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+17:07:26.397 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+17:07:35.866 [main] INFO  Dealership.POM - Windows maximized
+17:07:38.384 [main] INFO  Dealership.POM - URL entered
+17:07:38.531 [main] INFO  Dealership.POM - Username field is visible
+17:07:38.843 [main] INFO  Dealership.POM - Password field is visible
+17:07:39.190 [main] INFO  Dealership.POM - Login Button is visible
+17:07:39.532 [main] INFO  Dealership.POM - Login Button is clicked
+17:08:11.550 [main] INFO  Dealership.POM - Account and Settings link is visible
+17:08:11.646 [main] INFO  Dealership.POM - Account and Settings link is clicked
+17:08:11.799 [main] INFO  Dealership.POM - SystemSettings link is visible
+17:08:11.883 [main] INFO  Dealership.POM - SystemSettings link is clicked
+17:08:15.531 [main] INFO  Dealership.POM - Accounting integration link is clicked
+17:08:17.526 [main] INFO  Dealership.POM - AccHeader is visible
+17:08:17.547 [main] INFO  Dealership.POM - AccHeader Text is verified
+17:08:17.676 [main] INFO  Dealership.POM - AccountingDropDown is visible
+17:08:17.755 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+17:08:24.371 [main] INFO  Dealership.POM - AccHeader is visible
+17:08:24.396 [main] INFO  Dealership.POM - AccHeader Text is verified
+17:08:24.637 [main] INFO  Dealership.POM - AddCategorybutton is visible
+17:08:24.760 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+17:08:32.120 [main] INFO  Dealership.POM - AddCategoryType is visible
+17:08:32.298 [main] INFO  Dealership.POM - AddCategoryType is clicked
+17:08:35.567 [main] INFO  Dealership.POM - Category type 1 is selected
+17:08:35.679 [main] INFO  Dealership.POM - CategoryName is visible
+17:08:36.255 [main] INFO  Dealership.POM - CategoryName is entered
+17:08:36.337 [main] INFO  Dealership.POM - SaveCategory is visible
+17:08:36.480 [main] INFO  Dealership.POM - Category is Saved
+17:08:38.551 [main] INFO  Dealership.POM - NewCategory is visible
+17:08:38.841 [main] INFO  Dealership.POM - Editicon is visible
+17:08:39.819 [main] INFO  Dealership.POM - Editicon is clicked
+17:08:45.960 [main] INFO  Dealership.POM - CategoryName is visible
+17:08:46.550 [main] INFO  Dealership.POM - CategoryName is entered
+17:08:46.622 [main] INFO  Dealership.POM - SaveEdits button is visible
+17:08:46.770 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+17:08:49.023 [main] INFO  Dealership.POM - Category is successfully edited
+17:08:49.146 [main] INFO  Dealership.POM - Deleteicon is visible
+17:08:49.258 [main] INFO  Dealership.POM - Deleteicon is clicked
+17:08:55.367 [main] INFO  Dealership.POM - DeleteButton is visible
+17:08:55.460 [main] INFO  Dealership.POM - DeleteButton is clicked
+17:09:00.498 [main] INFO  Dealership.POM - Category is successfully deleted
+17:09:00.907 [main] INFO  Dealership.POM - AddCategorybutton is visible
+17:09:03.141 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+17:09:08.801 [main] INFO  Dealership.POM - AddCategoryType is visible
+17:09:09.023 [main] INFO  Dealership.POM - AddCategoryType is clicked
+17:09:12.337 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+17:18:14.343 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+17:18:26.930 [main] INFO  Dealership.POM - Windows maximized
+17:18:30.262 [main] INFO  Dealership.POM - URL entered
+17:18:30.397 [main] INFO  Dealership.POM - Username field is visible
+17:18:31.334 [main] INFO  Dealership.POM - Password field is visible
+17:18:32.136 [main] INFO  Dealership.POM - Login Button is visible
+17:18:32.268 [main] INFO  Dealership.POM - Login Button is clicked
+17:19:04.456 [main] INFO  Dealership.POM - Account and Settings link is visible
+17:19:04.541 [main] INFO  Dealership.POM - Account and Settings link is clicked
+17:19:04.653 [main] INFO  Dealership.POM - SystemSettings link is visible
+17:19:04.782 [main] INFO  Dealership.POM - SystemSettings link is clicked
+17:19:08.165 [main] INFO  Dealership.POM - Accounting integration link is clicked
+17:19:10.973 [main] INFO  Dealership.POM - AccHeader is visible
+17:19:11.033 [main] INFO  Dealership.POM - AccHeader Text is verified
+17:19:20.159 [main] INFO  Dealership.POM - AccountingDropDown is visible
+17:19:20.271 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+17:19:22.909 [main] INFO  Dealership.POM - AccHeader is visible
+17:19:22.934 [main] INFO  Dealership.POM - AccHeader Text is verified
+17:19:23.173 [main] INFO  Dealership.POM - AddCategorybutton is visible
+17:19:23.320 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+17:19:32.293 [main] INFO  Dealership.POM - AddCategoryType is visible
+17:19:32.436 [main] INFO  Dealership.POM - AddCategoryType is clicked
+17:19:35.679 [main] INFO  Dealership.POM - Category type 1 is selected
+17:19:35.779 [main] INFO  Dealership.POM - CategoryName is visible
+17:19:36.172 [main] INFO  Dealership.POM - CategoryName is entered
+17:19:36.244 [main] INFO  Dealership.POM - SaveCategory is visible
+17:19:36.363 [main] INFO  Dealership.POM - Category is Saved
+17:19:38.832 [main] INFO  Dealership.POM - NewCategory is visible
+17:19:39.053 [main] INFO  Dealership.POM - Editicon is visible
+17:19:39.169 [main] INFO  Dealership.POM - Editicon is clicked
+17:19:45.797 [main] INFO  Dealership.POM - CategoryName is visible
+17:19:46.560 [main] INFO  Dealership.POM - CategoryName is entered
+17:19:46.659 [main] INFO  Dealership.POM - SaveEdits button is visible
+17:19:46.763 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+17:19:48.727 [main] INFO  Dealership.POM - Category is successfully edited
+17:19:48.867 [main] INFO  Dealership.POM - Deleteicon is visible
+17:19:48.962 [main] INFO  Dealership.POM - Deleteicon is clicked
+17:19:56.499 [main] INFO  Dealership.POM - DeleteButton is visible
+17:19:56.577 [main] INFO  Dealership.POM - DeleteButton is clicked
+17:20:01.829 [main] INFO  Dealership.POM - Category is successfully deleted
+17:20:02.158 [main] INFO  Dealership.POM - AddCategorybutton is visible
+17:20:03.964 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+17:20:09.493 [main] INFO  Dealership.POM - AddCategoryType is visible
+17:20:09.708 [main] INFO  Dealership.POM - AddCategoryType is clicked
+17:20:12.946 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+17:25:35.712 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+17:25:43.432 [main] INFO  Dealership.POM - Windows maximized
+17:25:45.405 [main] INFO  Dealership.POM - URL entered
+17:25:45.547 [main] INFO  Dealership.POM - Username field is visible
+17:25:45.917 [main] INFO  Dealership.POM - Password field is visible
+17:25:46.133 [main] INFO  Dealership.POM - Login Button is visible
+17:26:01.949 [main] INFO  Dealership.POM - Login Button is clicked
+17:26:17.136 [main] INFO  Dealership.POM - Account and Settings link is visible
+17:26:17.227 [main] INFO  Dealership.POM - Account and Settings link is clicked
+17:26:17.404 [main] INFO  Dealership.POM - SystemSettings link is visible
+17:26:17.562 [main] INFO  Dealership.POM - SystemSettings link is clicked
+17:26:21.020 [main] INFO  Dealership.POM - Accounting integration link is clicked
+17:26:22.687 [main] INFO  Dealership.POM - AccHeader is visible
+17:26:22.712 [main] INFO  Dealership.POM - AccHeader Text is verified
+17:26:22.824 [main] INFO  Dealership.POM - AccountingDropDown is visible
+17:26:22.895 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+17:26:29.913 [main] INFO  Dealership.POM - AccHeader is visible
+17:26:29.931 [main] INFO  Dealership.POM - AccHeader Text is verified
+17:26:30.122 [main] INFO  Dealership.POM - AddCategorybutton is visible
+17:26:30.227 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+17:26:38.342 [main] INFO  Dealership.POM - AddCategoryType is visible
+17:26:38.444 [main] INFO  Dealership.POM - AddCategoryType is clicked
+17:26:41.646 [main] INFO  Dealership.POM - AddCategoryType is visible
+17:26:41.756 [main] INFO  Dealership.POM - AddCategoryType is clicked
+17:26:44.897 [main] INFO  Dealership.POM - Category type 1 is selected
+17:26:45.019 [main] INFO  Dealership.POM - CategoryName is visible
+17:26:45.558 [main] INFO  Dealership.POM - CategoryName is entered
+17:26:45.678 [main] INFO  Dealership.POM - SaveCategory is visible
+17:26:45.832 [main] INFO  Dealership.POM - Category is Saved
+17:26:48.248 [main] INFO  Dealership.POM - NewCategory is visible
+17:26:48.425 [main] INFO  Dealership.POM - Editicon is visible
+17:26:49.255 [main] INFO  Dealership.POM - Editicon is clicked
+17:26:55.516 [main] INFO  Dealership.POM - CategoryName is visible
+17:26:56.031 [main] INFO  Dealership.POM - CategoryName is entered
+17:26:56.113 [main] INFO  Dealership.POM - SaveEdits button is visible
+17:26:56.260 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+17:26:58.713 [main] INFO  Dealership.POM - Category is successfully edited
+17:26:58.857 [main] INFO  Dealership.POM - Deleteicon is visible
+17:26:58.936 [main] INFO  Dealership.POM - Deleteicon is clicked
+17:27:05.292 [main] INFO  Dealership.POM - DeleteButton is visible
+17:27:05.385 [main] INFO  Dealership.POM - DeleteButton is clicked
+17:27:10.405 [main] INFO  Dealership.POM - Category is successfully deleted
+17:27:10.634 [main] INFO  Dealership.POM - AddCategorybutton is visible
+17:27:11.445 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+17:27:17.365 [main] INFO  Dealership.POM - AddCategoryType is visible
+17:27:17.644 [main] INFO  Dealership.POM - AddCategoryType is clicked
+17:27:20.888 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+17:28:38.955 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+17:28:47.040 [main] INFO  Dealership.POM - Windows maximized
+17:28:49.883 [main] INFO  Dealership.POM - URL entered
+17:28:50.013 [main] INFO  Dealership.POM - Username field is visible
+17:28:50.580 [main] INFO  Dealership.POM - Password field is visible
+17:28:51.031 [main] INFO  Dealership.POM - Login Button is visible
+17:28:51.283 [main] INFO  Dealership.POM - Login Button is clicked
+17:29:22.619 [main] INFO  Dealership.POM - Account and Settings link is visible
+17:29:22.704 [main] INFO  Dealership.POM - Account and Settings link is clicked
+17:29:22.851 [main] INFO  Dealership.POM - SystemSettings link is visible
+17:29:22.978 [main] INFO  Dealership.POM - SystemSettings link is clicked
+17:29:26.825 [main] INFO  Dealership.POM - Accounting integration link is clicked
+17:29:28.671 [main] INFO  Dealership.POM - AccHeader is visible
+17:29:28.762 [main] INFO  Dealership.POM - AccHeader Text is verified
+17:29:28.917 [main] INFO  Dealership.POM - AccountingDropDown is visible
+17:29:29.066 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+17:29:40.618 [main] INFO  Dealership.POM - AccHeader is visible
+17:29:40.648 [main] INFO  Dealership.POM - AccHeader Text is verified
+17:29:40.952 [main] INFO  Dealership.POM - AddCategorybutton is visible
+17:29:41.082 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+17:29:48.800 [main] INFO  Dealership.POM - AddCategoryType is visible
+17:29:48.915 [main] INFO  Dealership.POM - AddCategoryType is clicked
+17:29:52.138 [main] INFO  Dealership.POM - AddCategoryType is visible
+17:29:52.255 [main] INFO  Dealership.POM - AddCategoryType is clicked
+17:29:55.406 [main] INFO  Dealership.POM - Category type 1 is selected
+17:29:55.537 [main] INFO  Dealership.POM - CategoryName is visible
+17:29:55.993 [main] INFO  Dealership.POM - CategoryName is entered
+17:29:56.062 [main] INFO  Dealership.POM - SaveCategory is visible
+17:29:56.188 [main] INFO  Dealership.POM - Category is Saved
+17:29:58.755 [main] INFO  Dealership.POM - NewCategory is visible
+17:29:58.948 [main] INFO  Dealership.POM - Editicon is visible
+17:29:59.043 [main] INFO  Dealership.POM - Editicon is clicked
+17:30:06.454 [main] INFO  Dealership.POM - CategoryName is visible
+17:30:07.017 [main] INFO  Dealership.POM - CategoryName is entered
+17:30:07.083 [main] INFO  Dealership.POM - SaveEdits button is visible
+17:30:07.200 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+17:30:08.916 [main] INFO  Dealership.POM - Category is successfully edited
+17:30:09.068 [main] INFO  Dealership.POM - Deleteicon is visible
+17:30:09.146 [main] INFO  Dealership.POM - Deleteicon is clicked
+17:30:16.161 [main] INFO  Dealership.POM - DeleteButton is visible
+17:30:16.248 [main] INFO  Dealership.POM - DeleteButton is clicked
+17:30:21.272 [main] INFO  Dealership.POM - Category is successfully deleted
+17:30:21.453 [main] INFO  Dealership.POM - AddCategorybutton is visible
+17:30:23.172 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+17:30:29.304 [main] INFO  Dealership.POM - AddCategoryType is visible
+17:30:29.553 [main] INFO  Dealership.POM - AddCategoryType is clicked
+17:30:32.671 [main] INFO  Dealership.POM - AddCategoryType is visible
+17:30:32.893 [main] INFO  Dealership.POM - AddCategoryType is clicked
+17:30:36.204 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+17:33:16.898 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+17:33:24.979 [main] INFO  Dealership.POM - Windows maximized
+17:33:27.419 [main] INFO  Dealership.POM - URL entered
+17:33:27.522 [main] INFO  Dealership.POM - Username field is visible
+17:33:27.786 [main] INFO  Dealership.POM - Password field is visible
+17:33:28.079 [main] INFO  Dealership.POM - Login Button is visible
+17:34:05.267 [main] INFO  Dealership.POM - Login Button is clicked
+17:34:20.414 [main] INFO  Dealership.POM - Account and Settings link is visible
+17:34:20.469 [main] INFO  Dealership.POM - Account and Settings link is clicked
+17:34:20.572 [main] INFO  Dealership.POM - SystemSettings link is visible
+17:34:20.678 [main] INFO  Dealership.POM - SystemSettings link is clicked
+17:34:25.434 [main] INFO  Dealership.POM - Accounting integration link is clicked
+17:34:27.638 [main] INFO  Dealership.POM - AccHeader is visible
+17:34:27.669 [main] INFO  Dealership.POM - AccHeader Text is verified
+17:34:27.764 [main] INFO  Dealership.POM - AccountingDropDown is visible
+17:34:27.879 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+17:34:33.615 [main] INFO  Dealership.POM - AccHeader is visible
+17:34:33.632 [main] INFO  Dealership.POM - AccHeader Text is verified
+17:34:33.818 [main] INFO  Dealership.POM - AddCategorybutton is visible
+17:34:33.916 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+17:34:41.311 [main] INFO  Dealership.POM - AddCategoryType is visible
+17:34:41.458 [main] INFO  Dealership.POM - AddCategoryType is clicked
+17:34:44.546 [main] INFO  Dealership.POM - Category Types are opened
+17:34:44.682 [main] INFO  Dealership.POM - Category type 1 is selected
+17:34:44.807 [main] INFO  Dealership.POM - CategoryName is visible
+17:34:45.214 [main] INFO  Dealership.POM - CategoryName is entered
+17:34:45.282 [main] INFO  Dealership.POM - SaveCategory is visible
+17:34:45.427 [main] INFO  Dealership.POM - Category is Saved
+17:34:47.827 [main] INFO  Dealership.POM - NewCategory is visible
+17:34:48.072 [main] INFO  Dealership.POM - Editicon is visible
+17:34:48.192 [main] INFO  Dealership.POM - Editicon is clicked
+17:34:54.801 [main] INFO  Dealership.POM - CategoryName is visible
+17:34:55.628 [main] INFO  Dealership.POM - CategoryName is entered
+17:34:55.696 [main] INFO  Dealership.POM - SaveEdits button is visible
+17:34:55.837 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+17:34:57.962 [main] INFO  Dealership.POM - Category is successfully edited
+17:34:58.079 [main] INFO  Dealership.POM - Deleteicon is visible
+17:34:58.159 [main] INFO  Dealership.POM - Deleteicon is clicked
+17:35:03.944 [main] INFO  Dealership.POM - DeleteButton is visible
+17:35:04.029 [main] INFO  Dealership.POM - DeleteButton is clicked
+17:35:09.068 [main] INFO  Dealership.POM - Category is successfully deleted
+17:35:09.338 [main] INFO  Dealership.POM - AddCategorybutton is visible
+17:35:09.450 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+17:35:17.208 [main] INFO  Dealership.POM - AddCategoryType is visible
+17:35:17.597 [main] INFO  Dealership.POM - AddCategoryType is clicked
+17:35:20.600 [main] INFO  Dealership.POM - Category Types are opened
+17:35:20.894 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+11:46:23.451 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+11:46:36.047 [main] INFO  Dealership.POM - Windows maximized
+11:46:38.016 [main] INFO  Dealership.POM - URL entered
+11:46:38.151 [main] INFO  Dealership.POM - Username field is visible
+11:46:38.464 [main] INFO  Dealership.POM - Password field is visible
+11:46:38.866 [main] INFO  Dealership.POM - Login Button is visible
+11:46:38.992 [main] INFO  Dealership.POM - Login Button is clicked
+11:48:00.222 [main] INFO  Dealership.POM - Account and Settings link is visible
+11:48:00.350 [main] INFO  Dealership.POM - Account and Settings link is clicked
+11:48:00.507 [main] INFO  Dealership.POM - SystemSettings link is visible
+11:48:00.601 [main] INFO  Dealership.POM - SystemSettings link is clicked
+11:48:05.489 [main] INFO  Dealership.POM - Accounting integration link is clicked
+11:48:09.211 [main] INFO  Dealership.POM - AccHeader is visible
+11:48:09.244 [main] INFO  Dealership.POM - AccHeader Text is verified
+11:48:09.438 [main] INFO  Dealership.POM - AccountingDropDown is visible
+11:48:09.532 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+11:48:14.458 [main] INFO  Dealership.POM - AccHeader is visible
+11:48:14.491 [main] INFO  Dealership.POM - AccHeader Text is verified
+11:48:14.603 [main] INFO  Dealership.POM - AddCategorybutton is visible
+11:48:14.702 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+11:48:22.481 [main] INFO  Dealership.POM - AddCategoryType is visible
+11:48:22.587 [main] INFO  Dealership.POM - AddCategoryType is clicked
+11:48:25.609 [main] INFO  Dealership.POM - Category Types are opened
+11:48:29.452 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AccountingIntegration
+11:49:39.110 [main] INFO  Dealership.POM - Running Test : AccountingIntegration
+11:49:47.738 [main] INFO  Dealership.POM - Windows maximized
+11:49:49.954 [main] INFO  Dealership.POM - URL entered
+11:49:50.101 [main] INFO  Dealership.POM - Username field is visible
+11:49:50.421 [main] INFO  Dealership.POM - Password field is visible
+11:49:50.743 [main] INFO  Dealership.POM - Login Button is visible
+11:49:50.838 [main] INFO  Dealership.POM - Login Button is clicked
+11:50:24.967 [main] INFO  Dealership.POM - Account and Settings link is visible
+11:50:25.038 [main] INFO  Dealership.POM - Account and Settings link is clicked
+11:50:25.144 [main] INFO  Dealership.POM - SystemSettings link is visible
+11:50:25.225 [main] INFO  Dealership.POM - SystemSettings link is clicked
+11:50:28.908 [main] INFO  Dealership.POM - Accounting integration link is clicked
+11:50:30.996 [main] INFO  Dealership.POM - AccHeader is visible
+11:50:31.019 [main] INFO  Dealership.POM - AccHeader Text is verified
+11:50:31.106 [main] INFO  Dealership.POM - AccountingDropDown is visible
+11:50:31.173 [main] INFO  Dealership.POM - AccountingDropDown is clicked
+11:50:39.183 [main] INFO  Dealership.POM - AccHeader is visible
+11:50:39.202 [main] INFO  Dealership.POM - AccHeader Text is verified
+11:50:39.428 [main] INFO  Dealership.POM - AddCategorybutton is visible
+11:50:39.542 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+11:50:47.988 [main] INFO  Dealership.POM - AddCategoryType is visible
+11:50:48.128 [main] INFO  Dealership.POM - AddCategoryType is clicked
+11:50:51.136 [main] INFO  Dealership.POM - Category Types are opened
+11:50:51.450 [main] INFO  Dealership.POM - Category type 1 is selected
+11:50:51.586 [main] INFO  Dealership.POM - CategoryName is visible
+11:50:52.117 [main] INFO  Dealership.POM - CategoryName is entered
+11:50:52.209 [main] INFO  Dealership.POM - SaveCategory is visible
+11:50:52.363 [main] INFO  Dealership.POM - Category is Saved
+11:51:06.600 [main] INFO  Dealership.POM - NewCategory is visible
+11:51:06.835 [main] INFO  Dealership.POM - Editicon is visible
+11:51:08.139 [main] INFO  Dealership.POM - Editicon is clicked
+11:51:14.204 [main] INFO  Dealership.POM - CategoryName is visible
+11:51:14.829 [main] INFO  Dealership.POM - CategoryName is entered
+11:51:14.917 [main] INFO  Dealership.POM - SaveEdits button is visible
+11:51:15.047 [main] INFO  Dealership.POM - SaveEdits buton is clicked
+11:51:17.128 [main] INFO  Dealership.POM - Category is successfully edited
+11:51:17.276 [main] INFO  Dealership.POM - Deleteicon is visible
+11:51:17.355 [main] INFO  Dealership.POM - Deleteicon is clicked
+11:51:23.847 [main] INFO  Dealership.POM - DeleteButton is visible
+11:51:23.952 [main] INFO  Dealership.POM - DeleteButton is clicked
+11:51:28.987 [main] INFO  Dealership.POM - Category is successfully deleted
+11:51:30.043 [main] INFO  Dealership.POM - AddCategorybutton is visible
+11:51:30.167 [main] INFO  Dealership.POM - AddCategorybutton is clicked
+11:51:38.299 [main] INFO  Dealership.POM - AddCategoryType is visible
+11:51:38.505 [main] INFO  Dealership.POM - AddCategoryType is clicked

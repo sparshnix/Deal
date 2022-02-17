@@ -77,7 +77,14 @@ public class Variables {
 	datePromisedField, defaultTechnician, appointmentName, techNameandTime, deleteAppointmentModalWindow,
 	appointmenttable2, appointmentTime, moveto, uaarrow, apSearchfield, testAppointment, allTech,
 	appointmentinfo, dropDownresult, createApt, aptonCO, appointmentCONumber, dealAppointmentCO,
-	unitNameonCard
+	unitNameonCard,
+	
+	
+	//SystemSettings
+	acandset, settingsTiles, accheader, accountingDropDown, accountingoptions, lastSyncTime,
+	accountsListPopUp, okButton, controlAccFields, undepositedFundsFields, defaultAccountsFields,
+	addCategorybutton, addCategoryWindow, addCategoryType, categories, categoryName, incomeGL,
+	accheader2, addSaleTypeWindow, activeLabel
 	
 	;
 	

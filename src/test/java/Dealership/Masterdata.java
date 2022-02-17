@@ -93,12 +93,13 @@ public class Masterdata extends POM {
 		Lastname.sendKeys(lastname);
 		log.info("Lastname  is filled");
 		
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(accounttypedropdown)));
 		WebElement Accounttypedropdown = driver.findElement(By.xpath(accounttypedropdown));
 		Assert.assertTrue(Accounttypedropdown.isDisplayed(), "Account type field is missing");
 		log.info("Account type field is visible");
 		Accounttypedropdown.click();
 		log.info("Account type  is clicked");
-		Thread.sleep(3000);
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(accounttypevalue)));
 		WebElement Accounttypevalue = driver.findElement(By.xpath(accounttypevalue));
 		Assert.assertTrue(Accounttypevalue.isDisplayed(), "Account type value is missing");
 		Accounttypevalue.click();
@@ -196,14 +197,14 @@ public class Masterdata extends POM {
 		Assert.assertTrue(Addnew.isEnabled(), "Button is not clicked");
 		log.info("Addnew button is clicked");
 		
-		WebElement Customer = driver.findElement(By.xpath(vendor));
-		Assert.assertTrue(Customer.isDisplayed(), "Button is missing");
+		WebElement Vendor = driver.findElement(By.xpath(vendor));
+		Assert.assertTrue(Vendor.isDisplayed(), "Button is missing");
 		log.info("Vendor button is displayed");
-		Customer.click();
-		Assert.assertTrue(Customer.isEnabled(), "Button is not clicked");
+		Vendor.click();
+		Assert.assertTrue(Vendor.isEnabled(), "Button is not clicked");
 		log.info("Vendor button is clicked");
-        Thread.sleep(10000);
-		
+
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(vendorHeader)));
         WebElement VendorHeader = driver.findElement(By.xpath(vendorHeader));
 		Assert.assertTrue(VendorHeader.isDisplayed(), "Button is missing");
 		String VendorHeadertext = VendorHeader.getText();
@@ -376,6 +377,7 @@ public class Masterdata extends POM {
 		Assert.assertEquals(PartHeadertext, "New Merchandise");
 		log.info("Part creation window is opened");
         
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("partNumber")));
 		WebElement PartNumber = driver.findElement(By.id("partNumber"));
 		Assert.assertTrue(PartNumber.isDisplayed(), "Part Number field is missing");
 		log.info("Part number field is displayed");
@@ -393,9 +395,9 @@ public class Masterdata extends POM {
 		WebElement Vendor_Input = driver.findElement(By.id("Vendor_Input"));
 		Assert.assertTrue(Vendor_Input.isDisplayed(), "Vendor_Input field is missing");
 		log.info("Vendor_Input field is displayed");
-		Vendor_Input.sendKeys(NewVendor);
-//		Vendor_Input.sendKeys("Qavendor-30_11_202110_00_48");
-		Thread.sleep(10000);	
+//		Vendor_Input.sendKeys(NewVendor);
+		Vendor_Input.sendKeys("Qavendor");
+		Thread.sleep(5000);
 		WebElement VendorList = driver.findElement(By.id("SearchToaddCutomerSuggestions"));
 		VendorList.click();
 		log.info("Vendor_Input is entered");	
@@ -912,24 +914,24 @@ public class Masterdata extends POM {
         WebElement UnitMake = driver.findElement(By.xpath(unitmake));
 		Assert.assertTrue(UnitMake.isDisplayed(), "Make field is missing");
 		log.info("Make field is displayed");
-		UnitMake.click();
-		Thread.sleep(5000);
-		
-		WebElement Makeoption = driver.findElement(By.xpath(makeoption));
-		Makeoption.click();
-		log.info("Make is filled");
+//		UnitMake.click();
+//		Thread.sleep(5000);
+//		
+//		WebElement Makeoption = driver.findElement(By.xpath(makeoption));
+//		Makeoption.click();
+//		log.info("Make is filled");
 		
 //		((JavascriptExecutor) driver).executeScript("scroll(0,1000)");
 		
 		WebElement UnitModel = driver.findElement(By.xpath(unitmodel));
 		Assert.assertTrue(UnitModel.isDisplayed(), "Model field is missing");
 		log.info("Model field is displayed");
-		UnitModel.click();
-		Thread.sleep(5000);
-		
-		WebElement Modeloption = driver.findElement(By.xpath(modeloption));
-		Modeloption.click();
-		log.info("Model is filled");
+//		UnitModel.click();
+//		Thread.sleep(5000);
+//		
+//		WebElement Modeloption = driver.findElement(By.xpath(modeloption));
+//		Modeloption.click();
+//		log.info("Model is filled");
 		
 		WebElement UnitSubModel = driver.findElement(By.xpath(unitSubModel));
 		Assert.assertTrue(UnitSubModel.isDisplayed(), "SubModel field is missing");
@@ -943,7 +945,8 @@ public class Masterdata extends POM {
 		Thread.sleep(5000);
 		
 		WebElement Year = driver.findElement(By.xpath(year));
-		Assert.assertTrue(Year.isDisplayed(), "Year field is missing");
+		Assert.assertTrue(Year.isDisplayed(), 	"Year field is missing");
+		Year.click();
 		Select select1 = new Select(Year);
 		select1.selectByIndex(1);
 		log.info("Year is selected");
