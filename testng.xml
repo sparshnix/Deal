@@ -17,7 +17,9 @@
 		<class name="Dealership.ChangeCustomerOnCO">  </class>
 		<class name="Dealership.DeleteCustomerOnCO">  </class> 
 		<class name="Dealership.Order"> </class>   
-		<class name="Dealership.Schedule"> </class>   
+		<class name="Dealership.Schedule"> </class> 
+		<class name="Dealership.SystemSettings"> </class>  
+		 
 		
 
 		 

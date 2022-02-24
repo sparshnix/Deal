@@ -55,7 +55,6 @@ public class Masterdata extends POM {
 	@Test(priority = 1)
 	public static void AddCustomer() throws Exception
 	{
-//		WebDriverWait wait = new WebDriverWait(driver,100);
 		WebDriverWait wt = new WebDriverWait(driver,100);
 		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(addnew)));
 		WebElement Addnew = driver.findElement(By.xpath(addnew));

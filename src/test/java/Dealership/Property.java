@@ -49,6 +49,14 @@ public class Property extends Variables {
 		appointmentCustomer			=   prop.getProperty("appointmentCustomer");
 		defaultTechnician			=	prop.getProperty("defaultTechnician");
 		dealAppointmentCO			=	prop.getProperty("dealAppointmentCO");
+		filename					=	prop.getProperty("filename");
+		linkedfee					=	prop.getProperty("linkedfee");
+		
+		
+		
+		
+		
+		
 		
 		//Fetch the values from locators.properties 
 		//used for Masterdata
@@ -380,6 +388,62 @@ public class Property extends Variables {
 		accheader2					=	locators.getProperty("accheader2");
 		addSaleTypeWindow			=	locators.getProperty("addSaleTypeWindow");
 		activeLabel					=	locators.getProperty("activeLabel");
+		listoflocations				=	locators.getProperty("listoflocations");
+		brandHeader					=	locators.getProperty("brandHeader");
+		addNewLocationIcon			=	locators.getProperty("addNewLocationIcon");
+		allinputfields				=	locators.getProperty("allinputfields");
+		businessname				=	locators.getProperty("businessname");
+		businessPhone				=	locators.getProperty("businessPhone");
+		businessEmail				=	locators.getProperty("businessEmail");
+		taxID						=	locators.getProperty("taxID");
+		streetaddress1				=	locators.getProperty("streetaddress1");
+		streetaddress2				=	locators.getProperty("streetaddress2");
+		city						=	locators.getProperty("city");
+		pincode						=	locators.getProperty("pincode");
+		filelabel					=	locators.getProperty("filelabel");
+		fileSize					=	locators.getProperty("fileSize");
+		customerInvoiceTextField	=	locators.getProperty("customerInvoiceTextField");
+		serviceJobDisclaimerSlider	=	locators.getProperty("serviceJobDisclaimerSlider");
+		serviceJobTextField			=	locators.getProperty("serviceJobTextField");
+		orderDipositDisclaimerSlider=	locators.getProperty("orderDipositDisclaimerSlider");
+		orderDepositTextField		=	locators.getProperty("orderDepositTextField");
+		dealDocumentDisclaimerSlider=	locators.getProperty("dealDocumentDisclaimerSlider");
+		dealDocumentTextField		=	locators.getProperty("dealDocumentTextField");
+		receiptAddSignatureSlider	=	locators.getProperty("receiptAddSignatureSlider");
+		receiptDisclaimerSlider		=	locators.getProperty("receiptDisclaimerSlider");
+		receiptTextField			=	locators.getProperty("receiptTextField");
+		brandingHeaders				=	locators.getProperty("brandingHeaders");
+		brandingNames				=	locators.getProperty("brandingNames");
+		confirmbrandingbutton		=	locators.getProperty("confirmbrandingbutton");
+		invoiceCheckBox				=	locators.getProperty("invoiceCheckBox");
+		printReceiptCheckBox		=	locators.getProperty("printReceiptCheckBox");
+		printHeader					=	locators.getProperty("printHeader");
+		profileHeader				=	locators.getProperty("profileHeader");
+		businessName				=	locators.getProperty("businessName");
+		abrbusinessName				=	locators.getProperty("abrbusinessName");
+		shippingAddress				=	locators.getProperty("shippingAddress");
+		accountName					=	locators.getProperty("accountName");
+		listofdrawers				=	locators.getProperty("listofdrawers");
+		drawerHeader				=	locators.getProperty("drawerHeader");
+		addnewDrawerheader			=	locators.getProperty("addnewDrawerheader");
+		drawerNameField				=	locators.getProperty("drawerNameField");
+		createdrawerbutton			=	locators.getProperty("createdrawerbutton");
+		cashDrawers					=	locators.getProperty("cashDrawers");
+		drawerNames					=	locators.getProperty("drawerNames");
+		feesections					=	locators.getProperty("feesections");
+		lFeeHeader					=	locators.getProperty("lFeeHeader");
+		dealFeesection				=	locators.getProperty("dealFeesection");
+		feelist						=	locators.getProperty("feelist");
+		feelistCO					=	locators.getProperty("feelistCO");
+		servicejobFeesection		=	locators.getProperty("servicejobFeesection");
+		merchandiseFeesection		=	locators.getProperty("merchandiseFeesection");
+		formHeader					=	locators.getProperty("formHeader");	
+		dealFormsection				=	locators.getProperty("dealFormsection");
+		formlist					=	locators.getProperty("formlist");
+		formlistco					=	locators.getProperty("formlistco");
+
+		
+		
 		
 		
 	 }

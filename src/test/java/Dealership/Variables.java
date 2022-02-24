@@ -84,14 +84,25 @@ public class Variables {
 	acandset, settingsTiles, accheader, accountingDropDown, accountingoptions, lastSyncTime,
 	accountsListPopUp, okButton, controlAccFields, undepositedFundsFields, defaultAccountsFields,
 	addCategorybutton, addCategoryWindow, addCategoryType, categories, categoryName, incomeGL,
-	accheader2, addSaleTypeWindow, activeLabel
+	accheader2, addSaleTypeWindow, activeLabel, listoflocations, brandHeader, addNewLocationIcon,
+	allinputfields, businessname, businessPhone, businessEmail, taxID, streetaddress1, streetaddress2,
+	city, pincode, filelabel, filename, fileSize, customerInvoiceTextField, serviceJobDisclaimerSlider,
+	serviceJobTextField, orderDipositDisclaimerSlider, orderDepositTextField, dealDocumentDisclaimerSlider,
+	dealDocumentTextField, receiptAddSignatureSlider, receiptDisclaimerSlider, receiptTextField,
+	brandingHeaders, brandingNames, confirmbrandingbutton, invoiceCheckBox, printReceiptCheckBox,
+	printHeader, profileHeader, businessName, abrbusinessName, shippingAddress, accountName,
+	listofdrawers, drawerHeader, addnewDrawerheader, drawerNameField, createdrawerbutton,
+	cashDrawers, drawerNames, feesections, lFeeHeader, dealFeesection, linkedfee, feelist,
+	feelistCO, servicejobFeesection, merchandiseFeesection, formHeader, dealFormsection, formlist,
+	formlistco
+	
+	
 	
 	;
 	
 	public static void test() throws IOException
 	{
 	Property.testProperty();
-	
 	}
 	
 }

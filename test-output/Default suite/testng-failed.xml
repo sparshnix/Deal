@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Dealership.SystemSettings">
+      <class name="Dealership.CustomerOrder">
         <methods>
-          <include name="AccountingIntegration"/>
+          <include name="Servicejob"/>
         </methods>
-      </class> <!-- Dealership.SystemSettings -->
+      </class> <!-- Dealership.CustomerOrder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

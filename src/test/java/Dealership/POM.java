@@ -125,9 +125,9 @@ public class POM extends Variables {
 		Assert.assertTrue(CustomerInfo.isDisplayed(), "CustomerInfo is missing");
 		log.info("CustomerInfo is visible");
 		CustomerInfo.click();
-		Thread.sleep(10000);
+		Thread.sleep(20000);
 
-		if(driver.findElement(By.xpath(activeorders)).isDisplayed()) 
+		if(driver.findElement(By.xpath(sectionHeader)).getText().contains("SELECT CUSTOMER")) 
 		{
 			//*[@id="ActiveOrder"]/div[2]/div/div[2]/div/div[5]/button
 			driver.findElement(By.xpath(activeorderbutton)).click();
