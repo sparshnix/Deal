@@ -94,7 +94,8 @@ public class Variables {
 	listofdrawers, drawerHeader, addnewDrawerheader, drawerNameField, createdrawerbutton,
 	cashDrawers, drawerNames, feesections, lFeeHeader, dealFeesection, linkedfee, feelist,
 	feelistCO, servicejobFeesection, merchandiseFeesection, formHeader, dealFormsection, formlist,
-	formlistco
+	formlistco, unlink, financingFormsection, adddealfinancing, dfformlistco, serviceFormsection,
+	servieformlistco, vpFormsection
 	
 	
 	

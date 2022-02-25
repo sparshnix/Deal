@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="133.777">
+           time="295.954">
   <properties />
   
   
-            <testcase name="LinkedfeeforMarchendise" time="133.777" classname="Dealership.SystemSettings" />
+            <testcase name="LinkedformforVP" time="295.954" classname="Dealership.SystemSettings" />
       
 </testsuite>

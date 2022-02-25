@@ -441,8 +441,13 @@ public class Property extends Variables {
 		dealFormsection				=	locators.getProperty("dealFormsection");
 		formlist					=	locators.getProperty("formlist");
 		formlistco					=	locators.getProperty("formlistco");
-
-		
+		unlink						=	locators.getProperty("unlink");
+		financingFormsection		=	locators.getProperty("financingFormsection");
+		adddealfinancing			=	locators.getProperty("adddealfinancing");
+		dfformlistco				=	locators.getProperty("dfformlistco");
+		serviceFormsection			=	locators.getProperty("serviceFormsection");
+		servieformlistco			=	locators.getProperty("servieformlistco");
+		vpFormsection				=	locators.getProperty("vpFormsection");
 		
 		
 		

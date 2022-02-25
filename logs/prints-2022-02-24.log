@@ -1,0 +1,695 @@
+13:40:24.128 [main] INFO  Dealership.POM - Feeentity is visible
+13:40:44.944 [main] INFO  Dealership.POM - Kitentity is visible
+13:40:55.311 [main] INFO  Dealership.POM - Checkout_Button is visible
+13:41:26.379 [main] INFO  Dealership.POM - Payment option is visible
+13:41:26.527 [main] INFO  Dealership.POM - Payment option is selected
+13:41:26.653 [main] INFO  Dealership.POM - AddPayment Button is visible
+13:41:26.833 [main] INFO  Dealership.POM - AddPayment Button is clicked
+13:41:36.916 [main] INFO  Dealership.POM - Finalize Button is visible
+13:41:37.159 [main] INFO  Dealership.POM - Finalize Button is clicked
+13:41:47.247 [main] INFO  Dealership.POM - Invoice Window is visible
+13:41:47.599 [main] INFO  Dealership.POM - Invoice Close Button is visible
+13:41:47.669 [main] INFO  Dealership.POM - Invoice Close Button is clicked
+13:41:57.753 [main] INFO  Dealership.POM - CO Status is visible
+13:41:57.810 [main] INFO  Dealership.POM - CO Status is Closed
+13:41:57.818 [main] INFO  Dealership.POM - Test case Merchandise passes successfully
+13:43:16.647 [main] INFO  Dealership.POM - Running Test : AddCustomer
+13:43:25.566 [main] INFO  Dealership.POM - Windows maximized
+13:43:27.916 [main] INFO  Dealership.POM - URL entered
+13:43:28.087 [main] INFO  Dealership.POM - Username field is visible
+13:43:28.417 [main] INFO  Dealership.POM - Password field is visible
+13:43:28.619 [main] INFO  Dealership.POM - Login Button is visible
+13:43:44.507 [main] INFO  Dealership.POM - Login Button is clicked
+13:44:00.261 [main] INFO  Dealership.POM - Addnew button is displayed
+13:44:00.397 [main] INFO  Dealership.POM - Addnew button is clicked
+13:44:00.536 [main] INFO  Dealership.POM - Customer button is displayed
+13:44:01.348 [main] INFO  Dealership.POM - Customer button is clicked
+13:44:11.495 [main] INFO  Dealership.POM - Customer creation window is opened
+13:44:11.549 [main] INFO  Dealership.POM - Firstname field is visible
+13:44:11.924 [main] INFO  Dealership.POM - Firstname  is filled
+13:44:11.979 [main] INFO  Dealership.POM - Lastname field is visible
+13:44:12.186 [main] INFO  Dealership.POM - Lastname  is filled
+13:44:12.338 [main] INFO  Dealership.POM - Account type field is visible
+13:44:12.428 [main] INFO  Dealership.POM - Account type  is clicked
+13:44:12.813 [main] INFO  Dealership.POM - Account type  is selected
+13:44:12.880 [main] INFO  Dealership.POM - Email field is visible
+13:44:13.186 [main] INFO  Dealership.POM - Email  is filled
+13:44:13.241 [main] INFO  Dealership.POM - Mobilenumber field is visible
+13:44:13.422 [main] INFO  Dealership.POM - Mobilenumber  is filled
+13:44:13.519 [main] INFO  Dealership.POM - Address field is visible
+13:44:14.039 [main] INFO  Dealership.POM - Address  is filled
+13:44:14.129 [main] INFO  Dealership.POM - Country field is visible
+13:44:14.242 [main] INFO  Dealership.POM - Country is clicked
+13:44:14.517 [main] INFO  Dealership.POM - Country Name is selected
+13:44:14.798 [main] INFO  Dealership.POM - City Name is selected
+13:44:15.023 [main] INFO  Dealership.POM - Postcode is selected
+13:44:15.244 [main] INFO  Dealership.POM - Create button is clicked
+13:44:25.908 [main] INFO  Dealership.POM - email is entered in seachbox
+13:44:36.110 [main] INFO  Dealership.POM - the text is sparsh-23_02_202201_43_16@test.com
+13:44:36.127 [main] INFO  Dealership.POM - User is successfully created
+13:44:36.135 [main] INFO  Dealership.POM - Test case AddCustomer passes successfully
+13:51:20.787 [main] INFO  Dealership.POM - Running Test : Servicejob
+13:51:28.533 [main] INFO  Dealership.POM - Windows maximized
+13:51:30.549 [main] INFO  Dealership.POM - URL entered
+13:51:30.691 [main] INFO  Dealership.POM - Username field is visible
+13:51:30.925 [main] INFO  Dealership.POM - Password field is visible
+13:51:31.079 [main] INFO  Dealership.POM - Login Button is visible
+13:52:05.411 [main] INFO  Dealership.POM - Login Button is clicked
+13:52:20.582 [main] INFO  Dealership.POM - Sell link is visible
+13:52:21.821 [main] INFO  Dealership.POM - Sell link is clickable
+13:52:22.044 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+13:52:23.353 [main] INFO  Dealership.POM - Select Customer Field is visible
+13:52:25.587 [main] INFO  Dealership.POM - CustomerInfo is visible
+13:52:36.099 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Servicejob
+14:05:46.532 [main] INFO  Dealership.POM - Running Test : Servicejob
+14:05:56.806 [main] INFO  Dealership.POM - Windows maximized
+14:05:58.674 [main] INFO  Dealership.POM - URL entered
+14:05:58.855 [main] INFO  Dealership.POM - Username field is visible
+14:05:59.214 [main] INFO  Dealership.POM - Password field is visible
+14:05:59.480 [main] INFO  Dealership.POM - Login Button is visible
+14:06:17.707 [main] INFO  Dealership.POM - Login Button is clicked
+14:06:32.999 [main] INFO  Dealership.POM - Sell link is visible
+14:06:33.083 [main] INFO  Dealership.POM - Sell link is clickable
+14:06:35.167 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+14:06:36.060 [main] INFO  Dealership.POM - Select Customer Field is visible
+14:06:38.088 [main] INFO  Dealership.POM - CustomerInfo is visible
+14:06:58.286 [main] INFO  Dealership.POM - ServiceJob button is visible
+14:07:01.774 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+14:07:01.804 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+14:07:01.928 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+14:07:02.066 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+14:07:17.318 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+14:07:17.368 [main] INFO  Dealership.POM - VIN_Unit field is visible
+14:07:17.419 [main] INFO  Dealership.POM - Make field is visible
+14:07:17.703 [main] INFO  Dealership.POM - Make is filed
+14:07:17.761 [main] INFO  Dealership.POM - Model field is visible
+14:07:18.035 [main] INFO  Dealership.POM - Model is filed
+14:07:18.098 [main] INFO  Dealership.POM - Sub-Model field is visible
+14:07:18.466 [main] INFO  Dealership.POM - Sub-Model is filed
+14:07:18.517 [main] INFO  Dealership.POM - Year field is visible
+14:07:18.787 [main] INFO  Dealership.POM - Year is filed
+14:07:18.847 [main] INFO  Dealership.POM - Addbutton is visible
+14:07:18.986 [main] INFO  Dealership.POM - Addbutton is clicked
+14:07:29.064 [main] INFO  Dealership.POM - Customerownedunit is visible
+14:07:29.114 [main] INFO  Dealership.POM - Concern field is visible
+14:07:29.356 [main] INFO  Dealership.POM - Concern field is filled
+14:07:29.401 [main] INFO  Dealership.POM - Cause field is visible
+14:07:29.765 [main] INFO  Dealership.POM - Cause field is filled
+14:07:29.826 [main] INFO  Dealership.POM - Correction field is visible
+14:07:30.013 [main] INFO  Dealership.POM - Correction field is filled
+14:07:30.068 [main] INFO  Dealership.POM - Odometer_on_arrival field is visible
+14:07:30.346 [main] INFO  Dealership.POM - Odometer_on_arrival field is filled
+14:07:30.399 [main] INFO  Dealership.POM - Odometer_on_departure field is visible
+14:07:30.643 [main] INFO  Dealership.POM - Odometer_on_departure field is filled
+14:07:31.568 [main] INFO  Dealership.POM - Searchbox is visible
+14:07:42.231 [main] INFO  Dealership.POM - Merchentity is visible
+14:08:12.977 [main] INFO  Dealership.POM - Feeentity is visible
+14:08:53.757 [main] INFO  Dealership.POM - Kitentity is visible
+14:09:34.823 [main] INFO  Dealership.POM - Laborentity is visible
+14:10:06.093 [main] INFO  Dealership.POM - Notes field is visible
+14:10:07.241 [main] INFO  Dealership.POM - Assign_Tech button is visible
+14:10:07.462 [main] INFO  Dealership.POM - ClockingStaffPopupforCO is visible
+14:10:18.008 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Servicejob
+14:59:03.520 [main] INFO  Dealership.POM - Running Test : Servicejob
+14:59:13.584 [main] INFO  Dealership.POM - Windows maximized
+14:59:15.595 [main] INFO  Dealership.POM - URL entered
+14:59:15.738 [main] INFO  Dealership.POM - Username field is visible
+14:59:15.996 [main] INFO  Dealership.POM - Password field is visible
+14:59:16.269 [main] INFO  Dealership.POM - Login Button is visible
+14:59:16.378 [main] INFO  Dealership.POM - Login Button is clicked
+14:59:52.374 [main] INFO  Dealership.POM - Sell link is visible
+14:59:54.009 [main] INFO  Dealership.POM - Sell link is clickable
+14:59:54.804 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+14:59:55.193 [main] INFO  Dealership.POM - Select Customer Field is visible
+14:59:58.092 [main] INFO  Dealership.POM - CustomerInfo is visible
+15:00:28.560 [main] INFO  Dealership.POM - ServiceJob button is visible
+15:00:32.220 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+15:00:32.246 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+15:00:32.369 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+15:00:32.474 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+15:01:22.981 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+15:01:23.031 [main] INFO  Dealership.POM - VIN_Unit field is visible
+15:01:23.080 [main] INFO  Dealership.POM - Make field is visible
+15:01:24.695 [main] INFO  Dealership.POM - Make is filed
+15:01:24.743 [main] INFO  Dealership.POM - Model field is visible
+15:01:25.792 [main] INFO  Dealership.POM - Model is filed
+15:01:25.846 [main] INFO  Dealership.POM - Sub-Model field is visible
+15:01:26.303 [main] INFO  Dealership.POM - Sub-Model is filed
+15:01:26.355 [main] INFO  Dealership.POM - Year field is visible
+15:01:26.638 [main] INFO  Dealership.POM - Year is filed
+15:01:26.704 [main] INFO  Dealership.POM - Addbutton is visible
+15:01:26.885 [main] INFO  Dealership.POM - Addbutton is clicked
+15:01:36.945 [main] INFO  Dealership.POM - Customerownedunit is visible
+15:01:36.984 [main] INFO  Dealership.POM - Concern field is visible
+15:01:37.249 [main] INFO  Dealership.POM - Concern field is filled
+15:01:37.306 [main] INFO  Dealership.POM - Cause field is visible
+15:01:37.620 [main] INFO  Dealership.POM - Cause field is filled
+15:01:37.674 [main] INFO  Dealership.POM - Correction field is visible
+15:01:37.828 [main] INFO  Dealership.POM - Correction field is filled
+15:01:37.881 [main] INFO  Dealership.POM - Odometer_on_arrival field is visible
+15:01:38.181 [main] INFO  Dealership.POM - Odometer_on_arrival field is filled
+15:01:38.236 [main] INFO  Dealership.POM - Odometer_on_departure field is visible
+15:01:38.484 [main] INFO  Dealership.POM - Odometer_on_departure field is filled
+15:01:39.304 [main] INFO  Dealership.POM - Searchbox is visible
+15:01:50.193 [main] INFO  Dealership.POM - Merchentity is visible
+15:02:21.264 [main] INFO  Dealership.POM - Feeentity is visible
+15:03:01.999 [main] INFO  Dealership.POM - Kitentity is visible
+15:03:43.160 [main] INFO  Dealership.POM - Laborentity is visible
+15:04:14.447 [main] INFO  Dealership.POM - Notes field is visible
+15:04:15.821 [main] INFO  Dealership.POM - Assign_Tech button is visible
+15:04:16.037 [main] INFO  Dealership.POM - ClockingStaffPopupforCO is visible
+15:04:26.249 [main] INFO  Dealership.POM - Technician is successfully assigned
+15:04:31.451 [main] INFO  Dealership.POM - Customer Approval button is visible
+15:04:31.561 [main] INFO  Dealership.POM - Customer Approval button is clicked
+15:05:02.004 [main] INFO  Dealership.POM - Save Customer Approval button is visible
+15:05:02.066 [main] INFO  Dealership.POM - Save Customer Approval button is clicked
+15:05:12.233 [main] INFO  Dealership.POM - Approval ID is CA-00100
+15:05:17.610 [main] INFO  Dealership.POM - Status is Status: New
+15:05:17.905 [main] INFO  Dealership.POM - Complete Status is displayed
+15:05:17.969 [main] INFO  Dealership.POM - Complete Status is checked
+15:05:18.020 [main] INFO  Dealership.POM - Save button is displayed
+15:05:18.160 [main] INFO  Dealership.POM - Save buttton is clicked
+15:05:28.223 [main] INFO  Dealership.POM - Checkout_Button is visible
+15:05:59.081 [main] INFO  Dealership.POM - Payment option is visible
+15:05:59.205 [main] INFO  Dealership.POM - Payment option is selected
+15:05:59.379 [main] INFO  Dealership.POM - AddPayment Button is visible
+15:05:59.572 [main] INFO  Dealership.POM - AddPayment Button is clicked
+15:06:09.628 [main] INFO  Dealership.POM - Finalize Button is visible
+15:06:09.773 [main] INFO  Dealership.POM - Finalize Button is clicked
+15:06:19.844 [main] INFO  Dealership.POM - Invoice Window is visible
+15:06:20.076 [main] INFO  Dealership.POM - Invoice Close Button is visible
+15:06:20.232 [main] INFO  Dealership.POM - Invoice Close Button is clicked
+15:06:30.301 [main] INFO  Dealership.POM - CO Status is visible
+15:06:30.339 [main] INFO  Dealership.POM - CO Status is Closed
+15:06:31.223 [main] INFO  Dealership.POM - Customer name is entered in seachbox
+15:06:41.283 [main] INFO  Dealership.POM - SearcResults are displayed
+15:06:41.476 [main] INFO  Dealership.POM - SearcResult0 is clicked
+15:06:51.696 [main] INFO  Dealership.POM - CM_Owned_Units are displayed
+15:06:51.820 [main] INFO  Dealership.POM - CM_Owned_Units is clicked
+15:06:51.867 [main] INFO  Dealership.POM - RemoveLink is displayed
+15:06:51.980 [main] INFO  Dealership.POM - RemoveLink is checked
+15:06:52.029 [main] INFO  Dealership.POM - GoButton is displayed
+15:06:52.134 [main] INFO  Dealership.POM - GoButton is clicked
+15:06:53.818 [main] INFO  Dealership.POM - COU is Deleted successfully
+15:06:53.825 [main] INFO  Dealership.POM - Test case Servicejob passes successfully
+11:53:33.277 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+11:53:44.160 [main] INFO  Dealership.POM - Windows maximized
+11:53:49.415 [main] INFO  Dealership.POM - URL entered
+11:53:49.624 [main] INFO  Dealership.POM - Username field is visible
+11:53:50.267 [main] INFO  Dealership.POM - Password field is visible
+11:53:50.911 [main] INFO  Dealership.POM - Login Button is visible
+11:54:06.857 [main] INFO  Dealership.POM - Login Button is clicked
+11:54:22.168 [main] INFO  Dealership.POM - Account and Settings link is visible
+11:54:22.270 [main] INFO  Dealership.POM - Account and Settings link is clicked
+11:54:22.374 [main] INFO  Dealership.POM - SystemSettings link is visible
+11:54:22.484 [main] INFO  Dealership.POM - SystemSettings link is clicked
+11:56:03.280 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+11:56:41.898 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+11:56:50.198 [main] INFO  Dealership.POM - Windows maximized
+11:57:03.358 [main] INFO  Dealership.POM - URL entered
+11:57:03.517 [main] INFO  Dealership.POM - Username field is visible
+11:57:03.906 [main] INFO  Dealership.POM - Password field is visible
+11:57:04.150 [main] INFO  Dealership.POM - Login Button is visible
+11:57:04.804 [main] INFO  Dealership.POM - Login Button is clicked
+11:57:50.314 [main] INFO  Dealership.POM - Account and Settings link is visible
+11:57:50.433 [main] INFO  Dealership.POM - Account and Settings link is clicked
+11:57:50.542 [main] INFO  Dealership.POM - SystemSettings link is visible
+11:57:50.651 [main] INFO  Dealership.POM - SystemSettings link is clicked
+11:57:57.865 [main] INFO  Dealership.POM - Linked form management link is clicked
+11:58:07.945 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+11:58:07.990 [main] INFO  Dealership.POM - DealFormsection is visible
+11:58:08.066 [main] INFO  Dealership.POM - DealFormsection is clicked
+11:58:13.394 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+11:58:57.025 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+11:58:58.881 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+11:59:07.401 [main] INFO  Dealership.POM - Windows maximized
+11:59:09.999 [main] INFO  Dealership.POM - Windows maximized
+11:59:10.729 [main] INFO  Dealership.POM - URL entered
+11:59:11.267 [main] INFO  Dealership.POM - Username field is visible
+11:59:11.911 [main] INFO  Dealership.POM - Password field is visible
+11:59:12.404 [main] INFO  Dealership.POM - Login Button is visible
+11:59:12.485 [main] INFO  Dealership.POM - URL entered
+11:59:12.704 [main] INFO  Dealership.POM - Username field is visible
+11:59:13.483 [main] INFO  Dealership.POM - Password field is visible
+11:59:13.728 [main] INFO  Dealership.POM - Login Button is visible
+11:59:13.891 [main] INFO  Dealership.POM - Login Button is clicked
+11:59:48.312 [main] INFO  Dealership.POM - Login Button is clicked
+11:59:49.080 [main] INFO  Dealership.POM - Account and Settings link is visible
+11:59:49.150 [main] INFO  Dealership.POM - Account and Settings link is clicked
+11:59:49.251 [main] INFO  Dealership.POM - SystemSettings link is visible
+11:59:49.397 [main] INFO  Dealership.POM - SystemSettings link is clicked
+11:59:54.881 [main] INFO  Dealership.POM - Linked form management link is clicked
+12:00:03.473 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:00:03.598 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:00:03.808 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:00:04.092 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:00:05.033 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+12:00:05.085 [main] INFO  Dealership.POM - DealFormsection is visible
+12:00:05.172 [main] INFO  Dealership.POM - DealFormsection is clicked
+12:00:09.701 [main] INFO  Dealership.POM - Linked form management link is clicked
+12:00:10.286 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+12:00:10.387 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+12:00:17.924 [main] INFO  Dealership.POM - FormInput is visible
+12:00:18.295 [main] INFO  Dealership.POM - FormInput is clicked
+12:00:19.796 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+12:00:19.857 [main] INFO  Dealership.POM - DealFormsection is visible
+12:00:19.958 [main] INFO  Dealership.POM - DealFormsection is clicked
+12:00:23.420 [main] INFO  Dealership.POM - Formdropdown is visible
+12:00:23.479 [main] INFO  Dealership.POM - Formdropdown is clicked
+12:00:23.783 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+12:00:25.104 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+12:00:25.196 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+12:00:34.353 [main] INFO  Dealership.POM - FormInput is visible
+12:00:34.708 [main] INFO  Dealership.POM - FormInput is clicked
+12:00:39.817 [main] INFO  Dealership.POM - Formdropdown is visible
+12:00:39.876 [main] INFO  Dealership.POM - Formdropdown is clicked
+12:00:40.143 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+12:21:18.755 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+12:21:27.563 [main] INFO  Dealership.POM - Windows maximized
+12:21:32.356 [main] INFO  Dealership.POM - URL entered
+12:21:32.530 [main] INFO  Dealership.POM - Username field is visible
+12:21:32.816 [main] INFO  Dealership.POM - Password field is visible
+12:21:33.006 [main] INFO  Dealership.POM - Login Button is visible
+12:21:33.110 [main] INFO  Dealership.POM - Login Button is clicked
+12:22:07.272 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:22:07.414 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:22:07.703 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:22:07.845 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:22:11.997 [main] INFO  Dealership.POM - Linked form management link is clicked
+12:22:22.101 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+12:22:22.143 [main] INFO  Dealership.POM - DealFormsection is visible
+12:22:22.219 [main] INFO  Dealership.POM - DealFormsection is clicked
+12:22:27.326 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+12:22:27.391 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+12:22:34.161 [main] INFO  Dealership.POM - FormInput is visible
+12:22:34.551 [main] INFO  Dealership.POM - FormInput is clicked
+12:22:39.643 [main] INFO  Dealership.POM - Formdropdown is visible
+12:22:42.708 [main] INFO  Dealership.POM - Formdropdown is clicked
+12:22:42.961 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+12:22:59.039 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+12:23:07.630 [main] INFO  Dealership.POM - Windows maximized
+12:23:09.515 [main] INFO  Dealership.POM - URL entered
+12:23:09.673 [main] INFO  Dealership.POM - Username field is visible
+12:23:09.956 [main] INFO  Dealership.POM - Password field is visible
+12:23:10.156 [main] INFO  Dealership.POM - Login Button is visible
+12:23:26.738 [main] INFO  Dealership.POM - Login Button is clicked
+12:23:42.364 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:23:42.488 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:23:42.793 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:23:43.086 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:23:47.808 [main] INFO  Dealership.POM - Linked form management link is clicked
+12:23:57.892 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+12:23:57.949 [main] INFO  Dealership.POM - DealFormsection is visible
+12:23:58.016 [main] INFO  Dealership.POM - DealFormsection is clicked
+12:24:03.150 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+12:24:03.211 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+12:24:10.575 [main] INFO  Dealership.POM - FormInput is visible
+12:24:10.880 [main] INFO  Dealership.POM - FormInput is clicked
+12:24:15.998 [main] INFO  Dealership.POM - Formdropdown is visible
+12:24:19.083 [main] INFO  Dealership.POM - Formdropdown is clicked
+12:24:19.140 [main] INFO  Dealership.POM - LinktoDealBtn is visible
+12:24:19.202 [main] INFO  Dealership.POM - LinktoDealBtn is clicked
+12:24:19.292 [main] INFO  Dealership.POM - Sell link is visible
+12:24:20.807 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+12:28:59.517 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+12:29:08.869 [main] INFO  Dealership.POM - Windows maximized
+12:29:11.654 [main] INFO  Dealership.POM - URL entered
+12:29:11.842 [main] INFO  Dealership.POM - Username field is visible
+12:29:12.219 [main] INFO  Dealership.POM - Password field is visible
+12:29:12.454 [main] INFO  Dealership.POM - Login Button is visible
+12:29:12.557 [main] INFO  Dealership.POM - Login Button is clicked
+12:29:54.786 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:29:54.870 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:29:54.997 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:29:55.114 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:29:59.451 [main] INFO  Dealership.POM - Linked form management link is clicked
+12:30:09.541 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+12:30:09.585 [main] INFO  Dealership.POM - DealFormsection is visible
+12:30:09.658 [main] INFO  Dealership.POM - DealFormsection is clicked
+12:30:14.785 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+12:30:14.870 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+12:30:22.283 [main] INFO  Dealership.POM - FormInput is visible
+12:30:22.642 [main] INFO  Dealership.POM - FormInput is clicked
+12:30:27.769 [main] INFO  Dealership.POM - Formdropdown is visible
+12:30:30.839 [main] INFO  Dealership.POM - Formdropdown is clicked
+12:30:30.894 [main] INFO  Dealership.POM - LinktoDealBtn is visible
+12:30:30.972 [main] INFO  Dealership.POM - LinktoDealBtn is clicked
+12:30:31.084 [main] INFO  Dealership.POM - Sell link is visible
+12:30:32.519 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+12:31:15.262 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+12:31:24.728 [main] INFO  Dealership.POM - Windows maximized
+12:31:26.863 [main] INFO  Dealership.POM - URL entered
+12:31:27.230 [main] INFO  Dealership.POM - Username field is visible
+12:31:28.003 [main] INFO  Dealership.POM - Password field is visible
+12:31:28.506 [main] INFO  Dealership.POM - Login Button is visible
+12:31:28.594 [main] INFO  Dealership.POM - Login Button is clicked
+12:32:24.816 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:32:24.907 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:32:25.012 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:32:25.110 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:32:28.622 [main] INFO  Dealership.POM - Linked form management link is clicked
+12:32:38.714 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+12:32:38.757 [main] INFO  Dealership.POM - DealFormsection is visible
+12:32:38.826 [main] INFO  Dealership.POM - DealFormsection is clicked
+12:32:43.940 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+12:32:44.012 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+12:32:50.927 [main] INFO  Dealership.POM - FormInput is visible
+12:32:51.257 [main] INFO  Dealership.POM - FormInput is clicked
+12:32:56.376 [main] INFO  Dealership.POM - Formdropdown is visible
+12:32:59.450 [main] INFO  Dealership.POM - Formdropdown is clicked
+12:32:59.502 [main] INFO  Dealership.POM - LinktoDealBtn is visible
+12:32:59.591 [main] INFO  Dealership.POM - LinktoDealBtn is clicked
+12:32:59.718 [main] INFO  Dealership.POM - Sell link is visible
+12:33:01.164 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+12:50:50.742 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+12:50:58.563 [main] INFO  Dealership.POM - Windows maximized
+12:51:00.672 [main] INFO  Dealership.POM - URL entered
+12:51:00.848 [main] INFO  Dealership.POM - Username field is visible
+12:51:01.162 [main] INFO  Dealership.POM - Password field is visible
+12:51:01.533 [main] INFO  Dealership.POM - Login Button is visible
+12:51:19.310 [main] INFO  Dealership.POM - Login Button is clicked
+12:51:34.516 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:51:34.585 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:51:34.731 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:51:34.906 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:51:38.418 [main] INFO  Dealership.POM - Linked form management link is clicked
+12:51:48.523 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+12:51:48.585 [main] INFO  Dealership.POM - DealFormsection is visible
+12:51:48.665 [main] INFO  Dealership.POM - DealFormsection is clicked
+12:51:53.783 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+12:51:53.856 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+12:52:01.245 [main] INFO  Dealership.POM - FormInput is visible
+12:52:01.561 [main] INFO  Dealership.POM - FormInput is clicked
+12:52:06.936 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+12:52:22.531 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+12:52:22.896 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+12:52:34.499 [main] INFO  Dealership.POM - Windows maximized
+12:52:34.515 [main] INFO  Dealership.POM - Windows maximized
+12:52:36.641 [main] INFO  Dealership.POM - URL entered
+12:52:36.828 [main] INFO  Dealership.POM - URL entered
+12:52:36.842 [main] INFO  Dealership.POM - Username field is visible
+12:52:37.672 [main] INFO  Dealership.POM - Username field is visible
+12:52:38.542 [main] INFO  Dealership.POM - Password field is visible
+12:52:39.696 [main] INFO  Dealership.POM - Password field is visible
+12:52:39.757 [main] INFO  Dealership.POM - Login Button is visible
+12:52:40.716 [main] INFO  Dealership.POM - Login Button is visible
+12:53:12.733 [main] INFO  Dealership.POM - Login Button is clicked
+12:53:20.302 [main] INFO  Dealership.POM - Login Button is clicked
+12:53:27.989 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:53:28.109 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:53:28.237 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:53:28.313 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:53:33.785 [main] INFO  Dealership.POM - Linked form management link is clicked
+12:53:35.715 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:53:35.954 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:53:36.203 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:53:36.371 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:53:41.151 [main] INFO  Dealership.POM - Linked form management link is clicked
+12:53:43.869 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+12:53:43.932 [main] INFO  Dealership.POM - DealFormsection is visible
+12:53:44.027 [main] INFO  Dealership.POM - DealFormsection is clicked
+12:53:49.230 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+12:53:49.307 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+12:53:51.272 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+12:53:51.321 [main] INFO  Dealership.POM - DealFormsection is visible
+12:53:51.429 [main] INFO  Dealership.POM - DealFormsection is clicked
+12:53:56.569 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+12:53:56.661 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+12:53:56.804 [main] INFO  Dealership.POM - FormInput is visible
+12:53:57.368 [main] INFO  Dealership.POM - FormInput is clicked
+12:54:02.977 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+12:54:27.826 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+12:54:37.727 [main] INFO  Dealership.POM - Windows maximized
+12:54:39.423 [main] INFO  Dealership.POM - URL entered
+12:54:39.584 [main] INFO  Dealership.POM - Username field is visible
+12:54:39.982 [main] INFO  Dealership.POM - Password field is visible
+12:54:40.312 [main] INFO  Dealership.POM - Login Button is visible
+12:55:11.938 [main] INFO  Dealership.POM - Login Button is clicked
+12:55:27.330 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:55:27.423 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:55:27.538 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:55:27.643 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:55:32.225 [main] INFO  Dealership.POM - Linked form management link is clicked
+12:55:42.313 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+12:55:42.362 [main] INFO  Dealership.POM - DealFormsection is visible
+12:55:42.430 [main] INFO  Dealership.POM - DealFormsection is clicked
+12:55:47.565 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+12:55:47.642 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+12:55:55.007 [main] INFO  Dealership.POM - FormInput is visible
+12:55:55.307 [main] INFO  Dealership.POM - FormInput is clicked
+12:56:00.413 [main] INFO  Dealership.POM - Formdropdown is visible
+12:56:03.482 [main] INFO  Dealership.POM - Formdropdown is clicked
+12:56:03.536 [main] INFO  Dealership.POM - LinktoDealBtn is visible
+12:56:03.643 [main] INFO  Dealership.POM - LinktoDealBtn is clicked
+12:56:03.746 [main] INFO  Dealership.POM - Sell link is visible
+12:56:06.141 [main] INFO  Dealership.POM - Sell link is clickable
+12:56:06.390 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+12:56:08.243 [main] INFO  Dealership.POM - Select Customer Field is visible
+12:56:10.302 [main] INFO  Dealership.POM - CustomerInfo is visible
+12:56:40.692 [main] INFO  Dealership.POM - Sell A Unit button is visible
+12:56:40.790 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+12:56:42.510 [main] INFO  Dealership.POM - UnitDealStatus is visible
+12:56:42.538 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+12:56:42.637 [main] INFO  Dealership.POM - Documents is visible
+12:56:42.795 [main] INFO  Dealership.POM - Documents is clicked
+12:56:43.110 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:56:43.254 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:56:43.358 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:56:44.371 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:57:03.371 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+12:58:37.445 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+12:58:45.582 [main] INFO  Dealership.POM - Windows maximized
+12:58:50.009 [main] INFO  Dealership.POM - URL entered
+12:58:50.146 [main] INFO  Dealership.POM - Username field is visible
+12:58:50.576 [main] INFO  Dealership.POM - Password field is visible
+12:58:50.744 [main] INFO  Dealership.POM - Login Button is visible
+12:59:26.940 [main] INFO  Dealership.POM - Login Button is clicked
+12:59:42.159 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:59:42.245 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:59:42.383 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:59:42.468 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:59:45.850 [main] INFO  Dealership.POM - Linked form management link is clicked
+12:59:55.947 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+12:59:56.008 [main] INFO  Dealership.POM - DealFormsection is visible
+12:59:56.082 [main] INFO  Dealership.POM - DealFormsection is clicked
+13:00:01.198 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+13:00:01.259 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+13:00:08.077 [main] INFO  Dealership.POM - FormInput is visible
+13:00:08.414 [main] INFO  Dealership.POM - FormInput is clicked
+13:00:13.571 [main] INFO  Dealership.POM - Formdropdown is visible
+13:00:16.638 [main] INFO  Dealership.POM - Formdropdown is clicked
+13:00:16.692 [main] INFO  Dealership.POM - LinktoDealBtn is visible
+13:00:16.754 [main] INFO  Dealership.POM - LinktoDealBtn is clicked
+13:00:16.864 [main] INFO  Dealership.POM - Sell link is visible
+13:00:19.266 [main] INFO  Dealership.POM - Sell link is clickable
+13:00:19.369 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+13:00:20.262 [main] INFO  Dealership.POM - Select Customer Field is visible
+13:00:22.373 [main] INFO  Dealership.POM - CustomerInfo is visible
+13:00:52.742 [main] INFO  Dealership.POM - Sell A Unit button is visible
+13:00:52.828 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+13:00:54.567 [main] INFO  Dealership.POM - UnitDealStatus is visible
+13:00:54.616 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+13:00:54.712 [main] INFO  Dealership.POM - Documents is visible
+13:00:54.807 [main] INFO  Dealership.POM - Documents is clicked
+13:00:55.007 [main] INFO  Dealership.POM - Account and Settings link is visible
+13:00:55.146 [main] INFO  Dealership.POM - Account and Settings link is clicked
+13:00:55.316 [main] INFO  Dealership.POM - SystemSettings link is visible
+13:00:56.407 [main] INFO  Dealership.POM - SystemSettings link is clicked
+13:01:14.289 [main] INFO  Dealership.POM - Linked form management link is clicked
+13:01:24.430 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+13:01:24.474 [main] INFO  Dealership.POM - Deal Formsection is visible
+13:01:24.571 [main] INFO  Dealership.POM - Deal Formsection is clicked
+13:01:35.046 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+13:13:12.059 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+13:13:20.303 [main] INFO  Dealership.POM - Windows maximized
+13:13:31.664 [main] INFO  Dealership.POM - URL entered
+13:13:31.772 [main] INFO  Dealership.POM - Username field is visible
+13:13:32.007 [main] INFO  Dealership.POM - Password field is visible
+13:13:32.237 [main] INFO  Dealership.POM - Login Button is visible
+13:14:34.847 [main] INFO  Dealership.POM - Login Button is clicked
+13:14:50.062 [main] INFO  Dealership.POM - Account and Settings link is visible
+13:14:50.161 [main] INFO  Dealership.POM - Account and Settings link is clicked
+13:14:50.289 [main] INFO  Dealership.POM - SystemSettings link is visible
+13:14:50.366 [main] INFO  Dealership.POM - SystemSettings link is clicked
+13:14:55.340 [main] INFO  Dealership.POM - Linked form management link is clicked
+13:15:05.422 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+13:15:05.466 [main] INFO  Dealership.POM - DealFormsection is visible
+13:15:05.539 [main] INFO  Dealership.POM - DealFormsection is clicked
+13:15:10.662 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+13:15:10.740 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+13:15:18.084 [main] INFO  Dealership.POM - FormInput is visible
+13:15:18.475 [main] INFO  Dealership.POM - FormInput is clicked
+13:15:23.621 [main] INFO  Dealership.POM - Formdropdown is visible
+13:15:26.714 [main] INFO  Dealership.POM - Formdropdown is clicked
+13:15:26.765 [main] INFO  Dealership.POM - LinktoDealBtn is visible
+13:15:26.830 [main] INFO  Dealership.POM - LinktoDealBtn is clicked
+13:15:26.928 [main] INFO  Dealership.POM - Sell link is visible
+13:15:27.997 [main] INFO  Dealership.POM - Sell link is clickable
+13:15:29.341 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+13:15:29.713 [main] INFO  Dealership.POM - Select Customer Field is visible
+13:15:32.013 [main] INFO  Dealership.POM - CustomerInfo is visible
+13:16:02.412 [main] INFO  Dealership.POM - Sell A Unit button is visible
+13:16:02.544 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+13:16:04.318 [main] INFO  Dealership.POM - UnitDealStatus is visible
+13:16:04.356 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+13:16:04.498 [main] INFO  Dealership.POM - Documents is visible
+13:16:04.624 [main] INFO  Dealership.POM - Documents is clicked
+13:16:04.833 [main] INFO  Dealership.POM - Account and Settings link is visible
+13:16:05.002 [main] INFO  Dealership.POM - Account and Settings link is clicked
+13:16:05.158 [main] INFO  Dealership.POM - SystemSettings link is visible
+13:16:07.024 [main] INFO  Dealership.POM - SystemSettings link is clicked
+13:16:33.429 [main] INFO  Dealership.POM - Linked form management link is clicked
+13:16:43.597 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+13:16:43.659 [main] INFO  Dealership.POM - Deal Formsection is visible
+13:16:43.725 [main] INFO  Dealership.POM - Deal Formsection is clicked
+13:16:54.085 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+16:14:41.433 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+16:14:59.124 [main] INFO  Dealership.POM - Windows maximized
+16:15:01.059 [main] INFO  Dealership.POM - URL entered
+16:15:01.251 [main] INFO  Dealership.POM - Username field is visible
+16:15:01.630 [main] INFO  Dealership.POM - Password field is visible
+16:15:01.826 [main] INFO  Dealership.POM - Login Button is visible
+16:15:01.943 [main] INFO  Dealership.POM - Login Button is clicked
+16:15:23.640 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:15:23.807 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:15:23.935 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:15:24.019 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:15:30.783 [main] INFO  Dealership.POM - Linked form management link is clicked
+16:15:40.848 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+16:15:40.888 [main] INFO  Dealership.POM - DealFormsection is visible
+16:15:40.963 [main] INFO  Dealership.POM - DealFormsection is clicked
+16:15:46.078 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+16:15:46.167 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+16:15:52.925 [main] INFO  Dealership.POM - FormInput is visible
+16:15:53.326 [main] INFO  Dealership.POM - FormInput is clicked
+16:15:58.411 [main] INFO  Dealership.POM - Formdropdown is visible
+16:16:01.477 [main] INFO  Dealership.POM - Formdropdown is clicked
+16:16:01.537 [main] INFO  Dealership.POM - LinktoDealBtn is visible
+16:16:01.606 [main] INFO  Dealership.POM - LinktoDealBtn is clicked
+16:16:01.691 [main] INFO  Dealership.POM - Sell link is visible
+16:16:03.020 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+16:16:25.448 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+16:16:32.388 [main] INFO  Dealership.POM - Windows maximized
+16:16:34.407 [main] INFO  Dealership.POM - URL entered
+16:16:34.519 [main] INFO  Dealership.POM - Username field is visible
+16:16:34.844 [main] INFO  Dealership.POM - Password field is visible
+16:16:35.350 [main] INFO  Dealership.POM - Login Button is visible
+16:16:52.150 [main] INFO  Dealership.POM - Login Button is clicked
+16:17:07.333 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:17:07.481 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:17:08.157 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:17:08.287 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:17:12.502 [main] INFO  Dealership.POM - Linked form management link is clicked
+16:17:22.592 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+16:17:22.627 [main] INFO  Dealership.POM - DealFormsection is visible
+16:17:22.700 [main] INFO  Dealership.POM - DealFormsection is clicked
+16:17:27.793 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+16:17:27.861 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+16:17:35.121 [main] INFO  Dealership.POM - FormInput is visible
+16:17:35.460 [main] INFO  Dealership.POM - FormInput is clicked
+16:17:40.641 [main] INFO  Dealership.POM - Formdropdown is visible
+16:17:43.705 [main] INFO  Dealership.POM - Formdropdown is clicked
+16:17:43.739 [main] INFO  Dealership.POM - LinktoDealBtn is visible
+16:17:43.788 [main] INFO  Dealership.POM - LinktoDealBtn is clicked
+16:17:43.825 [main] INFO  Dealership.POM - Deal form is successfully created
+16:17:50.355 [main] INFO  Dealership.POM - Sell link is visible
+16:17:51.820 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+16:24:03.206 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+16:24:12.426 [main] INFO  Dealership.POM - Windows maximized
+16:24:19.864 [main] INFO  Dealership.POM - URL entered
+16:24:19.987 [main] INFO  Dealership.POM - Username field is visible
+16:24:20.269 [main] INFO  Dealership.POM - Password field is visible
+16:24:20.469 [main] INFO  Dealership.POM - Login Button is visible
+16:24:20.570 [main] INFO  Dealership.POM - Login Button is clicked
+16:25:17.468 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:25:17.550 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:25:17.707 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:25:17.817 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:25:25.050 [main] INFO  Dealership.POM - Linked form management link is clicked
+16:25:35.136 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+16:25:35.184 [main] INFO  Dealership.POM - DealFormsection is visible
+16:25:35.290 [main] INFO  Dealership.POM - DealFormsection is clicked
+16:25:40.416 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+16:25:40.486 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+16:25:48.337 [main] INFO  Dealership.POM - FormInput is visible
+16:25:48.656 [main] INFO  Dealership.POM - FormInput is clicked
+16:25:53.752 [main] INFO  Dealership.POM - Formdropdown is visible
+16:25:56.806 [main] INFO  Dealership.POM - Formdropdown is clicked
+16:25:56.841 [main] INFO  Dealership.POM - LinktoDealBtn is visible
+16:25:56.895 [main] INFO  Dealership.POM - LinktoDealBtn is clicked
+16:25:56.984 [main] INFO  Dealership.POM - Sell link is visible
+16:25:58.395 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+16:28:02.483 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+16:28:12.020 [main] INFO  Dealership.POM - Windows maximized
+16:28:17.469 [main] INFO  Dealership.POM - URL entered
+16:28:17.546 [main] INFO  Dealership.POM - Username field is visible
+16:28:17.710 [main] INFO  Dealership.POM - Password field is visible
+16:28:18.005 [main] INFO  Dealership.POM - Login Button is visible
+16:28:56.936 [main] INFO  Dealership.POM - Login Button is clicked
+16:29:12.143 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:29:12.227 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:29:12.331 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:29:12.441 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:29:17.867 [main] INFO  Dealership.POM - Linked form management link is clicked
+16:29:27.931 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+16:29:27.964 [main] INFO  Dealership.POM - DealFormsection is visible
+16:29:28.035 [main] INFO  Dealership.POM - DealFormsection is clicked
+16:29:33.125 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+16:29:33.175 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+16:29:40.455 [main] INFO  Dealership.POM - FormInput is visible
+16:29:40.736 [main] INFO  Dealership.POM - FormInput is clicked
+16:29:45.819 [main] INFO  Dealership.POM - Formdropdown is visible
+16:29:48.897 [main] INFO  Dealership.POM - Formdropdown is clicked
+16:29:48.936 [main] INFO  Dealership.POM - LinktoDealBtn is visible
+16:29:49.017 [main] INFO  Dealership.POM - LinktoDealBtn is clicked
+16:29:54.069 [main] INFO  Dealership.POM - Deal form is successfully created
+16:30:01.506 [main] INFO  Dealership.POM - Sell link is visible
+16:30:02.964 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+16:30:32.576 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+16:30:42.311 [main] INFO  Dealership.POM - Windows maximized
+16:30:58.185 [main] INFO  Dealership.POM - URL entered
+16:30:58.299 [main] INFO  Dealership.POM - Username field is visible
+16:30:58.518 [main] INFO  Dealership.POM - Password field is visible
+16:30:58.687 [main] INFO  Dealership.POM - Login Button is visible
+16:31:55.225 [main] INFO  Dealership.POM - Login Button is clicked
+16:32:10.395 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:32:10.468 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:32:10.641 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:32:10.778 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:32:18.003 [main] INFO  Dealership.POM - Linked form management link is clicked
+16:32:28.076 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+16:32:28.121 [main] INFO  Dealership.POM - DealFormsection is visible
+16:32:28.191 [main] INFO  Dealership.POM - DealFormsection is clicked
+16:32:33.286 [main] INFO  Dealership.POM - LinkAFormBtn is visible
+16:32:33.343 [main] INFO  Dealership.POM - LinkAFormBtn is clicked
+16:32:41.756 [main] INFO  Dealership.POM - FormInput is visible
+16:32:42.048 [main] INFO  Dealership.POM - FormInput is clicked
+16:32:47.134 [main] INFO  Dealership.POM - Formdropdown is visible
+16:32:50.223 [main] INFO  Dealership.POM - Formdropdown is clicked
+16:32:50.284 [main] INFO  Dealership.POM - LinktoDealBtn is visible
+16:32:50.357 [main] INFO  Dealership.POM - LinktoDealBtn is clicked
+16:32:55.423 [main] INFO  Dealership.POM - Deal form is successfully created
+16:32:55.470 [main] INFO  Dealership.POM - Sell link is visible
+16:32:55.553 [main] INFO  Dealership.POM - Sell link is clickable
+16:32:57.165 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+16:33:02.673 [main] INFO  Dealership.POM - Select Customer Field is visible
+16:33:04.713 [main] INFO  Dealership.POM - CustomerInfo is visible
+16:33:47.466 [main] INFO  Dealership.POM - Sell A Unit button is visible
+16:33:47.533 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+16:33:49.735 [main] INFO  Dealership.POM - UnitDealStatus is visible
+16:33:49.773 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+16:33:49.891 [main] INFO  Dealership.POM - Documents is visible
+16:33:50.011 [main] INFO  Dealership.POM - Documents is clicked
+16:33:50.230 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:33:50.390 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:33:50.592 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:33:52.054 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:34:15.091 [main] INFO  Dealership.POM - Linked form management link is clicked
+16:34:25.158 [main] INFO  Dealership.POM - LFeeHeade is Linked form management
+16:34:25.195 [main] INFO  Dealership.POM - Deal Formsection is visible
+16:34:25.256 [main] INFO  Dealership.POM - Deal Formsection is clicked
+16:34:35.514 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedformforDeal
+16:41:51.714 [main] INFO  Dealership.POM - Running Test : LinkedformforDeal
+16:41:59.280 [main] INFO  Dealership.POM - Windows maximized
+16:42:12.898 [main] INFO  Dealership.POM - URL entered
+16:42:13.007 [main] INFO  Dealership.POM - Username field is visible

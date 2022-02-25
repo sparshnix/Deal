@@ -1967,7 +1967,7 @@ public class SystemSettings extends POM	{
 		
 		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//button[contains(text(),'Link a form')]")));
 		Thread.sleep(5000);
-		WebElement LinkAFormBtn = driver.findElement(By.xpath("//button[contains(text(),'Link a fee')]"));
+		WebElement LinkAFormBtn = driver.findElement(By.xpath("//button[contains(text(),'Link a form')]"));
 		Assert.assertTrue(LinkAFormBtn.isDisplayed(), "LinkAFormBtn is missing");
 		log.info("LinkAFormBtn is visible");
 		LinkAFormBtn.click();
@@ -1987,14 +1987,15 @@ public class SystemSettings extends POM	{
 		Assert.assertTrue(Formdropdown.isDisplayed(), "Formdropdown is missing");
 		log.info("Formdropdown is visible");
 		Formdropdown.click();
+		Thread.sleep(3000);
 		log.info("Formdropdown is clicked");
-		
-		
-		WebElement LinktoDealBtn = driver.findElement(By.id("//button[contains(text(),'Link to Deal')]"));
+
+		WebElement LinktoDealBtn = driver.findElement(By.xpath("//button[contains(text(),'Link to Deal')]"));
 		Assert.assertTrue(LinktoDealBtn.isDisplayed(), "LinktoDealBtn is missing");
 		log.info("LinktoDealBtn is visible");
 		LinktoDealBtn.click();
 		log.info("LinktoDealBtn is clicked");
+		Thread.sleep(5000);
 		
 		List<WebElement> Formlist = driver.findElements(By.xpath(formlist));
 		for(WebElement DealForm : Formlist)
@@ -2003,7 +2004,7 @@ public class SystemSettings extends POM	{
 				log.info("Deal form is successfully created");
 				break;
 			}
-		
+	
 		SelectCustomer();
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(sellAUnit)));
 		WebElement SellAUnit = driver.findElement(By.xpath(sellAUnit));
@@ -2018,7 +2019,9 @@ public class SystemSettings extends POM	{
 		log.info("UnitDealStatus is visible");
 		log.info("UnitDealStatus is " +UnitDealStatus.getText());
 		Assert.assertEquals(UnitDealStatus.getText(), "Status: Quotation");
+		driver.navigate().refresh();
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[contains(text(),'Documents')]")));
 		WebElement Documents = driver.findElement(By.xpath("//h2[contains(text(),'Documents')]"));
 		JavascriptExecutor ex1 = (JavascriptExecutor) driver;
 		ex1.executeScript("arguments[0].scrollIntoView(true);", Documents);
@@ -2050,7 +2053,9 @@ public class SystemSettings extends POM	{
 		log.info("SystemSettings link is visible");
 		SystemSettings2.click();
 		log.info("SystemSettings link is clicked");
-		
+		Thread.sleep(10000);
+		driver.navigate().refresh();
+		Thread.sleep(10000);
 		
 		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(settingsTiles)));
 		
@@ -2076,47 +2081,674 @@ public class SystemSettings extends POM	{
 		log.info("Deal Formsection is clicked");
 		Thread.sleep(10000);
 		
-		int Count = driver.findElements(By.xpath("//tr[1]/td[1]")).size();
-		for(int i = 1 ; i <= Count ; i++)
+		int Count = driver.findElements(By.xpath(formlist)).size();
+		for(int i = 1 ; i <= (Count) ; i++)
 		{
-			WebElement Dealfee = driver.findElement(By.xpath("//tr["+i+"]/td[1]"));
-			if(Dealfee.getText().contains(linkedfee))
+			WebElement Dealform = driver.findElement(By.xpath("("+formlist+")["+i+"]"));
+			if(Dealform.getText().contains("dummy"))
 			{
-				driver.findElement(By.xpath("//tr["+i+"]/td[4]/i[1]"))
-				.click();
-				wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("PriceInput")));
-				driver.findElement(By.id("PriceInput")).sendKeys(Keys.chord(Keys.CONTROL,"a"),"100");
-				driver.findElement(By.xpath("//button[contains(text(),'Save')]"))
-				.click();
-				Thread.sleep(5000);
-				driver.findElement(By.xpath("//tr["+i+"]/td[4]/i[2]"))
-				.click();
-				Thread.sleep(5000);
-				driver.findElement(By.xpath("//button[contains(text(),'Delete')]"))
-				.click();
-				Thread.sleep(5000);
+				WebElement Unlink = driver.findElement(By.xpath("("+unlink+")["+i+"]"));
+				Assert.assertTrue(Unlink.isDisplayed(), "Unlink is missing");
+				log.info("Unlink is visible");
+				JavascriptExecutor ex2 = (JavascriptExecutor) driver;
+				ex2.executeScript("arguments[0].click();", Unlink);
+				log.info("Unlink is clicked");
+				Thread.sleep(10000);
 				break;
 			}
 		}
 		
-		List<WebElement> Feelist2 = driver.findElements(By.xpath(feelist));
-		Iterator<WebElement> it2 = Feelist2.iterator();
+		List<WebElement> Formlist2 = driver.findElements(By.xpath(formlist));
+		Iterator<WebElement> it2 = Formlist2.iterator();
 		while(it2.hasNext())
 		{
-			WebElement DealFee = it2.next();
-			if(DealFee.getText().contains(linkedfee))
+			WebElement DealForm = it2.next();
+			if(DealForm.getText().contains("dummy"))
 				{
-					Assert.assertTrue(false,"Deal Fee still exist" );
+					Assert.assertTrue(false,"Deal Form still exist" );
 					break;
 				}
 		}
 		
-		log.info("Deal Fee is deleted successfully");	
+		log.info("Deal Form is deleted successfully");	
+
+	}
+	
+	@Test(priority = 57)
+	public static void LinkedformforFinancing() throws Exception
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
+		WebElement ACandSet = driver.findElement(By.xpath(acandset));
+		Assert.assertTrue(ACandSet.isDisplayed(), "Account and Settings link is missing");
+		log.info("Account and Settings link is visible");
+		ACandSet.click();
+		log.info("Account and Settings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'System settings')]")));
+		WebElement SystemSettings = driver.findElement(By.xpath("//span[contains(text(),'System settings')]"));
+		Assert.assertTrue(SystemSettings.isDisplayed(), "SystemSettings link is missing");
+		log.info("SystemSettings link is visible");
+		SystemSettings.click();
+		log.info("SystemSettings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(settingsTiles)));
+		
+		List<WebElement> SettingsTiles = driver.findElements(By.xpath(settingsTiles));
+		for(WebElement Tile : SettingsTiles)
+			if(Tile.getText().contains("Linked form management"))
+			{
+				Tile.click();
+				break;
+			}
+			
+		log.info("Linked form management link is clicked");
+		Thread.sleep(10000);
+		
+		WebElement FormHeader = driver.findElement(By.xpath(formHeader));
+		Assert.assertTrue(FormHeader.isDisplayed(), "FormHeader is missing");
+		log.info("LFeeHeade is " +FormHeader.getText() );
+		
+		WebElement FinancingFormsection = driver.findElement(By.xpath(financingFormsection));
+		Assert.assertTrue(FinancingFormsection.isDisplayed(), "FinancingFormsection is missing");
+		log.info("FinancingFormsection is visible");
+		FinancingFormsection.click();
+		log.info("FinancingFormsection is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//button[contains(text(),'Link a form')]")));
+		Thread.sleep(5000);
+		WebElement LinkAFormBtn = driver.findElement(By.xpath("//button[contains(text(),'Link a form')]"));
+		Assert.assertTrue(LinkAFormBtn.isDisplayed(), "LinkAFormBtn is missing");
+		log.info("LinkAFormBtn is visible");
+		LinkAFormBtn.click();
+		log.info("LinkAFormBtn is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("form-rec")));
+		Thread.sleep(5000);
+		WebElement FormInput = driver.findElement(By.id("form-rec"));
+		Assert.assertTrue(FormInput.isDisplayed(), "FormInput is missing");
+		log.info("FormInput is visible");
+		FormInput.sendKeys("dummy");
+		log.info("FormInput is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("form-rec-dropdown-div")));
+		Thread.sleep(5000);
+		WebElement Formdropdown = driver.findElement(By.id("form-rec-dropdown-div"));
+		Assert.assertTrue(Formdropdown.isDisplayed(), "Formdropdown is missing");
+		log.info("Formdropdown is visible");
+		Formdropdown.click();
+		Thread.sleep(3000);
+		log.info("Formdropdown is clicked");
+
+		WebElement LinktoFinancingBtn = driver.findElement(By.xpath("//button[contains(text(),'Link to Financing')]"));
+		Assert.assertTrue(LinktoFinancingBtn.isDisplayed(), "LinktoFinancingBtn is missing");
+		log.info("LinktoFinancingBtn is visible");
+		LinktoFinancingBtn.click();
+		log.info("LinktoFinancingBtn is clicked");
+		Thread.sleep(5000);
+		
+		List<WebElement> Formlist = driver.findElements(By.xpath(formlist));
+		for(WebElement FinancingForm : Formlist)
+			if(FinancingForm.getText().contains("dummy"))
+			{
+				log.info("Financing form is successfully created");
+				break;
+			}
+	
+		SelectCustomer();
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(sellAUnit)));
+		WebElement SellAUnit = driver.findElement(By.xpath(sellAUnit));
+		Assert.assertTrue(SellAUnit.isDisplayed(), "Sell A Unit button is missing");
+		log.info("Sell A Unit button is visible");
+		SellAUnit.click();
+		log.info("Sell A Unit button is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(unitdealstatus)));
+		WebElement UnitDealStatus = driver.findElement(By.xpath(unitdealstatus));
+		Assert.assertTrue(UnitDealStatus.isDisplayed(), "UnitDealStatus is missing");
+		log.info("UnitDealStatus is visible");
+		log.info("UnitDealStatus is " +UnitDealStatus.getText());
+		Assert.assertEquals(UnitDealStatus.getText(), "Status: Quotation");
+		driver.navigate().refresh();
+
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(adddealfinancing)));
+		WebElement Aadddealfinancing = driver.findElement(By.xpath(adddealfinancing));
+		Assert.assertTrue(Aadddealfinancing.isDisplayed(), "Aadddealfinancing button is missing");
+		log.info("Aadddealfinancing button is visible");
+		Aadddealfinancing.click();
+		log.info("Aadddealfinancing button is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//h2[contains(text(), 'Documents')])[2]")));
+		Thread.sleep(5000);
+		
+		driver.findElement(By.xpath("(//h2[contains(text(),'Summary')])[2]")).click();
+		WebElement FinancingDoc = driver.findElement(By.xpath("(//h2[contains(text(), 'Documents')])[2]"));
+		Assert.assertTrue(FinancingDoc.isDisplayed(), "FinancingDoc button is missing");
+		log.info("FinancingDoc button is visible");
+		FinancingDoc.click();
+		log.info("FinancingDoc button is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//button[contains(text(),'Add forms')])[2]")));
+		List<WebElement> DFFormlistCO = driver.findElements(By.xpath(dfformlistco));
+		for(WebElement FinancingForm : DFFormlistCO)
+			if(FinancingForm.getText().contains("dummy"))
+			{
+				log.info("Financing Form is successfully verified on CO");
+				break;
+			}
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
+		WebElement ACandSet2 = driver.findElement(By.xpath(acandset));
+		Assert.assertTrue(ACandSet2.isDisplayed(), "Account and Settings link is missing");
+		log.info("Account and Settings link is visible");
+		ACandSet2.click();
+		log.info("Account and Settings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'System settings')]")));
+		WebElement SystemSettings2 = driver.findElement(By.xpath("//span[contains(text(),'System settings')]"));
+		Assert.assertTrue(SystemSettings2.isDisplayed(), "SystemSettings link is missing");
+		log.info("SystemSettings link is visible");
+		SystemSettings2.click();
+		log.info("SystemSettings link is clicked");
+		Thread.sleep(10000);
+		driver.navigate().refresh();
+		Thread.sleep(10000);
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(settingsTiles)));
+		
+		List<WebElement> SettingsTiles2 = driver.findElements(By.xpath(settingsTiles));
+		for(WebElement Tile : SettingsTiles2)
+			if(Tile.getText().contains("Linked form management"))
+			{
+				Tile.click();
+				break;
+			}
+			
+		log.info("Linked form management link is clicked");
+		Thread.sleep(10000);
+		
+		WebElement FormHeader2 = driver.findElement(By.xpath(formHeader));
+		Assert.assertTrue(FormHeader2.isDisplayed(), "LFeeHeader is missing");
+		log.info("LFeeHeade is " +FormHeader2.getText() );
+				
+		WebElement FinancingFormsection2 = driver.findElement(By.xpath(financingFormsection));
+		Assert.assertTrue(FinancingFormsection2.isDisplayed(), "Financing Formsection is missing");
+		log.info("Financing Formsection is visible");
+		FinancingFormsection2.click();
+		log.info("Financing Formsection is clicked");
+		Thread.sleep(10000);
+		
+		int Count = driver.findElements(By.xpath(formlist)).size();
+		for(int i = 1 ; i <= (Count) ; i++)
+		{
+			WebElement Dealform = driver.findElement(By.xpath("("+formlist+")["+i+"]"));
+			if(Dealform.getText().contains("dummy"))
+			{
+				WebElement Unlink = driver.findElement(By.xpath("("+unlink+")["+i+"]"));
+				Assert.assertTrue(Unlink.isDisplayed(), "Unlink is missing");
+				log.info("Unlink is visible");
+				JavascriptExecutor ex2 = (JavascriptExecutor) driver;
+				ex2.executeScript("arguments[0].click();", Unlink);
+				log.info("Unlink is clicked");
+				Thread.sleep(10000);
+				break;
+			}
+		}
+		
+		List<WebElement> Formlist2 = driver.findElements(By.xpath(formlist));
+		Iterator<WebElement> it2 = Formlist2.iterator();
+		while(it2.hasNext())
+		{
+			WebElement FinancingForm = it2.next();
+			if(FinancingForm.getText().contains("dummy"))
+				{
+					Assert.assertTrue(false,"Financing Form still exist" );
+					break;
+				}
+		}
+		
+		log.info("Financing Form is deleted successfully");	
 
 		
 		
+	}
+	
+	@Test(priority = 58)
+	public static void LinkedformforService() throws Exception
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
+		WebElement ACandSet = driver.findElement(By.xpath(acandset));
+		Assert.assertTrue(ACandSet.isDisplayed(), "Account and Settings link is missing");
+		log.info("Account and Settings link is visible");
+		ACandSet.click();
+		log.info("Account and Settings link is clicked");
 		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'System settings')]")));
+		WebElement SystemSettings = driver.findElement(By.xpath("//span[contains(text(),'System settings')]"));
+		Assert.assertTrue(SystemSettings.isDisplayed(), "SystemSettings link is missing");
+		log.info("SystemSettings link is visible");
+		SystemSettings.click();
+		log.info("SystemSettings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(settingsTiles)));
+		
+		List<WebElement> SettingsTiles = driver.findElements(By.xpath(settingsTiles));
+		for(WebElement Tile : SettingsTiles)
+			if(Tile.getText().contains("Linked form management"))
+			{
+				Tile.click();
+				break;
+			}
+			
+		log.info("Linked form management link is clicked");
+		Thread.sleep(10000);
+		
+		WebElement FormHeader = driver.findElement(By.xpath(formHeader));
+		Assert.assertTrue(FormHeader.isDisplayed(), "FormHeader is missing");
+		log.info("LFeeHeade is " +FormHeader.getText() );
+		
+		WebElement ServiceFormsection = driver.findElement(By.xpath(serviceFormsection));
+		Assert.assertTrue(ServiceFormsection.isDisplayed(), "ServiceFormsection is missing");
+		log.info("ServiceFormsection is visible");
+		ServiceFormsection.click();
+		log.info("ServiceFormsection is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//button[contains(text(),'Link a form')]")));
+		Thread.sleep(5000);
+		WebElement LinkAFormBtn = driver.findElement(By.xpath("//button[contains(text(),'Link a form')]"));
+		Assert.assertTrue(LinkAFormBtn.isDisplayed(), "LinkAFormBtn is missing");
+		log.info("LinkAFormBtn is visible");
+		LinkAFormBtn.click();
+		log.info("LinkAFormBtn is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("form-rec")));
+		Thread.sleep(5000);
+		WebElement FormInput = driver.findElement(By.id("form-rec"));
+		Assert.assertTrue(FormInput.isDisplayed(), "FormInput is missing");
+		log.info("FormInput is visible");
+		FormInput.sendKeys("dummy");
+		log.info("FormInput is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("form-rec-dropdown-div")));
+		Thread.sleep(5000);
+		WebElement Formdropdown = driver.findElement(By.id("form-rec-dropdown-div"));
+		Assert.assertTrue(Formdropdown.isDisplayed(), "Formdropdown is missing");
+		log.info("Formdropdown is visible");
+		Formdropdown.click();
+		Thread.sleep(3000);
+		log.info("Formdropdown is clicked");
 
+		WebElement LinktoServiceBtn = driver.findElement(By.xpath("//button[contains(text(),'Link to Service')]"));
+		Assert.assertTrue(LinktoServiceBtn.isDisplayed(), "LinktoServiceBtn is missing");
+		log.info("LinktoServiceBtn is visible");
+		LinktoServiceBtn.click();
+		log.info("LinktoServiceBtn is clicked");
+		Thread.sleep(5000);
+		
+		List<WebElement> Formlist = driver.findElements(By.xpath(formlist));
+		for(WebElement ServiceForm : Formlist)
+			if(ServiceForm.getText().contains("dummy"))
+			{
+				log.info("Service form is successfully created");
+				break;
+			}
+
+		SelectCustomer();
+		WebElement ServiceJob = driver.findElement(By.xpath(servicejob));
+		Assert.assertTrue(ServiceJob.isDisplayed(), "ServiceJob button is missing");
+		log.info("ServiceJob button is visible");
+		ServiceJob.click();
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(servicejobstatus)));
+		WebElement ServiceJobStatus1 = driver.findElement(By.xpath(servicejobstatus));
+		Assert.assertTrue(ServiceJobStatus1.isDisplayed(), "ServiceJobStatus is missing");
+		log.info("ServiceJobStatus is visible");
+		log.info("ServiceJobStatus is " +ServiceJobStatus1.getText());
+		Assert.assertEquals(ServiceJobStatus1.getText(), "Status: New");
+		driver.navigate().refresh();
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[contains(text(),'Documents')]")));
+		Thread.sleep(5000);
+		WebElement Documents = driver.findElement(By.xpath("//h2[contains(text(),'Documents')]"));
+		Assert.assertTrue(Documents.isDisplayed(), "Documents tab is missing");
+		log.info("Documents tab is visible");
+		Documents.click();
+		log.info("Documents tab is clicked");
+		Thread.sleep(5000);
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(servieformlistco)));
+		List<WebElement> ServiceFormlistCO = driver.findElements(By.xpath(servieformlistco));
+		for(WebElement ServiceForm : ServiceFormlistCO)
+			if(ServiceForm.getText().contains("dummy"))
+			{
+				log.info("Service Form is successfully verified on CO");
+				break;
+			}
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
+		WebElement ACandSet2 = driver.findElement(By.xpath(acandset));
+		Assert.assertTrue(ACandSet2.isDisplayed(), "Account and Settings link is missing");
+		log.info("Account and Settings link is visible");
+		ACandSet2.click();
+		log.info("Account and Settings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'System settings')]")));
+		WebElement SystemSettings2 = driver.findElement(By.xpath("//span[contains(text(),'System settings')]"));
+		Assert.assertTrue(SystemSettings2.isDisplayed(), "SystemSettings link is missing");
+		log.info("SystemSettings link is visible");
+		SystemSettings2.click();
+		log.info("SystemSettings link is clicked");
+		Thread.sleep(10000);
+		driver.navigate().refresh();
+		Thread.sleep(10000);
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(settingsTiles)));
+		
+		List<WebElement> SettingsTiles2 = driver.findElements(By.xpath(settingsTiles));
+		for(WebElement Tile : SettingsTiles2)
+			if(Tile.getText().contains("Linked form management"))
+			{
+				Tile.click();
+				break;
+			}
+			
+		log.info("Linked form management link is clicked");
+		Thread.sleep(10000);
+		
+		WebElement FormHeader2 = driver.findElement(By.xpath(formHeader));
+		Assert.assertTrue(FormHeader2.isDisplayed(), "LFeeHeader is missing");
+		log.info("LFeeHeade is " +FormHeader2.getText() );
+				
+		WebElement ServiceFormsection2 = driver.findElement(By.xpath(serviceFormsection));
+		Assert.assertTrue(ServiceFormsection2.isDisplayed(), "Service Formsection is missing");
+		log.info("Service Formsection is visible");
+		ServiceFormsection2.click();
+		log.info("Service Formsection is clicked");
+		Thread.sleep(10000);
+		
+		int Count = driver.findElements(By.xpath(formlist)).size();
+		for(int i = 1 ; i <= (Count) ; i++)
+		{
+			WebElement Dealform = driver.findElement(By.xpath("("+formlist+")["+i+"]"));
+			if(Dealform.getText().contains("dummy"))
+			{
+				WebElement Unlink = driver.findElement(By.xpath("("+unlink+")["+i+"]"));
+				Assert.assertTrue(Unlink.isDisplayed(), "Unlink is missing");
+				log.info("Unlink is visible");
+				JavascriptExecutor ex2 = (JavascriptExecutor) driver;
+				ex2.executeScript("arguments[0].click();", Unlink);
+				log.info("Unlink is clicked");
+				Thread.sleep(10000);
+				break;
+			}
+		}
+		
+		List<WebElement> Formlist2 = driver.findElements(By.xpath(formlist));
+		Iterator<WebElement> it2 = Formlist2.iterator();
+		while(it2.hasNext())
+		{
+			WebElement FinancingForm = it2.next();
+			if(FinancingForm.getText().contains("dummy"))
+				{
+					Assert.assertTrue(false,"Service Form still exist" );
+					break;
+				}
+		}
+		
+		log.info("Service Form is deleted successfully");	
+		
+		
+	}
+	
+	@Test(priority = 59)
+	public static void LinkedformforVP() throws Exception
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
+		WebElement ACandSet = driver.findElement(By.xpath(acandset));
+		Assert.assertTrue(ACandSet.isDisplayed(), "Account and Settings link is missing");
+		log.info("Account and Settings link is visible");
+		ACandSet.click();
+		log.info("Account and Settings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'System settings')]")));
+		WebElement SystemSettings = driver.findElement(By.xpath("//span[contains(text(),'System settings')]"));
+		Assert.assertTrue(SystemSettings.isDisplayed(), "SystemSettings link is missing");
+		log.info("SystemSettings link is visible");
+		SystemSettings.click();
+		log.info("SystemSettings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(settingsTiles)));
+		
+		List<WebElement> SettingsTiles = driver.findElements(By.xpath(settingsTiles));
+		for(WebElement Tile : SettingsTiles)
+			if(Tile.getText().contains("Linked form management"))
+			{
+				Tile.click();
+				break;
+			}
+			
+		log.info("Linked form management link is clicked");
+		Thread.sleep(10000);
+		
+		WebElement FormHeader = driver.findElement(By.xpath(formHeader));
+		Assert.assertTrue(FormHeader.isDisplayed(), "FormHeader is missing");
+		log.info("LFeeHeade is " +FormHeader.getText() );
+		
+		WebElement VPFormsection = driver.findElement(By.xpath(vpFormsection));
+		Assert.assertTrue(VPFormsection.isDisplayed(), "VPFormsection is missing");
+		log.info("VPFormsection is visible");
+		VPFormsection.click();
+		log.info("VPFormsection is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//button[contains(text(),'Link a form')]")));
+		Thread.sleep(5000);
+		WebElement LinkAFormBtn = driver.findElement(By.xpath("//button[contains(text(),'Link a form')]"));
+		Assert.assertTrue(LinkAFormBtn.isDisplayed(), "LinkAFormBtn is missing");
+		log.info("LinkAFormBtn is visible");
+		LinkAFormBtn.click();
+		log.info("LinkAFormBtn is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("form-rec")));
+		Thread.sleep(5000);
+		WebElement FormInput = driver.findElement(By.id("form-rec"));
+		Assert.assertTrue(FormInput.isDisplayed(), "FormInput is missing");
+		log.info("FormInput is visible");
+		FormInput.sendKeys("dummy");
+		log.info("FormInput is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("form-rec-dropdown-div")));
+		Thread.sleep(5000);
+		WebElement Formdropdown = driver.findElement(By.id("form-rec-dropdown-div"));
+		Assert.assertTrue(Formdropdown.isDisplayed(), "Formdropdown is missing");
+		log.info("Formdropdown is visible");
+		Formdropdown.click();
+		Thread.sleep(3000);
+		log.info("Formdropdown is clicked");
+		
+		
+		WebElement VendorProduct = driver.findElement(By.id("vendor-product"));
+		Assert.assertTrue(VendorProduct.isDisplayed(), "VendorProduct is missing");
+		log.info("VendorProduct is visible");
+		VendorProduct.sendKeys("QA_Sublet");
+		Thread.sleep(3000);
+		log.info("Formdropdown is clicked");
+		
+		
+		WebElement ProductDropdown = driver.findElement(By.id("vendor-product-dropdown-div"));
+		Assert.assertTrue(ProductDropdown.isDisplayed(), "ProductDropdown is missing");
+		log.info("ProductDropdown is visible");
+		ProductDropdown.click();
+		Thread.sleep(3000);
+		log.info("ProductDropdown is clicked");
+		
+		
+		WebElement LinktoVPBtn = driver.findElement(By.xpath("//button[contains(text(),'Link to Vendor product')]"));
+		Assert.assertTrue(LinktoVPBtn.isDisplayed(), "LinktoVPBtn is missing");
+		log.info("LinktoVPBtn is visible");
+		LinktoVPBtn.click();
+		log.info("LinktoVPBtn is clicked");
+		Thread.sleep(5000);
+		
+		List<WebElement> Formlist = driver.findElements(By.xpath(formlist));
+		for(WebElement VPForm : Formlist)
+			if(VPForm.getText().contains("dummy"))
+			{
+				log.info("Vendor Product form is successfully created");
+				break;
+			}
+		
+		SelectCustomer();
+		WebElement ServiceJob = driver.findElement(By.xpath(servicejob));
+		Assert.assertTrue(ServiceJob.isDisplayed(), "ServiceJob button is missing");
+		log.info("ServiceJob button is visible");
+		ServiceJob.click();
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(servicejobstatus)));
+		WebElement ServiceJobStatus1 = driver.findElement(By.xpath(servicejobstatus));
+		Assert.assertTrue(ServiceJobStatus1.isDisplayed(), "ServiceJobStatus is missing");
+		log.info("ServiceJobStatus is visible");
+		log.info("ServiceJobStatus is " +ServiceJobStatus1.getText());
+		Assert.assertEquals(ServiceJobStatus1.getText(), "Status: New");
+		driver.navigate().refresh();
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[contains(text(),'Documents')]")));
+		Thread.sleep(5000);
+		WebElement Documents = driver.findElement(By.xpath("//h2[contains(text(),'Documents')]"));
+		Assert.assertTrue(Documents.isDisplayed(), "Documents tab is missing");
+		log.info("Documents tab is visible");
+		Documents.click();
+		log.info("Documents tab is clicked");
+		Thread.sleep(5000);
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(servieformlistco)));
+		List<WebElement> ServiceFormlistCO = driver.findElements(By.xpath(servieformlistco));
+		for(WebElement VPForm : ServiceFormlistCO)
+			if(VPForm.getText().contains("dummy"))
+			{
+				log.info("Vendor product form is already added");
+				Assert.assertTrue(false, "Vendor product form is already added");
+			}
+		
+		WebElement LPJItems = driver.findElement(By.xpath(lpjItems));
+		LPJItems.click();
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("autocompleteServiceJob0")));
+		WebElement Searchbox1 = driver.findElement(By.id("autocompleteServiceJob0"));
+		Assert.assertTrue(Searchbox1.isDisplayed(), "Searchbox is missing");
+		log.info("Searchbox is visible");
+		Searchbox1.sendKeys("QA_Sublet");
+		Thread.sleep(10000);
+		
+		WebElement Merchentity = driver.findElement(By.id("entityInfo_0"));
+		Assert.assertTrue(Merchentity.isDisplayed(), "Merchentity is missing");
+		log.info("Merchentity is visible");
+		Merchentity.click();
+		Thread.sleep(10000);
+		driver.findElement(By.xpath(searchentitytext)).click();
+		Thread.sleep(10000);
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[contains(text(),'Documents')]")));
+		Thread.sleep(5000);
+		WebElement Documents2 = driver.findElement(By.xpath("//h2[contains(text(),'Documents')]"));
+		Assert.assertTrue(Documents2.isDisplayed(), "Documents tab is missing");
+		log.info("Documents tab is visible");
+		Documents2.click();
+		log.info("Documents tab is clicked");
+		Thread.sleep(5000);
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(servieformlistco)));
+		List<WebElement> ServiceFormlistCO2 = driver.findElements(By.xpath(servieformlistco));
+		for(WebElement VPForm : ServiceFormlistCO2)
+			if(VPForm.getText().contains("dummy"))
+			{
+				log.info("Vendor product form is successfully verified on CO");
+				break;
+			}
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
+		WebElement ACandSet2 = driver.findElement(By.xpath(acandset));
+		Assert.assertTrue(ACandSet2.isDisplayed(), "Account and Settings link is missing");
+		log.info("Account and Settings link is visible");
+		ACandSet2.click();
+		log.info("Account and Settings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'System settings')]")));
+		WebElement SystemSettings2 = driver.findElement(By.xpath("//span[contains(text(),'System settings')]"));
+		Assert.assertTrue(SystemSettings2.isDisplayed(), "SystemSettings link is missing");
+		log.info("SystemSettings link is visible");
+		SystemSettings2.click();
+		log.info("SystemSettings link is clicked");
+		Thread.sleep(10000);
+		driver.navigate().refresh();
+		Thread.sleep(10000);
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(settingsTiles)));
+		
+		List<WebElement> SettingsTiles2 = driver.findElements(By.xpath(settingsTiles));
+		for(WebElement Tile : SettingsTiles2)
+			if(Tile.getText().contains("Linked form management"))
+			{
+				Tile.click();
+				break;
+			}
+			
+		log.info("Linked form management link is clicked");
+		Thread.sleep(10000);
+		
+		WebElement FormHeader2 = driver.findElement(By.xpath(formHeader));
+		Assert.assertTrue(FormHeader2.isDisplayed(), "LFeeHeader is missing");
+		log.info("LFeeHeade is " +FormHeader2.getText() );
+				
+		WebElement VPFormsection2 = driver.findElement(By.xpath(vpFormsection));
+		Assert.assertTrue(VPFormsection2.isDisplayed(), "VP Formsection is missing");
+		log.info("VP Formsection is visible");
+		VPFormsection2.click();
+		log.info("VP Formsection is clicked");
+		Thread.sleep(10000);
+		
+		int Count = driver.findElements(By.xpath(formlist)).size();
+		for(int i = 1 ; i <= (Count) ; i++)
+		{
+			WebElement Dealform = driver.findElement(By.xpath("("+formlist+")["+i+"]"));
+			if(Dealform.getText().contains("dummy"))
+			{
+				WebElement Unlink = driver.findElement(By.xpath("("+unlink+")["+i+"]"));
+				Assert.assertTrue(Unlink.isDisplayed(), "Unlink is missing");
+				log.info("Unlink is visible");
+				JavascriptExecutor ex2 = (JavascriptExecutor) driver;
+				ex2.executeScript("arguments[0].click();", Unlink);
+				log.info("Unlink is clicked");
+				Thread.sleep(10000);
+				break;
+			}
+		}
+		
+		List<WebElement> Formlist2 = driver.findElements(By.xpath(formlist));
+		Iterator<WebElement> it2 = Formlist2.iterator();
+		while(it2.hasNext())
+		{
+			WebElement VPForm = it2.next();
+			if(VPForm.getText().contains("dummy"))
+				{
+					Assert.assertTrue(false,"Vendor product Form still exist" );
+					break;
+				}
+		}
+		
+		log.info("Vendor product is deleted successfully");	
+		
+		
 	}
 	
 }
