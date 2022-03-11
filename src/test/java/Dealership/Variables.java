@@ -95,7 +95,11 @@ public class Variables {
 	cashDrawers, drawerNames, feesections, lFeeHeader, dealFeesection, linkedfee, feelist,
 	feelistCO, servicejobFeesection, merchandiseFeesection, formHeader, dealFormsection, formlist,
 	formlistco, unlink, financingFormsection, adddealfinancing, dfformlistco, serviceFormsection,
-	servieformlistco, vpFormsection
+	servieformlistco, vpFormsection, allMakes, saveNewMakebtn, addNewModel, editmake, deletemake,
+	plHeader, editLocationfield, locationinfo, allLocations, tagHeader, editTagfield, taginfo,
+	allTags, taxHeader, taxrates, addnewrate, taxname, formslabel, rate, taxcodes, taxCodeName,
+	formslabelcode, activeToggle, closebutton, taxcodelist, taxratelist, assignTaxRateButton,
+	assignedRate, assignedrateCheckbox, rateinclude
 	
 	
 	

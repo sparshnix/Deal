@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="10" total="11" passed="1">
+<testng-results skipped="0" failed="0" ignored="14" total="15" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Status of execution : 1]]>
     </line>
     <line>
-      <![CDATA[Test case LinkedformforVP passes successfully]]>
+      <![CDATA[Test case SellingTaxmanagement passes successfully]]>
     </line>
     <line>
       <![CDATA[
 ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="302260" started-at="2022-02-25T15:14:32 IST" finished-at="2022-02-25T15:19:34 IST">
+  <suite name="Default suite" duration-ms="183190" started-at="2022-03-10T16:21:05 IST" finished-at="2022-03-10T16:24:08 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="302260" started-at="2022-02-25T15:14:32 IST" finished-at="2022-02-25T15:19:34 IST">
+    <test name="Default test" duration-ms="183190" started-at="2022-03-10T16:21:05 IST" finished-at="2022-03-10T16:24:08 IST">
       <class name="Dealership.SystemSettings">
-        <test-method status="PASS" signature="LinkedformforVP()[pri:59, instance:Dealership.SystemSettings@3c77d488]" name="LinkedformforVP" duration-ms="295954" started-at="2022-02-25T15:14:32 IST" finished-at="2022-02-25T15:19:28 IST">
+        <test-method status="PASS" signature="SellingTaxmanagement()[pri:63, instance:Dealership.SystemSettings@3c77d488]" name="SellingTaxmanagement" duration-ms="177123" started-at="2022-03-10T16:21:05 IST" finished-at="2022-03-10T16:24:02 IST">
           <reporter-output>
             <line>
               <![CDATA[Status of execution : 1]]>
             </line>
             <line>
-              <![CDATA[Test case LinkedformforVP passes successfully]]>
+              <![CDATA[Test case SellingTaxmanagement passes successfully]]>
             </line>
             <line>
               <![CDATA[
 ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- LinkedformforVP -->
+        </test-method> <!-- SellingTaxmanagement -->
       </class> <!-- Dealership.SystemSettings -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

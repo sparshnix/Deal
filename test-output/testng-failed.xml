@@ -5,7 +5,7 @@
     <classes>
       <class name="Dealership.SystemSettings">
         <methods>
-          <include name="LinkedformforVP"/>
+          <include name="SellingTaxmanagement"/>
         </methods>
       </class> <!-- Dealership.SystemSettings -->
     </classes>

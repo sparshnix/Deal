@@ -47,9 +47,6 @@ public class Masterdata extends POM {
 	public static String phonenumber = new SimpleDateFormat("MMyyyymmss").format(new Date());
 	public static String NewCustomer, NewVendor, NewPart, NewLabor, NewKit, NewFee, NewUnit;
 	
-	;
-
-	
 	@SuppressWarnings("deprecation")
 	
 	@Test(priority = 1)

@@ -11,8 +11,6 @@
         <methods>
           <include name="SingleUnitOrder"/>
           <include name="PartOrderfromCO"/>
-          <include name="Oversold"/>
-          <include name="PartReturntoVendor"/>
           <include name="BulkUnitOrder"/>
           <include name="PartOrderReceiveInvoice"/>
           <include name="SpecialOrder"/>
@@ -33,27 +31,36 @@
       <class name="Dealership.Workspace">
         <methods>
           <include name="Vendor_Orders"/>
-          <include name="ServiceJobs"/>
         </methods>
       </class> <!-- Dealership.Workspace -->
       <class name="Dealership.Masterdata">
         <methods>
-          <include name="AddLabor"/>
-          <include name="AddKit"/>
-          <include name="AddFee"/>
           <include name="AddCustomer"/>
           <include name="AddPart"/>
+          <include name="AddVendor"/>
+          <include name="AddUnit"/>
         </methods>
       </class> <!-- Dealership.Masterdata -->
       <class name="Dealership.CustomerOrder">
         <methods>
           <include name="UnitDeal"/>
           <include name="CashSale"/>
-          <include name="sell"/>
           <include name="TemporaryUnit"/>
-          <include name="servicejob"/>
+          <include name="Merchandise"/>
+          <include name="Servicejob"/>
         </methods>
       </class> <!-- Dealership.CustomerOrder -->
+      <class name="Dealership.SystemSettings">
+        <methods>
+          <include name="BrandingManagement"/>
+          <include name="LinkedfeeforDeal"/>
+          <include name="LinkedformforFinancing"/>
+          <include name="AccountingIntegration"/>
+          <include name="MakeAndModel"/>
+          <include name="LinkedformforDeal"/>
+          <include name="LinkedfeeforServiceJobs"/>
+        </methods>
+      </class> <!-- Dealership.SystemSettings -->
       <class name="Dealership.Schedule">
         <methods>
           <include name="MoveAppointment"/>
@@ -66,13 +73,11 @@
       </class> <!-- Dealership.Schedule -->
       <class name="Dealership.DeleteCustomerOnCO">
         <methods>
-          <include name="DeleteWhenUnitDeal"/>
           <include name="ConvertintoCashSale"/>
+          <include name="DeleteWhenCompletestatus"/>
           <include name="DeleteWhenStoreCredit"/>
           <include name="DeleteWhenServicejob"/>
-          <include name="DeleteWhenCompletestatus"/>
           <include name="DeleteWhenCOClosed"/>
-          <include name="DeleteWhenStockUnit"/>
         </methods>
       </class> <!-- Dealership.DeleteCustomerOnCO -->
     </classes>

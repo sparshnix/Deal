@@ -18,7 +18,14 @@
 		<class name="Dealership.DeleteCustomerOnCO">  </class> 
 		<class name="Dealership.Order"> </class>   
 		<class name="Dealership.Schedule"> </class> 
-		<class name="Dealership.SystemSettings"> </class>  
+		<class name="Dealership.SystemSettings"> 
+			
+			<methods>  
+ 				 <exclude name = "SellingTaxmanagement"/>  
+ 			</methods> 
+			
+		</class>  
+		
 		 
 		
 

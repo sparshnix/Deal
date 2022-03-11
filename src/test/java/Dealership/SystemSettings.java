@@ -2543,7 +2543,7 @@ public class SystemSettings extends POM	{
 		
 		WebElement FormHeader = driver.findElement(By.xpath(formHeader));
 		Assert.assertTrue(FormHeader.isDisplayed(), "FormHeader is missing");
-		log.info("LFeeHeade is " +FormHeader.getText() );
+		log.info("FormHeader is " +FormHeader.getText() );
 		
 		WebElement VPFormsection = driver.findElement(By.xpath(vpFormsection));
 		Assert.assertTrue(VPFormsection.isDisplayed(), "VPFormsection is missing");
@@ -2751,4 +2751,860 @@ public class SystemSettings extends POM	{
 		
 	}
 	
+	@Test(priority = 60)
+	public static void MakeAndModel() throws Exception
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
+		WebElement ACandSet = driver.findElement(By.xpath(acandset));
+		Assert.assertTrue(ACandSet.isDisplayed(), "Account and Settings link is missing");
+		log.info("Account and Settings link is visible");
+		ACandSet.click();
+		log.info("Account and Settings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'System settings')]")));
+		WebElement SystemSettings = driver.findElement(By.xpath("//span[contains(text(),'System settings')]"));
+		Assert.assertTrue(SystemSettings.isDisplayed(), "SystemSettings link is missing");
+		log.info("SystemSettings link is visible");
+		SystemSettings.click();
+		log.info("SystemSettings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(settingsTiles)));
+		
+		List<WebElement> SettingsTiles = driver.findElements(By.xpath(settingsTiles));
+		for(WebElement Tile : SettingsTiles)
+			if(Tile.getText().contains("Make & model"))
+			{
+				Tile.click();
+				break;
+			}
+			
+		log.info("Make & model link is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(allMakes)));
+		Thread.sleep(5000);
+		
+		WebElement AddNewMakebtn = driver.findElement(By.xpath("//span[contains(text(),'Add new make')]"));
+		Assert.assertTrue(AddNewMakebtn.isDisplayed(), "AddNewMakebtn is missing");
+		log.info("AddNewMakebtn is visible");
+		AddNewMakebtn.click();
+		log.info("AddNewMakebtn is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(),'Add a new make')]")));
+		Thread.sleep(3000);
+		WebElement AddNewMakeField = driver.findElement(By.xpath("//input[@placeholder = 'Enter make name']"));
+		Assert.assertTrue(AddNewMakeField.isDisplayed(), "AddNewMakeField is missing");
+		log.info("AddNewMakeField is visible");
+		int num = random.nextInt(1000);
+		AddNewMakeField.sendKeys("make_" + num);
+		log.info("AddNewMakeField is filled");
+		
+		WebElement SaveNewMakebtn = driver.findElement(By.xpath(saveNewMakebtn));
+		Assert.assertTrue(SaveNewMakebtn.isDisplayed(), "SaveNewMakebtn is missing");
+		log.info("SaveNewMakebtn is visible");
+		SaveNewMakebtn.click();
+		log.info("SaveNewMakebtn is clicked");
+		Thread.sleep(5000);
+		
+		int Count = driver.findElements(By.xpath(allMakes)).size();
+		for(int i = 1 ; i <= Count ; i++)
+		{
+			WebElement Make = driver.findElement(By.xpath("("+allMakes+")["+i+"]"));
+			if(Make.getText().contains("make_" + num))
+			{
+				log.info("Make is successfully created");
+				
+				WebElement AddNewModel = driver.findElement(By.xpath("(//a[contains(text(),'Add new model')])["+i+"]"));
+				Assert.assertTrue(AddNewModel.isDisplayed(), "AddNewModel is missing");
+				log.info("AddNewModel is visible");
+				AddNewModel.click();
+				log.info("AddNewModel is clicked");
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(),'Add a new model')]")));
+				Thread.sleep(3000);
+				WebElement AddNewModelField = driver.findElement(By.xpath("//input[@placeholder = 'Enter model name']"));
+				Assert.assertTrue(AddNewModelField.isDisplayed(), "AddNewModelField is missing");
+				log.info("AddNewModelField is visible");
+				AddNewModelField.sendKeys("model_" + num);
+				log.info("AddNewModelField is filled");
+				
+				WebElement ModelDesc = driver.findElement(By.id("ModelDesc"));
+				Assert.assertTrue(ModelDesc.isDisplayed(), "ModelDesc is missing");
+				log.info("ModelDesc is visible");
+				ModelDesc.sendKeys("model_Desc");
+				log.info("ModelDesc is filled");
+				
+				WebElement ModelCategory = driver.findElement(By.id("ModelCategory"));
+				Assert.assertTrue(ModelCategory.isDisplayed(), "ModelCategory is missing");
+				log.info("ModelCategory is visible");
+				ModelCategory.click();
+				log.info("ModelCategory is clicked");
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("modelCategory0")));
+				WebElement ModelCategory0 = driver.findElement(By.id("modelCategory0"));
+				Assert.assertTrue(ModelCategory0.isDisplayed(), "ModelCategory0 is missing");
+				log.info("ModelCategory0 is visible");
+				ModelCategory0.click();
+				log.info("ModelCategory0 is filled");
+				
+				WebElement SaveNewModelbtn = driver.findElement(By.xpath(saveNewMakebtn));
+				Assert.assertTrue(SaveNewModelbtn.isDisplayed(), "SaveNewModelbtn");
+				log.info("SaveNewModelbtn is visible");
+				SaveNewModelbtn.click();
+				log.info("SaveNewModelbtn is clicked");
+				Thread.sleep(5000);
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),"+("model_" + num)+")]")));
+				log.info("Model is successfully created");
+				
+				WebElement AddNewSubModel = driver.findElement(By.xpath("(//a[contains(text(),'Add new sub-model')])["+i+"]"));
+				Assert.assertTrue(AddNewSubModel.isDisplayed(), "AddNewSubModel is missing");
+				log.info("AddNewSubModel is visible");
+				AddNewSubModel.click();
+				log.info("AddNewSubModel is clicked");		
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(),'Add a new sub-model')]")));
+				Thread.sleep(3000);
+				WebElement AddNewSubModelField = driver.findElement(By.xpath("//input[@placeholder = 'Enter sub-model name']"));
+				Assert.assertTrue(AddNewSubModelField.isDisplayed(), "AddNewSubModelField is missing");
+				log.info("AddNewSubModelField is visible");
+				AddNewSubModelField.sendKeys("submodel_" + num);
+				log.info("AddNewSubModelField is filled");
+				
+				WebElement SubModelDesc = driver.findElement(By.id("ModelDesc"));
+				Assert.assertTrue(SubModelDesc.isDisplayed(), "SubModelDesc is missing");
+				log.info("SubModelDesc is visible");
+				SubModelDesc.sendKeys("submodel_Desc");
+				log.info("SubModelDesc is filled");
+				
+				WebElement SubModelCategory = driver.findElement(By.id("SubModelCategory"));
+				Assert.assertTrue(SubModelCategory.isDisplayed(), "SubModelCategory is missing");
+				log.info("SubModelCategory is visible");
+				SubModelCategory.click();
+				log.info("SubModelCategory is clicked");
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("submodelCategory0")));
+				WebElement SubModelCategory0 = driver.findElement(By.id("modelCategory0"));
+				Assert.assertTrue(SubModelCategory0.isDisplayed(), "SubModelCategory0 is missing");
+				log.info("SubModelCategory0 is visible");
+				SubModelCategory0.click();
+				log.info("SubModelCategory0 is filled");
+				
+				WebElement SaveNewSubModelbtn = driver.findElement(By.xpath(saveNewMakebtn));
+				Assert.assertTrue(SaveNewSubModelbtn.isDisplayed(), "SaveNewSubModelbtn is missing");
+				log.info("SaveNewSubModelbtn is visible");
+				SaveNewSubModelbtn.click();
+				log.info("SaveNewSubModelbtn is clicked");
+				Thread.sleep(5000);
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),"+("submodel_" + num)+")]")));
+				log.info("Sub-Model is successfully created");
+				
+				WebElement Editmake = driver.findElement(By.xpath("("+editmake+")["+i+"]"));
+				Assert.assertTrue(Editmake.isDisplayed(), "Editmake is missing");
+				log.info("Editmake is visible");
+				Editmake.click();
+				log.info("Editmake is clicked");
+				Thread.sleep(5000);
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(),'Edit make')]")));
+				Thread.sleep(3000);
+				driver.findElement(By.xpath(saveNewMakebtn)).click();
+				Thread.sleep(3000);
+				
+				WebElement Deletemake = driver.findElement(By.xpath("("+deletemake+")["+i+"]"));
+				Assert.assertTrue(Deletemake.isDisplayed(), "Deletemake is missing");
+				log.info("Deletemake is visible");
+				Deletemake.click();
+				log.info("Deletemake is clicked");
+				Thread.sleep(5000);
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Yes, delete')]")));
+				Thread.sleep(3000);
+				driver.findElement(By.xpath("//button[contains(text(),'Yes, delete')]")).click();
+				Thread.sleep(3000);
+				break;
+			}	
+			
+			int Count2 = driver.findElements(By.xpath(allMakes)).size();
+			Assert.assertNotEquals(Count, Count2, "Make is not deleted");
+			log.info("Make is deleted successfully");		
+		}
+	}
+	
+	@Test(priority = 61)
+	public static void ProductLocations() throws Exception
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
+		WebElement ACandSet = driver.findElement(By.xpath(acandset));
+		Assert.assertTrue(ACandSet.isDisplayed(), "Account and Settings link is missing");
+		log.info("Account and Settings link is visible");
+		ACandSet.click();
+		log.info("Account and Settings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'System settings')]")));
+		WebElement SystemSettings = driver.findElement(By.xpath("//span[contains(text(),'System settings')]"));
+		Assert.assertTrue(SystemSettings.isDisplayed(), "SystemSettings link is missing");
+		log.info("SystemSettings link is visible");
+		SystemSettings.click();
+		log.info("SystemSettings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(settingsTiles)));
+		
+//		JavascriptExecutor ex1 = (JavascriptExecutor) driver;
+//		ex1.executeScript("window.scrollBy(0,500)", "");
+		
+		List<WebElement> SettingsTiles = driver.findElements(By.xpath(settingsTiles));
+		for(WebElement Tile : SettingsTiles)
+			if(Tile.getText().contains("Product locations"))
+			{
+				Tile.click();
+				log.info("Product locations link is clicked");
+				break;
+			}
+			
+	
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(plHeader)));
+		WebElement PLHeader = driver.findElement(By.xpath(plHeader));
+		Assert.assertTrue(PLHeader.isDisplayed(), "Product locations Header is missing");
+		log.info("Product locations Header is visible");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("createNewTagId")));
+		WebElement AddLocationField = driver.findElement(By.id("createNewTagId"));
+		Assert.assertTrue(AddLocationField.isDisplayed(), "Add Location Field is missing");
+		log.info("Add Location Field is visible");
+		AddLocationField.sendKeys(Keys.chord("Auto Location",Keys.ENTER));
+		log.info("Add Location Field is filled");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Auto Location')]")));
+		WebElement AutoLocation = driver.findElement(By.xpath("//span[contains(text(),'Auto Location')]"));
+		Assert.assertTrue(AutoLocation.isDisplayed(), "AutoLocation is missing");
+		log.info("AutoLocation is visible");
+		AutoLocation.click();
+				
+		WebElement EditLocationfield = driver.findElement(By.xpath(editLocationfield));
+		Assert.assertTrue(EditLocationfield.isDisplayed(), "EditLocationfield is missing");
+		log.info("EditLocationfield is visible");
+		EditLocationfield.sendKeys(Keys.chord(Keys.CONTROL, "a"),"Auto Location 1");
+		EditLocationfield.sendKeys(Keys.ENTER);
+		log.info("Location is edited");
+		
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(addnew)));
+		WebElement Addnew = driver.findElement(By.xpath(addnew));
+		Assert.assertTrue(Addnew.isDisplayed(), "Button is missing");
+		log.info("Addnew button is displayed");
+		Addnew.click();
+		Assert.assertTrue(Addnew.isEnabled(), "Button is not clicked");
+		log.info("Addnew button is clicked");
+		
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(part)));
+		WebElement Part = driver.findElement(By.xpath(part));
+		Assert.assertTrue(Part.isDisplayed(), "Button is missing");
+		log.info("Part button is displayed");
+		Part.click();
+		Assert.assertTrue(Part.isEnabled(), "Button is not clicked");
+		log.info("Part button is clicked");
+		
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(partheader)));
+        Thread.sleep(5000);
+        WebElement PartHeader = driver.findElement(By.xpath(partheader));
+        Assert.assertTrue(PartHeader.isDisplayed(), "Part header is missing");
+        String PartHeadertext = PartHeader.getText();
+		System.out.println(PartHeadertext);
+		Assert.assertEquals(PartHeadertext, "New Merchandise");
+		log.info("Part creation window is opened");
+        
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("partNumber")));
+		WebElement PartNumber = driver.findElement(By.id("partNumber"));
+		Assert.assertTrue(PartNumber.isDisplayed(), "Part Number field is missing");
+		log.info("Part number field is displayed");
+		int num = random.nextInt(1000);
+		PartNumber.sendKeys("Part_"+num);
+		log.info("Part number is entered");
+		
+		WebElement PartDescription = driver.findElement(By.id("partDescription"));
+		Assert.assertTrue(PartDescription.isDisplayed(), "Part Description  field is missing");
+		log.info("Part Description field is displayed");
+		String Description = "Test Description";
+		PartDescription.sendKeys(Description);
+		log.info("Part Description is entered");
+		
+		WebElement Vendor_Input = driver.findElement(By.id("Vendor_Input"));
+		Assert.assertTrue(Vendor_Input.isDisplayed(), "Vendor_Input field is missing");
+		log.info("Vendor_Input field is displayed");
+//		Vendor_Input.sendKeys(NewVendor);
+		Vendor_Input.sendKeys("Qavendor");
+		Thread.sleep(10000);
+		WebElement VendorList = driver.findElement(By.id("SearchToaddCutomerSuggestions"));
+		VendorList.click();
+		log.info("Vendor_Input is entered");	
+		
+		
+		WebElement MfgPart = driver.findElement(By.id("mfgPart"));
+		Assert.assertTrue(MfgPart.isDisplayed(), "Mfg Part field is missing");
+		log.info("Mfg Part field is displayed");
+		MfgPart.sendKeys("#Mfg_test");
+		log.info("Mfg Part is entered");
+		
+		WebElement SKUNumber = driver.findElement(By.id("SKUNumber"));
+		Assert.assertTrue(SKUNumber.isDisplayed(), "SKU Number is missing");
+		log.info("SKU Number field is displayed");
+		SKUNumber.sendKeys("#SKU_test");
+		log.info("SKU Number is entered");
+		
+		
+		WebElement Category_Input = driver.findElement(By.id("Category_Input"));
+		Assert.assertTrue(Category_Input.isDisplayed(), "Category_Input field is missing");
+		log.info("Category_Input field is displayed");
+		Category_Input.clear();
+		Category_Input.sendKeys("part");
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("SearchToaddCutomerSuggestions")));
+		WebElement Category_List = driver.findElement(By.id("SearchToaddCutomerSuggestions"));
+		Category_List.click();
+		log.info("Category_Input is entered");	
+        
+		WebElement Tags = driver.findElement(By.xpath(tags));
+		Assert.assertTrue(Tags.isDisplayed(), "Tags field is missing");
+		log.info("Tagsfield is displayed");
+		Tags.sendKeys("auto");
+		Thread.sleep(2000);
+		WebElement Select_tag = driver.findElement(By.id("tag_0"));
+		Select_tag.click();
+		log.info("Tag is selected");
+		
+		((JavascriptExecutor) driver).executeScript("scroll(0,500)");
+		
+		WebElement ApplicableTax = driver.findElement(By.id("applicableTaxId"));	
+        Select select = new Select(ApplicableTax);
+        select.selectByIndex(0);
+		log.info("ApplicableTax is selected");
+		
+		
+		WebElement Location = driver.findElement(By.xpath(location));
+		Assert.assertTrue(Location.isDisplayed(), "Location field is missing");
+		log.info("Location field is displayed");
+		Location.sendKeys("Auto Location 1");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("SearchToaddCutomerSuggestions")));
+		Thread.sleep(5000);
+		WebElement Location_List = driver.findElement(By.id("SearchToaddCutomerSuggestions"));
+		Location_List.click();
+		log.info("Location_input is entered");	
+		
+		
+		WebElement InStockQty = driver.findElement(By.xpath(inStockQty));
+		Assert.assertTrue(InStockQty.isDisplayed(), "Qty field is missing");
+		log.info("Qty field is displayed");
+		InStockQty.sendKeys("10");
+		log.info("Qty is entered");
+
+		WebElement MSRP = driver.findElement(By.id("msrp"));
+		Assert.assertTrue(MSRP.isDisplayed(), "MSRP field is missing");
+		log.info("MSRP field is displayed");
+		MSRP.sendKeys("500");
+		log.info("MSRP is entered");
+		
+		WebElement Retail = driver.findElement(By.id("retail"));
+		Assert.assertTrue(Retail.isDisplayed(), "Retail field is missing");
+		log.info("Retail field is displayed");
+		Retail.sendKeys("400");
+		log.info("Retail is entered");
+		
+		WebElement SalePrice = driver.findElement(By.id("SalePrice"));
+		Assert.assertTrue(SalePrice.isDisplayed(), "SalePrice field is missing");
+		log.info("SalePrice field is displayed");
+		SalePrice.sendKeys("450");
+		log.info("SalePrice is entered");
+		
+		WebElement EnviroFee = driver.findElement(By.id("enviroFee"));
+		Assert.assertTrue(EnviroFee.isDisplayed(), "Environmental Fee field is missing");
+		log.info("Environmental Fee field is displayed");
+		EnviroFee.sendKeys("30");
+		log.info("Environmental Fee is entered");
+		
+		WebElement PartSaveBtn = driver.findElement(By.id("partSaveBtn"));
+		Assert.assertTrue(PartSaveBtn.isDisplayed(), "Part Save Button is missing");
+		log.info("Part Save Button  is displayed");
+		PartSaveBtn.click();
+		log.info("save button is clicked");
+		Thread.sleep(20000);
+
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(locationinfo)));
+		Thread.sleep(5000);
+		WebElement Locationinfo = driver.findElement(By.xpath(locationinfo));
+		Assert.assertTrue(Locationinfo.getText().contains("Auto Location 1"), "Locationinfo is missing");
+		log.info("Locationinfo is successfully verified");
+		
+		driver.navigate().back();
+		Thread.sleep(5000);
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Auto Location 1')]")));
+		int Count = driver.findElements(By.xpath(allLocations)).size();
+		for(int i = 1 ; i <= Count ; i++)
+		{
+			WebElement MyLocation = driver.findElement(By.xpath("("+allLocations+"/span)["+i+"]"));
+			Assert.assertTrue(MyLocation.isDisplayed(), "MyLocation is missing");
+			if(MyLocation.getText().contains("Auto Location 1"))
+			{
+				WebElement RemoveIcon = driver.findElement(By.xpath("("+allLocations+"/span/i)["+i+"]"));
+				Assert.assertTrue(RemoveIcon.isDisplayed(), "RemoveIcon is missing");
+				RemoveIcon.click();
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Yes, Delete')]")));
+				Thread.sleep(3000);
+				driver.findElement(By.xpath("//button[contains(text(),'Yes, Delete')]")).click();
+				Thread.sleep(5000);
+				break;
+			}
+		}
+		
+		int Count2 = driver.findElements(By.xpath(allLocations)).size();
+		Assert.assertNotEquals(Count, Count2, "Location is not removed");
+		log.info("Location is successfully removed");
+
+	}
+	
+	@Test(priority = 62)
+	public static void Tagmanagement() throws Exception
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
+		WebElement ACandSet = driver.findElement(By.xpath(acandset));
+		Assert.assertTrue(ACandSet.isDisplayed(), "Account and Settings link is missing");
+		log.info("Account and Settings link is visible");
+		ACandSet.click();
+		log.info("Account and Settings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'System settings')]")));
+		WebElement SystemSettings = driver.findElement(By.xpath("//span[contains(text(),'System settings')]"));
+		Assert.assertTrue(SystemSettings.isDisplayed(), "SystemSettings link is missing");
+		log.info("SystemSettings link is visible");
+		SystemSettings.click();
+		log.info("SystemSettings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(settingsTiles)));
+		
+		List<WebElement> SettingsTiles = driver.findElements(By.xpath(settingsTiles));
+		for(WebElement Tile : SettingsTiles)
+			if(Tile.getText().contains("Tag management"))
+			{
+				Tile.click();
+				log.info("Tag management link is clicked");
+				break;
+			}
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(tagHeader)));
+		WebElement TagHeader = driver.findElement(By.xpath(tagHeader));
+		Assert.assertTrue(TagHeader.isDisplayed(), "PTagHeader is missing");
+		log.info("TagHeader is visible");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("createNewTagId")));
+		WebElement AddTagField = driver.findElement(By.id("createNewTagId"));
+		Assert.assertTrue(AddTagField.isDisplayed(), "AddTagField is missing");
+		log.info("AddTagField is visible");
+		AddTagField.sendKeys(Keys.chord("Auto Tag",Keys.ENTER));
+		log.info("AddTagField is filled");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Auto Tag')]")));
+		WebElement AutoTag = driver.findElement(By.xpath("//span[contains(text(),'Auto Tag')]"));
+		Assert.assertTrue(AutoTag.isDisplayed(), "AutoTag is missing");
+		log.info("AutoTag is visible");
+		AutoTag.click();
+				
+		WebElement EditTagfield = driver.findElement(By.xpath(editTagfield));
+		Assert.assertTrue(EditTagfield.isDisplayed(), "EditTagfield is missing");
+		log.info("EditTagfield is visible");
+		EditTagfield.sendKeys(Keys.chord(Keys.CONTROL, "a"),"Auto Tag 1");
+		EditTagfield.sendKeys(Keys.ENTER);
+		log.info("Tag is edited");
+		
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(addnew)));
+		WebElement Addnew = driver.findElement(By.xpath(addnew));
+		Assert.assertTrue(Addnew.isDisplayed(), "Button is missing");
+		log.info("Addnew button is displayed");
+		Addnew.click();
+		Assert.assertTrue(Addnew.isEnabled(), "Button is not clicked");
+		log.info("Addnew button is clicked");
+		
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(part)));
+		WebElement Part = driver.findElement(By.xpath(part));
+		Assert.assertTrue(Part.isDisplayed(), "Button is missing");
+		log.info("Part button is displayed");
+		Part.click();
+		Assert.assertTrue(Part.isEnabled(), "Button is not clicked");
+		log.info("Part button is clicked");
+		
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(partheader)));
+        Thread.sleep(5000);
+        WebElement PartHeader = driver.findElement(By.xpath(partheader));
+        Assert.assertTrue(PartHeader.isDisplayed(), "Part header is missing");
+        String PartHeadertext = PartHeader.getText();
+		System.out.println(PartHeadertext);
+		Assert.assertEquals(PartHeadertext, "New Merchandise");
+		log.info("Part creation window is opened");
+        
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("partNumber")));
+		WebElement PartNumber = driver.findElement(By.id("partNumber"));
+		Assert.assertTrue(PartNumber.isDisplayed(), "Part Number field is missing");
+		log.info("Part number field is displayed");
+		int num = random.nextInt(10000);
+		PartNumber.sendKeys("Part_"+num);
+		log.info("Part number is entered");
+		
+		WebElement PartDescription = driver.findElement(By.id("partDescription"));
+		Assert.assertTrue(PartDescription.isDisplayed(), "Part Description  field is missing");
+		log.info("Part Description field is displayed");
+		String Description = "Test Description";
+		PartDescription.sendKeys(Description);
+		log.info("Part Description is entered");
+		
+		WebElement Vendor_Input = driver.findElement(By.id("Vendor_Input"));
+		Assert.assertTrue(Vendor_Input.isDisplayed(), "Vendor_Input field is missing");
+		log.info("Vendor_Input field is displayed");
+//		Vendor_Input.sendKeys(NewVendor);
+		Vendor_Input.sendKeys("Qavendor");
+		Thread.sleep(10000);
+		WebElement VendorList = driver.findElement(By.id("SearchToaddCutomerSuggestions"));
+		VendorList.click();
+		log.info("Vendor_Input is entered");	
+		
+		
+		WebElement MfgPart = driver.findElement(By.id("mfgPart"));
+		Assert.assertTrue(MfgPart.isDisplayed(), "Mfg Part field is missing");
+		log.info("Mfg Part field is displayed");
+		MfgPart.sendKeys("#Mfg_test");
+		log.info("Mfg Part is entered");
+		
+		WebElement SKUNumber = driver.findElement(By.id("SKUNumber"));
+		Assert.assertTrue(SKUNumber.isDisplayed(), "SKU Number is missing");
+		log.info("SKU Number field is displayed");
+		SKUNumber.sendKeys("#SKU_test");
+		log.info("SKU Number is entered");
+		
+		
+		WebElement Category_Input = driver.findElement(By.id("Category_Input"));
+		Assert.assertTrue(Category_Input.isDisplayed(), "Category_Input field is missing");
+		log.info("Category_Input field is displayed");
+		Category_Input.clear();
+		Category_Input.sendKeys("part");
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("SearchToaddCutomerSuggestions")));
+		Thread.sleep(2000);
+		WebElement Category_List = driver.findElement(By.id("SearchToaddCutomerSuggestions"));
+		Category_List.click();
+		log.info("Category_Input is entered");	
+        
+		WebElement Tags = driver.findElement(By.xpath(tags));
+		Assert.assertTrue(Tags.isDisplayed(), "Tags field is missing");
+		log.info("Tagsfield is displayed");
+		Tags.sendKeys("Auto Tag 1");
+		Thread.sleep(2000);
+		WebElement Select_tag = driver.findElement(By.id("tag_0"));
+		Select_tag.click();
+		log.info("Tag is selected");
+		
+		((JavascriptExecutor) driver).executeScript("scroll(0,500)");
+		
+		WebElement ApplicableTax = driver.findElement(By.id("applicableTaxId"));	
+        Select select = new Select(ApplicableTax);
+        select.selectByIndex(0);
+		log.info("ApplicableTax is selected");
+		
+//		WebElement Location = driver.findElement(By.xpath(location));
+//		Assert.assertTrue(Location.isDisplayed(), "Location field is missing");
+//		log.info("Location field is displayed");
+//		Location.sendKeys("Auto Location 1");
+//		
+//		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("SearchToaddCutomerSuggestions")));
+//		Thread.sleep(5000);
+//		WebElement Location_List = driver.findElement(By.id("SearchToaddCutomerSuggestions"));
+//		Location_List.click();
+//		log.info("Location_input is entered");	
+		
+		
+		WebElement InStockQty = driver.findElement(By.xpath(inStockQty));
+		Assert.assertTrue(InStockQty.isDisplayed(), "Qty field is missing");
+		log.info("Qty field is displayed");
+		InStockQty.sendKeys("10");
+		log.info("Qty is entered");
+
+		WebElement MSRP = driver.findElement(By.id("msrp"));
+		Assert.assertTrue(MSRP.isDisplayed(), "MSRP field is missing");
+		log.info("MSRP field is displayed");
+		MSRP.sendKeys("500");
+		log.info("MSRP is entered");
+		
+		WebElement Retail = driver.findElement(By.id("retail"));
+		Assert.assertTrue(Retail.isDisplayed(), "Retail field is missing");
+		log.info("Retail field is displayed");
+		Retail.sendKeys("400");
+		log.info("Retail is entered");
+		
+		WebElement SalePrice = driver.findElement(By.id("SalePrice"));
+		Assert.assertTrue(SalePrice.isDisplayed(), "SalePrice field is missing");
+		log.info("SalePrice field is displayed");
+		SalePrice.sendKeys("450");
+		log.info("SalePrice is entered");
+		
+		WebElement EnviroFee = driver.findElement(By.id("enviroFee"));
+		Assert.assertTrue(EnviroFee.isDisplayed(), "Environmental Fee field is missing");
+		log.info("Environmental Fee field is displayed");
+		EnviroFee.sendKeys("30");
+		log.info("Environmental Fee is entered");
+		
+		WebElement PartSaveBtn = driver.findElement(By.id("partSaveBtn"));
+		Assert.assertTrue(PartSaveBtn.isDisplayed(), "Part Save Button is missing");
+		log.info("Part Save Button  is displayed");
+		PartSaveBtn.click();
+		log.info("save button is clicked");
+		Thread.sleep(20000);
+
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(taginfo)));
+		Thread.sleep(5000);
+		WebElement Taginfo = driver.findElement(By.xpath(taginfo));
+		Assert.assertTrue(Taginfo.getText().contains("Auto Tag 1"), "Taginfo is missing");
+		log.info("Taginfo is successfully verified");
+		
+		driver.navigate().back();
+		Thread.sleep(5000);
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Auto Tag 1')]")));
+		int Count = driver.findElements(By.xpath(allTags)).size();
+		for(int i = 1 ; i <= Count ; i++)
+		{
+			WebElement MyTag = driver.findElement(By.xpath("("+allTags+"/span)["+i+"]"));
+			Assert.assertTrue(MyTag.isDisplayed(), "MyTag is missing");
+			if(MyTag.getText().contains("Auto Tag 1"))
+			{
+				WebElement RemoveIcon = driver.findElement(By.xpath("("+allTags+"/span/i)["+i+"]"));
+				Assert.assertTrue(RemoveIcon.isDisplayed(), "RemoveIcon is missing");
+				RemoveIcon.click();
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Yes, Delete')]")));
+				Thread.sleep(3000);
+				driver.findElement(By.xpath("//button[contains(text(),'Yes, Delete')]")).click();
+				Thread.sleep(5000);
+				break;
+			}
+		}
+		
+		int Count2 = driver.findElements(By.xpath(allTags)).size();
+		Assert.assertNotEquals(Count, Count2, "Tag is not removed");
+		log.info("Tag is successfully removed");
+
+	}
+
+	@Test(priority = 63)
+	public static void SellingTaxmanagement() throws Exception
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
+		WebElement ACandSet = driver.findElement(By.xpath(acandset));
+		Assert.assertTrue(ACandSet.isDisplayed(), "Account and Settings link is missing");
+		log.info("Account and Settings link is visible");
+		ACandSet.click();
+		log.info("Account and Settings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'System settings')]")));
+		WebElement SystemSettings = driver.findElement(By.xpath("//span[contains(text(),'System settings')]"));
+		Assert.assertTrue(SystemSettings.isDisplayed(), "SystemSettings link is missing");
+		log.info("SystemSettings link is visible");
+		SystemSettings.click();
+		log.info("SystemSettings link is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(settingsTiles)));
+		
+		List<WebElement> SettingsTiles = driver.findElements(By.xpath(settingsTiles));
+		for(WebElement Tile : SettingsTiles)
+			if(Tile.getText().contains("Tax management"))
+			{
+				Tile.click();
+				log.info("Tax management link is clicked");
+				break;
+			}
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(taxHeader)));
+		WebElement TaxHeader = driver.findElement(By.xpath(taxHeader));
+		Assert.assertTrue(TaxHeader.isDisplayed(), "TaxHeader is missing");
+		log.info("TaxHeader is visible");
+
+		//*[@id="BP_Home_mainContainer"]/div[1]/div[1]/div[2]/div[2]/label/i[1]
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(taxrates)));
+		Thread.sleep(10000);
+		WebElement TaxRates = driver.findElement(By.xpath(taxrates));
+		Assert.assertTrue(TaxRates.isDisplayed(), "TaxRates link is missing");
+		log.info("TaxRates link is visible");
+		TaxRates.click();
+		log.info("TaxRates link is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[contains(text(),'Add new rate')])[1]")));
+		WebElement AddNewSellingTaxRate = driver.findElement(By.xpath("(//*[contains(text(),'Add new rate')])[1]"));
+		Assert.assertTrue(AddNewSellingTaxRate.isDisplayed(), "AddNewSellingTaxRate link is missing");
+		log.info("AddNewSellingTaxRate link is visible");
+		AddNewSellingTaxRate.click();
+		log.info("AddNewSellingTaxRate link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(),'New selling tax rate')]")));
+		Thread.sleep(3000);
+		WebElement TaxName = driver.findElement(By.xpath(taxname));
+		Assert.assertTrue(TaxName.isDisplayed(), "TaxName is missing");
+		log.info("TaxName is visible");
+		int num = random.nextInt(1000);
+		String STR = "sellingtaxrate_"+num;
+		TaxName.sendKeys(STR);
+		log.info("TaxName is filled");
+		
+		
+		WebElement FormsLabel = driver.findElement(By.xpath(formslabel));
+		Assert.assertTrue(FormsLabel.isDisplayed(), "FormsLabel is missing");
+		log.info("FormsLabel is visible");
+		FormsLabel.sendKeys(STR);
+		log.info("FormsLabel is filled");
+
+		WebElement Rate = driver.findElement(By.xpath(rate));
+		Assert.assertTrue(Rate.isDisplayed(), "Rate is missing");
+		log.info("Rate is visible");
+		Rate.sendKeys(Keys.chord(Keys.CONTROL, "a"), "10");
+		log.info("Rate is filled");
+		
+		WebElement SaveButton1 = driver.findElement(By.xpath("(//a[contains(text(), 'Save')])[1]"));
+		Assert.assertTrue(SaveButton1.isDisplayed(), "SaveButton is missing");
+		log.info("SaveButton is visible");
+		SaveButton1.click();
+		log.info("SaveButton is clicked");
+		driver.navigate().refresh();
+		Thread.sleep(15000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(taxrates))).click();
+		
+		List<WebElement> TaxrateList = driver.findElements(By.xpath(taxratelist));
+		int Count1 = TaxrateList.size();
+		System.out.println(Count1);
+		for(int k = 1 ; k<=Count1 ; k++)
+		{
+			System.out.println(k);
+			WebElement NewTaxrate = driver.findElement(By.xpath("("+taxratelist+")["+k+"]"));
+			System.out.println(k+ " = " +NewTaxrate.getText());
+			if(NewTaxrate.getText().contains(STR))
+			{
+				log.info(STR+" is added successfully");
+				driver.navigate().refresh();
+				break;
+			}
+		}
+		
+
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(taxcodes)));
+		Thread.sleep(5000);
+		WebElement TaxCodes = driver.findElement(By.xpath(taxcodes));
+		Assert.assertTrue(TaxCodes.isDisplayed(), "TaxCodes link is missing");
+		log.info("TaxCodes link is visible");
+		TaxCodes.click();
+		log.info("TaxCodes link is clicked");
+
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[contains(text(),'Add a new tax code')])[1]")));
+		WebElement AddNewSellingTaxCode = driver.findElement(By.xpath("(//*[contains(text(),'Add a new tax code')])[1]"));
+		Assert.assertTrue(AddNewSellingTaxCode.isDisplayed(), "AddNewSellingTaxCode link is missing");
+		log.info("AddNewSellingTaxCode link is visible");
+		AddNewSellingTaxCode.click();
+		log.info("AddNewSellingTaxCode link is clicked");
+				
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(),'New selling tax code')]")));
+		Thread.sleep(3000);
+		WebElement TaxCodeName = driver.findElement(By.xpath(taxCodeName));
+		Assert.assertTrue(TaxCodeName.isDisplayed(), "TaxCodeName is missing");
+		log.info("TaxCodeName is visible");
+		String STC = "sellingtaxcode_"+num;
+		TaxCodeName.sendKeys(STC);
+		log.info("TaxCodeName is filled");
+		
+		WebElement FormsLabelCode = driver.findElement(By.xpath(formslabelcode));
+		Assert.assertTrue(FormsLabelCode.isDisplayed(), "FormsLabelCode is missing");
+		log.info("FormsLabelCode is visible");
+		FormsLabelCode.sendKeys(STC);
+		log.info("FormsLabelCode is filled");
+	
+		WebElement ActiveToggle = driver.findElement(By.xpath(activeToggle));
+		Assert.assertTrue(ActiveToggle.isDisplayed(), "ActiveToggle is missing");
+		log.info("ActiveToggle is visible");
+		ActiveToggle.click();
+		log.info("ActiveToggle is clicked");
+		
+		WebElement SaveButton2 = driver.findElement(By.xpath("(//a[contains(text(), 'Save')])[2]"));
+		Assert.assertTrue(SaveButton2.isDisplayed(), "SaveButton is missing");
+		log.info("SaveButton is visible");
+		SaveButton2.click();
+		log.info("SaveButton is clicked");
+		Thread.sleep(15000);
+		
+		List<WebElement> TaxcodeList = driver.findElements(By.xpath(taxcodelist));
+		int Count2 = TaxcodeList.size();
+		System.out.println(Count2);
+		for(int i = 1 ; i<=Count2 ; i++)
+		{
+			System.out.println(i);
+			WebElement NewTaxcode = driver.findElement(By.xpath("("+taxcodelist+")["+i+"]"));
+			System.out.println(i+ " = " +NewTaxcode.getText());
+			if(NewTaxcode.getText().contains(STC))
+			{
+				System.out.println(i);
+				Assert.assertTrue(NewTaxcode.isDisplayed(), "NewTaxCode is missing");
+				log.info("NewTaxCode is visible");
+				NewTaxcode.click();
+				log.info("NewTaxCode is clicked");
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("("+assignTaxRateButton+")["+i+"]")));
+				Thread.sleep(2000);
+				WebElement AssignTaxRateButton = driver.findElement(By.xpath("("+assignTaxRateButton+")["+i+"]"));
+				wt.until(ExpectedConditions.visibilityOf(AssignTaxRateButton));
+				Assert.assertTrue(AssignTaxRateButton.isDisplayed(), "AssignTaxRateButton is missing");
+				log.info("AssignTaxRateButton is visible");
+				AssignTaxRateButton.click();
+				log.info("AssignTaxRateButton is clicked");
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(),'Assign tax rates')]")));
+				Thread.sleep(12000);
+				
+				int C = driver.findElements(By.xpath(assignedRate)).size();
+				System.out.println(C);
+				for(int j = 1; j<=C ; j++)
+				{
+					WebElement AssignedRate = driver.findElement(By.xpath("("+assignedRate+")["+j+"]"));
+					System.out.println(j+ " = " + AssignedRate.getText());
+					if(AssignedRate.getText().contains("Sellingtaxrate_"+num))
+					{
+						
+						WebElement AssignedrateCheckbox = driver.findElement(By.xpath("("+assignedrateCheckbox+")["+j+"]"));
+						Assert.assertTrue(AssignedrateCheckbox.isDisplayed(), "AssignedrateCheckbox is missing");
+						JavascriptExecutor ex1 = (JavascriptExecutor) driver;
+						ex1.executeScript("arguments[0].click();", AssignedRate);
+						log.info("AssignedrateCheckbox is selected");
+						Thread.sleep(5000);
+						driver.findElement(By.xpath("//button[contains(text(),'Update')]")).click();
+						log.info("Update button is clicked");
+						Thread.sleep(20000);
+						break;
+					}
+				}				
+				
+				WebElement RateInclude = driver.findElement(By.xpath("("+rateinclude+")["+i+"]"));
+				Assert.assertTrue(RateInclude.getText().contains("Sellingtaxrate_"+num), "RateInclude is missing");
+				log.info("Tax rate has been successfully assigned");
+				Thread.sleep(5000);
+				break;
+			}
+		}
+		
+		
+		
+	}
+
 }

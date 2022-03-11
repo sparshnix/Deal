@@ -448,6 +448,40 @@ public class Property extends Variables {
 		serviceFormsection			=	locators.getProperty("serviceFormsection");
 		servieformlistco			=	locators.getProperty("servieformlistco");
 		vpFormsection				=	locators.getProperty("vpFormsection");
+		allMakes					=	locators.getProperty("allMakes");
+		saveNewMakebtn				=	locators.getProperty("saveNewMakebtn");
+		editmake					=	locators.getProperty("editmake");
+		deletemake					=	locators.getProperty("deletemake");
+		plHeader					=	locators.getProperty("plHeader");
+		editLocationfield			=	locators.getProperty("editLocationfield");
+		locationinfo				=	locators.getProperty("locationinfo");
+		allLocations				=	locators.getProperty("allLocations");
+		tagHeader					=	locators.getProperty("tagHeader");
+		editTagfield				=	locators.getProperty("editTagfield");
+		taginfo						=	locators.getProperty("taginfo");
+		allTags						=	locators.getProperty("allTags");
+		taxHeader					=	locators.getProperty("taxHeader");
+		taxrates					=	locators.getProperty("taxrates");
+		addnewrate					=	locators.getProperty("addnewrate");
+		taxname						=	locators.getProperty("taxname");
+		formslabel					=	locators.getProperty("formslabel");
+		rate						=	locators.getProperty("rate");
+		taxcodes					=	locators.getProperty("taxcodes");
+		taxCodeName					=	locators.getProperty("taxCodeName");
+		formslabelcode				=	locators.getProperty("formslabelcode");
+		activeToggle				=	locators.getProperty("activeToggle");
+		closebutton					=	locators.getProperty("closebutton");
+		taxcodelist					=	locators.getProperty("taxcodelist");
+		taxratelist					=	locators.getProperty("taxratelist");
+		assignTaxRateButton			=	locators.getProperty("assignTaxRateButton");
+		assignedRate				=	locators.getProperty("assignedRate");
+		assignedrateCheckbox		=	locators.getProperty("assignedrateCheckbox");
+		rateinclude					=	locators.getProperty("rateinclude");
+		
+		
+		
+		
+		
 		
 		
 		

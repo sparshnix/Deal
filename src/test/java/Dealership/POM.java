@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
+import javax.xml.xpath.XPath;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -39,6 +41,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class POM extends Variables {
 	
+
 	public static String NewKit, NewSublet, NewDeal_Product,
 						 NewFinancing_Product, NewWarranty_Plan; 
 	public static String Todaysdate = new SimpleDateFormat("d").format(new Date());
@@ -48,15 +51,17 @@ public class POM extends Variables {
 	
 	@SuppressWarnings("deprecation")
 	
-	public static void Login() throws Exception {
+	public static void Login() throws Exception 
+	{
 		
-
 		/*
 		 * String projectpath = System.getProperty("user.dir") + File.separator
 		 * +"chromedriver.exe" ; System.setProperty("webdriver.chrome.driver",
 		 * projectpath); WebDriver driver = new ChromeDriver();
 		 */
 		// call property class and get the value of browser string from config.properties file
+
+		
 		Property.testProperty();
 
 		if (browser.equalsIgnoreCase("Chrome")) {
@@ -94,13 +99,19 @@ public class POM extends Variables {
 		LoginButton.sendKeys(Keys.RETURN);
 		log.info("Login Button is clicked");
 		Thread.sleep(15000);
- 
+		
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(closebutton)));
+		WebElement Closebutton = driver.findElement(By.xpath(closebutton));
+		JavascriptExecutor ex = (JavascriptExecutor) driver;
+		ex.executeScript("arguments[0].click();", Closebutton);
+		Thread.sleep(5000);
 	}
 	
 	public static void SelectCustomer() throws Exception
 	
 	{
-		WebDriverWait wt = new WebDriverWait(driver, 20);
+		WebDriverWait wt = new WebDriverWait(driver, 100);
 		WebElement Sell = driver.findElement(By.xpath(sell));
 		Assert.assertTrue(Sell.isDisplayed(), "Sell link is missing");
 		log.info("Sell link is visible");
