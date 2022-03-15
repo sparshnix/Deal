@@ -7,54 +7,90 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" parallel="methods">
     <classes>
-      <class name="Dealership.Masterdata">
+      <class name="Dealership.Order">
         <methods>
-          <include name="AddFee"/>
-          <include name="AddLabor"/>
-          <include name="AddCustomer"/>
-          <include name="AddPart"/>
-          <include name="AddVendor"/>
-          <include name="AddUnit"/>
+          <include name="SingleUnitOrder"/>
+          <include name="PartOrderfromCO"/>
+          <include name="Oversold"/>
+          <include name="PartReturntoVendor"/>
+          <include name="BulkUnitOrder"/>
+          <include name="PartOrderReceiveInvoice"/>
+          <include name="SpecialOrder"/>
         </methods>
-      </class> <!-- Dealership.Masterdata -->
-      <class name="Dealership.DeleteCustomerOnCO">
-        <methods>
-          <include name="ConvertintoCashSale"/>
-          <include name="DeleteWhenCompletestatus"/>
-          <include name="DeleteWhenServicejob"/>
-          <include name="DeleteWhenStoreCredit"/>
-          <include name="DeleteWhenCOClosed"/>
-          <include name="DeleteWhenStockUnit"/>
-        </methods>
-      </class> <!-- Dealership.DeleteCustomerOnCO -->
-      <class name="Dealership.Workspace">
-        <methods>
-          <include name="Activity_Feed"/>
-          <include name="Customer_Orders"/>
-        </methods>
-      </class> <!-- Dealership.Workspace -->
-      <class name="Dealership.Sell">
-        <methods>
-          <include name="TemporaryUnit"/>
-          <include name="servicejob"/>
-          <include name="UnitDeal"/>
-          <include name="CashSale"/>
-          <include name="sell"/>
-        </methods>
-      </class> <!-- Dealership.Sell -->
+      </class> <!-- Dealership.Order -->
       <class name="Dealership.ChangeCustomerOnCO">
         <methods>
-          <include name="ChangeWhenStoreCredit"/>
           <include name="ChangeWhenTemporaryUnit"/>
-          <include name="DeleteWhenCompletestatus"/>
+          <include name="ChangeWhenStoreCredit"/>
+          <include name="ChangeWhenCompletestatus"/>
           <include name="ChangeWhenServicejob"/>
-          <include name="ChangeWhenSellAPart"/>
           <include name="ChangeWhenStockUnit"/>
           <include name="ChangeWhenUnitDeal"/>
           <include name="ChangeWhenCOClosed"/>
           <include name="ChangeWhenTradeinUnit"/>
         </methods>
       </class> <!-- Dealership.ChangeCustomerOnCO -->
+      <class name="Dealership.Workspace">
+        <methods>
+          <include name="Vendor_Orders"/>
+          <include name="ServiceJobs"/>
+          <include name="Activity_Feed"/>
+          <include name="Customer_Orders"/>
+        </methods>
+      </class> <!-- Dealership.Workspace -->
+      <class name="Dealership.Masterdata">
+        <methods>
+          <include name="AddFee"/>
+          <include name="AddLabor"/>
+          <include name="AddKit"/>
+          <include name="AddCustomer"/>
+          <include name="AddPart"/>
+          <include name="AddVendor"/>
+          <include name="AddUnit"/>
+        </methods>
+      </class> <!-- Dealership.Masterdata -->
+      <class name="Dealership.CustomerOrder">
+        <methods>
+          <include name="UnitDeal"/>
+          <include name="CashSale"/>
+          <include name="TemporaryUnit"/>
+          <include name="Merchandise"/>
+          <include name="Servicejob"/>
+        </methods>
+      </class> <!-- Dealership.CustomerOrder -->
+      <class name="Dealership.SystemSettings">
+        <methods>
+          <include name="BrandingManagement"/>
+          <include name="LinkedfeeforDeal"/>
+          <include name="LinkedformforVP"/>
+          <include name="LinkedfeeforMarchendise"/>
+          <include name="ProductLocations"/>
+          <include name="AccountingIntegration"/>
+          <include name="MakeAndModel"/>
+          <include name="LinkedformforDeal"/>
+          <include name="LinkedfeeforServiceJobs"/>
+        </methods>
+      </class> <!-- Dealership.SystemSettings -->
+      <class name="Dealership.Schedule">
+        <methods>
+          <include name="DealserviceAppointment"/>
+          <include name="CreateandView"/>
+          <include name="ServiceJobAppointment"/>
+          <include name="CreateEditDeleteAppointment"/>
+          <include name="UnassignedAppointment"/>
+        </methods>
+      </class> <!-- Dealership.Schedule -->
+      <class name="Dealership.DeleteCustomerOnCO">
+        <methods>
+          <include name="ConvertintoCashSale"/>
+          <include name="DeleteWhenTemporaryUnit"/>
+          <include name="DeleteWhenCompletestatus"/>
+          <include name="DeleteWhenStoreCredit"/>
+          <include name="DeleteWhenServicejob"/>
+          <include name="DeleteWhenCOClosed"/>
+          <include name="DeleteWhenStockUnit"/>
+        </methods>
+      </class> <!-- Dealership.DeleteCustomerOnCO -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

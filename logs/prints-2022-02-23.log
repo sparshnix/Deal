@@ -1,0 +1,700 @@
+14:41:19.435 [main] INFO  Dealership.POM - Checkout_Button is visible
+14:41:50.377 [main] INFO  Dealership.POM - Payment option is visible
+14:41:50.493 [main] INFO  Dealership.POM - Payment option is selected
+14:41:50.576 [main] INFO  Dealership.POM - AddPayment Button is visible
+14:41:50.736 [main] INFO  Dealership.POM - AddPayment Button is clicked
+14:42:00.821 [main] INFO  Dealership.POM - Finalize Button is visible
+14:42:02.349 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CashSale
+14:42:43.042 [main] INFO  Dealership.POM - Running Test : Cashdrawers
+14:42:43.475 [main] INFO  Dealership.POM - Running Test : Cashdrawers
+14:42:59.319 [main] INFO  Dealership.POM - Windows maximized
+14:42:59.623 [main] INFO  Dealership.POM - Windows maximized
+14:43:09.194 [main] INFO  Dealership.POM - URL entered
+14:43:09.640 [main] INFO  Dealership.POM - Username field is visible
+14:43:09.870 [main] INFO  Dealership.POM - URL entered
+14:43:10.251 [main] INFO  Dealership.POM - Password field is visible
+14:43:10.369 [main] INFO  Dealership.POM - Username field is visible
+14:43:10.926 [main] INFO  Dealership.POM - Password field is visible
+14:43:11.019 [main] INFO  Dealership.POM - Login Button is visible
+14:43:11.230 [main] INFO  Dealership.POM - Login Button is visible
+14:43:27.723 [main] INFO  Dealership.POM - Login Button is clicked
+14:43:28.221 [main] INFO  Dealership.POM - Login Button is clicked
+14:43:44.707 [main] INFO  Dealership.POM - Sell link is visible
+14:43:44.867 [main] INFO  Dealership.POM - Sell link is visible
+14:43:47.399 [main] INFO  Dealership.POM - Sell link is clickable
+14:43:47.943 [main] INFO  Dealership.POM - Sell link is clickable
+14:43:53.896 [main] INFO  Dealership.POM - Sell Part tile is displayed
+14:43:54.035 [main] INFO  Dealership.POM - Sell Part tile is clicked
+14:43:54.221 [main] INFO  Dealership.POM - Searchbox is visible
+14:43:54.293 [main] INFO  Dealership.POM - Sell Part tile is displayed
+14:43:54.296 [main] INFO  Dealership.POM - Searchbox is visible
+14:43:54.654 [main] INFO  Dealership.POM - Sell Part tile is clicked
+14:43:54.853 [main] INFO  Dealership.POM - Searchbox is visible
+14:43:54.968 [main] INFO  Dealership.POM - Searchbox is visible
+14:43:57.889 [main] INFO  Dealership.POM - Merchentity is visible
+14:43:59.038 [main] INFO  Dealership.POM - Merchentity is visible
+14:44:06.637 [main] INFO  Dealership.POM - Checkout_Button is visible
+14:44:09.296 [main] INFO  Dealership.POM - Checkout_Button is visible
+14:44:20.287 [main] INFO  Dealership.POM - Account and Settings link is visible
+14:44:21.657 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Cashdrawers
+14:44:22.823 [main] INFO  Dealership.POM - Account and Settings link is visible
+14:44:24.267 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Cashdrawers
+14:46:23.457 [main] INFO  Dealership.POM - Running Test : Cashdrawers
+14:46:32.806 [main] INFO  Dealership.POM - Windows maximized
+14:46:36.511 [main] INFO  Dealership.POM - URL entered
+14:46:36.623 [main] INFO  Dealership.POM - Username field is visible
+14:46:36.909 [main] INFO  Dealership.POM - Password field is visible
+14:46:37.183 [main] INFO  Dealership.POM - Login Button is visible
+14:46:52.807 [main] INFO  Dealership.POM - Login Button is clicked
+14:47:08.195 [main] INFO  Dealership.POM - Sell link is visible
+14:47:10.437 [main] INFO  Dealership.POM - Sell link is clickable
+14:47:16.372 [main] INFO  Dealership.POM - Sell Part tile is displayed
+14:47:16.485 [main] INFO  Dealership.POM - Sell Part tile is clicked
+14:47:17.175 [main] INFO  Dealership.POM - Searchbox is visible
+14:47:17.217 [main] INFO  Dealership.POM - Searchbox is visible
+14:47:21.281 [main] INFO  Dealership.POM - Merchentity is visible
+14:47:29.007 [main] INFO  Dealership.POM - Checkout_Button is visible
+14:47:42.500 [main] INFO  Dealership.POM - Account and Settings link is visible
+14:47:43.867 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Cashdrawers
+14:51:41.403 [main] INFO  Dealership.POM - Running Test : Cashdrawers
+14:51:49.723 [main] INFO  Dealership.POM - Windows maximized
+14:51:53.558 [main] INFO  Dealership.POM - URL entered
+14:51:53.699 [main] INFO  Dealership.POM - Username field is visible
+14:51:53.951 [main] INFO  Dealership.POM - Password field is visible
+14:51:54.238 [main] INFO  Dealership.POM - Login Button is visible
+14:52:18.940 [main] INFO  Dealership.POM - Login Button is clicked
+14:52:43.786 [main] INFO  Dealership.POM - Sell link is visible
+14:52:45.489 [main] INFO  Dealership.POM - Sell link is clickable
+14:52:50.678 [main] INFO  Dealership.POM - Sell Part tile is displayed
+14:52:50.832 [main] INFO  Dealership.POM - Sell Part tile is clicked
+14:52:51.045 [main] INFO  Dealership.POM - Searchbox is visible
+14:52:51.125 [main] INFO  Dealership.POM - Searchbox is visible
+14:52:54.905 [main] INFO  Dealership.POM - Merchentity is visible
+14:53:03.262 [main] INFO  Dealership.POM - Checkout_Button is visible
+14:53:24.875 [main] INFO  Dealership.POM - The Cash drawer is successfully verified on CO
+14:53:24.965 [main] INFO  Dealership.POM - Account and Settings link is visible
+14:53:25.080 [main] INFO  Dealership.POM - Account and Settings link is clicked
+14:53:25.202 [main] INFO  Dealership.POM - SystemSettings link is visible
+14:53:25.321 [main] INFO  Dealership.POM - SystemSettings link is clicked
+14:53:29.434 [main] INFO  Dealership.POM - Cash drawers link is clicked
+14:53:48.196 [main] INFO  Dealership.POM - Cash drawers is deleted successfully
+14:53:48.203 [main] INFO  Dealership.POM - Test case Cashdrawers passes successfully
+18:49:14.833 [main] INFO  Dealership.POM - Running Test : LinkedfeemanagementforDeal
+18:49:25.171 [main] INFO  Dealership.POM - Windows maximized
+18:49:27.334 [main] INFO  Dealership.POM - URL entered
+18:49:27.597 [main] INFO  Dealership.POM - Username field is visible
+18:49:28.012 [main] INFO  Dealership.POM - Password field is visible
+18:49:28.344 [main] INFO  Dealership.POM - Login Button is visible
+18:49:59.069 [main] INFO  Dealership.POM - Login Button is clicked
+18:50:14.345 [main] INFO  Dealership.POM - Account and Settings link is visible
+18:50:14.406 [main] INFO  Dealership.POM - Account and Settings link is clicked
+18:50:14.507 [main] INFO  Dealership.POM - SystemSettings link is visible
+18:50:14.576 [main] INFO  Dealership.POM - SystemSettings link is clicked
+18:50:17.812 [main] INFO  Dealership.POM - Linked fee management link is clicked
+18:50:18.259 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeemanagementforDeal
+18:52:05.980 [main] INFO  Dealership.POM - Running Test : LinkedfeemanagementforDeal
+18:52:13.559 [main] INFO  Dealership.POM - Windows maximized
+18:52:15.928 [main] INFO  Dealership.POM - URL entered
+18:52:16.060 [main] INFO  Dealership.POM - Username field is visible
+18:52:16.752 [main] INFO  Dealership.POM - Password field is visible
+18:52:17.361 [main] INFO  Dealership.POM - Login Button is visible
+18:52:47.130 [main] INFO  Dealership.POM - Login Button is clicked
+18:53:02.285 [main] INFO  Dealership.POM - Account and Settings link is visible
+18:53:02.360 [main] INFO  Dealership.POM - Account and Settings link is clicked
+18:53:02.459 [main] INFO  Dealership.POM - SystemSettings link is visible
+18:53:02.533 [main] INFO  Dealership.POM - SystemSettings link is clicked
+18:53:05.644 [main] INFO  Dealership.POM - Linked fee management link is clicked
+18:53:15.728 [main] INFO  Dealership.POM - SystemSettings link is System Settings
+Linked fee management
+18:53:15.789 [main] INFO  Dealership.POM - DealFeesection is visible
+18:53:15.873 [main] INFO  Dealership.POM - DealFeesection is clicked
+18:53:15.962 [main] INFO  Dealership.POM - LinkAFeeBtn is visible
+18:53:16.039 [main] INFO  Dealership.POM - LinkAFeeBtn is clicked
+18:53:21.664 [main] INFO  Dealership.POM - FeeCodeInput is visible
+18:53:21.861 [main] INFO  Dealership.POM - FeeCodeInput is clicked
+18:53:21.930 [main] INFO  Dealership.POM - Fee Code results is visible
+18:53:22.006 [main] INFO  Dealership.POM - FeeCode is select
+18:53:22.384 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeemanagementforDeal
+18:56:15.158 [main] INFO  Dealership.POM - Running Test : LinkedfeemanagementforDeal
+18:56:22.445 [main] INFO  Dealership.POM - Windows maximized
+18:56:24.978 [main] INFO  Dealership.POM - URL entered
+18:56:25.066 [main] INFO  Dealership.POM - Username field is visible
+18:56:25.396 [main] INFO  Dealership.POM - Password field is visible
+18:56:25.574 [main] INFO  Dealership.POM - Login Button is visible
+18:56:55.669 [main] INFO  Dealership.POM - Login Button is clicked
+18:57:10.855 [main] INFO  Dealership.POM - Account and Settings link is visible
+18:57:10.976 [main] INFO  Dealership.POM - Account and Settings link is clicked
+18:57:11.092 [main] INFO  Dealership.POM - SystemSettings link is visible
+18:57:11.253 [main] INFO  Dealership.POM - SystemSettings link is clicked
+18:57:14.572 [main] INFO  Dealership.POM - Linked fee management link is clicked
+18:57:24.645 [main] INFO  Dealership.POM - SystemSettings link is System Settings
+Linked fee management
+18:57:24.684 [main] INFO  Dealership.POM - DealFeesection is visible
+18:57:24.747 [main] INFO  Dealership.POM - DealFeesection is clicked
+18:57:24.823 [main] INFO  Dealership.POM - LinkAFeeBtn is visible
+18:57:24.888 [main] INFO  Dealership.POM - LinkAFeeBtn is clicked
+18:57:30.528 [main] INFO  Dealership.POM - FeeCodeInput is visible
+18:57:30.735 [main] INFO  Dealership.POM - FeeCodeInput is clicked
+18:57:30.803 [main] INFO  Dealership.POM - Fee Code results is visible
+18:57:30.870 [main] INFO  Dealership.POM - FeeCode is select
+18:57:31.215 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeemanagementforDeal
+18:59:39.774 [main] INFO  Dealership.POM - Running Test : LinkedfeemanagementforDeal
+18:59:47.738 [main] INFO  Dealership.POM - Windows maximized
+18:59:49.723 [main] INFO  Dealership.POM - URL entered
+18:59:49.900 [main] INFO  Dealership.POM - Username field is visible
+18:59:50.677 [main] INFO  Dealership.POM - Password field is visible
+18:59:51.142 [main] INFO  Dealership.POM - Login Button is visible
+18:59:51.366 [main] INFO  Dealership.POM - Login Button is clicked
+19:00:12.640 [main] INFO  Dealership.POM - Account and Settings link is visible
+19:00:14.217 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeemanagementforDeal
+19:14:39.181 [main] INFO  Dealership.POM - Running Test : LinkedfeemanagementforDeal
+19:14:45.879 [main] INFO  Dealership.POM - Windows maximized
+19:14:47.895 [main] INFO  Dealership.POM - URL entered
+19:14:48.040 [main] INFO  Dealership.POM - Username field is visible
+19:14:48.334 [main] INFO  Dealership.POM - Password field is visible
+19:14:48.537 [main] INFO  Dealership.POM - Login Button is visible
+19:15:03.519 [main] INFO  Dealership.POM - Login Button is clicked
+19:15:19.141 [main] INFO  Dealership.POM - Account and Settings link is visible
+19:15:19.216 [main] INFO  Dealership.POM - Account and Settings link is clicked
+19:15:19.309 [main] INFO  Dealership.POM - SystemSettings link is visible
+19:15:19.385 [main] INFO  Dealership.POM - SystemSettings link is clicked
+19:15:24.362 [main] INFO  Dealership.POM - Linked fee management link is clicked
+19:15:34.429 [main] INFO  Dealership.POM - SystemSettings link is System Settings
+Linked fee management
+19:15:34.467 [main] INFO  Dealership.POM - DealFeesection is visible
+19:15:34.563 [main] INFO  Dealership.POM - DealFeesection is clicked
+19:15:34.697 [main] INFO  Dealership.POM - LinkAFeeBtn is visible
+19:15:34.759 [main] INFO  Dealership.POM - LinkAFeeBtn is clicked
+19:15:40.372 [main] INFO  Dealership.POM - FeeCodeInput is visible
+19:15:40.633 [main] INFO  Dealership.POM - FeeCodeInput is clicked
+19:15:40.723 [main] INFO  Dealership.POM - Fee Code results is visible
+19:15:40.795 [main] INFO  Dealership.POM - FeeCode is select
+19:15:46.133 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeemanagementforDeal
+19:23:37.845 [main] INFO  Dealership.POM - Running Test : LinkedfeemanagementforDeal
+19:23:44.452 [main] INFO  Dealership.POM - Windows maximized
+19:23:46.659 [main] INFO  Dealership.POM - URL entered
+19:23:46.781 [main] INFO  Dealership.POM - Username field is visible
+19:23:46.992 [main] INFO  Dealership.POM - Password field is visible
+19:23:47.207 [main] INFO  Dealership.POM - Login Button is visible
+19:24:20.327 [main] INFO  Dealership.POM - Login Button is clicked
+19:24:35.467 [main] INFO  Dealership.POM - Account and Settings link is visible
+19:24:35.543 [main] INFO  Dealership.POM - Account and Settings link is clicked
+19:24:35.671 [main] INFO  Dealership.POM - SystemSettings link is visible
+19:24:35.761 [main] INFO  Dealership.POM - SystemSettings link is clicked
+19:24:40.082 [main] INFO  Dealership.POM - Linked fee management link is clicked
+19:24:50.161 [main] INFO  Dealership.POM - LFeeHeade is System Settings
+Linked fee management
+19:24:50.211 [main] INFO  Dealership.POM - DealFeesection is visible
+19:24:50.292 [main] INFO  Dealership.POM - DealFeesection is clicked
+19:25:00.463 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeemanagementforDeal
+19:37:16.021 [main] INFO  Dealership.POM - Running Test : LinkedfeemanagementforDeal
+19:37:23.570 [main] INFO  Dealership.POM - Windows maximized
+19:37:25.676 [main] INFO  Dealership.POM - URL entered
+19:37:25.851 [main] INFO  Dealership.POM - Username field is visible
+19:37:26.281 [main] INFO  Dealership.POM - Password field is visible
+19:37:26.616 [main] INFO  Dealership.POM - Login Button is visible
+19:37:42.495 [main] INFO  Dealership.POM - Login Button is clicked
+19:38:27.750 [main] INFO  Dealership.POM - Account and Settings link is visible
+19:38:27.860 [main] INFO  Dealership.POM - Account and Settings link is clicked
+19:38:28.045 [main] INFO  Dealership.POM - SystemSettings link is visible
+19:38:28.229 [main] INFO  Dealership.POM - SystemSettings link is clicked
+19:38:32.262 [main] INFO  Dealership.POM - Linked fee management link is clicked
+19:38:42.322 [main] INFO  Dealership.POM - LFeeHeade is System Settings
+Linked fee management
+19:38:42.355 [main] INFO  Dealership.POM - DealFeesection is visible
+19:38:42.426 [main] INFO  Dealership.POM - DealFeesection is clicked
+19:38:52.562 [main] INFO  Dealership.POM - LinkAFeeBtn is visible
+19:38:52.639 [main] INFO  Dealership.POM - LinkAFeeBtn is clicked
+19:38:58.272 [main] INFO  Dealership.POM - FeeCodeInput is visible
+19:38:58.481 [main] INFO  Dealership.POM - FeeCodeInput is clicked
+19:38:58.575 [main] INFO  Dealership.POM - Fee Code results is visible
+19:38:58.648 [main] INFO  Dealership.POM - FeeCode is selected
+19:39:03.746 [main] INFO  Dealership.POM - Test case LinkedfeemanagementforDeal passes successfully
+19:40:24.272 [main] INFO  Dealership.POM - Running Test : LinkedfeemanagementforDeal
+19:40:39.159 [main] INFO  Dealership.POM - Windows maximized
+19:40:41.461 [main] INFO  Dealership.POM - URL entered
+19:40:41.648 [main] INFO  Dealership.POM - Username field is visible
+19:40:42.098 [main] INFO  Dealership.POM - Password field is visible
+19:40:42.323 [main] INFO  Dealership.POM - Login Button is visible
+19:40:54.751 [main] INFO  Dealership.POM - Login Button is clicked
+19:41:54.423 [main] INFO  Dealership.POM - Account and Settings link is visible
+19:41:54.538 [main] INFO  Dealership.POM - Account and Settings link is clicked
+19:41:54.715 [main] INFO  Dealership.POM - SystemSettings link is visible
+19:41:54.974 [main] INFO  Dealership.POM - SystemSettings link is clicked
+19:42:01.140 [main] INFO  Dealership.POM - Linked fee management link is clicked
+19:42:11.266 [main] INFO  Dealership.POM - LFeeHeade is System Settings
+Linked fee management
+19:42:11.319 [main] INFO  Dealership.POM - DealFeesection is visible
+19:42:11.425 [main] INFO  Dealership.POM - DealFeesection is clicked
+19:42:11.532 [main] INFO  Dealership.POM - LinkAFeeBtn is visible
+19:42:11.615 [main] INFO  Dealership.POM - LinkAFeeBtn is clicked
+19:42:17.258 [main] INFO  Dealership.POM - FeeCodeInput is visible
+19:42:17.580 [main] INFO  Dealership.POM - FeeCodeInput is clicked
+19:42:17.660 [main] INFO  Dealership.POM - Fee Code results is visible
+19:42:17.718 [main] INFO  Dealership.POM - FeeCode is selected
+19:42:22.845 [main] INFO  Dealership.POM - The Deal fee is successfully created
+19:42:22.850 [main] INFO  Dealership.POM - Test case LinkedfeemanagementforDeal passes successfully
+20:47:56.820 [main] INFO  Dealership.POM - Running Test : LinkedfeemanagementforDeal
+20:48:08.047 [main] INFO  Dealership.POM - Windows maximized
+20:48:21.967 [main] INFO  Dealership.POM - URL entered
+20:48:22.106 [main] INFO  Dealership.POM - Username field is visible
+20:48:22.631 [main] INFO  Dealership.POM - Password field is visible
+20:48:22.950 [main] INFO  Dealership.POM - Login Button is visible
+20:48:55.552 [main] INFO  Dealership.POM - Login Button is clicked
+20:49:10.789 [main] INFO  Dealership.POM - Account and Settings link is visible
+20:49:10.855 [main] INFO  Dealership.POM - Account and Settings link is clicked
+20:49:10.945 [main] INFO  Dealership.POM - SystemSettings link is visible
+20:49:11.034 [main] INFO  Dealership.POM - SystemSettings link is clicked
+20:49:14.482 [main] INFO  Dealership.POM - Linked fee management link is clicked
+20:49:24.632 [main] INFO  Dealership.POM - LFeeHeade is System Settings
+Linked fee management
+20:49:24.680 [main] INFO  Dealership.POM - DealFeesection is visible
+20:49:24.767 [main] INFO  Dealership.POM - DealFeesection is clicked
+20:49:24.866 [main] INFO  Dealership.POM - LinkAFeeBtn is visible
+20:49:24.944 [main] INFO  Dealership.POM - LinkAFeeBtn is clicked
+20:49:30.578 [main] INFO  Dealership.POM - FeeCodeInput is visible
+20:49:30.799 [main] INFO  Dealership.POM - FeeCodeInput is clicked
+20:49:30.904 [main] INFO  Dealership.POM - Fee Code results is visible
+20:49:30.969 [main] INFO  Dealership.POM - FeeCode is selected
+20:49:36.114 [main] INFO  Dealership.POM - The Deal fee is successfully created
+20:49:36.150 [main] INFO  Dealership.POM - Sell link is visible
+20:49:36.214 [main] INFO  Dealership.POM - Sell link is clickable
+20:49:37.986 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+20:49:38.257 [main] INFO  Dealership.POM - Select Customer Field is visible
+20:49:40.319 [main] INFO  Dealership.POM - CustomerInfo is visible
+20:50:00.619 [main] INFO  Dealership.POM - Sell A Unit button is visible
+20:50:00.706 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+20:50:02.976 [main] INFO  Dealership.POM - UnitDealStatus is visible
+20:50:03.016 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+20:50:03.095 [main] INFO  Dealership.POM - UnitOptionsStatus is visible
+20:50:03.119 [main] INFO  Dealership.POM - UnitOptionsStatus is Option:
+20:50:03.178 [main] INFO  Dealership.POM - Unit1 is visible
+20:50:03.300 [main] INFO  Dealership.POM - Unit1 is opened
+20:50:04.493 [main] INFO  Dealership.POM - Search Stockunit field is visible
+20:50:06.967 [main] INFO  Dealership.POM - Unit1 is selected
+20:50:09.892 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeemanagementforDeal
+20:50:52.103 [main] INFO  Dealership.POM - Running Test : LinkedfeemanagementforDeal
+20:50:59.660 [main] INFO  Dealership.POM - Windows maximized
+20:51:01.787 [main] INFO  Dealership.POM - URL entered
+20:51:01.926 [main] INFO  Dealership.POM - Username field is visible
+20:51:02.182 [main] INFO  Dealership.POM - Password field is visible
+20:51:02.460 [main] INFO  Dealership.POM - Login Button is visible
+20:51:17.394 [main] INFO  Dealership.POM - Login Button is clicked
+20:51:32.543 [main] INFO  Dealership.POM - Sell link is visible
+20:51:32.624 [main] INFO  Dealership.POM - Sell link is clickable
+20:51:34.479 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+20:51:34.808 [main] INFO  Dealership.POM - Select Customer Field is visible
+20:51:36.585 [main] INFO  Dealership.POM - CustomerInfo is visible
+20:51:56.954 [main] INFO  Dealership.POM - Sell A Unit button is visible
+20:51:57.047 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+20:51:58.828 [main] INFO  Dealership.POM - UnitDealStatus is visible
+20:51:58.859 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+20:51:58.935 [main] INFO  Dealership.POM - UnitOptionsStatus is visible
+20:51:58.960 [main] INFO  Dealership.POM - UnitOptionsStatus is Option:
+20:51:59.049 [main] INFO  Dealership.POM - Unit1 is visible
+20:51:59.175 [main] INFO  Dealership.POM - Unit1 is opened
+20:52:00.461 [main] INFO  Dealership.POM - Search Stockunit field is visible
+20:52:02.443 [main] INFO  Dealership.POM - Unit1 is selected
+20:52:17.631 [main] INFO  Dealership.POM - Option_Fee field is visible
+20:52:17.813 [main] INFO  Dealership.POM - Options And Fee field is visible
+20:52:19.298 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeemanagementforDeal
+20:53:35.574 [main] INFO  Dealership.POM - Running Test : LinkedfeemanagementforDeal
+20:53:43.367 [main] INFO  Dealership.POM - Windows maximized
+20:53:45.718 [main] INFO  Dealership.POM - URL entered
+20:53:45.868 [main] INFO  Dealership.POM - Username field is visible
+20:53:46.131 [main] INFO  Dealership.POM - Password field is visible
+20:53:46.311 [main] INFO  Dealership.POM - Login Button is visible
+20:54:03.368 [main] INFO  Dealership.POM - Login Button is clicked
+20:54:18.509 [main] INFO  Dealership.POM - Sell link is visible
+20:54:18.587 [main] INFO  Dealership.POM - Sell link is clickable
+20:54:27.510 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+20:54:28.356 [main] INFO  Dealership.POM - Select Customer Field is visible
+20:54:30.419 [main] INFO  Dealership.POM - CustomerInfo is visible
+20:54:50.871 [main] INFO  Dealership.POM - Sell A Unit button is visible
+20:54:50.971 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+20:54:52.749 [main] INFO  Dealership.POM - UnitDealStatus is visible
+20:54:52.794 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+20:54:52.882 [main] INFO  Dealership.POM - UnitOptionsStatus is visible
+20:54:52.916 [main] INFO  Dealership.POM - UnitOptionsStatus is Option:
+20:54:52.992 [main] INFO  Dealership.POM - Unit1 is visible
+20:54:53.079 [main] INFO  Dealership.POM - Unit1 is opened
+20:54:54.315 [main] INFO  Dealership.POM - Search Stockunit field is visible
+20:54:56.816 [main] INFO  Dealership.POM - Unit1 is selected
+20:55:00.008 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeemanagementforDeal
+20:56:10.559 [main] INFO  Dealership.POM - Running Test : LinkedfeemanagementforDeal
+20:56:18.113 [main] INFO  Dealership.POM - Windows maximized
+20:56:20.332 [main] INFO  Dealership.POM - URL entered
+20:56:20.483 [main] INFO  Dealership.POM - Username field is visible
+20:56:20.708 [main] INFO  Dealership.POM - Password field is visible
+20:56:20.873 [main] INFO  Dealership.POM - Login Button is visible
+20:56:35.343 [main] INFO  Dealership.POM - Login Button is clicked
+20:56:50.488 [main] INFO  Dealership.POM - Sell link is visible
+20:56:50.575 [main] INFO  Dealership.POM - Sell link is clickable
+20:57:11.263 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeemanagementforDeal
+20:57:25.417 [main] INFO  Dealership.POM - Running Test : LinkedfeemanagementforDeal
+20:57:33.261 [main] INFO  Dealership.POM - Windows maximized
+20:57:37.622 [main] INFO  Dealership.POM - URL entered
+20:57:37.790 [main] INFO  Dealership.POM - Username field is visible
+20:57:38.072 [main] INFO  Dealership.POM - Password field is visible
+20:57:38.275 [main] INFO  Dealership.POM - Login Button is visible
+20:59:49.553 [main] INFO  Dealership.POM - Login Button is clicked
+21:00:04.730 [main] INFO  Dealership.POM - Sell link is visible
+21:00:06.154 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeemanagementforDeal
+21:00:16.575 [main] INFO  Dealership.POM - Running Test : LinkedfeemanagementforDeal
+21:00:24.258 [main] INFO  Dealership.POM - Windows maximized
+21:00:26.295 [main] INFO  Dealership.POM - URL entered
+21:00:26.428 [main] INFO  Dealership.POM - Username field is visible
+21:00:26.653 [main] INFO  Dealership.POM - Password field is visible
+21:00:26.874 [main] INFO  Dealership.POM - Login Button is visible
+21:00:42.890 [main] INFO  Dealership.POM - Login Button is clicked
+21:00:58.091 [main] INFO  Dealership.POM - Sell link is visible
+21:00:59.252 [main] INFO  Dealership.POM - Sell link is clickable
+21:00:59.736 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+21:01:00.100 [main] INFO  Dealership.POM - Select Customer Field is visible
+21:01:02.362 [main] INFO  Dealership.POM - CustomerInfo is visible
+21:01:22.758 [main] INFO  Dealership.POM - Sell A Unit button is visible
+21:01:22.862 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+21:01:24.618 [main] INFO  Dealership.POM - UnitDealStatus is visible
+21:01:24.660 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+21:01:24.751 [main] INFO  Dealership.POM - UnitOptionsStatus is visible
+21:01:24.803 [main] INFO  Dealership.POM - UnitOptionsStatus is Option:
+21:01:24.901 [main] INFO  Dealership.POM - Unit1 is visible
+21:01:25.026 [main] INFO  Dealership.POM - Unit1 is opened
+21:01:26.386 [main] INFO  Dealership.POM - Search Stockunit field is visible
+21:01:28.378 [main] INFO  Dealership.POM - Unit1 is selected
+21:01:51.742 [main] INFO  Dealership.POM - Option_Fee field is visible
+21:01:51.829 [main] INFO  Dealership.POM - Options And Fee field is visible
+21:01:51.949 [main] INFO  Dealership.POM - Options And Fee field is clicked
+21:01:52.739 [main] INFO  Dealership.POM - The Deal fee is successfully Verified
+21:01:52.747 [main] INFO  Dealership.POM - Test case LinkedfeemanagementforDeal passes successfully
+21:32:47.151 [main] INFO  Dealership.POM - Running Test : LinkedfeemanagementforDeal
+21:32:54.917 [main] INFO  Dealership.POM - Windows maximized
+21:32:57.527 [main] INFO  Dealership.POM - URL entered
+21:32:57.659 [main] INFO  Dealership.POM - Username field is visible
+21:32:57.919 [main] INFO  Dealership.POM - Password field is visible
+21:32:58.116 [main] INFO  Dealership.POM - Login Button is visible
+21:33:35.860 [main] INFO  Dealership.POM - Login Button is clicked
+21:33:51.060 [main] INFO  Dealership.POM - Account and Settings link is visible
+21:33:51.141 [main] INFO  Dealership.POM - Account and Settings link is clicked
+21:33:51.250 [main] INFO  Dealership.POM - SystemSettings link is visible
+21:33:51.338 [main] INFO  Dealership.POM - SystemSettings link is clicked
+21:33:54.540 [main] INFO  Dealership.POM - Linked fee management link is clicked
+21:34:04.638 [main] INFO  Dealership.POM - LFeeHeade is System Settings
+Linked fee management
+21:34:04.683 [main] INFO  Dealership.POM - DealFeesection is visible
+21:34:04.753 [main] INFO  Dealership.POM - DealFeesection is clicked
+21:34:04.853 [main] INFO  Dealership.POM - LinkAFeeBtn is visible
+21:34:04.930 [main] INFO  Dealership.POM - LinkAFeeBtn is clicked
+21:34:10.616 [main] INFO  Dealership.POM - FeeCodeInput is visible
+21:34:10.868 [main] INFO  Dealership.POM - FeeCodeInput is clicked
+21:34:10.969 [main] INFO  Dealership.POM - Fee Code results is visible
+21:34:11.039 [main] INFO  Dealership.POM - FeeCode is selected
+21:34:16.205 [main] INFO  Dealership.POM - The Deal fee is successfully created
+21:34:16.264 [main] INFO  Dealership.POM - Sell link is visible
+21:34:16.333 [main] INFO  Dealership.POM - Sell link is clickable
+21:34:17.467 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+21:34:18.186 [main] INFO  Dealership.POM - Select Customer Field is visible
+21:34:20.378 [main] INFO  Dealership.POM - CustomerInfo is visible
+21:34:40.724 [main] INFO  Dealership.POM - Sell A Unit button is visible
+21:34:40.806 [main] INFO  Dealership.POM - Sell A Unit button is clicked
+21:34:42.606 [main] INFO  Dealership.POM - UnitDealStatus is visible
+21:34:42.631 [main] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+21:34:42.690 [main] INFO  Dealership.POM - UnitOptionsStatus is visible
+21:34:42.718 [main] INFO  Dealership.POM - UnitOptionsStatus is Option:
+21:34:42.789 [main] INFO  Dealership.POM - Unit1 is visible
+21:34:42.877 [main] INFO  Dealership.POM - Unit1 is opened
+21:34:44.140 [main] INFO  Dealership.POM - Search Stockunit field is visible
+21:34:46.053 [main] INFO  Dealership.POM - Unit1 is selected
+21:35:08.892 [main] INFO  Dealership.POM - Option_Fee field is visible
+21:35:08.965 [main] INFO  Dealership.POM - Options And Fee field is visible
+21:35:09.092 [main] INFO  Dealership.POM - Options And Fee field is clicked
+21:35:09.856 [main] INFO  Dealership.POM - The Deal fee is successfully Verified
+21:35:10.043 [main] INFO  Dealership.POM - Account and Settings link is visible
+21:35:10.181 [main] INFO  Dealership.POM - Account and Settings link is clicked
+21:35:10.274 [main] INFO  Dealership.POM - SystemSettings link is visible
+21:35:11.433 [main] INFO  Dealership.POM - SystemSettings link is clicked
+21:35:13.672 [main] INFO  Dealership.POM - Linked fee management link is clicked
+21:35:23.757 [main] INFO  Dealership.POM - LFeeHeade is System Settings
+Linked fee management
+21:35:23.807 [main] INFO  Dealership.POM - DealFeesection is visible
+21:35:23.892 [main] INFO  Dealership.POM - DealFeesection is clicked
+21:35:50.447 [main] INFO  Dealership.POM - Deal Fee is deleted successfully
+21:35:50.455 [main] INFO  Dealership.POM - Test case LinkedfeemanagementforDeal passes successfully
+10:40:44.510 [main] INFO  Dealership.POM - Running Test : LinkedfeeforServiceJobs
+10:40:55.807 [main] INFO  Dealership.POM - Windows maximized
+10:40:58.598 [main] INFO  Dealership.POM - URL entered
+10:40:58.753 [main] INFO  Dealership.POM - Username field is visible
+10:40:59.096 [main] INFO  Dealership.POM - Password field is visible
+10:40:59.288 [main] INFO  Dealership.POM - Login Button is visible
+10:41:49.091 [main] INFO  Dealership.POM - Login Button is clicked
+10:42:04.618 [main] INFO  Dealership.POM - Account and Settings link is visible
+10:42:04.772 [main] INFO  Dealership.POM - Account and Settings link is clicked
+10:42:05.051 [main] INFO  Dealership.POM - SystemSettings link is visible
+10:42:05.286 [main] INFO  Dealership.POM - SystemSettings link is clicked
+10:42:09.606 [main] INFO  Dealership.POM - Linked fee management link is clicked
+10:42:19.721 [main] INFO  Dealership.POM - LFeeHeade is System Settings
+Linked fee management
+10:42:19.779 [main] INFO  Dealership.POM - ServicejobFeesection is visible
+10:42:19.891 [main] INFO  Dealership.POM - ServicejobFeesection is clicked
+10:42:20.033 [main] INFO  Dealership.POM - LinkAFeeBtn is visible
+10:42:20.143 [main] INFO  Dealership.POM - LinkAFeeBtn is clicked
+10:42:25.830 [main] INFO  Dealership.POM - FeeCodeInput is visible
+10:42:26.159 [main] INFO  Dealership.POM - FeeCodeInput is clicked
+10:42:26.262 [main] INFO  Dealership.POM - Fee Code results is visible
+10:42:26.343 [main] INFO  Dealership.POM - FeeCode is selected
+10:42:31.805 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeeforServiceJobs
+10:44:00.420 [main] INFO  Dealership.POM - Running Test : LinkedfeeforServiceJobs
+10:44:09.860 [main] INFO  Dealership.POM - Windows maximized
+10:44:12.228 [main] INFO  Dealership.POM - URL entered
+10:44:12.360 [main] INFO  Dealership.POM - Username field is visible
+10:44:12.725 [main] INFO  Dealership.POM - Password field is visible
+10:44:12.949 [main] INFO  Dealership.POM - Login Button is visible
+10:44:58.906 [main] INFO  Dealership.POM - Login Button is clicked
+10:45:14.120 [main] INFO  Dealership.POM - Account and Settings link is visible
+10:45:14.224 [main] INFO  Dealership.POM - Account and Settings link is clicked
+10:45:14.357 [main] INFO  Dealership.POM - SystemSettings link is visible
+10:45:14.462 [main] INFO  Dealership.POM - SystemSettings link is clicked
+10:45:18.680 [main] INFO  Dealership.POM - Linked fee management link is clicked
+10:45:28.780 [main] INFO  Dealership.POM - LFeeHeade is System Settings
+Linked fee management
+10:45:28.825 [main] INFO  Dealership.POM - ServicejobFeesection is visible
+10:45:28.926 [main] INFO  Dealership.POM - ServicejobFeesection is clicked
+10:45:29.025 [main] INFO  Dealership.POM - LinkAFeeBtn is visible
+10:45:29.104 [main] INFO  Dealership.POM - LinkAFeeBtn is clicked
+10:45:35.405 [main] INFO  Dealership.POM - FeeCodeInput is visible
+10:45:35.727 [main] INFO  Dealership.POM - FeeCodeInput is clicked
+10:45:35.834 [main] INFO  Dealership.POM - Fee Code results is visible
+10:45:35.920 [main] INFO  Dealership.POM - FeeCode is selected
+10:45:41.120 [main] INFO  Dealership.POM - The ServiceJob fee is successfully created
+10:45:41.127 [main] INFO  Dealership.POM - Test case LinkedfeeforServiceJobs passes successfully
+10:59:12.507 [main] INFO  Dealership.POM - Running Test : LinkedfeeforServiceJobs
+10:59:25.100 [main] INFO  Dealership.POM - Windows maximized
+10:59:27.267 [main] INFO  Dealership.POM - URL entered
+10:59:27.660 [main] INFO  Dealership.POM - Username field is visible
+10:59:29.099 [main] INFO  Dealership.POM - Password field is visible
+10:59:30.678 [main] INFO  Dealership.POM - Login Button is visible
+11:00:04.674 [main] INFO  Dealership.POM - Login Button is clicked
+11:00:20.273 [main] INFO  Dealership.POM - Account and Settings link is visible
+11:00:20.357 [main] INFO  Dealership.POM - Account and Settings link is clicked
+11:00:20.501 [main] INFO  Dealership.POM - SystemSettings link is visible
+11:00:20.614 [main] INFO  Dealership.POM - SystemSettings link is clicked
+11:00:25.230 [main] INFO  Dealership.POM - Linked fee management link is clicked
+11:00:35.308 [main] INFO  Dealership.POM - LFeeHeade is System Settings
+Linked fee management
+11:00:35.346 [main] INFO  Dealership.POM - ServicejobFeesection is visible
+11:00:35.432 [main] INFO  Dealership.POM - ServicejobFeesection is clicked
+11:00:35.541 [main] INFO  Dealership.POM - LinkAFeeBtn is visible
+11:00:35.627 [main] INFO  Dealership.POM - LinkAFeeBtn is clicked
+11:00:41.331 [main] INFO  Dealership.POM - FeeCodeInput is visible
+11:00:41.582 [main] INFO  Dealership.POM - FeeCodeInput is clicked
+11:00:41.679 [main] INFO  Dealership.POM - Fee Code results is visible
+11:00:41.755 [main] INFO  Dealership.POM - FeeCode is selected
+11:00:46.895 [main] INFO  Dealership.POM - The ServiceJob fee is successfully created
+11:00:46.957 [main] INFO  Dealership.POM - Sell link is visible
+11:00:48.473 [main] INFO  Dealership.POM - Sell link is clickable
+11:00:48.638 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+11:00:51.682 [main] INFO  Dealership.POM - Select Customer Field is visible
+11:00:53.798 [main] INFO  Dealership.POM - CustomerInfo is visible
+11:01:14.171 [main] INFO  Dealership.POM - ServiceJob button is visible
+11:01:17.048 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+11:01:17.081 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+11:02:57.926 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeeforServiceJobs
+11:04:40.542 [main] INFO  Dealership.POM - Running Test : LinkedfeeforServiceJobs
+11:04:52.838 [main] INFO  Dealership.POM - Windows maximized
+11:04:55.134 [main] INFO  Dealership.POM - URL entered
+11:04:55.423 [main] INFO  Dealership.POM - Username field is visible
+11:04:58.957 [main] INFO  Dealership.POM - Password field is visible
+11:04:59.773 [main] INFO  Dealership.POM - Login Button is visible
+11:05:35.602 [main] INFO  Dealership.POM - Login Button is clicked
+11:05:50.910 [main] INFO  Dealership.POM - Account and Settings link is visible
+11:05:51.057 [main] INFO  Dealership.POM - Account and Settings link is clicked
+11:05:51.235 [main] INFO  Dealership.POM - SystemSettings link is visible
+11:05:51.463 [main] INFO  Dealership.POM - SystemSettings link is clicked
+11:05:56.283 [main] INFO  Dealership.POM - Linked fee management link is clicked
+11:06:06.371 [main] INFO  Dealership.POM - LFeeHeade is System Settings
+Linked fee management
+11:06:06.415 [main] INFO  Dealership.POM - ServicejobFeesection is visible
+11:06:06.510 [main] INFO  Dealership.POM - ServicejobFeesection is clicked
+11:06:06.828 [main] INFO  Dealership.POM - LinkAFeeBtn is visible
+11:06:06.924 [main] INFO  Dealership.POM - LinkAFeeBtn is clicked
+11:06:12.587 [main] INFO  Dealership.POM - FeeCodeInput is visible
+11:06:12.893 [main] INFO  Dealership.POM - FeeCodeInput is clicked
+11:06:13.001 [main] INFO  Dealership.POM - Fee Code results is visible
+11:06:13.088 [main] INFO  Dealership.POM - FeeCode is selected
+11:06:18.283 [main] INFO  Dealership.POM - The ServiceJob fee is successfully created
+11:06:18.342 [main] INFO  Dealership.POM - Sell link is visible
+11:06:20.404 [main] INFO  Dealership.POM - Sell link is clickable
+11:06:20.633 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+11:06:22.517 [main] INFO  Dealership.POM - Select Customer Field is visible
+11:06:24.657 [main] INFO  Dealership.POM - CustomerInfo is visible
+11:06:45.185 [main] INFO  Dealership.POM - ServiceJob button is visible
+11:06:47.896 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+11:06:47.958 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+11:06:49.083 [main] INFO  Dealership.POM - The ServiceJob fee is successfully Verified
+11:06:49.226 [main] INFO  Dealership.POM - Account and Settings link is visible
+11:06:49.371 [main] INFO  Dealership.POM - Account and Settings link is clicked
+11:06:49.519 [main] INFO  Dealership.POM - SystemSettings link is visible
+11:06:50.908 [main] INFO  Dealership.POM - SystemSettings link is clicked
+11:07:27.420 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeeforServiceJobs
+12:11:04.598 [main] INFO  Dealership.POM - Running Test : LinkedfeeforMarchendise
+12:11:13.980 [main] INFO  Dealership.POM - Windows maximized
+12:11:16.391 [main] INFO  Dealership.POM - URL entered
+12:11:16.530 [main] INFO  Dealership.POM - Username field is visible
+12:11:16.779 [main] INFO  Dealership.POM - Password field is visible
+12:11:16.922 [main] INFO  Dealership.POM - Login Button is visible
+12:11:35.462 [main] INFO  Dealership.POM - Login Button is clicked
+12:11:50.819 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:11:50.895 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:11:51.011 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:11:51.094 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:11:59.868 [main] INFO  Dealership.POM - Linked fee management link is clicked
+12:12:09.940 [main] INFO  Dealership.POM - LFeeHeade is System Settings
+Linked fee management
+12:12:09.977 [main] INFO  Dealership.POM - MerchandiseFeesection is visible
+12:12:10.042 [main] INFO  Dealership.POM - MerchandiseFeesection is clicked
+12:12:10.116 [main] INFO  Dealership.POM - LinkAFeeBtn is visible
+12:12:10.172 [main] INFO  Dealership.POM - LinkAFeeBtn is clicked
+12:12:15.824 [main] INFO  Dealership.POM - FeeCodeInput is visible
+12:12:16.029 [main] INFO  Dealership.POM - FeeCodeInput is clicked
+12:12:16.128 [main] INFO  Dealership.POM - Fee Code results is visible
+12:12:16.199 [main] INFO  Dealership.POM - FeeCode is selected
+12:12:21.341 [main] INFO  Dealership.POM - The Merchandise fee is successfully created
+12:12:21.413 [main] INFO  Dealership.POM - Sell link is visible
+12:12:21.472 [main] INFO  Dealership.POM - Sell link is clickable
+12:12:27.989 [main] INFO  Dealership.POM - Sell Part tile is displayed
+12:12:28.097 [main] INFO  Dealership.POM - Sell Part tile is clicked
+12:12:28.717 [main] INFO  Dealership.POM - Searchbox is visible
+12:12:28.749 [main] INFO  Dealership.POM - Searchbox is visible
+12:12:32.213 [main] INFO  Dealership.POM - Merchentity is visible
+12:12:42.464 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:12:43.773 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeeforMarchendise
+12:13:09.214 [main] INFO  Dealership.POM - Running Test : LinkedfeeforMarchendise
+12:13:16.879 [main] INFO  Dealership.POM - Windows maximized
+12:13:18.775 [main] INFO  Dealership.POM - URL entered
+12:13:18.910 [main] INFO  Dealership.POM - Username field is visible
+12:13:19.217 [main] INFO  Dealership.POM - Password field is visible
+12:13:19.512 [main] INFO  Dealership.POM - Login Button is visible
+12:13:35.231 [main] INFO  Dealership.POM - Login Button is clicked
+12:13:50.521 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:13:50.713 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:13:51.065 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:13:51.245 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:13:57.910 [main] INFO  Dealership.POM - Linked fee management link is clicked
+12:14:07.987 [main] INFO  Dealership.POM - LFeeHeade is System Settings
+Linked fee management
+12:14:08.028 [main] INFO  Dealership.POM - MerchandiseFeesection is visible
+12:14:08.110 [main] INFO  Dealership.POM - MerchandiseFeesection is clicked
+12:14:08.195 [main] INFO  Dealership.POM - LinkAFeeBtn is visible
+12:14:08.278 [main] INFO  Dealership.POM - LinkAFeeBtn is clicked
+12:14:13.923 [main] INFO  Dealership.POM - FeeCodeInput is visible
+12:14:14.174 [main] INFO  Dealership.POM - FeeCodeInput is clicked
+12:14:14.251 [main] INFO  Dealership.POM - Fee Code results is visible
+12:14:14.306 [main] INFO  Dealership.POM - FeeCode is selected
+12:14:19.437 [main] INFO  Dealership.POM - The Merchandise fee is successfully created
+12:14:19.512 [main] INFO  Dealership.POM - Sell link is visible
+12:14:21.189 [main] INFO  Dealership.POM - Sell link is clickable
+12:14:26.399 [main] INFO  Dealership.POM - Sell Part tile is displayed
+12:14:26.506 [main] INFO  Dealership.POM - Sell Part tile is clicked
+12:14:27.131 [main] INFO  Dealership.POM - Searchbox is visible
+12:14:27.162 [main] INFO  Dealership.POM - Searchbox is visible
+12:14:31.173 [main] INFO  Dealership.POM - Merchentity is visible
+12:14:41.360 [main] INFO  Dealership.POM - The Merchandise fee is successfully Verified
+12:14:41.435 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:14:41.795 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:14:41.991 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:14:44.074 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:14:45.922 [main] INFO  Dealership.POM - Linked fee management link is clicked
+12:14:55.987 [main] INFO  Dealership.POM - LFeeHeade is System Settings
+Linked fee management
+12:14:56.019 [main] INFO  Dealership.POM - MerchandiseFeesection is visible
+12:14:56.085 [main] INFO  Dealership.POM - MerchandiseFeesection is clicked
+12:15:22.982 [main] INFO  Dealership.POM - Merchandise Fee is deleted successfully
+12:15:22.986 [main] INFO  Dealership.POM - Test case LinkedfeeforMarchendise passes successfully
+13:21:01.205 [main] INFO  Dealership.POM - Running Test : sell
+13:21:22.718 [main] INFO  Dealership.POM - Windows maximized
+13:21:25.235 [main] INFO  Dealership.POM - URL entered
+13:21:25.363 [main] INFO  Dealership.POM - Username field is visible
+13:21:25.644 [main] INFO  Dealership.POM - Password field is visible
+13:21:26.615 [main] INFO  Dealership.POM - Running Test : servicejob
+13:22:33.354 [main] INFO  Dealership.POM - Running Test : Merchandise
+13:22:40.276 [main] INFO  Dealership.POM - Windows maximized
+13:22:43.581 [main] INFO  Dealership.POM - URL entered
+13:22:43.704 [main] INFO  Dealership.POM - Username field is visible
+13:22:43.888 [main] INFO  Dealership.POM - Password field is visible
+13:22:44.014 [main] INFO  Dealership.POM - Login Button is visible
+13:24:36.035 [main] INFO  Dealership.POM - Login Button is clicked
+13:24:51.147 [main] INFO  Dealership.POM - Sell link is visible
+13:24:52.869 [main] INFO  Dealership.POM - Sell link is clickable
+13:24:53.033 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+13:24:53.787 [main] INFO  Dealership.POM - Select Customer Field is visible
+13:24:56.393 [main] INFO  Dealership.POM - CustomerInfo is visible
+13:25:17.181 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Merchandise
+13:25:23.140 [main] INFO  Dealership.POM - Running Test : Servicejob
+13:25:27.478 [main] INFO  Dealership.POM - Windows maximized
+13:25:35.002 [main] INFO  Dealership.POM - URL entered
+13:25:35.081 [main] INFO  Dealership.POM - Running Test : UnitDeal
+13:25:39.226 [main] INFO  Dealership.POM - Windows maximized
+13:27:17.536 [main] INFO  Dealership.POM - Running Test : Merchandise
+13:27:24.347 [main] INFO  Dealership.POM - Windows maximized
+13:27:37.352 [main] INFO  Dealership.POM - URL entered
+13:27:37.454 [main] INFO  Dealership.POM - Username field is visible
+13:27:37.642 [main] INFO  Dealership.POM - Password field is visible
+13:27:37.827 [main] INFO  Dealership.POM - Login Button is visible
+13:28:36.645 [main] INFO  Dealership.POM - Login Button is clicked
+13:28:51.802 [main] INFO  Dealership.POM - Sell link is visible
+13:28:53.452 [main] INFO  Dealership.POM - Sell link is clickable
+13:28:53.736 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+13:28:55.729 [main] INFO  Dealership.POM - Select Customer Field is visible
+13:28:57.949 [main] INFO  Dealership.POM - CustomerInfo is visible
+13:29:52.287 [main] INFO  Dealership.POM - Running Test : Merchandise
+13:29:59.403 [main] INFO  Dealership.POM - Windows maximized
+13:30:03.347 [main] INFO  Dealership.POM - URL entered
+13:30:03.442 [main] INFO  Dealership.POM - Username field is visible
+13:30:03.638 [main] INFO  Dealership.POM - Password field is visible
+13:30:03.958 [main] INFO  Dealership.POM - Login Button is visible
+13:30:40.013 [main] INFO  Dealership.POM - Login Button is clicked
+13:30:55.141 [main] INFO  Dealership.POM - Sell link is visible
+13:30:56.355 [main] INFO  Dealership.POM - Sell link is clickable
+13:30:56.563 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+13:30:58.377 [main] INFO  Dealership.POM - Select Customer Field is visible
+13:31:00.535 [main] INFO  Dealership.POM - CustomerInfo is visible
+13:31:21.019 [main] INFO  Dealership.POM - SellPartandAccs button is visible
+13:31:21.100 [main] INFO  Dealership.POM - SellPartandAccs button is clicked
+13:31:22.827 [main] INFO  Dealership.POM - Searchbox is visible
+13:31:33.272 [main] INFO  Dealership.POM - Merchentity is visible
+13:31:53.829 [main] INFO  Dealership.POM - Feeentity is visible
+13:32:14.306 [main] INFO  Dealership.POM - Kitentity is visible
+13:32:24.632 [main] INFO  Dealership.POM - Checkout_Button is visible
+13:32:26.208 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Merchandise
+13:36:24.500 [main] INFO  Dealership.POM - Running Test : Merchandise
+13:36:32.984 [main] INFO  Dealership.POM - Windows maximized
+13:36:35.242 [main] INFO  Dealership.POM - URL entered
+13:36:35.420 [main] INFO  Dealership.POM - Username field is visible
+13:36:35.826 [main] INFO  Dealership.POM - Password field is visible
+13:36:36.473 [main] INFO  Dealership.POM - Login Button is visible
+13:36:36.604 [main] INFO  Dealership.POM - Login Button is clicked
+13:36:52.698 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Merchandise
+13:37:27.220 [main] INFO  Dealership.POM - Running Test : Merchandise
+13:37:35.065 [main] INFO  Dealership.POM - Windows maximized
+13:37:37.507 [main] INFO  Dealership.POM - URL entered
+13:37:37.701 [main] INFO  Dealership.POM - Username field is visible
+13:37:38.147 [main] INFO  Dealership.POM - Password field is visible
+13:37:38.840 [main] INFO  Dealership.POM - Login Button is visible
+13:37:39.041 [main] INFO  Dealership.POM - Login Button is clicked
+13:37:54.393 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Merchandise
+13:38:33.724 [main] INFO  Dealership.POM - Running Test : Merchandise
+13:38:46.843 [main] INFO  Dealership.POM - Windows maximized
+13:38:49.088 [main] INFO  Dealership.POM - URL entered
+13:38:49.240 [main] INFO  Dealership.POM - Username field is visible
+13:38:49.531 [main] INFO  Dealership.POM - Password field is visible
+13:38:49.856 [main] INFO  Dealership.POM - Login Button is visible
+13:39:05.168 [main] INFO  Dealership.POM - Login Button is clicked
+13:39:20.513 [main] INFO  Dealership.POM - Sell link is visible
+13:39:20.642 [main] INFO  Dealership.POM - Sell link is clickable
+13:39:31.868 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+13:39:33.317 [main] INFO  Dealership.POM - Select Customer Field is visible
+13:39:36.423 [main] INFO  Dealership.POM - CustomerInfo is visible
+13:39:57.058 [main] INFO  Dealership.POM - SellPartandAccs button is visible
+13:39:57.151 [main] INFO  Dealership.POM - SellPartandAccs button is clicked
+13:39:59.477 [main] INFO  Dealership.POM - Searchbox is visible
+13:40:03.453 [main] INFO  Dealership.POM - Merchentity is visible

@@ -14,7 +14,7 @@ public class Variables {
 	accounttypedropdown, accounttypevalue, country, countryname, state, statename, create,
 	verifyemail, vendor, vendorHeader, companyname, vendorAccountNumber, shippingaddressflag,
 	part_Purchases, merchandise_Purchases, unit_Purchases, sublet_Purchases, 
-	claims_for_Service_Work, deal_Products, flooring_Company, finance_Company, financing_Products,
+	claims_for_Service_WoAptonCOrk, deal_Products, flooring_Company, finance_Company, financing_Products,
 	saveVendor, purchaseTaxLevel, vendorAccountTypeIcon, part, partheader, parttype, tags, location,
 	tag_1, inStockQty,  verifyPart, labor, laborheader, laborcode, verifylabor, kit, kitheader,
 	formstag, selecttag, applicabletax, savebutton, kitcode, servicekitchechbox, make, model,
@@ -74,14 +74,43 @@ public class Variables {
 	//Schedule
 	appointmenttable1, appointment_schedule_contentText, schedule, appointmentCustomer, 
 	customernamecard, unitnamecard, unitCheckinCloseArrow, assign_tech_inputs, dateDueInField,
-	datePromisedField, defaultTechnician, appointmentNane, techNameandTime, deleteAppointmentModalWindow
+	datePromisedField, defaultTechnician, appointmentName, techNameandTime, deleteAppointmentModalWindow,
+	appointmenttable2, appointmentTime, moveto, uaarrow, apSearchfield, testAppointment, allTech,
+	appointmentinfo, dropDownresult, createApt, aptonCO, appointmentCONumber, dealAppointmentCO,
+	unitNameonCard,
+	
+	
+	//SystemSettings
+	acandset, settingsTiles, accheader, accountingDropDown, accountingoptions, lastSyncTime,
+	accountsListPopUp, okButton, controlAccFields, undepositedFundsFields, defaultAccountsFields,
+	addCategorybutton, addCategoryWindow, addCategoryType, categories, categoryName, incomeGL,
+	accheader2, addSaleTypeWindow, activeLabel, listoflocations, brandHeader, addNewLocationIcon,
+	allinputfields, businessname, businessPhone, businessEmail, taxID, streetaddress1, streetaddress2,
+	city, pincode, filelabel, filename, fileSize, customerInvoiceTextField, serviceJobDisclaimerSlider,
+	serviceJobTextField, orderDipositDisclaimerSlider, orderDepositTextField, dealDocumentDisclaimerSlider,
+	dealDocumentTextField, receiptAddSignatureSlider, receiptDisclaimerSlider, receiptTextField,
+	brandingHeaders, brandingNames, confirmbrandingbutton, invoiceCheckBox, printReceiptCheckBox,
+	printHeader, profileHeader, businessName, abrbusinessName, shippingAddress, accountName,
+	listofdrawers, drawerHeader, addnewDrawerheader, drawerNameField, createdrawerbutton,
+	cashDrawers, drawerNames, feesections, lFeeHeader, dealFeesection, linkedfee, feelist,
+	feelistCO, servicejobFeesection, merchandiseFeesection, formHeader, dealFormsection, formlist,
+	formlistco, unlink, financingFormsection, adddealfinancing, dfformlistco, serviceFormsection,
+	servieformlistco, vpFormsection, allMakes, saveNewMakebtn, addNewModel, editmake, deletemake,
+	plHeader, editLocationfield, locationinfo, allLocations, tagHeader, editTagfield, taginfo,
+	allTags, taxHeader, taxrates, addnewrate, taxname, formslabel, rate, taxcodes, taxCodeName,
+	formslabelcode, activeToggle, closebutton, taxcodelist, taxratelist, assignTaxRateButton,
+	assignedRate, assignedrateCheckbox, rateinclude, taxinfo, activetaxtoggle, taxcodesavebtn,
+	taxcodedeletebtn, editTaxrate, editsavetaxrates, deletetaxrate, purchasetaxratelist, 
+	purchasetaxcodelist, templetHeader, plusicon, templateMsg, templateList, templatename,
+	deleteTemplate
+	
+	
 	
 	;
 	
 	public static void test() throws IOException
 	{
 	Property.testProperty();
-	
 	}
 	
 }

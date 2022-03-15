@@ -48,7 +48,15 @@ public class Property extends Variables {
 		outofstockPart				=   prop.getProperty("outofstockPart");
 		appointmentCustomer			=   prop.getProperty("appointmentCustomer");
 		defaultTechnician			=	prop.getProperty("defaultTechnician");
-
+		dealAppointmentCO			=	prop.getProperty("dealAppointmentCO");
+		filename					=	prop.getProperty("filename");
+		linkedfee					=	prop.getProperty("linkedfee");
+		templateMsg					=	prop.getProperty("templateMsg");
+		
+		
+		
+		
+		
 		
 		//Fetch the values from locators.properties 
 		//used for Masterdata
@@ -342,9 +350,154 @@ public class Property extends Variables {
 		assign_tech_inputs			=	locators.getProperty("assign_tech_inputs");
 		dateDueInField				=	locators.getProperty("dateDueInField");
 		datePromisedField			=	locators.getProperty("datePromisedField");
-		appointmentNane				=	locators.getProperty("appointmentNane");
+		appointmentName				=	locators.getProperty("appointmentName");
 		techNameandTime				=	locators.getProperty("techNameandTime");
 		deleteAppointmentModalWindow = 	locators.getProperty("deleteAppointmentModalWindow");
+		appointmenttable2			=	locators.getProperty("appointmenttable2");
+		appointmentTime				=	locators.getProperty("appointmentTime");
+		moveto						=	locators.getProperty("moveto");
+		uaarrow						=	locators.getProperty("uaarrow");
+		apSearchfield				=	locators.getProperty("apSearchfield");
+		testAppointment				=	locators.getProperty("testAppointment");
+		allTech						=	locators.getProperty("allTech");
+		appointmentinfo				=	locators.getProperty("appointmentinfo");
+		dropDownresult				=	locators.getProperty("dropDownresult");
+		createApt					=	locators.getProperty("createApt");
+		aptonCO						=	locators.getProperty("aptonCO");
+		appointmentCONumber			=	locators.getProperty("appointmentCONumber");
+		unitNameonCard				=	locators.getProperty("unitNameonCard");
+		
+		//SystemSettings
+		acandset					=	locators.getProperty("acandset");
+		settingsTiles				=	locators.getProperty("settingsTiles");
+		accheader					=	locators.getProperty("accheader");
+		accountingDropDown			=	locators.getProperty("accountingDropDown");
+		accountingoptions			=	locators.getProperty("accountingoptions");
+		lastSyncTime				=	locators.getProperty("lastSyncTime");
+		accountsListPopUp			=	locators.getProperty("accountsListPopUp");
+		okButton					=	locators.getProperty("okButton");
+		controlAccFields			=	locators.getProperty("controlAccFields");
+		undepositedFundsFields		=	locators.getProperty("undepositedFundsFields");
+		defaultAccountsFields		=	locators.getProperty("defaultAccountsFields");
+		addCategorybutton			=	locators.getProperty("addCategorybutton");
+		addCategoryWindow			=	locators.getProperty("addCategoryWindow");
+		addCategoryType				=	locators.getProperty("addCategoryType");
+		categories					=	locators.getProperty("categories");	
+		categoryName				=	locators.getProperty("categoryName");	
+		incomeGL					=	locators.getProperty("incomeGL");
+		accheader2					=	locators.getProperty("accheader2");
+		addSaleTypeWindow			=	locators.getProperty("addSaleTypeWindow");
+		activeLabel					=	locators.getProperty("activeLabel");
+		listoflocations				=	locators.getProperty("listoflocations");
+		brandHeader					=	locators.getProperty("brandHeader");
+		addNewLocationIcon			=	locators.getProperty("addNewLocationIcon");
+		allinputfields				=	locators.getProperty("allinputfields");
+		businessname				=	locators.getProperty("businessname");
+		businessPhone				=	locators.getProperty("businessPhone");
+		businessEmail				=	locators.getProperty("businessEmail");
+		taxID						=	locators.getProperty("taxID");
+		streetaddress1				=	locators.getProperty("streetaddress1");
+		streetaddress2				=	locators.getProperty("streetaddress2");
+		city						=	locators.getProperty("city");
+		pincode						=	locators.getProperty("pincode");
+		filelabel					=	locators.getProperty("filelabel");
+		fileSize					=	locators.getProperty("fileSize");
+		customerInvoiceTextField	=	locators.getProperty("customerInvoiceTextField");
+		serviceJobDisclaimerSlider	=	locators.getProperty("serviceJobDisclaimerSlider");
+		serviceJobTextField			=	locators.getProperty("serviceJobTextField");
+		orderDipositDisclaimerSlider=	locators.getProperty("orderDipositDisclaimerSlider");
+		orderDepositTextField		=	locators.getProperty("orderDepositTextField");
+		dealDocumentDisclaimerSlider=	locators.getProperty("dealDocumentDisclaimerSlider");
+		dealDocumentTextField		=	locators.getProperty("dealDocumentTextField");
+		receiptAddSignatureSlider	=	locators.getProperty("receiptAddSignatureSlider");
+		receiptDisclaimerSlider		=	locators.getProperty("receiptDisclaimerSlider");
+		receiptTextField			=	locators.getProperty("receiptTextField");
+		brandingHeaders				=	locators.getProperty("brandingHeaders");
+		brandingNames				=	locators.getProperty("brandingNames");
+		confirmbrandingbutton		=	locators.getProperty("confirmbrandingbutton");
+		invoiceCheckBox				=	locators.getProperty("invoiceCheckBox");
+		printReceiptCheckBox		=	locators.getProperty("printReceiptCheckBox");
+		printHeader					=	locators.getProperty("printHeader");
+		profileHeader				=	locators.getProperty("profileHeader");
+		businessName				=	locators.getProperty("businessName");
+		abrbusinessName				=	locators.getProperty("abrbusinessName");
+		shippingAddress				=	locators.getProperty("shippingAddress");
+		accountName					=	locators.getProperty("accountName");
+		listofdrawers				=	locators.getProperty("listofdrawers");
+		drawerHeader				=	locators.getProperty("drawerHeader");
+		addnewDrawerheader			=	locators.getProperty("addnewDrawerheader");
+		drawerNameField				=	locators.getProperty("drawerNameField");
+		createdrawerbutton			=	locators.getProperty("createdrawerbutton");
+		cashDrawers					=	locators.getProperty("cashDrawers");
+		drawerNames					=	locators.getProperty("drawerNames");
+		feesections					=	locators.getProperty("feesections");
+		lFeeHeader					=	locators.getProperty("lFeeHeader");
+		dealFeesection				=	locators.getProperty("dealFeesection");
+		feelist						=	locators.getProperty("feelist");
+		feelistCO					=	locators.getProperty("feelistCO");
+		servicejobFeesection		=	locators.getProperty("servicejobFeesection");
+		merchandiseFeesection		=	locators.getProperty("merchandiseFeesection");
+		formHeader					=	locators.getProperty("formHeader");	
+		dealFormsection				=	locators.getProperty("dealFormsection");
+		formlist					=	locators.getProperty("formlist");
+		formlistco					=	locators.getProperty("formlistco");
+		unlink						=	locators.getProperty("unlink");
+		financingFormsection		=	locators.getProperty("financingFormsection");
+		adddealfinancing			=	locators.getProperty("adddealfinancing");
+		dfformlistco				=	locators.getProperty("dfformlistco");
+		serviceFormsection			=	locators.getProperty("serviceFormsection");
+		servieformlistco			=	locators.getProperty("servieformlistco");
+		vpFormsection				=	locators.getProperty("vpFormsection");
+		allMakes					=	locators.getProperty("allMakes");
+		saveNewMakebtn				=	locators.getProperty("saveNewMakebtn");
+		editmake					=	locators.getProperty("editmake");
+		deletemake					=	locators.getProperty("deletemake");
+		plHeader					=	locators.getProperty("plHeader");
+		editLocationfield			=	locators.getProperty("editLocationfield");
+		locationinfo				=	locators.getProperty("locationinfo");
+		allLocations				=	locators.getProperty("allLocations");
+		tagHeader					=	locators.getProperty("tagHeader");
+		editTagfield				=	locators.getProperty("editTagfield");
+		taginfo						=	locators.getProperty("taginfo");
+		allTags						=	locators.getProperty("allTags");
+		taxHeader					=	locators.getProperty("taxHeader");
+		taxrates					=	locators.getProperty("taxrates");
+		addnewrate					=	locators.getProperty("addnewrate");
+		taxname						=	locators.getProperty("taxname");
+		formslabel					=	locators.getProperty("formslabel");
+		rate						=	locators.getProperty("rate");
+		taxcodes					=	locators.getProperty("taxcodes");
+		taxCodeName					=	locators.getProperty("taxCodeName");
+		formslabelcode				=	locators.getProperty("formslabelcode");
+		activeToggle				=	locators.getProperty("activeToggle");
+		closebutton					=	locators.getProperty("closebutton");
+		taxcodelist					=	locators.getProperty("taxcodelist");
+		taxratelist					=	locators.getProperty("taxratelist");
+		assignTaxRateButton			=	locators.getProperty("assignTaxRateButton");
+		assignedRate				=	locators.getProperty("assignedRate");
+		assignedrateCheckbox		=	locators.getProperty("assignedrateCheckbox");
+		rateinclude					=	locators.getProperty("rateinclude");
+		taxinfo						=	locators.getProperty("taxinfo");
+		activetaxtoggle				=	locators.getProperty("activetaxtoggle");
+		taxcodesavebtn				=	locators.getProperty("taxcodesavebtn");
+		taxcodedeletebtn			=	locators.getProperty("taxcodedeletebtn");
+		editTaxrate					=	locators.getProperty("editTaxrate");
+		editsavetaxrates			=	locators.getProperty("editsavetaxrates");
+		deletetaxrate				=	locators.getProperty("deletetaxrate");
+		purchasetaxratelist			=	locators.getProperty("purchasetaxratelist");
+		purchasetaxcodelist			=	locators.getProperty("purchasetaxcodelist");
+		templetHeader				=	locators.getProperty("templetHeader");
+		plusicon					=	locators.getProperty("plusicon");
+		templateList				=	locators.getProperty("templateList");
+		templatename				=	locators.getProperty("templatename");
+		deleteTemplate				=	locators.getProperty("deleteTemplate");
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		

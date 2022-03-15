@@ -1,0 +1,691 @@
+17:38:07.967 [main] INFO  Dealership.POM - Account and Settings link is clicked
+17:38:08.416 [main] INFO  Dealership.POM - SystemSettings link is visible
+17:38:08.790 [main] INFO  Dealership.POM - SystemSettings link is clicked
+17:38:14.213 [main] INFO  Dealership.POM - Branding management link is clicked
+17:38:24.423 [main] INFO  Dealership.POM - BrandHeader is Branding management
+17:38:24.493 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+17:38:24.575 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+17:38:25.974 [main] INFO  Dealership.POM - BrandHeader is New branding location
+17:38:36.002 [main] INFO  Dealership.POM - Test case BrandingManagement passes successfully
+16:21:19.008 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+16:21:31.521 [main] INFO  Dealership.POM - Windows maximized
+16:21:33.808 [main] INFO  Dealership.POM - URL entered
+16:21:33.954 [main] INFO  Dealership.POM - Username field is visible
+16:21:34.419 [main] INFO  Dealership.POM - Password field is visible
+16:21:34.635 [main] INFO  Dealership.POM - Login Button is visible
+16:21:35.016 [main] INFO  Dealership.POM - Login Button is clicked
+16:22:13.437 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:22:13.526 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:22:13.626 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:22:13.705 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:22:19.714 [main] INFO  Dealership.POM - Branding management link is clicked
+16:22:29.857 [main] INFO  Dealership.POM - BrandHeader is Branding management
+16:22:29.899 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+16:22:29.963 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+16:22:32.049 [main] INFO  Dealership.POM - BrandHeader is New branding location
+16:22:32.090 [main] INFO  Dealership.POM - BusinessName  is visible
+16:22:32.227 [main] INFO  Dealership.POM - BusinessName  is filled
+16:22:32.308 [main] INFO  Dealership.POM - BusinessPhone  is visible
+16:22:32.447 [main] INFO  Dealership.POM - BusinessPhone  is filled
+16:22:32.492 [main] INFO  Dealership.POM - BusinessEmail  is visible
+16:22:32.713 [main] INFO  Dealership.POM - BusinessEmail  is filled
+16:22:32.769 [main] INFO  Dealership.POM - TaxID  is visible
+16:22:32.893 [main] INFO  Dealership.POM - TaxID  is filled
+16:22:32.937 [main] INFO  Dealership.POM - Streetaddress1  is visible
+16:22:33.049 [main] INFO  Dealership.POM - Streetaddress1  is filled
+16:22:33.110 [main] INFO  Dealership.POM - Streetaddress2  is visible
+16:22:33.252 [main] INFO  Dealership.POM - Streetaddress2  is filled
+16:22:33.291 [main] INFO  Dealership.POM - City  is visible
+16:22:33.433 [main] INFO  Dealership.POM - City  is filled
+16:22:33.467 [main] INFO  Dealership.POM - Pincode  is visible
+16:22:33.562 [main] INFO  Dealership.POM - Pincode  is filled
+16:22:33.646 [main] INFO  Dealership.POM - ChooseAfilebutton  is visible
+16:22:33.728 [main] INFO  Dealership.POM - Pincode  is filled
+16:22:43.740 [main] INFO  Dealership.POM - Test case BrandingManagement passes successfully
+16:25:58.246 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+16:26:06.768 [main] INFO  Dealership.POM - Windows maximized
+16:26:08.836 [main] INFO  Dealership.POM - URL entered
+16:26:08.986 [main] INFO  Dealership.POM - Username field is visible
+16:26:09.573 [main] INFO  Dealership.POM - Password field is visible
+16:26:09.748 [main] INFO  Dealership.POM - Login Button is visible
+16:26:26.047 [main] INFO  Dealership.POM - Login Button is clicked
+16:26:41.460 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:26:41.559 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:26:42.309 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:26:42.430 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:26:46.263 [main] INFO  Dealership.POM - Branding management link is clicked
+16:26:56.405 [main] INFO  Dealership.POM - BrandHeader is Branding management
+16:26:56.455 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+16:26:56.542 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+16:26:58.730 [main] INFO  Dealership.POM - BrandHeader is New branding location
+16:26:58.833 [main] INFO  Dealership.POM - BusinessName  is visible
+16:26:59.077 [main] INFO  Dealership.POM - BusinessName  is filled
+16:26:59.184 [main] INFO  Dealership.POM - ChooseAfilebutton  is visible
+16:26:59.304 [main] INFO  Dealership.POM - Pincode  is filled
+16:27:09.323 [main] INFO  Dealership.POM - Test case BrandingManagement passes successfully
+16:28:02.342 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+16:28:11.699 [main] INFO  Dealership.POM - Windows maximized
+16:28:13.722 [main] INFO  Dealership.POM - URL entered
+16:28:13.864 [main] INFO  Dealership.POM - Username field is visible
+16:28:14.098 [main] INFO  Dealership.POM - Password field is visible
+16:28:14.260 [main] INFO  Dealership.POM - Login Button is visible
+16:28:29.562 [main] INFO  Dealership.POM - Login Button is clicked
+16:28:44.797 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:28:44.890 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:28:45.011 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:28:45.110 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:28:51.346 [main] INFO  Dealership.POM - Branding management link is clicked
+16:29:01.552 [main] INFO  Dealership.POM - BrandHeader is Branding management
+16:29:01.610 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+16:29:01.688 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+16:29:03.206 [main] INFO  Dealership.POM - BrandHeader is New branding location
+16:29:03.256 [main] INFO  Dealership.POM - BusinessName  is visible
+16:29:03.508 [main] INFO  Dealership.POM - BusinessName  is filled
+16:29:03.708 [main] INFO  Dealership.POM - ChooseAfilebutton  is visible
+16:29:03.890 [main] INFO  Dealership.POM - Pincode  is filled
+16:29:13.895 [main] INFO  Dealership.POM - Test case BrandingManagement passes successfully
+17:21:45.944 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+17:21:56.609 [main] INFO  Dealership.POM - Windows maximized
+17:21:58.809 [main] INFO  Dealership.POM - URL entered
+17:21:58.949 [main] INFO  Dealership.POM - Username field is visible
+17:21:59.218 [main] INFO  Dealership.POM - Password field is visible
+17:21:59.486 [main] INFO  Dealership.POM - Login Button is visible
+17:22:15.309 [main] INFO  Dealership.POM - Login Button is clicked
+17:22:30.907 [main] INFO  Dealership.POM - Account and Settings link is visible
+17:22:31.095 [main] INFO  Dealership.POM - Account and Settings link is clicked
+17:22:31.242 [main] INFO  Dealership.POM - SystemSettings link is visible
+17:22:31.376 [main] INFO  Dealership.POM - SystemSettings link is clicked
+17:22:35.090 [main] INFO  Dealership.POM - Branding management link is clicked
+17:22:45.208 [main] INFO  Dealership.POM - BrandHeader is Branding management
+17:22:45.255 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+17:22:45.309 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+17:22:46.678 [main] INFO  Dealership.POM - BrandHeader is New branding location
+17:22:46.746 [main] INFO  Dealership.POM - BusinessName  is visible
+17:22:47.052 [main] INFO  Dealership.POM - BusinessName  is filled
+17:22:47.434 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : BrandingManagement
+17:28:11.143 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+17:28:19.088 [main] INFO  Dealership.POM - Windows maximized
+17:28:21.164 [main] INFO  Dealership.POM - URL entered
+17:28:21.309 [main] INFO  Dealership.POM - Username field is visible
+17:28:21.805 [main] INFO  Dealership.POM - Password field is visible
+17:28:21.976 [main] INFO  Dealership.POM - Login Button is visible
+17:28:37.532 [main] INFO  Dealership.POM - Login Button is clicked
+17:28:52.941 [main] INFO  Dealership.POM - Account and Settings link is visible
+17:28:53.122 [main] INFO  Dealership.POM - Account and Settings link is clicked
+17:28:53.265 [main] INFO  Dealership.POM - SystemSettings link is visible
+17:28:53.358 [main] INFO  Dealership.POM - SystemSettings link is clicked
+17:28:57.112 [main] INFO  Dealership.POM - Branding management link is clicked
+17:29:07.274 [main] INFO  Dealership.POM - BrandHeader is Branding management
+17:29:07.331 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+17:29:07.401 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+17:29:08.770 [main] INFO  Dealership.POM - BrandHeader is New branding location
+17:29:08.827 [main] INFO  Dealership.POM - BusinessName  is visible
+17:29:09.088 [main] INFO  Dealership.POM - BusinessName  is filled
+17:29:09.177 [main] INFO  Dealership.POM - Pincode  is visible
+17:29:09.335 [main] INFO  Dealership.POM - Pincode  is filled
+17:29:14.529 [main] INFO  Dealership.POM - Pincode  is filled
+17:29:24.547 [main] INFO  Dealership.POM - Test case BrandingManagement passes successfully
+17:30:56.234 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+17:31:03.851 [main] INFO  Dealership.POM - Windows maximized
+17:31:06.156 [main] INFO  Dealership.POM - URL entered
+17:31:06.278 [main] INFO  Dealership.POM - Username field is visible
+17:31:06.791 [main] INFO  Dealership.POM - Password field is visible
+17:31:07.421 [main] INFO  Dealership.POM - Login Button is visible
+17:31:07.621 [main] INFO  Dealership.POM - Login Button is clicked
+17:31:28.730 [main] INFO  Dealership.POM - Account and Settings link is visible
+17:31:28.828 [main] INFO  Dealership.POM - Account and Settings link is clicked
+17:31:28.976 [main] INFO  Dealership.POM - SystemSettings link is visible
+17:31:29.158 [main] INFO  Dealership.POM - SystemSettings link is clicked
+17:31:36.296 [main] INFO  Dealership.POM - Branding management link is clicked
+17:31:46.408 [main] INFO  Dealership.POM - BrandHeader is Branding management
+17:31:46.451 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+17:31:46.508 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+17:31:48.014 [main] INFO  Dealership.POM - BrandHeader is New branding location
+17:31:48.079 [main] INFO  Dealership.POM - BusinessName  is visible
+17:31:48.379 [main] INFO  Dealership.POM - BusinessName  is filled
+17:31:48.432 [main] INFO  Dealership.POM - Pincode  is visible
+17:31:48.546 [main] INFO  Dealership.POM - Pincode  is filled
+17:31:53.738 [main] INFO  Dealership.POM - Pincode  is filled
+17:32:03.742 [main] INFO  Dealership.POM - Test case BrandingManagement passes successfully
+17:33:26.224 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+17:33:34.175 [main] INFO  Dealership.POM - Windows maximized
+17:33:36.349 [main] INFO  Dealership.POM - URL entered
+17:33:36.480 [main] INFO  Dealership.POM - Username field is visible
+17:33:36.964 [main] INFO  Dealership.POM - Password field is visible
+17:33:37.274 [main] INFO  Dealership.POM - Login Button is visible
+17:34:08.218 [main] INFO  Dealership.POM - Login Button is clicked
+17:34:23.390 [main] INFO  Dealership.POM - Account and Settings link is visible
+17:34:23.481 [main] INFO  Dealership.POM - Account and Settings link is clicked
+17:34:23.593 [main] INFO  Dealership.POM - SystemSettings link is visible
+17:34:23.680 [main] INFO  Dealership.POM - SystemSettings link is clicked
+17:34:27.325 [main] INFO  Dealership.POM - Branding management link is clicked
+17:34:37.472 [main] INFO  Dealership.POM - BrandHeader is Branding management
+17:34:37.527 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+17:34:37.601 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+17:34:39.274 [main] INFO  Dealership.POM - BrandHeader is New branding location
+17:34:39.343 [main] INFO  Dealership.POM - BusinessName  is visible
+17:34:39.594 [main] INFO  Dealership.POM - BusinessName  is filled
+17:34:39.658 [main] INFO  Dealership.POM - BusinessPhone  is visible
+17:34:39.808 [main] INFO  Dealership.POM - BusinessPhone  is filled
+17:34:39.854 [main] INFO  Dealership.POM - BusinessEmail  is visible
+17:34:40.026 [main] INFO  Dealership.POM - BusinessEmail  is filled
+17:34:40.069 [main] INFO  Dealership.POM - TaxID  is visible
+17:34:40.200 [main] INFO  Dealership.POM - TaxID  is filled
+17:34:40.278 [main] INFO  Dealership.POM - Streetaddress1  is visible
+17:34:40.402 [main] INFO  Dealership.POM - Streetaddress1  is filled
+17:34:40.442 [main] INFO  Dealership.POM - Streetaddress2  is visible
+17:34:40.552 [main] INFO  Dealership.POM - Streetaddress2  is filled
+17:34:40.592 [main] INFO  Dealership.POM - City  is visible
+17:34:40.703 [main] INFO  Dealership.POM - City  is filled
+17:34:40.735 [main] INFO  Dealership.POM - Pincode  is visible
+17:34:40.819 [main] INFO  Dealership.POM - Pincode  is filled
+17:34:40.953 [main] INFO  Dealership.POM - Pincode  is filled
+17:34:50.974 [main] INFO  Dealership.POM - Test case BrandingManagement passes successfully
+21:07:40.992 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+11:31:40.971 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+11:31:54.140 [main] INFO  Dealership.POM - Windows maximized
+11:31:56.142 [main] INFO  Dealership.POM - URL entered
+11:31:56.441 [main] INFO  Dealership.POM - Username field is visible
+11:31:56.888 [main] INFO  Dealership.POM - Password field is visible
+11:31:57.095 [main] INFO  Dealership.POM - Login Button is visible
+11:32:13.710 [main] INFO  Dealership.POM - Login Button is clicked
+11:32:29.058 [main] INFO  Dealership.POM - Account and Settings link is visible
+11:32:29.140 [main] INFO  Dealership.POM - Account and Settings link is clicked
+11:32:29.272 [main] INFO  Dealership.POM - SystemSettings link is visible
+11:32:29.500 [main] INFO  Dealership.POM - SystemSettings link is clicked
+11:32:34.685 [main] INFO  Dealership.POM - Branding management link is clicked
+11:32:44.827 [main] INFO  Dealership.POM - BrandHeader is Branding management
+11:32:44.884 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+11:32:44.959 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+11:32:46.594 [main] INFO  Dealership.POM - BrandHeader is New branding location
+11:32:46.713 [main] INFO  Dealership.POM - BusinessName  is visible
+11:32:46.974 [main] INFO  Dealership.POM - BusinessName  is filled
+11:32:47.040 [main] INFO  Dealership.POM - BusinessPhone  is visible
+11:32:47.328 [main] INFO  Dealership.POM - BusinessPhone  is filled
+11:32:47.399 [main] INFO  Dealership.POM - BusinessEmail  is visible
+11:32:47.597 [main] INFO  Dealership.POM - BusinessEmail  is filled
+11:32:47.651 [main] INFO  Dealership.POM - TaxID  is visible
+11:32:47.780 [main] INFO  Dealership.POM - TaxID  is filled
+11:32:47.822 [main] INFO  Dealership.POM - Streetaddress1  is visible
+11:32:47.953 [main] INFO  Dealership.POM - Streetaddress1  is filled
+11:32:47.993 [main] INFO  Dealership.POM - Streetaddress2  is visible
+11:32:48.124 [main] INFO  Dealership.POM - Streetaddress2  is filled
+11:32:48.166 [main] INFO  Dealership.POM - City  is visible
+11:32:48.274 [main] INFO  Dealership.POM - City  is filled
+11:32:48.315 [main] INFO  Dealership.POM - Pincode  is visible
+11:32:48.421 [main] INFO  Dealership.POM - Pincode  is filled
+11:32:48.706 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : BrandingManagement
+11:34:06.381 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+11:34:14.891 [main] INFO  Dealership.POM - Windows maximized
+11:34:16.732 [main] INFO  Dealership.POM - URL entered
+11:34:16.903 [main] INFO  Dealership.POM - Username field is visible
+11:34:17.256 [main] INFO  Dealership.POM - Password field is visible
+11:34:17.674 [main] INFO  Dealership.POM - Login Button is visible
+11:34:18.047 [main] INFO  Dealership.POM - Login Button is clicked
+11:34:42.061 [main] INFO  Dealership.POM - Account and Settings link is visible
+11:34:42.154 [main] INFO  Dealership.POM - Account and Settings link is clicked
+11:34:42.275 [main] INFO  Dealership.POM - SystemSettings link is visible
+11:34:42.730 [main] INFO  Dealership.POM - SystemSettings link is clicked
+11:34:50.157 [main] INFO  Dealership.POM - Branding management link is clicked
+11:35:00.314 [main] INFO  Dealership.POM - BrandHeader is Branding management
+11:35:00.365 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+11:35:00.439 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+11:35:02.142 [main] INFO  Dealership.POM - BrandHeader is New branding location
+11:35:02.238 [main] INFO  Dealership.POM - BusinessName  is visible
+11:35:02.512 [main] INFO  Dealership.POM - BusinessName  is filled
+11:35:02.582 [main] INFO  Dealership.POM - BusinessPhone  is visible
+11:35:02.726 [main] INFO  Dealership.POM - BusinessPhone  is filled
+11:35:02.773 [main] INFO  Dealership.POM - BusinessEmail  is visible
+11:35:02.983 [main] INFO  Dealership.POM - BusinessEmail  is filled
+11:35:03.042 [main] INFO  Dealership.POM - TaxID  is visible
+11:35:03.222 [main] INFO  Dealership.POM - TaxID  is filled
+11:35:03.276 [main] INFO  Dealership.POM - Streetaddress1  is visible
+11:35:03.397 [main] INFO  Dealership.POM - Streetaddress1  is filled
+11:35:03.439 [main] INFO  Dealership.POM - Streetaddress2  is visible
+11:35:03.582 [main] INFO  Dealership.POM - Streetaddress2  is filled
+11:35:03.622 [main] INFO  Dealership.POM - City  is visible
+11:35:03.740 [main] INFO  Dealership.POM - City  is filled
+11:35:03.783 [main] INFO  Dealership.POM - Pincode  is visible
+11:35:03.877 [main] INFO  Dealership.POM - Pincode  is filled
+11:35:04.144 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : BrandingManagement
+11:57:03.515 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+11:57:11.498 [main] INFO  Dealership.POM - Windows maximized
+11:57:13.520 [main] INFO  Dealership.POM - URL entered
+11:57:13.672 [main] INFO  Dealership.POM - Username field is visible
+11:57:13.964 [main] INFO  Dealership.POM - Password field is visible
+11:57:14.274 [main] INFO  Dealership.POM - Login Button is visible
+11:57:47.556 [main] INFO  Dealership.POM - Login Button is clicked
+11:58:02.702 [main] INFO  Dealership.POM - Account and Settings link is visible
+11:58:02.775 [main] INFO  Dealership.POM - Account and Settings link is clicked
+11:58:02.878 [main] INFO  Dealership.POM - SystemSettings link is visible
+11:58:02.966 [main] INFO  Dealership.POM - SystemSettings link is clicked
+11:58:06.311 [main] INFO  Dealership.POM - Branding management link is clicked
+11:58:16.464 [main] INFO  Dealership.POM - BrandHeader is Branding management
+11:58:16.527 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+11:58:16.611 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+11:58:18.378 [main] INFO  Dealership.POM - BrandHeader is New branding location
+11:58:18.483 [main] INFO  Dealership.POM - BusinessName  is visible
+11:58:18.712 [main] INFO  Dealership.POM - BusinessName  is filled
+11:58:18.763 [main] INFO  Dealership.POM - BusinessPhone  is visible
+11:58:18.916 [main] INFO  Dealership.POM - BusinessPhone  is filled
+11:58:18.960 [main] INFO  Dealership.POM - BusinessEmail  is visible
+11:58:19.131 [main] INFO  Dealership.POM - BusinessEmail  is filled
+11:58:19.175 [main] INFO  Dealership.POM - TaxID  is visible
+11:58:19.301 [main] INFO  Dealership.POM - TaxID  is filled
+11:58:19.350 [main] INFO  Dealership.POM - Streetaddress1  is visible
+11:58:19.493 [main] INFO  Dealership.POM - Streetaddress1  is filled
+11:58:19.533 [main] INFO  Dealership.POM - Streetaddress2  is visible
+11:58:19.648 [main] INFO  Dealership.POM - Streetaddress2  is filled
+11:58:19.689 [main] INFO  Dealership.POM - City  is visible
+11:58:19.814 [main] INFO  Dealership.POM - City  is filled
+11:58:19.861 [main] INFO  Dealership.POM - Pincode  is visible
+11:58:19.976 [main] INFO  Dealership.POM - Pincode  is filled
+11:58:23.251 [main] INFO  Dealership.POM - FileLabel is Blackpurl.png
+11:58:23.306 [main] INFO  Dealership.POM - FileSize is 4 KB
+11:58:23.345 [main] INFO  Dealership.POM - Customer Invoice Text Field  is visible
+11:58:23.505 [main] INFO  Dealership.POM - Customer Invoice Text Field  is filled
+11:58:23.540 [main] INFO  Dealership.POM - Service Job Disclaimer Slider is visible
+11:58:23.595 [main] INFO  Dealership.POM - Service Job Disclaimer Slider is clicked
+11:58:23.712 [main] INFO  Dealership.POM - Service JobText Field  is visible
+11:58:23.924 [main] INFO  Dealership.POM - Service Job Text Field  is filled
+11:58:23.967 [main] INFO  Dealership.POM - Order Deposit Disclaimer Slider is visible
+11:58:24.040 [main] INFO  Dealership.POM - Order Deposit Disclaimer Slider is clicked
+11:58:24.112 [main] INFO  Dealership.POM - Order Deposit Text Field is visible
+11:58:24.300 [main] INFO  Dealership.POM - Order Deposit Text Field is filled
+11:58:24.339 [main] INFO  Dealership.POM - Deal Document Disclaimer Slider is visible
+11:58:24.397 [main] INFO  Dealership.POM - Deal Document Disclaimer Slider is clicked
+11:58:24.712 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : BrandingManagement
+12:00:48.970 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+12:00:56.444 [main] INFO  Dealership.POM - Windows maximized
+12:00:58.615 [main] INFO  Dealership.POM - URL entered
+12:00:58.753 [main] INFO  Dealership.POM - Username field is visible
+12:00:59.129 [main] INFO  Dealership.POM - Password field is visible
+12:00:59.404 [main] INFO  Dealership.POM - Login Button is visible
+12:00:59.789 [main] INFO  Dealership.POM - Login Button is clicked
+12:01:34.985 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:01:35.060 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:01:35.174 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:01:35.271 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:01:38.980 [main] INFO  Dealership.POM - Branding management link is clicked
+12:01:49.138 [main] INFO  Dealership.POM - BrandHeader is Branding management
+12:01:49.194 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+12:01:49.269 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+12:01:50.776 [main] INFO  Dealership.POM - BrandHeader is New branding location
+12:01:50.829 [main] INFO  Dealership.POM - BusinessName  is visible
+12:01:51.053 [main] INFO  Dealership.POM - BusinessName  is filled
+12:01:51.134 [main] INFO  Dealership.POM - BusinessPhone  is visible
+12:01:51.276 [main] INFO  Dealership.POM - BusinessPhone  is filled
+12:01:51.326 [main] INFO  Dealership.POM - BusinessEmail  is visible
+12:01:51.515 [main] INFO  Dealership.POM - BusinessEmail  is filled
+12:01:51.558 [main] INFO  Dealership.POM - TaxID  is visible
+12:01:51.682 [main] INFO  Dealership.POM - TaxID  is filled
+12:01:51.722 [main] INFO  Dealership.POM - Streetaddress1  is visible
+12:01:51.854 [main] INFO  Dealership.POM - Streetaddress1  is filled
+12:01:51.895 [main] INFO  Dealership.POM - Streetaddress2  is visible
+12:01:52.030 [main] INFO  Dealership.POM - Streetaddress2  is filled
+12:01:52.070 [main] INFO  Dealership.POM - City  is visible
+12:01:52.207 [main] INFO  Dealership.POM - City  is filled
+12:01:52.251 [main] INFO  Dealership.POM - Pincode  is visible
+12:01:52.358 [main] INFO  Dealership.POM - Pincode  is filled
+12:01:55.712 [main] INFO  Dealership.POM - FileLabel is Blackpurl.png
+12:01:55.774 [main] INFO  Dealership.POM - FileSize is 4 KB
+12:01:55.814 [main] INFO  Dealership.POM - Customer Invoice Text Field  is visible
+12:01:56.010 [main] INFO  Dealership.POM - Customer Invoice Text Field  is filled
+12:01:56.063 [main] INFO  Dealership.POM - Service Job Disclaimer Slider is visible
+12:01:56.119 [main] INFO  Dealership.POM - Service Job Disclaimer Slider is clicked
+12:01:56.186 [main] INFO  Dealership.POM - Service JobText Field  is visible
+12:01:56.425 [main] INFO  Dealership.POM - Service Job Text Field  is filled
+12:01:56.500 [main] INFO  Dealership.POM - Order Deposit Disclaimer Slider is visible
+12:01:56.583 [main] INFO  Dealership.POM - Order Deposit Disclaimer Slider is clicked
+12:01:56.712 [main] INFO  Dealership.POM - Order Deposit Text Field is visible
+12:01:56.939 [main] INFO  Dealership.POM - Order Deposit Text Field is filled
+12:01:56.985 [main] INFO  Dealership.POM - Deal Document Text Field is visible
+12:01:57.281 [main] INFO  Dealership.POM - Deal Document Text Field is filled
+12:01:57.329 [main] INFO  Dealership.POM - Receipt Add Signature Slider is visible
+12:01:57.401 [main] INFO  Dealership.POM - Receipt Add Signature Slider is clicked
+12:01:57.501 [main] INFO  Dealership.POM - Receipt Disclaimer Slider is visible
+12:01:57.571 [main] INFO  Dealership.POM - Receipt Disclaimer Slider is clicked
+12:01:57.632 [main] INFO  Dealership.POM - Receipt Text Field is visible
+12:01:57.846 [main] INFO  Dealership.POM - Receipt Text Field is filled
+12:01:57.885 [main] INFO  Dealership.POM - CreateButton is visible
+12:01:57.953 [main] INFO  Dealership.POM - CreateButton is clicked
+12:02:07.970 [main] INFO  Dealership.POM - Test case BrandingManagement passes successfully
+12:05:01.890 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+12:05:09.493 [main] INFO  Dealership.POM - Windows maximized
+12:05:11.416 [main] INFO  Dealership.POM - URL entered
+12:05:11.550 [main] INFO  Dealership.POM - Username field is visible
+12:05:11.869 [main] INFO  Dealership.POM - Password field is visible
+12:05:12.147 [main] INFO  Dealership.POM - Login Button is visible
+12:05:48.288 [main] INFO  Dealership.POM - Login Button is clicked
+12:06:03.446 [main] INFO  Dealership.POM - Account and Settings link is visible
+12:06:03.518 [main] INFO  Dealership.POM - Account and Settings link is clicked
+12:06:03.617 [main] INFO  Dealership.POM - SystemSettings link is visible
+12:06:03.690 [main] INFO  Dealership.POM - SystemSettings link is clicked
+12:06:07.144 [main] INFO  Dealership.POM - Branding management link is clicked
+12:06:17.331 [main] INFO  Dealership.POM - BrandHeader is Branding management
+12:06:17.391 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+12:06:17.566 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+12:06:19.188 [main] INFO  Dealership.POM - BrandHeader is New branding location
+12:06:19.294 [main] INFO  Dealership.POM - BusinessName  is visible
+12:06:19.613 [main] INFO  Dealership.POM - BusinessName  is filled
+12:06:19.676 [main] INFO  Dealership.POM - BusinessPhone  is visible
+12:06:19.851 [main] INFO  Dealership.POM - BusinessPhone  is filled
+12:06:19.894 [main] INFO  Dealership.POM - BusinessEmail  is visible
+12:06:20.101 [main] INFO  Dealership.POM - BusinessEmail  is filled
+12:06:20.145 [main] INFO  Dealership.POM - TaxID  is visible
+12:06:20.281 [main] INFO  Dealership.POM - TaxID  is filled
+12:06:20.330 [main] INFO  Dealership.POM - Streetaddress1  is visible
+12:06:20.510 [main] INFO  Dealership.POM - Streetaddress1  is filled
+12:06:20.554 [main] INFO  Dealership.POM - Streetaddress2  is visible
+12:06:20.676 [main] INFO  Dealership.POM - Streetaddress2  is filled
+12:06:20.715 [main] INFO  Dealership.POM - City  is visible
+12:06:20.826 [main] INFO  Dealership.POM - City  is filled
+12:06:20.862 [main] INFO  Dealership.POM - Pincode  is visible
+12:06:20.959 [main] INFO  Dealership.POM - Pincode  is filled
+12:06:24.198 [main] INFO  Dealership.POM - FileLabel is Blackpurl.png
+12:06:24.261 [main] INFO  Dealership.POM - FileSize is 4 KB
+12:06:24.297 [main] INFO  Dealership.POM - Customer Invoice Text Field  is visible
+12:06:24.473 [main] INFO  Dealership.POM - Customer Invoice Text Field  is filled
+12:06:24.517 [main] INFO  Dealership.POM - Service Job Disclaimer Slider is visible
+12:06:24.618 [main] INFO  Dealership.POM - Service Job Disclaimer Slider is clicked
+12:06:24.723 [main] INFO  Dealership.POM - Service JobText Field  is visible
+12:06:24.993 [main] INFO  Dealership.POM - Service Job Text Field  is filled
+12:06:25.049 [main] INFO  Dealership.POM - Order Deposit Disclaimer Slider is visible
+12:06:25.125 [main] INFO  Dealership.POM - Order Deposit Disclaimer Slider is clicked
+12:06:25.212 [main] INFO  Dealership.POM - Order Deposit Text Field is visible
+12:06:25.474 [main] INFO  Dealership.POM - Order Deposit Text Field is filled
+12:06:25.525 [main] INFO  Dealership.POM - Deal Document Text Field is visible
+12:06:25.761 [main] INFO  Dealership.POM - Deal Document Text Field is filled
+12:06:25.831 [main] INFO  Dealership.POM - Receipt Add Signature Slider is visible
+12:06:25.891 [main] INFO  Dealership.POM - Receipt Add Signature Slider is clicked
+12:06:25.984 [main] INFO  Dealership.POM - Receipt Disclaimer Slider is visible
+12:06:26.054 [main] INFO  Dealership.POM - Receipt Disclaimer Slider is clicked
+12:06:26.107 [main] INFO  Dealership.POM - Receipt Text Field is visible
+12:06:26.314 [main] INFO  Dealership.POM - Receipt Text Field is filled
+12:06:26.354 [main] INFO  Dealership.POM - CreateButton is visible
+12:06:26.427 [main] INFO  Dealership.POM - CreateButton is clicked
+12:06:36.449 [main] INFO  Dealership.POM - Test case BrandingManagement passes successfully
+14:38:28.236 [main] INFO  Dealership.POM - Running Test : CashSale
+14:38:43.837 [main] INFO  Dealership.POM - Windows maximized
+14:38:46.324 [main] INFO  Dealership.POM - URL entered
+14:38:46.464 [main] INFO  Dealership.POM - Username field is visible
+14:38:46.762 [main] INFO  Dealership.POM - Password field is visible
+14:38:47.119 [main] INFO  Dealership.POM - Login Button is visible
+14:38:47.287 [main] INFO  Dealership.POM - Login Button is clicked
+14:39:09.731 [main] INFO  Dealership.POM - Sell link is visible
+14:39:09.880 [main] INFO  Dealership.POM - Sell link is clickable
+14:39:19.636 [main] INFO  Dealership.POM - Sell Part tile is displayed
+14:39:19.731 [main] INFO  Dealership.POM - Sell Part tile is clicked
+14:39:20.374 [main] INFO  Dealership.POM - Searchbox is visible
+14:39:20.403 [main] INFO  Dealership.POM - Searchbox is visible
+14:39:23.986 [main] INFO  Dealership.POM - Merchentity is visible
+14:39:34.155 [main] INFO  Dealership.POM - Searchbox is visible
+14:39:44.635 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CashSale
+14:41:10.861 [main] INFO  Dealership.POM - Running Test : CashSale
+14:41:18.763 [main] INFO  Dealership.POM - Windows maximized
+14:41:21.044 [main] INFO  Dealership.POM - URL entered
+14:41:21.253 [main] INFO  Dealership.POM - Username field is visible
+14:41:21.962 [main] INFO  Dealership.POM - Password field is visible
+14:41:22.368 [main] INFO  Dealership.POM - Login Button is visible
+14:41:34.828 [main] INFO  Dealership.POM - Login Button is clicked
+14:42:06.484 [main] INFO  Dealership.POM - Sell link is visible
+14:42:07.610 [main] INFO  Dealership.POM - Sell link is clickable
+14:42:07.763 [main] INFO  Dealership.POM - Sell Part tile is displayed
+14:42:07.853 [main] INFO  Dealership.POM - Sell Part tile is clicked
+14:42:08.895 [main] INFO  Dealership.POM - Searchbox is visible
+14:42:08.929 [main] INFO  Dealership.POM - Searchbox is visible
+14:42:12.477 [main] INFO  Dealership.POM - Merchentity is visible
+14:42:22.636 [main] INFO  Dealership.POM - Searchbox is visible
+14:42:27.051 [main] INFO  Dealership.POM - Feeentity is visible
+14:42:37.203 [main] INFO  Dealership.POM - Searchbox is visible
+14:42:41.334 [main] INFO  Dealership.POM - Kitentity is visible
+14:42:51.532 [main] INFO  Dealership.POM - Checkout_Button is visible
+14:42:52.918 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CashSale
+15:00:33.289 [main] INFO  Dealership.POM - Running Test : check
+15:00:41.210 [main] INFO  Dealership.POM - Windows maximized
+15:00:43.152 [main] INFO  Dealership.POM - URL entered
+15:00:43.273 [main] INFO  Dealership.POM - Username field is visible
+15:00:43.566 [main] INFO  Dealership.POM - Password field is visible
+15:00:43.908 [main] INFO  Dealership.POM - Login Button is visible
+15:01:14.236 [main] INFO  Dealership.POM - Login Button is clicked
+15:01:29.388 [main] INFO  Dealership.POM - Sell link is visible
+15:01:30.624 [main] INFO  Dealership.POM - Sell link is clickable
+15:01:31.156 [main] INFO  Dealership.POM - Sell Part tile is displayed
+15:01:31.305 [main] INFO  Dealership.POM - Sell Part tile is clicked
+15:01:31.961 [main] INFO  Dealership.POM - Searchbox is visible
+15:01:31.991 [main] INFO  Dealership.POM - Searchbox is visible
+15:01:36.106 [main] INFO  Dealership.POM - Merchentity is visible
+15:01:46.260 [main] INFO  Dealership.POM - Checkout_Button is visible
+15:02:11.628 [main] INFO  Dealership.POM - Test case check passes successfully
+15:03:19.583 [main] INFO  Dealership.POM - Running Test : check
+15:03:27.099 [main] INFO  Dealership.POM - Windows maximized
+15:03:29.006 [main] INFO  Dealership.POM - URL entered
+15:03:29.123 [main] INFO  Dealership.POM - Username field is visible
+15:03:29.405 [main] INFO  Dealership.POM - Password field is visible
+15:03:29.689 [main] INFO  Dealership.POM - Login Button is visible
+15:03:45.074 [main] INFO  Dealership.POM - Login Button is clicked
+15:04:00.337 [main] INFO  Dealership.POM - Sell link is visible
+15:04:01.820 [main] INFO  Dealership.POM - Sell link is clickable
+15:04:02.316 [main] INFO  Dealership.POM - Sell Part tile is displayed
+15:04:02.490 [main] INFO  Dealership.POM - Sell Part tile is clicked
+15:04:02.629 [main] INFO  Dealership.POM - Searchbox is visible
+15:04:02.670 [main] INFO  Dealership.POM - Searchbox is visible
+15:04:06.249 [main] INFO  Dealership.POM - Merchentity is visible
+15:04:16.395 [main] INFO  Dealership.POM - Checkout_Button is visible
+15:04:41.678 [main] INFO  Dealership.POM - Test case check passes successfully
+15:05:16.497 [main] INFO  Dealership.POM - Running Test : check
+15:05:23.861 [main] INFO  Dealership.POM - Windows maximized
+15:05:26.160 [main] INFO  Dealership.POM - URL entered
+15:05:26.283 [main] INFO  Dealership.POM - Username field is visible
+15:05:26.488 [main] INFO  Dealership.POM - Password field is visible
+15:05:26.704 [main] INFO  Dealership.POM - Login Button is visible
+15:05:42.596 [main] INFO  Dealership.POM - Login Button is clicked
+15:05:57.777 [main] INFO  Dealership.POM - Sell link is visible
+15:05:59.072 [main] INFO  Dealership.POM - Sell link is clickable
+15:05:59.461 [main] INFO  Dealership.POM - Sell Part tile is displayed
+15:05:59.633 [main] INFO  Dealership.POM - Sell Part tile is clicked
+15:05:59.908 [main] INFO  Dealership.POM - Searchbox is visible
+15:05:59.954 [main] INFO  Dealership.POM - Searchbox is visible
+15:06:04.245 [main] INFO  Dealership.POM - Merchentity is visible
+15:06:14.424 [main] INFO  Dealership.POM - Checkout_Button is visible
+15:06:39.668 [main] INFO  Dealership.POM - Test case check passes successfully
+15:09:42.974 [main] INFO  Dealership.POM - Running Test : check
+15:09:50.417 [main] INFO  Dealership.POM - Windows maximized
+15:10:03.127 [main] INFO  Dealership.POM - URL entered
+15:10:03.229 [main] INFO  Dealership.POM - Username field is visible
+15:10:03.411 [main] INFO  Dealership.POM - Password field is visible
+15:10:03.568 [main] INFO  Dealership.POM - Login Button is visible
+15:10:37.476 [main] INFO  Dealership.POM - Login Button is clicked
+15:10:52.720 [main] INFO  Dealership.POM - Sell link is visible
+15:10:54.136 [main] INFO  Dealership.POM - Sell link is clickable
+15:10:54.450 [main] INFO  Dealership.POM - Sell Part tile is displayed
+15:10:54.623 [main] INFO  Dealership.POM - Sell Part tile is clicked
+15:10:55.401 [main] INFO  Dealership.POM - Searchbox is visible
+15:10:55.445 [main] INFO  Dealership.POM - Searchbox is visible
+15:10:59.084 [main] INFO  Dealership.POM - Merchentity is visible
+15:11:09.260 [main] INFO  Dealership.POM - Checkout_Button is visible
+15:11:34.914 [main] INFO  Dealership.POM - Test case check passes successfully
+15:49:43.179 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+15:49:54.978 [main] INFO  Dealership.POM - Windows maximized
+15:49:58.414 [main] INFO  Dealership.POM - URL entered
+15:49:58.566 [main] INFO  Dealership.POM - Username field is visible
+15:49:58.868 [main] INFO  Dealership.POM - Password field is visible
+15:49:59.439 [main] INFO  Dealership.POM - Login Button is visible
+15:50:20.224 [main] INFO  Dealership.POM - Login Button is clicked
+15:50:35.550 [main] INFO  Dealership.POM - Account and Settings link is visible
+15:50:35.654 [main] INFO  Dealership.POM - Account and Settings link is clicked
+15:50:35.778 [main] INFO  Dealership.POM - SystemSettings link is visible
+15:50:35.860 [main] INFO  Dealership.POM - SystemSettings link is clicked
+15:50:40.485 [main] INFO  Dealership.POM - Branding management link is clicked
+15:50:50.710 [main] INFO  Dealership.POM - BrandHeader is Branding management
+15:50:50.768 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+15:50:50.837 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+15:50:53.242 [main] INFO  Dealership.POM - BrandHeader is New branding location
+15:50:53.297 [main] INFO  Dealership.POM - BusinessName  is visible
+15:50:53.485 [main] INFO  Dealership.POM - BusinessName  is filled
+15:50:53.535 [main] INFO  Dealership.POM - BusinessPhone  is visible
+15:50:53.659 [main] INFO  Dealership.POM - BusinessPhone  is filled
+15:50:53.717 [main] INFO  Dealership.POM - BusinessEmail  is visible
+15:50:53.957 [main] INFO  Dealership.POM - BusinessEmail  is filled
+15:50:54.018 [main] INFO  Dealership.POM - TaxID  is visible
+15:50:54.176 [main] INFO  Dealership.POM - TaxID  is filled
+15:50:54.230 [main] INFO  Dealership.POM - Streetaddress1  is visible
+15:50:54.356 [main] INFO  Dealership.POM - Streetaddress1  is filled
+15:50:54.428 [main] INFO  Dealership.POM - Streetaddress2  is visible
+15:50:54.624 [main] INFO  Dealership.POM - Streetaddress2  is filled
+15:50:54.680 [main] INFO  Dealership.POM - City  is visible
+15:50:54.818 [main] INFO  Dealership.POM - City  is filled
+15:50:54.865 [main] INFO  Dealership.POM - Pincode  is visible
+15:50:54.992 [main] INFO  Dealership.POM - Pincode  is filled
+15:50:58.306 [main] INFO  Dealership.POM - FileLabel is Blackpurl.png
+15:50:58.370 [main] INFO  Dealership.POM - FileSize is 4 KB
+15:50:58.427 [main] INFO  Dealership.POM - Customer Invoice Text Field  is visible
+15:50:58.632 [main] INFO  Dealership.POM - Customer Invoice Text Field  is filled
+15:50:58.680 [main] INFO  Dealership.POM - Service Job Disclaimer Slider is visible
+15:50:58.756 [main] INFO  Dealership.POM - Service Job Disclaimer Slider is clicked
+15:50:58.867 [main] INFO  Dealership.POM - Service JobText Field  is visible
+15:50:59.094 [main] INFO  Dealership.POM - Service Job Text Field  is filled
+15:50:59.177 [main] INFO  Dealership.POM - Order Deposit Disclaimer Slider is visible
+15:50:59.270 [main] INFO  Dealership.POM - Order Deposit Disclaimer Slider is clicked
+15:50:59.397 [main] INFO  Dealership.POM - Order Deposit Text Field is visible
+15:50:59.714 [main] INFO  Dealership.POM - Order Deposit Text Field is filled
+15:50:59.771 [main] INFO  Dealership.POM - Deal Document Text Field is visible
+15:51:00.039 [main] INFO  Dealership.POM - Deal Document Text Field is filled
+15:51:00.119 [main] INFO  Dealership.POM - Receipt Add Signature Slider is visible
+15:51:00.198 [main] INFO  Dealership.POM - Receipt Add Signature Slider is clicked
+15:51:00.298 [main] INFO  Dealership.POM - Receipt Disclaimer Slider is visible
+15:51:00.363 [main] INFO  Dealership.POM - Receipt Disclaimer Slider is clicked
+15:51:00.736 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : BrandingManagement
+15:51:15.984 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+15:51:24.208 [main] INFO  Dealership.POM - Windows maximized
+15:51:26.230 [main] INFO  Dealership.POM - URL entered
+15:51:26.342 [main] INFO  Dealership.POM - Username field is visible
+15:51:26.698 [main] INFO  Dealership.POM - Password field is visible
+15:51:26.874 [main] INFO  Dealership.POM - Login Button is visible
+15:51:41.301 [main] INFO  Dealership.POM - Login Button is clicked
+15:51:56.556 [main] INFO  Dealership.POM - Account and Settings link is visible
+15:51:56.644 [main] INFO  Dealership.POM - Account and Settings link is clicked
+15:51:56.758 [main] INFO  Dealership.POM - SystemSettings link is visible
+15:51:56.854 [main] INFO  Dealership.POM - SystemSettings link is clicked
+15:52:00.923 [main] INFO  Dealership.POM - Branding management link is clicked
+15:52:11.082 [main] INFO  Dealership.POM - BrandHeader is Branding management
+15:52:11.138 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+15:52:11.202 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+15:52:12.576 [main] INFO  Dealership.POM - BrandHeader is New branding location
+15:52:12.642 [main] INFO  Dealership.POM - BusinessName  is visible
+15:52:12.898 [main] INFO  Dealership.POM - BusinessName  is filled
+15:52:12.978 [main] INFO  Dealership.POM - BusinessPhone  is visible
+15:52:13.140 [main] INFO  Dealership.POM - BusinessPhone  is filled
+15:52:13.189 [main] INFO  Dealership.POM - BusinessEmail  is visible
+15:52:13.376 [main] INFO  Dealership.POM - BusinessEmail  is filled
+15:52:13.443 [main] INFO  Dealership.POM - TaxID  is visible
+15:52:13.563 [main] INFO  Dealership.POM - TaxID  is filled
+15:52:13.620 [main] INFO  Dealership.POM - Streetaddress1  is visible
+15:52:13.756 [main] INFO  Dealership.POM - Streetaddress1  is filled
+15:52:13.800 [main] INFO  Dealership.POM - Streetaddress2  is visible
+15:52:13.922 [main] INFO  Dealership.POM - Streetaddress2  is filled
+15:52:13.959 [main] INFO  Dealership.POM - City  is visible
+15:52:14.074 [main] INFO  Dealership.POM - City  is filled
+15:52:14.121 [main] INFO  Dealership.POM - Pincode  is visible
+15:52:14.239 [main] INFO  Dealership.POM - Pincode  is filled
+15:52:17.532 [main] INFO  Dealership.POM - FileLabel is Blackpurl.png
+15:52:17.617 [main] INFO  Dealership.POM - FileSize is 4 KB
+15:52:17.679 [main] INFO  Dealership.POM - Customer Invoice Text Field  is visible
+15:52:17.843 [main] INFO  Dealership.POM - Customer Invoice Text Field  is filled
+15:52:17.896 [main] INFO  Dealership.POM - Service Job Disclaimer Slider is visible
+15:52:17.961 [main] INFO  Dealership.POM - Service Job Disclaimer Slider is clicked
+15:52:18.073 [main] INFO  Dealership.POM - Service JobText Field  is visible
+15:52:18.281 [main] INFO  Dealership.POM - Service Job Text Field  is filled
+15:52:18.331 [main] INFO  Dealership.POM - Order Deposit Disclaimer Slider is visible
+15:52:18.443 [main] INFO  Dealership.POM - Order Deposit Disclaimer Slider is clicked
+15:52:18.547 [main] INFO  Dealership.POM - Order Deposit Text Field is visible
+15:52:18.805 [main] INFO  Dealership.POM - Order Deposit Text Field is filled
+15:52:18.899 [main] INFO  Dealership.POM - Deal Document Text Field is visible
+15:52:19.144 [main] INFO  Dealership.POM - Deal Document Text Field is filled
+15:52:19.192 [main] INFO  Dealership.POM - Receipt Add Signature Slider is visible
+15:52:19.262 [main] INFO  Dealership.POM - Receipt Add Signature Slider is clicked
+15:52:19.377 [main] INFO  Dealership.POM - Receipt Disclaimer Slider is visible
+15:52:19.465 [main] INFO  Dealership.POM - Receipt Disclaimer Slider is clicked
+15:52:19.513 [main] INFO  Dealership.POM - Receipt Text Field is visible
+15:52:19.738 [main] INFO  Dealership.POM - Receipt Text Field is filled
+15:52:19.786 [main] INFO  Dealership.POM - CreateButton is visible
+15:52:19.863 [main] INFO  Dealership.POM - CreateButton is clicked
+15:52:30.010 [main] INFO  Dealership.POM - The New Branding location is successfully created
+15:52:30.072 [main] INFO  Dealership.POM - Sell link is visible
+15:52:30.138 [main] INFO  Dealership.POM - Sell link is clickable
+15:52:31.568 [main] INFO  Dealership.POM - Sell Part tile is displayed
+15:52:32.132 [main] INFO  Dealership.POM - Sell Part tile is clicked
+15:54:12.423 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : BrandingManagement
+15:55:41.114 [main] INFO  Dealership.POM - Running Test : BrandingManagement
+15:55:51.439 [main] INFO  Dealership.POM - Windows maximized
+15:55:54.000 [main] INFO  Dealership.POM - URL entered
+15:55:54.111 [main] INFO  Dealership.POM - Username field is visible
+15:55:54.366 [main] INFO  Dealership.POM - Password field is visible
+15:55:54.587 [main] INFO  Dealership.POM - Login Button is visible
+15:56:36.148 [main] INFO  Dealership.POM - Login Button is clicked
+15:56:51.369 [main] INFO  Dealership.POM - Account and Settings link is visible
+15:56:51.438 [main] INFO  Dealership.POM - Account and Settings link is clicked
+15:56:51.532 [main] INFO  Dealership.POM - SystemSettings link is visible
+15:56:51.609 [main] INFO  Dealership.POM - SystemSettings link is clicked
+15:56:55.041 [main] INFO  Dealership.POM - Branding management link is clicked
+15:57:05.201 [main] INFO  Dealership.POM - BrandHeader is Branding management
+15:57:05.258 [main] INFO  Dealership.POM - AddNewLocationIcon  is visible
+15:57:05.330 [main] INFO  Dealership.POM - AddNewLocationIcon  is clicked
+15:57:06.768 [main] INFO  Dealership.POM - BrandHeader is New branding location
+15:57:06.874 [main] INFO  Dealership.POM - BusinessName  is visible
+15:57:07.129 [main] INFO  Dealership.POM - BusinessName  is filled
+15:57:07.189 [main] INFO  Dealership.POM - BusinessPhone  is visible
+15:57:07.326 [main] INFO  Dealership.POM - BusinessPhone  is filled
+15:57:07.381 [main] INFO  Dealership.POM - BusinessEmail  is visible
+15:57:07.564 [main] INFO  Dealership.POM - BusinessEmail  is filled
+15:57:07.623 [main] INFO  Dealership.POM - TaxID  is visible
+15:57:07.763 [main] INFO  Dealership.POM - TaxID  is filled
+15:57:07.824 [main] INFO  Dealership.POM - Streetaddress1  is visible
+15:57:07.985 [main] INFO  Dealership.POM - Streetaddress1  is filled
+15:57:08.044 [main] INFO  Dealership.POM - Streetaddress2  is visible
+15:57:08.160 [main] INFO  Dealership.POM - Streetaddress2  is filled
+15:57:08.206 [main] INFO  Dealership.POM - City  is visible
+15:57:08.313 [main] INFO  Dealership.POM - City  is filled
+15:57:08.356 [main] INFO  Dealership.POM - Pincode  is visible
+15:57:08.468 [main] INFO  Dealership.POM - Pincode  is filled
+15:57:11.644 [main] INFO  Dealership.POM - FileLabel is Blackpurl.png
+15:57:11.709 [main] INFO  Dealership.POM - FileSize is 4 KB
+15:57:11.755 [main] INFO  Dealership.POM - Customer Invoice Text Field  is visible
+15:57:11.915 [main] INFO  Dealership.POM - Customer Invoice Text Field  is filled
+15:57:11.966 [main] INFO  Dealership.POM - Service Job Disclaimer Slider is visible
+15:57:12.035 [main] INFO  Dealership.POM - Service Job Disclaimer Slider is clicked
+15:57:12.139 [main] INFO  Dealership.POM - Service JobText Field  is visible
+15:57:12.415 [main] INFO  Dealership.POM - Service Job Text Field  is filled
+15:57:12.464 [main] INFO  Dealership.POM - Order Deposit Disclaimer Slider is visible
+15:57:12.528 [main] INFO  Dealership.POM - Order Deposit Disclaimer Slider is clicked
+15:57:12.666 [main] INFO  Dealership.POM - Order Deposit Text Field is visible
+15:57:12.932 [main] INFO  Dealership.POM - Order Deposit Text Field is filled
+15:57:12.988 [main] INFO  Dealership.POM - Deal Document Text Field is visible
+15:57:13.236 [main] INFO  Dealership.POM - Deal Document Text Field is filled
+15:57:13.291 [main] INFO  Dealership.POM - Receipt Add Signature Slider is visible
+15:57:13.358 [main] INFO  Dealership.POM - Receipt Add Signature Slider is clicked
+15:57:13.467 [main] INFO  Dealership.POM - Receipt Disclaimer Slider is visible
+15:57:13.584 [main] INFO  Dealership.POM - Receipt Disclaimer Slider is clicked
+15:57:13.630 [main] INFO  Dealership.POM - Receipt Text Field is visible
+15:57:13.842 [main] INFO  Dealership.POM - Receipt Text Field is filled
+15:57:13.896 [main] INFO  Dealership.POM - CreateButton is visible
+15:57:13.968 [main] INFO  Dealership.POM - CreateButton is clicked
+15:57:24.108 [main] INFO  Dealership.POM - The New Branding location is successfully created
+15:57:24.200 [main] INFO  Dealership.POM - Sell link is visible
+15:57:24.271 [main] INFO  Dealership.POM - Sell link is clickable
+15:57:30.476 [main] INFO  Dealership.POM - Sell Part tile is displayed
+15:57:30.574 [main] INFO  Dealership.POM - Sell Part tile is clicked
+15:57:31.224 [main] INFO  Dealership.POM - Searchbox is visible
+15:57:31.265 [main] INFO  Dealership.POM - Searchbox is visible
+15:57:34.907 [main] INFO  Dealership.POM - Merchentity is visible
+15:57:45.062 [main] INFO  Dealership.POM - Checkout_Button is visible
+15:58:15.782 [main] INFO  Dealership.POM - Payment option is visible
+15:58:15.874 [main] INFO  Dealership.POM - Payment option is selected
+15:58:15.920 [main] INFO  Dealership.POM - AddPayment Button is visible
+15:58:16.047 [main] INFO  Dealership.POM - AddPayment Button is clicked
+15:58:26.116 [main] INFO  Dealership.POM - Finalize Button is visible
+15:58:26.240 [main] INFO  Dealership.POM - Finalize Button is clicked
+15:58:36.351 [main] INFO  Dealership.POM - Invoice Window is visible
+15:58:36.399 [main] INFO  Dealership.POM - BrandingLocationId is visible
+16:00:19.930 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : BrandingManagement
+16:01:42.084 [main] INFO  Dealership.POM - Running Test : BrandingManagement

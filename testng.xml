@@ -13,18 +13,22 @@
     
 		<class name="Dealership.Masterdata">  </class>
 		<class name="Dealership.Workspace">  </class>
-		<class name="Dealership.Sell"> 
-				<methods>
-					<exclude name="PrintInvoice">  </exclude>
- 				</methods> 	
-		 </class>
-		 <class name="Dealership.ChangeCustomerOnCO">  </class>
-		 <class name="Dealership.DeleteCustomerOnCO">  </class> 
-		 <class name="Dealership.Order">  
-		 		<methods>
-					<exclude name="PartReturn">  </exclude>
- 				</methods> 	
-		 </class> 
+		<class name="Dealership.CustomerOrder"> </class>
+		<class name="Dealership.ChangeCustomerOnCO">  </class>
+		<class name="Dealership.DeleteCustomerOnCO">  </class> 
+		<class name="Dealership.Order"> </class>   
+		<class name="Dealership.Schedule"> </class> 
+		<class name="Dealership.SystemSettings"> 
+			
+			<methods>  
+ 				 <exclude name = "SellingTaxmanagement"/>  
+ 			</methods> 
+			
+		</class>  
+		
+		 
+		
+
 		 
     </classes>
   </test> <!-- Test -->

@@ -9,16 +9,20 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
+import javax.xml.xpath.XPath;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -37,21 +41,27 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class POM extends Variables {
 	
+
 	public static String NewKit, NewSublet, NewDeal_Product,
 						 NewFinancing_Product, NewWarranty_Plan; 
+	public static String Todaysdate = new SimpleDateFormat("d").format(new Date());
+	public static int TodaysDateInt = Integer.parseInt(Todaysdate);
 	public static Logger log = LogManager.getLogger(POM.class.getName());
 	public static Random random = new Random();
+	
 	@SuppressWarnings("deprecation")
 	
-	public static void Login() throws Exception {
+	public static void Login() throws Exception 
+	{
 		
-
 		/*
 		 * String projectpath = System.getProperty("user.dir") + File.separator
 		 * +"chromedriver.exe" ; System.setProperty("webdriver.chrome.driver",
 		 * projectpath); WebDriver driver = new ChromeDriver();
 		 */
 		// call property class and get the value of browser string from config.properties file
+
+		
 		Property.testProperty();
 
 		if (browser.equalsIgnoreCase("Chrome")) {
@@ -64,7 +74,7 @@ public class POM extends Variables {
 		}
 		if (browser.equalsIgnoreCase("IE")) {
 			WebDriverManager.iedriver().setup();
-			driver = new FirefoxDriver();
+			driver = new EdgeDriver();
 		}
 
 		driver.manage().window().maximize();
@@ -89,13 +99,19 @@ public class POM extends Variables {
 		LoginButton.sendKeys(Keys.RETURN);
 		log.info("Login Button is clicked");
 		Thread.sleep(15000);
- 
+		
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(closebutton)));
+		WebElement Closebutton = driver.findElement(By.xpath(closebutton));
+		JavascriptExecutor ex = (JavascriptExecutor) driver;
+		ex.executeScript("arguments[0].click();", Closebutton);
+		Thread.sleep(5000);
 	}
 	
 	public static void SelectCustomer() throws Exception
 	
 	{
-		WebDriverWait wt = new WebDriverWait(driver, 20);
+		WebDriverWait wt = new WebDriverWait(driver, 100);
 		WebElement Sell = driver.findElement(By.xpath(sell));
 		Assert.assertTrue(Sell.isDisplayed(), "Sell link is missing");
 		log.info("Sell link is visible");
@@ -120,9 +136,9 @@ public class POM extends Variables {
 		Assert.assertTrue(CustomerInfo.isDisplayed(), "CustomerInfo is missing");
 		log.info("CustomerInfo is visible");
 		CustomerInfo.click();
-		Thread.sleep(10000);
+		Thread.sleep(20000);
 
-		if(driver.findElement(By.xpath(activeorders)).isDisplayed()) 
+		if(driver.findElement(By.xpath(sectionHeader)).getText().contains("SELECT CUSTOMER")) 
 		{
 			//*[@id="ActiveOrder"]/div[2]/div/div[2]/div/div[5]/button
 			driver.findElement(By.xpath(activeorderbutton)).click();
@@ -138,7 +154,7 @@ public class POM extends Variables {
 		WebDriverWait wt = new WebDriverWait(driver, 20);
 		WebElement Searchbox = driver.findElement(By.id("globalSearchStrInput"));
 		Assert.assertTrue(Searchbox.isDisplayed(), "Searchbox is missing");
-		Searchbox.sendKeys("sparsh-21_12_202103_18_37 shrivastava");
+		Searchbox.sendKeys(defaultUser);
 		log.info("Customer name is entered in seachbox");
 		Thread.sleep(10000);
 		
@@ -546,8 +562,6 @@ public class POM extends Variables {
 		
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(appointmenttable1)));
 		Thread.sleep(5000);
-		String Todaysdate = new SimpleDateFormat("d").format(new Date());
-		int TodaysDateInt = Integer.parseInt(Todaysdate);
 		
 		for(int i = 3 ; i <= 7 ; i++)
 		{
@@ -635,7 +649,7 @@ public class POM extends Variables {
 		log.info("DateDueInField is visible");
 		DateDueInField.click();
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tr/td/a")));
-		WebElement DateDueIn = driver.findElement(By.xpath("//a[contains(text(), "+(TodaysDateInt)+")]"));
+		WebElement DateDueIn = driver.findElement(By.xpath("//tr/td/a[contains(text(), "+TodaysDateInt+")]"));
 		Assert.assertTrue(DateDueIn.isDisplayed(), "DateDueIn is missing");
 		log.info("DateDueIn is visible");
 		DateDueIn.click();
@@ -648,7 +662,7 @@ public class POM extends Variables {
 		log.info("DatePromisedField is visible");
 		DatePromisedField.click();
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tr/td/a")));
-		WebElement DatePromised = driver.findElement(By.xpath("//a[contains(text(), "+(TodaysDateInt)+")]"));
+		WebElement DatePromised = driver.findElement(By.xpath("//tr/td/a[contains(text(), "+TodaysDateInt+")]"));
 		Assert.assertTrue(DatePromised.isDisplayed(), "DatePromised is missing");
 		log.info("DatePromised is visible");
 		DatePromised.click();
@@ -692,14 +706,23 @@ public class POM extends Variables {
 			
 		}
 	
-		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Confirm')]"))).click();
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Confirm')]")));
+		Thread.sleep(5000);
+		WebElement ConfirmButton = driver.findElement(By.xpath("//button[contains(text(),'Confirm')]"));
+		Assert.assertTrue(ConfirmButton.isDisplayed(), "ConfirmButton is missing");
+		log.info("ConfirmButton is visible");
+		JavascriptExecutor executer1 = (JavascriptExecutor) driver;
+		executer1.executeScript("arguments[0].click();", ConfirmButton);
+		log.info("ConfirmButton is clicked");
+		Thread.sleep(5000);
+
 		
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("time-slot-input")));
 		WebElement TimeSlotInput = driver.findElement(By.id("time-slot-input"));
 		Assert.assertTrue(TimeSlotInput.isDisplayed(), "TimeSlotInput is missing");
 		log.info("TimeSlotInput is visible");
 		TimeSlotInput.click();
-		
+		Thread.sleep(5000);
 		
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("timeslot_0")));
 		WebElement TimeSlot = driver.findElement(By.id("timeslot_0"));
@@ -710,12 +733,14 @@ public class POM extends Variables {
 		
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//td/div/a")));
 		Thread.sleep(5000);
-		WebElement SaveAppointmentButton = driver.findElement(By.xpath("//button[contains(text(),'Create Appointment')]"));
+		WebElement SaveAppointmentButton = driver.findElement(By.xpath("//button[contains(text(),'Save Appointment')]"));
 		Assert.assertTrue(SaveAppointmentButton.isDisplayed(), "SaveAppointmentButton is missing");
 		log.info("SaveAppointmentButton is visible");
 		SaveAppointmentButton.click();
 		log.info("SaveAppointmentButton is Clicked");
 		Thread.sleep(5000);
+		log.info("Appointment is Created successfully");	
+
 				
 		
 	}
@@ -743,9 +768,9 @@ public class POM extends Variables {
 		{
 			Actions action = new Actions(driver);
 			action.moveToElement(MyAppoitnment).build().perform();
-			wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(appointmentNane)));
-			WebElement AppointmentNane = driver.findElement(By.xpath(appointmentNane));
-			if(AppointmentNane.getText().contains("Appointment -")) 
+			wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(appointmentName)));
+			WebElement AppointmentName = driver.findElement(By.xpath(appointmentName));
+			if(AppointmentName.getText().contains("Appointment -")) 
 			{
 				MyAppoitnment.click();
 				Thread.sleep(10000);
@@ -810,9 +835,9 @@ public class POM extends Variables {
 		{
 			Actions action = new Actions(driver);
 			action.moveToElement(MyAppoitnment).build().perform();
-			wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(appointmentNane)));
-			WebElement AppointmentNane = driver.findElement(By.xpath(appointmentNane));
-			if(AppointmentNane.getText().contains("Appointment -")) 
+			wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(appointmentName)));
+			WebElement AppointmentName = driver.findElement(By.xpath(appointmentName));
+			if(AppointmentName.getText().contains("Appointment -")) 
 			{
 				MyAppoitnment.click();
 				Thread.sleep(10000);
