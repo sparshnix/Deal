@@ -5,7 +5,7 @@
     <classes>
       <class name="Dealership.SystemSettings">
         <methods>
-          <include name="SellingTaxmanagement"/>
+          <include name="Textmessagetemplates"/>
         </methods>
       </class> <!-- Dealership.SystemSettings -->
     </classes>

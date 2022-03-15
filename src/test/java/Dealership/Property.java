@@ -51,7 +51,7 @@ public class Property extends Variables {
 		dealAppointmentCO			=	prop.getProperty("dealAppointmentCO");
 		filename					=	prop.getProperty("filename");
 		linkedfee					=	prop.getProperty("linkedfee");
-		
+		templateMsg					=	prop.getProperty("templateMsg");
 		
 		
 		
@@ -477,6 +477,22 @@ public class Property extends Variables {
 		assignedRate				=	locators.getProperty("assignedRate");
 		assignedrateCheckbox		=	locators.getProperty("assignedrateCheckbox");
 		rateinclude					=	locators.getProperty("rateinclude");
+		taxinfo						=	locators.getProperty("taxinfo");
+		activetaxtoggle				=	locators.getProperty("activetaxtoggle");
+		taxcodesavebtn				=	locators.getProperty("taxcodesavebtn");
+		taxcodedeletebtn			=	locators.getProperty("taxcodedeletebtn");
+		editTaxrate					=	locators.getProperty("editTaxrate");
+		editsavetaxrates			=	locators.getProperty("editsavetaxrates");
+		deletetaxrate				=	locators.getProperty("deletetaxrate");
+		purchasetaxratelist			=	locators.getProperty("purchasetaxratelist");
+		purchasetaxcodelist			=	locators.getProperty("purchasetaxcodelist");
+		templetHeader				=	locators.getProperty("templetHeader");
+		plusicon					=	locators.getProperty("plusicon");
+		templateList				=	locators.getProperty("templateList");
+		templatename				=	locators.getProperty("templatename");
+		deleteTemplate				=	locators.getProperty("deleteTemplate");
+		
+		
 		
 		
 		

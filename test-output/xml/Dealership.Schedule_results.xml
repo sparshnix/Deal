@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Test"
            tests="6"
-           failures="6"
+           failures="5"
            errors="0"
            skipped="0"
-           time="701.221">
+           time="1146.650">
   <properties />
-            <testcase name="DealserviceAppointment" time="112.932" classname="Dealership.Schedule">
+            <testcase name="CreateandView" time="143.356" classname="Dealership.Schedule">
                 <failure type="org.openqa.selenium.ElementClickInterceptedException"
                   message="element click intercepted: Element &lt;input class=&quot;bp-autocomplete-input H301 bp-input-text bp-bold-font ng-pristine ng-untouched ng-valid&quot; id=&quot;time-slot-input&quot; ng-blur=&quot;M_AddEditApp.showAssignTimeDropdown = false; F_AddEditApp.hideDropdown();&quot; ng-class=&quot;{&apos;bp-redborder&apos;:M_AddEditApp.isError &amp;amp;&amp;amp; !M_AddEditApp.assignTimeJSON.selectedTechnicianTime}&quot; ng-disabled=&quot;F_AddEditApp.isDisableTimeDropDown(M_AddEditApp.assignTechnicianJSON)&quot; ng-focus=&quot;F_AddEditApp.scrollTopDtopDown(&apos;time-slot-div&apos;);M_AddEditApp.showAssignTimeDropdown = true&quot; ng-keyup=&quot;F_AddEditApp.keyPressNavigationOnDropdownElements($event, &apos;time-slot-div&apos;, &apos;timeslot&apos;, M_AddEditApp.timeSlotJSON)&quot; ng-model=&quot;M_AddEditApp.assignTimeJSON.selectedTechnicianTime&quot; placeholder=&quot;Please select time&quot; readonly=&quot;readonly&quot; type=&quot;text&quot;&gt; is not clickable at point (877, 419). Other element would receive the click: &lt;div class=&quot;loadingIconContainer&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=98.0.4758.102)
+  (Session info: chrome=99.0.4844.51)
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.203.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8dfb5533fa4f98d26feb626d31f63a0a, clickElement {id=6c313420-4442-4950-ad76-e8b36b0e8b62}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62927}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62927/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (8dfb5533fa4f98d26feb626d31f63a0a)] -&gt; id: time-slot-input]
-Session ID: 8dfb5533fa4f98d26feb626d31f63a0a"
+Command: [ca17ade4ad3ba5c51a2d9abd77b0fdfe, clickElement {id=f86d363e-fdeb-49d5-a68a-df203c821f69}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58332/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ca17ade4ad3ba5c51a2d9abd77b0fdfe)] -&gt; id: time-slot-input]
+Session ID: ca17ade4ad3ba5c51a2d9abd77b0fdfe"
               >
 <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="bp-autocomplete-input H301 bp-input-text bp-bold-font ng-pristine ng-untouched ng-valid" id="time-slot-input" ng-blur="M_AddEditApp.showAssignTimeDropdown = false; F_AddEditApp.hideDropdown();" ng-class="{'bp-redborder':M_AddEditApp.isError &amp;&amp; !M_AddEditApp.assignTimeJSON.selectedTechnicianTime}" ng-disabled="F_AddEditApp.isDisableTimeDropDown(M_AddEditApp.assignTechnicianJSON)" ng-focus="F_AddEditApp.scrollTopDtopDown('time-slot-div');M_AddEditApp.showAssignTimeDropdown = true" ng-keyup="F_AddEditApp.keyPressNavigationOnDropdownElements($event, 'time-slot-div', 'timeslot', M_AddEditApp.timeSlotJSON)" ng-model="M_AddEditApp.assignTimeJSON.selectedTechnicianTime" placeholder="Please select time" readonly="readonly" type="text"> is not clickable at point (877, 419). Other element would receive the click: <div class="loadingIconContainer">...</div>
-  (Session info: chrome=98.0.4758.102)
+  (Session info: chrome=99.0.4844.51)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.203.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8dfb5533fa4f98d26feb626d31f63a0a, clickElement {id=6c313420-4442-4950-ad76-e8b36b0e8b62}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62927}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62927/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (8dfb5533fa4f98d26feb626d31f63a0a)] -> id: time-slot-input]
-Session ID: 8dfb5533fa4f98d26feb626d31f63a0a
+Command: [ca17ade4ad3ba5c51a2d9abd77b0fdfe, clickElement {id=f86d363e-fdeb-49d5-a68a-df203c821f69}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58332/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ca17ade4ad3ba5c51a2d9abd77b0fdfe)] -> id: time-slot-input]
+Session ID: ca17ade4ad3ba5c51a2d9abd77b0fdfe
   sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
   sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
   sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -40,7 +40,8 @@ Session ID: 8dfb5533fa4f98d26feb626d31f63a0a
   org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
   org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
   org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-  Dealership.Schedule.DealserviceAppointment(Schedule.java:765)
+  Dealership.POM.CreateAppointment(POM.java:724)
+  Dealership.Schedule.CreateandView(Schedule.java:87)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -60,102 +61,27 @@ Session ID: 8dfb5533fa4f98d26feb626d31f63a0a
       </failure>
 
           </testcase>
-            <testcase name="UnassignedAppointment" time="211.737" classname="Dealership.Schedule">
-                <failure type="org.openqa.selenium.TimeoutException"
-                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //tr/td/div (tried for 100 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.203.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61678}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61678/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cdd4c60b3af00bcd4b69759b40f37f27"
-              >
-<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //tr/td/div (tried for 100 second(s) with 500 milliseconds interval)
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.203.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61678}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61678/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cdd4c60b3af00bcd4b69759b40f37f27
-  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-  Dealership.Schedule.UnassignedAppointment(Schedule.java:334)
-  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.lang.reflect.Method.invoke(Method.java:498)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-  java.lang.Thread.run(Thread.java:748)
-]]>
-      </failure>
-
-          </testcase>
-            <testcase name="MoveAppointment" time="146.358" classname="Dealership.Schedule">
-                <failure type="org.openqa.selenium.TimeoutException"
-                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //button[contains(text(), &apos;New Appointment&apos;)] (tried for 100 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.203.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61081}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61081/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 767899822a49a50989b6e260559ac58d"
-              >
-<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[contains(text(), 'New Appointment')] (tried for 100 second(s) with 500 milliseconds interval)
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.203.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61081}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61081/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 767899822a49a50989b6e260559ac58d
-  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-  Dealership.POM.CreateAppointment(POM.java:546)
-  Dealership.Schedule.MoveAppointment(Schedule.java:219)
-  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.lang.reflect.Method.invoke(Method.java:498)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-  java.lang.Thread.run(Thread.java:748)
-]]>
-      </failure>
-
-          </testcase>
-            <testcase name="CreateEditDeleteAppointment" time="56.902" classname="Dealership.Schedule">
+            <testcase name="CreateEditDeleteAppointment" time="86.068" classname="Dealership.Schedule">
                 <failure type="org.openqa.selenium.ElementClickInterceptedException"
                   message="element click intercepted: Element &lt;button class=&quot;primary bp-normal-button btn&quot; ng-click=&quot;F_TechSchedule.openAddEditAppointmentPopup()&quot; ng-disabled=&quot;!GroupOnlyPermissions[&apos;Service scheduler&apos;][&apos;create/modify&apos;]&quot;&gt;...&lt;/button&gt; is not clickable at point (1189, 126). Other element would receive the click: &lt;div class=&quot;LoadingDiv&quot; ng-show=&quot;M_WeekScheduleGrid.isLoading&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=98.0.4758.102)
+  (Session info: chrome=99.0.4844.51)
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.203.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [492e354a4d47b2f92d62aa38333e48f8, clickElement {id=12d07bc2-e895-4ba9-b06c-4ceffabca185}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60272}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60272/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (492e354a4d47b2f92d62aa38333e48f8)] -&gt; xpath: //button[contains(text(), &apos;New Appointment&apos;)]]
-Session ID: 492e354a4d47b2f92d62aa38333e48f8"
+Command: [2eb47bd41d25481a8dd1fe9564b9c9b7, clickElement {id=e086944c-2513-46e0-bde2-3c893e8a8080}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58039}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58039/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2eb47bd41d25481a8dd1fe9564b9c9b7)] -&gt; xpath: //button[contains(text(), &apos;New Appointment&apos;)]]
+Session ID: 2eb47bd41d25481a8dd1fe9564b9c9b7"
               >
 <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="primary bp-normal-button btn" ng-click="F_TechSchedule.openAddEditAppointmentPopup()" ng-disabled="!GroupOnlyPermissions['Service scheduler']['create/modify']">...</button> is not clickable at point (1189, 126). Other element would receive the click: <div class="LoadingDiv" ng-show="M_WeekScheduleGrid.isLoading">...</div>
-  (Session info: chrome=98.0.4758.102)
+  (Session info: chrome=99.0.4844.51)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.203.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [492e354a4d47b2f92d62aa38333e48f8, clickElement {id=12d07bc2-e895-4ba9-b06c-4ceffabca185}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60272}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60272/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (492e354a4d47b2f92d62aa38333e48f8)] -> xpath: //button[contains(text(), 'New Appointment')]]
-Session ID: 492e354a4d47b2f92d62aa38333e48f8
+Command: [2eb47bd41d25481a8dd1fe9564b9c9b7, clickElement {id=e086944c-2513-46e0-bde2-3c893e8a8080}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58039}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58039/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2eb47bd41d25481a8dd1fe9564b9c9b7)] -> xpath: //button[contains(text(), 'New Appointment')]]
+Session ID: 2eb47bd41d25481a8dd1fe9564b9c9b7
   sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
   sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
   sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -190,43 +116,24 @@ Session ID: 492e354a4d47b2f92d62aa38333e48f8
       </failure>
 
           </testcase>
-            <testcase name="CreateandView" time="80.776" classname="Dealership.Schedule">
-                <failure type="org.openqa.selenium.NoSuchElementException"
-                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;j_id0:AddeditAppoitment&apos;]/div/div[1]/div[5]/div[2]/div[1]/div[1]/span/i&quot;}
-  (Session info: chrome=98.0.4758.102)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+            <testcase name="DealserviceAppointment" time="194.400" classname="Dealership.Schedule">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),&apos;CO-0004489&apos;)] (tried for 100 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.203.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1809ae7718c2a4706f9c5f49d6e8970b, findElement {using=xpath, value=//*[@id=&apos;j_id0:AddeditAppoitment&apos;]/div/div[1]/div[5]/div[2]/div[1]/div[1]/span/i}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60666}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60666/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1809ae7718c2a4706f9c5f49d6e8970b"
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59688/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 96d7ae61a414938dd15cd492c45ada71"
               >
-<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='j_id0:AddeditAppoitment']/div/div[1]/div[5]/div[2]/div[1]/div[1]/span/i"}
-  (Session info: chrome=98.0.4758.102)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'CO-0004489')] (tried for 100 second(s) with 500 milliseconds interval)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.203.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1809ae7718c2a4706f9c5f49d6e8970b, findElement {using=xpath, value=//*[@id='j_id0:AddeditAppoitment']/div/div[1]/div[5]/div[2]/div[1]/div[1]/span/i}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60666}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60666/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1809ae7718c2a4706f9c5f49d6e8970b
-  sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
-  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-  org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-  org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-  Dealership.POM.CreateAppointment(POM.java:573)
-  Dealership.Schedule.CreateandView(Schedule.java:87)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59688/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 96d7ae61a414938dd15cd492c45ada71
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  Dealership.Schedule.DealserviceAppointment(Schedule.java:699)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -246,41 +153,61 @@ Session ID: 1809ae7718c2a4706f9c5f49d6e8970b
       </failure>
 
           </testcase>
-            <testcase name="ServiceJobAppointment" time="92.516" classname="Dealership.Schedule">
-                <failure type="org.openqa.selenium.ElementClickInterceptedException"
-                  message="element click intercepted: Element &lt;div class=&quot;time-selector ng-scope&quot; id=&quot;assign-technician-content&quot; ng-class=&quot;{&apos;bg-coral-light2&apos; : (M_AddEditApp.showSelectTimeError  &amp;amp;&amp;amp; M_AddEditApp.assignTechnicianJSON.selectedTechnicianId) || M_AddEditApp.IsMultidayError, &apos;bp-redborder&apos;: (M_AddEditApp.showSelectTimeError &amp;amp;&amp;amp; M_AddEditApp.assignTechnicianJSON.selectedTechnicianId) || M_AddEditApp.IsMultidayError}&quot; ng-click=&quot;F_AddEditApp.openOrCloseAssignTechniSelectorView(&apos;expandedAssignTechnicianSelector&apos;)&quot; ng-if=&quot;M_AddEditApp.currentAssignTechnicianSelectionView === &apos;collapsedAssignTechnicianSelector&apos;&quot;&gt;...&lt;/div&gt; is not clickable at point (672, 340). Other element would receive the click: &lt;div class=&quot;add-edit-appointment-container&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=98.0.4758.102)
+            <testcase name="UnassignedAppointment" time="225.737" classname="Dealership.Schedule">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;app-global-header-container-id&quot;]/div[2]/nav[1]/ul/li[3]/a (tried for 100 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.203.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [56a35986b0e96f80c3583fc1b530313e, clickElement {id=f7b501dd-224c-49f4-97e2-0f947b8eb96b}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62485/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (56a35986b0e96f80c3583fc1b530313e)] -&gt; id: assign-technician-content]
-Session ID: 56a35986b0e96f80c3583fc1b530313e"
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59259/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d082d027ce2c8269bec1f48ff5f42908"
               >
-<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="time-selector ng-scope" id="assign-technician-content" ng-class="{'bg-coral-light2' : (M_AddEditApp.showSelectTimeError  &amp;&amp; M_AddEditApp.assignTechnicianJSON.selectedTechnicianId) || M_AddEditApp.IsMultidayError, 'bp-redborder': (M_AddEditApp.showSelectTimeError &amp;&amp; M_AddEditApp.assignTechnicianJSON.selectedTechnicianId) || M_AddEditApp.IsMultidayError}" ng-click="F_AddEditApp.openOrCloseAssignTechniSelectorView('expandedAssignTechnicianSelector')" ng-if="M_AddEditApp.currentAssignTechnicianSelectionView === 'collapsedAssignTechnicianSelector'">...</div> is not clickable at point (672, 340). Other element would receive the click: <div class="add-edit-appointment-container">...</div>
-  (Session info: chrome=98.0.4758.102)
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="app-global-header-container-id"]/div[2]/nav[1]/ul/li[3]/a (tried for 100 second(s) with 500 milliseconds interval)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.203.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [56a35986b0e96f80c3583fc1b530313e, clickElement {id=f7b501dd-224c-49f4-97e2-0f947b8eb96b}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62485/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (56a35986b0e96f80c3583fc1b530313e)] -> id: assign-technician-content]
-Session ID: 56a35986b0e96f80c3583fc1b530313e
-  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-  Dealership.Schedule.ServiceJobAppointment(Schedule.java:520)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59259/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d082d027ce2c8269bec1f48ff5f42908
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  Dealership.Schedule.UnassignedAppointment(Schedule.java:274)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="ServiceJobAppointment" time="222.173" classname="Dealership.Schedule">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;app-global-header-container-id&quot;]/div[2]/nav[1]/ul/li[1]/a (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59502}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59502/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 29bc648700f34daf64ca67d9ea253ff2"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="app-global-header-container-id"]/div[2]/nav[1]/ul/li[1]/a (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59502}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59502/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 29bc648700f34daf64ca67d9ea253ff2
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  Dealership.Schedule.ServiceJobAppointment(Schedule.java:409)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -302,5 +229,6 @@ Session ID: 56a35986b0e96f80c3583fc1b530313e
           </testcase>
   
   
-  
+            <testcase name="MoveAppointment" time="274.916" classname="Dealership.Schedule" />
+      
 </testsuite>

@@ -3401,7 +3401,7 @@ public class SystemSettings extends POM	{
 	}
 
 	@Test(priority = 63)
-	public static void SellingTaxmanagement() throws Exception
+	public static void Taxmanagement() throws Exception
 	{
 		WebDriverWait wt = new WebDriverWait(driver, 100);
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
@@ -3564,7 +3564,6 @@ public class SystemSettings extends POM	{
 				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("("+assignTaxRateButton+")["+i+"]")));
 				Thread.sleep(2000);
 				WebElement AssignTaxRateButton = driver.findElement(By.xpath("("+assignTaxRateButton+")["+i+"]"));
-				wt.until(ExpectedConditions.visibilityOf(AssignTaxRateButton));
 				Assert.assertTrue(AssignTaxRateButton.isDisplayed(), "AssignTaxRateButton is missing");
 				log.info("AssignTaxRateButton is visible");
 				AssignTaxRateButton.click();
@@ -3603,8 +3602,332 @@ public class SystemSettings extends POM	{
 			}
 		}
 		
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(addnew)));
+		WebElement Addnew = driver.findElement(By.xpath(addnew));
+		Assert.assertTrue(Addnew.isDisplayed(), "Button is missing");
+		log.info("Addnew button is displayed");
+		Addnew.click();
+		Assert.assertTrue(Addnew.isEnabled(), "Button is not clicked");
+		log.info("Addnew button is clicked");
 		
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(part)));
+		WebElement Part = driver.findElement(By.xpath(part));
+		Assert.assertTrue(Part.isDisplayed(), "Button is missing");
+		log.info("Part button is displayed");
+		Part.click();
+		Assert.assertTrue(Part.isEnabled(), "Button is not clicked");
+		log.info("Part button is clicked");
 		
+		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(partheader)));
+        Thread.sleep(5000);
+        WebElement PartHeader = driver.findElement(By.xpath(partheader));
+        Assert.assertTrue(PartHeader.isDisplayed(), "Part header is missing");
+        String PartHeadertext = PartHeader.getText();
+		System.out.println(PartHeadertext);
+		Assert.assertEquals(PartHeadertext, "New Merchandise");
+		log.info("Part creation window is opened");
+        
+				
+		WebElement ApplicableTax = driver.findElement(By.id("applicableTaxId"));	
+        Select select = new Select(ApplicableTax);
+        select.selectByVisibleText(STC);
+		log.info("ApplicableTax is selected");
+		log.info("Tax code is verified");
+		
+				
+		WebElement PartCancelBtn = driver.findElement(By.id("partCancelBtn"));
+		Assert.assertTrue(PartCancelBtn.isDisplayed(), "Part Cancel Button is missing");
+		log.info("Part Cancel Button  is displayed");
+		PartCancelBtn.click();
+		log.info("Cancel button is clicked");
+		driver.navigate().refresh();
+		Thread.sleep(5000);
+
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(taxcodes)));
+		Thread.sleep(5000);
+		WebElement TaxCodes2 = driver.findElement(By.xpath(taxcodes));
+		Assert.assertTrue(TaxCodes2.isDisplayed(), "TaxCodes link is missing");
+		log.info("TaxCodes link is visible");
+		TaxCodes2.click();
+		log.info("TaxCodes link is clicked");
+		
+		List<WebElement> TaxcodeList3 = driver.findElements(By.xpath(taxcodelist));
+		int Count3 = TaxcodeList3.size();
+		System.out.println(Count3);
+		for(int i = 1 ; i<=Count3 ; i++)
+		{
+			System.out.println(i);
+			WebElement NewTaxcode = driver.findElement(By.xpath("("+taxcodelist+")["+i+"]"));
+			System.out.println(i+ " = " +NewTaxcode.getText());
+			if(NewTaxcode.getText().contains(STC))
+			{
+				System.out.println(i);
+				Assert.assertTrue(NewTaxcode.isDisplayed(), "NewTaxCode is missing");
+				log.info("NewTaxCode is visible");
+				NewTaxcode.click();
+				log.info("NewTaxCode is clicked");
+				Thread.sleep(2000);
+
+				WebElement Activetaxtoggle = driver.findElement(By.xpath("("+activetaxtoggle+")["+i+"]"));
+				Activetaxtoggle.click();
+				log.info("Activetaxtoggle is clicked");
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("("+taxcodesavebtn+")["+i+"]")));
+				WebElement Taxcodesavebtn = driver.findElement(By.xpath("("+taxcodesavebtn+")["+i+"]"));
+				Taxcodesavebtn.click();
+				log.info("Tax code is deactivated");
+				Thread.sleep(12000);
+				
+				WebElement NewTaxcode2 = driver.findElement(By.xpath("("+taxcodelist+")["+i+"]"));
+				Assert.assertTrue(NewTaxcode2.isDisplayed(), "NewTaxCode is missing");
+				log.info("NewTaxCode is visible");
+				NewTaxcode2.click();
+				log.info("NewTaxCode is clicked");
+				Thread.sleep(2000);
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("("+assignTaxRateButton+")["+i+"]")));
+				WebElement AssignTaxRateButton = driver.findElement(By.xpath("("+assignTaxRateButton+")["+i+"]"));
+				Assert.assertTrue(AssignTaxRateButton.isDisplayed(), "AssignTaxRateButton is missing");
+				log.info("AssignTaxRateButton is visible");
+				AssignTaxRateButton.click();
+				log.info("AssignTaxRateButton is clicked");
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(),'Assign tax rates')]")));
+				Thread.sleep(12000);
+				
+				int C = driver.findElements(By.xpath(assignedRate)).size();
+				System.out.println(C);
+				for(int j = 1; j<=C ; j++)
+				{
+					WebElement AssignedRate = driver.findElement(By.xpath("("+assignedRate+")["+j+"]"));
+					System.out.println(j+ " = " + AssignedRate.getText());
+					if(AssignedRate.getText().contains("Sellingtaxrate_"+num))
+					{
+						
+						WebElement AssignedrateCheckbox = driver.findElement(By.xpath("("+assignedrateCheckbox+")["+j+"]"));
+						Assert.assertTrue(AssignedrateCheckbox.isDisplayed(), "AssignedrateCheckbox is missing");
+						JavascriptExecutor ex1 = (JavascriptExecutor) driver;
+						ex1.executeScript("arguments[0].click();", AssignedRate);
+						log.info("AssignedrateCheckbox is deselected");
+						Thread.sleep(5000);
+						driver.findElement(By.xpath("//button[contains(text(),'Update')]")).click();
+						log.info("Update button is clicked");
+						Thread.sleep(20000);
+						break;
+					}
+				}	
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("("+taxcodedeletebtn+")["+i+"]")));
+				WebElement Taxcodedeletebtn = driver.findElement(By.xpath("("+taxcodedeletebtn+")["+i+"]"));
+				Taxcodedeletebtn.click();
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Yes')]")));
+				Thread.sleep(5000);
+				driver.findElement(By.xpath("//button[contains(text(),'Yes')]")).click();
+				Thread.sleep(10000);
+				break;
+			}
+		}
+		
+		int Count4 = driver.findElements(By.xpath(taxcodelist)).size();
+		Assert.assertNotEquals(Count3, Count4, "taxcode is not removed");
+		log.info("taxcode is successfully removed");
+		driver.navigate().refresh();
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(taxrates)));
+		Thread.sleep(15000);
+		WebElement TaxRates2 = driver.findElement(By.xpath(taxrates));
+		Assert.assertTrue(TaxRates2.isDisplayed(), "TaxRates link is missing");
+		log.info("TaxRates link is visible");
+		TaxRates2.click();
+		log.info("TaxRates link is clicked");
+		
+		List<WebElement> TaxrateList2 = driver.findElements(By.xpath(taxratelist));
+		int Count5 = TaxrateList2.size();
+		System.out.println(Count5);
+		for(int k = 1 ; k<=Count5 ; k++)
+		{
+			System.out.println(k);
+			WebElement NewTaxrate = driver.findElement(By.xpath("("+taxratelist+")["+k+"]"));
+			System.out.println(k+ " = " +NewTaxrate.getText());
+			if(NewTaxrate.getText().contains(STR))
+			{
+				WebElement EditTaxrate = driver.findElement(By.xpath("("+editTaxrate+")["+k+"]"));
+				Assert.assertTrue(EditTaxrate.isDisplayed(), "EditTaxrate link is missing");
+				log.info("EditTaxrate link is visible");
+				EditTaxrate.click();
+				log.info("EditTaxrate link is clicked");
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(),'Edit selling tax rate')]")));
+				Thread.sleep(5000);
+				WebElement Editsavetaxrates = driver.findElement(By.xpath(editsavetaxrates));
+				Assert.assertTrue(Editsavetaxrates.isDisplayed(), "Editsavetaxrates link is missing");
+				log.info("Editsavetaxrates link is visible");
+				Editsavetaxrates.click();
+				log.info("Editsavetaxrates link is clicked");
+				Thread.sleep(8000);
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("("+deletetaxrate+")["+k+"]")));
+				WebElement Deletetaxrate = driver.findElement(By.xpath("("+deletetaxrate+")["+k+"]"));
+				Assert.assertTrue(Deletetaxrate.isDisplayed(), "Deletetaxrate link is missing");
+				log.info("Deletetaxrate link is visible");
+				Deletetaxrate.click();
+				log.info("Deletetaxrate link is clicked");
+				
+				wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Yes')]")));
+				Thread.sleep(5000);
+				driver.findElement(By.xpath("//button[contains(text(),'Yes')]")).click();
+				Thread.sleep(10000);
+				break;
+			}
+		}
+		
+		int Count6 = driver.findElements(By.xpath(taxratelist)).size();
+		Assert.assertNotEquals(Count5, Count6, "taxrate is not removed");
+		log.info("taxrate is successfully removed");
+
 	}
+	
+	@Test(priority = 64)
+	public static void Textmessagetemplates() throws Exception
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
+		WebElement ACandSet = driver.findElement(By.xpath(acandset));
+		Assert.assertTrue(ACandSet.isDisplayed(), "Account and Settings link is missing");
+		log.info("Account and Settings link is visible");
+		ACandSet.click();
+		log.info("Account and Settings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'System settings')]")));
+		WebElement SystemSettings = driver.findElement(By.xpath("//span[contains(text(),'System settings')]"));
+		Assert.assertTrue(SystemSettings.isDisplayed(), "SystemSettings link is missing");
+		log.info("SystemSettings link is visible");
+		SystemSettings.click();
+		log.info("SystemSettings link is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(settingsTiles)));
+		
+		List<WebElement> SettingsTiles = driver.findElements(By.xpath(settingsTiles));
+		for(WebElement Tile : SettingsTiles)
+			if(Tile.getText().contains("Text message templates"))
+			{
+				Tile.click();
+				log.info("Text message templates link is clicked");
+				break;
+			}
+	
+		//*[@id="BP_Home_mainContainer"]/div[1]/div[1]/div[1]/div/div/h1
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(templetHeader)));
+		WebElement TempletHeader = driver.findElement(By.xpath(templetHeader));
+		Assert.assertTrue(TempletHeader.isDisplayed(), "TempletHeader link is missing");
+		log.info("TempletHeader link is visible");
+		TempletHeader.click();
+		log.info("TempletHeader link is clicked");
+		Thread.sleep(21000);
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(plusicon)));
+		WebElement PlusIcon = driver.findElement(By.xpath(plusicon));
+		Assert.assertTrue(PlusIcon.isDisplayed(), "PlusIcon link is missing");
+		log.info("PlusIcon link is visible");
+		PlusIcon.click();
+		log.info("PlusIcon link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(),'New text template')]")));
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder = 'Template name']")));
+		WebElement TempletName = driver.findElement(By.xpath("//input[@placeholder = 'Template name']"));
+		Assert.assertTrue(TempletName.isDisplayed(), "TempletName is missing");
+		log.info("TempletName is visible");
+		TempletName.sendKeys("Automated Template");
+		log.info("TempletName is filled");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@placeholder='Type your message here']")));
+		WebElement TemplateMsg = driver.findElement(By.xpath("//*[@placeholder='Type your message here']"));
+		Assert.assertTrue(TemplateMsg.isDisplayed(), "TemplateMsg is missing");	
+		log.info("TemplateMsg is visible");
+		TemplateMsg.sendKeys(templateMsg);
+		log.info("TemplateMsg is filled");
+		
+		
+		WebElement Savebutton = driver.findElement(By.xpath("//button[contains(text(),'Save')]"));
+		Assert.assertTrue(Savebutton.isDisplayed(), "Savebutton is missing");
+		log.info("Savebutton is visible");
+		Savebutton.click();
+		log.info("Savebutton is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'Automated Template')]")));
+		log.info("New template is successfully created");
+		
+		
+		WebElement Searchbox = driver.findElement(By.id("globalSearchStrInput"));
+		Assert.assertTrue(Searchbox.isDisplayed(), "Searchbox is missing");
+		Searchbox.sendKeys(defaultUser);
+		log.info("email is entered in seachbox");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(verifyemail)));
+		
+		WebElement Verifyemail = driver.findElement(By.xpath(verifyemail));
+		Assert.assertTrue(Verifyemail.isDisplayed(), "No relevent data appeared");
+		Verifyemail.click();
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'send a text')]")));
+		log.info("Customer's profile is opened");
+		WebElement SendAText = driver.findElement(By.xpath("//button[contains(text(),'send a text')]"));
+		Assert.assertTrue(SendAText.isDisplayed(), "SendAText button is missing");
+		SendAText.click();
+		log.info("SendAText button is clicked");
+		
+
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'Send a text to customer')]")));
+		Thread.sleep(5000);
+		
+		
+		WebElement SmsTemplate = driver.findElement(By.id("smsTemplate"));
+		Assert.assertTrue(SmsTemplate.isDisplayed(), "SendAText button is missing");
+		SmsTemplate.click();
+		log.info("SendAText button is clicked");
+		
+		List<WebElement> TemplateList = driver.findElements(By.xpath(templateList));
+		Iterator<WebElement> it = TemplateList.iterator();
+		while(it.hasNext())
+		{
+			WebElement Template = it.next();
+			if(Template.getText().contains("Automated"))
+			{
+				Assert.assertTrue(Template.isDisplayed(), "Template is missing");
+				log.info("The template is visible");
+				Template.click();
+				log.info("The template is verified");
+				break;
+			}
+		}
+		
+		driver.navigate().back();
+		Thread.sleep(10000);
+		int Count1 = driver.findElements(By.xpath(templatename)).size();
+		for(int i = 1 ; i <= Count1 ; i++)
+		{
+			WebElement Templatename = driver.findElement(By.xpath("("+templatename+")["+i+"]"));
+			if(Templatename.getText().contains("Automated"))
+			{
+				WebElement DeleteTemplate = driver.findElement(By.xpath("("+deleteTemplate+")["+i+"]"));
+				Assert.assertTrue(DeleteTemplate.isDisplayed(), "DeleteTemplate is missing");
+				log.info("DeleteTemplate button is visible");
+				DeleteTemplate.click();
+				log.info("DeleteTemplate button is clicked");
+				Thread.sleep(5000);
+				break;				
+			}
+		}
+		int Count2 = driver.findElements(By.xpath(templatename)).size();
+		Assert.assertNotEquals(Count1, Count2, "The template is not removed");
+		log.info("Template is removed successfully");
+	
+	}
+
 
 }

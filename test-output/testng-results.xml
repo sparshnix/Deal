@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="14" total="15" passed="1">
+<testng-results skipped="0" failed="0" ignored="15" total="16" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Status of execution : 1]]>
     </line>
     <line>
-      <![CDATA[Test case SellingTaxmanagement passes successfully]]>
+      <![CDATA[Test case Textmessagetemplates passes successfully]]>
     </line>
     <line>
       <![CDATA[
 ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="183190" started-at="2022-03-10T16:21:05 IST" finished-at="2022-03-10T16:24:08 IST">
+  <suite name="Default suite" duration-ms="200333" started-at="2022-03-15T15:58:53 IST" finished-at="2022-03-15T16:02:13 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="183190" started-at="2022-03-10T16:21:05 IST" finished-at="2022-03-10T16:24:08 IST">
+    <test name="Default test" duration-ms="200333" started-at="2022-03-15T15:58:53 IST" finished-at="2022-03-15T16:02:13 IST">
       <class name="Dealership.SystemSettings">
-        <test-method status="PASS" signature="SellingTaxmanagement()[pri:63, instance:Dealership.SystemSettings@3c77d488]" name="SellingTaxmanagement" duration-ms="177123" started-at="2022-03-10T16:21:05 IST" finished-at="2022-03-10T16:24:02 IST">
+        <test-method status="PASS" signature="Textmessagetemplates()[pri:64, instance:Dealership.SystemSettings@3c77d488]" name="Textmessagetemplates" duration-ms="194218" started-at="2022-03-15T15:58:53 IST" finished-at="2022-03-15T16:02:07 IST">
           <reporter-output>
             <line>
               <![CDATA[Status of execution : 1]]>
             </line>
             <line>
-              <![CDATA[Test case SellingTaxmanagement passes successfully]]>
+              <![CDATA[Test case Textmessagetemplates passes successfully]]>
             </line>
             <line>
               <![CDATA[
 ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- SellingTaxmanagement -->
+        </test-method> <!-- Textmessagetemplates -->
       </class> <!-- Dealership.SystemSettings -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

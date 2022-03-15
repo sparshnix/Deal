@@ -99,7 +99,10 @@ public class Variables {
 	plHeader, editLocationfield, locationinfo, allLocations, tagHeader, editTagfield, taginfo,
 	allTags, taxHeader, taxrates, addnewrate, taxname, formslabel, rate, taxcodes, taxCodeName,
 	formslabelcode, activeToggle, closebutton, taxcodelist, taxratelist, assignTaxRateButton,
-	assignedRate, assignedrateCheckbox, rateinclude
+	assignedRate, assignedrateCheckbox, rateinclude, taxinfo, activetaxtoggle, taxcodesavebtn,
+	taxcodedeletebtn, editTaxrate, editsavetaxrates, deletetaxrate, purchasetaxratelist, 
+	purchasetaxcodelist, templetHeader, plusicon, templateMsg, templateList, templatename,
+	deleteTemplate
 	
 	
 	
