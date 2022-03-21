@@ -52,8 +52,9 @@ public class Property extends Variables {
 		filename					=	prop.getProperty("filename");
 		linkedfee					=	prop.getProperty("linkedfee");
 		templateMsg					=	prop.getProperty("templateMsg");
-		
-		
+		adminUser					=	prop.getProperty("adminUser");
+		adminusername				=	prop.getProperty("adminusername");
+		adminpassword				=	prop.getProperty("adminpassword");
 		
 		
 		
@@ -491,6 +492,20 @@ public class Property extends Variables {
 		templateList				=	locators.getProperty("templateList");
 		templatename				=	locators.getProperty("templatename");
 		deleteTemplate				=	locators.getProperty("deleteTemplate");
+		unitpricingheader			=	locators.getProperty("unitpricingheader");
+		makeheader					=	locators.getProperty("makeheader");
+		userpermissionheader		=	locators.getProperty("userpermissionheader");
+		assigncolor					=	locators.getProperty("assigncolor");
+		newgroupname				=	locators.getProperty("newgroupname");
+		userslist					=	locators.getProperty("userslist");
+		firstgroup					=	locators.getProperty("firstgroup");
+		plusicon2					=	locators.getProperty("plusicon2");
+		sorticon					=	locators.getProperty("sorticon");
+		deleteicon					=	locators.getProperty("deleteicon");
+		
+		
+		
+		
 		
 		
 		

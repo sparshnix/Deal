@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="194.218">
+           time="233.932">
   <properties />
   
   
-            <testcase name="Textmessagetemplates" time="194.218" classname="Dealership.SystemSettings" />
+            <testcase name="Userpermissions" time="233.932" classname="Dealership.SystemSettings" />
       
 </testsuite>

@@ -1,0 +1,703 @@
+16:15:17.926 [main] INFO  Dealership.POM - NewTaxCode is clicked
+16:15:20.043 [main] INFO  Dealership.POM - AssignTaxRateButton is visible
+16:15:20.119 [main] INFO  Dealership.POM - AssignTaxRateButton is clicked
+16:15:32.972 [main] INFO  Dealership.POM - AssignedrateCheckbox is selected
+16:15:38.067 [main] INFO  Dealership.POM - Update button is clicked
+16:15:58.119 [main] INFO  Dealership.POM - Tax rate has been successfully assigned
+16:16:03.216 [main] INFO  Dealership.POM - Addnew button is displayed
+16:16:03.283 [main] INFO  Dealership.POM - Addnew button is clicked
+16:16:03.375 [main] INFO  Dealership.POM - Part button is displayed
+16:16:03.476 [main] INFO  Dealership.POM - Part button is clicked
+16:16:12.516 [main] INFO  Dealership.POM - Part creation window is opened
+16:16:12.665 [main] INFO  Dealership.POM - ApplicableTax is selected
+16:16:12.666 [main] INFO  Dealership.POM - Tax code is verified
+16:16:12.721 [main] INFO  Dealership.POM - Part Cancel Button  is displayed
+16:16:12.900 [main] INFO  Dealership.POM - Cancel button is clicked
+16:16:22.990 [main] INFO  Dealership.POM - TaxCodes link is visible
+16:16:24.339 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : SellingTaxmanagement
+16:18:39.171 [main] INFO  Dealership.POM - Running Test : SellingTaxmanagement
+16:18:46.937 [main] INFO  Dealership.POM - Windows maximized
+16:18:49.461 [main] INFO  Dealership.POM - URL entered
+16:18:49.595 [main] INFO  Dealership.POM - Username field is visible
+16:18:49.861 [main] INFO  Dealership.POM - Password field is visible
+16:18:50.216 [main] INFO  Dealership.POM - Login Button is visible
+16:18:50.325 [main] INFO  Dealership.POM - Login Button is clicked
+16:19:30.371 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:19:30.457 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:19:30.570 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:19:30.680 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:19:35.865 [main] INFO  Dealership.POM - Tax management link is clicked
+16:19:37.708 [main] INFO  Dealership.POM - TaxHeader is visible
+16:19:47.810 [main] INFO  Dealership.POM - TaxRates link is visible
+16:19:47.896 [main] INFO  Dealership.POM - TaxRates link is clicked
+16:19:47.981 [main] INFO  Dealership.POM - AddNewSellingTaxRate link is visible
+16:19:48.124 [main] INFO  Dealership.POM - AddNewSellingTaxRate link is clicked
+16:19:51.804 [main] INFO  Dealership.POM - TaxName is visible
+16:19:52.050 [main] INFO  Dealership.POM - TaxName is filled
+16:19:52.092 [main] INFO  Dealership.POM - FormsLabel is visible
+16:19:52.316 [main] INFO  Dealership.POM - FormsLabel is filled
+16:19:52.365 [main] INFO  Dealership.POM - Rate is visible
+16:19:52.571 [main] INFO  Dealership.POM - Rate is filled
+16:19:52.611 [main] INFO  Dealership.POM - SaveButton is visible
+16:19:52.698 [main] INFO  Dealership.POM - SaveButton is clicked
+16:20:14.151 [main] INFO  Dealership.POM - sellingtaxrate_463 is added successfully
+16:20:26.573 [main] INFO  Dealership.POM - TaxCodes link is visible
+16:20:26.751 [main] INFO  Dealership.POM - TaxCodes link is clicked
+16:20:26.903 [main] INFO  Dealership.POM - AddNewSellingTaxCode link is visible
+16:20:27.067 [main] INFO  Dealership.POM - AddNewSellingTaxCode link is clicked
+16:20:30.752 [main] INFO  Dealership.POM - TaxCodeName is visible
+16:20:31.024 [main] INFO  Dealership.POM - TaxCodeName is filled
+16:20:31.079 [main] INFO  Dealership.POM - FormsLabelCode is visible
+16:20:31.350 [main] INFO  Dealership.POM - FormsLabelCode is filled
+16:20:31.396 [main] INFO  Dealership.POM - ActiveToggle is visible
+16:20:31.473 [main] INFO  Dealership.POM - ActiveToggle is clicked
+16:20:31.531 [main] INFO  Dealership.POM - SaveButton is visible
+16:20:31.615 [main] INFO  Dealership.POM - SaveButton is clicked
+16:20:47.533 [main] INFO  Dealership.POM - NewTaxCode is visible
+16:20:48.880 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : SellingTaxmanagement
+16:28:45.749 [main] INFO  Dealership.POM - Running Test : SellingTaxmanagement
+16:28:50.747 [main] INFO  Dealership.POM - Running Test : SellingTaxmanagement
+16:29:02.006 [main] INFO  Dealership.POM - Windows maximized
+16:29:02.355 [main] INFO  Dealership.POM - Windows maximized
+16:29:06.075 [main] INFO  Dealership.POM - URL entered
+16:29:06.218 [main] INFO  Dealership.POM - Username field is visible
+16:29:06.713 [main] INFO  Dealership.POM - Password field is visible
+16:29:07.006 [main] INFO  Dealership.POM - Login Button is visible
+16:29:08.034 [main] INFO  Dealership.POM - URL entered
+16:29:08.407 [main] INFO  Dealership.POM - Username field is visible
+16:29:08.917 [main] INFO  Dealership.POM - Password field is visible
+16:29:09.151 [main] INFO  Dealership.POM - Login Button is visible
+16:29:40.920 [main] INFO  Dealership.POM - Login Button is clicked
+16:29:43.086 [main] INFO  Dealership.POM - Login Button is clicked
+16:30:03.779 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:30:03.934 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:30:04.163 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:30:04.321 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:30:09.623 [main] INFO  Dealership.POM - Tax management link is clicked
+16:30:11.424 [main] INFO  Dealership.POM - TaxHeader is visible
+16:30:21.628 [main] INFO  Dealership.POM - TaxRates link is visible
+16:30:21.744 [main] INFO  Dealership.POM - TaxRates link is clicked
+16:30:21.920 [main] INFO  Dealership.POM - AddNewSellingTaxRate link is visible
+16:30:22.048 [main] INFO  Dealership.POM - AddNewSellingTaxRate link is clicked
+16:30:25.813 [main] INFO  Dealership.POM - TaxName is visible
+16:30:26.083 [main] INFO  Dealership.POM - TaxName is filled
+16:30:26.134 [main] INFO  Dealership.POM - FormsLabel is visible
+16:30:26.368 [main] INFO  Dealership.POM - FormsLabel is filled
+16:30:26.419 [main] INFO  Dealership.POM - Rate is visible
+16:30:26.617 [main] INFO  Dealership.POM - Rate is filled
+16:30:26.665 [main] INFO  Dealership.POM - SaveButton is visible
+16:30:26.752 [main] INFO  Dealership.POM - SaveButton is clicked
+16:30:43.466 [main] INFO  Dealership.POM - sellingtaxrate_639 is added successfully
+16:30:56.015 [main] INFO  Dealership.POM - TaxCodes link is visible
+16:30:56.120 [main] INFO  Dealership.POM - TaxCodes link is clicked
+16:30:56.272 [main] INFO  Dealership.POM - AddNewSellingTaxCode link is visible
+16:30:56.371 [main] INFO  Dealership.POM - AddNewSellingTaxCode link is clicked
+16:31:00.135 [main] INFO  Dealership.POM - TaxCodeName is visible
+16:31:00.374 [main] INFO  Dealership.POM - TaxCodeName is filled
+16:31:00.407 [main] INFO  Dealership.POM - FormsLabelCode is visible
+16:31:00.604 [main] INFO  Dealership.POM - FormsLabelCode is filled
+16:31:00.651 [main] INFO  Dealership.POM - ActiveToggle is visible
+16:31:00.729 [main] INFO  Dealership.POM - ActiveToggle is clicked
+16:31:00.783 [main] INFO  Dealership.POM - SaveButton is visible
+16:31:00.878 [main] INFO  Dealership.POM - SaveButton is clicked
+16:31:16.640 [main] INFO  Dealership.POM - NewTaxCode is visible
+16:31:17.936 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : SellingTaxmanagement
+09:02:37.328 [main] INFO  Dealership.POM - Running Test : SellingTaxmanagement
+09:02:50.149 [main] INFO  Dealership.POM - Windows maximized
+09:02:52.260 [main] INFO  Dealership.POM - URL entered
+09:02:52.431 [main] INFO  Dealership.POM - Username field is visible
+09:02:53.198 [main] INFO  Dealership.POM - Password field is visible
+09:02:53.462 [main] INFO  Dealership.POM - Login Button is visible
+09:03:37.221 [main] INFO  Dealership.POM - Login Button is clicked
+09:03:57.995 [main] INFO  Dealership.POM - Account and Settings link is visible
+09:03:58.153 [main] INFO  Dealership.POM - Account and Settings link is clicked
+09:03:58.361 [main] INFO  Dealership.POM - SystemSettings link is visible
+09:03:58.500 [main] INFO  Dealership.POM - SystemSettings link is clicked
+09:04:03.617 [main] INFO  Dealership.POM - Tax management link is clicked
+09:04:05.713 [main] INFO  Dealership.POM - TaxHeader is visible
+09:04:15.868 [main] INFO  Dealership.POM - TaxRates link is visible
+09:04:16.018 [main] INFO  Dealership.POM - TaxRates link is clicked
+09:04:16.152 [main] INFO  Dealership.POM - AddNewSellingTaxRate link is visible
+09:04:16.286 [main] INFO  Dealership.POM - AddNewSellingTaxRate link is clicked
+09:04:19.988 [main] INFO  Dealership.POM - TaxName is visible
+09:04:20.324 [main] INFO  Dealership.POM - TaxName is filled
+09:04:20.386 [main] INFO  Dealership.POM - FormsLabel is visible
+09:04:20.687 [main] INFO  Dealership.POM - FormsLabel is filled
+09:04:20.750 [main] INFO  Dealership.POM - Rate is visible
+09:04:20.984 [main] INFO  Dealership.POM - Rate is filled
+09:04:21.036 [main] INFO  Dealership.POM - SaveButton is visible
+09:04:21.123 [main] INFO  Dealership.POM - SaveButton is clicked
+09:04:38.435 [main] INFO  Dealership.POM - sellingtaxrate_827 is added successfully
+09:04:51.325 [main] INFO  Dealership.POM - TaxCodes link is visible
+09:04:51.505 [main] INFO  Dealership.POM - TaxCodes link is clicked
+09:04:51.664 [main] INFO  Dealership.POM - AddNewSellingTaxCode link is visible
+09:04:51.921 [main] INFO  Dealership.POM - AddNewSellingTaxCode link is clicked
+09:04:55.609 [main] INFO  Dealership.POM - TaxCodeName is visible
+09:04:55.875 [main] INFO  Dealership.POM - TaxCodeName is filled
+09:04:55.925 [main] INFO  Dealership.POM - FormsLabelCode is visible
+09:04:56.177 [main] INFO  Dealership.POM - FormsLabelCode is filled
+09:04:56.251 [main] INFO  Dealership.POM - ActiveToggle is visible
+09:04:56.342 [main] INFO  Dealership.POM - ActiveToggle is clicked
+09:04:56.429 [main] INFO  Dealership.POM - SaveButton is visible
+09:04:56.523 [main] INFO  Dealership.POM - SaveButton is clicked
+09:05:12.901 [main] INFO  Dealership.POM - NewTaxCode is visible
+09:05:13.003 [main] INFO  Dealership.POM - NewTaxCode is clicked
+09:05:15.159 [main] INFO  Dealership.POM - AssignTaxRateButton is visible
+09:05:15.285 [main] INFO  Dealership.POM - AssignTaxRateButton is clicked
+09:05:29.089 [main] INFO  Dealership.POM - AssignedrateCheckbox is selected
+09:05:34.296 [main] INFO  Dealership.POM - Update button is clicked
+09:05:54.385 [main] INFO  Dealership.POM - Tax rate has been successfully assigned
+09:05:59.570 [main] INFO  Dealership.POM - Addnew button is displayed
+09:05:59.746 [main] INFO  Dealership.POM - Addnew button is clicked
+09:05:59.939 [main] INFO  Dealership.POM - Part button is displayed
+09:06:00.055 [main] INFO  Dealership.POM - Part button is clicked
+09:06:10.337 [main] INFO  Dealership.POM - Part creation window is opened
+09:06:10.685 [main] INFO  Dealership.POM - ApplicableTax is selected
+09:06:10.685 [main] INFO  Dealership.POM - Tax code is verified
+09:06:10.829 [main] INFO  Dealership.POM - Part Cancel Button  is displayed
+09:06:11.133 [main] INFO  Dealership.POM - Cancel button is clicked
+09:06:27.421 [main] INFO  Dealership.POM - TaxCodes link is visible
+09:06:27.580 [main] INFO  Dealership.POM - TaxCodes link is clicked
+09:06:29.052 [main] INFO  Dealership.POM - NewTaxCode is visible
+09:06:29.228 [main] INFO  Dealership.POM - NewTaxCode is clicked
+09:06:31.403 [main] INFO  Dealership.POM - Activetaxtoggle is clicked
+09:06:31.667 [main] INFO  Dealership.POM - Tax code is deactivated
+09:06:44.112 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : SellingTaxmanagement
+10:01:06.812 [main] INFO  Dealership.POM - Running Test : SellingTaxmanagement
+10:01:17.684 [main] INFO  Dealership.POM - Windows maximized
+10:01:20.198 [main] INFO  Dealership.POM - URL entered
+10:01:20.383 [main] INFO  Dealership.POM - Username field is visible
+10:01:21.111 [main] INFO  Dealership.POM - Password field is visible
+10:01:21.632 [main] INFO  Dealership.POM - Login Button is visible
+10:01:21.776 [main] INFO  Dealership.POM - Login Button is clicked
+10:02:04.979 [main] INFO  Dealership.POM - Account and Settings link is visible
+10:02:05.083 [main] INFO  Dealership.POM - Account and Settings link is clicked
+10:02:05.280 [main] INFO  Dealership.POM - SystemSettings link is visible
+10:02:05.408 [main] INFO  Dealership.POM - SystemSettings link is clicked
+10:02:11.158 [main] INFO  Dealership.POM - Tax management link is clicked
+10:02:13.092 [main] INFO  Dealership.POM - TaxHeader is visible
+10:02:23.240 [main] INFO  Dealership.POM - TaxRates link is visible
+10:02:23.449 [main] INFO  Dealership.POM - TaxRates link is clicked
+10:02:23.594 [main] INFO  Dealership.POM - AddNewSellingTaxRate link is visible
+10:02:23.737 [main] INFO  Dealership.POM - AddNewSellingTaxRate link is clicked
+10:02:27.462 [main] INFO  Dealership.POM - TaxName is visible
+10:02:27.747 [main] INFO  Dealership.POM - TaxName is filled
+10:02:27.811 [main] INFO  Dealership.POM - FormsLabel is visible
+10:02:28.099 [main] INFO  Dealership.POM - FormsLabel is filled
+10:02:28.165 [main] INFO  Dealership.POM - Rate is visible
+10:02:28.405 [main] INFO  Dealership.POM - Rate is filled
+10:02:28.463 [main] INFO  Dealership.POM - SaveButton is visible
+10:02:28.561 [main] INFO  Dealership.POM - SaveButton is clicked
+10:02:50.277 [main] INFO  Dealership.POM - TaxCodes link is visible
+10:02:50.364 [main] INFO  Dealership.POM - TaxCodes link is clicked
+10:02:50.463 [main] INFO  Dealership.POM - AddNewSellingTaxCode link is visible
+10:02:50.559 [main] INFO  Dealership.POM - AddNewSellingTaxCode link is clicked
+10:02:54.259 [main] INFO  Dealership.POM - TaxCodeName is visible
+10:02:54.507 [main] INFO  Dealership.POM - TaxCodeName is filled
+10:02:54.557 [main] INFO  Dealership.POM - FormsLabelCode is visible
+10:02:54.796 [main] INFO  Dealership.POM - FormsLabelCode is filled
+10:02:54.842 [main] INFO  Dealership.POM - ActiveToggle is visible
+10:02:54.923 [main] INFO  Dealership.POM - ActiveToggle is clicked
+10:02:54.989 [main] INFO  Dealership.POM - SaveButton is visible
+10:02:55.062 [main] INFO  Dealership.POM - SaveButton is clicked
+10:03:10.797 [main] INFO  Dealership.POM - NewTaxCode is visible
+10:03:12.129 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : SellingTaxmanagement
+10:04:08.728 [main] INFO  Dealership.POM - Running Test : SellingTaxmanagement
+10:04:18.589 [main] INFO  Dealership.POM - Windows maximized
+10:04:22.427 [main] INFO  Dealership.POM - URL entered
+10:04:22.566 [main] INFO  Dealership.POM - Username field is visible
+10:04:22.911 [main] INFO  Dealership.POM - Password field is visible
+10:04:23.141 [main] INFO  Dealership.POM - Login Button is visible
+10:04:40.532 [main] INFO  Dealership.POM - Login Button is clicked
+10:06:04.286 [main] INFO  Dealership.POM - Running Test : SellingTaxmanagement
+10:06:12.977 [main] INFO  Dealership.POM - Windows maximized
+10:06:15.116 [main] INFO  Dealership.POM - URL entered
+10:06:15.329 [main] INFO  Dealership.POM - Username field is visible
+10:06:15.781 [main] INFO  Dealership.POM - Password field is visible
+10:06:16.442 [main] INFO  Dealership.POM - Login Button is visible
+10:06:32.008 [main] INFO  Dealership.POM - Login Button is clicked
+10:06:52.528 [main] INFO  Dealership.POM - Account and Settings link is visible
+10:06:52.600 [main] INFO  Dealership.POM - Account and Settings link is clicked
+10:06:52.703 [main] INFO  Dealership.POM - SystemSettings link is visible
+10:06:52.795 [main] INFO  Dealership.POM - SystemSettings link is clicked
+10:06:56.422 [main] INFO  Dealership.POM - Tax management link is clicked
+10:06:58.028 [main] INFO  Dealership.POM - TaxHeader is visible
+10:07:08.161 [main] INFO  Dealership.POM - TaxRates link is visible
+10:07:08.248 [main] INFO  Dealership.POM - TaxRates link is clicked
+10:07:08.375 [main] INFO  Dealership.POM - AddNewSellingTaxRate link is visible
+10:07:08.488 [main] INFO  Dealership.POM - AddNewSellingTaxRate link is clicked
+10:07:12.188 [main] INFO  Dealership.POM - TaxName is visible
+10:07:12.507 [main] INFO  Dealership.POM - TaxName is filled
+10:07:12.558 [main] INFO  Dealership.POM - FormsLabel is visible
+10:07:12.895 [main] INFO  Dealership.POM - FormsLabel is filled
+10:07:12.984 [main] INFO  Dealership.POM - Rate is visible
+10:07:13.149 [main] INFO  Dealership.POM - Rate is filled
+10:07:13.198 [main] INFO  Dealership.POM - SaveButton is visible
+10:07:13.272 [main] INFO  Dealership.POM - SaveButton is clicked
+10:07:29.559 [main] INFO  Dealership.POM - sellingtaxrate_331 is added successfully
+10:07:40.702 [main] INFO  Dealership.POM - TaxCodes link is visible
+10:07:40.797 [main] INFO  Dealership.POM - TaxCodes link is clicked
+10:07:40.907 [main] INFO  Dealership.POM - AddNewSellingTaxCode link is visible
+10:07:41.014 [main] INFO  Dealership.POM - AddNewSellingTaxCode link is clicked
+10:07:44.698 [main] INFO  Dealership.POM - TaxCodeName is visible
+10:07:44.930 [main] INFO  Dealership.POM - TaxCodeName is filled
+10:07:44.978 [main] INFO  Dealership.POM - FormsLabelCode is visible
+10:07:45.202 [main] INFO  Dealership.POM - FormsLabelCode is filled
+10:07:45.272 [main] INFO  Dealership.POM - ActiveToggle is visible
+10:07:45.348 [main] INFO  Dealership.POM - ActiveToggle is clicked
+10:07:45.397 [main] INFO  Dealership.POM - SaveButton is visible
+10:07:45.469 [main] INFO  Dealership.POM - SaveButton is clicked
+10:08:01.413 [main] INFO  Dealership.POM - NewTaxCode is visible
+10:08:01.494 [main] INFO  Dealership.POM - NewTaxCode is clicked
+10:08:03.586 [main] INFO  Dealership.POM - AssignTaxRateButton is visible
+10:08:03.701 [main] INFO  Dealership.POM - AssignTaxRateButton is clicked
+10:08:16.580 [main] INFO  Dealership.POM - AssignedrateCheckbox is selected
+10:08:21.695 [main] INFO  Dealership.POM - Update button is clicked
+10:08:41.749 [main] INFO  Dealership.POM - Tax rate has been successfully assigned
+10:08:46.883 [main] INFO  Dealership.POM - Addnew button is displayed
+10:08:46.995 [main] INFO  Dealership.POM - Addnew button is clicked
+10:08:47.170 [main] INFO  Dealership.POM - Part button is displayed
+10:08:47.328 [main] INFO  Dealership.POM - Part button is clicked
+10:08:55.943 [main] INFO  Dealership.POM - Part creation window is opened
+10:08:56.086 [main] INFO  Dealership.POM - ApplicableTax is selected
+10:08:56.087 [main] INFO  Dealership.POM - Tax code is verified
+10:08:56.143 [main] INFO  Dealership.POM - Part Cancel Button  is displayed
+10:08:56.323 [main] INFO  Dealership.POM - Cancel button is clicked
+10:09:11.034 [main] INFO  Dealership.POM - TaxCodes link is visible
+10:09:11.160 [main] INFO  Dealership.POM - TaxCodes link is clicked
+10:09:11.870 [main] INFO  Dealership.POM - NewTaxCode is visible
+10:09:11.953 [main] INFO  Dealership.POM - NewTaxCode is clicked
+10:09:14.098 [main] INFO  Dealership.POM - Activetaxtoggle is clicked
+10:09:14.316 [main] INFO  Dealership.POM - Tax code is deactivated
+10:09:26.405 [main] INFO  Dealership.POM - NewTaxCode is visible
+10:09:26.490 [main] INFO  Dealership.POM - NewTaxCode is clicked
+10:09:28.589 [main] INFO  Dealership.POM - AssignTaxRateButton is visible
+10:09:28.697 [main] INFO  Dealership.POM - AssignTaxRateButton is clicked
+10:09:41.652 [main] INFO  Dealership.POM - AssignedrateCheckbox is deselected
+10:09:46.793 [main] INFO  Dealership.POM - Update button is clicked
+10:10:06.943 [main] INFO  Dealership.POM - Tax code is deactivated
+10:10:19.360 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : SellingTaxmanagement
+10:25:42.159 [main] INFO  Dealership.POM - Running Test : SellingTaxmanagement
+10:25:51.647 [main] INFO  Dealership.POM - Windows maximized
+10:25:54.314 [main] INFO  Dealership.POM - URL entered
+10:25:54.474 [main] INFO  Dealership.POM - Username field is visible
+10:25:54.840 [main] INFO  Dealership.POM - Password field is visible
+10:25:55.181 [main] INFO  Dealership.POM - Login Button is visible
+10:25:55.864 [main] INFO  Dealership.POM - Login Button is clicked
+10:26:37.205 [main] INFO  Dealership.POM - Account and Settings link is visible
+10:26:37.296 [main] INFO  Dealership.POM - Account and Settings link is clicked
+10:26:37.406 [main] INFO  Dealership.POM - SystemSettings link is visible
+10:26:37.509 [main] INFO  Dealership.POM - SystemSettings link is clicked
+10:26:43.741 [main] INFO  Dealership.POM - Tax management link is clicked
+10:26:46.540 [main] INFO  Dealership.POM - TaxHeader is visible
+10:26:56.663 [main] INFO  Dealership.POM - TaxRates link is visible
+10:26:56.803 [main] INFO  Dealership.POM - TaxRates link is clicked
+10:26:56.957 [main] INFO  Dealership.POM - AddNewSellingTaxRate link is visible
+10:26:57.071 [main] INFO  Dealership.POM - AddNewSellingTaxRate link is clicked
+10:27:00.784 [main] INFO  Dealership.POM - TaxName is visible
+10:27:00.988 [main] INFO  Dealership.POM - TaxName is filled
+10:27:01.044 [main] INFO  Dealership.POM - FormsLabel is visible
+10:27:01.300 [main] INFO  Dealership.POM - FormsLabel is filled
+10:27:01.354 [main] INFO  Dealership.POM - Rate is visible
+10:27:01.521 [main] INFO  Dealership.POM - Rate is filled
+10:27:01.569 [main] INFO  Dealership.POM - SaveButton is visible
+10:27:01.649 [main] INFO  Dealership.POM - SaveButton is clicked
+10:27:18.104 [main] INFO  Dealership.POM - sellingtaxrate_337 is added successfully
+10:27:29.590 [main] INFO  Dealership.POM - TaxCodes link is visible
+10:27:29.692 [main] INFO  Dealership.POM - TaxCodes link is clicked
+10:27:29.799 [main] INFO  Dealership.POM - AddNewSellingTaxCode link is visible
+10:27:29.893 [main] INFO  Dealership.POM - AddNewSellingTaxCode link is clicked
+10:27:33.567 [main] INFO  Dealership.POM - TaxCodeName is visible
+10:27:33.756 [main] INFO  Dealership.POM - TaxCodeName is filled
+10:27:33.811 [main] INFO  Dealership.POM - FormsLabelCode is visible
+10:27:34.035 [main] INFO  Dealership.POM - FormsLabelCode is filled
+10:27:34.077 [main] INFO  Dealership.POM - ActiveToggle is visible
+10:27:34.150 [main] INFO  Dealership.POM - ActiveToggle is clicked
+10:27:34.211 [main] INFO  Dealership.POM - SaveButton is visible
+10:27:34.310 [main] INFO  Dealership.POM - SaveButton is clicked
+10:27:50.159 [main] INFO  Dealership.POM - NewTaxCode is visible
+10:27:50.254 [main] INFO  Dealership.POM - NewTaxCode is clicked
+10:27:52.366 [main] INFO  Dealership.POM - AssignTaxRateButton is visible
+10:27:52.466 [main] INFO  Dealership.POM - AssignTaxRateButton is clicked
+10:28:05.343 [main] INFO  Dealership.POM - AssignedrateCheckbox is selected
+10:28:10.443 [main] INFO  Dealership.POM - Update button is clicked
+10:28:30.505 [main] INFO  Dealership.POM - Tax rate has been successfully assigned
+10:28:35.641 [main] INFO  Dealership.POM - Addnew button is displayed
+10:28:35.740 [main] INFO  Dealership.POM - Addnew button is clicked
+10:28:35.941 [main] INFO  Dealership.POM - Part button is displayed
+10:28:36.090 [main] INFO  Dealership.POM - Part button is clicked
+10:28:45.012 [main] INFO  Dealership.POM - Part creation window is opened
+10:28:45.167 [main] INFO  Dealership.POM - ApplicableTax is selected
+10:28:45.167 [main] INFO  Dealership.POM - Tax code is verified
+10:28:45.260 [main] INFO  Dealership.POM - Part Cancel Button  is displayed
+10:28:45.454 [main] INFO  Dealership.POM - Cancel button is clicked
+10:28:57.424 [main] INFO  Dealership.POM - TaxCodes link is visible
+10:28:57.558 [main] INFO  Dealership.POM - TaxCodes link is clicked
+10:28:58.445 [main] INFO  Dealership.POM - NewTaxCode is visible
+10:28:58.549 [main] INFO  Dealership.POM - NewTaxCode is clicked
+10:29:00.679 [main] INFO  Dealership.POM - Activetaxtoggle is clicked
+10:29:00.874 [main] INFO  Dealership.POM - Tax code is deactivated
+10:29:12.918 [main] INFO  Dealership.POM - NewTaxCode is visible
+10:29:13.009 [main] INFO  Dealership.POM - NewTaxCode is clicked
+10:29:15.100 [main] INFO  Dealership.POM - AssignTaxRateButton is visible
+10:29:15.198 [main] INFO  Dealership.POM - AssignTaxRateButton is clicked
+10:29:28.095 [main] INFO  Dealership.POM - AssignedrateCheckbox is deselected
+10:29:33.214 [main] INFO  Dealership.POM - Update button is clicked
+10:30:08.575 [main] INFO  Dealership.POM - taxcode is successfully removed
+10:30:31.015 [main] INFO  Dealership.POM - TaxRates link is visible
+10:30:31.119 [main] INFO  Dealership.POM - TaxRates link is clicked
+10:30:31.929 [main] INFO  Dealership.POM - EditTaxrate link is visible
+10:30:32.018 [main] INFO  Dealership.POM - EditTaxrate link is clicked
+10:30:37.676 [main] INFO  Dealership.POM - Editsavetaxrates link is visible
+10:30:37.763 [main] INFO  Dealership.POM - Editsavetaxrates link is clicked
+10:30:45.856 [main] INFO  Dealership.POM - Deletetaxrate link is visible
+10:30:45.929 [main] INFO  Dealership.POM - Deletetaxrate link is clicked
+10:31:01.164 [main] INFO  Dealership.POM - taxrate is successfully removed
+10:31:01.174 [main] INFO  Dealership.POM - Test case SellingTaxmanagement passes successfully
+10:52:49.753 [main] INFO  Dealership.POM - Running Test : PurchaseTaxmanagement
+10:52:58.957 [main] INFO  Dealership.POM - Windows maximized
+10:53:01.321 [main] INFO  Dealership.POM - URL entered
+10:53:01.430 [main] INFO  Dealership.POM - Username field is visible
+10:53:01.704 [main] INFO  Dealership.POM - Password field is visible
+10:53:01.907 [main] INFO  Dealership.POM - Login Button is visible
+10:53:02.025 [main] INFO  Dealership.POM - Login Button is clicked
+10:53:44.337 [main] INFO  Dealership.POM - Account and Settings link is visible
+10:53:44.469 [main] INFO  Dealership.POM - Account and Settings link is clicked
+10:53:44.612 [main] INFO  Dealership.POM - SystemSettings link is visible
+10:53:44.724 [main] INFO  Dealership.POM - SystemSettings link is clicked
+10:53:50.304 [main] INFO  Dealership.POM - Tax management link is clicked
+10:53:52.477 [main] INFO  Dealership.POM - TaxHeader is visible
+10:54:02.679 [main] INFO  Dealership.POM - TaxRates link is visible
+10:54:02.905 [main] INFO  Dealership.POM - TaxRates link is clicked
+10:54:03.139 [main] INFO  Dealership.POM - AddNewPurchaseTaxRate link is visible
+10:54:03.290 [main] INFO  Dealership.POM - AddNewPurchaseTaxRate link is clicked
+10:55:43.986 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : PurchaseTaxmanagement
+11:06:52.788 [main] INFO  Dealership.POM - Running Test : PurchaseTaxmanagement
+11:06:54.761 [main] INFO  Dealership.POM - Running Test : PurchaseTaxmanagement
+11:07:11.865 [main] INFO  Dealership.POM - Windows maximized
+11:07:13.542 [main] INFO  Dealership.POM - Windows maximized
+11:07:14.784 [main] INFO  Dealership.POM - URL entered
+11:07:15.296 [main] INFO  Dealership.POM - Username field is visible
+11:07:16.157 [main] INFO  Dealership.POM - Password field is visible
+11:07:16.186 [main] INFO  Dealership.POM - URL entered
+11:07:16.534 [main] INFO  Dealership.POM - Username field is visible
+11:07:17.750 [main] INFO  Dealership.POM - Password field is visible
+11:07:19.546 [main] INFO  Dealership.POM - Login Button is visible
+11:07:19.872 [main] INFO  Dealership.POM - Login Button is visible
+11:08:04.098 [main] INFO  Dealership.POM - Login Button is clicked
+11:08:04.259 [main] INFO  Dealership.POM - Login Button is clicked
+11:08:51.083 [main] INFO  Dealership.POM - Running Test : PurchaseTaxmanagement
+11:09:04.537 [main] INFO  Dealership.POM - Windows maximized
+11:09:06.813 [main] INFO  Dealership.POM - URL entered
+11:09:06.936 [main] INFO  Dealership.POM - Username field is visible
+11:09:07.128 [main] INFO  Dealership.POM - Password field is visible
+11:09:07.288 [main] INFO  Dealership.POM - Login Button is visible
+11:09:21.958 [main] INFO  Dealership.POM - Login Button is clicked
+11:10:36.776 [main] INFO  Dealership.POM - Running Test : PurchaseTaxmanagement
+11:10:47.068 [main] INFO  Dealership.POM - Windows maximized
+11:10:49.208 [main] INFO  Dealership.POM - URL entered
+11:10:49.380 [main] INFO  Dealership.POM - Username field is visible
+11:10:49.885 [main] INFO  Dealership.POM - Password field is visible
+11:10:50.087 [main] INFO  Dealership.POM - Login Button is visible
+11:10:50.209 [main] INFO  Dealership.POM - Login Button is clicked
+11:11:32.404 [main] INFO  Dealership.POM - Account and Settings link is visible
+11:11:32.498 [main] INFO  Dealership.POM - Account and Settings link is clicked
+11:11:32.626 [main] INFO  Dealership.POM - SystemSettings link is visible
+11:11:32.739 [main] INFO  Dealership.POM - SystemSettings link is clicked
+11:11:38.673 [main] INFO  Dealership.POM - Tax management link is clicked
+11:11:41.699 [main] INFO  Dealership.POM - TaxHeader is visible
+11:11:51.813 [main] INFO  Dealership.POM - TaxRates link is visible
+11:11:52.074 [main] INFO  Dealership.POM - TaxRates link is clicked
+11:11:52.373 [main] INFO  Dealership.POM - AddNewPurchaseTaxRate link is visible
+11:11:52.613 [main] INFO  Dealership.POM - AddNewPurchaseTaxRate link is clicked
+11:11:55.958 [main] INFO  Dealership.POM - TaxName is visible
+11:11:56.302 [main] INFO  Dealership.POM - TaxName is filled
+11:11:56.359 [main] INFO  Dealership.POM - FormsLabel is visible
+11:11:56.670 [main] INFO  Dealership.POM - FormsLabel is filled
+11:11:56.734 [main] INFO  Dealership.POM - Rate is visible
+11:11:56.973 [main] INFO  Dealership.POM - Rate is filled
+11:11:57.031 [main] INFO  Dealership.POM - SaveButton is visible
+11:11:57.153 [main] INFO  Dealership.POM - SaveButton is clicked
+11:12:18.019 [main] INFO  Dealership.POM - purchasetaxrate_922 is added successfully
+11:12:37.408 [main] INFO  Dealership.POM - TaxCodes link is visible
+11:12:37.576 [main] INFO  Dealership.POM - TaxCodes link is clicked
+11:12:37.706 [main] INFO  Dealership.POM - AddNewPurchaseTaxCode link is visible
+11:12:37.867 [main] INFO  Dealership.POM - AddNewPurchaseTaxCode link is clicked
+11:12:41.587 [main] INFO  Dealership.POM - TaxCodeName is visible
+11:12:41.871 [main] INFO  Dealership.POM - TaxCodeName is filled
+11:12:41.939 [main] INFO  Dealership.POM - FormsLabelCode is visible
+11:12:42.290 [main] INFO  Dealership.POM - FormsLabelCode is filled
+11:12:42.427 [main] INFO  Dealership.POM - ActiveToggle is visible
+11:12:42.529 [main] INFO  Dealership.POM - ActiveToggle is clicked
+11:12:42.610 [main] INFO  Dealership.POM - SaveButton is visible
+11:12:42.753 [main] INFO  Dealership.POM - SaveButton is clicked
+11:12:58.105 [main] INFO  Dealership.POM - NewTaxCode is visible
+11:12:58.232 [main] INFO  Dealership.POM - NewTaxCode is clicked
+11:14:39.094 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : PurchaseTaxmanagement
+11:25:40.943 [main] INFO  Dealership.POM - Running Test : PurchaseTaxmanagement
+11:25:49.840 [main] INFO  Dealership.POM - Windows maximized
+11:25:52.260 [main] INFO  Dealership.POM - URL entered
+11:25:52.406 [main] INFO  Dealership.POM - Username field is visible
+11:25:52.807 [main] INFO  Dealership.POM - Password field is visible
+11:25:53.314 [main] INFO  Dealership.POM - Login Button is visible
+11:26:31.644 [main] INFO  Dealership.POM - Login Button is clicked
+11:26:52.096 [main] INFO  Dealership.POM - Account and Settings link is visible
+11:26:52.178 [main] INFO  Dealership.POM - Account and Settings link is clicked
+11:26:52.312 [main] INFO  Dealership.POM - SystemSettings link is visible
+11:26:52.428 [main] INFO  Dealership.POM - SystemSettings link is clicked
+11:26:58.918 [main] INFO  Dealership.POM - Tax management link is clicked
+11:27:01.143 [main] INFO  Dealership.POM - TaxHeader is visible
+11:27:11.321 [main] INFO  Dealership.POM - TaxRates link is visible
+11:27:11.415 [main] INFO  Dealership.POM - TaxRates link is clicked
+11:27:11.547 [main] INFO  Dealership.POM - AddNewPurchaseTaxRate link is visible
+11:27:11.654 [main] INFO  Dealership.POM - AddNewPurchaseTaxRate link is clicked
+11:27:15.384 [main] INFO  Dealership.POM - TaxName is visible
+11:27:15.651 [main] INFO  Dealership.POM - TaxName is filled
+11:27:15.698 [main] INFO  Dealership.POM - FormsLabel is visible
+11:27:15.946 [main] INFO  Dealership.POM - FormsLabel is filled
+11:27:16.011 [main] INFO  Dealership.POM - Rate is visible
+11:27:16.178 [main] INFO  Dealership.POM - Rate is filled
+11:27:16.219 [main] INFO  Dealership.POM - SaveButton is visible
+11:27:16.309 [main] INFO  Dealership.POM - SaveButton is clicked
+11:27:37.391 [main] INFO  Dealership.POM - TaxCodes link is visible
+11:27:37.565 [main] INFO  Dealership.POM - TaxCodes link is clicked
+11:27:37.695 [main] INFO  Dealership.POM - AddNewPurchaseTaxCode link is visible
+11:27:37.850 [main] INFO  Dealership.POM - AddNewPurchaseTaxCode link is clicked
+11:27:41.557 [main] INFO  Dealership.POM - TaxCodeName is visible
+11:27:42.044 [main] INFO  Dealership.POM - TaxCodeName is filled
+11:27:42.100 [main] INFO  Dealership.POM - FormsLabelCode is visible
+11:27:42.361 [main] INFO  Dealership.POM - FormsLabelCode is filled
+11:27:42.411 [main] INFO  Dealership.POM - ActiveToggle is visible
+11:27:42.492 [main] INFO  Dealership.POM - ActiveToggle is clicked
+11:27:42.544 [main] INFO  Dealership.POM - SaveButton is visible
+11:27:42.641 [main] INFO  Dealership.POM - SaveButton is clicked
+11:27:57.959 [main] INFO  Dealership.POM - NewTaxCode is visible
+11:27:58.026 [main] INFO  Dealership.POM - NewTaxCode is clicked
+11:41:12.249 [main] INFO  Dealership.POM - Running Test : Taxmanagement
+11:41:20.110 [main] INFO  Dealership.POM - Windows maximized
+11:41:22.107 [main] INFO  Dealership.POM - URL entered
+11:41:22.260 [main] INFO  Dealership.POM - Username field is visible
+11:41:22.747 [main] INFO  Dealership.POM - Password field is visible
+11:41:22.993 [main] INFO  Dealership.POM - Login Button is visible
+11:42:03.124 [main] INFO  Dealership.POM - Login Button is clicked
+11:42:23.445 [main] INFO  Dealership.POM - Account and Settings link is visible
+11:42:23.522 [main] INFO  Dealership.POM - Account and Settings link is clicked
+11:42:23.637 [main] INFO  Dealership.POM - SystemSettings link is visible
+11:42:23.748 [main] INFO  Dealership.POM - SystemSettings link is clicked
+11:42:32.368 [main] INFO  Dealership.POM - Tax management link is clicked
+11:42:34.761 [main] INFO  Dealership.POM - TaxHeader is visible
+11:42:44.887 [main] INFO  Dealership.POM - TaxRates link is visible
+11:42:44.998 [main] INFO  Dealership.POM - TaxRates link is clicked
+11:42:45.123 [main] INFO  Dealership.POM - AddNewSellingTaxRate link is visible
+11:42:45.204 [main] INFO  Dealership.POM - AddNewSellingTaxRate link is clicked
+11:42:48.932 [main] INFO  Dealership.POM - TaxName is visible
+11:42:49.133 [main] INFO  Dealership.POM - TaxName is filled
+11:42:49.183 [main] INFO  Dealership.POM - FormsLabel is visible
+11:42:49.403 [main] INFO  Dealership.POM - FormsLabel is filled
+11:42:49.460 [main] INFO  Dealership.POM - Rate is visible
+11:42:49.646 [main] INFO  Dealership.POM - Rate is filled
+11:42:49.692 [main] INFO  Dealership.POM - SaveButton is visible
+11:42:49.773 [main] INFO  Dealership.POM - SaveButton is clicked
+11:43:15.112 [main] INFO  Dealership.POM - sellingtaxrate_383 is added successfully
+11:43:27.399 [main] INFO  Dealership.POM - TaxCodes link is visible
+11:43:27.491 [main] INFO  Dealership.POM - TaxCodes link is clicked
+11:43:27.606 [main] INFO  Dealership.POM - AddNewSellingTaxCode link is visible
+11:43:27.711 [main] INFO  Dealership.POM - AddNewSellingTaxCode link is clicked
+11:43:31.428 [main] INFO  Dealership.POM - TaxCodeName is visible
+11:43:31.667 [main] INFO  Dealership.POM - TaxCodeName is filled
+11:43:31.723 [main] INFO  Dealership.POM - FormsLabelCode is visible
+11:43:31.994 [main] INFO  Dealership.POM - FormsLabelCode is filled
+11:43:32.069 [main] INFO  Dealership.POM - ActiveToggle is visible
+11:43:32.165 [main] INFO  Dealership.POM - ActiveToggle is clicked
+11:43:32.238 [main] INFO  Dealership.POM - SaveButton is visible
+11:43:32.334 [main] INFO  Dealership.POM - SaveButton is clicked
+11:43:48.241 [main] INFO  Dealership.POM - NewTaxCode is visible
+11:43:48.317 [main] INFO  Dealership.POM - NewTaxCode is clicked
+11:43:50.427 [main] INFO  Dealership.POM - AssignTaxRateButton is visible
+11:43:50.506 [main] INFO  Dealership.POM - AssignTaxRateButton is clicked
+11:44:03.497 [main] INFO  Dealership.POM - AssignedrateCheckbox is selected
+11:44:08.613 [main] INFO  Dealership.POM - Update button is clicked
+11:44:28.675 [main] INFO  Dealership.POM - Tax rate has been successfully assigned
+11:44:33.784 [main] INFO  Dealership.POM - Addnew button is displayed
+11:44:33.857 [main] INFO  Dealership.POM - Addnew button is clicked
+11:44:33.983 [main] INFO  Dealership.POM - Part button is displayed
+11:44:34.117 [main] INFO  Dealership.POM - Part button is clicked
+11:44:43.220 [main] INFO  Dealership.POM - Part creation window is opened
+11:44:43.377 [main] INFO  Dealership.POM - ApplicableTax is selected
+11:44:43.377 [main] INFO  Dealership.POM - Tax code is verified
+11:44:43.447 [main] INFO  Dealership.POM - Part Cancel Button  is displayed
+11:44:43.606 [main] INFO  Dealership.POM - Cancel button is clicked
+11:44:54.695 [main] INFO  Dealership.POM - TaxCodes link is visible
+11:44:54.805 [main] INFO  Dealership.POM - TaxCodes link is clicked
+11:44:55.643 [main] INFO  Dealership.POM - NewTaxCode is visible
+11:44:55.730 [main] INFO  Dealership.POM - NewTaxCode is clicked
+11:44:57.845 [main] INFO  Dealership.POM - Activetaxtoggle is clicked
+11:44:58.060 [main] INFO  Dealership.POM - Tax code is deactivated
+11:45:10.129 [main] INFO  Dealership.POM - NewTaxCode is visible
+11:45:10.210 [main] INFO  Dealership.POM - NewTaxCode is clicked
+11:45:12.302 [main] INFO  Dealership.POM - AssignTaxRateButton is visible
+11:45:12.398 [main] INFO  Dealership.POM - AssignTaxRateButton is clicked
+11:45:25.240 [main] INFO  Dealership.POM - AssignedrateCheckbox is deselected
+11:45:30.349 [main] INFO  Dealership.POM - Update button is clicked
+11:46:05.783 [main] INFO  Dealership.POM - taxcode is successfully removed
+11:46:27.561 [main] INFO  Dealership.POM - TaxRates link is visible
+11:46:27.671 [main] INFO  Dealership.POM - TaxRates link is clicked
+11:46:28.417 [main] INFO  Dealership.POM - EditTaxrate link is visible
+11:46:28.495 [main] INFO  Dealership.POM - EditTaxrate link is clicked
+11:46:34.158 [main] INFO  Dealership.POM - Editsavetaxrates link is visible
+11:46:34.228 [main] INFO  Dealership.POM - Editsavetaxrates link is clicked
+11:46:42.344 [main] INFO  Dealership.POM - Deletetaxrate link is visible
+11:46:42.412 [main] INFO  Dealership.POM - Deletetaxrate link is clicked
+11:46:58.287 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Taxmanagement
+15:36:27.627 [main] INFO  Dealership.POM - Running Test : Textmessagetemplates
+15:36:40.509 [main] INFO  Dealership.POM - Windows maximized
+15:36:42.481 [main] INFO  Dealership.POM - URL entered
+15:36:42.636 [main] INFO  Dealership.POM - Username field is visible
+15:36:42.980 [main] INFO  Dealership.POM - Password field is visible
+15:36:43.271 [main] INFO  Dealership.POM - Login Button is visible
+15:36:43.380 [main] INFO  Dealership.POM - Login Button is clicked
+15:37:22.297 [main] INFO  Dealership.POM - Account and Settings link is visible
+15:37:22.425 [main] INFO  Dealership.POM - Account and Settings link is clicked
+15:37:22.605 [main] INFO  Dealership.POM - SystemSettings link is visible
+15:37:22.778 [main] INFO  Dealership.POM - SystemSettings link is clicked
+15:37:28.303 [main] INFO  Dealership.POM - Text message templates link is clicked
+15:37:29.833 [main] INFO  Dealership.POM - TempletHeader link is visible
+15:37:30.106 [main] INFO  Dealership.POM - TempletHeader link is clicked
+15:37:51.206 [main] INFO  Dealership.POM - PlusIcon link is visible
+15:37:51.288 [main] INFO  Dealership.POM - PlusIcon link is clicked
+15:37:54.876 [main] INFO  Dealership.POM - TempletName is visible
+15:37:55.081 [main] INFO  Dealership.POM - TempletName is filled
+15:39:35.455 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Textmessagetemplates
+15:45:46.542 [main] INFO  Dealership.POM - Running Test : Textmessagetemplates
+15:45:54.108 [main] INFO  Dealership.POM - Windows maximized
+15:45:56.081 [main] INFO  Dealership.POM - URL entered
+15:45:56.212 [main] INFO  Dealership.POM - Username field is visible
+15:45:56.426 [main] INFO  Dealership.POM - Password field is visible
+15:45:56.615 [main] INFO  Dealership.POM - Login Button is visible
+15:45:56.816 [main] INFO  Dealership.POM - Login Button is clicked
+15:46:42.157 [main] INFO  Dealership.POM - Account and Settings link is visible
+15:46:42.272 [main] INFO  Dealership.POM - Account and Settings link is clicked
+15:46:42.447 [main] INFO  Dealership.POM - SystemSettings link is visible
+15:46:42.590 [main] INFO  Dealership.POM - SystemSettings link is clicked
+15:46:47.121 [main] INFO  Dealership.POM - Text message templates link is clicked
+15:46:48.648 [main] INFO  Dealership.POM - TempletHeader link is visible
+15:46:48.992 [main] INFO  Dealership.POM - TempletHeader link is clicked
+15:47:10.079 [main] INFO  Dealership.POM - PlusIcon link is visible
+15:47:10.139 [main] INFO  Dealership.POM - PlusIcon link is clicked
+15:47:13.898 [main] INFO  Dealership.POM - TempletName is visible
+15:47:14.030 [main] INFO  Dealership.POM - TempletName is filled
+15:47:14.114 [main] INFO  Dealership.POM - TemplateMsg is visible
+15:47:15.214 [main] INFO  Dealership.POM - TemplateMsg is filled
+15:47:15.293 [main] INFO  Dealership.POM - Savebutton is visible
+15:47:15.426 [main] INFO  Dealership.POM - Savebutton is clicked
+15:47:18.394 [main] INFO  Dealership.POM - New template is successfully created
+15:47:18.430 [main] INFO  Dealership.POM - GlobalSearchStrInput is visible
+15:47:18.771 [main] INFO  Dealership.POM - GlobalSearchStrInput is filled
+15:47:19.020 [main] INFO  Dealership.POM - email is entered in seachbox
+15:47:29.704 [main] INFO  Dealership.POM - Customer's profile is opened
+15:47:30.078 [main] INFO  Dealership.POM - SendAText button is clicked
+15:49:36.984 [main] INFO  Dealership.POM - Running Test : Textmessagetemplates
+15:49:44.839 [main] INFO  Dealership.POM - Windows maximized
+15:49:46.761 [main] INFO  Dealership.POM - URL entered
+15:49:46.922 [main] INFO  Dealership.POM - Username field is visible
+15:49:47.336 [main] INFO  Dealership.POM - Password field is visible
+15:49:47.588 [main] INFO  Dealership.POM - Login Button is visible
+15:49:47.995 [main] INFO  Dealership.POM - Login Button is clicked
+15:50:27.019 [main] INFO  Dealership.POM - Account and Settings link is visible
+15:50:27.200 [main] INFO  Dealership.POM - Account and Settings link is clicked
+15:50:27.387 [main] INFO  Dealership.POM - SystemSettings link is visible
+15:50:27.547 [main] INFO  Dealership.POM - SystemSettings link is clicked
+15:50:32.498 [main] INFO  Dealership.POM - Text message templates link is clicked
+15:50:34.075 [main] INFO  Dealership.POM - TempletHeader link is visible
+15:50:34.507 [main] INFO  Dealership.POM - TempletHeader link is clicked
+15:50:55.578 [main] INFO  Dealership.POM - PlusIcon link is visible
+15:50:55.645 [main] INFO  Dealership.POM - PlusIcon link is clicked
+15:50:58.851 [main] INFO  Dealership.POM - TempletName is visible
+15:50:59.012 [main] INFO  Dealership.POM - TempletName is filled
+15:50:59.086 [main] INFO  Dealership.POM - TemplateMsg is visible
+15:51:00.373 [main] INFO  Dealership.POM - TemplateMsg is filled
+15:51:00.427 [main] INFO  Dealership.POM - Savebutton is visible
+15:51:00.537 [main] INFO  Dealership.POM - Savebutton is clicked
+15:51:51.096 [main] INFO  Dealership.POM - Running Test : Textmessagetemplates
+15:51:58.295 [main] INFO  Dealership.POM - Windows maximized
+15:52:00.440 [main] INFO  Dealership.POM - URL entered
+15:52:00.565 [main] INFO  Dealership.POM - Username field is visible
+15:52:00.806 [main] INFO  Dealership.POM - Password field is visible
+15:52:01.043 [main] INFO  Dealership.POM - Login Button is visible
+15:52:38.721 [main] INFO  Dealership.POM - Login Button is clicked
+15:52:59.068 [main] INFO  Dealership.POM - Account and Settings link is visible
+15:52:59.155 [main] INFO  Dealership.POM - Account and Settings link is clicked
+15:52:59.252 [main] INFO  Dealership.POM - SystemSettings link is visible
+15:52:59.362 [main] INFO  Dealership.POM - SystemSettings link is clicked
+15:53:15.071 [main] INFO  Dealership.POM - Text message templates link is clicked
+15:53:21.713 [main] INFO  Dealership.POM - TempletHeader link is visible
+15:53:22.276 [main] INFO  Dealership.POM - TempletHeader link is clicked
+15:53:43.395 [main] INFO  Dealership.POM - PlusIcon link is visible
+15:53:43.469 [main] INFO  Dealership.POM - PlusIcon link is clicked
+15:53:49.088 [main] INFO  Dealership.POM - TempletName is visible
+15:53:49.221 [main] INFO  Dealership.POM - TempletName is filled
+15:53:49.297 [main] INFO  Dealership.POM - TemplateMsg is visible
+15:53:50.648 [main] INFO  Dealership.POM - TemplateMsg is filled
+15:53:50.714 [main] INFO  Dealership.POM - Savebutton is visible
+15:53:50.826 [main] INFO  Dealership.POM - Savebutton is clicked
+15:54:00.120 [main] INFO  Dealership.POM - New template is successfully created
+15:54:00.628 [main] INFO  Dealership.POM - email is entered in seachbox
+15:54:25.482 [main] INFO  Dealership.POM - Customer's profile is opened
+15:54:25.615 [main] INFO  Dealership.POM - SendAText button is clicked
+15:55:36.004 [main] INFO  Dealership.POM - SendAText button is clicked
+15:55:36.078 [main] INFO  Dealership.POM - The template is visible
+15:55:36.157 [main] INFO  Dealership.POM - The template is verified
+15:55:39.222 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Textmessagetemplates
+15:58:53.583 [main] INFO  Dealership.POM - Running Test : Textmessagetemplates
+15:59:00.665 [main] INFO  Dealership.POM - Windows maximized
+15:59:19.669 [main] INFO  Dealership.POM - URL entered
+15:59:19.786 [main] INFO  Dealership.POM - Username field is visible
+15:59:20.043 [main] INFO  Dealership.POM - Password field is visible
+15:59:20.328 [main] INFO  Dealership.POM - Login Button is visible
+16:00:33.324 [main] INFO  Dealership.POM - Login Button is clicked
+16:00:53.625 [main] INFO  Dealership.POM - Account and Settings link is visible
+16:00:53.727 [main] INFO  Dealership.POM - Account and Settings link is clicked
+16:00:53.854 [main] INFO  Dealership.POM - SystemSettings link is visible
+16:00:53.975 [main] INFO  Dealership.POM - SystemSettings link is clicked
+16:00:59.964 [main] INFO  Dealership.POM - Text message templates link is clicked
+16:01:01.709 [main] INFO  Dealership.POM - TempletHeader link is visible
+16:01:02.186 [main] INFO  Dealership.POM - TempletHeader link is clicked
+16:01:23.257 [main] INFO  Dealership.POM - PlusIcon link is visible
+16:01:23.318 [main] INFO  Dealership.POM - PlusIcon link is clicked
+16:01:26.871 [main] INFO  Dealership.POM - TempletName is visible
+16:01:27.016 [main] INFO  Dealership.POM - TempletName is filled
+16:01:27.085 [main] INFO  Dealership.POM - TemplateMsg is visible
+16:01:28.302 [main] INFO  Dealership.POM - TemplateMsg is filled
+16:01:28.375 [main] INFO  Dealership.POM - Savebutton is visible
+16:01:28.486 [main] INFO  Dealership.POM - Savebutton is clicked
+16:01:30.247 [main] INFO  Dealership.POM - New template is successfully created
+16:01:30.661 [main] INFO  Dealership.POM - email is entered in seachbox
+16:01:40.813 [main] INFO  Dealership.POM - Customer's profile is opened
+16:01:41.291 [main] INFO  Dealership.POM - SendAText button is clicked
+16:01:50.323 [main] INFO  Dealership.POM - SendAText button is clicked
+16:01:50.407 [main] INFO  Dealership.POM - The template is visible
+16:01:50.487 [main] INFO  Dealership.POM - The template is verified
+16:02:02.715 [main] INFO  Dealership.POM - DeleteTemplate button is visible
+16:02:02.776 [main] INFO  Dealership.POM - DeleteTemplate button is clicked
+16:02:07.791 [main] INFO  Dealership.POM - Template is removed successfully
+16:02:07.797 [main] INFO  Dealership.POM - Test case Textmessagetemplates passes successfully
+19:45:59.442 [main] INFO  Dealership.POM - Running Test : Unitpricingandoptions
+19:46:12.370 [main] INFO  Dealership.POM - Windows maximized
+19:46:14.617 [main] INFO  Dealership.POM - URL entered
+19:46:14.737 [main] INFO  Dealership.POM - Username field is visible
+19:46:15.041 [main] INFO  Dealership.POM - Password field is visible
+19:46:15.327 [main] INFO  Dealership.POM - Login Button is visible
+19:46:33.393 [main] INFO  Dealership.POM - Login Button is clicked
+19:46:53.993 [main] INFO  Dealership.POM - Account and Settings link is visible
+19:46:54.057 [main] INFO  Dealership.POM - Account and Settings link is clicked
+19:46:54.161 [main] INFO  Dealership.POM - SystemSettings link is visible
+19:46:54.232 [main] INFO  Dealership.POM - SystemSettings link is clicked
+19:46:58.340 [main] INFO  Dealership.POM - Text message templates link is clicked
+19:48:38.777 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Unitpricingandoptions
+19:50:46.452 [main] INFO  Dealership.POM - Running Test : Unitpricingandoptions
+19:50:55.079 [main] INFO  Dealership.POM - Windows maximized
+19:50:57.377 [main] INFO  Dealership.POM - URL entered
+19:50:57.530 [main] INFO  Dealership.POM - Username field is visible
+19:50:57.918 [main] INFO  Dealership.POM - Password field is visible
+19:50:58.493 [main] INFO  Dealership.POM - Login Button is visible
+19:50:58.589 [main] INFO  Dealership.POM - Login Button is clicked

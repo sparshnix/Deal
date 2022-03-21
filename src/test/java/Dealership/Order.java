@@ -62,6 +62,7 @@ public class Order extends POM {
 	
 	{		
 		WebDriverWait wt = new WebDriverWait(driver,100);
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(order)));
 		WebElement Order = driver.findElement(By.xpath(order));
 		Assert.assertTrue(Order.isDisplayed(), "Order link is missing");
 		log.info("Order link is visible");
@@ -75,9 +76,9 @@ public class Order extends POM {
 		UnitOrder.click();
 		//action Class is not required here for hovering 
 		log.info("UnitOrder link is clicked");
-		Thread.sleep(5000);		
 		
 		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(vendoroptions)));
+		Thread.sleep(20000);		
 		WebElement FirstVendor = driver.findElement(By.xpath(firstVendor));
 		Assert.assertTrue(FirstVendor.isDisplayed(), "FirstVendor link is missing");
 		log.info("FirstVendor link is visible");

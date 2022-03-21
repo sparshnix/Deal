@@ -92,12 +92,7 @@ public class POM extends Variables {
 		Assert.assertTrue(Password.isDisplayed(), "Password field is missing");
 		log.info("Password field is visible");
 		Password.sendKeys(password);
-		 
-		WebElement LoginButton =  driver.findElement(By.id("Login"));
-		Assert.assertTrue(LoginButton.isDisplayed(), "Login Button is missing");
-		log.info("Login Button is visible");
-		LoginButton.sendKeys(Keys.RETURN);
-		log.info("Login Button is clicked");
+		Password.sendKeys(Keys.RETURN);
 		Thread.sleep(15000);
 		
 		WebDriverWait wt = new WebDriverWait(driver, 100);
@@ -106,6 +101,25 @@ public class POM extends Variables {
 		JavascriptExecutor ex = (JavascriptExecutor) driver;
 		ex.executeScript("arguments[0].click();", Closebutton);
 		Thread.sleep(5000);
+	}
+	
+	public static void Logout() throws Exception
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
+		WebElement ACandSet2 = driver.findElement(By.xpath(acandset));
+		Assert.assertTrue(ACandSet2.isDisplayed(), "Account and Settings link is missing");
+		log.info("Account and Settings link is visible");
+		ACandSet2.click();
+		log.info("Account and Settings link is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Logout')]")));
+		WebElement Logout = driver.findElement(By.xpath("//span[contains(text(),'Logout')]"));
+		Assert.assertTrue(Logout.isDisplayed(), "Logout link is missing");
+		log.info("Logout link is visible");
+		Logout.click();
+		log.info("Logout link is clicked");
+		Thread.sleep(10000);
 	}
 	
 	public static void SelectCustomer() throws Exception
