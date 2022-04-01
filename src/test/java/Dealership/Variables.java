@@ -102,7 +102,9 @@ public class Variables {
 	assignedRate, assignedrateCheckbox, rateinclude, taxinfo, activetaxtoggle, taxcodesavebtn,
 	taxcodedeletebtn, editTaxrate, editsavetaxrates, deletetaxrate, purchasetaxratelist, 
 	purchasetaxcodelist, templetHeader, plusicon, templateMsg, templateList, templatename,
-	deleteTemplate
+	deleteTemplate, unitpricingheader, makeheader, userpermissionheader, assigncolor,
+	newgroupname, adminUser, userslist, adminusername, adminpassword, firstgroup, plusicon2,
+	sorticon, deleteicon
 	
 	
 	

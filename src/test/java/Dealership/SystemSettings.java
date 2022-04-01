@@ -3929,5 +3929,534 @@ public class SystemSettings extends POM	{
 	
 	}
 
+	@Test(priority = 65)
+	public static void Unitpricingandoptions() throws Exception
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
+		WebElement ACandSet = driver.findElement(By.xpath(acandset));
+		Assert.assertTrue(ACandSet.isDisplayed(), "Account and Settings link is missing");
+		log.info("Account and Settings link is visible");
+		ACandSet.click();
+		log.info("Account and Settings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'System settings')]")));
+		WebElement SystemSettings = driver.findElement(By.xpath("//span[contains(text(),'System settings')]"));
+		Assert.assertTrue(SystemSettings.isDisplayed(), "SystemSettings link is missing");
+		log.info("SystemSettings link is visible");
+		SystemSettings.click();
+		log.info("SystemSettings link is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(settingsTiles)));
+		
+		List<WebElement> SettingsTiles = driver.findElements(By.xpath(settingsTiles));
+		for(WebElement Tile : SettingsTiles)
+			if(Tile.getText().contains("Unit pricing and options"))
+			{
+				Tile.click();
+				log.info("Unit pricing and options link is clicked");
+				break;
+			}
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(unitpricingheader)));
+		WebElement Unitpricingheader = driver.findElement(By.xpath(unitpricingheader));
+		Assert.assertTrue(Unitpricingheader.isDisplayed(), "Unitpricingheader link is missing");
+		log.info("Unitpricingheader link is " +Unitpricingheader.getText());
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'Auto_Make')]")));
+		Thread.sleep(5000);
+		WebElement Auto_Make = driver.findElement(By.xpath("//div[contains(text(),'Auto_Make')]"));
+		Assert.assertTrue(Auto_Make.isDisplayed(), "Auto_Make link is missing");
+		log.info("Auto_Make link is visible");
+		Auto_Make.click();
+		log.info("Auto_Make link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(makeheader)));
+		WebElement Makeheader = driver.findElement(By.xpath(makeheader));
+		Assert.assertTrue(Makeheader.isDisplayed(), "Makeheader link is missing");
+		log.info("Makeheader link is " +Makeheader.getText());
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//input[@placeholder='Code'])[1]")));
+		Thread.sleep(5000);
+		WebElement Codefield = driver.findElement(By.xpath("(//input[@placeholder='Code'])[1]"));
+		Assert.assertTrue(Codefield.isDisplayed(), "Codefield is missing");
+		log.info("Codefield is visible");
+		Codefield.sendKeys(random.nextInt(10000)+"");
+		log.info("Codefield is filled");
+		
+		
+		WebElement Descriptionfield = driver.findElement(By.xpath("(//input[@placeholder='Description'])[1]"));
+		Assert.assertTrue(Descriptionfield.isDisplayed(), "Descriptionfield is missing");
+		log.info("Descriptionfield is visible");
+		Descriptionfield.sendKeys(random.nextInt(10000)+"");
+		log.info("Descriptionfield is filled");
+		
+		
+		WebElement Auto_Model = driver.findElement(By.xpath("//div[contains(text(),'Auto_Model')]"));
+		Assert.assertTrue(Auto_Model.isDisplayed(), "Auto_Model is missing");
+		log.info("Auto_Model is visible");
+		Auto_Model.click();
+		log.info("Auto_Model is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Auto_SubModel')]")));
+		Thread.sleep(5000);
+		WebElement Auto_SubModel = driver.findElement(By.xpath("//a[contains(text(),'Auto_SubModel')]"));
+		Assert.assertTrue(Auto_SubModel.isDisplayed(), "Auto_SubModel is missing");
+		log.info("Auto_SubModel is visible");
+		Auto_SubModel.click();
+		log.info("Auto_SubModel is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("Price_1")));
+		Thread.sleep(5000);
+		WebElement Baseunitprice = driver.findElement(By.id("Price_1"));
+		Assert.assertTrue(Baseunitprice.isDisplayed(), "Baseunitprice is missing");
+		log.info("Baseunitprice is visible");
+		Baseunitprice.sendKeys(Keys.chord(Keys.CONTROL, "a"), "300");
+		log.info("Baseunitprice is filled");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("UnitCost_1")));
+		WebElement CostPrice = driver.findElement(By.id("UnitCost_1"));
+		Assert.assertTrue(CostPrice.isDisplayed(), "CostPrice is missing");
+		log.info("CostPrice is visible");
+		CostPrice.sendKeys(Keys.chord(Keys.CONTROL, "a"), "200");
+		log.info("CostPrice is filled");
+		
+		
+		WebElement Auto_SubModel2 = driver.findElement(By.xpath("//a[contains(text(),'Auto_SubModel')]"));
+		Assert.assertTrue(Auto_SubModel2.isDisplayed(), "Auto_SubModel is missing");
+		log.info("Auto_SubModel is visible");
+		Auto_SubModel2.click();
+		log.info("Auto_SubModel is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(order)));
+		WebElement Order = driver.findElement(By.xpath(order));
+		Assert.assertTrue(Order.isDisplayed(), "Order link is missing");
+		log.info("Order link is visible");
+		Order.click();
+		log.info("Order link is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(orderoptions)));
+		WebElement UnitOrder = driver.findElement(By.xpath(unitorder));
+		Assert.assertTrue(UnitOrder.isDisplayed(), "UnitOrder link is missing");
+		log.info("UnitOrder link is visible");
+		UnitOrder.click();
+		//action Class is not required here for hovering 
+		log.info("UnitOrder link is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(vendoroptions)));
+		Thread.sleep(20000);
+		WebElement FirstVendor = driver.findElement(By.xpath(firstVendor));
+		Assert.assertTrue(FirstVendor.isDisplayed(), "FirstVendor link is missing");
+		log.info("FirstVendor link is visible");
+		FirstVendor.click();
+		
+		Thread.sleep(5000);		
+		WebElement OrderunitButton  = driver.findElement(By.xpath(orderunitButton));
+		Assert.assertTrue(OrderunitButton.isDisplayed(), "Orderunit Button is missing");
+		log.info("Orderunit Button is visible");
+		OrderunitButton.click();
+		log.info("Orderunit Button is clicked");
+
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("MakeUnitOrdering")));
+		WebElement MakeUnitOrdering  = driver.findElement(By.id("MakeUnitOrdering"));
+		Assert.assertTrue(MakeUnitOrdering.isDisplayed(), "MakeField is missing");
+		log.info("MakeField is visible");
+		MakeUnitOrdering.sendKeys("Auto");
+		Thread.sleep(4000);		
+
+		WebElement MakeFieldDropdown  = driver.findElement(By.id("make0"));
+		Assert.assertTrue(MakeFieldDropdown.isDisplayed(), "MakeFieldDropdown is missing");
+		log.info("MakeFieldDropdown is visible");
+		MakeFieldDropdown.click();
+		log.info("MakeField is filled");
+		
+		
+		WebElement ModelUnitOrdering  = driver.findElement(By.id("ModelUnitOrdering"));
+		Assert.assertTrue(ModelUnitOrdering.isDisplayed(), "Model Field is missing");
+		log.info("Model Field is visible");
+		ModelUnitOrdering.sendKeys("Auto");
+		Thread.sleep(4000);		
+
+		WebElement ModelFieldDropdown  = driver.findElement(By.id("model0"));
+		Assert.assertTrue(ModelFieldDropdown.isDisplayed(), "ModelFieldDropdown is missing");
+		log.info("ModelFieldDropdown is visible");
+		ModelFieldDropdown.click();
+		log.info("ModelField is filled");
+		
+		
+		WebElement SubModelUnitOrdering  = driver.findElement(By.id("SubModelUnitOrdering"));
+		Assert.assertTrue(SubModelUnitOrdering.isDisplayed(), "SubModel Field is missing");
+		log.info("SubModel Field is visible");
+		SubModelUnitOrdering.sendKeys("Auto");
+		Thread.sleep(4000);		
+
+		WebElement SubModelFieldDropdown  = driver.findElement(By.id("subModel0"));
+		Assert.assertTrue(SubModelFieldDropdown.isDisplayed(), "SubModelFieldDropdown is missing");
+		log.info("SubModelFieldDropdown is visible");
+		SubModelFieldDropdown.click();
+		log.info("SubModelField is filled");	 
+		
+		WebElement YearUnitOrdering  = driver.findElement(By.id("YearUnitOrdering"));
+		Assert.assertTrue(YearUnitOrdering.isDisplayed(), "YearUnitOrdering Field is missing");
+		log.info("YearUnitOrdering Field is visible");
+		YearUnitOrdering.click();
+		WebElement YearDropdown  = driver.findElement(By.xpath(yearDropdown));
+		Assert.assertTrue(YearDropdown.isDisplayed(), "YearDropdown is missing");
+		log.info("YearDropdown is visible");
+		YearDropdown.click();
+		log.info("Year is selected");
+			
+		
+		WebElement ConditionUnitOrdering  = driver.findElement(By.id("ConditionUnitOrdering"));
+		Assert.assertTrue(ConditionUnitOrdering.isDisplayed(), "ConditionUnitOrdering field is missing");
+		log.info("ConditionUnitOrdering Field is visible");
+		ConditionUnitOrdering.click();
+		WebElement ConditionDropdown  = driver.findElement(By.xpath(conditionDropdown));
+		Assert.assertTrue(ConditionDropdown.isDisplayed(), "ConditionDropdown is missing");
+		log.info("ConditionDropdown is visible");
+		ConditionDropdown.click();
+		log.info("Condition is selected");
+			
+		
+		WebElement Colorfiled  = driver.findElement(By.xpath(colorfield));
+		Assert.assertTrue(Colorfiled.isDisplayed(), "Colorfiled is missing");
+		log.info("Colorfiled is visible");
+		Colorfiled.sendKeys("Teal");
+		log.info("Colorfiled is selected");
+
+		
+		WebElement Factoryfiled  = driver.findElement(By.xpath(factoryfield));
+		Assert.assertTrue(Factoryfiled.isDisplayed(), "Factoryfiled is missing");
+		log.info("Factoryfiled is visible");
+		int num = random.nextInt(10000);
+		Factoryfiled.sendKeys(num + "");
+		log.info("Factoryfiled is filled");
+		
+				
+		WebElement StockNumber  = driver.findElement(By.xpath(stockNumber));
+		Assert.assertTrue(StockNumber.isDisplayed(), "StockNumber is missing");
+		log.info("StockNumber is visible");
+		StockNumber.sendKeys(num + "");
+		log.info("StockNumber is filled");
+		
+		
+		WebElement CategoryUnitOrdering  = driver.findElement(By.id("CategoryUnitOrdering"));
+		Assert.assertTrue(CategoryUnitOrdering.isDisplayed(), "CategoryUnitOrdering field is missing");
+		log.info("CategoryUnitOrdering Field is visible");
+		CategoryUnitOrdering.click();
+		WebElement CategoryDropdown  = driver.findElement(By.id("category0"));
+		Assert.assertTrue(CategoryDropdown.isDisplayed(), "CategoryDropdown is missing");
+		log.info("CategoryDropdown is visible");
+		CategoryDropdown.click();
+		log.info("CategoryDropdown is selected");
+		
+		JavascriptExecutor ex1 = (JavascriptExecutor) driver;
+		ex1.executeScript("window.scrollBy(0,200)", "");
+		Thread.sleep(5000);
+		
+//		OrderedDateUnitOrdering		
+		WebElement OrderedDateUnitOrdering  = driver.findElement(By.id("OrderedDateUnitOrdering"));
+		Assert.assertTrue(OrderedDateUnitOrdering.isDisplayed(), "OrderedDateUnitOrdering field is missing");
+		log.info("OrderedDateUnitOrdering Field is visible");
+		OrderedDateUnitOrdering.click();
+		Thread.sleep(2000);
+		
+		WebElement OrderDate = driver.findElement(By.xpath("//a[contains(text(),"+Todaysdate+")]"));
+		Assert.assertTrue(OrderDate.isDisplayed(), "OrderDate is missing");
+		log.info("OrderDate is visible");
+		OrderDate.click();
+		log.info("OrderDate is selected");
+
+		
+//		ExpectedDateUnitOrdering
+		WebElement ExpectedDateUnitOrdering  = driver.findElement(By.id("ExpectedDateUnitOrdering"));
+		Assert.assertTrue(ExpectedDateUnitOrdering.isDisplayed(), "ExpectedDateUnitOrdering field is missing");
+		log.info("ExpectedDateUnitOrdering Field is visible");
+		ExpectedDateUnitOrdering.click();
+		Thread.sleep(2000);
+
+		WebElement ExpectDate = driver.findElement(By.xpath("//a[contains(text(),"+Todaysdate+")]"));
+		Assert.assertTrue(ExpectDate.isDisplayed(), "ExpectDate is missing");
+		log.info("ExpectDate is visible");
+		ExpectDate.click();
+		log.info("ExpectDate is selected");
+
+		JavascriptExecutor ex2 = (JavascriptExecutor) driver;
+		ex2.executeScript("window.scrollBy(0,300)", "");
+		Thread.sleep(5000);
+		
+		WebElement AddPricing  = driver.findElement(By.xpath(addPricing));
+		Assert.assertTrue(AddPricing.isDisplayed(), "AddPricing button is missing");
+		log.info("AddPricing button is visible");
+		AddPricing.click();
+		log.info("AddPricing button is clicked");
+		Thread.sleep(10000);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tr/td")));
+
+		
+		WebElement TotalPrice  = driver.findElement(By.xpath("//td/span[contains(text(),'300')]"));
+		Assert.assertTrue(TotalPrice.getText().contains("300"), "TotalPrice is missing");
+		log.info("TotalPrice is successfully verified");
+		
+		WebElement TotalCost  = driver.findElement(By.xpath("//td/span[contains(text(),'200')]"));
+		Assert.assertTrue(TotalCost.getText().contains("200"), "TotalCost is missing");
+		log.info("TotalCost is successfully verified");
+				
+		
+	}
+
+	@Test(priority = 66)
+	public static void Userpermissions() throws Exception
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
+		WebElement ACandSet = driver.findElement(By.xpath(acandset));
+		Assert.assertTrue(ACandSet.isDisplayed(), "Account and Settings link is missing");
+		log.info("Account and Settings link is visible");
+		ACandSet.click();
+		log.info("Account and Settings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'System settings')]")));
+		WebElement SystemSettings = driver.findElement(By.xpath("//span[contains(text(),'System settings')]"));
+		Assert.assertTrue(SystemSettings.isDisplayed(), "SystemSettings link is missing");
+		log.info("SystemSettings link is visible");
+		SystemSettings.click();
+		log.info("SystemSettings link is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(settingsTiles)));
+		
+		List<WebElement> SettingsTiles = driver.findElements(By.xpath(settingsTiles));
+		for(WebElement Tile : SettingsTiles)
+			if(Tile.getText().contains("User permissions"))
+			{
+				Tile.click();
+				log.info("User permissions link is clicked");
+				break;
+			}
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(userpermissionheader)));
+		WebElement Userpermissionheader = driver.findElement(By.xpath(userpermissionheader));
+		Assert.assertTrue(Userpermissionheader.isDisplayed(), "Userpermissionheader is missing");
+		log.info("Userpermissionheader is " +Userpermissionheader);
+
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Create new group')]")));
+		Thread.sleep(5000);
+		WebElement CreateButton = driver.findElement(By.xpath("//button[contains(text(),'Create new group')]"));
+		Assert.assertTrue(CreateButton.isDisplayed(), "CreateButton is missing");
+		log.info("CreateButton is visible");
+		CreateButton.click();
+		log.info("CreateButton is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("GroupNameInput")));
+		Thread.sleep(5000);
+		WebElement GroupNameInput = driver.findElement(By.id("GroupNameInput"));
+		Assert.assertTrue(GroupNameInput.isDisplayed(), "GroupNameInput is missing");
+		log.info("GroupNameInput is visible");
+		GroupNameInput.sendKeys("Automation group");
+		log.info("GroupName is entered");
+		
+		
+		WebElement Assigncolor = driver.findElement(By.xpath(assigncolor));
+		Assert.assertTrue(Assigncolor.isDisplayed(), "Assigncolor is missing");
+		log.info("Assigncolor is visible");
+		Assigncolor.click();
+		log.info("Color is assigned");
+		
+		WebElement CreateButton2 = driver.findElement(By.xpath("(//button[contains(text(), 'Create')])[2]"));
+		Assert.assertTrue(CreateButton2.isDisplayed(), "CreateButton is missing");
+		log.info("CreateButton is visible");
+		CreateButton2.click();
+		log.info("group is created");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(newgroupname)));
+		Thread.sleep(5000);
+		WebElement Newgroupname = driver.findElement(By.xpath(newgroupname));
+		Assert.assertTrue(Newgroupname.getText().contains("Automation group"), "Newgroupname is missing");
+		log.info("Newgroupname is "+Newgroupname.getText());
+		log.info("Newgroupname is veriied");
+		
+		
+		WebElement MembersLink = driver.findElement(By.xpath("//a[contains(text(),'Members')]"));
+		Assert.assertTrue(MembersLink.isDisplayed(), "MembersLink is missing");
+		log.info("MembersLink is visible");
+		MembersLink.click();
+		log.info("MembersLink is veriied");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//button[contains(text(),'Assign members')]")));
+		Thread.sleep(5000);
+		WebElement AssignMembers = driver.findElement(By.xpath("//button[contains(text(),'Assign members')]"));
+		Assert.assertTrue(AssignMembers.isDisplayed(), "AssignMembers button is missing");
+		log.info("AssignMembers button is visible");
+		AssignMembers.click();
+		log.info("AssignMembers button is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[contains(text(),'Assign users to')]")));
+		Thread.sleep(5000);
+		WebElement SearchUserField = driver.findElement(By.xpath("//input[@placeholder = 'Search users']"));
+		Assert.assertTrue(SearchUserField.isDisplayed(), "SearchUserField is missing");
+		log.info("SearchUserField is visible");
+		SearchUserField.sendKeys(adminUser);
+
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(userslist))).click();
+		driver.findElement(By.xpath("//button[contains(text(),'Assign to')]")).click();
+		log.info("Assign button is clicked");
+		Thread.sleep(5000);
+		
+		//div[contains(text(),"+adminUser+")]
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),"+"'"+adminUser+"'"+")]")));
+		log.info("User is assigned to group");
+		
+		Logout();
+		
+		WebElement Username = driver.findElement(By.id("username"));
+		Assert.assertTrue(Username.isDisplayed(), "Username field is missing");
+		log.info("Username field is visible");
+		Username.sendKeys(adminusername);
+		
+		WebElement Password = driver.findElement(By.id("password"));
+		Assert.assertTrue(Password.isDisplayed(), "Password field is missing");
+		log.info("Password field is visible");
+		Password.sendKeys(adminpassword);
+		Password.sendKeys(Keys.RETURN);
+		Thread.sleep(15000);
+
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//a[contains(text(),'Schedule')]")));
+		Thread.sleep(5000);
+		WebElement DisableScheduleLink = driver.findElement(By.xpath("(//a[@class='disabld-nav-bar-action'])[contains(text(),'Schedule')]"));
+		Assert.assertTrue(DisableScheduleLink.isDisplayed(), "Disable Schedule Link is missing");
+		log.info("Schedule Link is not clickable");
+		
+		Logout();
+		
+		WebElement Username2 = driver.findElement(By.id("username"));
+		Assert.assertTrue(Username2.isDisplayed(), "Username field is missing");
+		log.info("Username field is visible");
+		Username2.sendKeys(username);
+		
+		WebElement Password2 = driver.findElement(By.id("password"));
+		Assert.assertTrue(Password2.isDisplayed(), "Password field is missing");
+		log.info("Password field is visible");
+		Password2.sendKeys(password);
+		Password2.sendKeys(Keys.RETURN);
+		Thread.sleep(15000);
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(acandset)));
+		WebElement ACandSet2 = driver.findElement(By.xpath(acandset));
+		Assert.assertTrue(ACandSet2.isDisplayed(), "Account and Settings link is missing");
+		log.info("Account and Settings link is visible");
+		ACandSet2.click();
+		log.info("Account and Settings link is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'System settings')]")));
+		WebElement SystemSettings2 = driver.findElement(By.xpath("//span[contains(text(),'System settings')]"));
+		Assert.assertTrue(SystemSettings2.isDisplayed(), "SystemSettings link is missing");
+		log.info("SystemSettings link is visible");
+		SystemSettings2.click();
+		log.info("SystemSettings link is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(settingsTiles)));
+		
+		List<WebElement> SettingsTiles2 = driver.findElements(By.xpath(settingsTiles));
+		for(WebElement Tile : SettingsTiles2)
+			if(Tile.getText().contains("User permissions"))
+			{
+				Tile.click();
+				log.info("User permissions link is clicked");
+				break;
+			}
+
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(firstgroup)));
+		Thread.sleep(5000);
+		WebElement Firstgroup = driver.findElement(By.xpath(firstgroup));
+		Assert.assertTrue(Firstgroup.isDisplayed(), "Firstgroup is missing");
+		log.info("Firstgroupn is visible");
+		Firstgroup.click();
+		log.info("Firstgroup is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(), 'View')]")));
+		WebElement ViewAndEdit = driver.findElement(By.xpath("//button[contains(text(), 'View')]"));
+		Assert.assertTrue(ViewAndEdit.isDisplayed(), "ViewAndEdit button is missing");
+		log.info("ViewAndEdit button is visible");
+		ViewAndEdit.click();
+		log.info("ViewAndEdit button is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Members')]")));
+		WebElement Members = driver.findElement(By.xpath("//a[contains(text(),'Members')]"));
+		Assert.assertTrue(Members.isDisplayed(), "Members button is missing");
+		log.info("Members button is visible");
+		Members.click();
+		log.info("Members button is clicked");
+		
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(plusicon2)));
+		WebElement PlusIcon = driver.findElement(By.xpath(plusicon2));
+		Assert.assertTrue(PlusIcon.isDisplayed(), "PlusIcon is missing");
+		log.info("PlusIcon is visible");
+		PlusIcon.click();
+		log.info("PlusIcon is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[contains(text(),'Assign users to')]")));
+		Thread.sleep(5000);
+		WebElement SearchUserField2 = driver.findElement(By.xpath("//input[@placeholder = 'Search users']"));
+		Assert.assertTrue(SearchUserField2.isDisplayed(), "SearchUserField is missing");
+		log.info("SearchUserField is visible");
+		SearchUserField2.sendKeys(adminUser);
+
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(userslist))).click();
+		driver.findElement(By.xpath("//button[contains(text(),'Assign to')]")).click();
+		log.info("Assign button is clicked");
+		Thread.sleep(5000);
+		
+		//div[contains(text(),"+adminUser+")]
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),"+"'"+adminUser+"'"+")]")));
+		log.info("User is assigned to group");
+		
+		
+		WebElement BackLink = driver.findElement(By.xpath("//a[contains(text(),'Back')]"));
+		Assert.assertTrue(BackLink.isDisplayed(), "BackLink is missing");
+		log.info("BackLink is visible");
+		BackLink.click();
+		log.info("BackLink is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(sorticon)));
+		Thread.sleep(5000);
+		WebElement SortIcon = driver.findElement(By.xpath(sorticon));
+		Assert.assertTrue(SortIcon.isDisplayed(), "SortIcon is missing");
+		log.info("SortIcon is visible");
+		SortIcon.click();
+		log.info("SortIcon is clicked");
+		
+		WebElement Firstgroup2 = driver.findElement(By.xpath(firstgroup));
+		Assert.assertTrue(Firstgroup2.isDisplayed(), "Firstgroup is missing");
+		log.info("Firstgroup is visible");
+		Firstgroup2.click();
+		log.info("Firstgroup is clicked");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(deleteicon)));
+		Thread.sleep(5000);
+		WebElement Deleteicon = driver.findElement(By.xpath(deleteicon));
+		Assert.assertTrue(Deleteicon.isDisplayed(), "Deleteicon is missing");
+		log.info("Deleteicon is visible");
+		Deleteicon.click();
+		log.info("Deleteicon is clicked");
+		
+		
+	}
+	
+	
 
 }
