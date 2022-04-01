@@ -504,8 +504,8 @@ public class Property extends Variables {
 		deleteicon					=	locators.getProperty("deleteicon");
 		
 		
-		
-		
+		//Tax Calculation
+		checkoutTotal				=	locators.getProperty("checkoutTotal");
 		
 		
 		

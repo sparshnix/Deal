@@ -104,7 +104,10 @@ public class Variables {
 	purchasetaxcodelist, templetHeader, plusicon, templateMsg, templateList, templatename,
 	deleteTemplate, unitpricingheader, makeheader, userpermissionheader, assigncolor,
 	newgroupname, adminUser, userslist, adminusername, adminpassword, firstgroup, plusicon2,
-	sorticon, deleteicon
+	sorticon, deleteicon,
+	
+	//Tax Calculation
+	checkoutTotal
 	
 	
 	

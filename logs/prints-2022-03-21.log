@@ -1,676 +1,586 @@
-19:51:32.160 [main] INFO  Dealership.POM - Account and Settings link is visible
-19:51:32.267 [main] INFO  Dealership.POM - Account and Settings link is clicked
-19:51:32.367 [main] INFO  Dealership.POM - SystemSettings link is visible
-19:51:32.496 [main] INFO  Dealership.POM - SystemSettings link is clicked
-19:52:39.874 [main] INFO  Dealership.POM - Running Test : Unitpricingandoptions
-19:52:47.606 [main] INFO  Dealership.POM - Windows maximized
-19:52:50.227 [main] INFO  Dealership.POM - URL entered
-19:52:50.348 [main] INFO  Dealership.POM - Username field is visible
-19:52:50.690 [main] INFO  Dealership.POM - Password field is visible
-19:52:50.862 [main] INFO  Dealership.POM - Login Button is visible
-19:53:09.095 [main] INFO  Dealership.POM - Login Button is clicked
-19:53:29.419 [main] INFO  Dealership.POM - Account and Settings link is visible
-19:53:29.485 [main] INFO  Dealership.POM - Account and Settings link is clicked
-19:53:29.571 [main] INFO  Dealership.POM - SystemSettings link is visible
-19:53:29.642 [main] INFO  Dealership.POM - SystemSettings link is clicked
-19:53:33.079 [main] INFO  Dealership.POM - Unit pricing and options link is clicked
-19:53:34.659 [main] INFO  Dealership.POM - Unitpricingheader link is Unit pricing & options
-19:53:40.265 [main] INFO  Dealership.POM - Auto_Make link is visible
-19:53:40.331 [main] INFO  Dealership.POM - Auto_Make link is clicked
-19:53:40.434 [main] INFO  Dealership.POM - Makeheader link is Unit pricing & options
-19:53:46.888 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Unitpricingandoptions
-21:14:00.250 [main] INFO  Dealership.POM - Running Test : Unitpricingandoptions
-21:14:12.307 [main] INFO  Dealership.POM - Windows maximized
-21:14:14.400 [main] INFO  Dealership.POM - URL entered
-21:14:14.536 [main] INFO  Dealership.POM - Username field is visible
-21:14:14.888 [main] INFO  Dealership.POM - Password field is visible
-21:14:15.135 [main] INFO  Dealership.POM - Login Button is visible
-21:14:51.316 [main] INFO  Dealership.POM - Login Button is clicked
-21:15:11.688 [main] INFO  Dealership.POM - Account and Settings link is visible
-21:15:11.754 [main] INFO  Dealership.POM - Account and Settings link is clicked
-21:15:11.845 [main] INFO  Dealership.POM - SystemSettings link is visible
-21:15:11.935 [main] INFO  Dealership.POM - SystemSettings link is clicked
-21:15:17.699 [main] INFO  Dealership.POM - Unit pricing and options link is clicked
-21:15:19.586 [main] INFO  Dealership.POM - Unitpricingheader link is Unit pricing & options
-21:15:25.203 [main] INFO  Dealership.POM - Auto_Make link is visible
-21:15:25.264 [main] INFO  Dealership.POM - Auto_Make link is clicked
-21:15:25.359 [main] INFO  Dealership.POM - Makeheader link is Unit pricing & options
-21:15:31.539 [main] INFO  Dealership.POM - Codefield is visible
-21:15:31.644 [main] INFO  Dealership.POM - Codefield is filled
-21:15:31.683 [main] INFO  Dealership.POM - Descriptionfield is visible
-21:15:31.826 [main] INFO  Dealership.POM - Descriptionfield is filled
-21:15:31.877 [main] INFO  Dealership.POM - Auto_Model is visible
-21:15:31.953 [main] INFO  Dealership.POM - Auto_Model is clicked
-21:15:38.126 [main] INFO  Dealership.POM - Auto_SubModel is visible
-21:15:38.192 [main] INFO  Dealership.POM - Auto_SubModel is clicked
-21:15:45.424 [main] INFO  Dealership.POM - Baseunitprice is visible
-21:15:45.522 [main] INFO  Dealership.POM - Baseunitprice is filled
-21:15:45.589 [main] INFO  Dealership.POM - CostPrice is visible
-21:15:45.711 [main] INFO  Dealership.POM - CostPrice is filled
-21:15:45.747 [main] INFO  Dealership.POM - Auto_SubModel is visible
-21:15:45.813 [main] INFO  Dealership.POM - Auto_SubModel is clicked
-21:15:45.921 [main] INFO  Dealership.POM - Order link is visible
-21:15:45.974 [main] INFO  Dealership.POM - Order link is clicked
-21:15:46.168 [main] INFO  Dealership.POM - UnitOrder link is visible
-21:15:46.247 [main] INFO  Dealership.POM - UnitOrder link is clicked
-21:15:51.486 [main] INFO  Dealership.POM - FirstVendor link is visible
-21:15:52.839 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Unitpricingandoptions
-21:21:05.694 [main] INFO  Dealership.POM - Running Test : Unitpricingandoptions
-21:21:14.412 [main] INFO  Dealership.POM - Windows maximized
-21:21:16.196 [main] INFO  Dealership.POM - URL entered
-21:21:16.386 [main] INFO  Dealership.POM - Username field is visible
-21:21:17.079 [main] INFO  Dealership.POM - Password field is visible
-21:21:18.116 [main] INFO  Dealership.POM - Login Button is visible
-21:21:51.126 [main] INFO  Dealership.POM - Login Button is clicked
-21:22:11.458 [main] INFO  Dealership.POM - Account and Settings link is visible
-21:22:11.529 [main] INFO  Dealership.POM - Account and Settings link is clicked
-21:22:11.609 [main] INFO  Dealership.POM - SystemSettings link is visible
-21:22:11.716 [main] INFO  Dealership.POM - SystemSettings link is clicked
-21:22:16.514 [main] INFO  Dealership.POM - Unit pricing and options link is clicked
-21:22:18.015 [main] INFO  Dealership.POM - Unitpricingheader link is Unit pricing & options
-21:22:23.624 [main] INFO  Dealership.POM - Auto_Make link is visible
-21:22:23.683 [main] INFO  Dealership.POM - Auto_Make link is clicked
-21:22:23.767 [main] INFO  Dealership.POM - Makeheader link is Unit pricing & options
-21:22:31.559 [main] INFO  Dealership.POM - Codefield is visible
-21:22:31.657 [main] INFO  Dealership.POM - Codefield is filled
-21:22:31.695 [main] INFO  Dealership.POM - Descriptionfield is visible
-21:22:31.792 [main] INFO  Dealership.POM - Descriptionfield is filled
-21:22:31.838 [main] INFO  Dealership.POM - Auto_Model is visible
-21:22:31.902 [main] INFO  Dealership.POM - Auto_Model is clicked
-21:22:37.526 [main] INFO  Dealership.POM - Auto_SubModel is visible
-21:22:37.580 [main] INFO  Dealership.POM - Auto_SubModel is clicked
-21:22:44.837 [main] INFO  Dealership.POM - Baseunitprice is visible
-21:22:44.958 [main] INFO  Dealership.POM - Baseunitprice is filled
-21:22:45.026 [main] INFO  Dealership.POM - CostPrice is visible
-21:22:45.148 [main] INFO  Dealership.POM - CostPrice is filled
-21:22:45.176 [main] INFO  Dealership.POM - Auto_SubModel is visible
-21:22:45.236 [main] INFO  Dealership.POM - Auto_SubModel is clicked
-21:22:45.327 [main] INFO  Dealership.POM - Order link is visible
-21:22:45.374 [main] INFO  Dealership.POM - Order link is clicked
-21:22:45.542 [main] INFO  Dealership.POM - UnitOrder link is visible
-21:22:45.648 [main] INFO  Dealership.POM - UnitOrder link is clicked
-21:23:09.371 [main] INFO  Dealership.POM - FirstVendor link is visible
-21:23:14.474 [main] INFO  Dealership.POM - Orderunit Button is visible
-21:23:14.548 [main] INFO  Dealership.POM - Orderunit Button is clicked
-21:23:17.583 [main] INFO  Dealership.POM - MakeField is visible
-21:23:21.875 [main] INFO  Dealership.POM - MakeFieldDropdown is visible
-21:23:22.223 [main] INFO  Dealership.POM - MakeField is filled
-21:23:22.258 [main] INFO  Dealership.POM - Model Field is visible
-21:23:26.411 [main] INFO  Dealership.POM - ModelFieldDropdown is visible
-21:23:26.492 [main] INFO  Dealership.POM - ModelField is filled
-21:23:26.538 [main] INFO  Dealership.POM - SubModel Field is visible
-21:23:30.702 [main] INFO  Dealership.POM - SubModelFieldDropdown is visible
-21:23:30.779 [main] INFO  Dealership.POM - SubModelField is filled
-21:23:30.830 [main] INFO  Dealership.POM - YearUnitOrdering Field is visible
-21:23:30.944 [main] INFO  Dealership.POM - YearDropdown is visible
-21:23:31.012 [main] INFO  Dealership.POM - Year is selected
-21:23:31.046 [main] INFO  Dealership.POM - ConditionUnitOrdering Field is visible
-21:23:31.145 [main] INFO  Dealership.POM - ConditionDropdown is visible
-21:23:31.207 [main] INFO  Dealership.POM - Condition is selected
-21:23:31.242 [main] INFO  Dealership.POM - Colorfiled is visible
-21:23:31.342 [main] INFO  Dealership.POM - Colorfiled is selected
-21:23:31.376 [main] INFO  Dealership.POM - Factoryfiled is visible
-21:23:31.468 [main] INFO  Dealership.POM - Factoryfiled is filled
-21:23:31.498 [main] INFO  Dealership.POM - StockNumber is visible
-21:23:31.641 [main] INFO  Dealership.POM - StockNumber is filled
-21:23:31.688 [main] INFO  Dealership.POM - CategoryUnitOrdering Field is visible
-21:23:31.815 [main] INFO  Dealership.POM - CategoryDropdown is visible
-21:23:31.918 [main] INFO  Dealership.POM - CategoryDropdown is selected
-21:23:36.973 [main] INFO  Dealership.POM - OrderedDateUnitOrdering Field is visible
-21:23:39.137 [main] INFO  Dealership.POM - OrderDate is visible
-21:23:39.232 [main] INFO  Dealership.POM - OrderDate is selected
-21:23:39.292 [main] INFO  Dealership.POM - ExpectedDateUnitOrdering Field is visible
-21:23:41.428 [main] INFO  Dealership.POM - ExpectDate is visible
-21:23:41.486 [main] INFO  Dealership.POM - ExpectDate is selected
-21:23:41.531 [main] INFO  Dealership.POM - AddPricing button is visible
-21:23:42.901 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Unitpricingandoptions
-21:26:18.954 [main] INFO  Dealership.POM - Running Test : Unitpricingandoptions
-21:26:26.617 [main] INFO  Dealership.POM - Windows maximized
-21:26:30.917 [main] INFO  Dealership.POM - URL entered
-21:26:31.015 [main] INFO  Dealership.POM - Username field is visible
-21:26:31.217 [main] INFO  Dealership.POM - Password field is visible
-21:26:31.441 [main] INFO  Dealership.POM - Login Button is visible
-21:26:31.581 [main] INFO  Dealership.POM - Login Button is clicked
-21:27:11.426 [main] INFO  Dealership.POM - Order link is visible
-21:27:11.513 [main] INFO  Dealership.POM - Order link is clicked
-21:27:11.724 [main] INFO  Dealership.POM - UnitOrder link is visible
-21:27:11.805 [main] INFO  Dealership.POM - UnitOrder link is clicked
-21:27:34.546 [main] INFO  Dealership.POM - FirstVendor link is visible
-21:27:39.658 [main] INFO  Dealership.POM - Orderunit Button is visible
-21:27:39.740 [main] INFO  Dealership.POM - Orderunit Button is clicked
-21:27:43.503 [main] INFO  Dealership.POM - MakeField is visible
-21:27:49.038 [main] INFO  Dealership.POM - MakeFieldDropdown is visible
-21:27:49.407 [main] INFO  Dealership.POM - MakeField is filled
-21:27:49.446 [main] INFO  Dealership.POM - Model Field is visible
-21:27:53.582 [main] INFO  Dealership.POM - ModelFieldDropdown is visible
-21:27:53.662 [main] INFO  Dealership.POM - ModelField is filled
-21:27:53.708 [main] INFO  Dealership.POM - SubModel Field is visible
-21:27:57.938 [main] INFO  Dealership.POM - SubModelFieldDropdown is visible
-21:27:58.022 [main] INFO  Dealership.POM - SubModelField is filled
-21:27:58.081 [main] INFO  Dealership.POM - YearUnitOrdering Field is visible
-21:27:58.295 [main] INFO  Dealership.POM - YearDropdown is visible
-21:27:58.402 [main] INFO  Dealership.POM - Year is selected
-21:27:58.466 [main] INFO  Dealership.POM - ConditionUnitOrdering Field is visible
-21:27:58.614 [main] INFO  Dealership.POM - ConditionDropdown is visible
-21:27:58.697 [main] INFO  Dealership.POM - Condition is selected
-21:27:58.751 [main] INFO  Dealership.POM - Colorfiled is visible
-21:27:58.863 [main] INFO  Dealership.POM - Colorfiled is selected
-21:27:58.895 [main] INFO  Dealership.POM - Factoryfiled is visible
-21:27:58.999 [main] INFO  Dealership.POM - Factoryfiled is filled
-21:27:59.032 [main] INFO  Dealership.POM - StockNumber is visible
-21:27:59.121 [main] INFO  Dealership.POM - StockNumber is filled
-21:27:59.152 [main] INFO  Dealership.POM - CategoryUnitOrdering Field is visible
-21:27:59.246 [main] INFO  Dealership.POM - CategoryDropdown is visible
-21:27:59.323 [main] INFO  Dealership.POM - CategoryDropdown is selected
-21:28:04.388 [main] INFO  Dealership.POM - OrderedDateUnitOrdering Field is visible
-21:28:06.578 [main] INFO  Dealership.POM - OrderDate is visible
-21:28:06.663 [main] INFO  Dealership.POM - OrderDate is selected
-21:28:06.703 [main] INFO  Dealership.POM - ExpectedDateUnitOrdering Field is visible
-21:28:08.848 [main] INFO  Dealership.POM - ExpectDate is visible
-21:28:08.921 [main] INFO  Dealership.POM - ExpectDate is selected
-21:28:13.981 [main] INFO  Dealership.POM - AddPricing button is visible
-21:28:14.056 [main] INFO  Dealership.POM - AddPricing button is clicked
-21:28:24.369 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Unitpricingandoptions
-21:30:49.620 [main] INFO  Dealership.POM - Running Test : Unitpricingandoptions
-21:30:57.358 [main] INFO  Dealership.POM - Windows maximized
-21:30:59.273 [main] INFO  Dealership.POM - URL entered
-21:30:59.406 [main] INFO  Dealership.POM - Username field is visible
-21:30:59.699 [main] INFO  Dealership.POM - Password field is visible
-21:31:00.201 [main] INFO  Dealership.POM - Login Button is visible
-21:31:00.465 [main] INFO  Dealership.POM - Login Button is clicked
-21:31:30.979 [main] INFO  Dealership.POM - Order link is visible
-21:31:31.116 [main] INFO  Dealership.POM - Order link is clicked
-21:31:31.397 [main] INFO  Dealership.POM - UnitOrder link is visible
-21:31:31.487 [main] INFO  Dealership.POM - UnitOrder link is clicked
-21:31:55.954 [main] INFO  Dealership.POM - FirstVendor link is visible
-21:32:01.093 [main] INFO  Dealership.POM - Orderunit Button is visible
-21:32:01.200 [main] INFO  Dealership.POM - Orderunit Button is clicked
-21:32:04.762 [main] INFO  Dealership.POM - MakeField is visible
-21:32:09.272 [main] INFO  Dealership.POM - MakeFieldDropdown is visible
-21:32:09.720 [main] INFO  Dealership.POM - MakeField is filled
-21:32:09.767 [main] INFO  Dealership.POM - Model Field is visible
-21:32:13.930 [main] INFO  Dealership.POM - ModelFieldDropdown is visible
-21:32:14.001 [main] INFO  Dealership.POM - ModelField is filled
-21:32:14.047 [main] INFO  Dealership.POM - SubModel Field is visible
-21:32:18.200 [main] INFO  Dealership.POM - SubModelFieldDropdown is visible
-21:32:18.267 [main] INFO  Dealership.POM - SubModelField is filled
-21:32:18.309 [main] INFO  Dealership.POM - YearUnitOrdering Field is visible
-21:32:18.476 [main] INFO  Dealership.POM - YearDropdown is visible
-21:32:18.583 [main] INFO  Dealership.POM - Year is selected
-21:32:18.638 [main] INFO  Dealership.POM - ConditionUnitOrdering Field is visible
-21:32:18.785 [main] INFO  Dealership.POM - ConditionDropdown is visible
-21:32:18.866 [main] INFO  Dealership.POM - Condition is selected
-21:32:18.920 [main] INFO  Dealership.POM - Colorfiled is visible
-21:32:19.046 [main] INFO  Dealership.POM - Colorfiled is selected
-21:32:19.084 [main] INFO  Dealership.POM - Factoryfiled is visible
-21:32:19.205 [main] INFO  Dealership.POM - Factoryfiled is filled
-21:32:19.236 [main] INFO  Dealership.POM - StockNumber is visible
-21:32:19.344 [main] INFO  Dealership.POM - StockNumber is filled
-21:32:19.379 [main] INFO  Dealership.POM - CategoryUnitOrdering Field is visible
-21:32:19.485 [main] INFO  Dealership.POM - CategoryDropdown is visible
-21:32:19.562 [main] INFO  Dealership.POM - CategoryDropdown is selected
-21:32:24.623 [main] INFO  Dealership.POM - OrderedDateUnitOrdering Field is visible
-21:32:26.777 [main] INFO  Dealership.POM - OrderDate is visible
-21:32:26.869 [main] INFO  Dealership.POM - OrderDate is selected
-21:32:26.908 [main] INFO  Dealership.POM - ExpectedDateUnitOrdering Field is visible
-21:32:29.086 [main] INFO  Dealership.POM - ExpectDate is visible
-21:32:29.163 [main] INFO  Dealership.POM - ExpectDate is selected
-21:32:34.220 [main] INFO  Dealership.POM - AddPricing button is visible
-21:32:34.283 [main] INFO  Dealership.POM - AddPricing button is clicked
-21:32:44.372 [main] INFO  Dealership.POM - TotalPrice is successfully verified
-21:32:44.414 [main] INFO  Dealership.POM - TotalCost is successfully verified
-21:32:44.417 [main] INFO  Dealership.POM - Test case Unitpricingandoptions passes successfully
-23:40:17.659 [main] INFO  Dealership.POM - Running Test : Userpermissions
-23:40:28.651 [main] INFO  Dealership.POM - Windows maximized
-23:40:30.819 [main] INFO  Dealership.POM - URL entered
-23:40:30.951 [main] INFO  Dealership.POM - Username field is visible
-23:40:31.304 [main] INFO  Dealership.POM - Password field is visible
-23:40:31.599 [main] INFO  Dealership.POM - Login Button is visible
-23:40:32.197 [main] INFO  Dealership.POM - Login Button is clicked
-23:41:02.818 [main] INFO  Dealership.POM - Account and Settings link is visible
-23:41:02.950 [main] INFO  Dealership.POM - Account and Settings link is clicked
-23:41:03.064 [main] INFO  Dealership.POM - SystemSettings link is visible
-23:41:03.241 [main] INFO  Dealership.POM - SystemSettings link is clicked
-23:41:08.406 [main] INFO  Dealership.POM - User permissions link is clicked
-23:41:09.758 [main] INFO  Dealership.POM - Userpermissionheader is [[ChromeDriver: chrome on WINDOWS (adf5e8c935d79232e7574ea9bac76acf)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div/div[1]/div/h1]
-23:41:14.878 [main] INFO  Dealership.POM - CreateButton is visible
-23:41:14.962 [main] INFO  Dealership.POM - CreateButton is clicked
-23:41:20.905 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Userpermissions
-23:42:05.379 [main] INFO  Dealership.POM - Running Test : Userpermissions
-23:42:13.536 [main] INFO  Dealership.POM - Windows maximized
-23:42:15.888 [main] INFO  Dealership.POM - URL entered
-23:42:16.026 [main] INFO  Dealership.POM - Username field is visible
-23:42:16.272 [main] INFO  Dealership.POM - Password field is visible
-23:42:16.568 [main] INFO  Dealership.POM - Login Button is visible
-23:42:17.038 [main] INFO  Dealership.POM - Login Button is clicked
-23:42:46.648 [main] INFO  Dealership.POM - Account and Settings link is visible
-23:42:46.721 [main] INFO  Dealership.POM - Account and Settings link is clicked
-23:42:46.817 [main] INFO  Dealership.POM - SystemSettings link is visible
-23:42:46.916 [main] INFO  Dealership.POM - SystemSettings link is clicked
-23:42:52.817 [main] INFO  Dealership.POM - User permissions link is clicked
-23:42:54.261 [main] INFO  Dealership.POM - Userpermissionheader is [[ChromeDriver: chrome on WINDOWS (3ef85b866b2445caa5c32d97cda2749e)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div/div[1]/div/h1]
-23:42:59.374 [main] INFO  Dealership.POM - CreateButton is visible
-23:42:59.438 [main] INFO  Dealership.POM - CreateButton is clicked
-23:43:05.144 [main] INFO  Dealership.POM - GroupNameInput is visible
-23:43:05.264 [main] INFO  Dealership.POM - GroupName is entered
-23:43:05.308 [main] INFO  Dealership.POM - Assigncolor is visible
-23:43:05.381 [main] INFO  Dealership.POM - Color is assigned
-23:43:05.429 [main] INFO  Dealership.POM - CreateButton is visible
-23:43:05.494 [main] INFO  Dealership.POM - group is created
-23:43:13.756 [main] INFO  Dealership.POM - Newgroupname is Group: Automation group
-23:43:13.756 [main] INFO  Dealership.POM - Newgroupname is veriied
-23:43:13.807 [main] INFO  Dealership.POM - MembersLink is visible
-23:43:13.894 [main] INFO  Dealership.POM - MembersLink is veriied
-23:43:19.004 [main] INFO  Dealership.POM - AssignMembers button is visible
-23:43:19.078 [main] INFO  Dealership.POM - AssignMembers button is clicked
-23:43:24.753 [main] INFO  Dealership.POM - SearchUserField is visible
-23:43:26.397 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Userpermissions
-23:46:34.813 [main] INFO  Dealership.POM - Running Test : Userpermissions
-23:46:44.985 [main] INFO  Dealership.POM - Windows maximized
-23:46:47.626 [main] INFO  Dealership.POM - URL entered
-23:46:47.823 [main] INFO  Dealership.POM - Username field is visible
-23:46:48.379 [main] INFO  Dealership.POM - Password field is visible
-23:46:49.244 [main] INFO  Dealership.POM - Login Button is visible
-23:46:49.326 [main] INFO  Dealership.POM - Login Button is clicked
-23:47:25.465 [main] INFO  Dealership.POM - Account and Settings link is visible
-23:47:25.556 [main] INFO  Dealership.POM - Account and Settings link is clicked
-23:47:25.680 [main] INFO  Dealership.POM - SystemSettings link is visible
-23:47:25.793 [main] INFO  Dealership.POM - SystemSettings link is clicked
-23:47:29.742 [main] INFO  Dealership.POM - User permissions link is clicked
-23:47:31.095 [main] INFO  Dealership.POM - Userpermissionheader is [[ChromeDriver: chrome on WINDOWS (b1e884324cecac2d537d8871167a7400)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div/div[1]/div/h1]
-23:47:36.310 [main] INFO  Dealership.POM - CreateButton is visible
-23:47:36.408 [main] INFO  Dealership.POM - CreateButton is clicked
-23:47:42.092 [main] INFO  Dealership.POM - GroupNameInput is visible
-23:47:42.212 [main] INFO  Dealership.POM - GroupName is entered
-23:47:42.252 [main] INFO  Dealership.POM - Assigncolor is visible
-23:47:42.310 [main] INFO  Dealership.POM - Color is assigned
-23:47:42.350 [main] INFO  Dealership.POM - CreateButton is visible
-23:47:42.400 [main] INFO  Dealership.POM - group is created
-23:48:14.238 [main] INFO  Dealership.POM - Newgroupname is Group: Automation group
-23:48:14.238 [main] INFO  Dealership.POM - Newgroupname is veriied
-23:48:14.281 [main] INFO  Dealership.POM - MembersLink is visible
-23:48:14.387 [main] INFO  Dealership.POM - MembersLink is veriied
-23:48:19.523 [main] INFO  Dealership.POM - AssignMembers button is visible
-23:48:19.591 [main] INFO  Dealership.POM - AssignMembers button is clicked
-23:48:25.246 [main] INFO  Dealership.POM - SearchUserField is visible
-23:48:29.804 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Userpermissions
-23:51:03.955 [main] INFO  Dealership.POM - Running Test : Userpermissions
-23:51:14.892 [main] INFO  Dealership.POM - Windows maximized
-23:51:16.947 [main] INFO  Dealership.POM - URL entered
-23:51:17.097 [main] INFO  Dealership.POM - Username field is visible
-23:51:17.468 [main] INFO  Dealership.POM - Password field is visible
-23:51:18.229 [main] INFO  Dealership.POM - Login Button is visible
-23:51:49.914 [main] INFO  Dealership.POM - Login Button is clicked
-23:52:10.277 [main] INFO  Dealership.POM - Account and Settings link is visible
-23:52:10.346 [main] INFO  Dealership.POM - Account and Settings link is clicked
-23:52:10.437 [main] INFO  Dealership.POM - SystemSettings link is visible
-23:52:10.544 [main] INFO  Dealership.POM - SystemSettings link is clicked
-23:52:16.087 [main] INFO  Dealership.POM - User permissions link is clicked
-23:52:18.082 [main] INFO  Dealership.POM - Userpermissionheader is [[ChromeDriver: chrome on WINDOWS (e301ff013dcf037f6945b0603922a0c8)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div/div[1]/div/h1]
-23:52:23.219 [main] INFO  Dealership.POM - CreateButton is visible
-23:52:23.291 [main] INFO  Dealership.POM - CreateButton is clicked
-23:52:28.942 [main] INFO  Dealership.POM - GroupNameInput is visible
-23:52:29.090 [main] INFO  Dealership.POM - GroupName is entered
-23:52:29.150 [main] INFO  Dealership.POM - Assigncolor is visible
-23:52:29.239 [main] INFO  Dealership.POM - Color is assigned
-23:52:29.301 [main] INFO  Dealership.POM - CreateButton is visible
-23:52:29.387 [main] INFO  Dealership.POM - group is created
-23:52:37.185 [main] INFO  Dealership.POM - Newgroupname is Group: Automation group
-23:52:37.186 [main] INFO  Dealership.POM - Newgroupname is veriied
-23:52:37.233 [main] INFO  Dealership.POM - MembersLink is visible
-23:52:37.335 [main] INFO  Dealership.POM - MembersLink is veriied
-23:52:42.465 [main] INFO  Dealership.POM - AssignMembers button is visible
-23:52:42.545 [main] INFO  Dealership.POM - AssignMembers button is clicked
-23:52:48.210 [main] INFO  Dealership.POM - SearchUserField is visible
-23:52:48.589 [main] INFO  Dealership.POM - Assign button is clicked
-23:54:34.304 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Userpermissions
-23:57:42.855 [main] INFO  Dealership.POM - Running Test : Userpermissions
-23:57:54.236 [main] INFO  Dealership.POM - Windows maximized
-23:57:56.883 [main] INFO  Dealership.POM - URL entered
-23:57:57.254 [main] INFO  Dealership.POM - Username field is visible
-23:57:57.732 [main] INFO  Dealership.POM - Password field is visible
-23:57:58.404 [main] INFO  Dealership.POM - Login Button is visible
-23:58:13.442 [main] INFO  Dealership.POM - Login Button is clicked
-23:58:34.012 [main] INFO  Dealership.POM - Account and Settings link is visible
-23:58:34.093 [main] INFO  Dealership.POM - Account and Settings link is clicked
-23:58:34.195 [main] INFO  Dealership.POM - SystemSettings link is visible
-23:58:34.292 [main] INFO  Dealership.POM - SystemSettings link is clicked
-23:58:38.451 [main] INFO  Dealership.POM - User permissions link is clicked
-23:58:40.205 [main] INFO  Dealership.POM - Userpermissionheader is [[ChromeDriver: chrome on WINDOWS (a3c15a5b495ca3ef7920fab4be931d20)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div/div[1]/div/h1]
-23:58:45.348 [main] INFO  Dealership.POM - CreateButton is visible
-23:58:45.429 [main] INFO  Dealership.POM - CreateButton is clicked
-23:58:51.120 [main] INFO  Dealership.POM - GroupNameInput is visible
-23:58:51.405 [main] INFO  Dealership.POM - GroupName is entered
-23:58:51.511 [main] INFO  Dealership.POM - Assigncolor is visible
-23:58:51.612 [main] INFO  Dealership.POM - Color is assigned
-23:58:51.674 [main] INFO  Dealership.POM - CreateButton is visible
-23:58:51.810 [main] INFO  Dealership.POM - group is created
-23:59:33.717 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Userpermissions
-23:59:47.691 [main] INFO  Dealership.POM - Running Test : Userpermissions
-23:59:55.982 [main] INFO  Dealership.POM - Windows maximized
-23:59:57.789 [main] INFO  Dealership.POM - URL entered
-23:59:57.940 [main] INFO  Dealership.POM - Username field is visible
-23:59:58.388 [main] INFO  Dealership.POM - Password field is visible
-23:59:59.451 [main] INFO  Dealership.POM - Login Button is visible
-00:00:31.838 [main] INFO  Dealership.POM - Login Button is clicked
-00:00:52.120 [main] INFO  Dealership.POM - Account and Settings link is visible
-00:00:52.195 [main] INFO  Dealership.POM - Account and Settings link is clicked
-00:00:52.285 [main] INFO  Dealership.POM - SystemSettings link is visible
-00:00:52.386 [main] INFO  Dealership.POM - SystemSettings link is clicked
-00:00:57.460 [main] INFO  Dealership.POM - User permissions link is clicked
-00:00:58.763 [main] INFO  Dealership.POM - Userpermissionheader is [[ChromeDriver: chrome on WINDOWS (24979077d51cd878c6fcafbc4ad24bdd)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div/div[1]/div/h1]
-00:01:03.904 [main] INFO  Dealership.POM - CreateButton is visible
-00:01:03.971 [main] INFO  Dealership.POM - CreateButton is clicked
-00:01:09.629 [main] INFO  Dealership.POM - GroupNameInput is visible
-00:01:09.814 [main] INFO  Dealership.POM - GroupName is entered
-00:01:09.870 [main] INFO  Dealership.POM - Assigncolor is visible
-00:01:09.952 [main] INFO  Dealership.POM - Color is assigned
-00:01:10.012 [main] INFO  Dealership.POM - CreateButton is visible
-00:01:10.094 [main] INFO  Dealership.POM - group is created
-00:01:18.065 [main] INFO  Dealership.POM - Newgroupname is Group: Automation group
-00:01:18.066 [main] INFO  Dealership.POM - Newgroupname is veriied
-00:01:18.117 [main] INFO  Dealership.POM - MembersLink is visible
-00:01:18.195 [main] INFO  Dealership.POM - MembersLink is veriied
-00:01:23.302 [main] INFO  Dealership.POM - AssignMembers button is visible
-00:01:23.371 [main] INFO  Dealership.POM - AssignMembers button is clicked
-00:01:29.032 [main] INFO  Dealership.POM - SearchUserField is visible
-00:01:29.334 [main] INFO  Dealership.POM - Assign button is clicked
-00:01:34.398 [main] INFO  Dealership.POM - User is assigned to group
-00:01:34.406 [main] INFO  Dealership.POM - Test case Userpermissions passes successfully
-00:01:56.528 [main] INFO  Dealership.POM - Running Test : Userpermissions
-00:02:04.420 [main] INFO  Dealership.POM - Windows maximized
-00:02:06.179 [main] INFO  Dealership.POM - URL entered
-00:02:06.315 [main] INFO  Dealership.POM - Username field is visible
-00:02:06.680 [main] INFO  Dealership.POM - Password field is visible
-00:02:07.619 [main] INFO  Dealership.POM - Login Button is visible
-00:02:23.562 [main] INFO  Dealership.POM - Login Button is clicked
-00:02:44.155 [main] INFO  Dealership.POM - Account and Settings link is visible
-00:02:44.222 [main] INFO  Dealership.POM - Account and Settings link is clicked
-00:02:44.333 [main] INFO  Dealership.POM - SystemSettings link is visible
-00:02:44.415 [main] INFO  Dealership.POM - SystemSettings link is clicked
-00:02:48.016 [main] INFO  Dealership.POM - User permissions link is clicked
-00:02:49.180 [main] INFO  Dealership.POM - Userpermissionheader is [[ChromeDriver: chrome on WINDOWS (dc36944a6963edd097eeba41d997b3ac)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div/div[1]/div/h1]
-00:02:57.369 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Userpermissions
-00:14:27.274 [main] INFO  Dealership.POM - Running Test : Userpermissions
-00:14:35.515 [main] INFO  Dealership.POM - Windows maximized
-00:14:37.443 [main] INFO  Dealership.POM - URL entered
-00:14:37.559 [main] INFO  Dealership.POM - Username field is visible
-00:14:37.798 [main] INFO  Dealership.POM - Password field is visible
-00:15:14.566 [main] INFO  Dealership.POM - Account and Settings link is visible
-00:15:14.653 [main] INFO  Dealership.POM - Account and Settings link is clicked
-00:15:14.748 [main] INFO  Dealership.POM - Logout link is visible
-00:15:20.873 [main] INFO  Dealership.POM - Logout link is clicked
-00:15:21.458 [main] INFO  Dealership.POM - Username field is visible
-00:15:22.227 [main] INFO  Dealership.POM - Password field is visible
-00:15:48.651 [main] INFO  Dealership.POM - Test case Userpermissions passes successfully
-00:29:01.320 [main] INFO  Dealership.POM - Running Test : Userpermissions
-00:29:12.615 [main] INFO  Dealership.POM - Windows maximized
-00:29:14.704 [main] INFO  Dealership.POM - URL entered
-00:29:14.852 [main] INFO  Dealership.POM - Username field is visible
-00:29:15.143 [main] INFO  Dealership.POM - Password field is visible
-00:29:51.066 [main] INFO  Dealership.POM - Account and Settings link is visible
-00:29:51.168 [main] INFO  Dealership.POM - Account and Settings link is clicked
-00:29:51.296 [main] INFO  Dealership.POM - Logout link is visible
-00:29:55.471 [main] INFO  Dealership.POM - Logout link is clicked
-00:29:58.437 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Userpermissions
-00:31:07.627 [main] INFO  Dealership.POM - Running Test : Userpermissions
-00:31:16.001 [main] INFO  Dealership.POM - Windows maximized
-00:31:17.903 [main] INFO  Dealership.POM - URL entered
-00:31:18.118 [main] INFO  Dealership.POM - Username field is visible
-00:31:19.111 [main] INFO  Dealership.POM - Password field is visible
-00:32:12.446 [main] INFO  Dealership.POM - Account and Settings link is visible
-00:32:12.524 [main] INFO  Dealership.POM - Account and Settings link is clicked
-00:32:12.652 [main] INFO  Dealership.POM - Logout link is visible
-00:32:17.922 [main] INFO  Dealership.POM - Logout link is clicked
-00:32:32.998 [main] INFO  Dealership.POM - Username field is visible
-00:32:33.167 [main] INFO  Dealership.POM - Password field is visible
-00:33:05.920 [main] INFO  Dealership.POM - Disable Schedule Link is visible
-00:33:06.258 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Userpermissions
-00:46:15.512 [main] INFO  Dealership.POM - Running Test : Userpermissions
-00:46:26.138 [main] INFO  Dealership.POM - Windows maximized
-00:46:27.849 [main] INFO  Dealership.POM - URL entered
-00:46:28.013 [main] INFO  Dealership.POM - Username field is visible
-00:46:28.423 [main] INFO  Dealership.POM - Password field is visible
-00:47:06.281 [main] INFO  Dealership.POM - Account and Settings link is visible
-00:47:06.439 [main] INFO  Dealership.POM - Account and Settings link is clicked
-00:47:06.541 [main] INFO  Dealership.POM - Logout link is visible
-00:47:10.159 [main] INFO  Dealership.POM - Logout link is clicked
-00:47:25.290 [main] INFO  Dealership.POM - Username field is visible
-00:47:25.607 [main] INFO  Dealership.POM - Password field is visible
-00:47:52.641 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Userpermissions
-00:52:24.374 [main] INFO  Dealership.POM - Running Test : Userpermissions
-00:52:32.548 [main] INFO  Dealership.POM - Windows maximized
-00:52:34.517 [main] INFO  Dealership.POM - URL entered
-00:52:34.635 [main] INFO  Dealership.POM - Username field is visible
-00:52:34.873 [main] INFO  Dealership.POM - Password field is visible
-00:53:11.142 [main] INFO  Dealership.POM - Account and Settings link is visible
-00:53:11.222 [main] INFO  Dealership.POM - Account and Settings link is clicked
-00:53:11.336 [main] INFO  Dealership.POM - Logout link is visible
-00:53:14.440 [main] INFO  Dealership.POM - Logout link is clicked
-00:53:24.540 [main] INFO  Dealership.POM - Username field is visible
-00:53:24.690 [main] INFO  Dealership.POM - Password field is visible
-00:53:51.697 [main] INFO  Dealership.POM - Schedule Link is not clickable
-00:53:51.705 [main] INFO  Dealership.POM - Test case Userpermissions passes successfully
-01:35:05.354 [main] INFO  Dealership.POM - Running Test : Userpermissions
-01:35:14.008 [main] INFO  Dealership.POM - Windows maximized
-01:35:16.026 [main] INFO  Dealership.POM - URL entered
-01:35:16.138 [main] INFO  Dealership.POM - Username field is visible
-01:35:16.500 [main] INFO  Dealership.POM - Password field is visible
-01:35:53.219 [main] INFO  Dealership.POM - Account and Settings link is visible
-01:35:53.303 [main] INFO  Dealership.POM - Account and Settings link is clicked
-01:35:53.410 [main] INFO  Dealership.POM - SystemSettings link is visible
-01:35:53.510 [main] INFO  Dealership.POM - SystemSettings link is clicked
-01:35:59.086 [main] INFO  Dealership.POM - User permissions link is clicked
-01:36:00.299 [main] INFO  Dealership.POM - Userpermissionheader is [[ChromeDriver: chrome on WINDOWS (efcedf5fdeffc904c20e7ff4a74082fb)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div/div[1]/div/h1]
-01:36:05.440 [main] INFO  Dealership.POM - CreateButton is visible
-01:36:05.520 [main] INFO  Dealership.POM - CreateButton is clicked
-01:36:11.207 [main] INFO  Dealership.POM - GroupNameInput is visible
-01:36:11.349 [main] INFO  Dealership.POM - GroupName is entered
-01:36:11.394 [main] INFO  Dealership.POM - Assigncolor is visible
-01:36:11.459 [main] INFO  Dealership.POM - Color is assigned
-01:36:11.514 [main] INFO  Dealership.POM - CreateButton is visible
-01:36:11.601 [main] INFO  Dealership.POM - group is created
-01:36:19.252 [main] INFO  Dealership.POM - Newgroupname is Group: Automation group
-01:36:19.252 [main] INFO  Dealership.POM - Newgroupname is veriied
-01:36:19.317 [main] INFO  Dealership.POM - MembersLink is visible
-01:36:19.411 [main] INFO  Dealership.POM - MembersLink is veriied
-01:36:24.548 [main] INFO  Dealership.POM - AssignMembers button is visible
-01:36:24.625 [main] INFO  Dealership.POM - AssignMembers button is clicked
-01:36:30.287 [main] INFO  Dealership.POM - SearchUserField is visible
-01:36:30.607 [main] INFO  Dealership.POM - Assign button is clicked
-01:36:35.659 [main] INFO  Dealership.POM - User is assigned to group
-01:36:35.742 [main] INFO  Dealership.POM - Account and Settings link is visible
-01:36:35.799 [main] INFO  Dealership.POM - Account and Settings link is clicked
-01:36:35.902 [main] INFO  Dealership.POM - Logout link is visible
-01:36:39.770 [main] INFO  Dealership.POM - Logout link is clicked
-01:36:49.853 [main] INFO  Dealership.POM - Username field is visible
-01:36:50.021 [main] INFO  Dealership.POM - Password field is visible
-01:37:25.110 [main] INFO  Dealership.POM - Schedule Link is not clickable
-01:37:25.200 [main] INFO  Dealership.POM - Account and Settings link is visible
-01:37:25.278 [main] INFO  Dealership.POM - Account and Settings link is clicked
-01:37:25.383 [main] INFO  Dealership.POM - Logout link is visible
-01:37:28.969 [main] INFO  Dealership.POM - Logout link is clicked
-01:37:39.055 [main] INFO  Dealership.POM - Username field is visible
-01:37:39.226 [main] INFO  Dealership.POM - Password field is visible
-01:38:05.772 [main] INFO  Dealership.POM - Account and Settings link is visible
-01:38:05.851 [main] INFO  Dealership.POM - Account and Settings link is clicked
-01:38:05.956 [main] INFO  Dealership.POM - SystemSettings link is visible
-01:38:06.072 [main] INFO  Dealership.POM - SystemSettings link is clicked
-01:38:10.255 [main] INFO  Dealership.POM - User permissions link is clicked
-01:38:17.239 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Userpermissions
-01:40:27.740 [main] INFO  Dealership.POM - Running Test : Userpermissions
-01:40:35.945 [main] INFO  Dealership.POM - Windows maximized
-01:40:38.140 [main] INFO  Dealership.POM - URL entered
-01:40:38.269 [main] INFO  Dealership.POM - Username field is visible
-01:40:38.514 [main] INFO  Dealership.POM - Password field is visible
-01:41:14.284 [main] INFO  Dealership.POM - Account and Settings link is visible
-01:41:14.363 [main] INFO  Dealership.POM - Account and Settings link is clicked
-01:41:14.444 [main] INFO  Dealership.POM - SystemSettings link is visible
-01:41:14.529 [main] INFO  Dealership.POM - SystemSettings link is clicked
-01:41:18.078 [main] INFO  Dealership.POM - User permissions link is clicked
-01:41:20.346 [main] INFO  Dealership.POM - Userpermissionheader is [[ChromeDriver: chrome on WINDOWS (235e3e72a94b22677ef784bdfdb93965)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div/div[1]/div/h1]
-01:41:25.450 [main] INFO  Dealership.POM - CreateButton is visible
-01:41:25.521 [main] INFO  Dealership.POM - CreateButton is clicked
-01:41:31.174 [main] INFO  Dealership.POM - GroupNameInput is visible
-01:41:31.286 [main] INFO  Dealership.POM - GroupName is entered
-01:41:31.335 [main] INFO  Dealership.POM - Assigncolor is visible
-01:41:31.402 [main] INFO  Dealership.POM - Color is assigned
-01:41:31.456 [main] INFO  Dealership.POM - CreateButton is visible
-01:41:31.525 [main] INFO  Dealership.POM - group is created
-01:41:39.321 [main] INFO  Dealership.POM - Newgroupname is Group: Automation group
-01:41:39.321 [main] INFO  Dealership.POM - Newgroupname is veriied
-01:41:39.375 [main] INFO  Dealership.POM - MembersLink is visible
-01:41:39.503 [main] INFO  Dealership.POM - MembersLink is veriied
-01:41:44.623 [main] INFO  Dealership.POM - AssignMembers button is visible
-01:41:44.700 [main] INFO  Dealership.POM - AssignMembers button is clicked
-01:41:50.376 [main] INFO  Dealership.POM - SearchUserField is visible
-01:41:50.714 [main] INFO  Dealership.POM - Assign button is clicked
-01:41:55.770 [main] INFO  Dealership.POM - User is assigned to group
-01:41:55.862 [main] INFO  Dealership.POM - Account and Settings link is visible
-01:41:55.917 [main] INFO  Dealership.POM - Account and Settings link is clicked
-01:41:56.028 [main] INFO  Dealership.POM - Logout link is visible
-01:41:59.172 [main] INFO  Dealership.POM - Logout link is clicked
-01:42:09.257 [main] INFO  Dealership.POM - Username field is visible
-01:42:09.444 [main] INFO  Dealership.POM - Password field is visible
-01:42:43.585 [main] INFO  Dealership.POM - Schedule Link is not clickable
-01:42:43.666 [main] INFO  Dealership.POM - Account and Settings link is visible
-01:42:43.742 [main] INFO  Dealership.POM - Account and Settings link is clicked
-01:42:43.845 [main] INFO  Dealership.POM - Logout link is visible
-01:42:47.465 [main] INFO  Dealership.POM - Logout link is clicked
-01:42:57.561 [main] INFO  Dealership.POM - Username field is visible
-01:42:57.726 [main] INFO  Dealership.POM - Password field is visible
-01:43:18.950 [main] INFO  Dealership.POM - Account and Settings link is visible
-01:43:19.021 [main] INFO  Dealership.POM - Account and Settings link is clicked
-01:43:19.122 [main] INFO  Dealership.POM - SystemSettings link is visible
-01:43:19.216 [main] INFO  Dealership.POM - SystemSettings link is clicked
-01:43:23.223 [main] INFO  Dealership.POM - User permissions link is clicked
-01:43:29.991 [main] INFO  Dealership.POM - Firstgroupn is visible
-01:43:30.051 [main] INFO  Dealership.POM - Firstgroup is clicked
-01:43:31.051 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Userpermissions
-01:51:15.131 [main] INFO  Dealership.POM - Running Test : Userpermissions
-01:51:30.087 [main] INFO  Dealership.POM - Windows maximized
-01:51:32.157 [main] INFO  Dealership.POM - URL entered
-01:51:32.362 [main] INFO  Dealership.POM - Username field is visible
-01:51:32.990 [main] INFO  Dealership.POM - Password field is visible
-01:52:25.713 [main] INFO  Dealership.POM - Account and Settings link is visible
-01:52:25.777 [main] INFO  Dealership.POM - Account and Settings link is clicked
-01:52:25.861 [main] INFO  Dealership.POM - SystemSettings link is visible
-01:52:25.955 [main] INFO  Dealership.POM - SystemSettings link is clicked
-01:52:31.094 [main] INFO  Dealership.POM - User permissions link is clicked
-01:52:33.647 [main] INFO  Dealership.POM - Userpermissionheader is [[ChromeDriver: chrome on WINDOWS (3f4da59763b629542a59ffc86417c256)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div/div[1]/div/h1]
-01:52:38.787 [main] INFO  Dealership.POM - CreateButton is visible
-01:52:38.848 [main] INFO  Dealership.POM - CreateButton is clicked
-01:52:44.483 [main] INFO  Dealership.POM - GroupNameInput is visible
-01:52:44.645 [main] INFO  Dealership.POM - GroupName is entered
-01:52:44.693 [main] INFO  Dealership.POM - Assigncolor is visible
-01:52:44.757 [main] INFO  Dealership.POM - Color is assigned
-01:52:44.802 [main] INFO  Dealership.POM - CreateButton is visible
-01:52:44.865 [main] INFO  Dealership.POM - group is created
-01:52:52.683 [main] INFO  Dealership.POM - Newgroupname is Group: Automation group
-01:52:52.683 [main] INFO  Dealership.POM - Newgroupname is veriied
-01:52:52.720 [main] INFO  Dealership.POM - MembersLink is visible
-01:52:52.813 [main] INFO  Dealership.POM - MembersLink is veriied
-01:52:57.926 [main] INFO  Dealership.POM - AssignMembers button is visible
-01:52:57.990 [main] INFO  Dealership.POM - AssignMembers button is clicked
-01:53:03.626 [main] INFO  Dealership.POM - SearchUserField is visible
-01:53:03.949 [main] INFO  Dealership.POM - Assign button is clicked
-01:53:08.998 [main] INFO  Dealership.POM - User is assigned to group
-01:53:09.058 [main] INFO  Dealership.POM - Account and Settings link is visible
-01:53:09.112 [main] INFO  Dealership.POM - Account and Settings link is clicked
-01:53:09.211 [main] INFO  Dealership.POM - Logout link is visible
-01:53:12.211 [main] INFO  Dealership.POM - Logout link is clicked
-01:53:22.281 [main] INFO  Dealership.POM - Username field is visible
-01:53:22.441 [main] INFO  Dealership.POM - Password field is visible
-01:53:56.222 [main] INFO  Dealership.POM - Schedule Link is not clickable
-01:53:56.290 [main] INFO  Dealership.POM - Account and Settings link is visible
-01:53:56.365 [main] INFO  Dealership.POM - Account and Settings link is clicked
-01:53:56.446 [main] INFO  Dealership.POM - Logout link is visible
-01:53:59.713 [main] INFO  Dealership.POM - Logout link is clicked
-01:54:09.788 [main] INFO  Dealership.POM - Username field is visible
-01:54:09.923 [main] INFO  Dealership.POM - Password field is visible
-01:54:31.808 [main] INFO  Dealership.POM - Account and Settings link is visible
-01:54:31.875 [main] INFO  Dealership.POM - Account and Settings link is clicked
-01:54:31.961 [main] INFO  Dealership.POM - SystemSettings link is visible
-01:54:32.069 [main] INFO  Dealership.POM - SystemSettings link is clicked
-01:54:35.692 [main] INFO  Dealership.POM - User permissions link is clicked
-01:54:42.857 [main] INFO  Dealership.POM - Firstgroupn is visible
-01:54:42.917 [main] INFO  Dealership.POM - Firstgroup is clicked
-01:54:43.549 [main] INFO  Dealership.POM - ViewAndEdit button is visible
-01:54:43.626 [main] INFO  Dealership.POM - ViewAndEdit button is clicked
-01:54:45.762 [main] INFO  Dealership.POM - Members button is visible
-01:54:45.886 [main] INFO  Dealership.POM - Members button is clicked
-01:54:47.034 [main] INFO  Dealership.POM - PlusIcon is visible
-01:54:47.095 [main] INFO  Dealership.POM - PlusIcon is clicked
-01:54:52.737 [main] INFO  Dealership.POM - SearchUserField is visible
-01:54:52.949 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : Userpermissions
-10:45:29.356 [main] INFO  Dealership.POM - Running Test : Userpermissions
-10:45:40.709 [main] INFO  Dealership.POM - Windows maximized
-10:45:43.735 [main] INFO  Dealership.POM - URL entered
-10:45:43.836 [main] INFO  Dealership.POM - Username field is visible
-10:45:44.062 [main] INFO  Dealership.POM - Password field is visible
-10:46:44.707 [main] INFO  Dealership.POM - Account and Settings link is visible
-10:46:44.802 [main] INFO  Dealership.POM - Account and Settings link is clicked
-10:46:44.923 [main] INFO  Dealership.POM - SystemSettings link is visible
-10:46:45.043 [main] INFO  Dealership.POM - SystemSettings link is clicked
-10:46:50.134 [main] INFO  Dealership.POM - User permissions link is clicked
-10:46:57.279 [main] INFO  Dealership.POM - Firstgroupn is visible
-10:46:57.330 [main] INFO  Dealership.POM - Firstgroup is clicked
-10:46:57.940 [main] INFO  Dealership.POM - ViewAndEdit button is visible
-10:46:58.007 [main] INFO  Dealership.POM - ViewAndEdit button is clicked
-10:47:00.931 [main] INFO  Dealership.POM - Members button is visible
-10:47:01.064 [main] INFO  Dealership.POM - Members button is clicked
-10:47:02.732 [main] INFO  Dealership.POM - PlusIcon is visible
-10:47:02.800 [main] INFO  Dealership.POM - PlusIcon is clicked
-10:47:08.431 [main] INFO  Dealership.POM - SearchUserField is visible
-10:47:08.727 [main] INFO  Dealership.POM - Assign button is clicked
-10:47:13.766 [main] INFO  Dealership.POM - User is assigned to group
-10:47:13.806 [main] INFO  Dealership.POM - BackLink is visible
-10:47:16.044 [main] INFO  Dealership.POM - BackLink is clicked
-10:47:21.127 [main] INFO  Dealership.POM - SortIcon is visible
-10:47:21.208 [main] INFO  Dealership.POM - SortIcon is clicked
-10:47:21.260 [main] INFO  Dealership.POM - Firstgroup is visible
-10:47:21.325 [main] INFO  Dealership.POM - Firstgroup is clicked
-10:47:26.958 [main] INFO  Dealership.POM - Deleteicon is visible
-10:47:27.022 [main] INFO  Dealership.POM - Deleteicon is clicked
-10:47:27.030 [main] INFO  Dealership.POM - Test case Userpermissions passes successfully
-10:47:57.725 [main] INFO  Dealership.POM - Running Test : Userpermissions
-10:48:06.289 [main] INFO  Dealership.POM - Windows maximized
-10:48:08.241 [main] INFO  Dealership.POM - URL entered
-10:48:08.365 [main] INFO  Dealership.POM - Username field is visible
-10:48:08.667 [main] INFO  Dealership.POM - Password field is visible
-10:49:10.580 [main] INFO  Dealership.POM - Account and Settings link is visible
-10:49:10.670 [main] INFO  Dealership.POM - Account and Settings link is clicked
-10:49:10.770 [main] INFO  Dealership.POM - SystemSettings link is visible
-10:49:10.864 [main] INFO  Dealership.POM - SystemSettings link is clicked
-10:49:16.543 [main] INFO  Dealership.POM - User permissions link is clicked
-10:49:18.162 [main] INFO  Dealership.POM - Userpermissionheader is [[ChromeDriver: chrome on WINDOWS (7bd9cf43e0b71aeef42c6b9dea449d3e)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div/div[1]/div/h1]
-10:49:23.262 [main] INFO  Dealership.POM - CreateButton is visible
-10:49:23.329 [main] INFO  Dealership.POM - CreateButton is clicked
-10:49:28.972 [main] INFO  Dealership.POM - GroupNameInput is visible
-10:49:29.078 [main] INFO  Dealership.POM - GroupName is entered
-10:49:29.125 [main] INFO  Dealership.POM - Assigncolor is visible
-10:49:29.192 [main] INFO  Dealership.POM - Color is assigned
-10:49:29.250 [main] INFO  Dealership.POM - CreateButton is visible
-10:49:29.315 [main] INFO  Dealership.POM - group is created
-10:49:37.811 [main] INFO  Dealership.POM - Newgroupname is Group: Automation group
-10:49:37.811 [main] INFO  Dealership.POM - Newgroupname is veriied
-10:49:37.850 [main] INFO  Dealership.POM - MembersLink is visible
-10:49:37.909 [main] INFO  Dealership.POM - MembersLink is veriied
-10:49:42.989 [main] INFO  Dealership.POM - AssignMembers button is visible
-10:49:43.056 [main] INFO  Dealership.POM - AssignMembers button is clicked
-10:49:48.674 [main] INFO  Dealership.POM - SearchUserField is visible
-10:49:48.969 [main] INFO  Dealership.POM - Assign button is clicked
-10:49:54.013 [main] INFO  Dealership.POM - User is assigned to group
-10:49:54.084 [main] INFO  Dealership.POM - Account and Settings link is visible
-10:49:54.139 [main] INFO  Dealership.POM - Account and Settings link is clicked
-10:49:54.225 [main] INFO  Dealership.POM - Logout link is visible
-10:49:57.362 [main] INFO  Dealership.POM - Logout link is clicked
-10:50:07.442 [main] INFO  Dealership.POM - Username field is visible
-10:50:07.679 [main] INFO  Dealership.POM - Password field is visible
-10:50:33.986 [main] INFO  Dealership.POM - Schedule Link is not clickable
-10:50:34.053 [main] INFO  Dealership.POM - Account and Settings link is visible
-10:50:34.126 [main] INFO  Dealership.POM - Account and Settings link is clicked
-10:50:34.212 [main] INFO  Dealership.POM - Logout link is visible
-10:50:37.858 [main] INFO  Dealership.POM - Logout link is clicked
-10:50:47.930 [main] INFO  Dealership.POM - Username field is visible
-10:50:48.088 [main] INFO  Dealership.POM - Password field is visible
+18:33:31.553 [TestNG-test=Test-1] INFO  Dealership.POM - Model field is visible
+18:33:32.693 [TestNG-test=Test-1] INFO  Dealership.POM - Model is filed
+18:33:32.722 [TestNG-test=Test-1] INFO  Dealership.POM - Sub-Model field is visible
+18:33:33.096 [TestNG-test=Test-1] INFO  Dealership.POM - Sub-Model is filed
+18:33:33.129 [TestNG-test=Test-1] INFO  Dealership.POM - Year field is visible
+18:33:33.410 [TestNG-test=Test-1] INFO  Dealership.POM - Year is filed
+18:33:33.451 [TestNG-test=Test-1] INFO  Dealership.POM - Addbutton is visible
+18:33:33.618 [TestNG-test=Test-1] INFO  Dealership.POM - Addbutton is clicked
+18:33:43.708 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is visible
+18:33:43.827 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is clicked
+18:33:44.503 [TestNG-test=Test-1] INFO  Dealership.POM - Delete Button is visible
+18:33:44.682 [TestNG-test=Test-1] INFO  Dealership.POM - Delete Button is clicked
+18:33:45.900 [TestNG-test=Test-1] INFO  Dealership.POM - CO contains Deal.
+18:33:46.062 [TestNG-test=Test-1] INFO  Dealership.POM - OK Button is clicked
+18:33:46.063 [TestNG-test=Test-1] INFO  Dealership.POM - Test case DeleteWhenTradeinUnit passes successfully
+18:33:52.021 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenSellAPart
+18:33:56.796 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+18:33:58.790 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+18:33:58.870 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+18:33:59.415 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+18:34:35.277 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+18:34:35.359 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+18:34:36.691 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+18:34:38.066 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+18:34:48.387 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+18:35:08.766 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is visible
+18:35:08.896 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is clicked
+18:35:09.023 [TestNG-test=Test-1] INFO  Dealership.POM - New Customer Name is correctly displayed
+18:35:09.115 [TestNG-test=Test-1] INFO  Dealership.POM - Customer1 Pricelevel is Price Level: Default
+18:35:09.215 [TestNG-test=Test-1] INFO  Dealership.POM - Tax Exemption is sell 1
+18:35:09.280 [TestNG-test=Test-1] INFO  Dealership.POM - SellPartandAccs button is visible
+18:35:09.417 [TestNG-test=Test-1] INFO  Dealership.POM - SellPartandAccs button is clicked
+18:35:12.252 [TestNG-test=Test-1] INFO  Dealership.POM - Searchbox is visible
+18:35:22.865 [TestNG-test=Test-1] INFO  Dealership.POM - Merchentity is visible
+18:35:28.346 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenSellAPart
+18:35:34.410 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenCOClosed
+18:35:38.738 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+18:35:40.596 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+18:35:40.648 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+18:35:40.874 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+18:36:32.263 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+18:36:33.793 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+18:36:33.959 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+18:36:35.460 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+18:36:38.603 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+18:37:09.018 [TestNG-test=Test-1] INFO  Dealership.POM - SellPartandAccs button is visible
+18:37:09.103 [TestNG-test=Test-1] INFO  Dealership.POM - SellPartandAccs button is clicked
+18:37:11.868 [TestNG-test=Test-1] INFO  Dealership.POM - Searchbox is visible
+18:37:22.436 [TestNG-test=Test-1] INFO  Dealership.POM - Merchentity is visible
+18:37:28.168 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenCOClosed
+18:37:34.284 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenStoreCredit
+18:37:41.398 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+18:37:43.764 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+18:37:43.813 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+18:37:44.002 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+18:38:38.577 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+18:38:41.090 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+18:38:41.247 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+18:38:42.984 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+18:38:45.598 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+18:39:15.944 [TestNG-test=Test-1] INFO  Dealership.POM - SellPartandAccs button is visible
+18:39:16.030 [TestNG-test=Test-1] INFO  Dealership.POM - SellPartandAccs button is clicked
+18:39:18.270 [TestNG-test=Test-1] INFO  Dealership.POM - Searchbox is visible
+18:39:28.885 [TestNG-test=Test-1] INFO  Dealership.POM - Merchentity is visible
+18:39:34.260 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenStoreCredit
+18:39:40.267 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenServicejob
+18:39:45.625 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+18:39:51.435 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+18:39:51.530 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+18:39:51.864 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+18:40:45.253 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+18:40:45.380 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+18:40:47.594 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+18:40:49.703 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+18:40:51.822 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+18:41:22.147 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJob button is visible
+18:41:25.243 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobStatus is visible
+18:41:25.273 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobStatus is Status: New
+18:41:25.381 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is visible
+18:41:25.544 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is clicked
+18:41:26.212 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is visible
+18:41:26.318 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is clicked
+18:41:46.878 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenServicejob
+18:41:52.805 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenCompletestatus
+18:41:57.781 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+18:41:59.912 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+18:41:59.991 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+18:42:00.323 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+18:42:36.846 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+18:42:36.931 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+18:42:38.059 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+18:42:38.795 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+18:42:40.903 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+18:43:11.217 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJob button is visible
+18:43:15.295 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobStatus is visible
+18:43:15.329 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobStatus is Status: New
+18:43:15.969 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobDetails is visible
+18:43:16.163 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobDetails is clicked
+18:43:41.673 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenCompletestatus
+18:43:47.578 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenUnitDeal
+18:43:52.533 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+18:43:54.545 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+18:43:54.616 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+18:43:54.894 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+18:44:30.574 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+18:44:32.181 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+18:44:32.902 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+18:44:33.339 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+18:44:35.471 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+18:45:05.751 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is visible
+18:45:05.835 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is clicked
+18:45:08.572 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is visible
+18:45:08.602 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+18:45:08.685 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is visible
+18:45:08.825 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is clicked
+18:45:09.487 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is visible
+18:45:09.632 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is clicked
+18:45:30.201 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenUnitDeal
+18:45:36.246 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenStockUnit
+18:45:40.786 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+18:45:42.749 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+18:45:42.809 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+18:45:43.119 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+18:46:19.474 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+18:46:21.313 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+18:46:21.881 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+18:46:22.285 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+18:46:24.379 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+18:46:54.701 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is visible
+18:46:54.812 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is clicked
+18:46:57.091 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is visible
+18:46:57.124 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+18:46:57.281 [TestNG-test=Test-1] INFO  Dealership.POM - UnitOptionsStatus is visible
+18:46:57.331 [TestNG-test=Test-1] INFO  Dealership.POM - UnitOptionsStatus is Option:
+18:46:57.468 [TestNG-test=Test-1] INFO  Dealership.POM - Unit1 is visible
+18:46:57.602 [TestNG-test=Test-1] INFO  Dealership.POM - Unit1 is opened
+18:46:58.780 [TestNG-test=Test-1] INFO  Dealership.POM - Search Stockunit field is visible
+18:47:09.143 [TestNG-test=Test-1] INFO  Dealership.POM - Unit1 is selected
+18:47:14.197 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is visible
+18:47:14.345 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is clicked
+18:47:15.009 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is visible
+18:47:15.101 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is clicked
+18:47:35.448 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenStockUnit
+18:47:41.468 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenTemporaryUnit
+18:47:46.182 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+18:47:48.320 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+18:47:48.392 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+18:47:48.661 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+18:48:39.291 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+18:48:40.896 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+18:48:41.107 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+18:48:42.818 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+18:48:45.385 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+18:49:15.707 [TestNG-test=Test-1] INFO  Dealership.POM - Quote Toggle button is visible
+18:49:15.811 [TestNG-test=Test-1] INFO  Dealership.POM - Quote Toggle button is clicked
+18:49:25.859 [TestNG-test=Test-1] INFO  Dealership.POM - The status of CO is Quote
+18:49:25.893 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is visible
+18:49:25.987 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is clicked
+18:49:28.236 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is visible
+18:49:28.271 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+18:49:28.362 [TestNG-test=Test-1] INFO  Dealership.POM - UnitOptionsStatus is visible
+18:49:28.399 [TestNG-test=Test-1] INFO  Dealership.POM - UnitOptionsStatus is Option:
+18:49:28.488 [TestNG-test=Test-1] INFO  Dealership.POM - Unit1 is visible
+18:49:28.614 [TestNG-test=Test-1] INFO  Dealership.POM - Unit1 is opened
+18:49:30.056 [TestNG-test=Test-1] INFO  Dealership.POM - Set Temp Unit button is visible
+18:49:30.154 [TestNG-test=Test-1] INFO  Dealership.POM - Set Temp Unit button is clicked
+18:49:37.318 [TestNG-test=Test-1] INFO  Dealership.POM - Make field is visible
+18:49:39.515 [TestNG-test=Test-1] INFO  Dealership.POM - Make field is filled
+18:49:39.547 [TestNG-test=Test-1] INFO  Dealership.POM - Model field is visible
+18:49:40.655 [TestNG-test=Test-1] INFO  Dealership.POM - Model field is filled
+18:49:40.683 [TestNG-test=Test-1] INFO  Dealership.POM - Sub Model field is visible
+18:49:41.354 [TestNG-test=Test-1] INFO  Dealership.POM - Sub Model field is filled
+18:49:41.382 [TestNG-test=Test-1] INFO  Dealership.POM - Year field is visible
+18:49:41.640 [TestNG-test=Test-1] INFO  Dealership.POM - Year field is filled
+18:49:41.685 [TestNG-test=Test-1] INFO  Dealership.POM - Exterior Color field is visible
+18:49:41.899 [TestNG-test=Test-1] INFO  Dealership.POM - Exterior Color field is filled
+18:49:41.943 [TestNG-test=Test-1] INFO  Dealership.POM - Next Button is visible
+18:49:42.034 [TestNG-test=Test-1] INFO  Dealership.POM - Next Button is clicked
+18:49:46.743 [TestNG-test=Test-1] INFO  Dealership.POM - Totalprice field is visible
+18:49:46.916 [TestNG-test=Test-1] INFO  Dealership.POM - Totalprice field is filled
+18:49:46.951 [TestNG-test=Test-1] INFO  Dealership.POM - Totalcost field is visible
+18:49:47.113 [TestNG-test=Test-1] INFO  Dealership.POM - Totalcost field is filled
+18:49:47.143 [TestNG-test=Test-1] INFO  Dealership.POM - Save Button is visible
+18:49:47.219 [TestNG-test=Test-1] INFO  Dealership.POM - Save Button is clicked
+18:49:52.249 [TestNG-test=Test-1] INFO  Dealership.POM - SaveTempUnit Button is visible
+18:49:52.358 [TestNG-test=Test-1] INFO  Dealership.POM - SaveTempUnit Button is clicked
+18:49:53.475 [TestNG-test=Test-1] INFO  Dealership.POM - TempUnitName is visible
+18:49:53.513 [TestNG-test=Test-1] INFO  Dealership.POM - Unit name is displayed correctly
+18:49:58.563 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is visible
+18:49:58.686 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is clicked
+18:49:59.337 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is visible
+18:49:59.482 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is clicked
+18:50:20.092 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenTemporaryUnit
+18:50:26.121 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ChangeWhenTradeinUnit
+18:50:30.474 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+18:50:32.239 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+18:50:32.288 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+18:50:32.600 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+18:51:08.676 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+18:51:10.447 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+18:51:11.061 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+18:51:11.403 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+18:51:13.540 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+18:51:43.844 [TestNG-test=Test-1] INFO  Dealership.POM - Quote Toggle button is visible
+18:51:43.936 [TestNG-test=Test-1] INFO  Dealership.POM - Quote Toggle button is clicked
+18:51:53.990 [TestNG-test=Test-1] INFO  Dealership.POM - The status of CO is Quote
+18:51:54.025 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is visible
+18:51:54.112 [TestNG-test=Test-1] INFO  Dealership.POM - Sell A Unit button is clicked
+18:51:56.334 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is visible
+18:51:56.371 [TestNG-test=Test-1] INFO  Dealership.POM - UnitDealStatus is Status: Quotation
+18:52:01.457 [TestNG-test=Test-1] INFO  Dealership.POM - AddTradeIn button is visible
+18:52:01.560 [TestNG-test=Test-1] INFO  Dealership.POM - AddTradeIn button is clicked
+18:52:03.736 [TestNG-test=Test-1] INFO  Dealership.POM - AddCOU button is visible
+18:52:03.818 [TestNG-test=Test-1] INFO  Dealership.POM - AddCOU button is clicked
+18:52:06.269 [TestNG-test=Test-1] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+18:52:11.316 [TestNG-test=Test-1] INFO  Dealership.POM - Make field is visible
+18:52:13.142 [TestNG-test=Test-1] INFO  Dealership.POM - Make is filed
+18:52:13.189 [TestNG-test=Test-1] INFO  Dealership.POM - Model field is visible
+18:52:14.349 [TestNG-test=Test-1] INFO  Dealership.POM - Model is filed
+18:52:14.379 [TestNG-test=Test-1] INFO  Dealership.POM - Sub-Model field is visible
+18:52:14.863 [TestNG-test=Test-1] INFO  Dealership.POM - Sub-Model is filed
+18:52:14.897 [TestNG-test=Test-1] INFO  Dealership.POM - Year field is visible
+18:52:15.213 [TestNG-test=Test-1] INFO  Dealership.POM - Year is filed
+18:52:15.261 [TestNG-test=Test-1] INFO  Dealership.POM - Addbutton is visible
+18:52:15.424 [TestNG-test=Test-1] INFO  Dealership.POM - Addbutton is clicked
+18:52:25.499 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is visible
+18:52:25.618 [TestNG-test=Test-1] INFO  Dealership.POM - Customer Header is clicked
+18:52:26.281 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is visible
+18:52:26.457 [TestNG-test=Test-1] INFO  Dealership.POM - Change Customer Button is clicked
+18:52:47.061 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ChangeWhenTradeinUnit
+18:52:52.971 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : SingleUnitOrder
+18:52:57.583 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+18:52:59.801 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+18:52:59.872 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+18:53:00.293 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+18:53:52.610 [TestNG-test=Test-1] INFO  Dealership.POM - Order link is visible
+18:53:52.688 [TestNG-test=Test-1] INFO  Dealership.POM - Order link is clicked
+18:53:52.829 [TestNG-test=Test-1] INFO  Dealership.POM - UnitOrder link is visible
+18:53:52.898 [TestNG-test=Test-1] INFO  Dealership.POM - UnitOrder link is clicked
+18:54:16.584 [TestNG-test=Test-1] INFO  Dealership.POM - FirstVendor link is visible
+18:54:21.673 [TestNG-test=Test-1] INFO  Dealership.POM - Orderunit Button is visible
+18:54:21.757 [TestNG-test=Test-1] INFO  Dealership.POM - Orderunit Button is clicked
+18:54:25.423 [TestNG-test=Test-1] INFO  Dealership.POM - MakeField is visible
+18:54:31.217 [TestNG-test=Test-1] INFO  Dealership.POM - MakeFieldDropdown is visible
+18:54:31.542 [TestNG-test=Test-1] INFO  Dealership.POM - MakeField is filled
+18:54:31.580 [TestNG-test=Test-1] INFO  Dealership.POM - Model Field is visible
+18:54:35.741 [TestNG-test=Test-1] INFO  Dealership.POM - ModelFieldDropdown is visible
+18:54:35.828 [TestNG-test=Test-1] INFO  Dealership.POM - ModelField is filled
+18:54:35.876 [TestNG-test=Test-1] INFO  Dealership.POM - SubModel Field is visible
+18:54:40.053 [TestNG-test=Test-1] INFO  Dealership.POM - SubModelFieldDropdown is visible
+18:54:40.137 [TestNG-test=Test-1] INFO  Dealership.POM - SubModelField is filled
+18:54:40.175 [TestNG-test=Test-1] INFO  Dealership.POM - YearUnitOrdering Field is visible
+18:54:40.302 [TestNG-test=Test-1] INFO  Dealership.POM - YearDropdown is visible
+18:54:40.382 [TestNG-test=Test-1] INFO  Dealership.POM - Year is selected
+18:54:40.424 [TestNG-test=Test-1] INFO  Dealership.POM - ConditionUnitOrdering Field is visible
+18:54:40.549 [TestNG-test=Test-1] INFO  Dealership.POM - ConditionDropdown is visible
+18:54:40.631 [TestNG-test=Test-1] INFO  Dealership.POM - Condition is selected
+18:54:40.688 [TestNG-test=Test-1] INFO  Dealership.POM - Colorfiled is visible
+18:54:40.856 [TestNG-test=Test-1] INFO  Dealership.POM - Colorfiled is selected
+18:54:40.906 [TestNG-test=Test-1] INFO  Dealership.POM - Factoryfiled is visible
+18:54:41.031 [TestNG-test=Test-1] INFO  Dealership.POM - Factoryfiled is filled
+18:54:41.070 [TestNG-test=Test-1] INFO  Dealership.POM - StockNumber is visible
+18:54:41.181 [TestNG-test=Test-1] INFO  Dealership.POM - StockNumber is filled
+18:54:41.212 [TestNG-test=Test-1] INFO  Dealership.POM - CategoryUnitOrdering Field is visible
+18:54:41.305 [TestNG-test=Test-1] INFO  Dealership.POM - CategoryDropdown is visible
+18:54:41.375 [TestNG-test=Test-1] INFO  Dealership.POM - CategoryDropdown is selected
+18:54:46.431 [TestNG-test=Test-1] INFO  Dealership.POM - OrderedDateUnitOrdering Field is visible
+18:54:48.595 [TestNG-test=Test-1] INFO  Dealership.POM - OrderDate is visible
+18:54:48.698 [TestNG-test=Test-1] INFO  Dealership.POM - OrderDate is selected
+18:54:48.760 [TestNG-test=Test-1] INFO  Dealership.POM - ExpectedDateUnitOrdering Field is visible
+18:54:50.916 [TestNG-test=Test-1] INFO  Dealership.POM - ExpectDate is visible
+18:54:50.977 [TestNG-test=Test-1] INFO  Dealership.POM - ExpectDate is selected
+18:54:51.014 [TestNG-test=Test-1] INFO  Dealership.POM - BaseUnitPrice is visible
+18:54:51.163 [TestNG-test=Test-1] INFO  Dealership.POM - BaseUnitPrice is filled
+18:54:51.199 [TestNG-test=Test-1] INFO  Dealership.POM - BaseUnitCost is visible
+18:54:51.337 [TestNG-test=Test-1] INFO  Dealership.POM - BaseUnitCost is filled
+18:54:51.386 [TestNG-test=Test-1] INFO  Dealership.POM - AddPricing button is visible
+18:54:51.465 [TestNG-test=Test-1] INFO  Dealership.POM - AddPricing button is clicked
+18:55:01.531 [TestNG-test=Test-1] INFO  Dealership.POM - Create Single Order Button is visible
+18:55:01.593 [TestNG-test=Test-1] INFO  Dealership.POM - Create Single Order Button is clicked
+18:55:06.926 [TestNG-test=Test-1] INFO  Dealership.POM - Orderunit is visible
+18:55:07.972 [TestNG-test=Test-1] INFO  Dealership.POM - Orderunit is clicked
+18:55:13.048 [TestNG-test=Test-1] INFO  Dealership.POM - Make is verified
+18:55:13.077 [TestNG-test=Test-1] INFO  Dealership.POM - Model is verified
+18:55:13.114 [TestNG-test=Test-1] INFO  Dealership.POM - SubModel is verified
+18:55:13.148 [TestNG-test=Test-1] INFO  Dealership.POM - Print Button is visible
+18:55:13.275 [TestNG-test=Test-1] INFO  Dealership.POM - Print Button is clicked
+18:55:23.417 [TestNG-test=Test-1] INFO  Dealership.POM - Edit button is visible
+18:55:23.712 [TestNG-test=Test-1] INFO  Dealership.POM - Edit button is clicked
+18:55:28.746 [TestNG-test=Test-1] INFO  Dealership.POM - Save button is visible
+18:55:28.804 [TestNG-test=Test-1] INFO  Dealership.POM - Save button is clicked
+18:55:33.876 [TestNG-test=Test-1] INFO  Dealership.POM - Receive button is visible
+18:55:33.976 [TestNG-test=Test-1] INFO  Dealership.POM - Receive button is clicked
+18:55:37.492 [TestNG-test=Test-1] INFO  Dealership.POM - Model Name is verified
+18:55:37.523 [TestNG-test=Test-1] INFO  Dealership.POM - VINField is visible
+18:55:37.611 [TestNG-test=Test-1] INFO  Dealership.POM - VINField is filled
+18:55:37.641 [TestNG-test=Test-1] INFO  Dealership.POM - InvoiceNumberField is visible
+18:55:37.747 [TestNG-test=Test-1] INFO  Dealership.POM - InvoiceNumberField is filled
+18:55:37.779 [TestNG-test=Test-1] INFO  Dealership.POM - InvoiceDateField is visible
+18:55:37.890 [TestNG-test=Test-1] INFO  Dealership.POM - InvoiceDateField is filled
+18:55:42.960 [TestNG-test=Test-1] INFO  Dealership.POM - InvoiceDate is visible
+18:55:43.057 [TestNG-test=Test-1] INFO  Dealership.POM - InvoiceDate is selected
+18:55:45.117 [TestNG-test=Test-1] INFO  Dealership.POM - ConfirmButton is visible
+18:55:45.205 [TestNG-test=Test-1] INFO  Dealership.POM - ConfirmButton is selected
+18:56:04.057 [TestNG-test=Test-1] INFO  Dealership.POM - ReceivedUnit is visible
+18:56:04.091 [TestNG-test=Test-1] INFO  Dealership.POM - UNTNumber is [[ChromeDriver: chrome on WINDOWS (13c6a3a7556850a5f1278c91efa715b6)] -> xpath: //tr/td/span[contains(text(),'UNT')]]
+18:56:04.091 [TestNG-test=Test-1] INFO  Dealership.POM - Test case SingleUnitOrder passes successfully
+18:56:10.112 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : BulkUnitOrder
+18:56:14.327 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+18:56:16.395 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+18:56:16.503 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+18:56:16.803 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+18:56:51.716 [TestNG-test=Test-1] INFO  Dealership.POM - Order link is visible
+18:56:51.830 [TestNG-test=Test-1] INFO  Dealership.POM - Order link is clicked
+18:56:52.073 [TestNG-test=Test-1] INFO  Dealership.POM - UnitOrder link is visible
+18:56:52.170 [TestNG-test=Test-1] INFO  Dealership.POM - UnitOrder link is clicked
+18:56:57.889 [TestNG-test=Test-1] INFO  Dealership.POM - FirstVendor link is visible
+18:57:02.972 [TestNG-test=Test-1] INFO  Dealership.POM - Orderunit Button is visible
+18:57:03.047 [TestNG-test=Test-1] INFO  Dealership.POM - Orderunit Button is clicked
+18:57:06.828 [TestNG-test=Test-1] INFO  Dealership.POM - MakeField is visible
+18:57:11.144 [TestNG-test=Test-1] INFO  Dealership.POM - MakeFieldDropdown is visible
+18:57:11.536 [TestNG-test=Test-1] INFO  Dealership.POM - MakeField is filled
+18:57:11.573 [TestNG-test=Test-1] INFO  Dealership.POM - Model Field is visible
+18:57:15.709 [TestNG-test=Test-1] INFO  Dealership.POM - ModelFieldDropdown is visible
+18:57:15.850 [TestNG-test=Test-1] INFO  Dealership.POM - ModelField is filled
+18:57:15.899 [TestNG-test=Test-1] INFO  Dealership.POM - SubModel Field is visible
+18:57:20.071 [TestNG-test=Test-1] INFO  Dealership.POM - SubModelFieldDropdown is visible
+18:57:20.164 [TestNG-test=Test-1] INFO  Dealership.POM - SubModelField is filled
+18:57:20.214 [TestNG-test=Test-1] INFO  Dealership.POM - YearUnitOrdering Field is visible
+18:57:20.363 [TestNG-test=Test-1] INFO  Dealership.POM - YearDropdown is visible
+18:57:20.448 [TestNG-test=Test-1] INFO  Dealership.POM - Year is selected
+18:57:20.490 [TestNG-test=Test-1] INFO  Dealership.POM - ConditionUnitOrdering Field is visible
+18:57:20.603 [TestNG-test=Test-1] INFO  Dealership.POM - ConditionDropdown is visible
+18:57:20.663 [TestNG-test=Test-1] INFO  Dealership.POM - Condition is selected
+18:57:20.700 [TestNG-test=Test-1] INFO  Dealership.POM - Colorfiled is visible
+18:57:20.796 [TestNG-test=Test-1] INFO  Dealership.POM - Colorfiled is selected
+18:57:20.827 [TestNG-test=Test-1] INFO  Dealership.POM - Factoryfiled is visible
+18:57:20.923 [TestNG-test=Test-1] INFO  Dealership.POM - Factoryfiled is filled
+18:57:20.954 [TestNG-test=Test-1] INFO  Dealership.POM - CategoryUnitOrdering Field is visible
+18:57:21.050 [TestNG-test=Test-1] INFO  Dealership.POM - CategoryDropdown is visible
+18:57:21.130 [TestNG-test=Test-1] INFO  Dealership.POM - CategoryDropdown is selected
+18:57:26.184 [TestNG-test=Test-1] INFO  Dealership.POM - OrderedDateUnitOrdering Field is visible
+18:57:31.409 [TestNG-test=Test-1] INFO  Dealership.POM - OrderDate is visible
+18:57:31.511 [TestNG-test=Test-1] INFO  Dealership.POM - OrderDate is selected
+18:57:31.552 [TestNG-test=Test-1] INFO  Dealership.POM - ExpectedDateUnitOrdering Field is visible
+18:57:36.687 [TestNG-test=Test-1] INFO  Dealership.POM - ExpectDate is visible
+18:57:36.765 [TestNG-test=Test-1] INFO  Dealership.POM - ExpectDate is selected
+18:57:36.813 [TestNG-test=Test-1] INFO  Dealership.POM - BaseUnitPrice is visible
+18:57:37.010 [TestNG-test=Test-1] INFO  Dealership.POM - BaseUnitPrice is filled
+18:57:37.048 [TestNG-test=Test-1] INFO  Dealership.POM - BaseUnitCost is visible
+18:57:37.187 [TestNG-test=Test-1] INFO  Dealership.POM - BaseUnitCost is filled
+18:57:37.226 [TestNG-test=Test-1] INFO  Dealership.POM - AddPricing button is visible
+18:57:37.294 [TestNG-test=Test-1] INFO  Dealership.POM - AddPricing button is clicked
+18:57:47.365 [TestNG-test=Test-1] INFO  Dealership.POM - BulkOrder button is visible
+18:57:47.456 [TestNG-test=Test-1] INFO  Dealership.POM - BulkOrder button is clicked
+18:57:57.498 [TestNG-test=Test-1] INFO  Dealership.POM - BulkHandlingInputId is visible
+18:57:57.565 [TestNG-test=Test-1] INFO  Dealership.POM - BulkHandlingInputId is clicked
+18:57:57.598 [TestNG-test=Test-1] INFO  Dealership.POM - ConfirmButton is visible
+18:57:57.675 [TestNG-test=Test-1] INFO  Dealership.POM - ConfirmButton is clicked
+18:58:09.343 [TestNG-test=Test-1] INFO  Dealership.POM - Unit 1 is selected
+18:58:09.520 [TestNG-test=Test-1] INFO  Dealership.POM - Unit 2 is selected
+18:58:09.717 [TestNG-test=Test-1] INFO  Dealership.POM - Unit 3 is selected
+18:58:09.717 [TestNG-test=Test-1] INFO  Dealership.POM - All units are selected
+18:58:09.788 [TestNG-test=Test-1] INFO  Dealership.POM - Print Button is visible
+18:58:10.113 [TestNG-test=Test-1] INFO  Dealership.POM - Print Button is clicked
+18:58:23.250 [TestNG-test=Test-1] INFO  Dealership.POM - Receive button is visible
+18:58:23.349 [TestNG-test=Test-1] INFO  Dealership.POM - Receive button is clicked
+18:58:31.108 [TestNG-test=Test-1] INFO  Dealership.POM - InvoiceToggle button is visible
+18:58:31.187 [TestNG-test=Test-1] INFO  Dealership.POM - InvoiceToggle button is clicked
+18:58:31.237 [TestNG-test=Test-1] INFO  Dealership.POM - InvoiceNumber Field is visible
+18:58:31.403 [TestNG-test=Test-1] INFO  Dealership.POM - InvoiceNumber Field is clicked
+18:58:31.461 [TestNG-test=Test-1] INFO  Dealership.POM - InvoiceDate field is visible
+18:58:31.628 [TestNG-test=Test-1] INFO  Dealership.POM - InvoiceDate field is clicked
+18:58:33.676 [TestNG-test=Test-1] INFO  Dealership.POM - SelectrDate is visible
+18:58:33.782 [TestNG-test=Test-1] INFO  Dealership.POM - SelectrDate is selected
+18:58:34.199 [TestNG-test=Test-1] INFO  Dealership.POM - Vin Field 1 is filled
+18:58:34.462 [TestNG-test=Test-1] INFO  Dealership.POM - Vin Field 2 is filled
+18:58:34.784 [TestNG-test=Test-1] INFO  Dealership.POM - Vin Field 3 is filled
+18:58:34.851 [TestNG-test=Test-1] INFO  Dealership.POM - Confirm button is visible
+18:58:35.019 [TestNG-test=Test-1] INFO  Dealership.POM - Confirm button is selected
+18:58:41.816 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : BulkUnitOrder
+18:58:47.844 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : PartOrderReceiveInvoice
+18:58:52.838 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+18:58:55.037 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+18:58:55.201 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+18:58:55.607 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+18:59:31.528 [TestNG-test=Test-1] INFO  Dealership.POM - GlobalSearch is visible
+18:59:36.175 [TestNG-test=Test-1] INFO  Dealership.POM - SearchResult is visible
+18:59:36.280 [TestNG-test=Test-1] INFO  Dealership.POM - Part is selected
+18:59:56.422 [TestNG-test=Test-1] INFO  Dealership.POM - 3 parts are instock
+18:59:56.485 [TestNG-test=Test-1] INFO  Dealership.POM - Order link is visible
+18:59:56.545 [TestNG-test=Test-1] INFO  Dealership.POM - Order link is clicked
+18:59:56.699 [TestNG-test=Test-1] INFO  Dealership.POM - PartOrder link is visible
+18:59:56.795 [TestNG-test=Test-1] INFO  Dealership.POM - PartOrder link is clicked
+19:00:07.257 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor_Input is visible
+19:00:07.449 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor_Input is filled
+19:00:10.090 [TestNG-test=Test-1] INFO  Dealership.POM - SearchResult is visible
+19:00:10.233 [TestNG-test=Test-1] INFO  Dealership.POM - SearchResult is selected
+19:00:30.634 [TestNG-test=Test-1] INFO  Dealership.POM - AddItems link is visible
+19:00:30.725 [TestNG-test=Test-1] INFO  Dealership.POM - AddItems link is clicked
+19:00:30.764 [TestNG-test=Test-1] INFO  Dealership.POM - SearchPart field is visible
+19:00:31.032 [TestNG-test=Test-1] INFO  Dealership.POM - Part Name is entered
+19:00:32.648 [TestNG-test=Test-1] INFO  Dealership.POM - PartName is visible
+19:00:32.710 [TestNG-test=Test-1] INFO  Dealership.POM - PartName is selected
+19:00:42.873 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : PartOrderReceiveInvoice
+19:00:48.838 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : PartOrderfromCO
+19:00:53.265 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:00:56.289 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:00:56.330 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:00:56.556 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:01:32.603 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:01:34.138 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:01:34.792 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+19:01:35.039 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+19:01:37.587 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+19:02:07.890 [TestNG-test=Test-1] INFO  Dealership.POM - SellPartandAccs button is visible
+19:02:07.974 [TestNG-test=Test-1] INFO  Dealership.POM - SellPartandAccs button is clicked
+19:02:10.767 [TestNG-test=Test-1] INFO  Dealership.POM - Searchbox is visible
+19:02:21.124 [TestNG-test=Test-1] INFO  Dealership.POM - Merchentity is visible
+19:02:31.229 [TestNG-test=Test-1] INFO  Dealership.POM - Merchentity is selected
+19:02:31.269 [TestNG-test=Test-1] INFO  Dealership.POM - PartStatus is visible
+19:02:31.459 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : PartOrderfromCO
+19:02:38.077 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : SpecialOrder
+19:02:42.868 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:02:44.982 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:02:45.072 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:02:45.342 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:03:21.887 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:03:23.266 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:03:23.683 [TestNG-test=Test-1] INFO  Dealership.POM - Sell Part tile is displayed
+19:03:23.795 [TestNG-test=Test-1] INFO  Dealership.POM - Sell Part tile is clicked
+19:03:24.476 [TestNG-test=Test-1] INFO  Dealership.POM - Searchbox is visible
+19:03:24.504 [TestNG-test=Test-1] INFO  Dealership.POM - Searchbox is visible
+19:03:28.354 [TestNG-test=Test-1] INFO  Dealership.POM - Merchentity is visible
+19:03:28.451 [TestNG-test=Test-1] INFO  Dealership.POM - Merchentity is selected
+19:03:29.252 [TestNG-test=Test-1] INFO  Dealership.POM - OversoldPopUpText is visible
+19:03:29.347 [TestNG-test=Test-1] INFO  Dealership.POM - OversoldPopUpText is correct
+19:03:29.379 [TestNG-test=Test-1] INFO  Dealership.POM - Create Special Order Action Btn is visible
+19:03:29.471 [TestNG-test=Test-1] INFO  Dealership.POM - Create Special Order Action Btn is clicked
+19:03:30.122 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+19:03:32.126 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+19:03:42.568 [TestNG-test=Test-1] INFO  Dealership.POM - The CONumber is CO-0004817
+19:03:42.618 [TestNG-test=Test-1] INFO  Dealership.POM - Order link is visible
+19:03:42.747 [TestNG-test=Test-1] INFO  Dealership.POM - Order link is clicked
+19:03:42.955 [TestNG-test=Test-1] INFO  Dealership.POM - PartOrder link is visible
+19:03:43.068 [TestNG-test=Test-1] INFO  Dealership.POM - PartOrder link is clicked
+19:03:48.185 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor_Input is visible
+19:03:48.474 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor_Input is filled
+19:03:50.592 [TestNG-test=Test-1] INFO  Dealership.POM - SearchResult is visible
+19:03:50.746 [TestNG-test=Test-1] INFO  Dealership.POM - SearchResult is selected
+19:04:00.812 [TestNG-test=Test-1] INFO  Dealership.POM - PartCheckbox is visible
+19:04:00.882 [TestNG-test=Test-1] INFO  Dealership.POM - PartCheckbox is selected
+19:04:10.957 [TestNG-test=Test-1] INFO  Dealership.POM - AddSelectedButton is visible
+19:04:11.030 [TestNG-test=Test-1] INFO  Dealership.POM - AddSelectedButton is clicked
+19:04:16.376 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : SpecialOrder
+19:04:22.381 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : Oversold
+19:04:26.802 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:04:29.476 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:04:29.527 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:04:29.732 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:05:05.464 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+19:05:07.365 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+19:05:07.910 [TestNG-test=Test-1] INFO  Dealership.POM - Sell Part tile is displayed
+19:05:08.206 [TestNG-test=Test-1] INFO  Dealership.POM - Sell Part tile is clicked
+19:05:08.376 [TestNG-test=Test-1] INFO  Dealership.POM - Searchbox is visible
+19:05:08.421 [TestNG-test=Test-1] INFO  Dealership.POM - Searchbox is visible
+19:05:11.979 [TestNG-test=Test-1] INFO  Dealership.POM - Merchentity is visible
+19:05:12.052 [TestNG-test=Test-1] INFO  Dealership.POM - Merchentity is selected
+19:05:12.656 [TestNG-test=Test-1] INFO  Dealership.POM - OversoldPopUpText is visible
+19:05:12.683 [TestNG-test=Test-1] INFO  Dealership.POM - OversoldPopUpText is correct
+19:05:12.717 [TestNG-test=Test-1] INFO  Dealership.POM - Oversold Action Btn is visible
+19:05:12.856 [TestNG-test=Test-1] INFO  Dealership.POM - Oversold Action Btn is clicked
+19:05:20.137 [TestNG-test=Test-1] INFO  Dealership.POM - Checkout_Button is visible
+19:05:45.711 [TestNG-test=Test-1] INFO  Dealership.POM - Payment option is visible
+19:05:45.815 [TestNG-test=Test-1] INFO  Dealership.POM - Payment option is selected
+19:05:45.866 [TestNG-test=Test-1] INFO  Dealership.POM - AddPayment Button is visible
+19:05:46.027 [TestNG-test=Test-1] INFO  Dealership.POM - AddPayment Button is clicked
+19:05:56.069 [TestNG-test=Test-1] INFO  Dealership.POM - Finalize Button is visible
+19:05:56.157 [TestNG-test=Test-1] INFO  Dealership.POM - Finalize Button is clicked
+19:06:06.225 [TestNG-test=Test-1] INFO  Dealership.POM - Invoice Window is visible
+19:06:06.383 [TestNG-test=Test-1] INFO  Dealership.POM - Invoice Close Button is visible
+19:06:06.424 [TestNG-test=Test-1] INFO  Dealership.POM - Invoice Close Button is clicked
+19:06:16.466 [TestNG-test=Test-1] INFO  Dealership.POM - CO Status is visible
+19:06:16.493 [TestNG-test=Test-1] INFO  Dealership.POM - CO Status is Closed
+19:06:16.494 [TestNG-test=Test-1] INFO  Dealership.POM - Test case Oversold passes successfully
+19:06:22.391 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : PartReturntoVendor
+19:06:33.344 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:06:40.118 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:06:40.163 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:06:40.325 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:07:37.402 [TestNG-test=Test-1] INFO  Dealership.POM - GlobalSearch is visible
+19:07:42.590 [TestNG-test=Test-1] INFO  Dealership.POM - SearchResult is visible
+19:07:42.702 [TestNG-test=Test-1] INFO  Dealership.POM - Part is selected
+19:08:07.797 [TestNG-test=Test-1] INFO  Dealership.POM - 3 parts are instock
+19:08:07.849 [TestNG-test=Test-1] INFO  Dealership.POM - Order link is visible
+19:08:07.913 [TestNG-test=Test-1] INFO  Dealership.POM - Order link is clicked
+19:08:08.066 [TestNG-test=Test-1] INFO  Dealership.POM - PartReturn link is visible
+19:08:08.134 [TestNG-test=Test-1] INFO  Dealership.POM - PartReturn link is clicked
+19:08:14.337 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor_Input is visible
+19:08:14.577 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor_Input is filled
+19:08:17.229 [TestNG-test=Test-1] INFO  Dealership.POM - SearchResult is visible
+19:08:17.338 [TestNG-test=Test-1] INFO  Dealership.POM - SearchResult is selected
+19:08:22.438 [TestNG-test=Test-1] INFO  Dealership.POM - The Status is In Progress
+19:08:22.500 [TestNG-test=Test-1] INFO  Dealership.POM - AddItems link is visible
+19:08:22.590 [TestNG-test=Test-1] INFO  Dealership.POM - AddItems link is clicked
+19:08:22.649 [TestNG-test=Test-1] INFO  Dealership.POM - SearchPart field is visible
+19:08:22.824 [TestNG-test=Test-1] INFO  Dealership.POM - Part Name is entered
+19:08:24.425 [TestNG-test=Test-1] INFO  Dealership.POM - PartName is visible
+19:08:24.486 [TestNG-test=Test-1] INFO  Dealership.POM - PartName is selected
+19:08:40.255 [TestNG-test=Test-1] INFO  Dealership.POM - ReturnQty field is visible
+19:08:40.307 [TestNG-test=Test-1] INFO  Dealership.POM - ReturnQty is filled
+19:08:40.489 [TestNG-test=Test-1] INFO  Dealership.POM - RMA field is visible
+19:08:40.618 [TestNG-test=Test-1] INFO  Dealership.POM - CreditMemo field is visible
+19:08:42.354 [TestNG-test=Test-1] INFO  Dealership.POM - RMA field is filled
+19:08:42.354 [TestNG-test=Test-1] INFO  Dealership.POM - CreditMemo field is filled
+19:08:42.386 [TestNG-test=Test-1] INFO  Dealership.POM - Submit Return Button is visible
+19:08:42.453 [TestNG-test=Test-1] INFO  Dealership.POM - Submit Return Button is clicked
+19:08:43.613 [TestNG-test=Test-1] INFO  Dealership.POM - The Status is Submitted
+19:08:43.691 [TestNG-test=Test-1] INFO  Dealership.POM - Set As Approved Button is visible
+19:08:43.765 [TestNG-test=Test-1] INFO  Dealership.POM - Set As Approved Button is clicked
+19:08:45.382 [TestNG-test=Test-1] INFO  Dealership.POM - The Status is Approved
+19:08:45.437 [TestNG-test=Test-1] INFO  Dealership.POM - Process Credit Button is visible
+19:08:45.495 [TestNG-test=Test-1] INFO  Dealership.POM - Process Credit Button is clicked
+19:09:00.602 [TestNG-test=Test-1] INFO  Dealership.POM - The Status is Credited
+19:09:05.128 [TestNG-test=Test-1] INFO  Dealership.POM - SearchResult is visible
+19:09:06.639 [TestNG-test=Test-1] INFO  Dealership.POM - Part is selected
+19:09:26.736 [TestNG-test=Test-1] INFO  Dealership.POM - 2 parts are instock
+19:09:26.736 [TestNG-test=Test-1] INFO  Dealership.POM - Succesfully returned -1 Parts to vendor Qavendor-21_01_202203_10_38
+19:09:26.737 [TestNG-test=Test-1] INFO  Dealership.POM - Test case PartReturntoVendor passes successfully
+19:09:32.685 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : CreateEditDeleteAppointment
+19:09:37.354 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:09:43.166 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:09:43.218 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:09:43.401 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:20:34.160 [TestNG-test=Test-1] INFO  Dealership.POM - Schedule link is visible
+19:20:34.658 [TestNG-test=Test-1] INFO  Dealership.POM - Schedule link is clicked
+19:20:49.699 [TestNG-test=Test-1] INFO  Dealership.POM - New Appointment Button is visible
+19:20:51.347 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CreateEditDeleteAppointment
+19:20:57.328 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : CreateandView
+19:21:02.036 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:21:04.053 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:21:04.118 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:21:04.418 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:21:56.699 [TestNG-test=Test-1] INFO  Dealership.POM - Schedule link is visible
+19:21:56.827 [TestNG-test=Test-1] INFO  Dealership.POM - Schedule link is clicked
+19:22:09.511 [TestNG-test=Test-1] INFO  Dealership.POM - New Appointment Button is visible
+19:22:09.623 [TestNG-test=Test-1] INFO  Dealership.POM - New Appointment Button is clicked
+19:22:26.943 [TestNG-test=Test-1] INFO  Dealership.POM - Appointment_schedule_content is visible
+19:22:27.099 [TestNG-test=Test-1] INFO  Dealership.POM - Appointment_schedule_content is clicked
+19:22:32.773 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CreateandView
+19:22:38.651 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : MoveAppointment
+19:22:42.839 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:22:44.510 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:22:44.603 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:22:44.770 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:23:22.376 [TestNG-test=Test-1] INFO  Dealership.POM - Schedule link is visible
+19:23:22.463 [TestNG-test=Test-1] INFO  Dealership.POM - Schedule link is clicked
+19:23:33.953 [TestNG-test=Test-1] INFO  Dealership.POM - New Appointment Button is visible
+19:23:34.029 [TestNG-test=Test-1] INFO  Dealership.POM - New Appointment Button is clicked
+19:23:39.913 [TestNG-test=Test-1] INFO  Dealership.POM - Appointment_schedule_content is visible
+19:23:40.198 [TestNG-test=Test-1] INFO  Dealership.POM - Appointment_schedule_content is clicked
+19:23:45.508 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : MoveAppointment
+19:23:51.452 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : UnassignedAppointment
+19:23:55.874 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+19:23:57.505 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+19:23:57.571 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+19:23:57.791 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+19:24:34.436 [TestNG-test=Test-1] INFO  Dealership.POM - Schedule link is visible
+19:24:34.502 [TestNG-test=Test-1] INFO  Dealership.POM - Schedule link is clicked
+19:24:45.988 [TestNG-test=Test-1] INFO  Dealership.POM - DayViewLink is visible
+19:24:46.077 [TestNG-test=Test-1] INFO  Dealership.POM - DayViewLink is opened
+19:25:11.982 [TestNG-test=Test-1] INFO  Dealership.POM - Un-assigned Appointments link is visible
+19:25:12.075 [TestNG-test=Test-1] INFO  Dealership.POM - Un-assigned Appointments are opened
+19:25:17.192 [TestNG-test=Test-1] INFO  Dealership.POM - APSearchfield is visible
+19:25:17.360 [TestNG-test=Test-1] INFO  Dealership.POM - APSearchfield is filled
+19:25:17.428 [TestNG-test=Test-1] INFO  Dealership.POM - TestAppointment is visible
+19:25:18.068 [TestNG-test=Test-1] INFO  Dealership.POM - TestAppointment is assigned to a Technician
+19:25:44.173 [TestNG-test=Test-1] INFO  Dealership.POM - DayViewLink is visible
+19:25:44.276 [TestNG-test=Test-1] INFO  Dealership.POM - DayViewLink is opened
+19:25:53.783 [TestNG-test=Test-1] INFO  Dealership.POM - 1 appointments are present
+19:25:54.110 [TestNG-test=Test-1] INFO  Dealership.POM - Appointment is clicked
+19:26:04.113 [TestNG-test=Test-1] INFO  Dealership.POM - Appointment is opened
+19:26:11.698 [TestNG-test=Test-1] INFO  Dealership.POM - ConcernNewTag is visible
+19:26:11.994 [TestNG-test=Test-1] INFO  Dealership.POM - ConcernNewTag is filled
+19:26:12.022 [TestNG-test=Test-1] INFO  Dealership.POM - EstimatedHours is visible
+19:26:12.175 [TestNG-test=Test-1] INFO  Dealership.POM - EstimatedHours is filled

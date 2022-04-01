@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="17" total="18" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Status of execution : 1]]>
     </line>
     <line>
-      <![CDATA[Test case Userpermissions passes successfully]]>
+      <![CDATA[Test case CashSaleTax passes successfully]]>
     </line>
     <line>
       <![CDATA[
 ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="240132" started-at="2022-03-21T10:47:57 IST" finished-at="2022-03-21T10:51:57 IST">
+  <suite name="Default suite" duration-ms="205392" started-at="2022-03-31T18:35:22 IST" finished-at="2022-03-31T18:38:48 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="240132" started-at="2022-03-21T10:47:57 IST" finished-at="2022-03-21T10:51:57 IST">
-      <class name="Dealership.SystemSettings">
-        <test-method status="PASS" signature="Userpermissions()[pri:66, instance:Dealership.SystemSettings@3c77d488]" name="Userpermissions" duration-ms="233932" started-at="2022-03-21T10:47:57 IST" finished-at="2022-03-21T10:51:51 IST">
+    <test name="Default test" duration-ms="205392" started-at="2022-03-31T18:35:22 IST" finished-at="2022-03-31T18:38:48 IST">
+      <class name="Dealership.AusOnTaxClass1">
+        <test-method status="PASS" signature="CashSaleTax()[pri:67, instance:Dealership.AusOnTaxClass1@738dc9b]" name="CashSaleTax" duration-ms="199252" started-at="2022-03-31T18:35:22 IST" finished-at="2022-03-31T18:38:42 IST">
           <reporter-output>
             <line>
               <![CDATA[Status of execution : 1]]>
             </line>
             <line>
-              <![CDATA[Test case Userpermissions passes successfully]]>
+              <![CDATA[Test case CashSaleTax passes successfully]]>
             </line>
             <line>
               <![CDATA[
 ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Userpermissions -->
-      </class> <!-- Dealership.SystemSettings -->
+        </test-method> <!-- CashSaleTax -->
+      </class> <!-- Dealership.AusOnTaxClass1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

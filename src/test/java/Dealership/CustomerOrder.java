@@ -139,7 +139,7 @@ public class CustomerOrder extends POM
 		log.info("AddPayment Button is visible");
 		AddPayment.click();
 		log.info("AddPayment Button is clicked");
-		Thread.sleep(10000);
+		Thread.sleep(20000);
 		
 		WebElement FinalizeButton = driver.findElement(By.xpath(finalizebutton));
 		Assert.assertTrue(FinalizeButton.isDisplayed(), "Finalize Button is missing");
@@ -148,8 +148,8 @@ public class CustomerOrder extends POM
 		log.info("Finalize Button is clicked");
 		Thread.sleep(10000);
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("entityInfo_0")));
 		WebElement InvoiceWindow = driver.findElement(By.xpath(invoicewindow));
-		
 		Assert.assertTrue(InvoiceWindow.isDisplayed(), "Invoice Window is missing");
 		log.info("Invoice Window is visible");
 		
@@ -854,8 +854,9 @@ public class CustomerOrder extends POM
 		Assert.assertTrue(Searchbox1.isDisplayed(), "Searchbox is missing");
 		log.info("Searchbox is visible");
 //		Searchbox.sendKeys(Masterdata.NewPart);
-		Searchbox1.sendKeys("Part-21_12_202104_14_55");
-		
+//		Searchbox1.sendKeys("Part-21_12_202104_14_55");
+		Searchbox1.sendKeys("Part-21_12_202103_20_26 ");
+
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("entityInfo_0")));
 		WebElement Merchentity = driver.findElement(By.id("entityInfo_0"));
 		Assert.assertTrue(Merchentity.isDisplayed(), "Merchentity is missing");
@@ -871,7 +872,9 @@ public class CustomerOrder extends POM
 		Assert.assertTrue(Searchbox2.isDisplayed(), "Searchbox is missing");
 		log.info("Searchbox is visible");
 //		Searchbox.sendKeys(Masterdata.NewFee);
-		Searchbox2.sendKeys("Qafee-");
+//		Searchbox2.sendKeys("Qafee-");
+		Searchbox2.sendKeys("fee");
+
 
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("entityInfo_0")));
 		WebElement Feeentity = driver.findElement(By.id("entityInfo_0"));
@@ -906,8 +909,9 @@ public class CustomerOrder extends POM
 		{
 			driver.findElement(By.id("cashDrawer")).click();
 			driver.findElement(By.id("cashDrawerDropdownDiv")).click();
+//			driver.findElement(By.id("terminal")).click();
+//			driver.findElement(By.id("terminalDropdownDiv")).click();
 			driver.findElement(By.xpath(selectdrawerbutton)).click();
-			Thread.sleep(10000);
 			Checkout_Button.click();
 			Thread.sleep(10000);
 		}
@@ -923,7 +927,7 @@ public class CustomerOrder extends POM
 		log.info("AddPayment Button is visible");
 		AddPayment.click();
 		log.info("AddPayment Button is clicked");
-		Thread.sleep(10000);
+		Thread.sleep(20000);
 		
 		WebElement FinalizeButton = driver.findElement(By.xpath(finalizebutton));
 		Assert.assertTrue(FinalizeButton.isDisplayed(), "Finalize Button is missing");
@@ -932,10 +936,11 @@ public class CustomerOrder extends POM
 		log.info("Finalize Button is clicked");
 		Thread.sleep(10000);
 		
-		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(invoicewindow)));
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("entityInfo_0")));
 		WebElement InvoiceWindow = driver.findElement(By.xpath(invoicewindow));
 		Assert.assertTrue(InvoiceWindow.isDisplayed(), "Invoice Window is missing");
 		log.info("Invoice Window is visible");
+		
 		
 		WebElement Cancel = driver.findElement(By.xpath(cancel));
 		Cancel.click();
@@ -1440,6 +1445,5 @@ public class CustomerOrder extends POM
 		
 	}
 
-	
-	
+
 }
