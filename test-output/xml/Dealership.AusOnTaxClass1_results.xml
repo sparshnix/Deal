@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="199.252">
+           time="114.442">
   <properties />
   
   
-            <testcase name="CashSaleTax" time="199.252" classname="Dealership.AusOnTaxClass1" />
+            <testcase name="SalePrice" time="114.442" classname="Dealership.AusOnTaxClass1" />
       
 </testsuite>

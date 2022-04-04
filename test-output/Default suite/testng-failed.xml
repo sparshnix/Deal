@@ -5,7 +5,7 @@
     <classes>
       <class name="Dealership.AusOnTaxClass1">
         <methods>
-          <include name="CashSaleTax"/>
+          <include name="SalePrice"/>
         </methods>
       </class> <!-- Dealership.AusOnTaxClass1 -->
     </classes>

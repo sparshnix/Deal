@@ -506,7 +506,7 @@ public class Property extends Variables {
 		
 		//Tax Calculation
 		checkoutTotal				=	locators.getProperty("checkoutTotal");
-		
+		printtotal					=	locators.getProperty("printtotal");
 		
 		
 		

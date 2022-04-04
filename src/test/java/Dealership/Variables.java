@@ -107,7 +107,7 @@ public class Variables {
 	sorticon, deleteicon,
 	
 	//Tax Calculation
-	checkoutTotal
+	checkoutTotal, printtotal
 	
 	
 	
