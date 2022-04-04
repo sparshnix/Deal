@@ -60,7 +60,8 @@ public class Masterdata extends POM {
 		Addnew.click();
 		Assert.assertTrue(Addnew.isEnabled(), "Button is not clicked");
 		log.info("Addnew button is clicked");
-		
+
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(customer)));
 		WebElement Customer = driver.findElement(By.xpath(customer));
 		Assert.assertTrue(Customer.isDisplayed(), "Button is missing");
 		log.info("Customer button is displayed");
@@ -69,6 +70,7 @@ public class Masterdata extends POM {
 		log.info("Customer button is clicked");
         Thread.sleep(10000);
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(smallheader)));
 		WebElement Smallheader = driver.findElement(By.xpath(smallheader));
 		Assert.assertTrue(Smallheader.isDisplayed(), "Button is missing");
 		String Smallheadertext = Smallheader.getText();
@@ -76,6 +78,7 @@ public class Masterdata extends POM {
 		Assert.assertEquals(Smallheadertext, "CREATE NEW CUSTOMER");
 		log.info("Customer creation window is opened");
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("new-customer-first-name")));
 		WebElement Firstname = driver.findElement(By.id("new-customer-first-name"));
 		Assert.assertTrue(Firstname.isDisplayed(), "Firstname field is missing");
 		log.info("Firstname field is visible");
@@ -83,25 +86,27 @@ public class Masterdata extends POM {
 		Firstname.sendKeys(NewCustomer);
 		log.info("Firstname  is filled");
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("new-customer-last-name")));
 		WebElement Lastname = driver.findElement(By.id("new-customer-last-name"));
 		Assert.assertTrue(Lastname.isDisplayed(), "Lastname field is missing");
 		log.info("Lastname field is visible");
 		Lastname.sendKeys(lastname);
 		log.info("Lastname  is filled");
 		
-		wt.until(ExpectedConditions.elementToBeClickable(By.xpath(accounttypedropdown)));
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(accounttypedropdown)));
 		WebElement Accounttypedropdown = driver.findElement(By.xpath(accounttypedropdown));
 		Assert.assertTrue(Accounttypedropdown.isDisplayed(), "Account type field is missing");
 		log.info("Account type field is visible");
 		Accounttypedropdown.click();
 		log.info("Account type  is clicked");
-		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(accounttypevalue)));
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(accounttypevalue)));
 		WebElement Accounttypevalue = driver.findElement(By.xpath(accounttypevalue));
 		Assert.assertTrue(Accounttypevalue.isDisplayed(), "Account type value is missing");
 		Accounttypevalue.click();
 		log.info("Account type  is selected");
 		
-		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("customer-email")));
 		WebElement Email = driver.findElement(By.id("customer-email"));
 		Assert.assertTrue(Email.isDisplayed(), "Email field is missing");
 		log.info("Email field is visible");
@@ -109,13 +114,14 @@ public class Masterdata extends POM {
 		Email.sendKeys(email);
 		log.info("Email  is filled");
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("customer-mobile-number")));
 		WebElement Mobilenumber = driver.findElement(By.id("customer-mobile-number"));
 		Assert.assertTrue(Mobilenumber.isDisplayed(), "Mobilenumber field is missing");
 		log.info("Mobilenumber field is visible");
 		Mobilenumber.sendKeys(phonenumber);
 		log.info("Mobilenumber  is filled");
 		
-		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("customer-Address")));
 		WebElement Address = driver.findElement(By.id("customer-Address"));
 		Assert.assertTrue(Address.isDisplayed(), "Address field is missing");
 		WebElement Address2 = driver.findElement(By.id("customer-Address2"));
@@ -125,6 +131,7 @@ public class Masterdata extends POM {
 		Address2.sendKeys("Sample text");
 		log.info("Address  is filled");
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(country)));
 		WebElement Country = driver.findElement(By.xpath(country));
 		Assert.assertTrue(Country.isDisplayed(), "Country field is missing");
 		log.info("Country field is visible");
@@ -135,21 +142,12 @@ public class Masterdata extends POM {
 		CountryName.click();
 		log.info("Country Name is selected");
 		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("customer-City")));
 		WebElement City = driver.findElement(By.id("customer-City"));
 		Assert.assertTrue(City.isDisplayed(), "City Name value is missing");
 		City.sendKeys("Sydney");
 		log.info("City Name is selected");
-		
-//		WebElement State = driver.findElement(By.xpath(state));
-//		Assert.assertTrue(State.isDisplayed(), "State field is missing");
-//		log.info("State field is visible");
-//		State.click();
-//		log.info("State is clicked");	
-//		WebElement Statename = driver.findElement(By.xpath(statename));
-//		Assert.assertTrue(Statename.isDisplayed(), "State Name value is missing");
-//		Statename.click();
-//		log.info("State Name is selected");
-		
+
 		
 		WebElement PostCode = driver.findElement(By.id("customer-Postcode"));
 		Assert.assertTrue(PostCode.isDisplayed(), "Postcode value is missing");
@@ -178,7 +176,6 @@ public class Masterdata extends POM {
 		log.info("User is successfully created");	
 		
 	}
-	
 	
 	@Test(priority = 2)
 	public static void AddVendor() throws InterruptedException
@@ -265,49 +262,7 @@ public class Masterdata extends POM {
 		Assert.assertTrue(PostCode.isDisplayed(), "Postcode value is missing");
 		PostCode.sendKeys("001234");
 		log.info("Postcode is selected");
-		
-//		WebElement Shippingaddressflag = driver.findElement(By.xpath(shippingaddressflag));
-//		Assert.assertTrue(Shippingaddressflag.isDisplayed(), "Shippingaddressflag checkbox is missing");
-//		log.info("Shippingaddressflag checkbox is displayed");
-//		Shippingaddressflag.click();
-//		log.info("Shippingaddressflag is same as billing address");
-		
-//		WebElement  Part_Purchases = driver.findElement(By.xpath(part_Purchases));
-//		Assert.assertTrue(Part_Purchases.isDisplayed(), "Part_Purchases checkbox is missing");
-//		Part_Purchases.click();
-//		
-//		WebElement	Merchandise_Purchases = driver.findElement(By.xpath(merchandise_Purchases));
-//		Assert.assertTrue(Merchandise_Purchases.isDisplayed(), "Merchandise_Purchases checkbox is missing");
-//		Merchandise_Purchases.click();
-//		
-//		WebElement	Unit_Purchases = driver.findElement(By.xpath(unit_Purchases));
-//		Assert.assertTrue(Unit_Purchases.isDisplayed(), "Unit_Purchases checkbox is missing");
-//		Unit_Purchases.click();
-//		
-//		WebElement	Sublet_Purchases = driver.findElement(By.xpath(sublet_Purchases));
-//		Assert.assertTrue(Sublet_Purchases.isDisplayed(), "Sublet_Purchases checkbox is missing");
-//		Sublet_Purchases.click();
-//		
-//		WebElement	Claims_for_Service_Work = driver.findElement(By.xpath(claims_for_Service_Work));
-//		Assert.assertTrue(Claims_for_Service_Work.isDisplayed(), "Claims_for_Service_Work checkbox is missing");
-//		Claims_for_Service_Work.click();
-//		
-//		WebElement	Deal_Products = driver.findElement(By.xpath(deal_Products));
-//		Assert.assertTrue(Deal_Products.isDisplayed(), "Deal_Products checkbox is missing");
-//		Deal_Products.click();
-//		
-//		WebElement	Flooring_Company = driver.findElement(By.xpath(flooring_Company));
-//		Assert.assertTrue(Flooring_Company.isDisplayed(), "Flooring_Company checkbox is missing");
-//		Flooring_Company.click();
-//		
-//		WebElement	Finance_Company = driver.findElement(By.xpath(finance_Company));
-//		Assert.assertTrue(Finance_Company.isDisplayed(), "Finance_Company checkbox is missing");
-//		Finance_Company.click();
-//		
-//		WebElement	Financing_Products = driver.findElement(By.xpath(financing_Products));
-//		Assert.assertTrue(Financing_Products.isDisplayed(), "Financing_Products checkbox is missing");
-//		Financing_Products.click();
-		
+	
 		WebElement PurchaseTaxLevel = driver.findElement(By.xpath(purchaseTaxLevel));
 		Assert.assertTrue(PurchaseTaxLevel.isDisplayed(), "PurchaseTaxLevel value is missing");
 		Select select3 = new Select(PurchaseTaxLevel);
@@ -344,7 +299,6 @@ public class Masterdata extends POM {
 		log.info("User is successfully created");
 	}
 	
-
 	@Test(priority = 3)
 	public static void AddPart() throws InterruptedException 
 	{
@@ -1018,9 +972,5 @@ public class Masterdata extends POM {
 		
 		
 	}
-	
-
-		
-	
 	
 }

@@ -61,7 +61,6 @@ public class POM extends Variables {
 		 */
 		// call property class and get the value of browser string from config.properties file
 
-		
 		Property.testProperty();
 
 		if (browser.equalsIgnoreCase("Chrome")) {

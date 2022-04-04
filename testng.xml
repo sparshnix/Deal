@@ -20,9 +20,9 @@
 		<class name="Dealership.Schedule"> </class> 
 		<class name="Dealership.SystemSettings"> 
 			
-			<methods>  
+		<!-- 	<methods>  
  				 <exclude name = "SellingTaxmanagement"/>  
- 			</methods> 
+ 			</methods>  -->
 			
 		</class>  
 		

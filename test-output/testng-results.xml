@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="17" total="18" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Status of execution : 1]]>
     </line>
     <line>
-      <![CDATA[Test case Userpermissions passes successfully]]>
+      <![CDATA[Test case SalePrice passes successfully]]>
     </line>
     <line>
       <![CDATA[
 ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="240132" started-at="2022-03-21T10:47:57 IST" finished-at="2022-03-21T10:51:57 IST">
+  <suite name="Default suite" duration-ms="120604" started-at="2022-04-04T10:46:49 IST" finished-at="2022-04-04T10:48:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="240132" started-at="2022-03-21T10:47:57 IST" finished-at="2022-03-21T10:51:57 IST">
-      <class name="Dealership.SystemSettings">
-        <test-method status="PASS" signature="Userpermissions()[pri:66, instance:Dealership.SystemSettings@3c77d488]" name="Userpermissions" duration-ms="233932" started-at="2022-03-21T10:47:57 IST" finished-at="2022-03-21T10:51:51 IST">
+    <test name="Default test" duration-ms="120604" started-at="2022-04-04T10:46:49 IST" finished-at="2022-04-04T10:48:50 IST">
+      <class name="Dealership.AusOnTaxClass1">
+        <test-method status="PASS" signature="SalePrice()[pri:69, instance:Dealership.AusOnTaxClass1@738dc9b]" name="SalePrice" duration-ms="114442" started-at="2022-04-04T10:46:49 IST" finished-at="2022-04-04T10:48:44 IST">
           <reporter-output>
             <line>
               <![CDATA[Status of execution : 1]]>
             </line>
             <line>
-              <![CDATA[Test case Userpermissions passes successfully]]>
+              <![CDATA[Test case SalePrice passes successfully]]>
             </line>
             <line>
               <![CDATA[
 ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Userpermissions -->
-      </class> <!-- Dealership.SystemSettings -->
+        </test-method> <!-- SalePrice -->
+      </class> <!-- Dealership.AusOnTaxClass1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
