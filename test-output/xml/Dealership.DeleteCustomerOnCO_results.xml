@@ -1,101 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Test"
            tests="9"
-           failures="7"
+           failures="6"
            errors="0"
            skipped="0"
-           time="1358.681">
+           time="1212.846">
   <properties />
-            <testcase name="ConvertintoCashSale" time="131.014" classname="Dealership.DeleteCustomerOnCO">
-                <failure type="java.lang.AssertionError"
-                  message="expected [sparsh-08_12_202112_53_04 shrivastava] but found [sparsh-23_02_202201_43_16 shrivastava]"
-              >
-<![CDATA[java.lang.AssertionError: expected [sparsh-08_12_202112_53_04 shrivastava] but found [sparsh-23_02_202201_43_16 shrivastava]
-  org.testng.Assert.fail(Assert.java:110)
-  org.testng.Assert.failNotEquals(Assert.java:1413)
-  org.testng.Assert.assertEqualsImpl(Assert.java:149)
-  org.testng.Assert.assertEquals(Assert.java:131)
-  org.testng.Assert.assertEquals(Assert.java:655)
-  org.testng.Assert.assertEquals(Assert.java:665)
-  Dealership.DeleteCustomerOnCO.ConvertintoCashSale(DeleteCustomerOnCO.java:74)
-  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.lang.reflect.Method.invoke(Method.java:498)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-  java.lang.Thread.run(Thread.java:748)
-]]>
-      </failure>
-
-          </testcase>
-            <testcase name="DeleteWhenServicejob" time="161.144" classname="Dealership.DeleteCustomerOnCO">
-                <failure type="org.openqa.selenium.TimeoutException"
-                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;j_id0:j_id7&quot;]/div/div[1]/div[2]/section-header (tried for 100 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50483}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50483/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 542ae68d01d32006607539bde5c5d466"
-              >
-<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="j_id0:j_id7"]/div/div[1]/div[2]/section-header (tried for 100 second(s) with 500 milliseconds interval)
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50483}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50483/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 542ae68d01d32006607539bde5c5d466
-  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-  Dealership.POM.SelectCustomer(POM.java:121)
-  Dealership.DeleteCustomerOnCO.DeleteWhenServicejob(DeleteCustomerOnCO.java:343)
-  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.lang.reflect.Method.invoke(Method.java:498)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-  java.lang.Thread.run(Thread.java:748)
-]]>
-      </failure>
-
-          </testcase>
-            <testcase name="DeleteWhenCOClosed" time="136.684" classname="Dealership.DeleteCustomerOnCO">
+            <testcase name="DeleteWhenCompletestatus" time="201.606" classname="Dealership.DeleteCustomerOnCO">
                 <failure type="org.openqa.selenium.NoSuchElementException"
-                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;MerchandiseSectionId&quot;]/div[2]/div[2]/p&quot;}
-  (Session info: chrome=99.0.4844.51)
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;ServiceJob0_JobItemsSectionId&quot;]/div/div[2]/p&quot;}
+  (Session info: chrome=99.0.4844.84)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e6a134906c30d1600a9eae3e2677432f, findElement {using=xpath, value=//*[@id=&quot;MerchandiseSectionId&quot;]/div[2]/div[2]/p}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49692/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e6a134906c30d1600a9eae3e2677432f"
+Command: [d8577d007be775da37b4deb9d7829d52, findElement {using=xpath, value=//*[@id=&quot;ServiceJob0_JobItemsSectionId&quot;]/div/div[2]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65438/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d8577d007be775da37b4deb9d7829d52"
               >
-<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="MerchandiseSectionId"]/div[2]/div[2]/p"}
-  (Session info: chrome=99.0.4844.51)
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ServiceJob0_JobItemsSectionId"]/div/div[2]/p"}
+  (Session info: chrome=99.0.4844.84)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e6a134906c30d1600a9eae3e2677432f, findElement {using=xpath, value=//*[@id="MerchandiseSectionId"]/div[2]/div[2]/p}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49692/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e6a134906c30d1600a9eae3e2677432f
+Command: [d8577d007be775da37b4deb9d7829d52, findElement {using=xpath, value=//*[@id="ServiceJob0_JobItemsSectionId"]/div/div[2]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65438/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d8577d007be775da37b4deb9d7829d52
   sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
   sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
   java.lang.reflect.Constructor.newInstance(Constructor.java:423)
@@ -110,7 +41,7 @@ Session ID: e6a134906c30d1600a9eae3e2677432f
   org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
   org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
   org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-  Dealership.DeleteCustomerOnCO.DeleteWhenCOClosed(DeleteCustomerOnCO.java:136)
+  Dealership.DeleteCustomerOnCO.DeleteWhenCompletestatus(DeleteCustomerOnCO.java:506)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -130,25 +61,15 @@ Session ID: e6a134906c30d1600a9eae3e2677432f
       </failure>
 
           </testcase>
-            <testcase name="DeleteWhenStockUnit" time="159.762" classname="Dealership.DeleteCustomerOnCO">
-                <failure type="org.openqa.selenium.TimeoutException"
-                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;j_id0:j_id7&quot;]/div/div[1]/div[2]/section-header (tried for 100 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51549/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7559bb89463ab7425afc44a824d7ca67"
+            <testcase name="DeleteWhenCOClosed" time="177.933" classname="Dealership.DeleteCustomerOnCO">
+                <failure type="java.lang.AssertionError"
+                  message="Ok Button is missing expected [true] but found [false]"
               >
-<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="j_id0:j_id7"]/div/div[1]/div[2]/section-header (tried for 100 second(s) with 500 milliseconds interval)
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51549/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7559bb89463ab7425afc44a824d7ca67
-  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-  Dealership.POM.SelectCustomer(POM.java:121)
-  Dealership.DeleteCustomerOnCO.DeleteWhenStockUnit(DeleteCustomerOnCO.java:675)
+<![CDATA[java.lang.AssertionError: Ok Button is missing expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:110)
+  org.testng.Assert.failNotEquals(Assert.java:1413)
+  org.testng.Assert.assertTrue(Assert.java:56)
+  Dealership.DeleteCustomerOnCO.DeleteWhenCOClosed(DeleteCustomerOnCO.java:224)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -168,27 +89,27 @@ Session ID: 7559bb89463ab7425afc44a824d7ca67
       </failure>
 
           </testcase>
-            <testcase name="DeleteWhenStoreCredit" time="125.931" classname="Dealership.DeleteCustomerOnCO">
+            <testcase name="DeleteWhenStoreCredit" time="122.359" classname="Dealership.DeleteCustomerOnCO">
                 <failure type="org.openqa.selenium.ElementNotInteractableException"
                   message="element not interactable
-  (Session info: chrome=99.0.4844.51)
+  (Session info: chrome=99.0.4844.84)
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3a2708caa9c331c6a50133c024c32328, sendKeysToElement {id=5debf914-d483-4742-94cf-78bf7432a2da, value=[Ljava.lang.CharSequence;@6fdcf6c9}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50173}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50173/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (3a2708caa9c331c6a50133c024c32328)] -&gt; xpath: //*[@id=&quot;Merchandise_Section_COKitHeader0_COLI0&quot;]/td[3]/span[2]/numbers-only]
-Session ID: 3a2708caa9c331c6a50133c024c32328"
+Command: [8fb94cea62a7666ab75b8682b948bcf7, sendKeysToElement {id=15bed26e-a209-4fa5-8610-13f5f56a8ae8, value=[Ljava.lang.CharSequence;@59304e0b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64963/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8fb94cea62a7666ab75b8682b948bcf7)] -&gt; xpath: //*[@id=&quot;Merchandise_Section_COKitHeader0_COLI0&quot;]/td[3]/span[2]/numbers-only]
+Session ID: 8fb94cea62a7666ab75b8682b948bcf7"
               >
 <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=99.0.4844.51)
+  (Session info: chrome=99.0.4844.84)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3a2708caa9c331c6a50133c024c32328, sendKeysToElement {id=5debf914-d483-4742-94cf-78bf7432a2da, value=[Ljava.lang.CharSequence;@6fdcf6c9}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50173}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50173/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (3a2708caa9c331c6a50133c024c32328)] -> xpath: //*[@id="Merchandise_Section_COKitHeader0_COLI0"]/td[3]/span[2]/numbers-only]
-Session ID: 3a2708caa9c331c6a50133c024c32328
+Command: [8fb94cea62a7666ab75b8682b948bcf7, sendKeysToElement {id=15bed26e-a209-4fa5-8610-13f5f56a8ae8, value=[Ljava.lang.CharSequence;@59304e0b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64963/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8fb94cea62a7666ab75b8682b948bcf7)] -> xpath: //*[@id="Merchandise_Section_COKitHeader0_COLI0"]/td[3]/span[2]/numbers-only]
+Session ID: 8fb94cea62a7666ab75b8682b948bcf7
   sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
   sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
   sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -222,24 +143,43 @@ Session ID: 3a2708caa9c331c6a50133c024c32328
       </failure>
 
           </testcase>
-            <testcase name="DeleteWhenCompletestatus" time="154.310" classname="Dealership.DeleteCustomerOnCO">
-                <failure type="org.openqa.selenium.TimeoutException"
-                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;ServiceJob0_DetailsSectionId&quot;]/div/div/div[1]/div[1]/div/div/entity-card/div/div/div/button (tried for 20 second(s) with 500 milliseconds interval)
+            <testcase name="DeleteWhenServicejob" time="144.310" classname="Dealership.DeleteCustomerOnCO">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;app-global-header-container-id&quot;]/div[2]/nav[1]/ul/li[1]/a&quot;}
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50831/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 149fd724916071a33025ed35cfd1aaa9"
+Command: [01747174bc1d325d69c94317415276d7, findElement {using=xpath, value=//*[@id=&quot;app-global-header-container-id&quot;]/div[2]/nav[1]/ul/li[1]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65290}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65290/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01747174bc1d325d69c94317415276d7"
               >
-<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="ServiceJob0_DetailsSectionId"]/div/div/div[1]/div[1]/div/div/entity-card/div/div/div/button (tried for 20 second(s) with 500 milliseconds interval)
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app-global-header-container-id"]/div[2]/nav[1]/ul/li[1]/a"}
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50831/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 149fd724916071a33025ed35cfd1aaa9
-  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-  Dealership.DeleteCustomerOnCO.DeleteWhenCompletestatus(DeleteCustomerOnCO.java:410)
+Command: [01747174bc1d325d69c94317415276d7, findElement {using=xpath, value=//*[@id="app-global-header-container-id"]/div[2]/nav[1]/ul/li[1]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65290}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65290/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01747174bc1d325d69c94317415276d7
+  sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+  org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+  org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+  Dealership.POM.SelectCustomer(POM.java:128)
+  Dealership.DeleteCustomerOnCO.DeleteWhenServicejob(DeleteCustomerOnCO.java:343)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -259,24 +199,74 @@ Session ID: 149fd724916071a33025ed35cfd1aaa9
       </failure>
 
           </testcase>
-            <testcase name="DeleteWhenTemporaryUnit" time="178.148" classname="Dealership.DeleteCustomerOnCO">
-                <failure type="org.openqa.selenium.TimeoutException"
-                  message="Expected condition failed: waiting for visibility of element located by By.id: Price_0 (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51908}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51908/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8a0d93cecd970d5177860428b8a63871"
+            <testcase name="ConvertintoCashSale" time="118.218" classname="Dealership.DeleteCustomerOnCO">
+                <failure type="java.lang.AssertionError"
+                  message="expected [sparsh-08_12_202112_53_04 shrivastava] but found [sparsh-28_03_202212_22_58 shrivastava]"
               >
-<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: Price_0 (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+<![CDATA[java.lang.AssertionError: expected [sparsh-08_12_202112_53_04 shrivastava] but found [sparsh-28_03_202212_22_58 shrivastava]
+  org.testng.Assert.fail(Assert.java:110)
+  org.testng.Assert.failNotEquals(Assert.java:1413)
+  org.testng.Assert.assertEqualsImpl(Assert.java:149)
+  org.testng.Assert.assertEquals(Assert.java:131)
+  org.testng.Assert.assertEquals(Assert.java:655)
+  org.testng.Assert.assertEquals(Assert.java:665)
+  Dealership.DeleteCustomerOnCO.ConvertintoCashSale(DeleteCustomerOnCO.java:74)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="DeleteWhenTradeinUnit" time="19.384" classname="Dealership.DeleteCustomerOnCO">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;app-global-header-container-id&quot;]/div[2]/nav[1]/ul/li[1]/a&quot;}
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51908}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51908/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8a0d93cecd970d5177860428b8a63871
-  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-  Dealership.DeleteCustomerOnCO.DeleteWhenTemporaryUnit(DeleteCustomerOnCO.java:839)
+Command: [10c81491133e50d9bf863275f69d4a3d, findElement {using=xpath, value=//*[@id=&quot;app-global-header-container-id&quot;]/div[2]/nav[1]/ul/li[1]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50564/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10c81491133e50d9bf863275f69d4a3d"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app-global-header-container-id"]/div[2]/nav[1]/ul/li[1]/a"}
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [10c81491133e50d9bf863275f69d4a3d, findElement {using=xpath, value=//*[@id="app-global-header-container-id"]/div[2]/nav[1]/ul/li[1]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50564/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10c81491133e50d9bf863275f69d4a3d
+  sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+  org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+  org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+  Dealership.POM.SelectCustomer(POM.java:128)
+  Dealership.DeleteCustomerOnCO.DeleteWhenTradeinUnit(DeleteCustomerOnCO.java:909)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -298,7 +288,8 @@ Session ID: 8a0d93cecd970d5177860428b8a63871
           </testcase>
   
   
-            <testcase name="DeleteWhenTradeinUnit" time="175.289" classname="Dealership.DeleteCustomerOnCO" />
-                <testcase name="DeleteWhenUnitDeal" time="136.399" classname="Dealership.DeleteCustomerOnCO" />
+            <testcase name="DeleteWhenStockUnit" time="106.740" classname="Dealership.DeleteCustomerOnCO" />
+                <testcase name="DeleteWhenTemporaryUnit" time="213.356" classname="Dealership.DeleteCustomerOnCO" />
+                <testcase name="DeleteWhenUnitDeal" time="108.940" classname="Dealership.DeleteCustomerOnCO" />
       
 </testsuite>

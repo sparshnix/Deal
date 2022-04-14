@@ -3,9 +3,10 @@
 <Properties>
 	<Property name="basePath">./logs</Property>
 </Properties>
- 
+ <!-- where to log -->
   <Appenders>
    
+   <!-- how to log  -->
     <RollingFile name="File" fileName="${basePath}/prints.log" filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log">
    	  <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
       <SizeBasedTriggeringPolicy size="50000" />
@@ -16,6 +17,8 @@
     </Console>
     
   </Appenders>
+  
+  <!-- What to log  -->
   <Loggers>
     <Logger name="Dealership.Masterdata" level="trace" additivity="false">
       <AppenderRef ref="File"/>

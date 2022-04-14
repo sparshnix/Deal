@@ -7,12 +7,16 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" parallel="methods">
     <classes>
+      <class name="Dealership.AusOnTaxClass2">
+        <methods>
+          <include name="ServicejobTax"/>
+          <include name="InternalserviceTax"/>
+        </methods>
+      </class> <!-- Dealership.AusOnTaxClass2 -->
       <class name="Dealership.Order">
         <methods>
           <include name="SingleUnitOrder"/>
           <include name="PartOrderfromCO"/>
-          <include name="Oversold"/>
-          <include name="PartReturntoVendor"/>
           <include name="BulkUnitOrder"/>
           <include name="PartOrderReceiveInvoice"/>
           <include name="SpecialOrder"/>
@@ -20,33 +24,27 @@
       </class> <!-- Dealership.Order -->
       <class name="Dealership.ChangeCustomerOnCO">
         <methods>
-          <include name="ChangeWhenTemporaryUnit"/>
           <include name="ChangeWhenStoreCredit"/>
+          <include name="ChangeWhenTemporaryUnit"/>
           <include name="ChangeWhenCompletestatus"/>
           <include name="ChangeWhenServicejob"/>
           <include name="ChangeWhenStockUnit"/>
           <include name="ChangeWhenUnitDeal"/>
-          <include name="ChangeWhenCOClosed"/>
           <include name="ChangeWhenTradeinUnit"/>
         </methods>
       </class> <!-- Dealership.ChangeCustomerOnCO -->
       <class name="Dealership.Workspace">
         <methods>
           <include name="Vendor_Orders"/>
-          <include name="ServiceJobs"/>
-          <include name="Activity_Feed"/>
-          <include name="Customer_Orders"/>
+          <include name="StoreSummary"/>
         </methods>
       </class> <!-- Dealership.Workspace -->
       <class name="Dealership.Masterdata">
         <methods>
           <include name="AddFee"/>
-          <include name="AddLabor"/>
-          <include name="AddKit"/>
           <include name="AddCustomer"/>
           <include name="AddPart"/>
           <include name="AddVendor"/>
-          <include name="AddUnit"/>
         </methods>
       </class> <!-- Dealership.Masterdata -->
       <class name="Dealership.CustomerOrder">
@@ -61,21 +59,23 @@
       <class name="Dealership.SystemSettings">
         <methods>
           <include name="BrandingManagement"/>
-          <include name="LinkedfeeforDeal"/>
+          <include name="LinkedformforService"/>
           <include name="LinkedformforVP"/>
-          <include name="LinkedfeeforMarchendise"/>
+          <include name="Tagmanagement"/>
+          <include name="LinkedformforFinancing"/>
+          <include name="Textmessagetemplates"/>
           <include name="ProductLocations"/>
-          <include name="AccountingIntegration"/>
           <include name="MakeAndModel"/>
+          <include name="AccountingIntegration"/>
           <include name="LinkedformforDeal"/>
           <include name="LinkedfeeforServiceJobs"/>
+          <include name="Unitpricingandoptions"/>
         </methods>
       </class> <!-- Dealership.SystemSettings -->
       <class name="Dealership.Schedule">
         <methods>
           <include name="DealserviceAppointment"/>
           <include name="CreateandView"/>
-          <include name="ServiceJobAppointment"/>
           <include name="CreateEditDeleteAppointment"/>
           <include name="UnassignedAppointment"/>
         </methods>
@@ -83,12 +83,11 @@
       <class name="Dealership.DeleteCustomerOnCO">
         <methods>
           <include name="ConvertintoCashSale"/>
-          <include name="DeleteWhenTemporaryUnit"/>
-          <include name="DeleteWhenCompletestatus"/>
-          <include name="DeleteWhenStoreCredit"/>
+          <include name="DeleteWhenTradeinUnit"/>
           <include name="DeleteWhenServicejob"/>
+          <include name="DeleteWhenStoreCredit"/>
+          <include name="DeleteWhenCompletestatus"/>
           <include name="DeleteWhenCOClosed"/>
-          <include name="DeleteWhenStockUnit"/>
         </methods>
       </class> <!-- Dealership.DeleteCustomerOnCO -->
     </classes>

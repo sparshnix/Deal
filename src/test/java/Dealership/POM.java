@@ -160,11 +160,49 @@ public class POM extends Variables {
 
 		
 	}
-	
-	public static void DeleteCOU() throws Exception
+
+	public static void SelectCustomer2() throws Exception
 	
 	{
-		WebDriverWait wt = new WebDriverWait(driver, 20);
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		WebElement Sell = driver.findElement(By.xpath(sell));
+		Assert.assertTrue(Sell.isDisplayed(), "Sell link is missing");
+		log.info("Sell link is visible");
+		Sell.click();
+		log.info("Sell link is clickable");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(selectcustomerdropdown)));
+		WebElement SelectCustomerDropdown = driver.findElement(By.xpath(selectcustomerdropdown));
+		Assert.assertTrue(SelectCustomerDropdown.isDisplayed(), "Select Customer Dropdown is missing");
+		log.info("Select Customer Dropdown is visible");
+		SelectCustomerDropdown.click();
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("autocompleteCustomer")));
+		WebElement SelectCustomerField = driver.findElement(By.id("autocompleteCustomer"));
+		Assert.assertTrue(SelectCustomerField.isDisplayed(), "Select Customer Field is missing");
+		log.info("Select Customer Field is visible");
+		SelectCustomerField.sendKeys("BP Customer");
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("customerInfo_0")));
+		WebElement CustomerInfo = driver.findElement(By.id("customerInfo_0"));
+		Assert.assertTrue(CustomerInfo.isDisplayed(), "CustomerInfo is missing");
+		log.info("CustomerInfo is visible");
+		CustomerInfo.click();
+		Thread.sleep(20000);
+
+		if(driver.findElement(By.xpath(sectionHeader)).getText().contains("SELECT CUSTOMER")) 
+		{
+			//*[@id="ActiveOrder"]/div[2]/div/div[2]/div/div[5]/button
+			driver.findElement(By.xpath(activeorderbutton)).click();
+			Thread.sleep(10000);
+		}
+
+	}
+	
+	public static void DeleteCOU() throws Exception
+
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 100);
 		WebElement Searchbox = driver.findElement(By.id("globalSearchStrInput"));
 		Assert.assertTrue(Searchbox.isDisplayed(), "Searchbox is missing");
 		Searchbox.sendKeys(defaultUser);
@@ -209,6 +247,56 @@ public class POM extends Variables {
 		log.info("COU is Deleted successfully");
 
 	}
+
+	public static void DeleteCOU2() throws Exception
+	
+	{
+		WebDriverWait wt = new WebDriverWait(driver, 100);
+		WebElement Searchbox = driver.findElement(By.id("globalSearchStrInput"));
+		Assert.assertTrue(Searchbox.isDisplayed(), "Searchbox is missing");
+		Searchbox.sendKeys("BP Customer");
+		log.info("Customer name is entered in seachbox");
+		Thread.sleep(10000);
+		
+		
+		WebElement SearcResult = driver.findElement(By.id("SearchResult_0"));
+		Assert.assertTrue(SearcResult.isDisplayed(), "SearcResult is missing");
+		log.info("SearcResults are displayed");
+		SearcResult.click();
+		log.info("SearcResult0 is clicked");
+		Thread.sleep(10000);
+		
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(infogeneral)));
+		WebElement CM_Owned_Units = driver.findElement(By.id("CM_Owned_Units_block_grid_container_tbody_tr_td_2_0"));
+		Assert.assertTrue(CM_Owned_Units.isDisplayed(), "CM_Owned_Units is missing");
+		log.info("CM_Owned_Units are displayed");
+		CM_Owned_Units.click();
+		log.info("CM_Owned_Units is clicked");
+		
+		
+		WebElement RemoveLink = driver.findElement(By.id("optionsRadios4"));
+		Assert.assertTrue(RemoveLink.isDisplayed(), "RemoveLink is missing");
+		log.info("RemoveLink is displayed");
+		RemoveLink.click();
+		log.info("RemoveLink is checked");
+		
+		
+		WebElement GoButton = driver.findElement(By.id("CM_Owned_Units_block_grid_container_tbody_expandtr_edit_box_its-heading_edit-body_0_go_btn"));
+		Assert.assertTrue(GoButton.isDisplayed(), "GoButton is missing");
+		log.info("GoButton is displayed");
+		GoButton.click();
+		log.info("GoButton is clicked");
+		
+		
+		WebElement COUStatus = driver.findElement(By.id("CM_Owned_UnitsGrid_Empty_Div"));
+		wt.until(ExpectedConditions.visibilityOf(COUStatus));
+		Assert.assertTrue(COUStatus.isDisplayed(), "COUStatus is missing");
+		String COUStatusText = COUStatus.getText();
+		Assert.assertTrue(COUStatusText.contains("No Records Found"));
+		log.info("COU is Deleted successfully");
+
+	}
+
 	
 	public static void Kitwithoutlabor() throws Exception
 	
