@@ -26,9 +26,9 @@
 			
 		</class>  
 		
-		 
-		
-
+<!-- 		 <class name="Dealership.AusOnTaxClass1"> </class> 
+		 <class name="Dealership.AusOnTaxClass2"> </class> 
+ -->
 		 
     </classes>
   </test> <!-- Test -->

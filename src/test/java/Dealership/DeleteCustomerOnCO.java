@@ -78,7 +78,8 @@ public class DeleteCustomerOnCO extends POM {
 		//it will remove customer from CO and CO will become Cash Sale type CO.
 		log.info("Ensure that after clicking delete button, "
 				+ "it will remove customer from CO and CO will become Cash Sale type CO.");
-		Thread.sleep(5000);
+	
+		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(deleteButton)));
 		WebElement DeleteButton = driver.findElement(By.xpath(deleteButton));
 		Assert.assertTrue(DeleteButton.isDisplayed(), "Delete Button is missing");
 		log.info("Delete Button is visible");

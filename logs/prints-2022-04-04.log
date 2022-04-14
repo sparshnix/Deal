@@ -1,0 +1,690 @@
+16:20:46.209 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+16:20:46.363 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+16:22:01.522 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+16:22:01.557 [main] INFO  Dealership.POM - VIN_Unit field is visible
+16:22:01.594 [main] INFO  Dealership.POM - Make field is visible
+16:22:03.244 [main] INFO  Dealership.POM - Make is filed
+16:22:03.361 [main] INFO  Dealership.POM - Model field is visible
+16:22:04.511 [main] INFO  Dealership.POM - Model is filed
+16:22:04.547 [main] INFO  Dealership.POM - Sub-Model field is visible
+16:22:05.003 [main] INFO  Dealership.POM - Sub-Model is filed
+16:22:05.037 [main] INFO  Dealership.POM - Year field is visible
+16:22:05.370 [main] INFO  Dealership.POM - Year is filed
+16:22:05.446 [main] INFO  Dealership.POM - Addbutton is visible
+16:22:05.681 [main] INFO  Dealership.POM - Addbutton is clicked
+16:22:15.805 [main] INFO  Dealership.POM - Make937 Model937 submodel937 is visible
+16:22:15.842 [main] INFO  Dealership.POM - Concern field is visible
+16:22:16.186 [main] INFO  Dealership.POM - Concern field is filled
+16:22:16.242 [main] INFO  Dealership.POM - Cause field is visible
+16:22:16.727 [main] INFO  Dealership.POM - Cause field is filled
+16:22:16.769 [main] INFO  Dealership.POM - Correction field is visible
+16:22:16.938 [main] INFO  Dealership.POM - Correction field is filled
+16:22:16.978 [main] INFO  Dealership.POM - Odometer_on_arrival field is visible
+16:22:17.293 [main] INFO  Dealership.POM - Odometer_on_arrival field is filled
+16:22:17.336 [main] INFO  Dealership.POM - Odometer_on_departure field is visible
+16:22:17.631 [main] INFO  Dealership.POM - Odometer_on_departure field is filled
+16:22:18.491 [main] INFO  Dealership.POM - Searchbox is visible
+16:22:29.196 [main] INFO  Dealership.POM - Merchentity is visible
+16:22:39.433 [main] INFO  Dealership.POM - The Amount for Merchandise has been captured successfully
+16:23:00.025 [main] INFO  Dealership.POM - Feeentity is visible
+16:23:20.391 [main] INFO  Dealership.POM - The Amount for Fee has been captured successfully
+16:23:41.258 [main] INFO  Dealership.POM - Kitentity is visible
+16:24:01.545 [main] INFO  Dealership.POM - The Amount for Kit has been captured successfully
+16:24:22.263 [main] INFO  Dealership.POM - Laborentity is visible
+16:24:42.533 [main] INFO  Dealership.POM - The Amount for labor has been captured successfully
+16:25:03.526 [main] INFO  Dealership.POM - Subletentity is visible
+16:25:23.871 [main] INFO  Dealership.POM - The Amount for Sublet has been captured successfully
+16:25:34.128 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+16:25:34.458 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+16:25:39.529 [main] INFO  Dealership.POM - TranactionType is visible
+16:25:39.674 [main] INFO  Dealership.POM - TranactionType is clicked
+16:25:39.759 [main] INFO  Dealership.POM - Internaltype is visible
+16:25:39.904 [main] INFO  Dealership.POM - Internaltype is clicked
+16:25:39.970 [main] INFO  Dealership.POM - RecalculateIcon is visible
+16:25:40.172 [main] INFO  Dealership.POM - RecalculateIcon is clicked
+16:25:51.053 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServicejobTax
+16:27:02.095 [main] INFO  Dealership.POM - Running Test : ServicejobTax
+16:27:11.104 [main] INFO  Dealership.POM - Windows maximized
+16:27:14.186 [main] INFO  Dealership.POM - URL entered
+16:27:14.319 [main] INFO  Dealership.POM - Username field is visible
+16:27:14.639 [main] INFO  Dealership.POM - Password field is visible
+16:27:42.570 [main] INFO  Dealership.POM - Sell link is visible
+16:27:42.699 [main] INFO  Dealership.POM - Sell link is clickable
+16:29:23.274 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServicejobTax
+16:30:12.741 [main] INFO  Dealership.POM - Running Test : ServicejobTax
+16:30:20.640 [main] INFO  Dealership.POM - Windows maximized
+16:30:34.038 [main] INFO  Dealership.POM - URL entered
+16:30:34.214 [main] INFO  Dealership.POM - Username field is visible
+16:30:34.723 [main] INFO  Dealership.POM - Password field is visible
+16:31:07.276 [main] INFO  Dealership.POM - Sell link is visible
+16:31:09.244 [main] INFO  Dealership.POM - Sell link is clickable
+16:31:10.280 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+16:31:10.645 [main] INFO  Dealership.POM - Select Customer Field is visible
+16:31:12.763 [main] INFO  Dealership.POM - CustomerInfo is visible
+16:31:43.224 [main] INFO  Dealership.POM - ServiceJob button is visible
+16:31:46.655 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+16:31:46.862 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+16:31:47.323 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+16:31:47.536 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+16:32:00.126 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+16:32:00.173 [main] INFO  Dealership.POM - VIN_Unit field is visible
+16:32:00.224 [main] INFO  Dealership.POM - Make field is visible
+16:32:03.173 [main] INFO  Dealership.POM - Make is filed
+16:32:03.221 [main] INFO  Dealership.POM - Model field is visible
+16:32:04.795 [main] INFO  Dealership.POM - Model is filed
+16:32:04.850 [main] INFO  Dealership.POM - Sub-Model field is visible
+16:32:05.523 [main] INFO  Dealership.POM - Sub-Model is filed
+16:32:05.580 [main] INFO  Dealership.POM - Year field is visible
+16:32:05.983 [main] INFO  Dealership.POM - Year is filed
+16:32:06.049 [main] INFO  Dealership.POM - Addbutton is visible
+16:32:06.228 [main] INFO  Dealership.POM - Addbutton is clicked
+16:32:16.417 [main] INFO  Dealership.POM - Make650 model650 submodel650 is visible
+16:32:16.477 [main] INFO  Dealership.POM - Concern field is visible
+16:32:16.789 [main] INFO  Dealership.POM - Concern field is filled
+16:32:16.846 [main] INFO  Dealership.POM - Cause field is visible
+16:32:17.183 [main] INFO  Dealership.POM - Cause field is filled
+16:32:17.229 [main] INFO  Dealership.POM - Correction field is visible
+16:32:17.463 [main] INFO  Dealership.POM - Correction field is filled
+16:32:17.520 [main] INFO  Dealership.POM - Odometer_on_arrival field is visible
+16:32:17.897 [main] INFO  Dealership.POM - Odometer_on_arrival field is filled
+16:32:17.976 [main] INFO  Dealership.POM - Odometer_on_departure field is visible
+16:32:18.353 [main] INFO  Dealership.POM - Odometer_on_departure field is filled
+16:32:19.414 [main] INFO  Dealership.POM - Searchbox is visible
+16:32:30.541 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServicejobTax
+16:35:45.276 [main] INFO  Dealership.POM - Running Test : ServicejobTax
+16:35:53.960 [main] INFO  Dealership.POM - Windows maximized
+16:35:57.644 [main] INFO  Dealership.POM - URL entered
+16:35:57.775 [main] INFO  Dealership.POM - Username field is visible
+16:35:58.004 [main] INFO  Dealership.POM - Password field is visible
+16:36:41.536 [main] INFO  Dealership.POM - Sell link is visible
+16:36:43.535 [main] INFO  Dealership.POM - Sell link is clickable
+16:36:44.312 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+16:36:44.732 [main] INFO  Dealership.POM - Select Customer Field is visible
+16:36:46.704 [main] INFO  Dealership.POM - CustomerInfo is visible
+16:37:17.262 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServicejobTax
+16:42:06.553 [main] INFO  Dealership.POM - Running Test : ServicejobTax
+16:42:15.784 [main] INFO  Dealership.POM - Windows maximized
+16:42:21.663 [main] INFO  Dealership.POM - URL entered
+16:42:21.816 [main] INFO  Dealership.POM - Username field is visible
+16:42:22.637 [main] INFO  Dealership.POM - Password field is visible
+16:43:01.096 [main] INFO  Dealership.POM - Sell link is visible
+16:43:02.722 [main] INFO  Dealership.POM - Sell link is clickable
+16:43:03.330 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+16:43:03.645 [main] INFO  Dealership.POM - Select Customer Field is visible
+16:43:05.648 [main] INFO  Dealership.POM - CustomerInfo is visible
+16:43:36.036 [main] INFO  Dealership.POM - ServiceJob button is visible
+16:43:38.026 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+16:43:38.068 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+16:43:38.191 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+16:43:38.336 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+16:43:50.288 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+16:43:50.342 [main] INFO  Dealership.POM - VIN_Unit field is visible
+16:43:50.398 [main] INFO  Dealership.POM - Make field is visible
+16:43:52.578 [main] INFO  Dealership.POM - Make is filed
+16:43:52.629 [main] INFO  Dealership.POM - Model field is visible
+16:43:53.822 [main] INFO  Dealership.POM - Model is filed
+16:43:53.869 [main] INFO  Dealership.POM - Sub-Model field is visible
+16:43:54.339 [main] INFO  Dealership.POM - Sub-Model is filed
+16:43:54.392 [main] INFO  Dealership.POM - Year field is visible
+16:43:54.740 [main] INFO  Dealership.POM - Year is filed
+16:43:54.812 [main] INFO  Dealership.POM - Addbutton is visible
+16:43:54.958 [main] INFO  Dealership.POM - Addbutton is clicked
+16:44:05.106 [main] INFO  Dealership.POM - Make267 Model267 submodel267 is visible
+16:44:05.149 [main] INFO  Dealership.POM - Concern field is visible
+16:44:05.413 [main] INFO  Dealership.POM - Concern field is filled
+16:44:05.461 [main] INFO  Dealership.POM - Cause field is visible
+16:44:05.792 [main] INFO  Dealership.POM - Cause field is filled
+16:44:05.857 [main] INFO  Dealership.POM - Correction field is visible
+16:44:06.026 [main] INFO  Dealership.POM - Correction field is filled
+16:44:06.076 [main] INFO  Dealership.POM - Odometer_on_arrival field is visible
+16:44:06.339 [main] INFO  Dealership.POM - Odometer_on_arrival field is filled
+16:44:06.386 [main] INFO  Dealership.POM - Odometer_on_departure field is visible
+16:44:06.637 [main] INFO  Dealership.POM - Odometer_on_departure field is filled
+16:44:07.474 [main] INFO  Dealership.POM - Searchbox is visible
+16:44:18.163 [main] INFO  Dealership.POM - Merchentity is visible
+16:44:28.449 [main] INFO  Dealership.POM - The Amount for Merchandise has been captured successfully
+16:44:49.178 [main] INFO  Dealership.POM - Feeentity is visible
+16:45:09.371 [main] INFO  Dealership.POM - The Amount for Fee has been captured successfully
+16:45:29.949 [main] INFO  Dealership.POM - Kitentity is visible
+16:45:50.162 [main] INFO  Dealership.POM - The Amount for Kit has been captured successfully
+16:46:10.906 [main] INFO  Dealership.POM - Laborentity is visible
+16:46:31.108 [main] INFO  Dealership.POM - The Amount for labor has been captured successfully
+16:46:51.785 [main] INFO  Dealership.POM - Subletentity is visible
+16:47:11.997 [main] INFO  Dealership.POM - The Amount for Sublet has been captured successfully
+16:47:22.299 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+16:47:22.453 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+16:47:27.592 [main] INFO  Dealership.POM - TranactionType is visible
+16:47:27.738 [main] INFO  Dealership.POM - TranactionType is clicked
+16:47:27.849 [main] INFO  Dealership.POM - Internaltype is visible
+16:47:27.976 [main] INFO  Dealership.POM - Internaltype is clicked
+16:47:38.045 [main] INFO  Dealership.POM - RecalculateIcon is visible
+16:47:38.172 [main] INFO  Dealership.POM - RecalculateIcon is clicked
+16:47:48.816 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServicejobTax
+16:54:41.488 [main] INFO  Dealership.POM - Running Test : ServicejobTax
+16:54:52.344 [main] INFO  Dealership.POM - Windows maximized
+16:55:29.868 [main] INFO  Dealership.POM - URL entered
+16:55:29.962 [main] INFO  Dealership.POM - Username field is visible
+16:55:30.167 [main] INFO  Dealership.POM - Password field is visible
+16:56:06.310 [main] INFO  Dealership.POM - Sell link is visible
+16:56:07.468 [main] INFO  Dealership.POM - Sell link is clickable
+16:56:08.292 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+16:56:08.583 [main] INFO  Dealership.POM - Select Customer Field is visible
+16:56:10.999 [main] INFO  Dealership.POM - CustomerInfo is visible
+16:56:41.297 [main] INFO  Dealership.POM - ServiceJob button is visible
+16:56:44.667 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+16:56:44.691 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+16:56:44.800 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+16:56:44.945 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+16:57:20.358 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+16:57:20.392 [main] INFO  Dealership.POM - VIN_Unit field is visible
+16:57:20.424 [main] INFO  Dealership.POM - Make field is visible
+16:57:22.634 [main] INFO  Dealership.POM - Make is filed
+16:57:22.668 [main] INFO  Dealership.POM - Model field is visible
+16:57:23.859 [main] INFO  Dealership.POM - Model is filed
+16:57:23.898 [main] INFO  Dealership.POM - Sub-Model field is visible
+16:57:24.369 [main] INFO  Dealership.POM - Sub-Model is filed
+16:57:24.400 [main] INFO  Dealership.POM - Year field is visible
+16:57:24.629 [main] INFO  Dealership.POM - Year is filed
+16:57:24.672 [main] INFO  Dealership.POM - Addbutton is visible
+16:57:24.808 [main] INFO  Dealership.POM - Addbutton is clicked
+16:57:34.919 [main] INFO  Dealership.POM - Make679 model679 submodel679 is visible
+16:57:34.951 [main] INFO  Dealership.POM - Concern field is visible
+16:57:35.184 [main] INFO  Dealership.POM - Concern field is filled
+16:57:35.215 [main] INFO  Dealership.POM - Cause field is visible
+16:57:35.558 [main] INFO  Dealership.POM - Cause field is filled
+16:57:35.595 [main] INFO  Dealership.POM - Correction field is visible
+16:57:35.766 [main] INFO  Dealership.POM - Correction field is filled
+16:57:35.812 [main] INFO  Dealership.POM - Odometer_on_arrival field is visible
+16:57:36.176 [main] INFO  Dealership.POM - Odometer_on_arrival field is filled
+16:57:36.238 [main] INFO  Dealership.POM - Odometer_on_departure field is visible
+16:57:36.525 [main] INFO  Dealership.POM - Odometer_on_departure field is filled
+16:57:37.489 [main] INFO  Dealership.POM - Searchbox is visible
+16:57:48.082 [main] INFO  Dealership.POM - Merchentity is visible
+16:57:58.294 [main] INFO  Dealership.POM - The Amount for Merchandise has been captured successfully
+16:58:18.920 [main] INFO  Dealership.POM - Feeentity is visible
+16:58:39.201 [main] INFO  Dealership.POM - The Amount for Fee has been captured successfully
+16:58:59.796 [main] INFO  Dealership.POM - Kitentity is visible
+16:59:19.996 [main] INFO  Dealership.POM - The Amount for Kit has been captured successfully
+16:59:40.682 [main] INFO  Dealership.POM - Laborentity is visible
+17:00:00.951 [main] INFO  Dealership.POM - The Amount for labor has been captured successfully
+17:00:21.754 [main] INFO  Dealership.POM - Subletentity is visible
+17:00:41.945 [main] INFO  Dealership.POM - The Amount for Sublet has been captured successfully
+17:00:52.196 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+17:00:52.395 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+17:00:57.471 [main] INFO  Dealership.POM - TranactionType is visible
+17:00:57.650 [main] INFO  Dealership.POM - TranactionType is clicked
+17:00:57.799 [main] INFO  Dealership.POM - Internaltype is visible
+17:00:57.922 [main] INFO  Dealership.POM - Internaltype is clicked
+17:00:58.002 [main] INFO  Dealership.POM - Categorytype is visible
+17:00:58.142 [main] INFO  Dealership.POM - Categorytype is clicked
+17:02:39.275 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServicejobTax
+17:04:23.397 [main] INFO  Dealership.POM - Running Test : ServicejobTax
+17:04:32.680 [main] INFO  Dealership.POM - Windows maximized
+17:04:39.343 [main] INFO  Dealership.POM - URL entered
+17:04:39.488 [main] INFO  Dealership.POM - Username field is visible
+17:04:40.343 [main] INFO  Dealership.POM - Password field is visible
+17:05:36.172 [main] INFO  Dealership.POM - Sell link is visible
+17:05:37.608 [main] INFO  Dealership.POM - Sell link is clickable
+17:05:37.913 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:05:39.737 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:05:41.705 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:06:12.135 [main] INFO  Dealership.POM - ServiceJob button is visible
+17:06:13.569 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+17:06:13.608 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+17:06:13.712 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+17:06:13.866 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+17:07:03.029 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+17:07:03.064 [main] INFO  Dealership.POM - VIN_Unit field is visible
+17:07:03.097 [main] INFO  Dealership.POM - Make field is visible
+17:07:05.010 [main] INFO  Dealership.POM - Make is filed
+17:07:05.047 [main] INFO  Dealership.POM - Model field is visible
+17:07:06.712 [main] INFO  Dealership.POM - Model is filed
+17:07:06.744 [main] INFO  Dealership.POM - Sub-Model field is visible
+17:07:07.404 [main] INFO  Dealership.POM - Sub-Model is filed
+17:07:07.443 [main] INFO  Dealership.POM - Year field is visible
+17:07:07.782 [main] INFO  Dealership.POM - Year is filed
+17:07:07.828 [main] INFO  Dealership.POM - Addbutton is visible
+17:07:07.966 [main] INFO  Dealership.POM - Addbutton is clicked
+17:07:18.090 [main] INFO  Dealership.POM - Make103 Model103 submodel103 is visible
+17:07:18.129 [main] INFO  Dealership.POM - Concern field is visible
+17:07:18.430 [main] INFO  Dealership.POM - Concern field is filled
+17:07:18.472 [main] INFO  Dealership.POM - Cause field is visible
+17:07:18.863 [main] INFO  Dealership.POM - Cause field is filled
+17:07:18.911 [main] INFO  Dealership.POM - Correction field is visible
+17:07:19.096 [main] INFO  Dealership.POM - Correction field is filled
+17:07:19.129 [main] INFO  Dealership.POM - Odometer_on_arrival field is visible
+17:07:19.441 [main] INFO  Dealership.POM - Odometer_on_arrival field is filled
+17:07:19.497 [main] INFO  Dealership.POM - Odometer_on_departure field is visible
+17:07:19.800 [main] INFO  Dealership.POM - Odometer_on_departure field is filled
+17:07:20.677 [main] INFO  Dealership.POM - Searchbox is visible
+17:07:31.368 [main] INFO  Dealership.POM - Merchentity is visible
+17:07:41.628 [main] INFO  Dealership.POM - The Amount for Merchandise has been captured successfully
+17:08:02.280 [main] INFO  Dealership.POM - Feeentity is visible
+17:08:22.512 [main] INFO  Dealership.POM - The Amount for Fee has been captured successfully
+17:08:43.240 [main] INFO  Dealership.POM - Kitentity is visible
+17:09:03.430 [main] INFO  Dealership.POM - The Amount for Kit has been captured successfully
+17:09:24.078 [main] INFO  Dealership.POM - Laborentity is visible
+17:09:44.326 [main] INFO  Dealership.POM - The Amount for labor has been captured successfully
+17:10:04.962 [main] INFO  Dealership.POM - Subletentity is visible
+17:10:25.252 [main] INFO  Dealership.POM - The Amount for Sublet has been captured successfully
+17:10:35.508 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+17:10:35.654 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+17:10:40.718 [main] INFO  Dealership.POM - TranactionType is visible
+17:10:40.840 [main] INFO  Dealership.POM - TranactionType is clicked
+17:10:41.017 [main] INFO  Dealership.POM - Internaltype is visible
+17:10:41.127 [main] INFO  Dealership.POM - Internaltype is clicked
+17:10:41.204 [main] INFO  Dealership.POM - Categorytype is visible
+17:10:41.338 [main] INFO  Dealership.POM - Categorytype is clicked
+17:12:05.564 [main] INFO  Dealership.POM - Running Test : ServicejobTax
+17:12:14.585 [main] INFO  Dealership.POM - Windows maximized
+17:12:21.202 [main] INFO  Dealership.POM - URL entered
+17:12:21.315 [main] INFO  Dealership.POM - Username field is visible
+17:12:21.501 [main] INFO  Dealership.POM - Password field is visible
+17:13:13.292 [main] INFO  Dealership.POM - Sell link is visible
+17:13:13.400 [main] INFO  Dealership.POM - Sell link is clickable
+17:13:15.286 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:13:18.165 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:13:20.025 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:13:50.380 [main] INFO  Dealership.POM - ServiceJob button is visible
+17:13:52.804 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+17:13:52.841 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+17:13:52.975 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+17:13:53.159 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+17:14:48.666 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+17:14:48.708 [main] INFO  Dealership.POM - VIN_Unit field is visible
+17:14:48.745 [main] INFO  Dealership.POM - Make field is visible
+17:14:50.980 [main] INFO  Dealership.POM - Make is filed
+17:14:51.014 [main] INFO  Dealership.POM - Model field is visible
+17:14:51.478 [main] INFO  Dealership.POM - Model is filed
+17:14:51.519 [main] INFO  Dealership.POM - Sub-Model field is visible
+17:14:51.883 [main] INFO  Dealership.POM - Sub-Model is filed
+17:14:51.929 [main] INFO  Dealership.POM - Year field is visible
+17:14:52.238 [main] INFO  Dealership.POM - Year is filed
+17:14:52.302 [main] INFO  Dealership.POM - Addbutton is visible
+17:14:52.473 [main] INFO  Dealership.POM - Addbutton is clicked
+17:15:02.583 [main] INFO  Dealership.POM - Make48 Model48 submodel48 is visible
+17:15:02.627 [main] INFO  Dealership.POM - Concern field is visible
+17:15:02.894 [main] INFO  Dealership.POM - Concern field is filled
+17:15:02.928 [main] INFO  Dealership.POM - Cause field is visible
+17:15:03.273 [main] INFO  Dealership.POM - Cause field is filled
+17:15:03.320 [main] INFO  Dealership.POM - Correction field is visible
+17:15:03.527 [main] INFO  Dealership.POM - Correction field is filled
+17:15:03.575 [main] INFO  Dealership.POM - Odometer_on_arrival field is visible
+17:15:03.887 [main] INFO  Dealership.POM - Odometer_on_arrival field is filled
+17:15:03.934 [main] INFO  Dealership.POM - Odometer_on_departure field is visible
+17:15:04.225 [main] INFO  Dealership.POM - Odometer_on_departure field is filled
+17:15:05.244 [main] INFO  Dealership.POM - Searchbox is visible
+17:15:15.964 [main] INFO  Dealership.POM - Merchentity is visible
+17:15:26.235 [main] INFO  Dealership.POM - The Amount for Merchandise has been captured successfully
+17:15:47.038 [main] INFO  Dealership.POM - Feeentity is visible
+17:16:07.233 [main] INFO  Dealership.POM - The Amount for Fee has been captured successfully
+17:16:27.697 [main] INFO  Dealership.POM - Kitentity is visible
+17:16:47.930 [main] INFO  Dealership.POM - The Amount for Kit has been captured successfully
+17:17:08.603 [main] INFO  Dealership.POM - Laborentity is visible
+17:17:28.824 [main] INFO  Dealership.POM - The Amount for labor has been captured successfully
+17:17:49.512 [main] INFO  Dealership.POM - Subletentity is visible
+17:18:09.760 [main] INFO  Dealership.POM - The Amount for Sublet has been captured successfully
+17:18:19.988 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+17:18:20.168 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+17:18:25.229 [main] INFO  Dealership.POM - TranactionType is visible
+17:18:25.381 [main] INFO  Dealership.POM - TranactionType is clicked
+17:18:25.578 [main] INFO  Dealership.POM - Internaltype is visible
+17:18:25.727 [main] INFO  Dealership.POM - Internaltype is clicked
+17:18:25.825 [main] INFO  Dealership.POM - RecalculateIcon is visible
+17:18:26.008 [main] INFO  Dealership.POM - RecalculateIcon is clicked
+17:18:36.617 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServicejobTax
+17:20:29.401 [main] INFO  Dealership.POM - Running Test : ServicejobTax
+17:20:37.266 [main] INFO  Dealership.POM - Windows maximized
+17:20:40.489 [main] INFO  Dealership.POM - URL entered
+17:20:40.584 [main] INFO  Dealership.POM - Username field is visible
+17:20:40.822 [main] INFO  Dealership.POM - Password field is visible
+17:21:32.212 [main] INFO  Dealership.POM - Sell link is visible
+17:21:33.466 [main] INFO  Dealership.POM - Sell link is clickable
+17:21:33.670 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:21:36.139 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:21:37.525 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:22:07.837 [main] INFO  Dealership.POM - ServiceJob button is visible
+17:22:09.221 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+17:22:09.251 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+17:22:09.374 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+17:22:09.476 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+17:22:38.309 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServicejobTax
+17:22:53.063 [main] INFO  Dealership.POM - Running Test : ServicejobTax
+17:23:00.780 [main] INFO  Dealership.POM - Windows maximized
+17:23:03.682 [main] INFO  Dealership.POM - URL entered
+17:23:03.824 [main] INFO  Dealership.POM - Username field is visible
+17:23:04.133 [main] INFO  Dealership.POM - Password field is visible
+17:23:41.027 [main] INFO  Dealership.POM - Sell link is visible
+17:23:42.310 [main] INFO  Dealership.POM - Sell link is clickable
+17:23:42.905 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:23:43.270 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:23:45.194 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:24:15.490 [main] INFO  Dealership.POM - ServiceJob button is visible
+17:24:17.963 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+17:24:18.007 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+17:24:18.202 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+17:24:18.353 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+17:24:31.287 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+17:24:31.335 [main] INFO  Dealership.POM - VIN_Unit field is visible
+17:24:31.380 [main] INFO  Dealership.POM - Make field is visible
+17:24:33.643 [main] INFO  Dealership.POM - Make is filed
+17:24:33.679 [main] INFO  Dealership.POM - Model field is visible
+17:24:34.444 [main] INFO  Dealership.POM - Model is filed
+17:24:34.482 [main] INFO  Dealership.POM - Sub-Model field is visible
+17:24:34.799 [main] INFO  Dealership.POM - Sub-Model is filed
+17:24:34.845 [main] INFO  Dealership.POM - Year field is visible
+17:24:35.071 [main] INFO  Dealership.POM - Year is filed
+17:24:35.116 [main] INFO  Dealership.POM - Addbutton is visible
+17:24:35.237 [main] INFO  Dealership.POM - Addbutton is clicked
+17:24:45.369 [main] INFO  Dealership.POM - Make464 Model464 submodel464 is visible
+17:24:45.425 [main] INFO  Dealership.POM - Concern field is visible
+17:24:45.813 [main] INFO  Dealership.POM - Concern field is filled
+17:24:45.859 [main] INFO  Dealership.POM - Cause field is visible
+17:24:46.266 [main] INFO  Dealership.POM - Cause field is filled
+17:24:46.312 [main] INFO  Dealership.POM - Correction field is visible
+17:24:46.538 [main] INFO  Dealership.POM - Correction field is filled
+17:24:46.595 [main] INFO  Dealership.POM - Odometer_on_arrival field is visible
+17:24:46.956 [main] INFO  Dealership.POM - Odometer_on_arrival field is filled
+17:24:47.017 [main] INFO  Dealership.POM - Odometer_on_departure field is visible
+17:24:47.322 [main] INFO  Dealership.POM - Odometer_on_departure field is filled
+17:24:48.250 [main] INFO  Dealership.POM - Searchbox is visible
+17:24:58.909 [main] INFO  Dealership.POM - Merchentity is visible
+17:25:09.252 [main] INFO  Dealership.POM - The Amount for Merchandise has been captured successfully
+17:25:29.908 [main] INFO  Dealership.POM - Feeentity is visible
+17:25:50.094 [main] INFO  Dealership.POM - The Amount for Fee has been captured successfully
+17:26:10.555 [main] INFO  Dealership.POM - Kitentity is visible
+17:26:30.759 [main] INFO  Dealership.POM - The Amount for Kit has been captured successfully
+17:26:51.422 [main] INFO  Dealership.POM - Laborentity is visible
+17:27:11.645 [main] INFO  Dealership.POM - The Amount for labor has been captured successfully
+17:27:32.245 [main] INFO  Dealership.POM - Subletentity is visible
+17:27:52.461 [main] INFO  Dealership.POM - The Amount for Sublet has been captured successfully
+17:28:02.713 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+17:28:02.883 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+17:28:07.953 [main] INFO  Dealership.POM - TranactionType is visible
+17:28:08.064 [main] INFO  Dealership.POM - TranactionType is clicked
+17:28:08.249 [main] INFO  Dealership.POM - Internaltype is visible
+17:28:08.434 [main] INFO  Dealership.POM - Internaltype is clicked
+17:28:08.505 [main] INFO  Dealership.POM - RecalculateIcon is visible
+17:28:08.697 [main] INFO  Dealership.POM - RecalculateIcon is clicked
+17:28:19.353 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServicejobTax
+17:28:52.794 [main] INFO  Dealership.POM - Running Test : ServicejobTax
+17:29:00.661 [main] INFO  Dealership.POM - Windows maximized
+17:29:03.710 [main] INFO  Dealership.POM - URL entered
+17:29:03.803 [main] INFO  Dealership.POM - Username field is visible
+17:29:04.065 [main] INFO  Dealership.POM - Password field is visible
+17:29:58.489 [main] INFO  Dealership.POM - Sell link is visible
+17:29:59.949 [main] INFO  Dealership.POM - Sell link is clickable
+17:30:00.273 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:30:02.398 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:30:04.362 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:30:34.841 [main] INFO  Dealership.POM - ServiceJob button is visible
+17:30:37.263 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+17:30:37.305 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+17:30:37.432 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+17:30:37.616 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+17:30:51.010 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+17:30:51.047 [main] INFO  Dealership.POM - VIN_Unit field is visible
+17:30:51.085 [main] INFO  Dealership.POM - Make field is visible
+17:30:53.252 [main] INFO  Dealership.POM - Make is filed
+17:30:53.295 [main] INFO  Dealership.POM - Model field is visible
+17:30:54.357 [main] INFO  Dealership.POM - Model is filed
+17:30:54.393 [main] INFO  Dealership.POM - Sub-Model field is visible
+17:30:55.046 [main] INFO  Dealership.POM - Sub-Model is filed
+17:30:55.096 [main] INFO  Dealership.POM - Year field is visible
+17:30:55.434 [main] INFO  Dealership.POM - Year is filed
+17:30:55.503 [main] INFO  Dealership.POM - Addbutton is visible
+17:30:55.675 [main] INFO  Dealership.POM - Addbutton is clicked
+17:31:05.801 [main] INFO  Dealership.POM - Make738 Model738 submodel738 is visible
+17:31:05.844 [main] INFO  Dealership.POM - Concern field is visible
+17:31:06.154 [main] INFO  Dealership.POM - Concern field is filled
+17:31:06.197 [main] INFO  Dealership.POM - Cause field is visible
+17:31:06.602 [main] INFO  Dealership.POM - Cause field is filled
+17:31:06.644 [main] INFO  Dealership.POM - Correction field is visible
+17:31:06.854 [main] INFO  Dealership.POM - Correction field is filled
+17:31:06.902 [main] INFO  Dealership.POM - Odometer_on_arrival field is visible
+17:31:07.196 [main] INFO  Dealership.POM - Odometer_on_arrival field is filled
+17:31:07.248 [main] INFO  Dealership.POM - Odometer_on_departure field is visible
+17:31:07.680 [main] INFO  Dealership.POM - Odometer_on_departure field is filled
+17:31:08.631 [main] INFO  Dealership.POM - Searchbox is visible
+17:31:19.449 [main] INFO  Dealership.POM - Merchentity is visible
+17:31:29.735 [main] INFO  Dealership.POM - The Amount for Merchandise has been captured successfully
+17:31:50.307 [main] INFO  Dealership.POM - Feeentity is visible
+17:32:10.466 [main] INFO  Dealership.POM - The Amount for Fee has been captured successfully
+17:32:31.067 [main] INFO  Dealership.POM - Kitentity is visible
+17:32:51.367 [main] INFO  Dealership.POM - The Amount for Kit has been captured successfully
+17:33:12.076 [main] INFO  Dealership.POM - Laborentity is visible
+17:33:32.298 [main] INFO  Dealership.POM - The Amount for labor has been captured successfully
+17:33:52.998 [main] INFO  Dealership.POM - Subletentity is visible
+17:34:13.171 [main] INFO  Dealership.POM - The Amount for Sublet has been captured successfully
+17:34:23.476 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+17:34:23.635 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+17:34:28.731 [main] INFO  Dealership.POM - TranactionType is visible
+17:34:28.847 [main] INFO  Dealership.POM - TranactionType is clicked
+17:34:28.933 [main] INFO  Dealership.POM - Internaltype is visible
+17:34:29.049 [main] INFO  Dealership.POM - Internaltype is clicked
+17:34:29.106 [main] INFO  Dealership.POM - RecalculateIcon is visible
+17:34:29.248 [main] INFO  Dealership.POM - RecalculateIcon is clicked
+17:34:49.283 [main] INFO  Dealership.POM - The Amount for Internal transaction type has been captured successfully
+17:34:49.329 [main] INFO  Dealership.POM - ServiceJob1 is visible
+17:34:49.489 [main] INFO  Dealership.POM - ServiceJob1 is clicked
+17:35:04.770 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+17:35:04.901 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+17:35:09.963 [main] INFO  Dealership.POM - TranactionType is visible
+17:35:10.082 [main] INFO  Dealership.POM - TranactionType is clicked
+17:35:10.297 [main] INFO  Dealership.POM - ThirdPartytype is visible
+17:35:11.983 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServicejobTax
+17:36:20.638 [main] INFO  Dealership.POM - Running Test : ServicejobTax
+17:36:29.025 [main] INFO  Dealership.POM - Windows maximized
+17:36:32.006 [main] INFO  Dealership.POM - URL entered
+17:36:32.092 [main] INFO  Dealership.POM - Username field is visible
+17:36:32.278 [main] INFO  Dealership.POM - Password field is visible
+17:37:11.389 [main] INFO  Dealership.POM - Sell link is visible
+17:37:13.155 [main] INFO  Dealership.POM - Sell link is clickable
+17:37:13.291 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:37:15.686 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:37:17.094 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:37:47.444 [main] INFO  Dealership.POM - ServiceJob button is visible
+17:37:49.273 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+17:37:49.314 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+17:37:49.412 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+17:37:49.512 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+17:38:24.735 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+17:38:24.778 [main] INFO  Dealership.POM - VIN_Unit field is visible
+17:38:24.821 [main] INFO  Dealership.POM - Make field is visible
+17:38:27.902 [main] INFO  Dealership.POM - Make is filed
+17:38:27.965 [main] INFO  Dealership.POM - Model field is visible
+17:38:29.561 [main] INFO  Dealership.POM - Model is filed
+17:38:29.604 [main] INFO  Dealership.POM - Sub-Model field is visible
+17:38:30.336 [main] INFO  Dealership.POM - Sub-Model is filed
+17:38:30.382 [main] INFO  Dealership.POM - Year field is visible
+17:38:30.776 [main] INFO  Dealership.POM - Year is filed
+17:38:30.840 [main] INFO  Dealership.POM - Addbutton is visible
+17:38:31.056 [main] INFO  Dealership.POM - Addbutton is clicked
+17:38:41.147 [main] INFO  Dealership.POM - Make852 Model852 submodel852 is visible
+17:38:41.188 [main] INFO  Dealership.POM - Concern field is visible
+17:38:41.526 [main] INFO  Dealership.POM - Concern field is filled
+17:38:41.571 [main] INFO  Dealership.POM - Cause field is visible
+17:38:41.946 [main] INFO  Dealership.POM - Cause field is filled
+17:38:41.987 [main] INFO  Dealership.POM - Correction field is visible
+17:38:42.174 [main] INFO  Dealership.POM - Correction field is filled
+17:38:42.237 [main] INFO  Dealership.POM - Odometer_on_arrival field is visible
+17:38:42.641 [main] INFO  Dealership.POM - Odometer_on_arrival field is filled
+17:38:42.724 [main] INFO  Dealership.POM - Odometer_on_departure field is visible
+17:38:43.196 [main] INFO  Dealership.POM - Odometer_on_departure field is filled
+17:38:44.193 [main] INFO  Dealership.POM - Searchbox is visible
+17:38:55.250 [main] INFO  Dealership.POM - Merchentity is visible
+17:39:05.508 [main] INFO  Dealership.POM - The Amount for Merchandise has been captured successfully
+17:39:26.024 [main] INFO  Dealership.POM - Feeentity is visible
+17:39:46.317 [main] INFO  Dealership.POM - The Amount for Fee has been captured successfully
+17:40:06.942 [main] INFO  Dealership.POM - Kitentity is visible
+17:40:27.152 [main] INFO  Dealership.POM - The Amount for Kit has been captured successfully
+17:40:47.725 [main] INFO  Dealership.POM - Laborentity is visible
+17:41:07.938 [main] INFO  Dealership.POM - The Amount for labor has been captured successfully
+17:41:28.663 [main] INFO  Dealership.POM - Subletentity is visible
+17:41:48.889 [main] INFO  Dealership.POM - The Amount for Sublet has been captured successfully
+17:41:59.094 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+17:41:59.272 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+17:42:04.441 [main] INFO  Dealership.POM - TranactionType is visible
+17:42:04.593 [main] INFO  Dealership.POM - TranactionType is clicked
+17:42:04.676 [main] INFO  Dealership.POM - Internaltype is visible
+17:42:04.811 [main] INFO  Dealership.POM - Internaltype is clicked
+17:42:04.874 [main] INFO  Dealership.POM - RecalculateIcon is visible
+17:42:05.036 [main] INFO  Dealership.POM - RecalculateIcon is clicked
+17:42:25.077 [main] INFO  Dealership.POM - The Amount for Internal transaction type has been captured successfully
+17:42:25.139 [main] INFO  Dealership.POM - TranactionType is visible
+17:42:25.288 [main] INFO  Dealership.POM - TranactionType is clicked
+17:42:25.394 [main] INFO  Dealership.POM - ThirdPartytype is visible
+17:42:27.142 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServicejobTax
+17:56:19.741 [main] INFO  Dealership.POM - Running Test : ServicejobTax
+17:56:30.346 [main] INFO  Dealership.POM - Windows maximized
+17:56:33.552 [main] INFO  Dealership.POM - URL entered
+17:56:33.636 [main] INFO  Dealership.POM - Username field is visible
+17:56:33.853 [main] INFO  Dealership.POM - Password field is visible
+17:57:12.800 [main] INFO  Dealership.POM - Sell link is visible
+17:57:14.705 [main] INFO  Dealership.POM - Sell link is clickable
+17:57:14.862 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+17:57:17.184 [main] INFO  Dealership.POM - Select Customer Field is visible
+17:57:19.110 [main] INFO  Dealership.POM - CustomerInfo is visible
+17:57:49.448 [main] INFO  Dealership.POM - ServiceJob button is visible
+17:57:51.273 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+17:57:51.302 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+17:57:51.374 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+17:57:51.476 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+17:58:04.123 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+17:58:04.156 [main] INFO  Dealership.POM - VIN_Unit field is visible
+17:58:04.189 [main] INFO  Dealership.POM - Make field is visible
+17:58:06.964 [main] INFO  Dealership.POM - Make is filed
+17:58:06.996 [main] INFO  Dealership.POM - Model field is visible
+17:58:08.853 [main] INFO  Dealership.POM - Model is filed
+17:58:08.901 [main] INFO  Dealership.POM - Sub-Model field is visible
+17:58:09.449 [main] INFO  Dealership.POM - Sub-Model is filed
+17:58:09.484 [main] INFO  Dealership.POM - Year field is visible
+17:58:09.767 [main] INFO  Dealership.POM - Year is filed
+17:58:09.818 [main] INFO  Dealership.POM - Addbutton is visible
+17:58:10.004 [main] INFO  Dealership.POM - Addbutton is clicked
+17:58:20.128 [main] INFO  Dealership.POM - Make930 Model930 submodel930 is visible
+17:58:20.173 [main] INFO  Dealership.POM - Concern field is visible
+17:58:20.514 [main] INFO  Dealership.POM - Concern field is filled
+17:58:20.559 [main] INFO  Dealership.POM - Cause field is visible
+17:58:20.964 [main] INFO  Dealership.POM - Cause field is filled
+17:58:21.014 [main] INFO  Dealership.POM - Correction field is visible
+17:58:21.252 [main] INFO  Dealership.POM - Correction field is filled
+17:58:21.310 [main] INFO  Dealership.POM - Odometer_on_arrival field is visible
+17:58:21.770 [main] INFO  Dealership.POM - Odometer_on_arrival field is filled
+17:58:21.829 [main] INFO  Dealership.POM - Odometer_on_departure field is visible
+17:58:22.174 [main] INFO  Dealership.POM - Odometer_on_departure field is filled
+17:58:23.193 [main] INFO  Dealership.POM - Searchbox is visible
+17:58:33.838 [main] INFO  Dealership.POM - Merchentity is visible
+17:58:44.090 [main] INFO  Dealership.POM - The Amount for Merchandise has been captured successfully
+17:59:04.624 [main] INFO  Dealership.POM - Feeentity is visible
+17:59:24.825 [main] INFO  Dealership.POM - The Amount for Fee has been captured successfully
+17:59:45.416 [main] INFO  Dealership.POM - Kitentity is visible
+18:00:05.651 [main] INFO  Dealership.POM - The Amount for Kit has been captured successfully
+18:00:26.219 [main] INFO  Dealership.POM - Laborentity is visible
+18:00:46.495 [main] INFO  Dealership.POM - The Amount for labor has been captured successfully
+18:01:07.181 [main] INFO  Dealership.POM - Subletentity is visible
+18:01:27.389 [main] INFO  Dealership.POM - The Amount for Sublet has been captured successfully
+18:01:37.623 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+18:01:37.754 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+18:01:42.829 [main] INFO  Dealership.POM - TranactionType is visible
+18:01:42.948 [main] INFO  Dealership.POM - TranactionType is clicked
+18:01:43.203 [main] INFO  Dealership.POM - Internaltype is visible
+18:01:43.406 [main] INFO  Dealership.POM - Internaltype is clicked
+18:01:43.494 [main] INFO  Dealership.POM - RecalculateIcon is visible
+18:01:45.111 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServicejobTax
+18:02:17.210 [main] INFO  Dealership.POM - Running Test : ServicejobTax
+18:02:24.625 [main] INFO  Dealership.POM - Windows maximized
+18:02:27.771 [main] INFO  Dealership.POM - URL entered
+18:02:27.857 [main] INFO  Dealership.POM - Username field is visible
+18:02:28.029 [main] INFO  Dealership.POM - Password field is visible
+18:03:21.371 [main] INFO  Dealership.POM - Sell link is visible
+18:03:22.736 [main] INFO  Dealership.POM - Sell link is clickable
+18:03:23.021 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+18:03:25.411 [main] INFO  Dealership.POM - Select Customer Field is visible
+18:03:27.227 [main] INFO  Dealership.POM - CustomerInfo is visible
+18:03:57.570 [main] INFO  Dealership.POM - ServiceJob button is visible
+18:04:00.619 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+18:04:00.653 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+18:04:00.772 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+18:04:00.903 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+18:04:12.739 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+18:04:12.775 [main] INFO  Dealership.POM - VIN_Unit field is visible
+18:04:12.812 [main] INFO  Dealership.POM - Make field is visible
+18:04:14.722 [main] INFO  Dealership.POM - Make is filed
+18:04:14.760 [main] INFO  Dealership.POM - Model field is visible
+18:04:15.776 [main] INFO  Dealership.POM - Model is filed
+18:04:15.809 [main] INFO  Dealership.POM - Sub-Model field is visible
+18:04:16.277 [main] INFO  Dealership.POM - Sub-Model is filed
+18:04:16.307 [main] INFO  Dealership.POM - Year field is visible
+18:04:16.602 [main] INFO  Dealership.POM - Year is filed
+18:04:16.665 [main] INFO  Dealership.POM - Addbutton is visible
+18:04:16.837 [main] INFO  Dealership.POM - Addbutton is clicked
+18:04:26.957 [main] INFO  Dealership.POM - Make570 Model570 submodel570 is visible
+18:04:26.997 [main] INFO  Dealership.POM - Concern field is visible
+18:04:27.306 [main] INFO  Dealership.POM - Concern field is filled
+18:04:27.347 [main] INFO  Dealership.POM - Cause field is visible
+18:04:27.672 [main] INFO  Dealership.POM - Cause field is filled
+18:04:27.720 [main] INFO  Dealership.POM - Correction field is visible
+18:04:27.893 [main] INFO  Dealership.POM - Correction field is filled
+18:04:27.927 [main] INFO  Dealership.POM - Odometer_on_arrival field is visible
+18:04:28.205 [main] INFO  Dealership.POM - Odometer_on_arrival field is filled
+18:04:28.248 [main] INFO  Dealership.POM - Odometer_on_departure field is visible
+18:04:28.490 [main] INFO  Dealership.POM - Odometer_on_departure field is filled
+18:04:29.306 [main] INFO  Dealership.POM - Searchbox is visible
+18:04:40.122 [main] INFO  Dealership.POM - Merchentity is visible
+18:04:50.374 [main] INFO  Dealership.POM - The Amount for Merchandise has been captured successfully
+18:05:10.922 [main] INFO  Dealership.POM - Feeentity is visible
+18:05:31.111 [main] INFO  Dealership.POM - The Amount for Fee has been captured successfully
+18:05:51.723 [main] INFO  Dealership.POM - Kitentity is visible
+18:06:11.936 [main] INFO  Dealership.POM - The Amount for Kit has been captured successfully
+18:06:32.504 [main] INFO  Dealership.POM - Laborentity is visible
+18:06:52.702 [main] INFO  Dealership.POM - The Amount for labor has been captured successfully
+18:07:13.487 [main] INFO  Dealership.POM - Subletentity is visible
+18:07:33.723 [main] INFO  Dealership.POM - The Amount for Sublet has been captured successfully
+18:07:43.928 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+18:07:44.076 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+18:07:49.163 [main] INFO  Dealership.POM - TranactionType is visible
+18:07:49.373 [main] INFO  Dealership.POM - TranactionType is clicked
+18:07:49.553 [main] INFO  Dealership.POM - Internaltype is visible
+18:07:49.722 [main] INFO  Dealership.POM - Internaltype is clicked
+18:07:49.807 [main] INFO  Dealership.POM - RecalculateIcon is visible
+18:07:49.985 [main] INFO  Dealership.POM - RecalculateIcon is clicked
+18:08:10.021 [main] INFO  Dealership.POM - The Amount for Internal transaction type has been captured successfully
+18:08:17.765 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : ServicejobTax
+18:09:30.366 [main] INFO  Dealership.POM - Running Test : ServicejobTax
+18:09:39.521 [main] INFO  Dealership.POM - Windows maximized
+18:09:43.020 [main] INFO  Dealership.POM - URL entered
+18:09:43.178 [main] INFO  Dealership.POM - Username field is visible
+18:09:43.643 [main] INFO  Dealership.POM - Password field is visible
+18:10:37.388 [main] INFO  Dealership.POM - Sell link is visible
+18:10:38.952 [main] INFO  Dealership.POM - Sell link is clickable
+18:10:39.169 [main] INFO  Dealership.POM - Select Customer Dropdown is visible
+18:10:43.089 [main] INFO  Dealership.POM - Select Customer Field is visible
+18:10:44.978 [main] INFO  Dealership.POM - CustomerInfo is visible
+18:11:15.323 [main] INFO  Dealership.POM - ServiceJob button is visible
+18:11:17.402 [main] INFO  Dealership.POM - ServiceJobStatus is visible
+18:11:17.448 [main] INFO  Dealership.POM - ServiceJobStatus is Status: New
+18:11:17.582 [main] INFO  Dealership.POM - ServiceJobDetails is visible
+18:11:17.746 [main] INFO  Dealership.POM - ServiceJobDetails is clicked
+18:11:30.776 [main] INFO  Dealership.POM - Temp Unit Mmodal Window  is visible
+18:11:30.812 [main] INFO  Dealership.POM - VIN_Unit field is visible
+18:11:30.843 [main] INFO  Dealership.POM - Make field is visible
+18:11:32.844 [main] INFO  Dealership.POM - Make is filed
+18:11:32.889 [main] INFO  Dealership.POM - Model field is visible
+18:11:33.871 [main] INFO  Dealership.POM - Model is filed
+18:11:33.908 [main] INFO  Dealership.POM - Sub-Model field is visible
+18:11:34.410 [main] INFO  Dealership.POM - Sub-Model is filed
+18:11:34.447 [main] INFO  Dealership.POM - Year field is visible
+18:11:34.766 [main] INFO  Dealership.POM - Year is filed
+18:11:34.829 [main] INFO  Dealership.POM - Addbutton is visible
+18:11:34.995 [main] INFO  Dealership.POM - Addbutton is clicked
+18:11:45.105 [main] INFO  Dealership.POM - Make232 Model232 submodel232 is visible
+18:11:45.138 [main] INFO  Dealership.POM - Concern field is visible
+18:11:45.360 [main] INFO  Dealership.POM - Concern field is filled
+18:11:45.398 [main] INFO  Dealership.POM - Cause field is visible
+18:11:45.651 [main] INFO  Dealership.POM - Cause field is filled
+18:11:45.689 [main] INFO  Dealership.POM - Correction field is visible
+18:11:45.859 [main] INFO  Dealership.POM - Correction field is filled
+18:11:45.901 [main] INFO  Dealership.POM - Odometer_on_arrival field is visible
+18:11:46.146 [main] INFO  Dealership.POM - Odometer_on_arrival field is filled
+18:11:46.194 [main] INFO  Dealership.POM - Odometer_on_departure field is visible

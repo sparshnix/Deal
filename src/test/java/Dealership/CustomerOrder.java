@@ -600,7 +600,6 @@ public class CustomerOrder extends POM
 		executer.executeScript("window.scrollBy(0,550)", "");//window.scrollBy(550)
 		
 		WebElement OptionsAndFee = driver.findElement(By.xpath(optionaAndfee));
-		//*[@id="Deal_DU0_SectionId"]/div/div[2]/div[1]/div[1]/h2
 		Assert.assertTrue(OptionsAndFee.isDisplayed(), "Options And Fee field is missing");
 		log.info("Options And Fee field is visible");
 		OptionsAndFee.click();

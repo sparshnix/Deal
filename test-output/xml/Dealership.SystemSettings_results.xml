@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Default test"
+<testsuite name="Test"
            tests="18"
-           failures="14"
+           failures="12"
            errors="0"
            skipped="0"
-           time="2875.990">
+           time="4030.659">
   <properties />
-            <testcase name="LinkedformforFinancing" time="164.087" classname="Dealership.SystemSettings">
-                <failure type="org.openqa.selenium.ElementClickInterceptedException"
-                  message="element click intercepted: Element &lt;h2 class=&quot;accordian-left-details ng-binding&quot;&gt;...&lt;/h2&gt; is not clickable at point (223, 287). Other element would receive the click: &lt;div class=&quot;GroupSummaryWrapper&quot; id=&quot;customerorder_V2&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=99.0.4844.74)
+            <testcase name="AccountingIntegration" time="669.320" classname="Dealership.SystemSettings">
+                <failure type="org.openqa.selenium.ElementNotInteractableException"
+                  message="element not interactable: element has zero size
+  (Session info: chrome=99.0.4844.84)
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [36fe8277ec85652b82aca0e6cb36c1f8, clickElement {id=dbee735a-8f44-4229-8ee2-3dcc5682dcd1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65522/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (36fe8277ec85652b82aca0e6cb36c1f8)] -&gt; xpath: (//h2[contains(text(), &apos;Documents&apos;)])[2]]
-Session ID: 36fe8277ec85652b82aca0e6cb36c1f8"
+Command: [8fb0b03e1b459e651948007242d14489, clickElement {id=44177942-165d-4f5e-9c9a-a6b06479a2a5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60546/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8fb0b03e1b459e651948007242d14489)] -&gt; xpath: //button[contains(text(),&apos;Save&apos;)]]
+Session ID: 8fb0b03e1b459e651948007242d14489"
               >
-<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h2 class="accordian-left-details ng-binding">...</h2> is not clickable at point (223, 287). Other element would receive the click: <div class="GroupSummaryWrapper" id="customerorder_V2">...</div>
-  (Session info: chrome=99.0.4844.74)
+<![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable: element has zero size
+  (Session info: chrome=99.0.4844.84)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [36fe8277ec85652b82aca0e6cb36c1f8, clickElement {id=dbee735a-8f44-4229-8ee2-3dcc5682dcd1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65522/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (36fe8277ec85652b82aca0e6cb36c1f8)] -> xpath: (//h2[contains(text(), 'Documents')])[2]]
-Session ID: 36fe8277ec85652b82aca0e6cb36c1f8
+Command: [8fb0b03e1b459e651948007242d14489, clickElement {id=44177942-165d-4f5e-9c9a-a6b06479a2a5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60546/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8fb0b03e1b459e651948007242d14489)] -> xpath: //button[contains(text(),'Save')]]
+Session ID: 8fb0b03e1b459e651948007242d14489
   sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
   sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
   sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -40,7 +40,7 @@ Session ID: 36fe8277ec85652b82aca0e6cb36c1f8
   org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
   org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
   org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-  Dealership.SystemSettings.LinkedformforFinancing(SystemSettings.java:2230)
+  Dealership.SystemSettings.AccountingIntegration(SystemSettings.java:607)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -53,225 +53,36 @@ Session ID: 36fe8277ec85652b82aca0e6cb36c1f8
   org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
   org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
   org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.ArrayList.forEach(ArrayList.java:1259)
-  org.testng.TestRunner.privateRun(TestRunner.java:808)
-  org.testng.TestRunner.run(TestRunner.java:603)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-  org.testng.SuiteRunner.run(SuiteRunner.java:326)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-  org.testng.TestNG.runSuites(TestNG.java:1092)
-  org.testng.TestNG.run(TestNG.java:1060)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
 ]]>
       </failure>
 
           </testcase>
-            <testcase name="BrandingManagement" time="206.742" classname="Dealership.SystemSettings">
-                <failure type="org.openqa.selenium.ElementClickInterceptedException"
-                  message="element click intercepted: Element &lt;button class=&quot;btn bp-btn-normal ng-binding&quot; ng-click=&quot;F_CO.doCheckout()&quot; ng-disabled=&quot;F_CO.isDisabledCheckoutBtn()&quot; disabled=&quot;disabled&quot;&gt;...&lt;/button&gt; is not clickable at point (1043, 587). Other element would receive the click: &lt;div class=&quot;LoadingDiv ng-scope&quot; ng-if=&quot;M_CO.isLoading&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=99.0.4844.74)
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0d0d5f7f8518061b8a9ca7b017ff452f, clickElement {id=06e08492-f1d1-4dc4-b27e-065312136f67}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62861/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (0d0d5f7f8518061b8a9ca7b017ff452f)] -&gt; xpath: //*[@id=&quot;checkout-modal&quot;]/div[2]/div/div/div/div[2]/div[3]/div[2]/button]
-Session ID: 0d0d5f7f8518061b8a9ca7b017ff452f"
-              >
-<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn bp-btn-normal ng-binding" ng-click="F_CO.doCheckout()" ng-disabled="F_CO.isDisabledCheckoutBtn()" disabled="disabled">...</button> is not clickable at point (1043, 587). Other element would receive the click: <div class="LoadingDiv ng-scope" ng-if="M_CO.isLoading">...</div>
-  (Session info: chrome=99.0.4844.74)
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0d0d5f7f8518061b8a9ca7b017ff452f, clickElement {id=06e08492-f1d1-4dc4-b27e-065312136f67}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62861/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (0d0d5f7f8518061b8a9ca7b017ff452f)] -> xpath: //*[@id="checkout-modal"]/div[2]/div/div/div/div[2]/div[3]/div[2]/button]
-Session ID: 0d0d5f7f8518061b8a9ca7b017ff452f
-  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-  Dealership.SystemSettings.BrandingManagement(SystemSettings.java:905)
-  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.lang.reflect.Method.invoke(Method.java:498)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.ArrayList.forEach(ArrayList.java:1259)
-  org.testng.TestRunner.privateRun(TestRunner.java:808)
-  org.testng.TestRunner.run(TestRunner.java:603)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-  org.testng.SuiteRunner.run(SuiteRunner.java:326)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-  org.testng.TestNG.runSuites(TestNG.java:1092)
-  org.testng.TestNG.run(TestNG.java:1060)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-      </failure>
-
-          </testcase>
-            <testcase name="Textmessagetemplates" time="51.366" classname="Dealership.SystemSettings">
-                <failure type="org.openqa.selenium.ElementClickInterceptedException"
-                  message="element click intercepted: Element &lt;h1 class=&quot;col-xs-12  bp-hasEyebrow P0 ng-binding&quot;&gt;...&lt;/h1&gt; is not clickable at point (453, 123). Other element would receive the click: &lt;div class=&quot;LoadingDiv ng-scope&quot; ng-show=&quot;M_TMT.isLoading&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=99.0.4844.74)
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [139ea2ac7c4036ea1a2a7eafa72128f1, clickElement {id=7a2a431d-132e-440b-8b9c-d200707baf7f}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51398}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51398/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (139ea2ac7c4036ea1a2a7eafa72128f1)] -&gt; xpath: //*[@id=&quot;BP_Home_mainContainer&quot;]/div[1]/div[1]/div[1]/div/div/h1]
-Session ID: 139ea2ac7c4036ea1a2a7eafa72128f1"
-              >
-<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h1 class="col-xs-12  bp-hasEyebrow P0 ng-binding">...</h1> is not clickable at point (453, 123). Other element would receive the click: <div class="LoadingDiv ng-scope" ng-show="M_TMT.isLoading">...</div>
-  (Session info: chrome=99.0.4844.74)
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [139ea2ac7c4036ea1a2a7eafa72128f1, clickElement {id=7a2a431d-132e-440b-8b9c-d200707baf7f}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51398}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51398/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (139ea2ac7c4036ea1a2a7eafa72128f1)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div[1]/div[1]/div/div/h1]
-Session ID: 139ea2ac7c4036ea1a2a7eafa72128f1
-  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-  Dealership.SystemSettings.Textmessagetemplates(SystemSettings.java:3826)
-  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.lang.reflect.Method.invoke(Method.java:498)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.ArrayList.forEach(ArrayList.java:1259)
-  org.testng.TestRunner.privateRun(TestRunner.java:808)
-  org.testng.TestRunner.run(TestRunner.java:603)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-  org.testng.SuiteRunner.run(SuiteRunner.java:326)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-  org.testng.TestNG.runSuites(TestNG.java:1092)
-  org.testng.TestNG.run(TestNG.java:1060)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-      </failure>
-
-          </testcase>
-            <testcase name="AccountingIntegration" time="137.459" classname="Dealership.SystemSettings">
-                <failure type="java.lang.AssertionError"
-                  message="expected [true] but found [false]"
-              >
-<![CDATA[java.lang.AssertionError: expected [true] but found [false]
-  org.testng.Assert.fail(Assert.java:110)
-  org.testng.Assert.failNotEquals(Assert.java:1413)
-  org.testng.Assert.assertTrue(Assert.java:56)
-  org.testng.Assert.assertTrue(Assert.java:66)
-  Dealership.SystemSettings.AccountingIntegration(SystemSettings.java:269)
-  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.lang.reflect.Method.invoke(Method.java:498)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.ArrayList.forEach(ArrayList.java:1259)
-  org.testng.TestRunner.privateRun(TestRunner.java:808)
-  org.testng.TestRunner.run(TestRunner.java:603)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-  org.testng.SuiteRunner.run(SuiteRunner.java:326)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-  org.testng.TestNG.runSuites(TestNG.java:1092)
-  org.testng.TestNG.run(TestNG.java:1060)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-      </failure>
-
-          </testcase>
-            <testcase name="Taxmanagement" time="108.056" classname="Dealership.SystemSettings">
+            <testcase name="LinkedfeeforServiceJobs" time="144.101" classname="Dealership.SystemSettings">
                 <failure type="org.openqa.selenium.StaleElementReferenceException"
                   message="stale element reference: element is not attached to the page document
-  (Session info: chrome=99.0.4844.74)
+  (Session info: chrome=99.0.4844.84)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4d51ffda4a8254d0c876b09d33975c8f, getElementText {id=6f13e7ca-3323-40e1-8056-dd774a3493f6}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51116/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (4d51ffda4a8254d0c876b09d33975c8f)] -&gt; xpath: (//*[@id=&apos;BP_Home_mainContainer&apos;]/div[1]/div[1]/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[1]/a)[4]]
-Session ID: 4d51ffda4a8254d0c876b09d33975c8f"
+Command: [ce03aba4e87b46b52608206019665575, isElementDisplayed {id=4b0ec45f-21f8-4b19-8cf5-eaa091f66fed}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64963/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ce03aba4e87b46b52608206019665575)] -&gt; xpath: //*[@id=&quot;BP_Home_mainContainer&quot;]/div[1]/div/div[2]/div/div/div/div[2]/div/div[2]/div/div[1]]
+Session ID: ce03aba4e87b46b52608206019665575"
               >
 <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=99.0.4844.74)
+  (Session info: chrome=99.0.4844.84)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4d51ffda4a8254d0c876b09d33975c8f, getElementText {id=6f13e7ca-3323-40e1-8056-dd774a3493f6}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51116/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (4d51ffda4a8254d0c876b09d33975c8f)] -> xpath: (//*[@id='BP_Home_mainContainer']/div[1]/div[1]/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[1]/a)[4]]
-Session ID: 4d51ffda4a8254d0c876b09d33975c8f
+Command: [ce03aba4e87b46b52608206019665575, isElementDisplayed {id=4b0ec45f-21f8-4b19-8cf5-eaa091f66fed}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64963/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ce03aba4e87b46b52608206019665575)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div/div[2]/div/div/div/div[2]/div/div[2]/div/div[1]]
+Session ID: ce03aba4e87b46b52608206019665575
   sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
   sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
   sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -284,8 +95,8 @@ Session ID: 4d51ffda4a8254d0c876b09d33975c8f
   org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
   org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
   org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-  org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:201)
-  Dealership.SystemSettings.Taxmanagement(SystemSettings.java:3556)
+  org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:307)
+  Dealership.SystemSettings.LinkedfeeforServiceJobs(SystemSettings.java:1679)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -298,98 +109,38 @@ Session ID: 4d51ffda4a8254d0c876b09d33975c8f
   org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
   org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
   org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.ArrayList.forEach(ArrayList.java:1259)
-  org.testng.TestRunner.privateRun(TestRunner.java:808)
-  org.testng.TestRunner.run(TestRunner.java:603)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-  org.testng.SuiteRunner.run(SuiteRunner.java:326)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-  org.testng.TestNG.runSuites(TestNG.java:1092)
-  org.testng.TestNG.run(TestNG.java:1060)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
 ]]>
       </failure>
 
           </testcase>
-            <testcase name="LinkedfeeforServiceJobs" time="255.119" classname="Dealership.SystemSettings">
-                <failure type="org.openqa.selenium.TimeoutException"
-                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;app-global-header-container-id&quot;]/div[2]/nav[4]/ul/li[2]/label (tried for 100 second(s) with 500 milliseconds interval)
+            <testcase name="Tagmanagement" time="52.190" classname="Dealership.SystemSettings">
+                <failure type="org.openqa.selenium.StaleElementReferenceException"
+                  message="stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64611}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64611/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d66b8d3010dd358e7109f8fd8b85b819"
+Command: [f67f195559a18d82f987390fd18af87a, clickElement {id=0d4e2af8-de74-4119-b0e1-0cfb333754c7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54057/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f67f195559a18d82f987390fd18af87a)] -&gt; xpath: //span[contains(text(),&apos;Auto Tag&apos;)]]
+Session ID: f67f195559a18d82f987390fd18af87a"
               >
-<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="app-global-header-container-id"]/div[2]/nav[4]/ul/li[2]/label (tried for 100 second(s) with 500 milliseconds interval)
+<![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64611}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64611/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d66b8d3010dd358e7109f8fd8b85b819
-  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-  Dealership.SystemSettings.LinkedfeeforServiceJobs(SystemSettings.java:1546)
-  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.lang.reflect.Method.invoke(Method.java:498)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.ArrayList.forEach(ArrayList.java:1259)
-  org.testng.TestRunner.privateRun(TestRunner.java:808)
-  org.testng.TestRunner.run(TestRunner.java:603)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-  org.testng.SuiteRunner.run(SuiteRunner.java:326)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-  org.testng.TestNG.runSuites(TestNG.java:1092)
-  org.testng.TestNG.run(TestNG.java:1060)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-      </failure>
-
-          </testcase>
-            <testcase name="LinkedformforService" time="145.123" classname="Dealership.SystemSettings">
-                <failure type="org.openqa.selenium.NoSuchElementException"
-                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;customerorder_V2&quot;]/div[2]/div/div/div[2]/div&quot;}
-  (Session info: chrome=99.0.4844.74)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [622f3f37a88a4abdf9bf7111ba785975, findElement {using=xpath, value=//*[@id=&quot;customerorder_V2&quot;]/div[2]/div/div/div[2]/div}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49549/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 622f3f37a88a4abdf9bf7111ba785975"
-              >
-<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="customerorder_V2"]/div[2]/div/div/div[2]/div"}
-  (Session info: chrome=99.0.4844.74)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [622f3f37a88a4abdf9bf7111ba785975, findElement {using=xpath, value=//*[@id="customerorder_V2"]/div[2]/div/div/div[2]/div}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49549/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 622f3f37a88a4abdf9bf7111ba785975
-  sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+Command: [f67f195559a18d82f987390fd18af87a, clickElement {id=0d4e2af8-de74-4119-b0e1-0cfb333754c7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54057/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f67f195559a18d82f987390fd18af87a)] -> xpath: //span[contains(text(),'Auto Tag')]]
+Session ID: f67f195559a18d82f987390fd18af87a
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
   sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
   java.lang.reflect.Constructor.newInstance(Constructor.java:423)
   org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -399,11 +150,9 @@ Session ID: 622f3f37a88a4abdf9bf7111ba785975
   org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
   org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
   org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-  org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-  org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-  Dealership.SystemSettings.LinkedformforService(SystemSettings.java:2403)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+  Dealership.SystemSettings.Tagmanagement(SystemSettings.java:3220)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -416,35 +165,49 @@ Session ID: 622f3f37a88a4abdf9bf7111ba785975
   org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
   org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
   org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.ArrayList.forEach(ArrayList.java:1259)
-  org.testng.TestRunner.privateRun(TestRunner.java:808)
-  org.testng.TestRunner.run(TestRunner.java:603)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-  org.testng.SuiteRunner.run(SuiteRunner.java:326)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-  org.testng.TestNG.runSuites(TestNG.java:1092)
-  org.testng.TestNG.run(TestNG.java:1060)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
 ]]>
       </failure>
 
           </testcase>
-            <testcase name="LinkedfeeforMarchendise" time="174.722" classname="Dealership.SystemSettings">
-                <failure type="java.lang.AssertionError"
-                  message="Merchandise Fee still exist expected [true] but found [false]"
+            <testcase name="LinkedformforService" time="88.330" classname="Dealership.SystemSettings">
+                <failure type="org.openqa.selenium.ElementClickInterceptedException"
+                  message="element click intercepted: Element &lt;a ng-click=&quot;BPGlobalHeader.MoveToState(&apos;CustomerOrder_V2&apos;)&quot; tabindex=&quot;1&quot;&gt;...&lt;/a&gt; is not clickable at point (154, 25). Other element would receive the click: &lt;div class=&quot;modal-backdrop fade in&quot; style=&quot;height: 2000px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=99.0.4844.84)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d7019ae627a45761c1883ba3925cf98c, clickElement {id=c2c580c2-c4c7-4669-845d-01f8255163d1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51530}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51530/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d7019ae627a45761c1883ba3925cf98c)] -&gt; xpath: //*[@id=&quot;app-global-header-container-id&quot;]/div[2]/nav[1]/ul/li[1]/a]
+Session ID: d7019ae627a45761c1883ba3925cf98c"
               >
-<![CDATA[java.lang.AssertionError: Merchandise Fee still exist expected [true] but found [false]
-  org.testng.Assert.fail(Assert.java:110)
-  org.testng.Assert.failNotEquals(Assert.java:1413)
-  org.testng.Assert.assertTrue(Assert.java:56)
-  Dealership.SystemSettings.LinkedfeeforMarchendise(SystemSettings.java:1916)
+<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a ng-click="BPGlobalHeader.MoveToState('CustomerOrder_V2')" tabindex="1">...</a> is not clickable at point (154, 25). Other element would receive the click: <div class="modal-backdrop fade in" style="height: 2000px;"></div>
+  (Session info: chrome=99.0.4844.84)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d7019ae627a45761c1883ba3925cf98c, clickElement {id=c2c580c2-c4c7-4669-845d-01f8255163d1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51530}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51530/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d7019ae627a45761c1883ba3925cf98c)] -> xpath: //*[@id="app-global-header-container-id"]/div[2]/nav[1]/ul/li[1]/a]
+Session ID: d7019ae627a45761c1883ba3925cf98c
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+  Dealership.POM.SelectCustomer(POM.java:131)
+  Dealership.SystemSettings.LinkedformforService(SystemSettings.java:2402)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -457,44 +220,31 @@ Session ID: 622f3f37a88a4abdf9bf7111ba785975
   org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
   org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
   org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.ArrayList.forEach(ArrayList.java:1259)
-  org.testng.TestRunner.privateRun(TestRunner.java:808)
-  org.testng.TestRunner.run(TestRunner.java:603)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-  org.testng.SuiteRunner.run(SuiteRunner.java:326)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-  org.testng.TestNG.runSuites(TestNG.java:1092)
-  org.testng.TestNG.run(TestNG.java:1060)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
 ]]>
       </failure>
 
           </testcase>
-            <testcase name="LinkedformforVP" time="261.901" classname="Dealership.SystemSettings">
+            <testcase name="LinkedformforFinancing" time="167.039" classname="Dealership.SystemSettings">
                 <failure type="org.openqa.selenium.TimeoutException"
                   message="Expected condition failed: waiting for visibility of all elements located by By.id: form-rec (tried for 100 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49907/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: edf6d83b4bf0295b278c10b235293667"
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50479/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f74b4598f5c7d7509427961cf3e82a05"
               >
 <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.id: form-rec (tried for 100 second(s) with 500 milliseconds interval)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49907/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: edf6d83b4bf0295b278c10b235293667
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50479/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f74b4598f5c7d7509427961cf3e82a05
   org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
   org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-  Dealership.SystemSettings.LinkedformforVP(SystemSettings.java:2562)
+  Dealership.SystemSettings.LinkedformforFinancing(SystemSettings.java:2168)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -507,48 +257,72 @@ Session ID: edf6d83b4bf0295b278c10b235293667
   org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
   org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
   org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.ArrayList.forEach(ArrayList.java:1259)
-  org.testng.TestRunner.privateRun(TestRunner.java:808)
-  org.testng.TestRunner.run(TestRunner.java:603)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-  org.testng.SuiteRunner.run(SuiteRunner.java:326)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-  org.testng.TestNG.runSuites(TestNG.java:1092)
-  org.testng.TestNG.run(TestNG.java:1060)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
 ]]>
       </failure>
 
           </testcase>
-            <testcase name="LinkedformforDeal" time="67.898" classname="Dealership.SystemSettings">
+            <testcase name="BrandingManagement" time="179.500" classname="Dealership.SystemSettings">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;BP_Home_mainContainer&quot;]/div[1]/div[2]/div[2]/div/div[1]/div/div/div/div (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62740}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62740/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60d571074c5126ceea425d96ef5d14cf"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div[2]/div[2]/div/div[1]/div/div/div/div (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62740}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62740/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60d571074c5126ceea425d96ef5d14cf
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  Dealership.SystemSettings.BrandingManagement(SystemSettings.java:826)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="LinkedformforDeal" time="60.720" classname="Dealership.SystemSettings">
                 <failure type="org.openqa.selenium.NoSuchElementException"
                   message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;BP_Home_mainContainer&quot;]/div[1]/div/div[2]/div/div[1]/div/div[1]&quot;}
-  (Session info: chrome=99.0.4844.74)
+  (Session info: chrome=99.0.4844.84)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [808b9c892b8168dbb08756a1804e9777, findElement {using=xpath, value=//*[@id=&quot;BP_Home_mainContainer&quot;]/div[1]/div/div[2]/div/div[1]/div/div[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65250/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 808b9c892b8168dbb08756a1804e9777"
+Command: [71f56a6c08e4662067cb72c103ae1e34, findElement {using=xpath, value=//*[@id=&quot;BP_Home_mainContainer&quot;]/div[1]/div/div[2]/div/div[1]/div/div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50019/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71f56a6c08e4662067cb72c103ae1e34"
               >
 <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="BP_Home_mainContainer"]/div[1]/div/div[2]/div/div[1]/div/div[1]"}
-  (Session info: chrome=99.0.4844.74)
+  (Session info: chrome=99.0.4844.84)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [808b9c892b8168dbb08756a1804e9777, findElement {using=xpath, value=//*[@id="BP_Home_mainContainer"]/div[1]/div/div[2]/div/div[1]/div/div[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65250/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 808b9c892b8168dbb08756a1804e9777
-  sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+Command: [71f56a6c08e4662067cb72c103ae1e34, findElement {using=xpath, value=//*[@id="BP_Home_mainContainer"]/div[1]/div/div[2]/div/div[1]/div/div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50019/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71f56a6c08e4662067cb72c103ae1e34
+  sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
   sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
   java.lang.reflect.Constructor.newInstance(Constructor.java:423)
   org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -575,35 +349,105 @@ Session ID: 808b9c892b8168dbb08756a1804e9777
   org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
   org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
   org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.ArrayList.forEach(ArrayList.java:1259)
-  org.testng.TestRunner.privateRun(TestRunner.java:808)
-  org.testng.TestRunner.run(TestRunner.java:603)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-  org.testng.SuiteRunner.run(SuiteRunner.java:326)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-  org.testng.TestNG.runSuites(TestNG.java:1092)
-  org.testng.TestNG.run(TestNG.java:1060)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
 ]]>
       </failure>
 
           </testcase>
-            <testcase name="LinkedfeeforDeal" time="204.906" classname="Dealership.SystemSettings">
-                <failure type="java.lang.AssertionError"
-                  message="Option_Fee field is missing expected [true] but found [false]"
+            <testcase name="Textmessagetemplates" time="50.758" classname="Dealership.SystemSettings">
+                <failure type="org.openqa.selenium.ElementClickInterceptedException"
+                  message="element click intercepted: Element &lt;h1 class=&quot;col-xs-12  bp-hasEyebrow P0 ng-binding&quot;&gt;...&lt;/h1&gt; is not clickable at point (453, 129). Other element would receive the click: &lt;div class=&quot;LoadingDiv ng-scope&quot; ng-show=&quot;M_TMT.isLoading&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=99.0.4844.84)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de9dad2fe2ae40df7bd386f02f781a5b, clickElement {id=7afaf694-a597-4be0-b5e6-f979e6b295b1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55338}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55338/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (de9dad2fe2ae40df7bd386f02f781a5b)] -&gt; xpath: //*[@id=&quot;BP_Home_mainContainer&quot;]/div[1]/div[1]/div[1]/div/div/h1]
+Session ID: de9dad2fe2ae40df7bd386f02f781a5b"
               >
-<![CDATA[java.lang.AssertionError: Option_Fee field is missing expected [true] but found [false]
+<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h1 class="col-xs-12  bp-hasEyebrow P0 ng-binding">...</h1> is not clickable at point (453, 129). Other element would receive the click: <div class="LoadingDiv ng-scope" ng-show="M_TMT.isLoading">...</div>
+  (Session info: chrome=99.0.4844.84)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de9dad2fe2ae40df7bd386f02f781a5b, clickElement {id=7afaf694-a597-4be0-b5e6-f979e6b295b1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55338}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55338/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (de9dad2fe2ae40df7bd386f02f781a5b)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div[1]/div[1]/div/div/h1]
+Session ID: de9dad2fe2ae40df7bd386f02f781a5b
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+  Dealership.SystemSettings.Textmessagetemplates(SystemSettings.java:3826)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="MakeAndModel" time="72.633" classname="Dealership.SystemSettings">
+                <failure type="java.lang.AssertionError"
+                  message="Make is not deleted did not expect [189] but found [189]"
+              >
+<![CDATA[java.lang.AssertionError: Make is not deleted did not expect [189] but found [189]
+  org.testng.Assert.fail(Assert.java:110)
+  org.testng.Assert.failEquals(Assert.java:1417)
+  org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+  org.testng.Assert.assertNotEquals(Assert.java:1986)
+  Dealership.SystemSettings.MakeAndModel(SystemSettings.java:2932)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="ProductLocations" time="50.465" classname="Dealership.SystemSettings">
+                <failure type="java.lang.AssertionError"
+                  message="EditLocationfield is missing expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: EditLocationfield is missing expected [true] but found [false]
   org.testng.Assert.fail(Assert.java:110)
   org.testng.Assert.failNotEquals(Assert.java:1413)
   org.testng.Assert.assertTrue(Assert.java:56)
-  Dealership.SystemSettings.LinkedfeeforDeal(SystemSettings.java:1439)
+  Dealership.SystemSettings.ProductLocations(SystemSettings.java:2992)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -616,111 +460,31 @@ Session ID: 808b9c892b8168dbb08756a1804e9777
   org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
   org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
   org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.ArrayList.forEach(ArrayList.java:1259)
-  org.testng.TestRunner.privateRun(TestRunner.java:808)
-  org.testng.TestRunner.run(TestRunner.java:603)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-  org.testng.SuiteRunner.run(SuiteRunner.java:326)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-  org.testng.TestNG.runSuites(TestNG.java:1092)
-  org.testng.TestNG.run(TestNG.java:1060)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
 ]]>
       </failure>
 
           </testcase>
-            <testcase name="MakeAndModel" time="67.388" classname="Dealership.SystemSettings">
-                <failure type="org.openqa.selenium.ElementClickInterceptedException"
-                  message="element click intercepted: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (1185, 125). Other element would receive the click: &lt;div class=&quot;LoadingDiv ng-scope&quot; ng-show=&quot;M_MMS.isLoading&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=99.0.4844.74)
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6a1bd52c579117001299cde5d19497c0, clickElement {id=7be672db-8838-4117-a4dc-5db69ac31818}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50234}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50234/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (6a1bd52c579117001299cde5d19497c0)] -&gt; xpath: //span[contains(text(),&apos;Add new make&apos;)]]
-Session ID: 6a1bd52c579117001299cde5d19497c0"
-              >
-<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (1185, 125). Other element would receive the click: <div class="LoadingDiv ng-scope" ng-show="M_MMS.isLoading">...</div>
-  (Session info: chrome=99.0.4844.74)
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6a1bd52c579117001299cde5d19497c0, clickElement {id=7be672db-8838-4117-a4dc-5db69ac31818}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50234}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50234/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (6a1bd52c579117001299cde5d19497c0)] -> xpath: //span[contains(text(),'Add new make')]]
-Session ID: 6a1bd52c579117001299cde5d19497c0
-  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-  Dealership.SystemSettings.MakeAndModel(SystemSettings.java:2792)
-  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.lang.reflect.Method.invoke(Method.java:498)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.ArrayList.forEach(ArrayList.java:1259)
-  org.testng.TestRunner.privateRun(TestRunner.java:808)
-  org.testng.TestRunner.run(TestRunner.java:603)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-  org.testng.SuiteRunner.run(SuiteRunner.java:326)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-  org.testng.TestNG.runSuites(TestNG.java:1092)
-  org.testng.TestNG.run(TestNG.java:1060)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-      </failure>
-
-          </testcase>
-            <testcase name="Tagmanagement" time="198.199" classname="Dealership.SystemSettings">
+            <testcase name="LinkedformforVP" time="1365.198" classname="Dealership.SystemSettings">
                 <failure type="org.openqa.selenium.TimeoutException"
-                  message="Expected condition failed: waiting for visibility of all elements located by By.xpath: //*[@id=&quot;Info_General&quot;]/div/div[1]/div[4]/div[15]/div[2]/ul/li/span (tried for 100 second(s) with 500 milliseconds interval)
+                  message="Expected condition failed: waiting for visibility of all elements located by By.id: form-rec (tried for 100 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50784}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50784/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a82bd623c4b5d0c143725b49c3a08017"
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52125/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ccae4f59397051976045f6970a9af3f"
               >
-<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //*[@id="Info_General"]/div/div[1]/div[4]/div[15]/div[2]/ul/li/span (tried for 100 second(s) with 500 milliseconds interval)
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.id: form-rec (tried for 100 second(s) with 500 milliseconds interval)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50784}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50784/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a82bd623c4b5d0c143725b49c3a08017
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52125/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ccae4f59397051976045f6970a9af3f
   org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
   org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-  Dealership.SystemSettings.Tagmanagement(SystemSettings.java:3369)
+  Dealership.SystemSettings.LinkedformforVP(SystemSettings.java:2562)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -733,47 +497,34 @@ Session ID: a82bd623c4b5d0c143725b49c3a08017
   org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
   org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
   org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.ArrayList.forEach(ArrayList.java:1259)
-  org.testng.TestRunner.privateRun(TestRunner.java:808)
-  org.testng.TestRunner.run(TestRunner.java:603)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-  org.testng.SuiteRunner.run(SuiteRunner.java:326)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-  org.testng.TestNG.runSuites(TestNG.java:1092)
-  org.testng.TestNG.run(TestNG.java:1060)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
 ]]>
       </failure>
 
           </testcase>
-            <testcase name="ProductLocations" time="139.900" classname="Dealership.SystemSettings">
+            <testcase name="Unitpricingandoptions" time="131.504" classname="Dealership.SystemSettings">
                 <failure type="org.openqa.selenium.ElementClickInterceptedException"
-                  message="element click intercepted: Element &lt;label class=&quot;tool-tip right-zero business-name-tooltip&quot; for=&quot;AppSettingMenu&quot; tabindex=&quot;1&quot;&gt;...&lt;/label&gt; is not clickable at point (1307, 25). Other element would receive the click: &lt;div class=&quot;css-1uy074m e1ib7hu90&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=99.0.4844.74)
+                  message="element click intercepted: Element &lt;a class=&quot;ng-binding&quot;&gt;...&lt;/a&gt; is not clickable at point (876, 597). Other element would receive the click: &lt;div class=&quot;AddEditUnitfotter ng-scope bp-fotter-btnshow&quot; ng-class=&quot;{&apos;bp-fotter-btnshow&apos;: F_AddEditUO.isUnSavedChanges()}&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=99.0.4844.84)
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5d4064b611e853ea5a8a07a7495e6559, clickElement {id=c8044b62-11e2-4afb-9f22-16c7cb490960}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50528}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50528/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (5d4064b611e853ea5a8a07a7495e6559)] -&gt; xpath: //*[@id=&quot;app-global-header-container-id&quot;]/div[2]/nav[4]/ul/li[2]/label]
-Session ID: 5d4064b611e853ea5a8a07a7495e6559"
+Command: [59a4c158fa6aa4f9bcb35d93417557cd, clickElement {id=f32baf35-f13b-4ff1-925a-218a0ed3d71b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55606/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (59a4c158fa6aa4f9bcb35d93417557cd)] -&gt; xpath: //a[contains(text(),8)]]
+Session ID: 59a4c158fa6aa4f9bcb35d93417557cd"
               >
-<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label class="tool-tip right-zero business-name-tooltip" for="AppSettingMenu" tabindex="1">...</label> is not clickable at point (1307, 25). Other element would receive the click: <div class="css-1uy074m e1ib7hu90">...</div>
-  (Session info: chrome=99.0.4844.74)
+<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="ng-binding">...</a> is not clickable at point (876, 597). Other element would receive the click: <div class="AddEditUnitfotter ng-scope bp-fotter-btnshow" ng-class="{'bp-fotter-btnshow': F_AddEditUO.isUnSavedChanges()}">...</div>
+  (Session info: chrome=99.0.4844.84)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5d4064b611e853ea5a8a07a7495e6559, clickElement {id=c8044b62-11e2-4afb-9f22-16c7cb490960}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50528}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50528/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (5d4064b611e853ea5a8a07a7495e6559)] -> xpath: //*[@id="app-global-header-container-id"]/div[2]/nav[4]/ul/li[2]/label]
-Session ID: 5d4064b611e853ea5a8a07a7495e6559
+Command: [59a4c158fa6aa4f9bcb35d93417557cd, clickElement {id=f32baf35-f13b-4ff1-925a-218a0ed3d71b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55606/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (59a4c158fa6aa4f9bcb35d93417557cd)] -> xpath: //a[contains(text(),8)]]
+Session ID: 59a4c158fa6aa4f9bcb35d93417557cd
   sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
   sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
   sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -787,7 +538,7 @@ Session ID: 5d4064b611e853ea5a8a07a7495e6559
   org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
   org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
   org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-  Dealership.SystemSettings.ProductLocations(SystemSettings.java:2945)
+  Dealership.SystemSettings.Unitpricingandoptions(SystemSettings.java:4173)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -800,31 +551,20 @@ Session ID: 5d4064b611e853ea5a8a07a7495e6559
   org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
   org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
   org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.ArrayList.forEach(ArrayList.java:1259)
-  org.testng.TestRunner.privateRun(TestRunner.java:808)
-  org.testng.TestRunner.run(TestRunner.java:603)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-  org.testng.SuiteRunner.run(SuiteRunner.java:326)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-  org.testng.TestNG.runSuites(TestNG.java:1092)
-  org.testng.TestNG.run(TestNG.java:1060)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
 ]]>
       </failure>
 
           </testcase>
   
   
-            <testcase name="Userpermissions" time="192.120" classname="Dealership.SystemSettings" />
-                <testcase name="Unitpricingandoptions" time="158.751" classname="Dealership.SystemSettings" />
-                <testcase name="Businessprofile" time="137.593" classname="Dealership.SystemSettings" />
-                <testcase name="Cashdrawers" time="204.660" classname="Dealership.SystemSettings" />
+            <testcase name="Businessprofile" time="58.555" classname="Dealership.SystemSettings" />
+                <testcase name="Taxmanagement" time="321.184" classname="Dealership.SystemSettings" />
+                <testcase name="Userpermissions" time="194.917" classname="Dealership.SystemSettings" />
+                <testcase name="Cashdrawers" time="116.934" classname="Dealership.SystemSettings" />
+                <testcase name="LinkedfeeforMarchendise" time="130.465" classname="Dealership.SystemSettings" />
+                <testcase name="LinkedfeeforDeal" time="176.846" classname="Dealership.SystemSettings" />
       
 </testsuite>

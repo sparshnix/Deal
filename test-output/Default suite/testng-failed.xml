@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Dealership.AusOnTaxClass1">
+      <class name="Dealership.AusOnTaxClass4">
         <methods>
-          <include name="SalePrice"/>
+          <include name="ChangeandDeleteCustomerTax"/>
         </methods>
-      </class> <!-- Dealership.AusOnTaxClass1 -->
+      </class> <!-- Dealership.AusOnTaxClass4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

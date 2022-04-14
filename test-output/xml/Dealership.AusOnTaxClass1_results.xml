@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Default test"
-           tests="1"
+<testsuite name="Test"
+           tests="3"
            failures="0"
            errors="0"
            skipped="0"
-           time="114.442">
+           time="559.865">
   <properties />
   
   
-            <testcase name="SalePrice" time="114.442" classname="Dealership.AusOnTaxClass1" />
+            <testcase name="MerchandiseTax" time="222.695" classname="Dealership.AusOnTaxClass1" />
+                <testcase name="CashSaleTax" time="229.948" classname="Dealership.AusOnTaxClass1" />
+                <testcase name="SalePrice" time="107.222" classname="Dealership.AusOnTaxClass1" />
       
 </testsuite>

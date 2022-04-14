@@ -255,7 +255,7 @@ public class AusOnTaxClass1 extends POM
 	@Test(priority = 68)
 	public static void MerchandiseTax() throws Exception
 	{	
-		SelectCustomer();
+		SelectCustomer2();
 		WebDriverWait wt = new WebDriverWait(driver, 100);
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(sellpartandaccs)));
 		WebElement SellPartandAccs = driver.findElement(By.xpath(sellpartandaccs));
@@ -431,7 +431,7 @@ public class AusOnTaxClass1 extends POM
 	@Test(priority = 69)
 	public static void SalePrice() throws Exception
 	{
-		SelectCustomer();
+		SelectCustomer2();
 		WebDriverWait wt = new WebDriverWait(driver, 100);
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(sellpartandaccs)));
 		WebElement SellPartandAccs = driver.findElement(By.xpath(sellpartandaccs));

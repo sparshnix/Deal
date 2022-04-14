@@ -507,11 +507,11 @@ public class Property extends Variables {
 		//Tax Calculation
 		checkoutTotal				=	locators.getProperty("checkoutTotal");
 		printtotal					=	locators.getProperty("printtotal");
-		
-		
-		
-		
-		
+		internalservice				=	locators.getProperty("internalservice");
+		dealershipname				=	locators.getProperty("dealershipname");
+		pricelevel					=	locators.getProperty("pricelevel");
+		stockunit					=	locators.getProperty("stockunit");
+		financeVendorname			=	locators.getProperty("financeVendorname");
 		
 		
 		
