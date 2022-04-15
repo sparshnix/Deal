@@ -49,6 +49,7 @@ public class Masterdata extends POM {
 	
 	@SuppressWarnings("deprecation")
 	
+	
 	@Test(priority = 1)
 	public static void AddCustomer() throws Exception
 	{
