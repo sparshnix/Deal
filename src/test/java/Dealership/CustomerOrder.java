@@ -61,6 +61,7 @@ public class CustomerOrder extends POM
 //	private static Logger log = LogManager.getLogger(POM.class.getName());
 	public static String PDFURL;
 	
+	
 
 	@Test(priority = 13)
 	public static void Merchandise() throws Exception
