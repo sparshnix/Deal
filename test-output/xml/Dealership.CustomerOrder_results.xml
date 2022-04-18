@@ -4,29 +4,29 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="136.375">
+           time="81.870">
   <properties />
-            <testcase name="CashSale" time="136.375" classname="Dealership.CustomerOrder">
-                <failure type="org.openqa.selenium.ElementClickInterceptedException"
-                  message="element click intercepted: Element &lt;a class=&quot;btn checkout-btn ng-binding active&quot; ng-class=&quot;{&apos;active&apos; : F_CO.isActiveChechout() &amp;amp;&amp;amp; (M_CO.coHeaderRec.OrderStatus != &apos;Quote&apos;), &apos;non-active&apos; : M_CO.coHeaderRec.OrderStatus === &apos;Quote&apos;}&quot; ng-click=&quot;F_CO.getCOCheckoutInfo()&quot; ng-disabled=&quot;M_CO.coHeaderRec.OrderStatus === &apos;Quote&apos;&quot;&gt;...&lt;/a&gt; is not clickable at point (1251, 493). Other element would receive the click: &lt;div class=&quot;LoadingDiv ng-scope&quot; ng-if=&quot;M_CO.isLoading&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=100.0.4896.75)
+            <testcase name="UnitDeal" time="81.870" classname="Dealership.CustomerOrder">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;customerorder_V2&quot;]/div[2]/div/div/div[3]/div&quot;}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
+System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [19868b74eff8f7a7da6872a302b7eace, clickElement {id=36a319fc-1a86-43ff-bd5e-916288ea2868}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65289}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65289/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (19868b74eff8f7a7da6872a302b7eace)] -&gt; xpath: //*[@id=&quot;BP_Home_mainContainer&quot;]/div[1]/div[11]/div[2]/div[2]/div[2]/a]
-Session ID: 19868b74eff8f7a7da6872a302b7eace"
+Command: [ec9a355b3cc64b3147cf6e5d85cac144, findElement {using=xpath, value=//*[@id=&quot;customerorder_V2&quot;]/div[2]/div/div/div[3]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52889/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ec9a355b3cc64b3147cf6e5d85cac144"
               >
-<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="btn checkout-btn ng-binding active" ng-class="{'active' : F_CO.isActiveChechout() &amp;&amp; (M_CO.coHeaderRec.OrderStatus != 'Quote'), 'non-active' : M_CO.coHeaderRec.OrderStatus === 'Quote'}" ng-click="F_CO.getCOCheckoutInfo()" ng-disabled="M_CO.coHeaderRec.OrderStatus === 'Quote'">...</a> is not clickable at point (1251, 493). Other element would receive the click: <div class="LoadingDiv ng-scope" ng-if="M_CO.isLoading">...</div>
-  (Session info: chrome=100.0.4896.75)
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="customerorder_V2"]/div[2]/div/div/div[3]/div"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+System info: host: 'SPARSH-SHRIVAST', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [19868b74eff8f7a7da6872a302b7eace, clickElement {id=36a319fc-1a86-43ff-bd5e-916288ea2868}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65289}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65289/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (19868b74eff8f7a7da6872a302b7eace)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div[11]/div[2]/div[2]/div[2]/a]
-Session ID: 19868b74eff8f7a7da6872a302b7eace
+Command: [ec9a355b3cc64b3147cf6e5d85cac144, findElement {using=xpath, value=//*[@id="customerorder_V2"]/div[2]/div/div/div[3]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52889/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ec9a355b3cc64b3147cf6e5d85cac144
   sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
   sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
   sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -38,9 +38,11 @@ Session ID: 19868b74eff8f7a7da6872a302b7eace
   org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
   org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
   org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-  Dealership.CustomerOrder.CashSale(CustomerOrder.java:914)
+  org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+  org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+  Dealership.CustomerOrder.UnitDeal(CustomerOrder.java:509)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
