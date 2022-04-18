@@ -122,8 +122,9 @@ public class CustomerOrder extends POM
 		{
 			driver.findElement(By.id("cashDrawer")).click();
 			driver.findElement(By.id("cashDrawerDropdownDiv")).click();
+			driver.findElement(By.id("terminal")).click();
+			driver.findElement(By.id("terminalDropdownDiv")).click();
 			driver.findElement(By.xpath(selectdrawerbutton)).click();
-			Thread.sleep(10000);
 			Checkout_Button.click();
 			Thread.sleep(10000);
 		}
@@ -490,8 +491,9 @@ public class CustomerOrder extends POM
 		{
 			driver.findElement(By.id("cashDrawer")).click();
 			driver.findElement(By.id("cashDrawerDropdownDiv")).click();
+			driver.findElement(By.id("terminal")).click();
+			driver.findElement(By.id("terminalDropdownDiv")).click();
 			driver.findElement(By.xpath(selectdrawerbutton)).click();
-			Thread.sleep(10000);
 			Checkout_Button.click();
 			Thread.sleep(10000);
 		}
@@ -773,8 +775,9 @@ public class CustomerOrder extends POM
 		{
 			driver.findElement(By.id("cashDrawer")).click();
 			driver.findElement(By.id("cashDrawerDropdownDiv")).click();
+			driver.findElement(By.id("terminal")).click();
+			driver.findElement(By.id("terminalDropdownDiv")).click();
 			driver.findElement(By.xpath(selectdrawerbutton)).click();
-			Thread.sleep(10000);
 			Checkout_Button.click();
 			Thread.sleep(10000);
 		}
@@ -872,7 +875,7 @@ public class CustomerOrder extends POM
 		log.info("Searchbox is visible");
 //		Searchbox.sendKeys(Masterdata.NewFee);
 //		Searchbox2.sendKeys("Qafee-");
-		Searchbox2.sendKeys("fee");
+		Searchbox2.sendKeys("fee_tax");
 
 
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("entityInfo_0")));
@@ -908,8 +911,8 @@ public class CustomerOrder extends POM
 		{
 			driver.findElement(By.id("cashDrawer")).click();
 			driver.findElement(By.id("cashDrawerDropdownDiv")).click();
-//			driver.findElement(By.id("terminal")).click();
-//			driver.findElement(By.id("terminalDropdownDiv")).click();
+			driver.findElement(By.id("terminal")).click();
+			driver.findElement(By.id("terminalDropdownDiv")).click();
 			driver.findElement(By.xpath(selectdrawerbutton)).click();
 			Checkout_Button.click();
 			Thread.sleep(10000);
