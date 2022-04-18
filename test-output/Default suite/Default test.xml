@@ -20,4 +20,5 @@
   <testcase name="AddUnit" time="0.0" classname="Dealership.Masterdata">
     <ignored/>
   </testcase> <!-- AddUnit -->
+
 </testsuite> <!-- Default test -->

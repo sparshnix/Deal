@@ -20,6 +20,7 @@ Command: [19868b74eff8f7a7da6872a302b7eace, clickElement {id=36a319fc-1a86-43ff-
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65289}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65289/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
 Element: [[ChromeDriver: chrome on WINDOWS (19868b74eff8f7a7da6872a302b7eace)] -> xpath: //*[@id="BP_Home_mainContainer"]/div[1]/div[11]/div[2]/div[2]/div[2]/a]
 Session ID: 19868b74eff8f7a7da6872a302b7eace
+
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -62,12 +63,15 @@ at org.testng.TestNG.run(TestNG.java:1060)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
 ]]>
     </error>
   </testcase> <!-- CashSale -->
   <system-out>
+
     <![CDATA[<a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\CashSale - 14_04_2022 14_00_27 screenshot.png">Screenshot</a>
 Test Failed - screenshot captured for Method : CashSale
 Status of execution : 2]]>
   </system-out>
+
 </testsuite> <!-- Dealership.CustomerOrder -->
