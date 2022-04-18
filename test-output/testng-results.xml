@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Status of execution : 1]]>
     </line>
     <line>
-      <![CDATA[Test case ChangeandDeleteCustomerTax passes successfully]]>
+      <![CDATA[Test case AddCustomer passes successfully]]>
     </line>
     <line>
       <![CDATA[
 ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="154223" started-at="2022-04-11T16:21:27 IST" finished-at="2022-04-11T16:24:01 IST">
+  <suite name="Default suite" duration-ms="88642" started-at="2022-04-18T13:42:18 IST" finished-at="2022-04-18T13:43:46 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="154223" started-at="2022-04-11T16:21:27 IST" finished-at="2022-04-11T16:24:01 IST">
-      <class name="Dealership.AusOnTaxClass4">
-        <test-method status="PASS" signature="ChangeandDeleteCustomerTax()[pri:73, instance:Dealership.AusOnTaxClass4@738dc9b]" name="ChangeandDeleteCustomerTax" duration-ms="147304" started-at="2022-04-11T16:21:27 IST" finished-at="2022-04-11T16:23:54 IST">
+    <test name="Default test" duration-ms="88642" started-at="2022-04-18T13:42:18 IST" finished-at="2022-04-18T13:43:46 IST">
+      <class name="Dealership.Masterdata">
+        <test-method status="PASS" signature="AddCustomer()[pri:1, instance:Dealership.Masterdata@738dc9b]" name="AddCustomer" duration-ms="82189" started-at="2022-04-18T13:42:18 IST" finished-at="2022-04-18T13:43:40 IST">
           <reporter-output>
             <line>
               <![CDATA[Status of execution : 1]]>
             </line>
             <line>
-              <![CDATA[Test case ChangeandDeleteCustomerTax passes successfully]]>
+              <![CDATA[Test case AddCustomer passes successfully]]>
             </line>
             <line>
               <![CDATA[
 ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- ChangeandDeleteCustomerTax -->
-      </class> <!-- Dealership.AusOnTaxClass4 -->
+        </test-method> <!-- AddCustomer -->
+      </class> <!-- Dealership.Masterdata -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

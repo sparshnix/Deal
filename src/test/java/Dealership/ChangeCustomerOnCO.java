@@ -264,8 +264,9 @@ public class ChangeCustomerOnCO extends POM {
 		{
 			driver.findElement(By.id("cashDrawer")).click();
 			driver.findElement(By.id("cashDrawerDropdownDiv")).click();
+			driver.findElement(By.id("terminal")).click();
+			driver.findElement(By.id("terminalDropdownDiv")).click();
 			driver.findElement(By.xpath(selectdrawerbutton)).click();
-			Thread.sleep(10000);
 			Checkout_Button.click();
 			Thread.sleep(10000);
 		}
@@ -400,8 +401,9 @@ public class ChangeCustomerOnCO extends POM {
 		{
 			driver.findElement(By.id("cashDrawer")).click();
 			driver.findElement(By.id("cashDrawerDropdownDiv")).click();
+			driver.findElement(By.id("terminal")).click();
+			driver.findElement(By.id("terminalDropdownDiv")).click();
 			driver.findElement(By.xpath(selectdrawerbutton)).click();
-			Thread.sleep(10000);
 			Checkout_Button.click();
 			Thread.sleep(10000);
 		}

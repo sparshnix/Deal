@@ -1,0 +1,604 @@
+18:07:53.156 [TestNG-test=Test-1] INFO  Dealership.POM - FeeCodeInput is clicked
+18:07:53.250 [TestNG-test=Test-1] INFO  Dealership.POM - Fee Code results is visible
+18:07:53.328 [TestNG-test=Test-1] INFO  Dealership.POM - FeeCode is selected
+18:07:58.475 [TestNG-test=Test-1] INFO  Dealership.POM - The ServiceJob fee is successfully created
+18:07:58.510 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+18:07:58.596 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+18:08:00.680 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Dropdown is visible
+18:08:02.662 [TestNG-test=Test-1] INFO  Dealership.POM - Select Customer Field is visible
+18:08:05.032 [TestNG-test=Test-1] INFO  Dealership.POM - CustomerInfo is visible
+18:08:35.540 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJob button is visible
+18:08:39.216 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobStatus is visible
+18:08:39.248 [TestNG-test=Test-1] INFO  Dealership.POM - ServiceJobStatus is Status: New
+18:08:40.208 [TestNG-test=Test-1] INFO  Dealership.POM - The ServiceJob fee is successfully Verified
+18:08:40.270 [TestNG-test=Test-1] INFO  Dealership.POM - Account and Settings link is visible
+18:08:40.380 [TestNG-test=Test-1] INFO  Dealership.POM - Account and Settings link is clicked
+18:08:40.497 [TestNG-test=Test-1] INFO  Dealership.POM - SystemSettings link is visible
+18:08:41.634 [TestNG-test=Test-1] INFO  Dealership.POM - SystemSettings link is clicked
+18:08:43.372 [TestNG-test=Test-1] INFO  Dealership.POM - Linked fee management link is clicked
+18:08:53.436 [TestNG-test=Test-1] INFO  Dealership.POM - LFeeHeade is System Settings
+Linked fee management
+18:08:53.598 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : LinkedfeeforServiceJobs
+18:08:59.610 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : LinkedfeeforMarchendise
+18:09:03.648 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+18:09:05.488 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+18:09:05.549 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+18:09:05.830 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+18:09:41.379 [TestNG-test=Test-1] INFO  Dealership.POM - Account and Settings link is visible
+18:09:41.539 [TestNG-test=Test-1] INFO  Dealership.POM - Account and Settings link is clicked
+18:09:41.647 [TestNG-test=Test-1] INFO  Dealership.POM - SystemSettings link is visible
+18:09:41.756 [TestNG-test=Test-1] INFO  Dealership.POM - SystemSettings link is clicked
+18:09:44.920 [TestNG-test=Test-1] INFO  Dealership.POM - Linked fee management link is clicked
+18:09:54.983 [TestNG-test=Test-1] INFO  Dealership.POM - LFeeHeade is System Settings
+Linked fee management
+18:09:55.024 [TestNG-test=Test-1] INFO  Dealership.POM - MerchandiseFeesection is visible
+18:09:55.104 [TestNG-test=Test-1] INFO  Dealership.POM - MerchandiseFeesection is clicked
+18:09:55.174 [TestNG-test=Test-1] INFO  Dealership.POM - LinkAFeeBtn is visible
+18:09:55.231 [TestNG-test=Test-1] INFO  Dealership.POM - LinkAFeeBtn is clicked
+18:10:01.377 [TestNG-test=Test-1] INFO  Dealership.POM - FeeCodeInput is visible
+18:10:01.653 [TestNG-test=Test-1] INFO  Dealership.POM - FeeCodeInput is clicked
+18:10:01.736 [TestNG-test=Test-1] INFO  Dealership.POM - Fee Code results is visible
+18:10:01.806 [TestNG-test=Test-1] INFO  Dealership.POM - FeeCode is selected
+18:10:06.940 [TestNG-test=Test-1] INFO  Dealership.POM - The Merchandise fee is successfully created
+18:10:06.997 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is visible
+18:10:07.054 [TestNG-test=Test-1] INFO  Dealership.POM - Sell link is clickable
+18:10:13.876 [TestNG-test=Test-1] INFO  Dealership.POM - Sell Part tile is displayed
+18:10:14.025 [TestNG-test=Test-1] INFO  Dealership.POM - Sell Part tile is clicked
+18:10:14.207 [TestNG-test=Test-1] INFO  Dealership.POM - Searchbox is visible
+18:10:14.240 [TestNG-test=Test-1] INFO  Dealership.POM - Searchbox is visible
+18:10:17.808 [TestNG-test=Test-1] INFO  Dealership.POM - Merchentity is visible
+18:10:27.996 [TestNG-test=Test-1] INFO  Dealership.POM - The Merchandise fee is successfully Verified
+18:10:28.057 [TestNG-test=Test-1] INFO  Dealership.POM - Account and Settings link is visible
+18:10:28.169 [TestNG-test=Test-1] INFO  Dealership.POM - Account and Settings link is clicked
+18:10:28.258 [TestNG-test=Test-1] INFO  Dealership.POM - SystemSettings link is visible
+18:10:29.755 [TestNG-test=Test-1] INFO  Dealership.POM - SystemSettings link is clicked
+18:10:31.433 [TestNG-test=Test-1] INFO  Dealership.POM - Linked fee management link is clicked
+13:36:12.574 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : AddCustomer
+13:36:26.993 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:36:29.089 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:36:29.438 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:36:29.875 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:53:16.137 [main] INFO  Dealership.POM - Running Test : CashSale
+13:53:27.427 [main] INFO  Dealership.POM - Windows maximized
+13:53:29.810 [main] INFO  Dealership.POM - URL entered
+13:53:30.051 [main] INFO  Dealership.POM - Username field is visible
+13:53:30.596 [main] INFO  Dealership.POM - Password field is visible
+13:54:14.698 [main] INFO  Dealership.POM - Sell link is visible
+13:54:18.155 [main] INFO  Dealership.POM - Sell link is clickable
+13:54:18.341 [main] INFO  Dealership.POM - Sell Part tile is displayed
+13:54:18.532 [main] INFO  Dealership.POM - Sell Part tile is clicked
+13:54:20.368 [main] INFO  Dealership.POM - Searchbox is visible
+13:54:20.424 [main] INFO  Dealership.POM - Searchbox is visible
+13:54:24.990 [main] INFO  Dealership.POM - Merchentity is visible
+13:54:35.213 [main] INFO  Dealership.POM - Searchbox is visible
+13:56:15.909 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CashSale
+13:58:10.526 [main] INFO  Dealership.POM - Running Test : CashSale
+13:58:21.689 [main] INFO  Dealership.POM - Windows maximized
+13:58:23.830 [main] INFO  Dealership.POM - URL entered
+13:58:24.062 [main] INFO  Dealership.POM - Username field is visible
+13:58:25.281 [main] INFO  Dealership.POM - Password field is visible
+13:59:23.484 [main] INFO  Dealership.POM - Sell link is visible
+13:59:25.288 [main] INFO  Dealership.POM - Sell link is clickable
+13:59:25.455 [main] INFO  Dealership.POM - Sell Part tile is displayed
+13:59:25.618 [main] INFO  Dealership.POM - Sell Part tile is clicked
+13:59:27.911 [main] INFO  Dealership.POM - Searchbox is visible
+13:59:27.961 [main] INFO  Dealership.POM - Searchbox is visible
+13:59:31.814 [main] INFO  Dealership.POM - Merchentity is visible
+13:59:42.073 [main] INFO  Dealership.POM - Searchbox is visible
+13:59:45.564 [main] INFO  Dealership.POM - Feeentity is visible
+13:59:55.784 [main] INFO  Dealership.POM - Searchbox is visible
+13:59:59.408 [main] INFO  Dealership.POM - Kitentity is visible
+14:00:14.666 [main] INFO  Dealership.POM - Checkout_Button is visible
+14:00:27.391 [main] FATAL Dealership.POM - Test Failed - screenshot captured for Method : CashSale
+13:28:35.851 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : AddCustomer
+13:28:50.013 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:28:51.937 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:28:52.214 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:28:53.758 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:29:29.999 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is displayed
+13:29:30.109 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is clicked
+13:29:30.207 [TestNG-test=Test-1] INFO  Dealership.POM - Customer button is displayed
+13:29:30.344 [TestNG-test=Test-1] INFO  Dealership.POM - Customer button is clicked
+13:29:40.459 [TestNG-test=Test-1] INFO  Dealership.POM - Customer creation window is opened
+13:29:40.551 [TestNG-test=Test-1] INFO  Dealership.POM - Firstname field is visible
+13:29:40.836 [TestNG-test=Test-1] INFO  Dealership.POM - Firstname  is filled
+13:29:40.905 [TestNG-test=Test-1] INFO  Dealership.POM - Lastname field is visible
+13:29:41.054 [TestNG-test=Test-1] INFO  Dealership.POM - Lastname  is filled
+13:29:41.159 [TestNG-test=Test-1] INFO  Dealership.POM - Account type field is visible
+13:29:42.591 [TestNG-test=Test-1] FATAL Dealership.POM - Test Failed - screenshot captured for Method : AddCustomer
+13:29:48.991 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : AddVendor
+13:29:54.038 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:29:55.897 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:29:55.997 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:29:56.233 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:30:33.992 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is displayed
+13:30:34.103 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is clicked
+13:30:34.166 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor button is displayed
+13:30:34.352 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor button is clicked
+13:30:37.388 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor creation window is opened
+13:30:37.923 [TestNG-test=Test-1] INFO  Dealership.POM - Company name is entered
+13:30:39.127 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor Account Number is entered
+13:30:39.522 [TestNG-test=Test-1] INFO  Dealership.POM - Work Email is entered
+13:30:39.570 [TestNG-test=Test-1] INFO  Dealership.POM - Phone number field is visible
+13:30:39.768 [TestNG-test=Test-1] INFO  Dealership.POM - Phone number  is filled
+13:30:39.868 [TestNG-test=Test-1] INFO  Dealership.POM - Billingaddress field is visible
+13:30:40.327 [TestNG-test=Test-1] INFO  Dealership.POM - Billingaddress  is filled
+13:30:40.560 [TestNG-test=Test-1] INFO  Dealership.POM - City Name is selected
+13:30:40.846 [TestNG-test=Test-1] INFO  Dealership.POM - Billing State is selected
+13:30:41.105 [TestNG-test=Test-1] INFO  Dealership.POM - Billing Country is selected
+13:30:41.352 [TestNG-test=Test-1] INFO  Dealership.POM - Postcode is selected
+13:30:41.590 [TestNG-test=Test-1] INFO  Dealership.POM - PurchaseTaxLevel is selected
+13:30:41.860 [TestNG-test=Test-1] INFO  Dealership.POM - VendorAccountTypeIcon is selected
+13:30:41.901 [TestNG-test=Test-1] INFO  Dealership.POM - Save button is displayed
+13:30:41.976 [TestNG-test=Test-1] INFO  Dealership.POM - Save button is clicked
+13:30:52.554 [TestNG-test=Test-1] INFO  Dealership.POM - email is entered in searchbox
+13:31:02.722 [TestNG-test=Test-1] INFO  Dealership.POM - the text is qavendor-18_04_202201_28_35@gmail.com
+13:31:02.790 [TestNG-test=Test-1] INFO  Dealership.POM - User is successfully created
+13:31:02.793 [TestNG-test=Test-1] INFO  Dealership.POM - Test case AddVendor passes successfully
+13:31:08.724 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : AddPart
+13:31:13.604 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:31:15.521 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:31:15.632 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:31:16.401 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:31:52.458 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is displayed
+13:31:52.556 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is clicked
+13:31:52.652 [TestNG-test=Test-1] INFO  Dealership.POM - Part button is displayed
+13:31:52.760 [TestNG-test=Test-1] INFO  Dealership.POM - Part button is clicked
+13:31:57.838 [TestNG-test=Test-1] INFO  Dealership.POM - Part creation window is opened
+13:31:57.921 [TestNG-test=Test-1] INFO  Dealership.POM - Part number field is displayed
+13:31:58.263 [TestNG-test=Test-1] INFO  Dealership.POM - Part number is entered
+13:31:58.318 [TestNG-test=Test-1] INFO  Dealership.POM - Part Description field is displayed
+13:31:58.586 [TestNG-test=Test-1] INFO  Dealership.POM - Part Description is entered
+13:31:58.634 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor_Input field is displayed
+13:32:03.994 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor_Input is entered
+13:32:04.045 [TestNG-test=Test-1] INFO  Dealership.POM - Mfg Part field is displayed
+13:32:04.194 [TestNG-test=Test-1] INFO  Dealership.POM - Mfg Part is entered
+13:32:04.251 [TestNG-test=Test-1] INFO  Dealership.POM - SKU Number field is displayed
+13:32:04.434 [TestNG-test=Test-1] INFO  Dealership.POM - SKU Number is entered
+13:32:04.482 [TestNG-test=Test-1] INFO  Dealership.POM - Category_Input field is displayed
+13:32:11.767 [TestNG-test=Test-1] INFO  Dealership.POM - Category_Input is entered
+13:32:11.813 [TestNG-test=Test-1] INFO  Dealership.POM - Tagsfield is displayed
+13:32:12.002 [TestNG-test=Test-1] INFO  Dealership.POM - Tag is selected
+13:32:12.086 [TestNG-test=Test-1] INFO  Dealership.POM - Qty field is displayed
+13:32:12.237 [TestNG-test=Test-1] INFO  Dealership.POM - Qty is entered
+13:32:12.307 [TestNG-test=Test-1] INFO  Dealership.POM - MSRP field is displayed
+13:32:12.431 [TestNG-test=Test-1] INFO  Dealership.POM - MSRP is entered
+13:32:12.468 [TestNG-test=Test-1] INFO  Dealership.POM - Retail field is displayed
+13:32:12.620 [TestNG-test=Test-1] INFO  Dealership.POM - Retail is entered
+13:32:12.663 [TestNG-test=Test-1] INFO  Dealership.POM - SalePrice field is displayed
+13:32:12.830 [TestNG-test=Test-1] INFO  Dealership.POM - SalePrice is entered
+13:32:12.883 [TestNG-test=Test-1] INFO  Dealership.POM - Environmental Fee field is displayed
+13:32:13.068 [TestNG-test=Test-1] INFO  Dealership.POM - Environmental Fee is entered
+13:32:13.120 [TestNG-test=Test-1] INFO  Dealership.POM - Part Save Button  is displayed
+13:32:13.253 [TestNG-test=Test-1] INFO  Dealership.POM - save button is clicked
+13:32:33.710 [TestNG-test=Test-1] INFO  Dealership.POM - New Part Name is entered in searchbox
+13:32:38.914 [TestNG-test=Test-1] INFO  Dealership.POM - the text is Part-18_04_202201_28_35 - Test Description
+13:32:38.941 [TestNG-test=Test-1] INFO  Dealership.POM - part is successfully created
+13:32:38.943 [TestNG-test=Test-1] INFO  Dealership.POM - Test case AddPart passes successfully
+13:32:44.931 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : AddLabor
+13:32:49.197 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:32:51.761 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:32:51.846 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:32:52.530 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:33:29.119 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is displayed
+13:33:29.230 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is clicked
+13:33:29.316 [TestNG-test=Test-1] INFO  Dealership.POM - Labor button is displayed
+13:33:29.441 [TestNG-test=Test-1] INFO  Dealership.POM - Labor button is clicked
+13:33:34.522 [TestNG-test=Test-1] INFO  Dealership.POM - Labor creation window is opened
+13:33:34.556 [TestNG-test=Test-1] INFO  Dealership.POM - Labor code field is displayed
+13:33:34.852 [TestNG-test=Test-1] INFO  Dealership.POM - labor code is entered
+13:33:34.894 [TestNG-test=Test-1] INFO  Dealership.POM - Description field is displayed
+13:33:35.093 [TestNG-test=Test-1] INFO  Dealership.POM - Description is entered
+13:33:35.158 [TestNG-test=Test-1] INFO  Dealership.POM - Hours field is displayed
+13:33:35.276 [TestNG-test=Test-1] INFO  Dealership.POM - Hours entered
+13:33:35.332 [TestNG-test=Test-1] INFO  Dealership.POM - Rate field is displayed
+13:33:35.495 [TestNG-test=Test-1] INFO  Dealership.POM - Rate entered
+13:33:35.554 [TestNG-test=Test-1] INFO  Dealership.POM - Category_Input field is displayed
+13:33:50.914 [TestNG-test=Test-1] INFO  Dealership.POM - Category_Input entered
+13:33:50.994 [TestNG-test=Test-1] INFO  Dealership.POM - Applicabletax field is displayed
+13:33:51.141 [TestNG-test=Test-1] INFO  Dealership.POM - Applicabletax is entered
+13:33:51.183 [TestNG-test=Test-1] INFO  Dealership.POM - SaveButton is displayed
+13:33:51.282 [TestNG-test=Test-1] INFO  Dealership.POM - SaveButton is clicked
+13:34:01.677 [TestNG-test=Test-1] INFO  Dealership.POM - Labor Name is entered in searchbox
+13:34:06.524 [TestNG-test=Test-1] INFO  Dealership.POM - the text is qalabor-18_04_202201_28_35 - Test Description
+13:34:06.534 [TestNG-test=Test-1] INFO  Dealership.POM - Labor is successfully created
+13:34:06.536 [TestNG-test=Test-1] INFO  Dealership.POM - Test case AddLabor passes successfully
+13:34:12.626 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : AddKit
+13:34:17.494 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:34:19.282 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:34:19.373 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:34:20.055 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:34:57.337 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is displayed
+13:34:57.480 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is clicked
+13:34:57.543 [TestNG-test=Test-1] INFO  Dealership.POM - Kit button is displayed
+13:34:57.668 [TestNG-test=Test-1] INFO  Dealership.POM - Kit button is clicked
+13:35:02.719 [TestNG-test=Test-1] INFO  Dealership.POM - Kit header is displayed
+13:35:02.740 [TestNG-test=Test-1] INFO  Dealership.POM - Kit creation window is opened
+13:35:02.781 [TestNG-test=Test-1] INFO  Dealership.POM - KitCode is displayed
+13:35:03.014 [TestNG-test=Test-1] INFO  Dealership.POM - Kit code is entered
+13:35:03.052 [TestNG-test=Test-1] INFO  Dealership.POM - Description field is displayed
+13:35:03.268 [TestNG-test=Test-1] INFO  Dealership.POM - Kit Description is entered
+13:35:03.308 [TestNG-test=Test-1] INFO  Dealership.POM - Service kit chechbox is displayed
+13:35:03.391 [TestNG-test=Test-1] INFO  Dealership.POM - Service kit chechbox is clicked
+13:35:08.453 [TestNG-test=Test-1] INFO  Dealership.POM - Concern field is displayed
+13:35:08.619 [TestNG-test=Test-1] INFO  Dealership.POM - Concern is filled
+13:35:08.654 [TestNG-test=Test-1] INFO  Dealership.POM - Cause field is displayed
+13:35:08.795 [TestNG-test=Test-1] INFO  Dealership.POM - Cause is filled
+13:35:08.825 [TestNG-test=Test-1] INFO  Dealership.POM - Correction field is displayed
+13:35:08.967 [TestNG-test=Test-1] INFO  Dealership.POM - Correction is filled
+13:35:09.027 [TestNG-test=Test-1] INFO  Dealership.POM - Make field is displayed
+13:35:14.222 [TestNG-test=Test-1] INFO  Dealership.POM - Make is filled
+13:35:14.303 [TestNG-test=Test-1] INFO  Dealership.POM - Model field is displayed
+13:35:19.496 [TestNG-test=Test-1] INFO  Dealership.POM - Model is filled
+13:35:19.553 [TestNG-test=Test-1] INFO  Dealership.POM - SubModel field is displayed
+13:35:24.770 [TestNG-test=Test-1] INFO  Dealership.POM - SubModel is filled
+13:35:29.827 [TestNG-test=Test-1] INFO  Dealership.POM - Save button is displayed
+13:35:29.896 [TestNG-test=Test-1] INFO  Dealership.POM - Save button is clicked
+13:35:40.218 [TestNG-test=Test-1] INFO  Dealership.POM - Kit Name is entered in searchbox
+13:35:45.320 [TestNG-test=Test-1] INFO  Dealership.POM - the text is qakit-18_04_202201_28_35 - Test Description
+13:35:45.333 [TestNG-test=Test-1] INFO  Dealership.POM - Kit is successfully created
+13:35:45.336 [TestNG-test=Test-1] INFO  Dealership.POM - Test case AddKit passes successfully
+13:35:51.259 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : AddFee
+13:35:55.891 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:35:57.657 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:35:57.773 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:35:59.235 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:36:35.016 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is displayed
+13:36:35.129 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is clicked
+13:36:35.186 [TestNG-test=Test-1] INFO  Dealership.POM - Fee button is displayed
+13:36:35.306 [TestNG-test=Test-1] INFO  Dealership.POM - Fee button is clicked
+13:36:40.390 [TestNG-test=Test-1] INFO  Dealership.POM - Fee header is displayed
+13:36:40.414 [TestNG-test=Test-1] INFO  Dealership.POM - Fee creation window is opened
+13:36:40.567 [TestNG-test=Test-1] INFO  Dealership.POM - Fee type is selected
+13:36:40.602 [TestNG-test=Test-1] INFO  Dealership.POM - FeetxtCode field is displayed
+13:36:40.872 [TestNG-test=Test-1] INFO  Dealership.POM - Fee code is entered
+13:36:40.908 [TestNG-test=Test-1] INFO  Dealership.POM - Fee Description field is displayed
+13:36:41.118 [TestNG-test=Test-1] INFO  Dealership.POM - Fee Description is entered
+13:36:41.403 [TestNG-test=Test-1] INFO  Dealership.POM - Fee Price field is displayed
+13:36:41.593 [TestNG-test=Test-1] INFO  Dealership.POM - Fee Price is entered
+13:36:41.634 [TestNG-test=Test-1] INFO  Dealership.POM - CategoryName_Input field is displayed
+13:36:46.950 [TestNG-test=Test-1] INFO  Dealership.POM - CategoryName_List is entered
+13:36:46.986 [TestNG-test=Test-1] INFO  Dealership.POM - Tags field is displayed
+13:36:50.247 [TestNG-test=Test-1] INFO  Dealership.POM - Tag is selected
+13:36:50.383 [TestNG-test=Test-1] INFO  Dealership.POM - Fee is taxable
+13:36:55.617 [TestNG-test=Test-1] INFO  Dealership.POM - Applicable_tax is selected
+13:36:55.757 [TestNG-test=Test-1] INFO  Dealership.POM - Save button is clicked
+13:37:06.052 [TestNG-test=Test-1] INFO  Dealership.POM - Fee Name is entered in searchbox
+13:37:16.142 [TestNG-test=Test-1] INFO  Dealership.POM - the text is qafee-18_04_202201_28_35 - Test Description
+13:37:16.152 [TestNG-test=Test-1] INFO  Dealership.POM - Fee is successfully created
+13:37:16.153 [TestNG-test=Test-1] INFO  Dealership.POM - Test case AddFee passes successfully
+13:37:22.313 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : AddUnit
+13:37:26.812 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:37:28.914 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:37:29.040 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:37:29.744 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:37:59.957 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is displayed
+13:38:00.098 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is clicked
+13:38:00.211 [TestNG-test=Test-1] INFO  Dealership.POM - Stock Unit button is displayed
+13:38:00.379 [TestNG-test=Test-1] INFO  Dealership.POM - Stock Unit button is clicked
+13:38:05.495 [TestNG-test=Test-1] INFO  Dealership.POM - Stock Unit header is displayed
+13:38:05.517 [TestNG-test=Test-1] INFO  Dealership.POM - Stock Unit creation window is opened
+13:38:05.546 [TestNG-test=Test-1] INFO  Dealership.POM - VIN Field Id is displayed
+13:38:07.327 [TestNG-test=Test-1] INFO  Dealership.POM - VIN Field Id is filled
+13:38:12.359 [TestNG-test=Test-1] INFO  Dealership.POM - Make field is displayed
+13:38:12.391 [TestNG-test=Test-1] INFO  Dealership.POM - Model field is displayed
+13:38:12.427 [TestNG-test=Test-1] INFO  Dealership.POM - SubModel field is displayed
+13:38:17.928 [TestNG-test=Test-1] INFO  Dealership.POM - SubModel is filled
+13:38:23.551 [TestNG-test=Test-1] INFO  Dealership.POM - Year is selected
+13:38:23.596 [TestNG-test=Test-1] INFO  Dealership.POM - New_unit flag is displayed
+13:38:23.737 [TestNG-test=Test-1] INFO  Dealership.POM - New_unit flag is on
+13:38:23.794 [TestNG-test=Test-1] INFO  Dealership.POM - Exterior_colour field is displayed
+13:38:24.198 [TestNG-test=Test-1] INFO  Dealership.POM - Exterior_colour is selected
+13:38:24.232 [TestNG-test=Test-1] INFO  Dealership.POM - Stock ID field is displayed
+13:38:24.887 [TestNG-test=Test-1] INFO  Dealership.POM - Stock ID is selected
+13:38:24.925 [TestNG-test=Test-1] INFO  Dealership.POM - Cost field is displayed
+13:38:25.227 [TestNG-test=Test-1] INFO  Dealership.POM - Cost is selected
+13:38:25.262 [TestNG-test=Test-1] INFO  Dealership.POM - Price field is displayed
+13:38:25.630 [TestNG-test=Test-1] INFO  Dealership.POM - Price is selected
+13:38:26.100 [TestNG-test=Test-1] INFO  Dealership.POM - UnitApplicable_tax is selected
+13:38:26.182 [TestNG-test=Test-1] INFO  Dealership.POM - TagInputBox is displayed
+13:38:28.566 [TestNG-test=Test-1] INFO  Dealership.POM - Taginputlist is displayed
+13:38:28.780 [TestNG-test=Test-1] INFO  Dealership.POM - Taginputlist is selected
+13:38:28.846 [TestNG-test=Test-1] INFO  Dealership.POM - Save Button is displayed
+13:38:28.971 [TestNG-test=Test-1] INFO  Dealership.POM - Save Button is selected
+13:38:40.867 [TestNG-test=Test-1] INFO  Dealership.POM - Unit Name is entered in searchbox
+13:38:50.975 [TestNG-test=Test-1] INFO  Dealership.POM - the text is qaunit-18_04_202201_28_35
+13:38:50.985 [TestNG-test=Test-1] INFO  Dealership.POM - Unit is successfully created
+13:38:50.986 [TestNG-test=Test-1] INFO  Dealership.POM - Test case AddUnit passes successfully
+13:38:57.159 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : StoreSummary
+13:39:01.881 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:39:03.893 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:39:03.988 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:39:04.313 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:39:39.536 [TestNG-test=Test-1] INFO  Dealership.POM - Store Summary tab is visible
+13:39:39.569 [TestNG-test=Test-1] INFO  Dealership.POM - Today link is visible
+13:39:39.646 [TestNG-test=Test-1] INFO  Dealership.POM - Today link is clickable
+13:39:39.683 [TestNG-test=Test-1] INFO  Dealership.POM - Last_7_Days link is visible
+13:39:39.750 [TestNG-test=Test-1] INFO  Dealership.POM - Last_7_Days link is clickable
+13:39:39.809 [TestNG-test=Test-1] INFO  Dealership.POM - Last_30_Days link is visible
+13:39:39.905 [TestNG-test=Test-1] INFO  Dealership.POM - Last_30_Days link is clickable
+13:39:39.964 [TestNG-test=Test-1] INFO  Dealership.POM - Invoices link is visible
+13:40:07.684 [TestNG-test=Test-1] INFO  Dealership.POM - The page title is - Advanced Search
+13:40:07.749 [TestNG-test=Test-1] INFO  Dealership.POM - Search tag is visible
+13:40:07.767 [TestNG-test=Test-1] INFO  Dealership.POM - The Invoice link has redirected to correct page
+13:40:10.620 [TestNG-test=Test-1] INFO  Dealership.POM - Payments link is visible
+13:40:16.481 [TestNG-test=Test-1] INFO  Dealership.POM - The page title is - Advanced Search
+13:40:16.520 [TestNG-test=Test-1] INFO  Dealership.POM - Search tag is visible
+13:40:16.542 [TestNG-test=Test-1] INFO  Dealership.POM - The Payments link has redirected to correct page
+13:40:18.561 [TestNG-test=Test-1] INFO  Dealership.POM - New Customers link is visible
+13:40:22.461 [TestNG-test=Test-1] INFO  Dealership.POM - The page title is - Advanced Search
+13:40:32.506 [TestNG-test=Test-1] INFO  Dealership.POM - Search tag is visible
+13:40:32.523 [TestNG-test=Test-1] INFO  Dealership.POM - The New Customers link has redirected to correct page
+13:40:32.525 [TestNG-test=Test-1] INFO  Dealership.POM - Test case StoreSummary passes successfully
+13:40:38.858 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : ServiceJobs
+13:40:43.903 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:40:45.538 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:40:45.615 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:40:45.887 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:41:20.875 [TestNG-test=Test-1] INFO  Dealership.POM - Service Jobs tab is visible
+13:41:20.909 [TestNG-test=Test-1] INFO  Dealership.POM - Customerpay link is visible
+13:41:20.997 [TestNG-test=Test-1] INFO  Dealership.POM - Customerpay link is clickable
+13:41:21.043 [TestNG-test=Test-1] INFO  Dealership.POM - ThirdParty link is visible
+13:41:21.129 [TestNG-test=Test-1] INFO  Dealership.POM - ThirdParty link is clickable
+13:41:21.185 [TestNG-test=Test-1] INFO  Dealership.POM - Internal link is visible
+13:41:21.278 [TestNG-test=Test-1] INFO  Dealership.POM - Internal link is clickable
+13:41:21.334 [TestNG-test=Test-1] INFO  Dealership.POM - Deal link is visible
+13:41:21.452 [TestNG-test=Test-1] INFO  Dealership.POM - Deal link is clickable
+13:41:26.493 [TestNG-test=Test-1] INFO  Dealership.POM - New link is visible
+13:41:37.848 [TestNG-test=Test-1] INFO  Dealership.POM - The page title is - Advanced Search
+13:41:37.903 [TestNG-test=Test-1] INFO  Dealership.POM - Search tag is visible
+13:41:37.922 [TestNG-test=Test-1] INFO  Dealership.POM - The New link has redirected to correct page
+13:41:40.338 [TestNG-test=Test-1] INFO  Dealership.POM - Active link is visible
+13:42:18.225 [main] INFO  Dealership.POM - Running Test : AddCustomer
+13:42:27.626 [main] INFO  Dealership.POM - Windows maximized
+13:42:29.416 [main] INFO  Dealership.POM - URL entered
+13:42:29.562 [main] INFO  Dealership.POM - Username field is visible
+13:42:30.387 [main] INFO  Dealership.POM - Password field is visible
+13:43:06.509 [main] INFO  Dealership.POM - Addnew button is displayed
+13:43:06.587 [main] INFO  Dealership.POM - Addnew button is clicked
+13:43:06.718 [main] INFO  Dealership.POM - Customer button is displayed
+13:43:06.814 [main] INFO  Dealership.POM - Customer button is clicked
+13:43:16.914 [main] INFO  Dealership.POM - Customer creation window is opened
+13:43:16.983 [main] INFO  Dealership.POM - Firstname field is visible
+13:43:17.251 [main] INFO  Dealership.POM - Firstname  is filled
+13:43:17.331 [main] INFO  Dealership.POM - Lastname field is visible
+13:43:17.521 [main] INFO  Dealership.POM - Lastname  is filled
+13:43:17.600 [main] INFO  Dealership.POM - Account type field is visible
+13:43:17.670 [main] INFO  Dealership.POM - Account type  is clicked
+13:43:17.835 [main] INFO  Dealership.POM - Account type  is selected
+13:43:17.931 [main] INFO  Dealership.POM - Email field is visible
+13:43:18.223 [main] INFO  Dealership.POM - Email  is filled
+13:43:18.303 [main] INFO  Dealership.POM - Mobilenumber field is visible
+13:43:18.456 [main] INFO  Dealership.POM - Mobilenumber  is filled
+13:43:18.559 [main] INFO  Dealership.POM - Address field is visible
+13:43:18.939 [main] INFO  Dealership.POM - Address  is filled
+13:43:19.031 [main] INFO  Dealership.POM - Country field is visible
+13:43:19.103 [main] INFO  Dealership.POM - Country is clicked
+13:43:19.215 [main] INFO  Dealership.POM - Country Name is selected
+13:43:19.388 [main] INFO  Dealership.POM - City Name is selected
+13:43:19.520 [main] INFO  Dealership.POM - Postcode is selected
+13:43:19.623 [main] INFO  Dealership.POM - Create button is clicked
+13:43:30.247 [main] INFO  Dealership.POM - email is entered in seachbox
+13:43:40.387 [main] INFO  Dealership.POM - the text is sparsh-18_04_202201_42_17@test.com
+13:43:40.400 [main] INFO  Dealership.POM - User is successfully created
+13:43:40.407 [main] INFO  Dealership.POM - Test case AddCustomer passes successfully
+13:48:26.216 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : AddCustomer
+13:48:35.846 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:48:38.274 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:48:38.417 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:48:38.663 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:49:17.522 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is displayed
+13:49:17.685 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is clicked
+13:49:17.869 [TestNG-test=Test-1] INFO  Dealership.POM - Customer button is displayed
+13:49:18.138 [TestNG-test=Test-1] INFO  Dealership.POM - Customer button is clicked
+13:49:28.278 [TestNG-test=Test-1] INFO  Dealership.POM - Customer creation window is opened
+13:49:28.372 [TestNG-test=Test-1] INFO  Dealership.POM - Firstname field is visible
+13:49:28.720 [TestNG-test=Test-1] INFO  Dealership.POM - Firstname  is filled
+13:49:28.896 [TestNG-test=Test-1] INFO  Dealership.POM - Lastname field is visible
+13:49:29.261 [TestNG-test=Test-1] INFO  Dealership.POM - Lastname  is filled
+13:49:29.384 [TestNG-test=Test-1] INFO  Dealership.POM - Account type field is visible
+13:49:29.483 [TestNG-test=Test-1] INFO  Dealership.POM - Account type  is clicked
+13:49:29.789 [TestNG-test=Test-1] INFO  Dealership.POM - Account type  is selected
+13:49:29.936 [TestNG-test=Test-1] INFO  Dealership.POM - Email field is visible
+13:49:30.420 [TestNG-test=Test-1] INFO  Dealership.POM - Email  is filled
+13:49:30.520 [TestNG-test=Test-1] INFO  Dealership.POM - Mobilenumber field is visible
+13:49:30.710 [TestNG-test=Test-1] INFO  Dealership.POM - Mobilenumber  is filled
+13:49:30.850 [TestNG-test=Test-1] INFO  Dealership.POM - Address field is visible
+13:49:31.325 [TestNG-test=Test-1] INFO  Dealership.POM - Address  is filled
+13:49:31.643 [TestNG-test=Test-1] INFO  Dealership.POM - Country field is visible
+13:49:31.940 [TestNG-test=Test-1] INFO  Dealership.POM - Country is clicked
+13:49:32.218 [TestNG-test=Test-1] INFO  Dealership.POM - Country Name is selected
+13:49:32.556 [TestNG-test=Test-1] INFO  Dealership.POM - City Name is selected
+13:49:32.819 [TestNG-test=Test-1] INFO  Dealership.POM - Postcode is selected
+13:49:33.036 [TestNG-test=Test-1] INFO  Dealership.POM - Create button is clicked
+13:49:43.750 [TestNG-test=Test-1] INFO  Dealership.POM - email is entered in seachbox
+13:49:53.919 [TestNG-test=Test-1] INFO  Dealership.POM - the text is sparsh-18_04_202201_48_25@test.com
+13:49:53.938 [TestNG-test=Test-1] INFO  Dealership.POM - User is successfully created
+13:49:53.945 [TestNG-test=Test-1] INFO  Dealership.POM - Test case AddCustomer passes successfully
+13:50:00.293 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : AddVendor
+13:50:04.810 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:50:06.825 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:50:06.957 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:50:07.245 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:50:37.371 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is displayed
+13:50:37.736 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is clicked
+13:50:37.818 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor button is displayed
+13:50:37.966 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor button is clicked
+13:50:40.751 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor creation window is opened
+13:50:41.391 [TestNG-test=Test-1] INFO  Dealership.POM - Company name is entered
+13:50:42.623 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor Account Number is entered
+13:50:43.101 [TestNG-test=Test-1] INFO  Dealership.POM - Work Email is entered
+13:50:43.149 [TestNG-test=Test-1] INFO  Dealership.POM - Phone number field is visible
+13:50:43.387 [TestNG-test=Test-1] INFO  Dealership.POM - Phone number  is filled
+13:50:43.487 [TestNG-test=Test-1] INFO  Dealership.POM - Billingaddress field is visible
+13:50:44.016 [TestNG-test=Test-1] INFO  Dealership.POM - Billingaddress  is filled
+13:50:44.301 [TestNG-test=Test-1] INFO  Dealership.POM - City Name is selected
+13:50:44.656 [TestNG-test=Test-1] INFO  Dealership.POM - Billing State is selected
+13:50:45.031 [TestNG-test=Test-1] INFO  Dealership.POM - Billing Country is selected
+13:50:45.296 [TestNG-test=Test-1] INFO  Dealership.POM - Postcode is selected
+13:50:45.576 [TestNG-test=Test-1] INFO  Dealership.POM - PurchaseTaxLevel is selected
+13:50:45.879 [TestNG-test=Test-1] INFO  Dealership.POM - VendorAccountTypeIcon is selected
+13:50:45.945 [TestNG-test=Test-1] INFO  Dealership.POM - Save button is displayed
+13:50:46.046 [TestNG-test=Test-1] INFO  Dealership.POM - Save button is clicked
+13:50:56.501 [TestNG-test=Test-1] INFO  Dealership.POM - email is entered in searchbox
+13:51:06.669 [TestNG-test=Test-1] INFO  Dealership.POM - the text is qavendor-18_04_202201_48_25@gmail.com
+13:51:06.685 [TestNG-test=Test-1] INFO  Dealership.POM - User is successfully created
+13:51:06.688 [TestNG-test=Test-1] INFO  Dealership.POM - Test case AddVendor passes successfully
+13:51:12.743 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : AddPart
+13:51:17.919 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:51:22.532 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:51:22.628 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:51:22.827 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:52:13.362 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is displayed
+13:52:13.498 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is clicked
+13:52:13.613 [TestNG-test=Test-1] INFO  Dealership.POM - Part button is displayed
+13:52:13.765 [TestNG-test=Test-1] INFO  Dealership.POM - Part button is clicked
+13:52:18.910 [TestNG-test=Test-1] INFO  Dealership.POM - Part creation window is opened
+13:52:19.016 [TestNG-test=Test-1] INFO  Dealership.POM - Part number field is displayed
+13:52:19.464 [TestNG-test=Test-1] INFO  Dealership.POM - Part number is entered
+13:52:19.519 [TestNG-test=Test-1] INFO  Dealership.POM - Part Description field is displayed
+13:52:19.808 [TestNG-test=Test-1] INFO  Dealership.POM - Part Description is entered
+13:52:19.868 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor_Input field is displayed
+13:52:25.298 [TestNG-test=Test-1] INFO  Dealership.POM - Vendor_Input is entered
+13:52:25.346 [TestNG-test=Test-1] INFO  Dealership.POM - Mfg Part field is displayed
+13:52:25.527 [TestNG-test=Test-1] INFO  Dealership.POM - Mfg Part is entered
+13:52:25.574 [TestNG-test=Test-1] INFO  Dealership.POM - SKU Number field is displayed
+13:52:25.775 [TestNG-test=Test-1] INFO  Dealership.POM - SKU Number is entered
+13:52:25.828 [TestNG-test=Test-1] INFO  Dealership.POM - Category_Input field is displayed
+13:52:33.255 [TestNG-test=Test-1] INFO  Dealership.POM - Category_Input is entered
+13:52:33.303 [TestNG-test=Test-1] INFO  Dealership.POM - Tagsfield is displayed
+13:52:33.548 [TestNG-test=Test-1] INFO  Dealership.POM - Tag is selected
+13:52:33.625 [TestNG-test=Test-1] INFO  Dealership.POM - Qty field is displayed
+13:52:33.753 [TestNG-test=Test-1] INFO  Dealership.POM - Qty is entered
+13:52:33.812 [TestNG-test=Test-1] INFO  Dealership.POM - MSRP field is displayed
+13:52:33.978 [TestNG-test=Test-1] INFO  Dealership.POM - MSRP is entered
+13:52:34.029 [TestNG-test=Test-1] INFO  Dealership.POM - Retail field is displayed
+13:52:34.239 [TestNG-test=Test-1] INFO  Dealership.POM - Retail is entered
+13:52:34.291 [TestNG-test=Test-1] INFO  Dealership.POM - SalePrice field is displayed
+13:52:34.452 [TestNG-test=Test-1] INFO  Dealership.POM - SalePrice is entered
+13:52:34.507 [TestNG-test=Test-1] INFO  Dealership.POM - Environmental Fee field is displayed
+13:52:34.680 [TestNG-test=Test-1] INFO  Dealership.POM - Environmental Fee is entered
+13:52:34.760 [TestNG-test=Test-1] INFO  Dealership.POM - Part Save Button  is displayed
+13:52:34.885 [TestNG-test=Test-1] INFO  Dealership.POM - save button is clicked
+13:52:55.439 [TestNG-test=Test-1] INFO  Dealership.POM - New Part Name is entered in searchbox
+13:53:00.588 [TestNG-test=Test-1] INFO  Dealership.POM - the text is Part-18_04_202201_48_25 - Test Description
+13:53:00.609 [TestNG-test=Test-1] INFO  Dealership.POM - part is successfully created
+13:53:00.611 [TestNG-test=Test-1] INFO  Dealership.POM - Test case AddPart passes successfully
+13:53:06.635 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : AddLabor
+13:53:11.026 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:53:13.726 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:53:13.787 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:53:13.998 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:53:49.003 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is displayed
+13:53:49.126 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is clicked
+13:53:49.182 [TestNG-test=Test-1] INFO  Dealership.POM - Labor button is displayed
+13:53:49.315 [TestNG-test=Test-1] INFO  Dealership.POM - Labor button is clicked
+13:53:54.393 [TestNG-test=Test-1] INFO  Dealership.POM - Labor creation window is opened
+13:53:54.442 [TestNG-test=Test-1] INFO  Dealership.POM - Labor code field is displayed
+13:53:54.755 [TestNG-test=Test-1] INFO  Dealership.POM - labor code is entered
+13:53:54.813 [TestNG-test=Test-1] INFO  Dealership.POM - Description field is displayed
+13:53:55.019 [TestNG-test=Test-1] INFO  Dealership.POM - Description is entered
+13:53:55.088 [TestNG-test=Test-1] INFO  Dealership.POM - Hours field is displayed
+13:53:55.191 [TestNG-test=Test-1] INFO  Dealership.POM - Hours entered
+13:53:55.239 [TestNG-test=Test-1] INFO  Dealership.POM - Rate field is displayed
+13:53:55.404 [TestNG-test=Test-1] INFO  Dealership.POM - Rate entered
+13:53:55.498 [TestNG-test=Test-1] INFO  Dealership.POM - Category_Input field is displayed
+13:54:10.936 [TestNG-test=Test-1] INFO  Dealership.POM - Category_Input entered
+13:54:10.978 [TestNG-test=Test-1] INFO  Dealership.POM - Applicabletax field is displayed
+13:54:11.153 [TestNG-test=Test-1] INFO  Dealership.POM - Applicabletax is entered
+13:54:11.199 [TestNG-test=Test-1] INFO  Dealership.POM - SaveButton is displayed
+13:54:11.276 [TestNG-test=Test-1] INFO  Dealership.POM - SaveButton is clicked
+13:54:21.630 [TestNG-test=Test-1] INFO  Dealership.POM - Labor Name is entered in searchbox
+13:54:25.930 [TestNG-test=Test-1] INFO  Dealership.POM - the text is qalabor-18_04_202201_48_25 - Test Description
+13:54:25.943 [TestNG-test=Test-1] INFO  Dealership.POM - Labor is successfully created
+13:54:25.945 [TestNG-test=Test-1] INFO  Dealership.POM - Test case AddLabor passes successfully
+13:54:31.927 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : AddKit
+13:54:36.628 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:54:42.037 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:54:42.096 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:54:42.352 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:55:19.727 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is displayed
+13:55:19.852 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is clicked
+13:55:19.906 [TestNG-test=Test-1] INFO  Dealership.POM - Kit button is displayed
+13:55:20.061 [TestNG-test=Test-1] INFO  Dealership.POM - Kit button is clicked
+13:55:25.161 [TestNG-test=Test-1] INFO  Dealership.POM - Kit header is displayed
+13:55:25.198 [TestNG-test=Test-1] INFO  Dealership.POM - Kit creation window is opened
+13:55:25.246 [TestNG-test=Test-1] INFO  Dealership.POM - KitCode is displayed
+13:55:25.724 [TestNG-test=Test-1] INFO  Dealership.POM - Kit code is entered
+13:55:25.801 [TestNG-test=Test-1] INFO  Dealership.POM - Description field is displayed
+13:55:26.108 [TestNG-test=Test-1] INFO  Dealership.POM - Kit Description is entered
+13:55:26.155 [TestNG-test=Test-1] INFO  Dealership.POM - Service kit chechbox is displayed
+13:55:26.325 [TestNG-test=Test-1] INFO  Dealership.POM - Service kit chechbox is clicked
+13:55:31.511 [TestNG-test=Test-1] INFO  Dealership.POM - Concern field is displayed
+13:55:31.942 [TestNG-test=Test-1] INFO  Dealership.POM - Concern is filled
+13:55:31.985 [TestNG-test=Test-1] INFO  Dealership.POM - Cause field is displayed
+13:55:32.198 [TestNG-test=Test-1] INFO  Dealership.POM - Cause is filled
+13:55:32.245 [TestNG-test=Test-1] INFO  Dealership.POM - Correction field is displayed
+13:55:32.514 [TestNG-test=Test-1] INFO  Dealership.POM - Correction is filled
+13:55:32.559 [TestNG-test=Test-1] INFO  Dealership.POM - Make field is displayed
+13:55:37.852 [TestNG-test=Test-1] INFO  Dealership.POM - Make is filled
+13:55:37.953 [TestNG-test=Test-1] INFO  Dealership.POM - Model field is displayed
+13:55:43.183 [TestNG-test=Test-1] INFO  Dealership.POM - Model is filled
+13:55:43.470 [TestNG-test=Test-1] INFO  Dealership.POM - SubModel field is displayed
+13:55:48.686 [TestNG-test=Test-1] INFO  Dealership.POM - SubModel is filled
+13:55:53.765 [TestNG-test=Test-1] INFO  Dealership.POM - Save button is displayed
+13:55:53.859 [TestNG-test=Test-1] INFO  Dealership.POM - Save button is clicked
+13:56:04.203 [TestNG-test=Test-1] INFO  Dealership.POM - Kit Name is entered in searchbox
+13:56:09.323 [TestNG-test=Test-1] INFO  Dealership.POM - the text is qakit-18_04_202201_48_25 - Test Description
+13:56:09.334 [TestNG-test=Test-1] INFO  Dealership.POM - Kit is successfully created
+13:56:09.336 [TestNG-test=Test-1] INFO  Dealership.POM - Test case AddKit passes successfully
+13:56:15.287 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : AddFee
+13:56:20.283 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:56:22.218 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:56:22.265 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:56:22.946 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:56:59.244 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is displayed
+13:56:59.402 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is clicked
+13:56:59.468 [TestNG-test=Test-1] INFO  Dealership.POM - Fee button is displayed
+13:56:59.616 [TestNG-test=Test-1] INFO  Dealership.POM - Fee button is clicked
+13:57:04.730 [TestNG-test=Test-1] INFO  Dealership.POM - Fee header is displayed
+13:57:04.762 [TestNG-test=Test-1] INFO  Dealership.POM - Fee creation window is opened
+13:57:04.987 [TestNG-test=Test-1] INFO  Dealership.POM - Fee type is selected
+13:57:05.027 [TestNG-test=Test-1] INFO  Dealership.POM - FeetxtCode field is displayed
+13:57:05.318 [TestNG-test=Test-1] INFO  Dealership.POM - Fee code is entered
+13:57:05.356 [TestNG-test=Test-1] INFO  Dealership.POM - Fee Description field is displayed
+13:57:05.612 [TestNG-test=Test-1] INFO  Dealership.POM - Fee Description is entered
+13:57:05.652 [TestNG-test=Test-1] INFO  Dealership.POM - Fee Price field is displayed
+13:57:05.828 [TestNG-test=Test-1] INFO  Dealership.POM - Fee Price is entered
+13:57:05.862 [TestNG-test=Test-1] INFO  Dealership.POM - CategoryName_Input field is displayed
+13:57:11.158 [TestNG-test=Test-1] INFO  Dealership.POM - CategoryName_List is entered
+13:57:11.210 [TestNG-test=Test-1] INFO  Dealership.POM - Tags field is displayed
+13:57:14.439 [TestNG-test=Test-1] INFO  Dealership.POM - Tag is selected
+13:57:14.584 [TestNG-test=Test-1] INFO  Dealership.POM - Fee is taxable
+13:57:19.809 [TestNG-test=Test-1] INFO  Dealership.POM - Applicable_tax is selected
+13:57:19.999 [TestNG-test=Test-1] INFO  Dealership.POM - Save button is clicked
+13:57:30.429 [TestNG-test=Test-1] INFO  Dealership.POM - Fee Name is entered in searchbox
+13:57:40.534 [TestNG-test=Test-1] INFO  Dealership.POM - the text is qafee-18_04_202201_48_25 - Test Description
+13:57:40.548 [TestNG-test=Test-1] INFO  Dealership.POM - Fee is successfully created
+13:57:40.550 [TestNG-test=Test-1] INFO  Dealership.POM - Test case AddFee passes successfully
+13:57:46.602 [TestNG-test=Test-1] INFO  Dealership.POM - Running Test : AddUnit
+13:57:51.664 [TestNG-test=Test-1] INFO  Dealership.POM - Windows maximized
+13:57:57.872 [TestNG-test=Test-1] INFO  Dealership.POM - URL entered
+13:57:57.931 [TestNG-test=Test-1] INFO  Dealership.POM - Username field is visible
+13:57:58.146 [TestNG-test=Test-1] INFO  Dealership.POM - Password field is visible
+13:58:34.909 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is displayed
+13:58:35.010 [TestNG-test=Test-1] INFO  Dealership.POM - Addnew button is clicked
+13:58:35.062 [TestNG-test=Test-1] INFO  Dealership.POM - Stock Unit button is displayed
+13:58:35.173 [TestNG-test=Test-1] INFO  Dealership.POM - Stock Unit button is clicked
+13:58:40.330 [TestNG-test=Test-1] INFO  Dealership.POM - Stock Unit header is displayed
+13:58:40.355 [TestNG-test=Test-1] INFO  Dealership.POM - Stock Unit creation window is opened
+13:58:40.392 [TestNG-test=Test-1] INFO  Dealership.POM - VIN Field Id is displayed
+13:58:41.696 [TestNG-test=Test-1] INFO  Dealership.POM - VIN Field Id is filled
+13:58:46.757 [TestNG-test=Test-1] INFO  Dealership.POM - Make field is displayed
+13:58:46.794 [TestNG-test=Test-1] INFO  Dealership.POM - Model field is displayed
+13:58:46.831 [TestNG-test=Test-1] INFO  Dealership.POM - SubModel field is displayed
+13:58:52.257 [TestNG-test=Test-1] INFO  Dealership.POM - SubModel is filled
+13:58:57.811 [TestNG-test=Test-1] INFO  Dealership.POM - Year is selected
+13:58:57.854 [TestNG-test=Test-1] INFO  Dealership.POM - New_unit flag is displayed
+13:58:58.052 [TestNG-test=Test-1] INFO  Dealership.POM - New_unit flag is on
+13:58:58.133 [TestNG-test=Test-1] INFO  Dealership.POM - Exterior_colour field is displayed
+13:58:58.437 [TestNG-test=Test-1] INFO  Dealership.POM - Exterior_colour is selected
+13:58:58.482 [TestNG-test=Test-1] INFO  Dealership.POM - Stock ID field is displayed
+13:58:59.232 [TestNG-test=Test-1] INFO  Dealership.POM - Stock ID is selected
+13:58:59.276 [TestNG-test=Test-1] INFO  Dealership.POM - Cost field is displayed
+13:58:59.561 [TestNG-test=Test-1] INFO  Dealership.POM - Cost is selected
