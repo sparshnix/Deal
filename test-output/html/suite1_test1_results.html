@@ -12,7 +12,7 @@
 <body>
 <h1>Default test</h1>
 <p>
-  Test duration: 81.870s
+  Test duration: 205.496s
 </p>
 
 
@@ -20,52 +20,37 @@
   <table class="resultsTable">
     <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">Dealership.CustomerOrder</td>
+        <td colspan="3" class="group">Dealership.Schedule</td>
       </tr>
             
 <tr>
   <td class="method">
-                  UnitDeal
+                  CreateEditDeleteAppointment
       </td>
   <td class="duration">
-    81.870s
+    205.496s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\UnitDeal - 18_04_2022 17_07_13 screenshot.png">Screenshot</a>
-                                Test Failed - screenshot captured for Method : UnitDeal
+                        <a title="Automation Testing" href="C:\Users\Sparsh\eclipse-workspace\Deal\\Screenshots\CreateEditDeleteAppointment - 19_04_2022 11_03_38 screenshot.png">Screenshot</a>
+                                Test Failed - screenshot captured for Method : CreateEditDeleteAppointment
                                 Status of execution : 2
                   </div>
     
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;customerorder_V2&quot;]/div[2]/div/div/div[3]/div&quot;}<br/>
-&nbsp; (Session info: chrome=100.0.4896.88)<br/>
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element<br/>
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[contains(text(),&apos;Confirm&apos;)] (tried for 100 second(s) with 500 milliseconds interval)<br/>
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;<br/>
 System info: host: &apos;SPARSH-SHRIVAST&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;<br/>
 Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Command: [ec9a355b3cc64b3147cf6e5d85cac144, findElement {using=xpath, value=//*[@id=&quot;customerorder_V2&quot;]/div[2]/div/div/div[3]/div}]<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52889/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
-Session ID: ec9a355b3cc64b3147cf6e5d85cac144</b></a><br />
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Sparsh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57328/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 2f738472e73c65637b0925730ce3d911</b></a><br />
     <div class="stackTrace" id="exception-0">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)<br />
-              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)<br />
-              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)<br />
-              Dealership.CustomerOrder.UnitDeal(CustomerOrder.java:509)<br />
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)<br />
+              Dealership.POM.CreateAppointment(POM.java:811)<br />
+              Dealership.Schedule.CreateEditDeleteAppointment(Schedule.java:70)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
