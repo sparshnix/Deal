@@ -149,10 +149,7 @@ public class DeleteCustomerOnCO extends POM {
 		{
 			driver.findElement(By.id("cashDrawer")).click();
 			driver.findElement(By.id("cashDrawerDropdownDiv")).click();
-			driver.findElement(By.id("terminal")).click();
-			driver.findElement(By.id("terminalDropdownDiv")).click();
 			driver.findElement(By.xpath(selectdrawerbutton)).click();
-			Checkout_Button.click();
 			Thread.sleep(10000);
 		}
 		
@@ -177,7 +174,6 @@ public class DeleteCustomerOnCO extends POM {
 		Thread.sleep(10000);
 		
 		WebElement InvoiceWindow = driver.findElement(By.xpath(invoicewindow));
-		
 		Assert.assertTrue(InvoiceWindow.isDisplayed(), "Invoice Window is missing");
 		log.info("Invoice Window is visible");
 		
@@ -196,7 +192,6 @@ public class DeleteCustomerOnCO extends POM {
 		Thread.sleep(10000);
 		
 		WebElement COStatus = driver.findElement(By.xpath(costatus));
-		
 		Assert.assertTrue(COStatus.isDisplayed(), "CO Status is missing");
 		log.info("CO Status is visible");
 		COStatus.getText();
@@ -283,10 +278,7 @@ public class DeleteCustomerOnCO extends POM {
 		{
 			driver.findElement(By.id("cashDrawer")).click();
 			driver.findElement(By.id("cashDrawerDropdownDiv")).click();
-			driver.findElement(By.id("terminal")).click();
-			driver.findElement(By.id("terminalDropdownDiv")).click();
 			driver.findElement(By.xpath(selectdrawerbutton)).click();
-			Checkout_Button.click();
 			Thread.sleep(10000);
 		}
 

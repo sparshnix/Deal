@@ -756,12 +756,13 @@ public class POM extends Variables {
 		DateDueIn.click();
 		log.info("DateDueIn is selected");
 		
-		
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(datePromisedField)));
 		WebElement DatePromisedField = driver.findElement(By.xpath(datePromisedField));
 		Assert.assertTrue(DatePromisedField.isDisplayed(), "DatePromisedField is missing");
 		log.info("DatePromisedField is visible");
 		DatePromisedField.click();
+		
+		
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tr/td/a")));
 		WebElement DatePromised = driver.findElement(By.xpath("//tr/td/a[contains(text(), "+TodaysDateInt+")]"));
 		Assert.assertTrue(DatePromised.isDisplayed(), "DatePromised is missing");
@@ -791,6 +792,7 @@ public class POM extends Variables {
 		Assert.assertTrue(Assign_tech_input_Field.isDisplayed(), "Assign_tech_input_Field is missing");
 		log.info("Assign_tech_input_Field is visible");
 		Assign_tech_input_Field.click();
+		Thread.sleep(3000);
 		
 		List<WebElement> Assign_tech_inputs = driver.findElements(By.xpath(assign_tech_inputs));
 		Iterator<WebElement> it = Assign_tech_inputs.iterator();
